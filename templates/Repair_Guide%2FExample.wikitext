@@ -8,7 +8,7 @@ permalink:    https://repair.wiki/index.php?oldid=12170
 last_edited:  2025-09-28T15:58:43Z
 contributors: Admin, ASRepairs, DiogenesElPERRO
 anonymous_edits: 0
-categories:   Repair guide, Stubs
+categories:   
 sha1:         50d0ab7171ab253156dffade551dd474c4150e1b
 licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
 attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
