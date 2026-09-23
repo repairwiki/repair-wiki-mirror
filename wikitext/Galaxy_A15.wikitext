@@ -1,0 +1,43 @@
+<!--
+title:        Galaxy A15
+pageid:       9115
+revid:        13220
+source:       https://repair.wiki/w/Galaxy_A15
+history:      https://repair.wiki/index.php?title=Galaxy_A15&action=history
+permalink:    https://repair.wiki/index.php?oldid=13220
+last_edited:  2025-12-13T22:20:03Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         8fb81381032008a35883ad01615713c1b6842363
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Samsung|Device release date=16/12/2023|Device type=Phone|Has code name=SM-A155}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Galaxy A15.jpg|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Galaxy A15 4G USB-C Diode Values.jpg|Know Good Values of USB-C Port
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

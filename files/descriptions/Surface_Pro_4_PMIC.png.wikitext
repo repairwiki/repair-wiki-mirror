@@ -1,0 +1,18 @@
+<!--
+title:        File:Surface Pro 4 PMIC.png
+pageid:       4160
+revid:        7135
+source:       https://repair.wiki/w/File:Surface_Pro_4_PMIC.png
+history:      https://repair.wiki/index.php?title=File:Surface_Pro_4_PMIC.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7135
+last_edited:  2025-05-27T21:07:45Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         de0d3102a0ce36848afaa82dc64885619eac8626
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Surface Pro 4 PMIC

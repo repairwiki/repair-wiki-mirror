@@ -1,0 +1,18 @@
+<!--
+title:        File:Low light.png
+pageid:       5724
+revid:        9019
+source:       https://repair.wiki/w/File:Low_light.png
+history:      https://repair.wiki/index.php?title=File:Low_light.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9019
+last_edited:  2025-07-26T00:54:30Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         051c16ace411d9288382bb2cc46d89e7a718b9e4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+No Light, only graphics

@@ -1,0 +1,51 @@
+<!--
+title:        MacBook Pro A2289 not turning on, 20V at 0A
+pageid:       2795
+revid:        5460
+source:       https://repair.wiki/w/MacBook_Pro_A2289_not_turning_on,_20V_at_0A
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2289_not_turning_on,_20V_at_0A&action=history
+permalink:    https://repair.wiki/index.php?oldid=5460
+last_edited:  2025-01-08T13:34:51Z
+contributors: Reformatt
+anonymous_edits: 0
+categories:   Missing device page, Repair guide, Repair guides for Macbook Pro A2289, Stubs
+sha1:         3ad78577d3210b0d53b3cf51b7f0a456d007dc9f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Macbook Pro A2289
+|Affects parts=Motherboard
+|Needs equipment=
+|Type=Soldering
+|Difficulty=Hard
+}}
+== Problem description ==
+<!-- 
+Dead
+ -->
+
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Negotiates to 20V, but draws no current with or without battery.  
+-->
+* Symptom 1 (Figure 1)
+* Symptom 2
+
+== Solution ==
+<!-- 
+PP1V8_AWAKE shorted to ground due to liquid damage around C4522, C4526, C4523, C4535. Note C4526 is a 9.1uF feed through capacitor (Murata NFM15PC915D0E3D if you need to order). Commonly used cap on boards like 820-1700. Also replaced C4411 on the PP0V9_SLPDDR next to it; this rail measures pretty low at 35 ohms and is normal. May vary depending on board temp. Careful in this area as the T2 is on the opposite side of the board. I used low melt and an iron to get these caps off rather than stress the board too much. 
+
+-->
+
+
+
+=== Diagnostic Steps ===
+
+
+=== Repair Steps ===

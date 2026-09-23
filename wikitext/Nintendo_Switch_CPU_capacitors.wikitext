@@ -1,0 +1,33 @@
+<!--
+title:        Nintendo Switch CPU capacitors
+pageid:       883
+revid:        2184
+source:       https://repair.wiki/w/Nintendo_Switch_CPU_capacitors
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_CPU_capacitors&action=history
+permalink:    https://repair.wiki/index.php?oldid=2184
+last_edited:  2024-01-13T14:19:18Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for Nintendo Switch
+sha1:         d32cd8c91f5df6899484441c7ffed79d3a05212e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=Nintendo Switch
+|Type=Circuit
+|Difficulty=1. Easy
+}}
+The Nintendo Switch motherboard has some capacitors commonly referred to as "CPU capacitors" which when shorted are (or can be) an indicator that the CPU itself is dead.
+
+== HAC-001 and HAC-001(-01) ==
+
+=== M92T36 ===
+M92T36 has a capacitor next to it which when shorted is very commonly associated with a dead CPU.
+[[File:300px-M92T36 CPU Capacitor.png|alt=M92T36 CPU Capacitor|center|thumb|M92T36 CPU Capacitor]]
+
+=== SOT-323-6 IC near MAX17050 ===
+This IC has a capacitor next to it which when shorted can indicate a dead CPU
+[[File:450px-CPU capacitor next to the SOT-323 IC near MAX17050.jpg|alt=CPU capacitor next to the SOT-323-6 IC near MAX17050|center|thumb|CPU capacitor next to the SOT-323-6 IC near MAX17050]]

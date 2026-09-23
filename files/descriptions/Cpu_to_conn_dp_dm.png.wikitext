@@ -1,0 +1,18 @@
+<!--
+title:        File:Cpu to conn dp dm.png
+pageid:       7093
+revid:        10609
+source:       https://repair.wiki/w/File:Cpu_to_conn_dp_dm.png
+history:      https://repair.wiki/index.php?title=File:Cpu_to_conn_dp_dm.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10609
+last_edited:  2025-08-24T12:57:19Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         67c8d7ee69fc9e0a07a2d41d146b0f216b3e61ae
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Cpu to conn dp dm

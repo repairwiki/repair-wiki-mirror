@@ -1,0 +1,18 @@
+<!--
+title:        File:A2588PowerButtonFPCDiode.jpg
+pageid:       1585
+revid:        3446
+source:       https://repair.wiki/w/File:A2588PowerButtonFPCDiode.jpg
+history:      https://repair.wiki/index.php?title=File:A2588PowerButtonFPCDiode.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3446
+last_edited:  2024-02-22T06:51:40Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         2c5772e6e7477c976963795800b1297190f9d5ee
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Air 5 - #6 Power button connector (next to rear camera)

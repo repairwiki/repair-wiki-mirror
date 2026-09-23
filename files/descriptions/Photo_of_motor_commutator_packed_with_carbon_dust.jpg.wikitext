@@ -1,0 +1,18 @@
+<!--
+title:        File:Photo of motor commutator packed with carbon dust.jpg
+pageid:       9665
+revid:        13970
+source:       https://repair.wiki/w/File:Photo_of_motor_commutator_packed_with_carbon_dust.jpg
+history:      https://repair.wiki/index.php?title=File:Photo_of_motor_commutator_packed_with_carbon_dust.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13970
+last_edited:  2026-02-17T10:51:12Z
+contributors: Davegsm82
+anonymous_edits: 0
+categories:   
+sha1:         f3ea2dcb8605a2f3aa62ac99ebe5414b16f5543f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Dust is visible in the sections between the commutator segments.

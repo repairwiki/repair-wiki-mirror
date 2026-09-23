@@ -1,0 +1,18 @@
+<!--
+title:        File:BWE-UART-Pinout.jpg
+pageid:       1076
+revid:        2486
+source:       https://repair.wiki/w/File:BWE-UART-Pinout.jpg
+history:      https://repair.wiki/index.php?title=File:BWE-UART-Pinout.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2486
+last_edited:  2024-01-14T14:06:39Z
+contributors: Rara64
+anonymous_edits: 0
+categories:   
+sha1:         4013bfaa8a1dae6e0590059a683af80e86724ee2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+UART Pinout for Playstation 4 Fat/Pro/Slim by BetterWayElectronics

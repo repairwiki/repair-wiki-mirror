@@ -1,0 +1,22 @@
+<!--
+title:        Template:FullWidthButton
+pageid:       1225
+revid:        2775
+source:       https://repair.wiki/w/Template:FullWidthButton
+history:      https://repair.wiki/index.php?title=Template:FullWidthButton&action=history
+permalink:    https://repair.wiki/index.php?oldid=2775
+last_edited:  2024-01-16T19:23:26Z
+contributors: Admin
+anonymous_edits: 0
+categories:   
+sha1:         43480eb9324c68859367f33ff823aa0f1d796346
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<span class="mw-ui-button {{#switch: {{{color|white}}} | red = mw-ui-destructive | green = mw-ui-constructive | white = | blue = mw-ui-progressive}} mw-ui-button-fw">{{{1|Button text}}}</span>
+
+<noinclude>
+<!-- Add categories to the /doc subpage; interwikis go to Wikidata, thank you! {{documentation}} -->
+</noinclude>

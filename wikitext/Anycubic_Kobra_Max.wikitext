@@ -1,0 +1,66 @@
+<!--
+title:        Anycubic Kobra Max
+pageid:       1194
+revid:        2721
+source:       https://repair.wiki/w/Anycubic_Kobra_Max
+history:      https://repair.wiki/index.php?title=Anycubic_Kobra_Max&action=history
+permalink:    https://repair.wiki/index.php?oldid=2721
+last_edited:  2024-01-16T16:09:15Z
+contributors: ASRepairs, Whittz
+anonymous_edits: 0
+categories:   3D Printers, Anycubic, Anycubic 3D Printers, Device, Stubs
+sha1:         f3de04eac60f10cba8c3900e866f1e76753f6c58
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Anycubic
+|Device type=3D Printer
+}}
+{{stub}}
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+=== '''Specifications :''' ===
+'''Build Volume''' :          400mm x 400mm x 450mm
+
+'''Layer height''' :             50-300 microns
+
+'''Max Nozzle Temp''' :   260c
+
+'''Max  Bed Temp''' :        90c
+
+'''Nozzle Size''' :               0.4mm
+
+'''Filament Size''' :           1.75mm
+
+'''Connection''' :               USB and MicroSD
+
+'''Extras''' :
+
+Anycubic LeviQ Automatic Bed Leveling sensor
+
+4.3" Color Touchscreen Display
+
+Removable Carborundum Glass Plate
+
+(Surface can scrape off easily. use plastic putty knife or wait for bed to cool)

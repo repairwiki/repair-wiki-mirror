@@ -1,0 +1,17 @@
+<!--
+title:        File:Aspire E5-773G.png
+pageid:       8930
+revid:        12980
+source:       https://repair.wiki/w/File:Aspire_E5-773G.png
+history:      https://repair.wiki/index.php?title=File:Aspire_E5-773G.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12980
+last_edited:  2025-12-01T23:32:49Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

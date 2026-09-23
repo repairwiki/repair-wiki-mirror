@@ -1,0 +1,46 @@
+<!--
+title:        IPad Pro 11in 3rd Gen
+pageid:       2605
+revid:        13302
+source:       https://repair.wiki/w/IPad_Pro_11in_3rd_Gen
+history:      https://repair.wiki/index.php?title=IPad_Pro_11in_3rd_Gen&action=history
+permalink:    https://repair.wiki/index.php?oldid=13302
+last_edited:  2025-12-16T21:12:37Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         984d04c57a54bb3c3e2cfe9095536fc8c83613d9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Tablet
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Ipadpro11-2021-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->CD3217 Know good ROM dump: https://www.sendspace.com/filegroup/o50KR%2FmFSzssNPV4%2FfMXR%2FabYypKCONhcqYX3llc5ZpMEjLjsYg%2FIrgZTsYR3WPismwz23kyDF0O7ZcGCVfnDg

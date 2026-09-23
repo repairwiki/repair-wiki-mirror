@@ -1,0 +1,45 @@
+<!--
+title:        IPhone 14 Plus
+pageid:       1483
+revid:        14102
+source:       https://repair.wiki/w/IPhone_14_Plus
+history:      https://repair.wiki/index.php?title=IPhone_14_Plus&action=history
+permalink:    https://repair.wiki/index.php?oldid=14102
+last_edited:  2026-02-24T08:51:32Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         98273143e44bf8da72b152e2714e8e110cf7f89f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone14plus-800x800.webp|alt=
+File:Ip-14plus-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPhone 14 and iPhone 14 Plus Board ID Resistor.png|Board ID: iPhone 14 - 1M Ohm, iPhone 14 Plus - 1K Ohm
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

@@ -1,0 +1,18 @@
+<!--
+title:        File:2080 bios.png
+pageid:       453
+revid:        954
+source:       https://repair.wiki/w/File:2080_bios.png
+history:      https://repair.wiki/index.php?title=File:2080_bios.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=954
+last_edited:  2023-11-07T22:15:48Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         8ba6c10f8ff61f0cc7cedeb18fa2690000e7f262
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+2080 bios

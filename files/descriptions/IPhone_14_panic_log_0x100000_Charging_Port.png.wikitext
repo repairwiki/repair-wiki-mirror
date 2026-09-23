@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 14 panic log 0x100000 Charging Port.png
+pageid:       702
+revid:        1650
+source:       https://repair.wiki/w/File:IPhone_14_panic_log_0x100000_Charging_Port.png
+history:      https://repair.wiki/index.php?title=File:IPhone_14_panic_log_0x100000_Charging_Port.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1650
+last_edited:  2023-12-28T20:03:27Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         f5cdae90428d8ab107935ab0966719a7f1699953
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 14 With Charging Port unplugged. This causes 3 min restart. Panic Log Code 0x100000

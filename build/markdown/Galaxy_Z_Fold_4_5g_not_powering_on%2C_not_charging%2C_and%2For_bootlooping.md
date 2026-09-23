@@ -1,0 +1,80 @@
+---
+title: "Galaxy Z Fold 4 5g not powering on, not charging, and/or bootlooping"
+pageid: 3963
+revid: 6877
+kind: repair_guide
+source: "https://repair.wiki/w/Galaxy_Z_Fold_4_5g_not_powering_on,_not_charging,_and/or_bootlooping"
+history: "https://repair.wiki/index.php?title=Galaxy_Z_Fold_4_5g_not_powering_on,_not_charging,_and/or_bootlooping&action=history"
+permalink: "https://repair.wiki/index.php?oldid=6877"
+last_edited: "2025-05-17T00:33:20Z"
+contributors:
+  - "Samhext"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Galaxy Z Fold 4 5g"
+  - "Stubs"
+infobox:
+  Device: "Galaxy Z Fold 4 5g"
+  Affects_parts: "Hinge Flex"
+  Type: "Part replacement"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Galaxy Z Fold 4 5g not powering on, not charging, and/or bootlooping
+
+## Problem description
+This guide is made for the Samsung Galaxy Z Fold 4 specifically but most of the information also applies to most other folding phones from Samsung as well as from other manufacturers.
+
+Samsung Galaxy Z Fold 4 will bootloop, not charge or show fake charging, not power on or more seemingly random issues.  You may also notice that in either a fully open position or folded closed position the phone will work fine and charge normally, stay powered on etc but then phone will start showing symptoms again as soon as it's opened or closed.
+## Symptoms
+- Bootlooping
+- Not charging at all or fake charging with something like 0.2a draw from usb charger with the screen sometimes showing the dead battery charging symbol (circle with lightning icon but no battery percentage)
+- Not powering on or showing any life at all
+- Phone will sometimes have differing symptoms and potentially work completely normally when folded closed or open, but starts having issues again when opened from a closed positions, or closed from an open position.
+
+### Diagnostic Steps
+The most likely issue will be due to the hinge flex cable getting damaged from being bent back and fourth several times over the life of the phone, however you will still want to confirm that your problem is related to the hinge flex before proceeding with the repair since unless you only need data it will either be a very expensive fix or extremely risky and difficult.
+
+If you have access to a new hinge flex this should be the first diagnostic step to confirm the issue.  On the Galaxy Z Fold 4 (and likely most other folding phones) you can test this by plugging in a new hinge flex but not fully install
+
+If you don't have a hinge flex to test with or that doesn't fix the problem you'll want to test other issues such as
+
+- If phone is only having charging issues:
+  - Test charging port with Mechanic USB-C tester and make sure values line up with known good values on main device page
+  - Alternatively if you don't have Mechanic USB-C tester, plug in a known good charging port and try charging
+  - Test with known good batteries plugged in, sometimes only one battery will be bad but sometimes it will need both replaced.  Usually if one is bloated and the other looks fine you can get away with only replacing the bloated battery![Figure 1: Samsung Galaxy Z Fold 4 with hinge flex plugged in but not fully installed for testing and/or data recovery](images/7/75/IMG_5024.jpeg)
+- If phone is bootlooping:
+  - Try getting phone into download mode and flash new firmware from https://samfw.com with the Odin flash tab on the samfw tool found here: [https://samfw.com/blog/samfw-frp-tool-1-0-remove-samsung-frp-one-click samfw tool] MAKE SURE TO ONLY USE "HOME_CSC" FILE FOR "CSC" FIELD IN ODIN FLASH UNLESS YOU ARE OKAY WITH LOSING DATA ON PHONE.
+  - Try booting in safe mode by fully powering off phone, then pressing and holding power/lock button with volume down button, once Samsung logo appears let go of power/lock button but continue holding volume down until safe mode appears in bottom left corner of screen.  If phone boots into safe mode then you might have an app or setting that is causing the phone to bootloop, try finding the malicious app or setting and revert it
+- Visually inspect board for any issues including cracked IC's, shorted capacitors, coils that are loose or have fallen off etc.
+
+If you have confirmed that the problem is related to the hinge flex then you have three options for repair/data recovery based on how much money you or your customer are willing to spend or how much risk you are willing to take on.  The hinge flex runs underneath the inner display so just replacing the flex would require removing the inner display which is EXTREMELY fragile.
+
+### Option 1: Data recovery only
+If all you need from the phone is the data recovered then you can get it to turn on and function normally enough to transfer data to a PC or another phone using Samsung Smart switch, google backup etc by plugging the hinge flex in while phone is folded open but not installing it fully just like we did during testing.  "Dry fitting" the flex should allow you to power on, charge and use all other functions of the phone temporarily although you won't be able to fold the phone while doing this.
+
+### Option 2: Installing a new in-frame inner display
+##### (Expensive but easy and low risk)
+All inner displays sold as "in-frame" will have the hinge flex already preinstalled which makes replacing the hinge flex extremely low risk as you don't have to take the inner screen off of the existing frame to install the new hinge flex.  Unfortunately these displays are very expensive and sometimes hard to find.  It's also a bit of a bummer to have to replace a perfectly good inner display just to fix a bad flex cable buried inside.  However it's extremely simple and low risk to do as it's the same process to almost all other in-frame samsung screen replacements, just double the parts to remove and transfer to the new frame.
+
+### Option 3: Removing inner display and replacing just the hinge flex
+##### (low cost but very difficult and high risk of damaging inner display)
+In order to install just the hinge flex you'll need to pull the inner display off of the frame, remove the old flex, install the new one, and reinstall the new display all without damaging the delicate OLED panel or the display flex cables.
+
+1. To remove the inner display you will first have to unplug all cables and remove both boards from the phone.  In the Galaxy Fold 4 specifically you should be fine to leave the charging port, both batteries, and other components not connected to screen or hinge flexes in the frame.
+1. Next you will need to remove the plastic bezel that covers the edges of the inner display.  Use a heat mat and isopropyl alcohol under the bezel to loosen the adhesive.  Then with a very thin pry tool slowly lift the bezel up from the frame staring from the middle where the two sides of the bezel meet over the hinge.  Slowly work your way around the bezel being careful not to put too much pressure on the OLED panel.
+1. Once the bezel is removed you can remove the inner display.  Again use a heat mat and iso to loosen adhesive under the display while breaking the adhesive with a thin pry tool.  Make sure to take note of where the display cables run through the frame and into the screen and be careful not to damage them while prying the screen off.  The cables for the screen are fragile and easy to damage while trying to remove the screen so try to not slice through them.
+1. ![Figure 2 showing crimp in hinge flex cable on Samsung Galaxy Z Fold 4](images/d/d3/IMG_5030.jpeg)Once inner display is removed, peel up the black tape over the center of the hinge and remove the screws covering the inner hinge where the cables run through.  You will likely find that one or both of the hinge flex cables are crimped and at an extreme angle like in figure 2.
+1. Use a tweezers or other pick tool to remove the gel around the hinge flex cable on the outer side of the frame where the cables plug into the boards.
+1. Pull the bad hinge flex out and install the new one, making sure to bend the cable correctly so it fits in the hinge without being crimped by the shield that was under the black tape covering the hinge.
+1. Reinstall the inner display and bezel making sure to clean up the frame where the screen will be taped down so it is completely smooth, any small dents or pieces of dust/tape under the inner display OLED panel could cause black spots or lines to show up in the screen down the line.
+1. Reinstall board and all other components removed.
+1. If you happened to flash an update while testing to rule out software issues while the bad hinge flex was still installed, you may have to flash an update again to fix any software bugs present due to incomplete or faulty software
+
+If you are a visual learner, this video goes over the general process of fixing the hinge flex by removing the inner display:
+
+https://youtu.be/5cnQFC6Iiis?si=DiVzOnX_xWOGzOgr

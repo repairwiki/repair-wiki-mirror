@@ -1,0 +1,88 @@
+<!--
+title:        Steam Deck
+pageid:       856
+revid:        7544
+source:       https://repair.wiki/w/Steam_Deck
+history:      https://repair.wiki/index.php?title=Steam_Deck&action=history
+permalink:    https://repair.wiki/index.php?oldid=7544
+last_edited:  2025-06-10T06:47:56Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, HaileyKitty, Kenroman, DawidMurawski
+anonymous_edits: 0
+categories:   Device, Game Consoles, Stubs, Valve, Valve Game Consoles
+sha1:         c2c17a1b9657b27607fe16e4d4ea65aa6cf6b035
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Valve|Device release date=February 25, 2022|Device type=Game Console}}
+
+==Guides==
+{{List Guides}}
+==Device pictures==
+<gallery showthumbnails="1">
+File:Steam Deck Product Image.png|Steam Deck
+File:Steam Deck Product Image.jpg|Steam Deck
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg|alt=
+</gallery><gallery caption="Controller Board pictures">
+File:R Board REV B back - R1 test point.jpg|ButtonBoard Rev. B - R back side
+File:REV B left back mux.jpg|ButtonBoard Rev. B - L back side
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery caption="Thermal Pad size<gallery&amp;amp;gt; File:Thermal pad size on Steam Deck LCD Motherboard.png|Thermal pad size on Steam Deck LCD Motherboard. left (blue): charging ic pad, 5.4mm x 5.4mm x 4.5-5mm (squishy) </gallery&amp;amp;gt;Schematics of the rev. B controller board (incomplete)">
+File:Power.jpg|Power delivery IC of the rev B controller board
+File:Right trigger.jpg|Right trigger circuit of the rev B controller board
+File:RA4E1.jpg|Some connections of the RA4E1 MCU of the rev B controller board
+File:Rumble.jpg|Rumble circuit of the rev B controller board
+File:Debug connector.jpg|Debug connector (TC-2050) of the rev B controller board
+File:Buttons.jpg|R1(Shoulder)/R4/R5/"..." Button circuit of the rev B controller board
+File:FFC Connectors.jpg|FFC connectors (USB and connection to L board) of the rev B controller board
+File:MODE-switch.jpg|Schematic for the mode-switch circuit to switch the MCU to programming mode - rev B board (Renesas MCU)
+File:Steamdeck.jpeg|SteamDeck OLED USB C Readings from working device
+File:Fan pinout.jpg|Fan connector pinout. There could be vias under the 5V pad (red) and the blue pad
+</gallery><gallery showthumbnails="1">
+File:Steam Deck LCD F7A Ram Power Supply Diode and Idle Voltage.png
+File:Steam Deck LCD F7A Ram Power Supply Removed.png
+File:Steam Deck LCD F7A Ram Power Supply Lines.png
+File:Steam Deck LCD F7A Ram Power Supply Backside Circuit Diode and Voltage Readings.png
+</gallery>
+
+==More Information/External Sources==
+iFixit provide a good chip diagram link: https://www.ifixit.com/Guide/Steam+Deck+Chip+ID/147811
+
+Steam Deck OLED Chip ID (Chips on the controller boards are identical on OLED and LED versions - at least on controller boards with the Renesas MCU): https://www.ifixit.com/Guide/Steam+Deck+OLED+Chip+ID/167632
+
+Steam Deck APU Deep Dive (Die Shots) https://www.youtube.com/watch?v=ERm1StY-4uY
+
+Official Steam Deck CAD File: https://gitlab.steamos.cloud/SteamDeck/hardware
+
+GamerNexus Steam Deck Hardware Analysis Video: https://www.youtube.com/watch?v=NeQH__XVa64
+
+GamerNexus Steam Deck VRM Analysis: https://www.youtube.com/watch?v=dlsJB3narnk
+
+Steam Deck Hardware Info: https://github.com/NKkrisz/Steam-Deck-Hardware
+
+Recover Corrupt BIOS Through Crisis Mode: https://www.stanto.com/steam-deck/how-to-update-or-flash-your-steam-deck-bios-from-crisis-mode/
+
+Unbrick Steam Deck BIOS Without A Backup: https://www.stanto.com/steam-deck/unbricking-your-steam-deck-without-a-bios-backup/
+
+Unlocking The Steam Deck BIOS: https://www.stanto.com/steam-deck/how-to-unlock-the-lcd-and-oled-steam-deck-bios-for-increased-tdp-and-other-features/
+
+MAX77958 USB-C PD Controller Datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/max77958.pdf
+
+CS35L41 Audio Amp IC: https://www.cirrus.com/products/cs35l41/
+
+P13USB102 USB 2.0 IC: https://www.diodes.com/assets/Datasheets/PI3USB102.pdf
+
+MAX77961 USB-C Charging IC: https://www.analog.com/en/products/max77961.html
+
+ANX7580 Display IC: https://www.analogix.com/en/system/files/AA-004748-PB-1-ANX7580_0.pdf
+
+Headphone Jack: id: PJ-203B (brand: WNRE): https://www.ifixit.com/Answers/View/768877/When+will+a+replacement+audio+board+be+available

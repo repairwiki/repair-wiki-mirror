@@ -1,0 +1,18 @@
+<!--
+title:        Template:Manufacturer page/Example
+pageid:       44
+revid:        80
+source:       https://repair.wiki/w/Template:Manufacturer_page/Example
+history:      https://repair.wiki/index.php?title=Template:Manufacturer_page/Example&action=history
+permalink:    https://repair.wiki/index.php?oldid=80
+last_edited:  2023-09-17T17:44:20Z
+contributors: Admin
+anonymous_edits: 0
+categories:   Manufacturer
+sha1:         1f4e81ff6cde08574d1e129593a3b6a8aa99a00b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Template:Manufacturer page}}

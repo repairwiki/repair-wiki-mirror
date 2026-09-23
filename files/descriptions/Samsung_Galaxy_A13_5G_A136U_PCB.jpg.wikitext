@@ -1,0 +1,17 @@
+<!--
+title:        File:Samsung Galaxy A13 5G A136U PCB.jpg
+pageid:       7118
+revid:        10650
+source:       https://repair.wiki/w/File:Samsung_Galaxy_A13_5G_A136U_PCB.jpg
+history:      https://repair.wiki/index.php?title=File:Samsung_Galaxy_A13_5G_A136U_PCB.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=10650
+last_edited:  2025-08-24T23:23:21Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

@@ -1,0 +1,60 @@
+<!--
+title:        Emerson SP2403
+pageid:       1850
+revid:        4027
+source:       https://repair.wiki/w/Emerson_SP2403
+history:      https://repair.wiki/index.php?title=Emerson_SP2403&action=history
+permalink:    https://repair.wiki/index.php?oldid=4027
+last_edited:  2024-06-10T12:30:14Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Emerson, Emerson Industrial Devices, Industrial Devices, Stubs
+sha1:         45ae6df79499a94c4d1089dd4a7937f842f9fa57
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Emerson
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240610 141326.jpg
+File:20240610 141340.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240610 140137.jpg
+File:20240610 140422.jpg
+File:20240610 140407.jpg
+File:20240610 140333.jpg
+File:20240610 140438.jpg
+File:20240610 140346.jpg
+File:20240610 140216.jpg
+File:20240610 140211.jpg
+File:20240610 140203.jpg
+File:20240610 140146.jpg
+File:20240610 140356.jpg
+File:20240610 140155.jpg
+File:20240610 140158.jpg
+File:20240610 140227.jpg
+File:20240610 140221.jpg
+File:20240610 140209.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

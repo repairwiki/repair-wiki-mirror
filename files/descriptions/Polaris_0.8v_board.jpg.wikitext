@@ -1,0 +1,18 @@
+<!--
+title:        File:Polaris 0.8v board.jpg
+pageid:       393
+revid:        875
+source:       https://repair.wiki/w/File:Polaris_0.8v_board.jpg
+history:      https://repair.wiki/index.php?title=File:Polaris_0.8v_board.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=875
+last_edited:  2023-11-07T19:30:32Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         6df2b9f84b6dfcc9cedc7b4f98ec72a68e136fe1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Polaris 0.8v board

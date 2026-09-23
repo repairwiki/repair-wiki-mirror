@@ -1,0 +1,18 @@
+<!--
+title:        File:Turing 12v ext shorts front.jpg
+pageid:       423
+revid:        919
+source:       https://repair.wiki/w/File:Turing_12v_ext_shorts_front.jpg
+history:      https://repair.wiki/index.php?title=File:Turing_12v_ext_shorts_front.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=919
+last_edited:  2023-11-07T21:49:21Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         0fd39f68763d0f7472a4ffde53a044e4633d881d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Turing 12v ext shorts front

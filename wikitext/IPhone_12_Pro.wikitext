@@ -1,0 +1,52 @@
+<!--
+title:        IPhone 12 Pro
+pageid:       1532
+revid:        12671
+source:       https://repair.wiki/w/IPhone_12_Pro
+history:      https://repair.wiki/index.php?title=IPhone_12_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=12671
+last_edited:  2025-11-12T15:22:42Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         0ee467fe873435de31ce1350e58f46788074e9a8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device release date=2020-10-23
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone12pro-800x800.webp|alt=
+File:Ip-12p-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 12 Pro Self Repair Store
+
+'''Repair Manual ID: FWRUJK'''
+
+Schematics for iPhone 12 Pro: https://www.sendspace.com/file/zaxilx

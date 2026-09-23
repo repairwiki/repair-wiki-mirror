@@ -1,0 +1,17 @@
+<!--
+title:        File:S21 FE FPC 10 Rear Cam 1 back of board.jpg
+pageid:       2387
+revid:        4875
+source:       https://repair.wiki/w/File:S21_FE_FPC_10_Rear_Cam_1_back_of_board.jpg
+history:      https://repair.wiki/index.php?title=File:S21_FE_FPC_10_Rear_Cam_1_back_of_board.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4875
+last_edited:  2024-09-18T08:05:33Z
+contributors: A1Repairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

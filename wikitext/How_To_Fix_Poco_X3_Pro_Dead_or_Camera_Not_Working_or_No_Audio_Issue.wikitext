@@ -1,0 +1,77 @@
+<!--
+title:        How To Fix Poco X3 Pro Dead or Camera Not Working or No Audio Issue
+pageid:       9603
+revid:        13875
+source:       https://repair.wiki/w/How_To_Fix_Poco_X3_Pro_Dead_or_Camera_Not_Working_or_No_Audio_Issue
+history:      https://repair.wiki/index.php?title=How_To_Fix_Poco_X3_Pro_Dead_or_Camera_Not_Working_or_No_Audio_Issue&action=history
+permalink:    https://repair.wiki/index.php?oldid=13875
+last_edited:  2026-02-08T01:13:55Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Poco X3 NFC, Repair guides for Poco X3 Pro, Stubs
+sha1:         36569f6b61bae97f836e5f23ca93941f5a7373ad
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Poco X3 NFC, Poco X3 Pro
+|Affects parts=Main Logic Board
+|Needs equipment=Hot Air Station, Soldering Iron, Tweezers, Low Melt Solder, Board Holder, CPU Stencils
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+Poco X3 and X3 Pro presents with severe system failures such as no power, non-functional cameras, and no audio output. In many cases, the device appears completely dead or fails to boot properly.
+
+When powered via a DC power supply, the phone draws ~0.150 A after a boot prompt and then stalls, indicating that the CPU is attempting to initialize but fails shortly after.
+
+This is a well-known defect on the Poco X3 Pro and is caused by CPU solder joint failure due to thermal stress and board flex.
+[[File:Camera-not-working-poco.webp|thumb|Poco X3 (Figure 1) -- Camera not working even after replacing with known good parts]]
+
+== Symptoms ==
+
+* No audio (speaker, earpiece, microphone all dead)
+* Rear and front cameras not detected / not working
+* Device does not power on
+* Black screen, no vibration
+* Stuck at ~0.150 A on DCPS after pressing power
+* No further current ramp (no boot)
+* Issue persists after:
+** Replacing battery
+** Replacing screen
+** Replacing cameras or audio components
+
+== Solution ==
+[[File:X3-pro-cpu.png|thumb|Poco X3 Pro (Figure 2) -- CPU location]]
+[[File:X3-pro-cpu-reballed.png|thumb|Poco X3 Pro CPU (Figure 3) -- CPU reballed]]
+
+=== Diagnostic Steps ===
+
+# Connect device to DCPS
+# Press power button
+# Observe current behavior:
+#* ~0.150 A stall confirms CPU fault
+# Confirm no shorts on main power rails
+# Rule out:
+#* PMIC failure
+#* Battery fault
+#* Display fault
+
+Once these are ruled out, proceed with CPU repair.
+----
+
+=== Repair Steps ===
+
+# Remove logic board from device
+# Shield surrounding components
+# Preheat board evenly to avoid warping
+# Remove CPU using controlled hot air
+# Clean CPU pads and board pads thoroughly
+# Reball CPU with correct solder size
+# Inspect balls under microscope
+# Reinstall CPU carefully aligned
+# Reflow evenly and allow to cool naturally
+# Clean flux residue

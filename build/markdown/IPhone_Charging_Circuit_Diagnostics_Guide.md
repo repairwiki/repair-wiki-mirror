@@ -1,0 +1,204 @@
+---
+title: "IPhone Charging Circuit Diagnostics Guide"
+pageid: 9241
+revid: 13444
+kind: explanatory_guide
+source: "https://repair.wiki/w/IPhone_Charging_Circuit_Diagnostics_Guide"
+history: "https://repair.wiki/index.php?title=IPhone_Charging_Circuit_Diagnostics_Guide&action=history"
+permalink: "https://repair.wiki/index.php?oldid=13444"
+last_edited: "2025-12-29T06:10:10Z"
+contributors:
+  - "IamMyron07"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for iPhone 11"
+  - "Explanatory guides for iPhone 11 Pro"
+  - "Explanatory guides for iPhone 11 Pro Max"
+  - "Explanatory guides for iPhone 12"
+  - "Explanatory guides for iPhone 12 Mini"
+  - "Explanatory guides for iPhone 12 Pro"
+  - "Explanatory guides for iPhone 12 Pro Max"
+  - "Explanatory guides for iPhone 13"
+  - "Explanatory guides for iPhone 13 Mini"
+  - "Explanatory guides for iPhone 13 Pro"
+  - "Explanatory guides for iPhone 13 Pro Max"
+  - "Explanatory guides for iPhone 14"
+  - "Explanatory guides for iPhone 14 Plus"
+  - "Explanatory guides for iPhone 14 Pro"
+  - "Explanatory guides for iPhone 14 Pro Max"
+  - "Explanatory guides for iPhone 6"
+  - "Explanatory guides for iPhone 6 Plus"
+  - "Explanatory guides for iPhone 6s"
+  - "Explanatory guides for iPhone 6s Plus"
+  - "Explanatory guides for iPhone 7"
+  - "Explanatory guides for iPhone 7 Plus"
+  - "Explanatory guides for iPhone 8"
+  - "Explanatory guides for iPhone 8 Plus"
+  - "Explanatory guides for iPhone X"
+  - "Explanatory guides for iPhone XR"
+  - "Explanatory guides for iPhone XS"
+  - "Explanatory guides for iPhone XS Max"
+  - "Missing device page"
+infobox:
+  Device: "iPhone 6, iPhone 6 Plus, iPhone 6s, iPhone 6s Plus, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPhone XR, iPhone XS, iPhone XS Max, iPhone 11, iPhone 11 Pro, iPhone 11 Pro Max, iPhone 12, iPhone 12 Mini, iPhone 12 Pro, iPhone 12 Pro Max, iPhone 13, iPhone 13 Mini, iPhone 13 Pro, iPhone 13 Pro Max, iPhone 14, iPhone 14 Plus, iPhone 14 Pro, iPhone 14 Pro Max"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# IPhone Charging Circuit Diagnostics Guide
+
+## Description
+iPhones that do not charge, charge intermittently, or only charge wirelessly often suffer from faults in the USB input, USB controller (Tristar / Hydra / Kraken), or charging IC power conversion stages.
+
+This guide outlines a systematic voltage-based diagnostic approach to identify where charging fails.
+
+## Supported Models / USB Controller Generations
+### Tristar Models
+- Expected voltages:
+  - PP_5V0_USB = 5 V
+  - PP_TRISTAR_PIN = 5 V
+
+----
+
+### Hydra Models (up to iPhone 11 series)
+- Expected voltage:
+  - PP_VBUS1_E75 = 5 V
+
+----
+
+### Kraken Models (iPhone 12 series to 14 Series)
+- Expected voltage:
+  - PP_VBUS1_E75 = 5 V
+
+## Diagnostic Steps
+### 1. Check for 5 V Before the Charging IC
+- Measure 5 V on the capacitor before the charging IC
+- This confirms:
+  - Charger is supplying power
+  - Port and cable are delivering voltage
+
+❌ No 5 V here = USB input / controller issue
+
+✅ 5 V present = proceed to next step
+----
+
+### 2. Understand USB Verification Logic
+- The charging IC does NOT know if the cable is good
+- Cable validation is handled by the USB controller (Tristar / Hydra / Kraken)
+
+If the USB IC cannot verify the cable:
+
+- The device will not charge via cable
+- Wireless charging may still work
+
+----
+
+### 3. Check USB Verification Line
+If 5 V is missing at the USB controller, check:
+
+- PP_VAR_USB_RVP_TIGRIS_R  (also referred to as PP_VAR_USB_RVP)
+
+This line is required for USB cable validation.
+----
+
+### 4. Check the 10 Ω RVP Resistor
+Applicable to:
+
+- iPhone 8 / X
+- iPhone 13 / 14
+
+Procedure:
+
+- Locate the 10 Ω resistor on the VAR_USB_RVP line
+- Measure voltage on both pads
+- Both sides should show ~5 V
+
+❌ Voltage on one side only = open resistor or downstream fault
+
+❌ No voltage on both sides = upstream USB IC issue
+----
+
+### 5. Check PWR_GATE_EN_VBUS_1_VALID
+- Measure voltage at the PWR_GATE_EN_VBUS_1_VALID test point
+
+Expected result:
+
+- 3.7 V – 5 V (any voltage above 0 V indicates the USB IC is functioning)
+
+Interpretation:
+
+- ✅ Voltage present → USB IC is working
+- ❌ 0 V → USB IC is faulty or not powered
+
+----
+
+### 6. Wireless Charging Reference
+- Wireless charging does NOT require USB verification
+- If wireless charging works but cable charging does not:
+  - USB controller / RVP path is likely at fault
+  - Charging IC may still be functional
+
+----
+
+### 7. Charging IC Power Conversion
+- Charging IC buck-converts 5 V → ~3.7 V
+- This voltage is required for the battery to begin charging
+
+If 5 V is present but battery does not charge:
+
+- Suspect charging IC or its output stage
+
+----
+
+### 8. Check CHG_BOOT Line (Diode Mode)
+- Locate the capacitor on CHG_BOOT
+- Measure in diode mode
+
+Expected readings:
+
+- ❌ Same diode reading on both sides = fault
+- From Tigris IC side → ~ 9 V
+- From CHG_LX side → ~ 4 V
+
+| USB IC Part Number | iPhone Model |
+| --- | --- |
+| NXP 1610A2 | iPhone 6, iPhone 6+ |
+| NXP 1610A3 | iPhone 6s, iPhone 6s Plus, iPhone SE (1st Gen) |
+| NXP 1610A3B | iPhone 7, iPhone 7 Plus, |
+| NXP 1612A1 | iPhone 8, iPhone 8 Plus, iPhone X, iPhone XR, iPhone XS, iPhone XS Max, iPhone 11, iPhone 11 Pro, iPhone 11 Pro Max, iPhone SE (2nd Gen) |
+| NXP 1614A1 | iPhone 12, iPhone 12 mini, iPhone 12 Pro, iPhone 12 Pro Max |
+| NXP 1616A0 | iPhone 13, iPhone 13 mini, iPhone 13 Pro, iPhone 13 Pro Max |
+| NXP 1618A0 | iPhone 14, iPhone 14 Plus, iPhone 14 Pro, iPhone 14 Pro Max |
+
+iPHONE USB IC's
+![iPhone 6 & 6 Plus USB IC](images/1/1c/Iphone-6plus-usb.png)
+![iPhone 6s & 6s Plus USB IC](images/8/8b/Iphone-6splus-usb.png)
+![iPhone 7 & 7 Plus USB IC](images/a/a6/Iphone-7plus-usb.png)
+![iPhone 8, iPhone 8 Plus, iPhone X, iPhone XR, iPhone XS, iPhone XS Max, iPhone 11, iPhone 11 Pro, iPhone 11 Pro Max, iPhone SE 2020 (2nd Gen) USB IC](images/7/7a/Iphone-8to11p.png)
+![iPhone 12, iPhone 12 mini, iPhone 12 Pro, iPhone 12 Pro Max USB IC](images/1/13/Iphone-12series.png)
+![iPhone 13, iPhone 13 mini, iPhone 13 Pro, iPhone 13 Pro Max USB IC](images/d/d6/Iphone-13series.png)
+![iPhone 14, iPhone 14 Plus, iPhone 14 Pro, iPhone 14 Pro Max USB IC](images/2/24/Iphone-14series.png)
+iPHONE RVP Resistor Location
+![iPhone X RVP Resistor Location](images/1/19/X-rvp-resistor.png)
+![iPhone X RVP Resistor](images/3/3f/X-rvp-resistor-schem.png)
+![iPhone 8 RVP Resistor Location](images/c/c6/8rvp-resistor.png)
+![iPhone X RVP Resistor](images/b/b3/8rvp-resistor-schem.png)
+![iPhone 13 RVP Resistor Location](images/b/b0/13-rvp-resistor.png)
+![iPhone 13P RVP Resistor Location](images/4/4f/13p-rvp-resistor.png)
+![iPhone 13 Pro Max RVP Resistor Location](images/2/2c/13-pm-rvp-resistor.png)
+![iPhone 13 series RVP Resistor](images/b/bb/13-rvp-resistor-schem.png)
+![iPhone 14/Plus RVP Resistor Location](images/0/00/14-p-rvp-resistor.png)
+![iPhone 14/Plus RVP Resistor](images/6/6d/14-p-rvp-resistor-schem.png)
+iPhone USB IC Location
+![iPhone 8 USB IC Location](images/d/d6/Iphone_8_series_usb_ic.png)
+![iPhone 12 mini USB IC Location](images/b/b2/Iphone_12_mini_usb_ic.png)
+![iPhone 12 Pro USB IC Location](images/6/63/Iphone_12-pro_usb_ic.png)
+![iPhone 12 Pro Max USB IC Location](images/6/6b/Iphone_12_pro_max_usb_ic.png)
+![iPhone 11 USB IC Location](images/7/72/11-usb-ic.png)
+![iPhone 13 Pro/Max USB IC Location](images/5/5b/13pm-usb-ic.png)
+![iPhone 14 USB IC Location](images/3/33/14-usb-ic.png)
+![iPhone X USB IC Location](images/c/c3/X-usb-ic.png)
+![iPhone SE 2020 USB IC Location](images/1/1b/Se2020-usb-ic.png)
+![iPhone XR USB IC Location](images/4/4b/Xr-usb-ic.png)

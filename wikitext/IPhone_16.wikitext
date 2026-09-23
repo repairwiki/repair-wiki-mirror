@@ -1,0 +1,49 @@
+<!--
+title:        IPhone 16
+pageid:       2420
+revid:        12685
+source:       https://repair.wiki/w/IPhone_16
+history:      https://repair.wiki/index.php?title=IPhone_16&action=history
+permalink:    https://repair.wiki/index.php?oldid=12685
+last_edited:  2025-11-12T15:34:09Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         3215aa6e94c3250132171f8d224013babb107a5b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Iphone-16.webp|alt=
+File:Ip-16plus-fcam.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->Apple Self Service iPhone 16
+
+Repair Manual ID: '''GKPFXT'''

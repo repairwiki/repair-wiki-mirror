@@ -1,0 +1,18 @@
+<!--
+title:        File:Solder mask applied.jpg
+pageid:       4866
+revid:        7989
+source:       https://repair.wiki/w/File:Solder_mask_applied.jpg
+history:      https://repair.wiki/index.php?title=File:Solder_mask_applied.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7989
+last_edited:  2025-06-23T21:47:53Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         7efe922aec8e0283a21afe90794fc46d47be3170
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Solder mask applied

@@ -1,0 +1,18 @@
+<!--
+title:        File:Rumble.jpg
+pageid:       2449
+revid:        4993
+source:       https://repair.wiki/w/File:Rumble.jpg
+history:      https://repair.wiki/index.php?title=File:Rumble.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4993
+last_edited:  2024-10-09T12:09:44Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         1f37039e15493342caa1bc016220ba86fc57c13a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Rumble circuit of the rev B controller board

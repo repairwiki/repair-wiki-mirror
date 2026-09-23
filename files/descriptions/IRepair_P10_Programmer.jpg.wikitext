@@ -1,0 +1,18 @@
+<!--
+title:        File:IRepair P10 Programmer.jpg
+pageid:       8186
+revid:        11977
+source:       https://repair.wiki/w/File:IRepair_P10_Programmer.jpg
+history:      https://repair.wiki/index.php?title=File:IRepair_P10_Programmer.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=11977
+last_edited:  2025-09-21T11:28:46Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         81e573c994ee2cd9f56f20fcdcec6036f171e160
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iRepair P10 Programmer

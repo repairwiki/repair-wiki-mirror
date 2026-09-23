@@ -1,0 +1,18 @@
+<!--
+title:        File:Cpu lifted from board.png
+pageid:       7351
+revid:        10914
+source:       https://repair.wiki/w/File:Cpu_lifted_from_board.png
+history:      https://repair.wiki/index.php?title=File:Cpu_lifted_from_board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10914
+last_edited:  2025-08-30T10:53:33Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         fd54325f5e39f503f055cc4277d91bdb8dec15c9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+cpu_lifted_from_board

@@ -1,0 +1,77 @@
+<!--
+title:        Gameboy Advance No Audio
+pageid:       5473
+revid:        8706
+source:       https://repair.wiki/w/Gameboy_Advance_No_Audio
+history:      https://repair.wiki/index.php?title=Gameboy_Advance_No_Audio&action=history
+permalink:    https://repair.wiki/index.php?oldid=8706
+last_edited:  2025-07-12T21:18:55Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Gameboy Advanced, Stubs
+sha1:         5e60c6b22da1b37d8bdede87ed90c56decdb2060
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Gameboy Advanced
+|Affects parts=Motherboard
+|Needs equipment=Soldering iron, microscope, Multimeter
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The Device produces no audio.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* No Audio on the Speaker
+* Audio only works with headphones
+
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+--><br />
+
+=== Diagnostic Steps ===
+
+The first step is to understand if the problem is no audio at all or if it works with headphones, so first try with headphones and see if audio works.
+
+If you get audio with headphones but nothing on speaker the first step is to try a new speaker.
+
+Diagnosing the audio circuit.
+
+The Audio Chip gets 2 signals from the CPU on these resistors R30 and R3 with the device on you should have around 1V on those 2 points.
+[[File:Gameboy Advance Audio signals from CPU.png|center|thumb|454x454px|Gameboy Advance Audio signals from CPU]]
+The next thing to check is if the Audio Chip is getting the correct voltages to operate.
+[[File:Gameboy Advance Audio AMP voltages.png|center|thumb|Gameboy Advance Audio AMP voltages]]
+
+The next thing to check is if the volume potenciometer is working properly
+
+Place your the red probe of your multimeter on PIN 10 of the Chip and move the volume potencimeter the voltage should change from around 0.5V all the way to 3V.
+[[File:Gameboy audio amp pin 10.png|center|thumb|Gameboy audio amp pin 10]]
+IF audio is only working on Headphones it is possible there is a problem on the audio Jack it is common to have corrosion inside this port.
+[[File:Corrosion Gameboy Audio Jack.png|center|thumb|Corrosion Gameboy Audio Jack]]
+
+=== Repair Steps ===
+If the CPU signal is missing there may be a broken solder joint by the CPU inspect the area under a microscope and you can maybe reflow the pins, there can also be a break in the line in the middle of the PCB.
+
+If 3V is missing from any of the points on the IC you can make a jump to the battery connector since this voltage is generated from the battery.
+
+If the voltage is not working properly on PIN 10 the solution is to replace the potentiometer.
+
+If you have corrosion inside the Audio jack clean it as must as possible and be careful not to damage it since this part is really hard to find.
+
+If the Audio works but its very quiet you can replace the Capacitor behind the audio jack its a 100UF 4V.
+
+If you have a device with ripped pads on the potentiometer the only pads you need to restore are these.
+[[File:Ripped pads Gameboy.png|center|thumb|Ripped pads Gameboy]]

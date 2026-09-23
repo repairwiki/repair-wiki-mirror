@@ -1,0 +1,18 @@
+<!--
+title:        File:Comparing the files 3.png
+pageid:       4547
+revid:        7604
+source:       https://repair.wiki/w/File:Comparing_the_files_3.png
+history:      https://repair.wiki/index.php?title=File:Comparing_the_files_3.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7604
+last_edited:  2025-06-13T03:44:43Z
+contributors: Chris
+anonymous_edits: 0
+categories:   
+sha1:         f5cd93e606046b47ef761df3053f94b610848913
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+As you can see, there are differences that shouldn't be there.

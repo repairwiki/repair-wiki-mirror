@@ -1,0 +1,18 @@
+<!--
+title:        File:Turing 3.3v shorts.jpg
+pageid:       425
+revid:        921
+source:       https://repair.wiki/w/File:Turing_3.3v_shorts.jpg
+history:      https://repair.wiki/index.php?title=File:Turing_3.3v_shorts.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=921
+last_edited:  2023-11-07T21:50:36Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         880dbbbdafe4f39ca237731323413f1fcaf77258
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Turing 3.3v shorts

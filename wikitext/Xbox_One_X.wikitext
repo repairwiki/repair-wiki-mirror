@@ -1,0 +1,48 @@
+<!--
+title:        Xbox One X
+pageid:       1593
+revid:        11331
+source:       https://repair.wiki/w/Xbox_One_X
+history:      https://repair.wiki/index.php?title=Xbox_One_X&action=history
+permalink:    https://repair.wiki/index.php?oldid=11331
+last_edited:  2025-09-06T14:40:48Z
+contributors: Tiago199988, Ben ProFixerr
+anonymous_edits: 0
+categories:   Device, Game Consoles, Microsoft, Microsoft Game Consoles, Stubs
+sha1:         fabd468b8f672436ecc25c688b31abcfa234763e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Microsoft
+|Device release date=2017-11-07
+|Device type=Game Console
+|Has code name=Scorpio}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Xboxonex-800x800.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:XBOX ONE X Motherboard Front and Back.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Xbox One X-HDMI-Mechnic-Readings.jpg|Xbox One X HDMI Port Diode Mode Readings through Mechanic T-824 Tester
+File:Xbox One X-INPUT - HDMI-Mechnic-Readings.jpg|Xbox One X HDMI Input Port Diode Mode Readings through Mechanic T-824 Tester
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+Schematics available at: https://www.sendspace.com/file/drg3li

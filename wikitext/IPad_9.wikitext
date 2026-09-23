@@ -1,0 +1,58 @@
+<!--
+title:        IPad 9
+pageid:       2599
+revid:        7908
+source:       https://repair.wiki/w/IPad_9
+history:      https://repair.wiki/index.php?title=IPad_9&action=history
+permalink:    https://repair.wiki/index.php?oldid=7908
+last_edited:  2025-06-22T14:49:50Z
+contributors: VCCBoardRepairs, Tiago199988, A1Repairs
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         83fbfaa04994ac124ea825a7cb6c3adc993f1f1c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Tablet
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Ipad10.2-gen9-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Ipad 9 Lcd connector.jpg|IPAD 9 LCD CONNECTOR DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:Ipad 9 charging port speaker flex.jpg|IPAD 9 CHARING PORT CONNECTORS DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:IPAD 9 SENSOR NEAR POWER CONNECTOR.jpg|IPAD 9, CONNECTOR NEAR POWER AND VOLUME FLEX SENSOR DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:Ipad 9 lower digitizer connector.jpg|IPAD 9 LOWER DIGITIZER CONNECTOR DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:Top digitizer Connector.jpg|IPAD 9 TOP DIGITIZER CONNECTOR DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:Ipad 9 home button and touch id connector.jpg|IPAD 9 HOME BUTTON AND TOUCH ID CONNECTOR DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:IPAD 9 POWER VOLUME CONNECTOR.jpg|IPAD 9 POWER AND VOLUME CONNECTOR DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:Ipad 9 charging port.jpg|IPAD 9 CHARGING PORT DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:IPAD 9 REAR CAMERA CONNECTOR.jpg|IPAD 9 REAR CAMERA DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:IPAD 9 BATTERY CONNECTOR.jpg|IPAD 9 BATTERY CONNECTOR DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:IPAD 9 HEADPHONE CONNECTOR.jpg|IPAD 9 HEADPHONE JACK CONNECTOR DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:IPAD 9 SMART KEYBOARD CONNECTOR.jpg|IPAD 9 SMART KEYBOARD DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+File:IPAD 9 PROXIMITY AND FRONT CAMERA CONNECTOR.jpg|IPAD 9 FRONT CAMERA AND MICROPHONE DIODE MEASUREMENTS PROVIDED BY A1 PHONE REPAIRS, TAKEN WITH FLUKE 115 MULTIMETER.
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

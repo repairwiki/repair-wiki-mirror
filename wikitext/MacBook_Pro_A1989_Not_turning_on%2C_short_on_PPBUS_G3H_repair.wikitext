@@ -1,0 +1,41 @@
+<!--
+title:        MacBook Pro A1989 Not turning on, short on PPBUS G3H repair
+pageid:       131
+revid:        486
+source:       https://repair.wiki/w/MacBook_Pro_A1989_Not_turning_on,_short_on_PPBUS_G3H_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1989_Not_turning_on,_short_on_PPBUS_G3H_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=486
+last_edited:  2023-10-29T15:25:50Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1989, Stubs
+sha1:         393b20f1349e1779031c6e38cb47e06c09f0437d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1989
+|Affects parts=Motherboard
+|Needs equipment=multimeter, soldering iron, soldering station, thermal camera
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Repair of a common short on PPBUS_G3H on an A1989 MacBook Pro
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+* MacBook not turning on.
+* Less than 10 Ohms on PPBUS_G3H as measured with a multimeter (short)
+* Very low current draw from the charging port at 5V
+
+==Solution==
+
+=== Short on PPBUS_G3H ===
+Inject 1V (increase if no reaction), watch for hot spots with thermal cam. Usually it's a bad tantalum cap
+
+Measure PPBUS_G3H to vCORE coils (coils around CPU/GPU) IF those measure UNDER 1Ohm (0.3-0.8) then you most likely have a direct 12V short to CPU/GPU. On this board this situation is always a no fix.

@@ -1,0 +1,18 @@
+<!--
+title:        File:JC Face ID tag on flex.png
+pageid:       4254
+revid:        7259
+source:       https://repair.wiki/w/File:JC_Face_ID_tag_on_flex.png
+history:      https://repair.wiki/index.php?title=File:JC_Face_ID_tag_on_flex.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7259
+last_edited:  2025-06-01T21:13:43Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         43fd60d6800e4c494ab908412456c49e9cc58d92
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+JC Face ID tag on flex

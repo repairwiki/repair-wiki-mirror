@@ -1,0 +1,18 @@
+<!--
+title:        File:S24 ultra.jpg
+pageid:       4006
+revid:        6944
+source:       https://repair.wiki/w/File:S24_ultra.jpg
+history:      https://repair.wiki/index.php?title=File:S24_ultra.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6944
+last_edited:  2025-05-18T22:44:51Z
+contributors: Jdetawe
+anonymous_edits: 0
+categories:   
+sha1:         e26b748db4fc093e079bdfeba92487483c683caf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Reference measurements good

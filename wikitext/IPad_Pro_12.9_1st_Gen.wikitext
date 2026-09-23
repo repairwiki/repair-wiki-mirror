@@ -1,0 +1,46 @@
+<!--
+title:        IPad Pro 12.9 1st Gen
+pageid:       1385
+revid:        8931
+source:       https://repair.wiki/w/IPad_Pro_12.9_1st_Gen
+history:      https://repair.wiki/index.php?title=IPad_Pro_12.9_1st_Gen&action=history
+permalink:    https://repair.wiki/index.php?oldid=8931
+last_edited:  2025-07-21T23:33:37Z
+contributors: Tiago199988, KevinShort
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         8030e56e8bc3cc1b21c858290a33c404c2434ef7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1584, A1652
+|Device release date=2015-11-25
+|Device type=Tablet
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Copia-de-ipadpro97-2016-800x800.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

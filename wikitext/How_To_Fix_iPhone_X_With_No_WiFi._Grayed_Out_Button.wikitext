@@ -1,0 +1,65 @@
+<!--
+title:        How To Fix iPhone X With No WiFi. Grayed Out Button
+pageid:       1567
+revid:        3408
+source:       https://repair.wiki/w/How_To_Fix_iPhone_X_With_No_WiFi._Grayed_Out_Button
+history:      https://repair.wiki/index.php?title=How_To_Fix_iPhone_X_With_No_WiFi._Grayed_Out_Button&action=history
+permalink:    https://repair.wiki/index.php?oldid=3408
+last_edited:  2024-02-12T07:57:31Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone X, Stubs
+sha1:         0c14aeecfbf4cf5c7b3b65637a295a767c660802
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone X
+|Affects parts=Main Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=BGA, Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+How to fix iPhone X with a grayed out WiFi button. This means you cannot enable WiFi, so WiFi functionality will not work
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*WiFi Button is grayed out
+*No WiFi
+
+==Solution==
+In majority of cases, this will be require a bottom board swap.
+
+The bottom layer and interposer break near the SIM tray area.
+
+# It requires a '''bottom board swap'''
+#* Check if the board bends near where the SIM slot meets the interposer. Often times you'll see separation in that area.
+#* Split the sandwich, then test the top and bottom boards in the iSocket type of Jig.
+#* If still no WiFi, test the top board with a known good bottom board of the same version (QCOM/Intel) after you unbind WiFi. Doing this will cause baseband not to work, but that's not important right now. We're just testing if WiFi works
+#* If WiFi works with another bottom board, but not the original, then it's related to the bottom board and must be swapped.
+#* There are some chips that are paired on the bottom board and must be swapped over.
+#** BBCPU (U_MDM_E_)
+#** Baseband Eeprom (U_EEPROM_E)
+#*** '''Be careful'''; if you damage or lose this chip, then it's game over. Cellular function will never work.
+#*** A safe way to deal with this, use a eeprom reader, like the JC Module Eeprom reader for the iPhone X.
+#**** While BBCPU is already removed on both original and donor bottom boards, plug in the bottom board to the appropriate slot and read using the JC PC Software. Then remove the bottom board.
+#**** Then plugin the new bottom board and click write.
+#**** Make sure not to mix these up! If you overwrite the original eeprom and lose that data, then it's also gone forever. No way to recover it.
+#** NFC (NFC_S)
+#*** Although NFC is not required to swap over, it will add extra time to the job if you dont swap it, as you have to go through the "Swipe to recover"/"Attempting data recovery" screen which can take 10–15 min to process.
+#** Wi-Fi (UWLAN_W)
+#*** Although it's paired, you can unpair it using the iRepair P10 or similar tool that allows you to set the device into Purple Mode and unbind via the lightning port.
+#* Once you swap over all the components above, test again with the iSocket Jig. Make sure all functions work, like:
+#** You can toggle Wi-Fi on/off
+#** There is touch
+#** The phone says "No SIM"
+#*** If it says "Searching" or "No Service" or "Cellular Update Failed", check the sandwich connections again. Make sure there's no dirty flux all over the pads.
+#*** Try reballing BBCPU again, might have been a bad job
+#*** Try reading the original eeprom and writing it the replacement board
+#*** Worst case, try an update on iTunes or 3u tools (flash and retain data), to see if that solves it.
+#**** I don't recommend to restore or you will "lock" yourself out and it will require you to restore each time you "fix" the board issue

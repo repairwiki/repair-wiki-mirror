@@ -1,0 +1,79 @@
+<!--
+title:        List Guides
+pageid:       3712
+revid:        6531
+source:       https://repair.wiki/w/List_Guides
+history:      https://repair.wiki/index.php?title=List_Guides&action=history
+permalink:    https://repair.wiki/index.php?oldid=6531
+last_edited:  2025-05-12T16:19:55Z
+contributors: Eralaz
+anonymous_edits: 0
+categories:   Repair guide, Stubs
+sha1:         3d88b3554fe2ffaaa0f8aef53f714c4d0bffa009
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=
+|Affects parts=
+|Needs equipment=
+|Type=
+|Difficulty=
+}}
+== Problem description ==
+<!-- 
+A1706 with board number 820-00923 SSD recognition issue
+ -->
+
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+when i boot up the computer, it shows the apple logo for a while then goes into the question mark sign. 
+-->
+* Symptom 1 (Figure 1)
+* Symptom 2
+
+== Solution ==
+<!-- 
+check the chip that creats pp3v3_s4 (U8203).
+check for the enabled signal which 3.3v, then check for the presence of pp3v3_s5, if present proceed to checking if pp3v3_s4 is pushing out.  if its not then that is yoiur problem.
+
+you will notice that U8203 get really hot but that chip isnt the problem. 
+
+inject voltage1.5v into that area PP3v3_s4 and use a high therma image sensor to check anything that gets hot.
+
+its mostly a capicitor   around the mic connector C4204
+
+remove and replace then thank me later.
+it took me 8days to figure this out.
+
+-->
+
+
+
+=== Diagnostic Steps ===
+A1706 with board number 820-00923 SSD recognition issue
+
+
+check the chip that creats pp3v3_s4 (U8203). check for the enabled signal which 3.3v, then check for the presence of pp3v3_s5, if present proceed to checking if pp3v3_s4 is pushing out.  if its not then that is yoiur problem.
+
+you will notice that U8203 get really hot but that chip isnt the problem.
+
+inject voltage1.5v into that area PP3v3_s4 and use a high therma image sensor to check anything that gets hot.
+
+its mostly a capicitor   around the mic connector C4204
+
+remove and replace then thank me later. it took me 8days to figure this out.
+
+
+
+=== Repair Steps.   ===
+inject voltage1.5v into that area PP3v3_s4 and use a high therma image sensor to check anything that gets hot.
+
+its mostly a capicitor   around the mic connector C4204
+
+remove and replace then thank me later. it took me 8days to figure this out.

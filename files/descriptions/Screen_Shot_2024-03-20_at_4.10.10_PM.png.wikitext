@@ -1,0 +1,18 @@
+<!--
+title:        File:Screen Shot 2024-03-20 at 4.10.10 PM.png
+pageid:       1687
+revid:        3689
+source:       https://repair.wiki/w/File:Screen_Shot_2024-03-20_at_4.10.10_PM.png
+history:      https://repair.wiki/index.php?title=File:Screen_Shot_2024-03-20_at_4.10.10_PM.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3689
+last_edited:  2024-03-20T20:14:01Z
+contributors: IFixNC Beau
+anonymous_edits: 0
+categories:   
+sha1:         5f60d98372305eb6ca82e4c622e644fe1bf36030
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A1708 C6465

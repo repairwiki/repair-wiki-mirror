@@ -1,0 +1,166 @@
+---
+title: "How to Troubleshoot And Fix iPhone Random Restarts Using Panic Logs"
+pageid: 238
+revid: 13741
+kind: explanatory_guide
+source: "https://repair.wiki/w/How_to_Troubleshoot_And_Fix_iPhone_Random_Restarts_Using_Panic_Logs"
+history: "https://repair.wiki/index.php?title=How_to_Troubleshoot_And_Fix_iPhone_Random_Restarts_Using_Panic_Logs&action=history"
+permalink: "https://repair.wiki/index.php?oldid=13741"
+last_edited: "2026-01-20T02:34:03Z"
+contributors:
+  - "ASRepairs"
+  - "VCCBoardRepairs"
+  - "PanicFull.com"
+  - "GsmDave"
+anonymous_edits: 0
+categories:
+  - "Apple Phones"
+  - "Explanatory guide"
+  - "Explanatory guides for Apple Phones"
+  - "Missing device page"
+infobox:
+  Device: "Apple Phones"
+  Type: "Troubleshooting/Diagnostics"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# How to Troubleshoot And Fix iPhone Random Restarts Using Panic Logs
+
+## How to Solve Random Restarts
+### Summary
+iPhones and iPads will restart randomly or every few minutes depending on various scenarios.
+
+Also, each model tends to have it's unique sensors that must be detected by the Operating System, otherwise, it'll restart.
+
+The first step to troubleshooting this issue is to start by testing the problematic board with all known good parts. Meaning, these are parts that have been previously tested & confirmed not to cause restart issues.
+
+Next, would be to check the panic log to see which sensor is not detected. To find the panic log on the device, go to Settings-> Privacy-> Analytics & Improvements-> Analytics Data-> Scroll down to the files starting with "panic-full..." & click on the most recent dated file.
+
+Then refer to the specific page below for the solution:
+
+### Panic Log Solution List
+How To Fix an iPhone X That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_X_That_Randomly_Restarts
+
+How To Fix an iPhone XS and XS Max That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_XS_That_Randomly_Restarts
+
+How To Fix an iPhone 11 That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_11_That_Randomly_Restarts
+
+How To Fix an iPhone 11 Pro and 11 Pro Max That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_11_Pro_That_Randomly_Restarts
+
+How To Fix an iPhone 12 Series That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_12_That_Randomly_Restarts
+
+How To Fix an iPhone 13 Series That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_13_That_Randomly_Restarts
+
+How To Fix an iPhone 14 and 14 Plus That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_14_That_Randomly_Restarts
+
+How To Fix an iPhone 14 Pro and 14 Pro Max That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_14_Pro_That_Randomly_Restarts
+
+How To Fix an iPhone 15 and 15 Plus That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_15_That_Randomly_Restarts
+
+How To Fix an IPhone 15 Pro and 15 Pro Max That Randomly Restarts [How To Fix an iPhone 15 Pro That Randomly Restarts](How_To_Fix_an_iPhone_15_Pro_That_Randomly_Restarts.md)
+
+How To Fix an iPhone SE 2020 That Randomly Restarts https://repair.wiki/w/How_To_Fix_an_iPhone_SE_2020_That_Randomly_Restarts
+
+How To Fix an iPhone SE 2020 with No Touch and/or 3 Min Restart (Mic1 Problem) https://repair.wiki/w/How_To_Fix_an_iPhone_SE_2020_with_No_Touch_and/or_3_Min_Restart_(Mic1_Problem)
+
+### Common Panic Log Messages
+Also, here are some common panic log faults, that may help you narrow down the issue:
+
+  - iPhone 12 series and older:**
+
+mic1 - charging port flex (SE 2020 could be a board issue)|
+
+mic2 - power button flex
+
+prs0 - charging port flex
+
+tg0b - battery, battery connector or battery data line
+
+ans2 - NAND related
+
+  - iPhone 13 series:**
+
+0x800 - charging port flex
+
+0x1000 - proximity flex
+
+0x1800 - charging port flex & proximity flex cable
+
+0x400 - sandwich separation
+
+  - iPhone 14 & iPhone 14 Plus:**
+
+0x400000 - Wireless Charging Flex (Back Glass)
+
+0x100000 - Charging Port Flex
+
+0x500000 - Check the taptic engine as well as the charging port flex or a communication problem with the battery
+
+0x200000 - Proximity Flex Cable
+
+  - iPhone 14 Pro & iPhone 14 Pro Max:**
+
+0x80000 - proximity flex
+
+0x40000 - charging port flex
+
+0x10000 - power button flex
+
+0x20000 - sandwich separation
+
+  - iPhone 15 & iPhone 15 Plus:**
+
+0x200000 - Wireless Charging Flex (Back Glass)
+
+0x80000 - Charging Port Flex
+
+0x100000 - Proximity Flex Cable
+
+  - iPhone 15 Pro & iPhone 15 Pro Max:**
+
+0xa1 - battery
+
+0x300000 - Charging Port Flex
+
+0x400000 - Wireless Charging Flex
+
+0x700000 - Charging Port + Wireless Charging Flex
+
+  - Universal Codes iPhone 13 up Hex + Decimal:**
+
+0x20 (32) — Charging circuit
+
+0x40 (64) — Gas gauge
+
+0x41 (65) — Battery data
+
+0xa1 (161) — Battery sensor
+
+0xa9 (169) — Battery data variant
+
+0x400 (1024) — Gyro
+
+0x800 (2048) — Charge port
+
+0x1000 (4096) — Proximity
+
+0x4000 (16384) — Battery sensor
+
+0x20000 (131072) — Gyro (14 Pro+)
+
+0x40000 (262144) — Charge port (14 Pro+)
+
+0x80000 (524288) — Proximity (14–17)
+
+0x100000 (1048576) — Power button
+
+0x200000 (2097152) — Front sensor / Wireless coil
+
+0x300000 (3145728) — USB‑C (Pro models)
+
+0x400000 (4194304) — Wireless coil
+
+0x500000 (5242880) — Battery

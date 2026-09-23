@@ -1,0 +1,19 @@
+<!--
+title:        File:Switch-oled-display-connector-diode-readings.jpg
+pageid:       4709
+revid:        7791
+source:       https://repair.wiki/w/File:Switch-oled-display-connector-diode-readings.jpg
+history:      https://repair.wiki/index.php?title=File:Switch-oled-display-connector-diode-readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7791
+last_edited:  2025-06-19T01:36:28Z
+contributors: KevinShort
+anonymous_edits: 0
+categories:   
+sha1:         5b51235119d5f7c7229d4b16de145cffacbe3d34
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Diode mode measurements of the display connector and game cartridge reader connector on the Switch OLED

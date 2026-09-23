@@ -1,0 +1,18 @@
+<!--
+title:        File:Rose-location-boardview.png
+pageid:       9640
+revid:        13937
+source:       https://repair.wiki/w/File:Rose-location-boardview.png
+history:      https://repair.wiki/index.php?title=File:Rose-location-boardview.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13937
+last_edited:  2026-02-12T04:24:17Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         9bb2a1c7664380f4b803a5db155690cbe57bab80
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Rose-location-boardview

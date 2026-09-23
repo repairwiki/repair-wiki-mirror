@@ -1,0 +1,134 @@
+<!--
+title:        Speed up Legacy Computers with Special Linux Distros
+pageid:       3398
+revid:        6276
+source:       https://repair.wiki/w/Speed_up_Legacy_Computers_with_Special_Linux_Distros
+history:      https://repair.wiki/index.php?title=Speed_up_Legacy_Computers_with_Special_Linux_Distros&action=history
+permalink:    https://repair.wiki/index.php?oldid=6276
+last_edited:  2025-04-22T08:26:46Z
+contributors: Harald3DCV
+anonymous_edits: 0
+categories:   Computer/All In Ones, Explanatory guide, Laptops
+sha1:         146a7045f55866579098b6f96a9226539c369f56
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Type=Laptops, Computers
+|Difficulty=1. Easy
+}}
+Do you have an old computer that's been collecting dust since you upgraded to a newer model? Don't throw it away just yet! With the help of Linux, you can breathe new life into your old computer and make it run faster than ever before. In this guide, we'll show you how to get started with Linux and recommend some of the best distributions to use for legacy hardware.
+
+== Why Use Linux on Old Computers? ==
+Let's try to escape the buy-new-soon-to-be-outdated-stuff mentality businesses are encouraging. Linux is awesome for this purpose because:
+
+* Highly customizable: Linux allows you to optimize your system for low-end hardware, making it a great choice for older machines that may struggle with modern operating systems.
+* Hundreds of distributions: There are hundreds of Linux distributions available, and many are designed specifically for older hardware.
+* Security and stability: Linux is renowned for its security and stability, which is important when running older hardware that may be more susceptible to crashes and other issues.
+* Environmentally friendly: Reviving an old computer with Linux is an environmentally friendly choice that reduces e-waste and helps extend the lifespan of existing technology.
+
+== Common Concerns about Linux ==
+Many people are hesitant to switch to Linux because they believe it requires expert knowledge. However, this is a common misconception. There are many user-friendly Linux distributions that are designed specifically for users with little or no experience with Linux.
+
+For example, Zorin OS is a Linux distribution that is targeted specifically for users who have previously used Windows. It has a Windows-like interface and comes with many pre-installed applications that are commonly used on Windows.
+
+Chrome OS Flex is another Linux distribution that is extremely user-friendly. It is designed to run on Chromebooks and other devices, and its interface is very similar to that of Android. It is designed to be easy to use, even for those who have no experience with Linux.
+
+Finally, if your device is mainly used for surfing the web, the operating system doesn't matter that much in the end. As long as your browser of choice is available on Linux, you should have no trouble browsing the web.
+
+== Getting Started with Linux ==
+Before you can start using Linux on your old computer, you'll need to download and install a Linux distribution. Here's how to get started:
+
+# Prepare a USB drive with at least 4 GB of storage. This will be used to install the Linux distribution onto your computer.
+# Download [https://rufus.ie Rufus] (for Windows) or [https://etcher.balena.io/ Etcher] for creating a bootable USB drive.
+# Choose a Linux distribution that's suitable for your hardware (see below for recommendations).
+# Flash your USB drive with the downloaded Linux distribution image using Rufus or Etcher.
+# (Optional) Most Linux distributions allow you to try them out via booting directly from the USB drive. You can test the distribution this way before installing it on your computer.
+# Backup important data of the target system. It's also recommended to backup data for dual boot installations, in case something goes wrong unexpectedly.
+# Install the new operating system (see the linked installation guide for the distribution you choose).
+
+== Recommended Linux Distributions ==
+There are many Linux distributions to choose from, but not all of them are suitable for old or low-spec hardware. Here are some of our top recommendations:
+{| class="wikitable"
+!Distribution
+!Advantages
+!Hardware Requirements
+!Download
+!Installation Guide
+|-
+|Zorin OS Core
+|Modern design,
+Windows 10-like user interface,
+
+easy dual boot support
+|CPU: 1 GHz Dual Core – Intel/AMD 64-bit processor
+RAM: 1.5 GB
+
+Storage: 15 GB
+
+More info [https://help.zorin.com/docs/getting-started/system-requirements/ here].
+|[https://zorin.com/os/download/ Download]
+|[https://help.zorin.com/docs/getting-started/install-zorin-os/ Installation Guide]
+|-
+|ChromeOS Flex
+|Modern design,
+very user-friendly (like Android),
+
+very robust (but no native app support)
+
+'''BUT''' it's not Free and Open Source Software (FOSS), so Google could ditch support anytime.
+|RAM: 4 GB
+Storage: 16 GB
+
+Hardware Components made before 2010 might result in a poor experience
+
+More info [https://support.google.com/chromeosflex/answer/11552529?hl=en here].
+|[https://chromeos.google/products/chromeos-flex/ Download]
+|[https://support.google.com/chromeosflex/?hl=en+https://support.google.com/chromeosflex/ Installation Guide]
+|-
+|Linux Lite
+|Very low hardware requirements
+|CPU: 1.5 GHz processor
+RAM: 1 GB
+
+Storage: 8 GB
+
+More info [https://www.linuxliteos.com/manual/start.html here].
+|[https://www.linuxliteos.com/download.php#current Download]
+|[https://www.linuxliteos.com/manual/install.html Installation Guide]
+|-
+|Puppy Linux
+|Ultra-low hardware requirements
+|'''32-bit version:'''CPU: Single-core Pentium 4 or equivalent
+RAM: 512 MB
+
+'''64-bit version:'''
+
+CPU: Dual-core
+
+RAM: 1 GB
+|[https://puppylinux-woof-ce.github.io/ Download]
+|[https://puppylinux-woof-ce.github.io/install.html Installation Guide]Also check out [https://github.com/noryb009/lick LICK].
+|-
+|Lubuntu
+|Popular (official) Ubuntu flavor,
+with lower hardware requirements.
+|'''Unofficial Requirements:'''CPU: 1 GHz
+RAM: 1 GB
+
+Storage: 5 GB
+
+More info [https://en.ubunlog.com/what-are-the-requirements-to-install-lubuntu/ here].
+|[https://lubuntu.me/downloads/ Download]
+|[https://manual.lubuntu.me/stable/ Installation Guide]
+|}
+Note: Distros like [http://www.tinycorelinux.net/ Tiny Core Linux] have even lower requirements, but they might not be as suitable to a broad user base.
+
+== Common issues ==
+
+* tbd
+
+[[Category:Laptops]]
+[[Category:Computer/All_In_Ones]]

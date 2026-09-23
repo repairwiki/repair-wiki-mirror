@@ -1,0 +1,18 @@
+<!--
+title:        File:Xbox One X-INPUT - HDMI-Mechnic-Readings.jpg
+pageid:       1595
+revid:        3464
+source:       https://repair.wiki/w/File:Xbox_One_X-INPUT_-_HDMI-Mechnic-Readings.jpg
+history:      https://repair.wiki/index.php?title=File:Xbox_One_X-INPUT_-_HDMI-Mechnic-Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3464
+last_edited:  2024-02-27T07:27:17Z
+contributors: Ben ProFixerr
+anonymous_edits: 0
+categories:   
+sha1:         26abaaaa945d6e66d25037d810d7f665545de16e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Xbox One X - HDMI IN Port Diode Mode Readings through Mechanic T-824 Tester

@@ -1,0 +1,18 @@
+<!--
+title:        File:Craked Solder joint.png
+pageid:       4840
+revid:        7959
+source:       https://repair.wiki/w/File:Craked_Solder_joint.png
+history:      https://repair.wiki/index.php?title=File:Craked_Solder_joint.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7959
+last_edited:  2025-06-22T22:46:37Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         df3c27aed0df911f866028da7484f26486395745
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Craked Solder joint

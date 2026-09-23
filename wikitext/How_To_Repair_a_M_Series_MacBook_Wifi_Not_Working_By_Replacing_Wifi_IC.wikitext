@@ -1,0 +1,92 @@
+<!--
+title:        How To Repair a M Series MacBook Wifi Not Working By Replacing Wifi IC
+pageid:       8326
+revid:        12206
+source:       https://repair.wiki/w/How_To_Repair_a_M_Series_MacBook_Wifi_Not_Working_By_Replacing_Wifi_IC
+history:      https://repair.wiki/index.php?title=How_To_Repair_a_M_Series_MacBook_Wifi_Not_Working_By_Replacing_Wifi_IC&action=history
+permalink:    https://repair.wiki/index.php?oldid=12206
+last_edited:  2025-10-01T20:08:52Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Air A2337, Repair guides for MacBook Pro A2338, Repair guides for MacBook Pro A2442, Repair guides for MacBook Pro A2992, Repair guides for Macbook Air A2681, Repair guides for Macbook Air A3113
+sha1:         34f3b436dcd23432c94138e431465aafeee6c8fe
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Air A2337, Macbook Air A2681, Macbook Air A3113, MacBook Pro A2338, MacBook Pro A2442, MacBook Pro A2992
+|Affects parts=Logic Board, WiFi IC
+|Needs equipment=Soldering Iron, Hot Air Station, LB WiFi IC, LB Programmer, LB Software
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+NOTE: Download LB Wifi OFF Software: https://fileoss.lbtool.net/webfile/lbtool-tool/LB-WIFI-OFF-1.0.0.zip
+
+== Problem description ==
+On MacBook models with M-series chipset (M1/M2/M3/M4), Wi-Fi can stop working due to a failed Wi-Fi IC. Even after macOS reinstall, the machine may show “Exclamation Mark on Wifi Toggle” because the Wi-Fi IC is paired to the logic board via ECID binding. Replacing the IC requires unbinding and rebinding the Wi-Fi chip to the MacBook.
+== Symptoms ==
+
+* Wi-Fi greyed out in macOS.
+* "Exclamation mark" on WiFi
+* Bluetooth may also fail in some cases.
+* macOS reinstall, PRAM/SMC reset do not fix the issue.<br />[[File:Mac-wifi-bad.png|center|thumb|WiFi Not Working (Figure 1) ]]
+
+=== Diagnostic Steps ===
+
+# Boot macOS → check if Wi-Fi toggle is unavailable.
+# Enter System Information > Wi-Fi → confirm hardware not detected.
+# Ensure issue is not antenna or connector related (inspect for corrosion/damage).
+# Verify power rails to Wi-Fi IC are present. If power is correct but IC is still not enumerating, proceed with replacement & rebinding.<br />
+=== Repair Steps ===
+
+==== Software Setup ====
+
+# Install [https://fileoss.lbtool.net/webfile/lbtool-tool/LB-WIFI-OFF-1.0.0.zip Luban software]  (LB-WIFI-OFF) using a pendrive.
+# Launch Luban software with internet connection (mobile hotspot works).
+# The software will unbind Wi-Fi and read the MacBook ECID automatically.[[File:Mac-wifi-unbind-successful.png|center|thumb|Successful WiFi Unbind]]
+# Verify in “About This Mac” that serial number is correct.[[File:Mac-wifi-unbind-sn-match.png|center|thumb|Verify Serial No. is same after unbind.]]
+# Shut down MacBook.
+
+==== Board Work ====
+6. Disconnect battery, remove logic board from chassis.
+
+7. Remove Wi-Fi IC with hot air.
+[[File:Mac-wifi-removal.png|center|thumb|Remove MacBook WiFi IC]]
+8. Clean solder pads using wick + flux until smooth.
+
+==== Programming the Wi-Fi IC ====
+9. Connect Luban programmer with Wi-Fi IC reading module.
+
+10. Place Wi-Fi IC in the module.
+[[File:Mac-wifi-programmer-install.png|center|thumb|WiFi IC in LB Tool]]
+11. Open Luban tool → wait for IC to be read.
+[[File:Lbtool-wifi-reading.png|center|thumb|New LB WiFi IC reading]]
+12. Input the MacBook serial number (recorded earlier).
+
+13. Click Check Now.
+[[File:Mac-wifi-serial-input.png|center|thumb|Input Serial Number]]
+14. After verifying, Click Write Server Data.
+[[File:Write-server-data.png|center|thumb|Write Server Data]]
+15. Verify if written info (Serial) is correct.
+
+16. Confirm write.
+[[File:Verify-serial.png|center|thumb|Verify Serial Number]]
+17. Wait for successful confirmation.
+
+==== Reinstallation ====
+18. Reball Wi-Fi IC with correct stencil.
+
+19. Install IC back onto the logic board.
+
+20. Clean with IPA, inspect under microscope.
+
+21. Reassemble MacBook, reconnect battery.
+
+==== Verification ====
+
+* Boot into macOS.
+* Wi-Fi should now be detected and toggle enabled.
+* System Information should show Wi-Fi hardware with correct addresses.
+* Connect to a Wi-Fi network and run stress test (download/upload).[[File:Wifi-fixed-successfully.png|center|thumb|WiFi fixed successfully.]]

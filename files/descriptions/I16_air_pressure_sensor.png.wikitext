@@ -1,0 +1,18 @@
+<!--
+title:        File:I16 air pressure sensor.png
+pageid:       5308
+revid:        8522
+source:       https://repair.wiki/w/File:I16_air_pressure_sensor.png
+history:      https://repair.wiki/index.php?title=File:I16_air_pressure_sensor.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8522
+last_edited:  2025-07-06T00:10:58Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         b2be7264576467d1e2820a215e73585c308b38cb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 16 Air Pressure Sensor

@@ -1,0 +1,18 @@
+<!--
+title:        File:IMG 20220727 194056.jpg
+pageid:       9148
+revid:        13279
+source:       https://repair.wiki/w/File:IMG_20220727_194056.jpg
+history:      https://repair.wiki/index.php?title=File:IMG_20220727_194056.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13279
+last_edited:  2025-12-16T19:15:12Z
+contributors: RoseHunter
+anonymous_edits: 0
+categories:   
+sha1:         a72a05fd46504a0a483067ef018d2fc9e7e35f60
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Battery guts

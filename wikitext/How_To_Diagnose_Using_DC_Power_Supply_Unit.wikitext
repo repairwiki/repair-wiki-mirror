@@ -1,0 +1,22 @@
+<!--
+title:        How To Diagnose Using DC Power Supply Unit
+pageid:       2322
+revid:        4747
+source:       https://repair.wiki/w/How_To_Diagnose_Using_DC_Power_Supply_Unit
+history:      https://repair.wiki/index.php?title=How_To_Diagnose_Using_DC_Power_Supply_Unit&action=history
+permalink:    https://repair.wiki/index.php?oldid=4747
+last_edited:  2024-08-31T02:20:14Z
+contributors: Cklong46
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for DC Power Supply, Missing device page
+sha1:         f35143847143b8212270793a5dedbe36c0548b58
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=DC Power Supply
+|Type=Troubleshooting/Diagnostics
+|Difficulty=2. Medium
+}}

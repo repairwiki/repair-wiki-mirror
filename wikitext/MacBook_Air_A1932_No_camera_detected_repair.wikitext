@@ -1,0 +1,62 @@
+<!--
+title:        MacBook Air A1932 No camera detected repair
+pageid:       166
+revid:        447
+source:       https://repair.wiki/w/MacBook_Air_A1932_No_camera_detected_repair
+history:      https://repair.wiki/index.php?title=MacBook_Air_A1932_No_camera_detected_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=447
+last_edited:  2023-10-29T15:17:14Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Air A1932, Stubs
+sha1:         fd7d9068fdf89f4530a8090d3a45317950c86854
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Air A1932
+|Affects parts=Motherboard, Camera, Display assembly
+|Needs equipment=multimeter, soldering iron, soldering station, thermal camera
+|Type=Soldering, Software
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Addressing issues with MacBook  A1932 with logic board 820-01521 not detecting the camera.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+* Camera not detected
+* Possible burned or exploded L8570 filter on TCON board
+
+==Solution==
+===Diagnostic Steps===
+====Check L8570 Continuity====
+*Use a multimeter in continuity mode to check L8570 (Figure 1).
+*Normal reading should be close to 0.01.
+*If L8570 is blown or burned, proceed to the "L8570 blown or visibly burned repair steps" below.
+====Test with Known Good Display====
+*Verify camera function using a KNOWN GOOD display assembly.
+*If the camera works with a different display, the original display might be faulty.
+*Make sure to check L8570 before diagnosing the display issue.
+===Repair Steps===
+====Camera Works with Known Good Display====
+*If camera works with a known good test display, replace the display assembly.
+====L8570 Blown or Visibly Burned====
+*Understand that L8570 failure indicates a catastrophic short within the TCON board of the display or a melted/corroded display cable/connector.
+*Repair L8570 only after addressing the display issue, as L8570 might fail again if the display issue persists.
+*When replacing L8570, address corresponding pad and trace damage.
+*Use 36 or 37 AWG enamel coated copper wire for jumper wires due to webcam and ambient light sensor power requirements.
+*The closest recommended jumper point for the input side of the filter (PP5v_G3S) is R7100/C7296 if the traces and vias for PP5v_G3S are not damaged in that area.
+*Apply conformal coating to jumper wire.
+*Use a 120 Ohm ferrite filter rated for 1.5 amps (402 package size).
+*After replacing L8570 and addressing trace issues, replace the display assembly or repair it by replacing damaged cables/connectors.
+====No Camera Function, L8570 Normal====
+*Attempt to restore T2/BridgeOs firmware via Apple Configurator 2 by entering DFU mode.
+*Ensure your Mac is on the latest macOS version.
+*Follow Apple's support article on [https://support.apple.com/guide/apple-configurator-mac/revive-or-restore-an-intel-based-mac-apdebea5be51/mac reviving or restoring T2/BridgeOs firmware].
+*If no camera function after firmware revive, and other causes are ruled out, U8595 might be faulty, or there could be trace/resistor issues between the camera connector/U8595 or between U8595 and the T2 chip.
+*A hardware issue with the T2 chip might also cause camera detection problems.

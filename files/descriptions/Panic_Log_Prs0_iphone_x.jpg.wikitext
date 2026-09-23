@@ -1,0 +1,18 @@
+<!--
+title:        File:Panic Log Prs0 iphone x.jpg
+pageid:       252
+revid:        682
+source:       https://repair.wiki/w/File:Panic_Log_Prs0_iphone_x.jpg
+history:      https://repair.wiki/index.php?title=File:Panic_Log_Prs0_iphone_x.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=682
+last_edited:  2023-11-05T16:53:19Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         97ca1538cc7416aab34f5ef804cd05d892b994ff
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Panic Log Prs0 iphone x

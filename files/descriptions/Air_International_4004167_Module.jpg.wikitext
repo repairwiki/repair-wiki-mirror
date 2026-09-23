@@ -1,0 +1,18 @@
+<!--
+title:        File:Air International 4004167 Module.jpg
+pageid:       2163
+revid:        4501
+source:       https://repair.wiki/w/File:Air_International_4004167_Module.jpg
+history:      https://repair.wiki/index.php?title=File:Air_International_4004167_Module.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4501
+last_edited:  2024-07-25T06:38:43Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         369565d3db69fd7a6dd4fc577325cc04da73e2ee
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+This photo show cases the label on a Air International 4004167 power seat module

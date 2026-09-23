@@ -1,0 +1,18 @@
+<!--
+title:        File:PS4 HEATSINK.png
+pageid:       8889
+revid:        12925
+source:       https://repair.wiki/w/File:PS4_HEATSINK.png
+history:      https://repair.wiki/index.php?title=File:PS4_HEATSINK.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12925
+last_edited:  2025-11-30T05:22:08Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         78f9ca20b5636b38d83de0fd5f1f2f84d85a43cc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PS4 HEATSINK

@@ -1,0 +1,45 @@
+<!--
+title:        MacBook Air A1932
+pageid:       591
+revid:        10295
+source:       https://repair.wiki/w/MacBook_Air_A1932
+history:      https://repair.wiki/index.php?title=MacBook_Air_A1932&action=history
+permalink:    https://repair.wiki/index.php?oldid=10295
+last_edited:  2025-08-16T22:43:30Z
+contributors: ASRepairs, Tiago199988, Dorkydanny
+anonymous_edits: 1
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         3687feac919fb7a3625fa1a31f767c992b6c7c0e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1932
+|Device type=Laptop
+}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Macbook-air-A1932-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+Board 820-01521 Schematic: https://cdn.dorkydanny.org/MacBook/A1932/820-01521.brd
+
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

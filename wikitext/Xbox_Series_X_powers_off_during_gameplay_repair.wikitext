@@ -1,0 +1,45 @@
+<!--
+title:        Xbox Series X powers off during gameplay repair
+pageid:       1187
+revid:        2713
+source:       https://repair.wiki/w/Xbox_Series_X_powers_off_during_gameplay_repair
+history:      https://repair.wiki/index.php?title=Xbox_Series_X_powers_off_during_gameplay_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2713
+last_edited:  2024-01-16T11:42:18Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Xbox Series X, Stubs
+sha1:         70fc71407078fb4cb24111c7a2628218c2749998
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Xbox Series X
+|Affects parts=SSD
+|Needs equipment=TR8 Torx Security Screwdriver
+Tweezers
+Spudger
+M.2 SSD to USB enclosures or Sabrient EC-SSD2 cloning device
+|Type=Part replacement
+|Difficulty=2. Medium
+}}
+==Problem description==
+System turns off after starting gameplay.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*System turns off after starting gameplay.
+
+==Solution==
+Failing SSD, clone the original M.2 SSD to another M.2 SSD.
+
+[https://www.ifixit.com/Guide/Xbox+Series+X+SSD+Replacement/141752 Xbox Series X SSD Replacement iFixit Guide] 
+
+[https://www.ifixit.com/products/xbox-series-x-ssd Xbox Series X SSD Replacement Part (ifixit.com)] 
+
+The SSD can be located and ordered from other places as well, even from a broken Xbox Series X. 
+
+'''Note''': Internal Xbox Series X SSD drives can only be used as internal SSDs in other Xbox Series X consoles if they are cloned. Xbox Series X SSD drives will not work in Xbox Series S if they are cloned from and Xbox Series X beforehand.

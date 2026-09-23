@@ -1,0 +1,45 @@
+<!--
+title:        WH-1000XM4
+pageid:       1450
+revid:        3169
+source:       https://repair.wiki/w/WH-1000XM4
+history:      https://repair.wiki/index.php?title=WH-1000XM4&action=history
+permalink:    https://repair.wiki/index.php?oldid=3169
+last_edited:  2024-01-23T02:06:03Z
+contributors: ASRepairs, KevinShort
+anonymous_edits: 0
+categories:   AV Equipments, Device, Sony, Sony AV Equipments, Stubs
+sha1:         2e47bdacf9b8ae7b53ff737a1514c2fd23b50993
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Sony
+|Device release date=2020-08-18
+|Device type=AV Equipment
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

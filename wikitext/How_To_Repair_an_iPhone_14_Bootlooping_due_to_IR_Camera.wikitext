@@ -1,0 +1,65 @@
+<!--
+title:        How To Repair an iPhone 14 Bootlooping due to IR Camera
+pageid:       8504
+revid:        12404
+source:       https://repair.wiki/w/How_To_Repair_an_iPhone_14_Bootlooping_due_to_IR_Camera
+history:      https://repair.wiki/index.php?title=How_To_Repair_an_iPhone_14_Bootlooping_due_to_IR_Camera&action=history
+permalink:    https://repair.wiki/index.php?oldid=12404
+last_edited:  2025-10-21T04:21:50Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 14, Stubs
+sha1:         b2d3e36ae47fa7d568e43f0d7c9525530add74c8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPhone 14
+|Affects parts=Front Camera, Main Logic Board
+|Needs equipment=Screwdrivers, Opening Tools
+|Type=Parts Replacement
+|Difficulty=2. Medium
+}}
+[[File:Iphone 14 frontcam conn.png|thumb|iPhone 14 TrueDepth Camera Assembly]]
+
+== Problem description ==
+iPhone 14 continuously bootloops. The issue is traced to a shorted or malfunctioning front IR camera flex within the TrueDepth assembly, which causes abnormal line behavior on the front camera rail.
+== Symptoms ==
+
+* Device auto-powers on immediately when connected to DCPS (without user input).
+* DCPS shows normal current draw spike.
+* Looping restart sequence.
+
+== Solution ==
+Replace the front camera/IR camera assembly (TrueDepth module).
+[[File:Ip14 front camera flex boardview.png|thumb|iPhone 14 Front Camera Flex - Boardview]]
+
+=== Diagnostic Steps ===
+
+# Visual Inspection
+#* Inspect front camera flex for bends, liquid damage, especially near the IR camera sensor area.
+# DCPS Behavior Check
+#* Connect phone to DCPS.
+#* Observe auto-boot behavior. If device powers on immediately without power key press → suspect peripheral short.
+#* Note current draw pattern: repeating cycles or no stable idle indicates bootloop.
+# Isolation Test
+#* Unplug the front camera/IR flex → reconnect battery and observe behavior.
+#* If phone now boots fully into iOS, fault confirmed in front camera/IR module.
+# Substitute Test (if available)
+#* Connect known-good front camera assembly and check if auto-boot and bootloop are resolved.<br />
+
+[[File:Ip14 front camera flex.png|thumb|iPhone 14 Front Camera Flex Connector]]
+
+=== Repair Steps ===
+
+# Power off and disconnect battery.
+# Locate front camera/TrueDepth assembly flex.
+# Disconnect front camera flex and test boot with DCPS or charger.
+# Once confirmed device boots normally, replace the front camera/IR module.
+# Reassemble, connect battery, and verify stable boot.
+# Test all functions (camera, proximity, Face ID if paired original module available).
+
+<blockquote>Note: Face ID will remain disabled unless the replacement module is re-paired with Apple calibration tools (only possible through authorized channels).</blockquote>

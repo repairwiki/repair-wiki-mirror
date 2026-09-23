@@ -1,0 +1,18 @@
+<!--
+title:        File:Inspection2.jpg
+pageid:       527
+revid:        1156
+source:       https://repair.wiki/w/File:Inspection2.jpg
+history:      https://repair.wiki/index.php?title=File:Inspection2.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1156
+last_edited:  2023-11-15T16:47:33Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         74b290fe78237c9c9633a082bcac3a6e4df1b90f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Inspection2

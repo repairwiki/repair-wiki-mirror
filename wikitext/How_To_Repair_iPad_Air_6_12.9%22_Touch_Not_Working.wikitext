@@ -1,0 +1,84 @@
+<!--
+title:        How To Repair iPad Air 6 12.9" Touch Not Working
+pageid:       9675
+revid:        13986
+source:       https://repair.wiki/w/How_To_Repair_iPad_Air_6_12.9%22_Touch_Not_Working
+history:      https://repair.wiki/index.php?title=How_To_Repair_iPad_Air_6_12.9%22_Touch_Not_Working&action=history
+permalink:    https://repair.wiki/index.php?oldid=13986
+last_edited:  2026-02-18T02:48:52Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPad Air 6, Stubs
+sha1:         6898e6c1ccc5da619d43e325154b18477da4e60f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=IPad Air 6
+|Affects parts=Main Logic Board
+|Needs equipment=Hot Air Station, Soldering Iron, Solder Paste, De-Soldering Wick, Tweezers
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+iPad Air 6 presents with no touch response, while the display image appears normal. Replacing the display with a known-good screen does not restore touch functionality, confirming a logic board issue.
+
+The most common cause in this case is a shorted capacitor on the touch signal line, preventing proper communication between the touch controller and digitizer.
+[[File:Ipad-air-13"-no-touch.png|thumb|iPad Air 6 12.9" Shorted Touch Capacitor on Board]]
+
+== Symptoms ==
+
+* Display works normally
+* No touch response at all
+* No ghost touch
+* Known-good display does not fix issue
+* Device boots and functions otherwise normally
+
+[[File:Ipad-air-13"-no-touch-boardview.png|thumb|iPad Air 6 12.9" Shorted Touch Capacitor on Boardview]]
+
+== Solution ==
+=== Diagnostic Steps ===
+
+==== 1. Confirm Display Is Not the Issue ====
+
+* Install a known-good display
+* If touch still does not work → proceed to board diagnostics
+
+----
+
+==== 2. Check Touch Line in Diode / Resistance Mode ====
+
+* Identify touch-related rail at FPC connector
+* Measure in diode or resistance mode
+* Compare to known-good board if available
+
+❌ Near 0 reading indicates short to ground
+----
+
+==== 3. Locate the Short Using Voltage Injection ====
+
+# Set DC power supply to:
+#* Low voltage (1V–2V)
+#* Current limit ~1–2A
+# Inject voltage into the shorted touch rail
+# Apply rosin/flux over suspected capacitor area
+# Observe which component heats up first
+
+The shorted capacitor will:
+
+* Warm up quickly
+* Melt rosin faster than surrounding components<br />
+=== Repair Steps ===
+
+# Disconnect battery
+# Inject voltage and identify faulty capacitor
+# Apply flux
+# Remove shorted capacitor carefully
+# Clean pads and inspect for damage
+# Install matching capacitor from donor board
+# Inspect solder joints under microscope
+# Reassemble device
+# Test touch functionality

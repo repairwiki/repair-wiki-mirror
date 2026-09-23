@@ -1,0 +1,18 @@
+<!--
+title:        File:HCS-contactor.jpg
+pageid:       2167
+revid:        4508
+source:       https://repair.wiki/w/File:HCS-contactor.jpg
+history:      https://repair.wiki/index.php?title=File:HCS-contactor.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4508
+last_edited:  2024-07-26T02:20:51Z
+contributors: ChrisC
+anonymous_edits: 0
+categories:   
+sha1:         0cfcf8fc8c783cead7e06e3bf4d304f24ee44334
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+relay / contactor for HCS series EVSE

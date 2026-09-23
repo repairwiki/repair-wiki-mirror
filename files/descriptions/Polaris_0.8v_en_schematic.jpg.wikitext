@@ -1,0 +1,18 @@
+<!--
+title:        File:Polaris 0.8v en schematic.jpg
+pageid:       395
+revid:        877
+source:       https://repair.wiki/w/File:Polaris_0.8v_en_schematic.jpg
+history:      https://repair.wiki/index.php?title=File:Polaris_0.8v_en_schematic.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=877
+last_edited:  2023-11-07T19:31:08Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         1e0778f1a429e43c6327c48053672ac9328cc21c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Polaris 0.8v en schematic

@@ -1,0 +1,18 @@
+<!--
+title:        File:Read-neo-programmer.png
+pageid:       9135
+revid:        13254
+source:       https://repair.wiki/w/File:Read-neo-programmer.png
+history:      https://repair.wiki/index.php?title=File:Read-neo-programmer.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13254
+last_edited:  2025-12-15T13:24:50Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         9537afe13deab5b216713ff49e855d4ebff011cd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Read-neo-programmer

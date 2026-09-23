@@ -1,0 +1,17 @@
+<!--
+title:        File:SNES SNSP-1CHIP-03 USA BOTTOM WITHOUT PARTS PCB SCAN 1200DPI ATV.jpg
+pageid:       1560
+revid:        3395
+source:       https://repair.wiki/w/File:SNES_SNSP-1CHIP-03_USA_BOTTOM_WITHOUT_PARTS_PCB_SCAN_1200DPI_ATV.jpg
+history:      https://repair.wiki/index.php?title=File:SNES_SNSP-1CHIP-03_USA_BOTTOM_WITHOUT_PARTS_PCB_SCAN_1200DPI_ATV.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3395
+last_edited:  2024-02-11T16:38:42Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

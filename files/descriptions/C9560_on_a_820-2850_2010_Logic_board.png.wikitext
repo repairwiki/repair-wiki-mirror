@@ -1,0 +1,18 @@
+<!--
+title:        File:C9560 on a 820-2850 2010 Logic board.png
+pageid:       2040
+revid:        4316
+source:       https://repair.wiki/w/File:C9560_on_a_820-2850_2010_Logic_board.png
+history:      https://repair.wiki/index.php?title=File:C9560_on_a_820-2850_2010_Logic_board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4316
+last_edited:  2024-07-14T04:41:55Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         bb6da42c4def38add926880e55effef77bd569fd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+boardview view of C9560 on a 820-2850 2010 Logic board

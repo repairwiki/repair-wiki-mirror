@@ -1,0 +1,54 @@
+<!--
+title:        Sinamics G120C
+pageid:       1992
+revid:        4248
+source:       https://repair.wiki/w/Sinamics_G120C
+history:      https://repair.wiki/index.php?title=Sinamics_G120C&action=history
+permalink:    https://repair.wiki/index.php?oldid=4248
+last_edited:  2024-07-09T10:13:01Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Siemens, Siemens Industrial Devices, Stubs
+sha1:         89d813d7941a3728f6d7d73f5e20755d6e10771f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Siemens
+|Has code name=6SL3210-1KE14-3AF2
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240709 114230.jpg
+File:20240709 114234.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240709 114943.jpg
+File:20240709 114956.jpg
+File:20240709 115012.jpg
+File:20240709 115002.jpg
+File:20240709 115022.jpg
+File:20240709 115007.jpg
+File:20240709 115101.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

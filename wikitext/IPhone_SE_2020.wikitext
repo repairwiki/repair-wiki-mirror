@@ -1,0 +1,46 @@
+<!--
+title:        IPhone SE 2020
+pageid:       1403
+revid:        10354
+source:       https://repair.wiki/w/IPhone_SE_2020
+history:      https://repair.wiki/index.php?title=IPhone_SE_2020&action=history
+permalink:    https://repair.wiki/index.php?oldid=10354
+last_edited:  2025-08-17T17:26:45Z
+contributors: Tiago199988, KevinShort
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         887a4d4c4feaf7212eb7f6d0de9c9f628e1d8f7e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2275, A2296, A2298
+|Device release date=2020-04-24
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphonese2020-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPhone SE 2020 PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

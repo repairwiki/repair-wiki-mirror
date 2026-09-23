@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 14 Pro and Pro Max Board ID Resistor.png
+pageid:       1622
+revid:        3531
+source:       https://repair.wiki/w/File:IPhone_14_Pro_and_Pro_Max_Board_ID_Resistor.png
+history:      https://repair.wiki/index.php?title=File:IPhone_14_Pro_and_Pro_Max_Board_ID_Resistor.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3531
+last_edited:  2024-03-01T21:54:02Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         e2c3bfda35076dc4a432b514823a9ce1316ef61e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 14 Pro and Pro Max share the same top board, with only 1 resistor being different. This image shows where the Board ID resistor is located & what value it must be so it can be use for both iPhone 14 Pro and iPhone 14 Pro Max.

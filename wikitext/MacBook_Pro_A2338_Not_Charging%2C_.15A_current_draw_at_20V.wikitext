@@ -1,0 +1,164 @@
+<!--
+title:        MacBook Pro A2338 Not Charging, .15A current draw at 20V
+pageid:       9332
+revid:        13663
+source:       https://repair.wiki/w/MacBook_Pro_A2338_Not_Charging,_.15A_current_draw_at_20V
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2338_Not_Charging,_.15A_current_draw_at_20V&action=history
+permalink:    https://repair.wiki/index.php?oldid=13663
+last_edited:  2026-01-05T06:09:52Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A2338, Stubs
+sha1:         4e6538b44319e0894e9924e8fcd6da134ceaa4a2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=MacBook Pro A2338
+|Affects parts=Logic Board
+|Needs equipment=Hot Air Station, Soldering Iron, Solder Paste, Soldering Wick
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+MacBook logic board 820-02020 powers on and runs normally from a USB-C power supply and a charged battery but does not charge the battery. The system reports inconsistent power source status, and PPBUS remains at ~12.3V even with the battery disconnected.
+
+Standard USB-C and charging components test normal, and replacing common charging-related ICs does not resolve the issue.
+[[File:A2338-detecting-battery.png|thumb|MacBook Pro A2338 - Detecting Battery Normally]]
+[[File:A2338-CURRENT-CONSUMPTION.png|thumb|MacBook Pro A2338 - Current Consumption]]
+
+== Symptoms ==
+
+* Device boots and operates normally
+* Runs from USB-C power supply without battery connected
+* Battery percentage is visible and health data is readable
+* System reports:
+** Power Source: Battery
+** Connected: No
+* Battery does not charge
+* Same behavior with a known-good battery
+* PPBUS_G3H stuck at ~12.3V
+* PPBUS voltage does not drop when battery is disconnected
+* Device does not drain battery while PSU is connected
+
+== Solution ==
+[[File:A2338-normal-battery-health.png|thumb|[[File:A2338-ud200-location.png|thumb|MacBook Pro A2338 - UD200 IC Location]]MacBook Pro A2338 - Normal Battery Health Status]]
+
+=== Diagnostic Steps ===
+
+==== 1. Confirm USB-C Input ====
+
+* Measure:
+** 20V present at USB-C input
+* Verify adapter negotiation is normal
+
+✅ If 20V is present, USB-C controllers are functioning
+----
+
+==== 2. Verify Battery Detection ====
+
+* Confirm:
+** Battery data visible (cycles, health, percentage)
+* Test with a known-good battery
+
+✅ Battery communication OK
+----
+
+==== 3. Measure PPBUS_G3H ====
+
+* Measure PPBUS with battery connected
+* Disconnect battery and re-measure
+* Expected behavior: PPBUS_G3H should be between 12.6 V and 13.1 V
+
+❌ Fault confirmed if:
+
+* PPBUS remains ~12.3V with battery disconnected
+
+----
+
+==== 4. Eliminate Common Charging Components ====
+If already replaced with no change:
+
+* CD3217 (both sides)
+* USB-C ROM
+* Charging IC (ISL)
+* Q5265
+
+→ Charging path is not the root cause
+----
+
+==== 5. Interpret the Data ====
+If all of the following are true:
+
+* USB-C input is correct
+* Battery communication is correct
+* PPBUS does not respond to battery removal
+* Device runs indefinitely on PSU
+
+Then the fault is PPBUS enable/control logic, not charging hardware.
+
+=== Repair Steps ===
+
+==== 1. Confirm the Fault ====
+
+# Connect USB-C power supply
+# Measure PPBUS_G3H
+#* ~12.2–12.4 V present
+# Disconnect the battery
+# Re-measure PPBUS
+#* ❌ PPBUS remains ~12.3 V → fault confirmed
+
+----
+
+==== 2. Eliminate Software Causes ====
+
+# Attempt Revive using Apple Configurator
+# Attempt Restore (only if data is not required)
+
+<blockquote>No change confirms hardware-level fault</blockquote>
+----
+
+==== 3. Rule Out Common Charging Components ====
+Verify or replace known-good:
+
+* CD32xx USB-C controllers
+* USB-C ROM
+* Charging IC (ISL)
+* Q5265
+
+<blockquote>If PPBUS behavior remains unchanged, continue — charging path is not the issue.</blockquote>
+----
+
+==== 4. Identify the Root Cause ====
+
+* UD200 is responsible for PPBUS control and regulation
+* A faulty UD200 can:
+** Hold PPBUS active at ~12.3 V
+** Prevent battery charging
+** Cause incorrect power-source reporting
+
+----
+
+==== 5. Replace UD200 ====
+
+# Remove logic board
+# Apply controlled heat and remove UD200 IC
+# Clean pads and inspect for damage
+# Install known-good UD200
+# Inspect joints under microscope
+
+----
+
+==== 6. Post-Replacement Verification ====
+
+# Reconnect battery
+# Measure PPBUS_G3H
+#* Voltage should now respond to battery connection
+# Connect USB-C adapter
+# Confirm:
+#* Power source switches to Adapter
+#* Battery begins charging
+#* PPBUS rises appropriately during charge

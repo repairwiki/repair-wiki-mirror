@@ -1,0 +1,18 @@
+<!--
+title:        File:Ref 480 12vbus shorts back.jpg
+pageid:       382
+revid:        860
+source:       https://repair.wiki/w/File:Ref_480_12vbus_shorts_back.jpg
+history:      https://repair.wiki/index.php?title=File:Ref_480_12vbus_shorts_back.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=860
+last_edited:  2023-11-07T19:08:54Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         5a186791cb143ef99c923d8704be8cccb85ff6cd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ref 480 12vbus shorts back

@@ -1,0 +1,57 @@
+<!--
+title:        IPhone 15 Pro Max Dead and Not Charging
+pageid:       7642
+revid:        11456
+source:       https://repair.wiki/w/IPhone_15_Pro_Max_Dead_and_Not_Charging
+history:      https://repair.wiki/index.php?title=IPhone_15_Pro_Max_Dead_and_Not_Charging&action=history
+permalink:    https://repair.wiki/index.php?oldid=11456
+last_edited:  2025-09-08T21:13:32Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 15 Pro, Repair guides for iPhone 15 Pro Max
+sha1:         04096da3a5dda21af805e43fab25c9e296c62e38
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 15 Pro, iPhone 15 Pro Max|Affects parts=Main Logic Board|Needs equipment=Soldering Iron, Multimeter, Thermal Camera, Rosin, Hot Air Station, Microscope|Difficulty=4. Specialist|Type=Soldering}}
+
+== Problem description ==
+iPhone 15 Pro Max appears dead and will not turn on or charge when on battery. When connected to a DC Power Supply (DCPS), the device consumes 0.105-0.130 A of current before prompt to boot and boots normally after prompt. Thermal imaging shows the charging IC heating abnormally. [[File:15pro-dcps.png|thumb|Figure 1 - iPhone 15 Pro Max DCPS reading before prompt to boot example]]
+== Symptoms ==
+
+* Device appears dead, no response to power button or charger.
+* No charging indication on screen.
+* Device only boots when connected to DCPS.
+* DCPS reading: 0.105-0.130 A before prompt to boot.
+* Charging IC visibly heats up on a thermal camera.
+
+== Diagnostic Steps ==
+
+# Connect iPhone to DC Power Supply; check current draw:
+#* 0.105-0.130 A pre-boot draw indicates boot sequence initiates.
+# Attempt to prompt the phone to boot using power button.
+# Observe thermal camera or use Rosin to detect heat source:
+#* Charging IC heating confirms failure.
+[[File:Charging-ic-thermal.png|thumb|Figure 2 - Example of charging IC heating up under thermal camera ]]
+
+== Repair Steps ==
+
+# Disassemble Device:
+#* Remove display and disconnect battery.
+# Board-Level Work:
+#* Remove motherboard from housing.
+#* Split Layers
+#* Isolate charging IC area (use thermal shielding).
+# Remove Faulty Charging IC:
+#* Use hot air + flux, carefully lift the IC.
+# Clean and Prepare Pads:
+#* Wick old solder and inspect for pad damage.
+# Install New Charging IC:
+#* Reball, align, and install.
+# Test Booting and Charging:
+#* Connect to DCPS, verify normal reading before prompt to boot.
+#* Check battery charging functionality.
+# Reassemble Device:
+#* Confirm full functionality before sealing.[[File:Ip-15p-charging-ic.png|thumb|Figure 3 - iPhone 15 Pro / Pro Max Charging IC (International Variant)]][[File:Ip-15p-charging-ic-usa.png|thumb|Figure 4 - iPhone 15 Pro/Max Charging IC (USA Variant)]]

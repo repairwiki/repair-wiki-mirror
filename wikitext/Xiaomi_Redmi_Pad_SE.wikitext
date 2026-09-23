@@ -1,0 +1,48 @@
+<!--
+title:        Xiaomi Redmi Pad SE
+pageid:       4658
+revid:        7733
+source:       https://repair.wiki/w/Xiaomi_Redmi_Pad_SE
+history:      https://repair.wiki/index.php?title=Xiaomi_Redmi_Pad_SE&action=history
+permalink:    https://repair.wiki/index.php?oldid=7733
+last_edited:  2025-06-15T21:55:07Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   Device, Stubs, Tablets, Xiaomi, Xiaomi Tablets
+sha1:         87a42c901686b5e371fcb0c7b4a0bd1f49083437
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Xiaomi
+|Device type=Tablet
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Mi pad main conn.png|Display Connector
+File:Mi pad ch conn.png|Charging Connector
+File:Mi pad batt conn.png|Battery Connector
+File:Mi pad fcam.png|Front camera
+File:Mi pad rcam.png|Rear Camera
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

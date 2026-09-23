@@ -1,0 +1,18 @@
+<!--
+title:        File:Xbox one s hdmi out t-824 diode mode readings.png
+pageid:       1570
+revid:        3414
+source:       https://repair.wiki/w/File:Xbox_one_s_hdmi_out_t-824_diode_mode_readings.png
+history:      https://repair.wiki/index.php?title=File:Xbox_one_s_hdmi_out_t-824_diode_mode_readings.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3414
+last_edited:  2024-02-12T21:01:24Z
+contributors: Ben ProFixerr
+anonymous_edits: 0
+categories:   
+sha1:         9abe1be230c8c1a14842d5f2b64b06c0ad7d860d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Xbox One S HDMI Out Mechanic T-824 Tail Insertion Tool diode mode readings

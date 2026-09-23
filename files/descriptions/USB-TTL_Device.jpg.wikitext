@@ -1,0 +1,18 @@
+<!--
+title:        File:USB-TTL Device.jpg
+pageid:       4073
+revid:        7027
+source:       https://repair.wiki/w/File:USB-TTL_Device.jpg
+history:      https://repair.wiki/index.php?title=File:USB-TTL_Device.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7027
+last_edited:  2025-05-23T13:41:35Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         6cfa7ed21c616cb6cf044c5fabd60771ba9317af
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Example of a USB-TTL Device

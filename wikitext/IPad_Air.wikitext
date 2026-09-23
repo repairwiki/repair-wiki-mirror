@@ -1,0 +1,46 @@
+<!--
+title:        IPad Air
+pageid:       1353
+revid:        10686
+source:       https://repair.wiki/w/IPad_Air
+history:      https://repair.wiki/index.php?title=IPad_Air&action=history
+permalink:    https://repair.wiki/index.php?oldid=10686
+last_edited:  2025-08-25T22:16:15Z
+contributors: Tiago199988, KevinShort
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         f72f3e1ae314ab8593193ee20319f04269947d72
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1474, A1475
+|Device release date=2013-11-01
+|Device type=Tablet
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ipadair1-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+iPad Air 1 Schematics: https://www.sendspace.com/file/u61go7

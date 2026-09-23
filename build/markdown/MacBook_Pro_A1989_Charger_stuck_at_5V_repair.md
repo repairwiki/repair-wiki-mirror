@@ -1,0 +1,79 @@
+---
+title: "MacBook Pro A1989 Charger stuck at 5V repair"
+pageid: 132
+revid: 496
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A1989_Charger_stuck_at_5V_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A1989_Charger_stuck_at_5V_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=496"
+last_edited: "2023-10-29T15:26:46Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A1989"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A1989"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station, thermal camera"
+  Type: "Soldering, Software"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A1989 Charger stuck at 5V repair
+
+## Problem description
+The charging circuit on the MacBook Pro A1989 is not communicating with the charger to send in 20V.
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- On most cases, the board will not power up.
+- No charging
+
+## Solution
+### Diagnostic Steps
+#### Check voltage on PPBUS_G3H
+Measure the voltage on PPBUS_G3H with your multimeter on voltage mode.
+
+If it is missing, power down the board and measure resistance. If you measure less than 10 ohms that means you have a short here.
+
+It is measured that when a short is present on this rail, the board is pulling 0.01A at 5V
+#### Check for corroded LDO cap for PP3V3_G3H around a CD3215
+On right side of board, check under shielding by SSD under the right CD3215 for hidden corroded cap
+#### Check for a bad CD3215
+If the issue is a bad CD3215, one way to get an idea, is to see which does not boot loop. When you plug the charger in with the USB-C amp-meter, it will turn on for 2-3 seconds, then turn off and turn on again. Whichever port doesn't boot loop usually has an associated CD3215 that is bad. Also, the bad CD3215 will occasionally get hotter than the rest.
+### Repair Steps
+#### PPBUS_G3H Short or absent
+[How to find short circuits](How_to_find_short_circuits.md)
+- If shorted, [https://www.youtube.com/watch?v=7n-R-TUrohg video]
+  - Inject around 1 V with a 5 amp limit into PPBUS_G3H with a DC power supply.
+    - A larger tantalum capacitor is preferred to inject voltage to, as you will often need a lot of current to be pushed into the line to cause the shorted component to heat up.
+    - 1 V is usually sufficient. It is not recommended to inject over 1 V as if one of the CPU VRMs is shorted, you will end up killing the CPU or SSD.
+  - With voltage being injected, perform thermal imaging of the board. If thermal imaging is not available, feel around the board to see where it is getting warm. Once the area is localized, add a small amount of isopropyl alcohol to the area to localize the shorted component.
+    - Once the shorted component is localized, replace the shorted component.
+- If absent without a short:
+  - Check that PPDCIN_G3H is making it to the Intersil/Renesas ISL9240 (U7000).
+    - Measure PPDCIN_G3H (Normal diode mode reading is ~0.550) with a multimeter in voltage mode.
+    - The voltage should match that of the USB-C amp meter (5 V).
+    - If 0V is read, check for a short.
+    - If 5 V is read, check the current sensing resistors as the ISL9240 may have shorted internally causing the current sensing resistors to blow.
+      - Place the multimeter probes on each side of the resistors to measure the resistance, which should be within 5–10% of the reference. If a resistor is found out of spec, replace it and the ISL9240, as the resistor likely blew due to an internal short. Depending on the input voltage, the ISL9240 either buck or boosts the voltage to ~12 V; if USB-C voltage is 5 V, it boosts it
+  - PP3V3_G3H missing due to CHGR_EN_MVR missing due to bad ISL9240
+    - ISL9240 is not available for purchase. Donor would be required.
+      - [https://www.youtube.com/watch?v=HJ2jyo7pAmE Video] (for A1990)
+#### Corroded capacitors
+If any are found, replace them.
+#### faulty CD3215
+[https://www.youtube.com/watch?v=7n-R-TUrohg video]
+
+If you identify a faulty CD3215, replace it. If they're not faulty or if you replaced it but the issue remains, it could be a bad CD3215 ROM chip (U2890)
+
+T2 firmware can also cause the machine to be stuck at 5v. It is however, important to rule out other possible causes for the issue before re-flashing T2 firmware. Typically machines that have corrupted T2 firmware will be stuck at 5v 0.060 amps and typically will have PPBUS present and PP3v3_S5 missing. PP5V_S5 will often be present. T2 firmware can be re-flashed via Apple Configurator 2, however this will erase data in most cases. Try a "soft" Re-flash first by clicking Advanced options > Revive Device in Apple Configurator 2. [https://www.youtube.com/watch?v=ywvDgn7JR_c Example video]
+
+I had an 820-00850 board with 5v / 0.1A steady on all four ports. Tracked it down to a damaged end cap on R7075 which is CHGR_VDDP line to U7000. Replaced the resistor and now have 20v on all ports and fully booting. I later confirmed this on another board by removing R7075 and noting the same exact result.
+
+If PP3V3_G3H had a short circuit, but the board stays at 5V and PP3V3_G3H is still missing, it can be due to R7900 (0 Ohm Resistor between PP3V3_G3H_RTC and U7800 PMIC, that takes PP3V3_G3H_RTC input and outputs it as PP3V3_G3H). Short circuit on PP3V3_G3H can burn out R7900 (may be visually intact). Check R7900 resistance.

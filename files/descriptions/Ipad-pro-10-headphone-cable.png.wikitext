@@ -1,0 +1,18 @@
+<!--
+title:        File:Ipad-pro-10-headphone-cable.png
+pageid:       9500
+revid:        13724
+source:       https://repair.wiki/w/File:Ipad-pro-10-headphone-cable.png
+history:      https://repair.wiki/index.php?title=File:Ipad-pro-10-headphone-cable.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13724
+last_edited:  2026-01-18T20:47:28Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         a35857241575bab8ae0271127d17d2eaa3ed87fd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ipad-pro-10-headphone-cable

@@ -1,0 +1,57 @@
+<!--
+title:        IPhone 6
+pageid:       1600
+revid:        13513
+source:       https://repair.wiki/w/IPhone_6
+history:      https://repair.wiki/index.php?title=IPhone_6&action=history
+permalink:    https://repair.wiki/index.php?oldid=13513
+last_edited:  2026-01-01T20:52:35Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         7b7de3632d18f649883c20ab80e65d94e46c1e04
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1549, A1586, A1589
+|Device release date=2014-09-19
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:111940 SP705-iphone 6-mul.png
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Iphone6-Pcb-front-view-sized.jpg|front side PCB [https://www.eeworldonline.com/teardown-an-oldie-but-still-useful-the-iphone-6/ source]
+File:Iphone6-Pcb-backside-sized.jpg|back side PCB [https://www.eeworldonline.com/teardown-an-oldie-but-still-useful-the-iphone-6/ source]
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:6 LCM J2019 DiodeMode.png|Diode mode for iPhone 6 Display connector. Top Right goes to top edge of the board, under the rear camera.
+File:6 Touch J2401 DiodeMode.png|iPhone 6 Touch connector. Top right goes to top edge of the board.
+File:6 Batt conn diodeMode.jpg|iPhone 6 battery connector. Bottom left goes to the edge of the board, next to the bottom of the battery.
+File:6 DockFlex J1817 DiodeMode.png|iPhone 6 charge port / dockflex connector diode mode readings. Bottom right goes to bottom of the phone, where the loudspeaker is.
+File:HomeButton TouchID J2118.jpg|iPhone 6 home button / TouchID connector. Top right goes to the top of the board, under the rear camera.
+File:6 RearCam J2321 DiodeMode.png|iPhone 6 rear camera connector. Top right goes to the top of the board, under the rear camera.
+File:6 FrontFlex J1111 DiodeMode.png|iPhone 6 front flex connector. Contains front camera, proximity sensor, ambient light sensor, earspeaker. Top right goes to top of the board, under the rear camera.
+File:6 HoldVolFlex J0801 J0802 DiodeMode.png|iPhone 6 Volume, power buttons, ringer switch and flaslight connector. Top left goes to top edge of the board, next to the mute/ringer switch.
+File:IPhone 6.jpg|Home Button Diode Values
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 6 Schematics: https://www.sendspace.com/file/5k4rim

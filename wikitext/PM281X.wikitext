@@ -1,0 +1,73 @@
+<!--
+title:        PM281X
+pageid:       9721
+revid:        14251
+source:       https://repair.wiki/w/PM281X
+history:      https://repair.wiki/index.php?title=PM281X&action=history
+permalink:    https://repair.wiki/index.php?oldid=14251
+last_edited:  2026-04-01T21:14:58Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   Device, Others, Philips/Fluke, Philips/Fluke Others, Stubs
+sha1:         b0d556ada92344f21c17001fffabb4685ffc25cc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Philips/Fluke
+|Device type=Other
+}}
+{{stub}}
+This article is about the Philips/Fluke PM2811, PM2812, PM2813 programmable power supplies. They are very modular, and similar to each other differing only in the configuration modules the device comes with.
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+
+=== Filtering Capacitors/Modules to replace ===
+
+* A common issue with these power supplies is that the compact filtered power entry module often degrades over time<ref>The author of this article has seen this module fail on at least 3 devices, and also noticed other people online seeing the same failure: https://youtu.be/owhx7wW-mN8?si=VscQqoiZPaNYLUzT&t=416, https://www.eevblog.com/forum/reviews/phillipsfluke-pm2811-power-source/msg1582627/#msg1582627
+
+At this point it is recommended to replace these on sight, and write the replacement date onto the modules.</ref>. The capacitors inside of it often explode, and leave a nasty smell, and goo around it. The codename of the module is "FN282-6-06" and is still available for purchase. <ref>https://www.tme.eu/ro/en/details/fn282-6-06/iec-60320-connectors/schaffner-te-connectivity/800367-sf/</ref>
+* The input module PCB has an X2 class 0.68 µF RIFA capacitor, the kind with the semi-transparent case that tends to crack, and allow moisture in. These kinds of capacitors, are recommended to be replaced in old gear. Note that this capacitor is 15mm wide, 31.5mm long, and the pin pitch is about 27.5mm. There's space enough for a couple mm wider or couple mm longer capacitor.
+
+=== Terminal Block Screws ===
+
+If you are missing terminal block screws, these are threaded UNC 6#-32, with a length of 1/4 inch<ref>Example of where to order: https://www.aliexpress.com/item/1005004139480135.html</ref>. This same thread is also used by "harddrive screws".
+
+=== Backlight ===
+
+The original units come with an EL backlight, some size measurements:
+* The laminate, not including the protruding pins is 19mm x 110mm
+* The active surface of the El backlight is 16.5mm x 100mm
+* The pin pitch is about 4.8mm
+* The space available underneath the dispay is about 21mm (top to bottomn) x 1.5mm thickness (and that is without compressing the rubber contacts)
+* Some people have found a replacement EL backlight that is of compatible width, but longer length. <ref>https://www.eevblog.com/forum/repair/ldc-backlight-identification-and-repair-for-fluke-phillips-pm-2812/msg5021983/#msg5021983</ref><ref>https://backlight4you.com/Leuchtfolien/Ersatzleuchtfolien/Leuchtfolie-rosa-weiss-19-5mm-x-222mm-laminiert::967.html</ref>, however keep in mind that cutting EL backlights to size will make them more susceptible to moisture ingress, and failure.
+* Some people have repurposed an iPhone edge-lit led backlight with success, although they have not documented exactly where to source these backlights. <ref>https://www.eevblog.com/forum/repair/newish-source-for-most-lcds-backlight-repair-reparing-a-fluke-pm2812/</ref>
+* The author of this article has successfully repurposed a backlight from a damaged Thinkpad LCD. If you go down this route, laptop backlights tend to be made out of multiple layers, some of which may be possible to cut with scissors, and some may be glass, and require scoring with some tool to cut it to shape (the author has simply used a box cutter and a lot of pressure). Keep in mind that the available thickness is very limited. Also keep in mind that to re-assemble the front panel, the tabs of the front panel will snap into place, and cause all sorts of movement, so you must come up with some way to also sandwich the layers together, and hold the backlight in place on the PCB securely enough for it hold its place until re-assembly is complete, all without adding too much thickness to the sandwich so it will fit underneath the LCD.
+* The author has also tried repurposing some Android Tablet LCD, but this has failed, because there was glue between various layers, and while trying to separate the layers, the glass layers broke.
+* The EL backlight voltage generator module (on the CPU board) starts making a low volume high pitched sound when there's no load on it, so it's recommended to remove it.
+
+=== Fan(s) ===
+
+The power supply is designed to accept 24V Fans of size 60x60x25mm.
+Power supplies in the wild have been seen coming with thew following fans:
+* Canon CF60-H313N1D 24VDC 50mA fan

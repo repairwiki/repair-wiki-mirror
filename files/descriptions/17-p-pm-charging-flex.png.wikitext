@@ -1,0 +1,18 @@
+<!--
+title:        File:17-p-pm-charging-flex.png
+pageid:       8312
+revid:        12163
+source:       https://repair.wiki/w/File:17-p-pm-charging-flex.png
+history:      https://repair.wiki/index.php?title=File:17-p-pm-charging-flex.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12163
+last_edited:  2025-09-28T15:18:01Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         8c55b8e22c353d04aec8759964d575e1ba3d089f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+17-p-pm-charging-flex

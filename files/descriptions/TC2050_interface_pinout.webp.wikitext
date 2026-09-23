@@ -1,0 +1,18 @@
+<!--
+title:        File:TC2050 interface pinout.webp
+pageid:       2349
+revid:        4819
+source:       https://repair.wiki/w/File:TC2050_interface_pinout.webp
+history:      https://repair.wiki/index.php?title=File:TC2050_interface_pinout.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=4819
+last_edited:  2024-09-08T14:07:41Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         226ed1401a2da4d359340c389504b848c18a23fd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Pinout of the tag connect (TC2050) interface on the revision B controller board

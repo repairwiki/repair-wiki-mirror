@@ -1,0 +1,43 @@
+<!--
+title:        Mate 10 Pro
+pageid:       8826
+revid:        12852
+source:       https://repair.wiki/w/Mate_10_Pro
+history:      https://repair.wiki/index.php?title=Mate_10_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=12852
+last_edited:  2025-11-25T22:05:18Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Huawei, Huawei Phones, Phones, Stubs
+sha1:         24cc479b22b03fbbd2a5194d4cea345e77e31925
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Huawei|Device release date=2017|Device type=Phone|Has code name=BLA-L09,  BLA-L29, BLA-AL00}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Mate 10 pro.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Matee 10 Pro USB-C diode.jpg|Good Diode Readings from USB-C Port
+</gallery>
+
+== More Information/External Sources ==
+Schematics available at: https://www.sendspace.com/file/8pbckr<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

@@ -1,0 +1,18 @@
+<!--
+title:        File:A03s Back of Board.png
+pageid:       2237
+revid:        4621
+source:       https://repair.wiki/w/File:A03s_Back_of_Board.png
+history:      https://repair.wiki/index.php?title=File:A03s_Back_of_Board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4621
+last_edited:  2024-08-12T06:56:36Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         e13628acc8c97eda24233cd0bd86d3cb9bccef63
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The back side of A03s

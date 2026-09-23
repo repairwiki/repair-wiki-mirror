@@ -1,0 +1,62 @@
+---
+title: "IPhone Upper-Layer Compatibility Guide (Sandwich Logic Boards)"
+pageid: 9512
+revid: 13740
+kind: explanatory_guide
+source: "https://repair.wiki/w/IPhone_Upper-Layer_Compatibility_Guide_(Sandwich_Logic_Boards)"
+history: "https://repair.wiki/index.php?title=IPhone_Upper-Layer_Compatibility_Guide_(Sandwich_Logic_Boards)&action=history"
+permalink: "https://repair.wiki/index.php?oldid=13740"
+last_edited: "2026-01-19T22:39:38Z"
+contributors:
+  - "IamMyron07"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# IPhone Upper-Layer Compatibility Guide (Sandwich Logic Boards)
+
+## What Is the “Upper Layer”?
+On modern iPhones with sandwich (two-layer) logic boards, the board is split into:
+
+- Upper layer – CPU, NAND, Logic EEPROM
+- Lower layer – Baseband, WiFi and NFC (in some models)
+
+An upper-layer swap means transferring the entire top board from one device to another, usually to recover data or restore functionality when the upper layer is damaged.
+
+## Compatibility by iPhone Generation
+| iPhone Generation | Models in Generation | Upper Layer Swap Compatibility | BOARD ID RESISTOR |
+| --- | --- | --- | --- |
+| iPhone X Series | X | ✅ Same model only |  |
+|  | XS | ⚠️ Compatible only with XS (PMIC-specific) |  |
+|  | XS Max | ⚠️ Compatible only with XS Max (PMIC-specific) |  |
+| iPhone 11 Series | 11 | ✅ Same model only |  |
+|  | 11 Pro | ✅ Compatible with 11 Pro Max (Board ID mod required) |  |
+|  | 11 Pro Max | ✅ Compatible with 11 Pro (Board ID mod required) |  |
+| iPhone 12 Series | 12 | ✅ Same model only |  |
+|  | 12 Mini | ✅ Same model only |  |
+|  | 12 Pro | ✅ Same model only |  |
+|  | 12 Pro Max | ✅ Same model only |  |
+| iPhone 13 Series | 13 | ✅ Same model only |  |
+|  | 13 Mini | ✅ Same model only |  |
+|  | 13 Pro | ✅ Same model only |  |
+|  | 13 Pro Max | ✅ Same model only |  |
+| iPhone 14 Series | 14 | ✅ Compatible with 14 Plus (Board ID mod required) |  |
+|  | 14 Plus | ✅ Compatible with 14 (Board ID mod required) |  |
+|  | 14 Pro | ✅ Compatible with 14 Pro Max (Board ID mod required) |  |
+|  | 14 Pro Max | ✅ Compatible with 14 Pro (Board ID mod required) |  |
+| iPhone 15 Series | 15 | ✅ Compatible with 15 Plus (Board ID mod required) |  |
+|  | 15 Plus | ✅ Compatible with 15 (Board ID mod required) |  |
+|  | 15 Pro | ✅ Compatible with 15 Pro Max (Board ID mod required) |  |
+|  | 15 Pro Max | ✅ Compatible with 15 Pro (Board ID mod required) |  |
+| iPhone 16 Series | 16 |  |  |
+|  | 16 Plus |  |  |
+|  | 16 Pro | ✅ Compatible with 16 Pro Max (Board ID mod required) |  |
+|  | 16 Pro Max | ✅ Compatible with 16 Pro (Board ID mod required) |  |
+| iPhone 17 Series | 17 |  |  |
+|  | 17 Pro | ✅ Compatible with 17 Pro Max (Board ID mod required) |  |
+|  | 17 Pro Max | ✅ Compatible with 17 Pro (Board ID mod required) |  |

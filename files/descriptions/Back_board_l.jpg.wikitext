@@ -1,0 +1,18 @@
+<!--
+title:        File:Back board l.jpg
+pageid:       2459
+revid:        5021
+source:       https://repair.wiki/w/File:Back_board_l.jpg
+history:      https://repair.wiki/index.php?title=File:Back_board_l.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5021
+last_edited:  2024-10-12T09:20:06Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         3aae87ce3b4159257be15b06164f2eac0f61f045
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Test point of the L1 shoulder switch on the rev B controller board

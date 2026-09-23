@@ -1,0 +1,46 @@
+<!--
+title:        K11
+pageid:       3907
+revid:        11924
+source:       https://repair.wiki/w/K11
+history:      https://repair.wiki/index.php?title=K11&action=history
+permalink:    https://repair.wiki/index.php?oldid=11924
+last_edited:  2025-09-20T21:36:53Z
+contributors: Tiago199988, Samhext
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, TCL, TCL Phones
+sha1:         1d260e4fcf9040e983439083b11e02cd69276b99
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=TCL
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:TCL K11.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Tcl k11.jpg|TCL K11 Mechanic USB-C readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

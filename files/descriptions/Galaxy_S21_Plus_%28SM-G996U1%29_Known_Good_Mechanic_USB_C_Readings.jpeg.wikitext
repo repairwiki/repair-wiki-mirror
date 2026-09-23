@@ -1,0 +1,17 @@
+<!--
+title:        File:Galaxy S21 Plus (SM-G996U1) Known Good Mechanic USB C Readings.jpeg
+pageid:       3778
+revid:        6617
+source:       https://repair.wiki/w/File:Galaxy_S21_Plus_(SM-G996U1)_Known_Good_Mechanic_USB_C_Readings.jpeg
+history:      https://repair.wiki/index.php?title=File:Galaxy_S21_Plus_(SM-G996U1)_Known_Good_Mechanic_USB_C_Readings.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6617
+last_edited:  2025-05-14T00:26:34Z
+contributors: Antcz
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

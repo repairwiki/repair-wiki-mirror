@@ -1,0 +1,46 @@
+<!--
+title:        IPad Mini 4
+pageid:       2610
+revid:        13491
+source:       https://repair.wiki/w/IPad_Mini_4
+history:      https://repair.wiki/index.php?title=IPad_Mini_4&action=history
+permalink:    https://repair.wiki/index.php?oldid=13491
+last_edited:  2026-01-01T18:22:55Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         657c1215f73e186513730e1f880bf8392a6cb11d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Tablet
+|Has code name=A1538, A1550}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Ipadmini4-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:IPad Mini 4 Wifi PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

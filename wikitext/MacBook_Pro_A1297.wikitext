@@ -1,0 +1,52 @@
+<!--
+title:        MacBook Pro A1297
+pageid:       2039
+revid:        10310
+source:       https://repair.wiki/w/MacBook_Pro_A1297
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1297&action=history
+permalink:    https://repair.wiki/index.php?oldid=10310
+last_edited:  2025-08-16T22:53:59Z
+contributors: ASRepairs, Tiago199988, XTA
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         e0ca47a2e684e47ca9b88f9a11a97a8b862a5b5e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:A1297.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->Logic Board Model Numbers
+
+2009 - 820-2390, 820-2610
+
+2010 - 820-2849
+
+2011 - 820-2914

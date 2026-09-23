@@ -1,0 +1,18 @@
+<!--
+title:        File:MF50 Battery Voltage Normal.jpg
+pageid:       7717
+revid:        11359
+source:       https://repair.wiki/w/File:MF50_Battery_Voltage_Normal.jpg
+history:      https://repair.wiki/index.php?title=File:MF50_Battery_Voltage_Normal.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=11359
+last_edited:  2025-09-07T00:52:45Z
+contributors: Pandapip1
+anonymous_edits: 0
+categories:   
+sha1:         de63d78e47f0506db30aacaaa180970ed7e3a153
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A partially disassembled MF50 with the battery voltage being probed. The voltage shows as 7.32, which is not far off from the nominal voltage of 7.4 volts.

@@ -1,0 +1,17 @@
+<!--
+title:        File:Ipadmini4-768x768.webp
+pageid:       4815
+revid:        7922
+source:       https://repair.wiki/w/File:Ipadmini4-768x768.webp
+history:      https://repair.wiki/index.php?title=File:Ipadmini4-768x768.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=7922
+last_edited:  2025-06-22T14:56:23Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

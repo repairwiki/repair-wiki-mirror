@@ -1,0 +1,55 @@
+<!--
+title:        Galaxy S20
+pageid:       2192
+revid:        11435
+source:       https://repair.wiki/w/Galaxy_S20
+history:      https://repair.wiki/index.php?title=Galaxy_S20&action=history
+permalink:    https://repair.wiki/index.php?oldid=11435
+last_edited:  2025-09-07T20:16:03Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         a20b2f2e32529f5523d5af6d37f5bbb5fc44b8bb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:S20-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:S20 Front Board.png|Samsung S20 - Front of the Motherboard
+File:S20 Back Board.png|Samsung S20 - Back of the Motherboard
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:S20 SM981U LCD FPC.png|S20 Display FPC
+File:S20 SM981U Main FPC.png|S20 Charging Flex FPC
+File:S20 SM981U Batt FPC.png|S20 Battery FPC
+File:S20 SM981U WideTelephoto FPC.png|S20 Wide Telephoto Cam FPC
+File:S20 SM981U UWCam FPC.png|S20 UWCam FPC
+File:S20 SM981U FrontCam FPC.png|S20 Front Cam FPC
+File:S20 SM981U PwrVol FPC.png|S20 Power Volume Button FPC
+File:S20 SM981U Ear FPC.png|S20 Ear Speaker FPC
+File:S20 SM981U Ant FPC.png|S20 Antenna FPC
+</gallery>
+
+== More Information/External Sources ==
+Galaxy S20 Schematics: https://www.sendspace.com/file/n9na4k<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

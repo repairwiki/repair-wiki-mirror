@@ -1,0 +1,18 @@
+<!--
+title:        File:RigolDS20.png
+pageid:       1721
+revid:        3814
+source:       https://repair.wiki/w/File:RigolDS20.png
+history:      https://repair.wiki/index.php?title=File:RigolDS20.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3814
+last_edited:  2024-05-12T11:24:13Z
+contributors: Brainiac94
+anonymous_edits: 0
+categories:   
+sha1:         548a806d2f3aa30b9f148a8bd74d6b280a8de8f2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+An example of a bad signal with repeated attempts to communicate

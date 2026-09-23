@@ -1,0 +1,18 @@
+<!--
+title:        File:CONNECTOR COMPARISON.png
+pageid:       6114
+revid:        9451
+source:       https://repair.wiki/w/File:CONNECTOR_COMPARISON.png
+history:      https://repair.wiki/index.php?title=File:CONNECTOR_COMPARISON.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9451
+last_edited:  2025-07-29T20:05:07Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         dc02266c7ef74d6a54679dad3feaa9eec9fdf664
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+CONNECTOR COMPARISON

@@ -1,0 +1,18 @@
+<!--
+title:        File:Back 5V shorts on pascal GPUs.jpg
+pageid:       340
+revid:        799
+source:       https://repair.wiki/w/File:Back_5V_shorts_on_pascal_GPUs.jpg
+history:      https://repair.wiki/index.php?title=File:Back_5V_shorts_on_pascal_GPUs.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=799
+last_edited:  2023-11-06T16:33:55Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ecd04bcd9f8d1a15e1c52853b25aa1107da3589f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Back 5V shorts on pascal GPUs

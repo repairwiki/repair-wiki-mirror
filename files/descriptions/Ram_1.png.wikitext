@@ -1,0 +1,18 @@
+<!--
+title:        File:Ram 1.png
+pageid:       4560
+revid:        7617
+source:       https://repair.wiki/w/File:Ram_1.png
+history:      https://repair.wiki/index.php?title=File:Ram_1.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7617
+last_edited:  2025-06-13T04:16:10Z
+contributors: Chris
+anonymous_edits: 0
+categories:   
+sha1:         f4c0b34ab177c3649eb793b11c5eb73f16cd3fe6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Sending MCMT to the HDD RAM

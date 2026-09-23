@@ -1,0 +1,18 @@
+<!--
+title:        File:Jumper Solution.png
+pageid:       6902
+revid:        10398
+source:       https://repair.wiki/w/File:Jumper_Solution.png
+history:      https://repair.wiki/index.php?title=File:Jumper_Solution.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10398
+last_edited:  2025-08-20T00:33:02Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         f9a8d215aba25b46062cf675bfbf2fbe3e7dc72b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Jumper Solution

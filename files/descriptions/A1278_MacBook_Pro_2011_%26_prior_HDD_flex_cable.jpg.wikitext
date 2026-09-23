@@ -1,0 +1,18 @@
+<!--
+title:        File:A1278 MacBook Pro 2011 & prior HDD flex cable.jpg
+pageid:       1969
+revid:        4216
+source:       https://repair.wiki/w/File:A1278_MacBook_Pro_2011_%26_prior_HDD_flex_cable.jpg
+history:      https://repair.wiki/index.php?title=File:A1278_MacBook_Pro_2011_%26_prior_HDD_flex_cable.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4216
+last_edited:  2024-07-07T04:59:41Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         276bcea7601474f4737de147edd3b53bfa2bfee2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The HDD flex cable in this example is used to showcase the difference between a 2012 and earlier HDD flex cable

@@ -1,0 +1,18 @@
+<!--
+title:        File:Ip-15p-charging-ic-usa.png
+pageid:       7761
+revid:        11455
+source:       https://repair.wiki/w/File:Ip-15p-charging-ic-usa.png
+history:      https://repair.wiki/index.php?title=File:Ip-15p-charging-ic-usa.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11455
+last_edited:  2025-09-08T21:12:52Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         be1fa68dd204248a7943b70d4c41a7cdaad6a854
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ip-15p-charging-ic-usa

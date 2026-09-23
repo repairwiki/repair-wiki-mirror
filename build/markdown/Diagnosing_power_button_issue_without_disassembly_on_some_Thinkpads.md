@@ -1,0 +1,81 @@
+---
+title: "Diagnosing power button issue without disassembly on some Thinkpads"
+pageid: 1479
+revid: 3432
+kind: explanatory_guide
+source: "https://repair.wiki/w/Diagnosing_power_button_issue_without_disassembly_on_some_Thinkpads"
+history: "https://repair.wiki/index.php?title=Diagnosing_power_button_issue_without_disassembly_on_some_Thinkpads&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3432"
+last_edited: "2024-02-16T07:05:48Z"
+contributors:
+  - "Pandrew"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for Thinkpad L412"
+  - "Explanatory guides for Thinkpad L420"
+  - "Explanatory guides for Thinkpad L421"
+  - "Explanatory guides for Thinkpad L430"
+  - "Explanatory guides for Thinkpad L512"
+  - "Explanatory guides for Thinkpad L520"
+  - "Explanatory guides for Thinkpad L530"
+  - "Explanatory guides for Thinkpad T400s"
+  - "Explanatory guides for Thinkpad T410"
+  - "Explanatory guides for Thinkpad T410i"
+  - "Explanatory guides for Thinkpad T410si"
+  - "Explanatory guides for Thinkpad T420"
+  - "Explanatory guides for Thinkpad T420i"
+  - "Explanatory guides for Thinkpad T420s"
+  - "Explanatory guides for Thinkpad T420si"
+  - "Explanatory guides for Thinkpad T430"
+  - "Explanatory guides for Thinkpad T430i"
+  - "Explanatory guides for Thinkpad T430s"
+  - "Explanatory guides for Thinkpad T430si"
+  - "Explanatory guides for Thinkpad T510"
+  - "Explanatory guides for Thinkpad T510i"
+  - "Explanatory guides for Thinkpad T520"
+  - "Explanatory guides for Thinkpad T520i"
+  - "Explanatory guides for Thinkpad T530"
+  - "Explanatory guides for Thinkpad T530i"
+  - "Explanatory guides for Thinkpad W510"
+  - "Explanatory guides for Thinkpad W520"
+  - "Explanatory guides for Thinkpad W530"
+  - "Explanatory guides for Thinkpad X220"
+  - "Explanatory guides for Thinkpad X220 Tablet"
+  - "Explanatory guides for Thinkpad X220i"
+  - "Explanatory guides for Thinkpad X220i Tablet"
+  - "Explanatory guides for Thinkpad X230"
+  - "Explanatory guides for Thinkpad X230 Tablet"
+  - "Explanatory guides for Thinkpad X230i"
+  - "Explanatory guides for Thinkpad X230i Tablet"
+  - "Missing device page"
+infobox:
+  Device: "Thinkpad T520, Thinkpad T420, Thinkpad X230, Thinkpad W510, Thinkpad W520, Thinkpad W530, Thinkpad T400s, Thinkpad T410, Thinkpad T410i, Thinkpad T410si, Thinkpad T420i, Thinkpad T420s, Thinkpad T420si, Thinkpad T430, Thinkpad T430i, Thinkpad T430s, Thinkpad T430si, Thinkpad T510, Thinkpad T510i, Thinkpad T520i, Thinkpad T530, Thinkpad T530i, Thinkpad X220, Thinkpad X220i, Thinkpad X220 Tablet, Thinkpad X220i Tablet, Thinkpad X230i, Thinkpad X230 Tablet, Thinkpad X230i Tablet, Thinkpad L412, Thinkpad L420, Thinkpad L421, Thinkpad L430, Thinkpad L512, Thinkpad L520, Thinkpad L530"
+  Type: "Troubleshooting/Diagnostics"
+  Difficulty: "1. Easy"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Diagnosing power button issue without disassembly on some Thinkpads
+
+This guide should apply to all Thinkpad laptops using the "CS09" standard docking port. (For example T410,T430,W510,W530,X230)
+This guide has been tested on Thinkpad T520, and X230.
+This guide tells you how to turn on one of these laptops, if the power button doesn't work, without disassembling them.
+This will help with quick diagnosis, and it can rule out other issues, such as motherboard faults.
+
+## Diagnostic steps
+![The battery led. (Figure 1)](images/c/ca/Thinkpad_battery_and_sleep_leds.jpg)
+![Short the pins marked with red. (Figure 2)](images/0/0c/Short_these_pins_on_cs09_docking_connector_to_turn_on_some_thinkpads.jpeg)
+![Shorting the power switch pins on the docking connector, viewed from another angle where the actual pins are visible. (Figure 3)](images/c/c6/Short_these_pins_to_turn_on_some_thinkpads,_alternative_angle.jpeg)
+
+1. Plug in the charger. Immediately as the charger is plugged in, the battery led must blink 3 times green, independent of the status of the battery. If the led doesn't blink, it suggests there is a more complex issue with the motherboard, or with the charger, so in that case stop here.
+  1. Figure 1 shows the battery led. Note that after it blinks 3 times when the charger is connected, it displays the status of the battery, so it may turn off, or it may turn on with a green or yellow color, or it may continue blinking. Please see your laptop's hardware maintanance manual for more details on the meaning of the led state. All that matters for this guide is that it blinks 3 times when the charger is connected.
+1. Press the power button. If you notice any kind of reaction to the power button being pressed (any leds lighting, any fans turning on, speaker clicking, hissing, beeping, etc...), then your power button is okay, and this guide doesn't apply to you, stop here.
+1. If you have a compatible docking station, connect it to the laptop, and try to use the power button on the docking station to turn it on. If it turns on successfully, then you have a power button/keyboard issue.
+1. If you don't have a compatible docking station, then you can still simulate a power button press by shorting some pins on the docking connector:
+  1. Check the docking port on the bottom. If it doesn't look exactly like the docking port in Figure 2, then STOP NOW, this guide does not apply to you.
+  1. Use a small flat-head screw driver, and insert it into the EXACT position shown on Figure 2. Start the motion by first pushing down the protective plastic of the docking connector, until it bottoms out, and then sliding the screwdriver towards the wall on which the actual pins are, to short those pins. Apply a small rocking motion to make sure multiple pins are touched at the same time. Be careful not to apply too much pressure, and don't drag the screwdriver on the wall that holds the pins. You don't want to scrape off plating from the pins.
+  1. Remove the screwdriver and check if the laptop turned on. If it did, then you have a power button/keyboard issue.
+  1. If the laptop didn't turn on, try repeating the shorting procedure a couple times, to make sure you successfully simulated a power button press. If after a couple repeats the laptop still doesn't turn on, then your issue might not be with the power button.

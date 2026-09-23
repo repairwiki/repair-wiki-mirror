@@ -1,0 +1,18 @@
+<!--
+title:        File:Surface pro 4 resistor.png
+pageid:       4158
+revid:        7133
+source:       https://repair.wiki/w/File:Surface_pro_4_resistor.png
+history:      https://repair.wiki/index.php?title=File:Surface_pro_4_resistor.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7133
+last_edited:  2025-05-27T20:45:18Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         82a67f025ebbb60014d89dd39146b5d767a9fab4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Surface pro 4 Resistor

@@ -1,0 +1,59 @@
+<!--
+title:        Simatic PS 307 Not turning on at all repair
+pageid:       2007
+revid:        4266
+source:       https://repair.wiki/w/Simatic_PS_307_Not_turning_on_at_all_repair
+history:      https://repair.wiki/index.php?title=Simatic_PS_307_Not_turning_on_at_all_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=4266
+last_edited:  2024-07-09T10:25:57Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Simatic PS 307
+sha1:         729ef6bbe3d01cd854b61a75929d96725f2f48a8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Simatic PS 307
+|Affects parts=TVS 1.5KE200CA, fuse
+|Needs equipment=multimeter, soldering iron, soldering station, LBPSU
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+==Problem description==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+Repairing Siemens Simatic PS 307 industrial power supply that doesn't turn on when powered. This particular issue is associated with a blown fuse and a [[Short Circuits - Repair Basics|shorted]] TVS [[Diodes - Repair Basics|diode]]. 
+[[File:20240709 093224.jpg|thumb|Shorted diode, 1.5KE200CA (Figure 1)]]
+
+==Symptoms==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Not reacting to power when plugged in
+* No output voltage 
+* No LED lights turning on
+
+*
+*
+
+==Solution==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+===Diagnostic Steps===
+
+* Disassemble the device 
+* Measure with a multimeter the legs of the full bridge rectifier, if you have short on + and - then you have a different issue, if you measure a short on either +- and the ~~ pins, then you also have a different problem, the rectifier might be shorted
+* For this issue, you should measure a short between both ~~ pins on the rectifier and a blown fuse
+* If that's the case, inject voltage into the pins and check what gets hot
+* In this case, it was the diode in figure 1
+
+===Repair Steps===
+Desolder the diode and check if the short is gone, if so, replace it along with the fuse with new ones and test if that fixes it. In this case, that was all it and after replacement the power supply started working again.

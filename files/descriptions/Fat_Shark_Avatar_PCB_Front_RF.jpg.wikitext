@@ -1,0 +1,18 @@
+<!--
+title:        File:Fat Shark Avatar PCB Front RF.jpg
+pageid:       1125
+revid:        2580
+source:       https://repair.wiki/w/File:Fat_Shark_Avatar_PCB_Front_RF.jpg
+history:      https://repair.wiki/index.php?title=File:Fat_Shark_Avatar_PCB_Front_RF.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2580
+last_edited:  2024-01-14T21:34:44Z
+contributors: Mads Tech
+anonymous_edits: 0
+categories:   
+sha1:         2227ddbc3ddaaf4fd196b55883b1200b8fc0aea8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Avatar HD Goggles Images

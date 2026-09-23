@@ -1,0 +1,49 @@
+<!--
+title:        How to repair iPhone 12 pro to 14 pro max rear camera portrait mode not working
+pageid:       7357
+revid:        10940
+source:       https://repair.wiki/w/How_to_repair_iPhone_12_pro_to_14_pro_max_rear_camera_portrait_mode_not_working
+history:      https://repair.wiki/index.php?title=How_to_repair_iPhone_12_pro_to_14_pro_max_rear_camera_portrait_mode_not_working&action=history
+permalink:    https://repair.wiki/index.php?oldid=10940
+last_edited:  2025-08-30T18:05:40Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 12 Pro, Repair guides for iPhone 12 Pro Max, Repair guides for iPhone 13 Pro, Repair guides for iPhone 13 Pro Max, Repair guides for iPhone 14 Pro, Repair guides for iPhone 14 Pro Max
+sha1:         554a066166f7e289eaa2b98cf2be0979a68e2f4d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 12 Pro, iPhone 12 Pro Max, iPhone 13 Pro, iPhone 13 Pro Max, iPhone 14 Pro, iPhone 14 Pro Max|Affects parts=Rear Camera, LiDar Sensor|Needs equipment=JC Programmer, JC Repair Assistant Software, JCID LiDar Module|Difficulty=3. Hard|Type=Part Replacement}}
+[[File:Portrait-mode-issue.gif|thumb|Rear cam portrait mode not working due to replacement with different non-programmed sensor.]]
+Note: This process applies to iPhone 12 Pro  through iPhone 14 Pro Max (All the Pro Models).
+
+== Problem description ==
+On iPhone 12 Pro  through iPhone 14 Pro Max (Pro / Pro Max Series), the LiDAR sensor can stop working due to:
+
+* Drop or physical damage.
+* Water/moisture damage affecting the sensor or flex.
+* Technician error - failing to transfer the original paired LiDAR sensor when replacing the rear housing. 
+
+== Symptoms ==
+
+* Measure app not working
+* Cannot use AR features relying on LiDAR
+* In camera app → Portrait mode fails (see fig. 1)
+* Sensor missing from diagnostics
+
+== Diagnostic Steps ==
+
+# Open the Measure app → confirm LiDAR cannot detect objects.
+# Open portrait mode on rear camera → Confirm it doesn't work.
+# Check if rear housing was replaced previously → ask customer .
+# If still non-functional → proceed to replacement + reprogramming.
+
+== Repair Steps ==
+
+# Disassembly:  Remove display, disconnect battery. Remove rear camera module. Remove shield covering the LiDAR sensor → take out faulty sensor.
+# Brushing unbind & Backing up data: Reconnect display & battery. Connect iPhone to PC. Launch JC Repair Assistant → Read phone. Select Brushing.[[File:Jcid brushing option.png|thumb|Brushing unbind in JCID Repair Assistant software.]]Import firmware → Flash device. If stuck in recovery mode → repeat flash in 3uTools. After brushing unbind and flash is complete, LiDAR sensor data is backed up to the cloud automatically.
+# Programming JCID LiDAR sensor: Connect JCID Programmable LiDAR sensor to programmer and write the correct data matching the phone.
+# Reassembly:  Install the programmed LiDAR into the iPhone. Reinstall rear camera + shields. Reconnect all flexes and battery.
+# Verification: Boot iPhone. Test Portrait mode functions in camera. Open Measure app → confirm proper distance detection.

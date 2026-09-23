@@ -1,0 +1,46 @@
+<!--
+title:        Sony Bravia Screen does not power on red light flashes 4 times
+pageid:       1109
+revid:        3562
+source:       https://repair.wiki/w/Sony_Bravia_Screen_does_not_power_on_red_light_flashes_4_times
+history:      https://repair.wiki/index.php?title=Sony_Bravia_Screen_does_not_power_on_red_light_flashes_4_times&action=history
+permalink:    https://repair.wiki/index.php?oldid=3562
+last_edited:  2024-03-02T11:46:16Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Sony Bravia KDL-40W2000, Television/Monitors
+sha1:         5666fc6ce61a927ec004fe33a56a1b450df6709f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Sony Bravia KDL-40W2000
+|Affects parts=Main Logic Board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+Fixing an issue where the screen does not power on, red light flashes 4 times on the Sony Bravia KDL-40W2000
+
+== Symptoms ==
+
+* Screen does not power on, red light flashes 4 times.
+
+== Solution ==
+This error is generally to do with protection related to overheating. Either the PSU is overloaded, the backlight power source/inverter is drawing too high a current, or a temperature sensor / related sensor has tripped.
+
+* Lie face down on a towel, remove bottom stand such that screen lies flat on towel.
+* Open rear and remove dust from PSU board. Careful any charged caps
+* If very dusty, remove PSU completely and dust with a brush (especially backside)
+* Ensure MOSFETs and diodes connected to heatsinks have thermal paste and are tightened accordingly.
+* Replace any swollen caps on PSU.
+* If it is a plasma backlight model, check the high-voltage connector plug between PSU and Inverter. Clean inside of plug ends with contact cleaner. Ensure cable is secure.
+* Check all axial fans that have 3 wire leads. If the mainboard detects RPM of any fan is too low, it will trip as an overheat warning. Replace fans if necessary.
+* On completion, reassemble case. Hold down Power button and Volume Down button and keep holding while you plug in the power cord. The light should flash green indicating a reset has completed successfully.
+
+
+
+[[Category:Television/Monitors]]

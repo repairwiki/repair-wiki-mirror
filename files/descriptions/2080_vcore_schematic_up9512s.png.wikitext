@@ -1,0 +1,18 @@
+<!--
+title:        File:2080 vcore schematic up9512s.png
+pageid:       438
+revid:        937
+source:       https://repair.wiki/w/File:2080_vcore_schematic_up9512s.png
+history:      https://repair.wiki/index.php?title=File:2080_vcore_schematic_up9512s.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=937
+last_edited:  2023-11-07T22:00:17Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         06367657cde391098d62a2c99e964dc9777d2fd7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+2080 vcore schematic up9512s

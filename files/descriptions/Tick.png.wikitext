@@ -1,0 +1,18 @@
+<!--
+title:        File:Tick.png
+pageid:       7542
+revid:        11142
+source:       https://repair.wiki/w/File:Tick.png
+history:      https://repair.wiki/index.php?title=File:Tick.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11142
+last_edited:  2025-09-02T00:56:55Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         db48f14cc1d3a3e56eca6943c6f5b4f571f4b691
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+tick-brushing

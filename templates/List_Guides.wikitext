@@ -1,0 +1,46 @@
+<!--
+title:        Template:List Guides
+pageid:       830
+revid:        5880
+source:       https://repair.wiki/w/Template:List_Guides
+history:      https://repair.wiki/index.php?title=Template:List_Guides&action=history
+permalink:    https://repair.wiki/index.php?oldid=5880
+last_edited:  2025-03-12T20:26:45Z
+contributors: ASRepairs, Coretsh
+anonymous_edits: 0
+categories:   
+sha1:         49287d287acce563d19c17b13fbd3d9d5d4ef1ba
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+===Explanatory Guides===
+{{#ask:
+  [[Category:Explanatory guide]]
+  [[Device::{{PAGENAME}}]]
+  |?Explanatory Guide Type=Type
+  |?Repair Guide difficulty=Difficulty
+  |format=table
+}}
+===Repair Guides===
+{{#ask:
+  [[Category:Repair guide]]
+  [[Device::{{PAGENAME}}]]
+  |?Affects part
+  |?Repair Guide type=Type
+  |?Repair Guide difficulty=Difficulty
+  |format=table
+}}
+===Create a Guide===
+{{#tag:inputbox |
+type=create
+width=30
+break=no
+buttonlabel=Create Guide
+inline=true
+editintro=RepairWiki:RepairGuideHelp
+useve=true
+default={{PAGENAME}}
+preload=Template:Repair Guide/Example
+}}

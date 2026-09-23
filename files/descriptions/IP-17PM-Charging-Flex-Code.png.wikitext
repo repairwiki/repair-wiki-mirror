@@ -1,0 +1,18 @@
+<!--
+title:        File:IP-17PM-Charging-Flex-Code.png
+pageid:       8310
+revid:        12161
+source:       https://repair.wiki/w/File:IP-17PM-Charging-Flex-Code.png
+history:      https://repair.wiki/index.php?title=File:IP-17PM-Charging-Flex-Code.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12161
+last_edited:  2025-09-28T14:58:44Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         5c6bbbc232f6f6598cc653c0a441baa04c9488da
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+IP-17PM-Charging-Flex-Code

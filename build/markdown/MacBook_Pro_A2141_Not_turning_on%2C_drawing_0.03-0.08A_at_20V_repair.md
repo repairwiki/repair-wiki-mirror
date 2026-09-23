@@ -1,0 +1,108 @@
+---
+title: "MacBook Pro A2141 Not turning on, drawing 0.03-0.08A at 20V repair"
+pageid: 107
+revid: 454
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A2141_Not_turning_on,_drawing_0.03-0.08A_at_20V_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A2141_Not_turning_on,_drawing_0.03-0.08A_at_20V_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=454"
+last_edited: "2023-10-29T15:18:20Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A2141"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A2141"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station, thermal camera"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A2141 Not turning on, drawing 0.03-0.08A at 20V repair
+
+## Problem description
+No Power, 20v and ~0.03-0.08A current draw on the 820-01700 logic board diagnosis and repair.
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- MacBook not turning on
+- Pulling ~0.03-0.08A current at 20v from USB-C as measured by USBC meter
+
+## Solution
+### Diagnostic Steps
+  - Relevant diode mode measurements:**
+
+PP2v5_NAND_SSD1: ~0.400-0.500
+
+PP2v5_NAND_SSD0: ~0.400-0.500
+
+PP3v3_S5: ~0.335
+
+PP1v8_SSD1: ~0.380-0.450
+
+PP1v8_SSD0: ~0.380-0.450
+
+PP0v9_SSD0: ~0.400-0.500
+
+PP0v9_SSD1: ~0.400-0.500
+
+#### Check for DFU or Recovery Mode
+- Connect the MacBook Pro A2141 to another Mac or MacBook via the master port (top left side USB-C port, closest to the display).
+- Use Apple Configurator 2 to verify whether the device is in DFU or recovery mode.
+- If the device is in DFU mode, proceed to "Device stuck in DFU mode due to corrupt firmware" in the repair steps below.
+
+#### Check for a short to ground on PP3v3_S5
+If a short to ground is found, proceed to the "PP3v3_S5 short to ground" repair steps below.
+
+#### Check resistance to ground on PP2v5_NAND_SSD_0
+Normal values can be as high as >1MΩ or as low as 60Ω. In the case of SSD/NAND failure, resistance will usually be between 1-3Ω.
+
+#### Inspect U9000 for corrosion.
+The location of the chip on this board makes it prone to corrosion, either from liquid ingress or from condensation from dust collection.
+
+U9000 can be reballed if corroded which will likely resolve the issue if it is corroded.
+
+### Repair Steps
+#### Device stuck in DFU mode due to corrupt firmware
+- Revive firmware via Apple Configurator 2.
+- Ensure the MacBook is running the latest macOS version for consistent results. Check for MacOS updates prior to reviving/restoring T2 firmware.
+- [https://support.apple.com/guide/apple-configurator-mac/revive-or-restore-an-intel-based-mac-apdebea5be51/mac Follow the provided Apple support article for the procedure.]
+  - Plug the device you are working on to another Mac or MacBook via its master port. The master port on the A2141 is the bottom left side USB-C port (closest to the trackpad).
+  - Once plugged in, open Apple Configurator 2. You should see a big square icon pop up that says "DFU" or rarely, "RECOVERY".
+  - Click the icon, Navigate to the top menu bar click "Actions" then "Advanced".
+  - Select Revive device. You will see a progress bar appear. This process can take over 30 minutes in some cases.
+  - Be cautious that selecting "Restore" will wipe all user data.
+- Possible causes for a device to fail a DFU revive include various hardware issues:
+  - Short to ground on PP2v5_NAND_SSD_0).
+  - Absent U9000 voltages. (PP0v9_SSD_0, PPVCCQ_ANI_SSD0 (1.8v).
+  - Failed Trackpad (Will almost always show the Apple logo before failing the process.)
+  - Failed NAND.
+  - Failed T2 or T2 RAM.
+  - If no secondary causes are found, a DFU Restore may resolve the issue.
+
+#### PP3v3_S5 shorted to ground
+- Locate and replace the shorted component. [How to find short circuits](How_to_find_short_circuits.md)
+  - PP3v3_S5 is a tricky line to inject voltage to on this board, as most components are small 0201 parts.
+  - Be sure to use a small gauge wire to inject voltage if you choose to inject voltage to a 0201 part. The best place to inject voltage to on this board is pin 5 of U4801.
+  - 1v at 5 amps is an appropriate voltage to inject into the line. Remove the heatsink prior to injecting voltage as occasionally, the CPU will be the cause of the short to ground. With voltage being injected, perform thermal imaging of the board. If thermal imaging is not available, feel around the board to see where it is getting warm. Once the area is localized, add a small amount of isopropyl alcohol to the area to localize the shorted component.
+  - Once the shorted component is localized, replace the shorted component.
+
+#### U9000 visibly corroded or damaged
+- If corroded, reball the IC. Replacement is usually not necessary.
+- If physically damaged or burned, replace the IC. The IC is not programmed and can be taken from any board which utilizes the same part. (338S00410)
+
+#### If no short is found on PP3v3_S5, and the device is not in DFU or recovery mode, and all other findings are negative, you can try forcing a firmware revive
+- Attempt to restore BridgeOs firmware via Apple Configurator 2 by placing the device into DFU mode.
+  - Solder a wire across SWK003 (Omitted/No Stuff) to pull SOC_FORCE_DFU high. Wire should be across pins 3 and 4 or 1 and 2.
+- STOP! Before you begin, is your Mac on the LATEST VERSION of MacOs? If not, update your system before proceeding. Forcing a MacBook into DFU mode, and attempting to restore BridgeOs firmware on a old version of MacOs may result in a bricked device. NOTE: Selecting restore will wipe all user data.
+- Follow the instructions on this [https://support.apple.com/guide/apple-configurator-mac/revive-or-restore-an-intel-based-mac-apdebea5be51/mac Apple support article] on how to revive or restore T2/BridgeOs firmware, including on how to force a Intel based MacBook into DFU mode by using a key combination.
+
+If the device fails the firmware revive or restore, the T2 chip or one of the NANDs is likely dead or is receiving unstable power from the PMIC (U7800) causing it to crash. If the device fails the firmware revive, you can try empirically replacing U7800. You must removal the large shield covering U7800 and the T2 chip prior, which is not easy. You must use low melt alloy to remove the shield. Be careful not to bridge surrounding components. Go slow and be patient.
+
+  - Replacing U7800 should be seen as a last ditch effort, as it only works in a small amount of cases, and does not have a definitive diagnostic test to determine if it is bad.**

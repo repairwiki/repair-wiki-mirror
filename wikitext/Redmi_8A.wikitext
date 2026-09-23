@@ -1,0 +1,43 @@
+<!--
+title:        Redmi 8A
+pageid:       3828
+revid:        10640
+source:       https://repair.wiki/w/Redmi_8A
+history:      https://repair.wiki/index.php?title=Redmi_8A&action=history
+permalink:    https://repair.wiki/index.php?oldid=10640
+last_edited:  2025-08-24T20:34:17Z
+contributors: Tiago199988, DentsasPanos
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         abc4d5b03dc60d10e53166c750012893fd728e63
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Xiaomi|Device release date=2019, September 30|Device type=Phone|Has code name=MZB8458IN, M1908C3KG, M1908C3KH}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Redmi 8A.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Redmi 8A - Known Good Mechanic USB C Readings.jpg|Redmi 8A - Known Good Mechanic USB C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

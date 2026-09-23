@@ -1,0 +1,39 @@
+<!--
+title:        Xbox Series X Not turning on Repair
+pageid:       1183
+revid:        2703
+source:       https://repair.wiki/w/Xbox_Series_X_Not_turning_on_Repair
+history:      https://repair.wiki/index.php?title=Xbox_Series_X_Not_turning_on_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2703
+last_edited:  2024-01-16T11:28:47Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Stubs
+sha1:         b7f0229d3fd93e82b4463e90789a49bb3b35e73e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Xbox Series X
+|Affects parts=Logic Board
+|Needs equipment=
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+==Problem description==
+No Power and no signs of life
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*No Power 
+*Not responsive
+
+==Solution==
+
+* Check Power Cable
+* Ensure 12v Is Coming From Power Supply To Mainboard
+* Replace HDMI Encoder (Currently Not Available to Purchase)
+* Check For Shorts On 12v, 5v, 3.3v, 1.8v, 1.1v

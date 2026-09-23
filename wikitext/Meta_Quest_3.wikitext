@@ -1,0 +1,48 @@
+<!--
+title:        Meta Quest 3
+pageid:       9839
+revid:        14237
+source:       https://repair.wiki/w/Meta_Quest_3
+history:      https://repair.wiki/index.php?title=Meta_Quest_3&action=history
+permalink:    https://repair.wiki/index.php?oldid=14237
+last_edited:  2026-03-30T19:56:48Z
+contributors: Timleonhardi
+anonymous_edits: 0
+categories:   Device, Game Consoles, Meta, Meta Game Consoles, Stubs
+sha1:         618edfa71a1a5b4d2a0e17e71aa769d98e478145
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Meta
+|Has code name=Stinson / Eureka
+|Device release date=2023-10-10
+|Device type=Game Console
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Quest3portmechnic.png|Meta Quest 3 USB-C Port Diode Mode Readings through Mechanic T-824 Tester
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

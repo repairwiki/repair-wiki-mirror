@@ -1,0 +1,1014 @@
+<!--
+title:        Steam Deck Mainboard Testing Points
+pageid:       2576
+revid:        5173
+source:       https://repair.wiki/w/Steam_Deck_Mainboard_Testing_Points
+history:      https://repair.wiki/index.php?title=Steam_Deck_Mainboard_Testing_Points&action=history
+permalink:    https://repair.wiki/index.php?oldid=5173
+last_edited:  2024-11-03T18:16:16Z
+contributors: DawidMurawski, Karar
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for Steam Deck
+sha1:         e80fafe636da7bdbb5ac8989614d35bfb0a187c8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide|Device=Steam Deck}}
+<!-- [[File:SD MB rev G front - testing points.jpg|thumb|Figure 1: Steam Deck Mainboard (LCD, revision G, front) - Testing Points]] -->
+Testing Points of the Steam Deck Mainboard are shown in Figure 1. Values are shown in Table 1. Testing points are divided by sectors ("Position"). Measurements were done with a VC99 (Aliexpress clone) Multimeter. Measurements in diode mode were done with the positive terminal of the multimeter connected to ground of the mainboard (housing of the battery connector) and the probe was connected to the COM terminal of the multimeter. Resistance measurements were done in regular configuration.
+
+{{Clear}}
+
+{{:{{PAGENAME}}/imagemap}}
+
+{| class="wikitable sortable highlighttable"
+|+Table 1: Testing points on the Steam Deck Mainboard (LCD, revision G, front). ''<small>'''GND''': connected to ground (0 Ohms/0 Volts), OL: Open Line (no resistance/voltage measurable).</small>''
+|'''Type'''
+|'''#'''
+|'''Side'''
+|'''Position'''
+|'''Diode Mode [V]'''
+|'''Resistance to Ground [Ohms]'''
+|- | id=f101
+|Testing Point
+|01
+|Front
+|F1
+|0.277
+|3300
+|- | id=f102
+|Testing Point
+|02
+|Front
+|F1
+|0.06
+|90.9
+|- | id=f201
+|Testing Point
+|01
+|Front
+|F2
+|0.06
+|90.9
+|- | id=f202
+|Testing Point
+|02
+|Front
+|F2
+|GND
+|GND
+|- | id=f301
+|Testing Point
+|01
+|Front
+|F3
+|OL
+|OL
+|- | id=f302
+|Testing Point
+|02
+|Front
+|F3
+|0.66
+|100000
+|- | id=f303
+|Testing Point
+|03
+|Front
+|F3
+|0.65
+|100000
+|- | id=f304
+|Testing Point
+|04
+|Front
+|F3
+|OL
+|OL
+|- | id=f305
+|Testing Point
+|05
+|Front
+|F3
+|0.65
+|100000
+|- | id=f401
+|Testing Point
+|01
+|Front
+|F4
+|0.55
+|277000
+|- | id=f402
+|Testing Point
+|02
+|Front
+|F4
+|0.392
+|21000
+|- | id=f403
+|Testing Point
+|03
+|Front
+|F4
+|0.422
+|80000
+|- | id=f404
+|Testing Point
+|04
+|Front
+|F4
+|0.692
+|39000
+|- | id=f405
+|Testing Point
+|05
+|Front
+|F4
+|0.545
+|23000
+|- | id=f406
+|Testing Point
+|06
+|Front
+|F4
+|0.742
+|17000
+|- | id=f407
+|Testing Point
+|07
+|Front
+|F4
+|GND
+|GND
+|- | id=f408
+|Testing Point
+|08
+|Front
+|F4
+|GND
+|GND
+|- | id=e101
+|Testing Point
+|01
+|Front
+|E1
+|0.585
+|OL
+|- | id=e102
+|Testing Point
+|02
+|Front
+|E1
+|0.5
+|2588
+|- | id=e103
+|Testing Point
+|03
+|Front
+|E1
+|0.85
+|158600
+|- | id=e104
+|Testing Point
+|04
+|Front
+|E1
+|0.73
+|24500000
+|- | id=e105
+|Testing Point
+|05
+|Front
+|E1
+|0.85
+|24500000
+|- | id=e106
+|Testing Point
+|06
+|Front
+|E1
+|0.85
+|658000
+|- | id=e107
+|Testing Point
+|07
+|Front
+|E1
+|0.82
+|9380
+|- | id=e108
+|Testing Point
+|08
+|Front
+|E1
+|0.345
+|529
+|- | id=e109
+|Testing Point
+|09
+|Front
+|E1
+|GND
+|GND
+|- | id=e110
+|Testing Point
+|10
+|Front
+|E1
+|0.277
+|3300
+|- | id=e111
+|Testing Point
+|11
+|Front
+|E1
+|0.477
+|6430
+|- | id=d101
+|Testing Point
+|01
+|Front
+|D1
+|GND
+|GND
+|- | id=d102
+|Testing Point
+|02
+|Front
+|D1
+|0.48
+|9520
+|- | id=d103
+|Testing Point
+|03
+|Front
+|D1
+|GND
+|GND
+|- | id=d104
+|Testing Point
+|04
+|Front
+|D1
+|0.48
+|64500
+|- | id=d105
+|Testing Point
+|05
+|Front
+|D1
+|0.365
+|1221
+|- | id=d106
+|Testing Point
+|06
+|Front
+|D1
+|0.48
+|19980
+|- | id=d107
+|Testing Point
+|07
+|Front
+|D1
+|0.38
+|1188
+|- | id=d108
+|Testing Point
+|08
+|Front
+|D1
+|0.827
+|71000
+|- | id=d109
+|Testing Point
+|09
+|Front
+|D1
+|0.363
+|1222
+|- | id=d110
+|Testing Point
+|10
+|Front
+|D1
+|0.48
+|19700
+|- | id=d111
+|Testing Point
+|11
+|Front
+|D1
+|0.477
+|19800
+|- | id=d112
+|Testing Point
+|12
+|Front
+|D1
+|0.38
+|1190
+|- | id=d113
+|Testing Point
+|13
+|Front
+|D1
+|0.755
+|978000
+|- | id=d114
+|Testing Point
+|14
+|Front
+|D1
+|0.8
+|5800000
+|- | id=d115
+|Testing Point
+|15
+|Front
+|D1
+|0.8
+|2300000
+|- | id=d116
+|Testing Point
+|16
+|Front
+|D1
+|0.755
+|10000000
+|- | id=d117
+|Testing Point
+|17
+|Front
+|D1
+|0.466
+|2060
+|- | id=d118
+|Testing Point
+|18
+|Front
+|D1
+|0.48
+|24000
+|- | id=d119
+|Testing Point
+|19
+|Front
+|D1
+|GND
+|GND
+|- | id=d120
+|Testing Point
+|20
+|Front
+|D1
+|0.48
+|24000
+|- | id=d121
+|Testing Point
+|21
+|Front
+|D1
+|0.545
+|10900
+|- | id=d122
+|Testing Point
+|22
+|Front
+|D1
+|0.454
+|22000
+|- | id=d123
+|Testing Point
+|23
+|Front
+|D1
+|0.728
+|69000
+|- | id=d124
+|Testing Point
+|24
+|Front
+|D1
+|0.847
+|29200
+|- | id=d201
+|Testing Point
+|01
+|Front
+|D2
+|0.847
+|29480
+|- | id=d301
+|Testing Point
+|01
+|Front
+|D3
+|0.033
+|17
+|- | id=d302
+|Testing Point
+|02
+|Front
+|D3
+|0.033
+|19.6
+|- | id=d303
+|Testing Point
+|03
+|Front
+|D3
+|0.461
+|2655
+|- | id=d304
+|Testing Point
+|04
+|Front
+|D3
+|0.458
+|2637
+|- | id=d305
+|Testing Point
+|05
+|Front
+|D3
+|0.053
+|24
+|- | id=d401
+|Testing Point
+|01
+|Front
+|D4
+|0.458
+|2614
+|- | id=d402
+|Testing Point
+|02
+|Front
+|D4
+|0.118
+|358
+|- | id=c101
+|Testing Point
+|01
+|Front
+|C1
+|0.428
+|22700
+|- | id=c102
+|Testing Point
+|02
+|Front
+|C1
+|0.428
+|23000
+|- | id=c103
+|Testing Point
+|03
+|Front
+|C1
+|0.428
+|30000
+|- | id=c104
+|Testing Point
+|04
+|Front
+|C1
+|0.6
+|OL
+|- | id=c105
+|Testing Point
+|05
+|Front
+|C1
+|0.545
+|623000
+|- | id=c106
+|Testing Point
+|06
+|Front
+|C1
+|0.425
+|5836
+|- | id=c107
+|Testing Point
+|07
+|Front
+|C1
+|0.6
+|3700000
+|- | id=c108
+|Testing Point
+|08
+|Front
+|C1
+|GND
+|GND
+|- | id=c109
+|Testing Point
+|09
+|Front
+|C1
+|0.55
+|10990
+|- | id=c110
+|Testing Point
+|10
+|Front
+|C1
+|GND
+|GND
+|- | id=c201
+|Testing Point
+|01
+|Front
+|C2
+|0.031
+|15.4
+|- | id=c202
+|Testing Point
+|02
+|Front
+|C2
+|0.848
+|29460
+|- | id=c203
+|Testing Point
+|03
+|Front
+|C2
+|0.56
+|19000
+|- | id=c204
+|Testing Point
+|04
+|Front
+|C2
+|0.474
+|14610
+|- | id=c205
+|Testing Point
+|05
+|Front
+|C2
+|0.56
+|19730
+|- | id=c206
+|Testing Point
+|06
+|Front
+|C2
+|0.474
+|14780
+|- | id=c207
+|Testing Point
+|07
+|Front
+|C2
+|0.442
+|400000
+|- | id=c208
+|Testing Point
+|08
+|Front
+|C2
+|0.474
+|14780
+|- | id=c209
+|Testing Point
+|09
+|Front
+|C2
+|GND
+|GND
+|- | id=c210
+|Testing Point
+|10
+|Front
+|C2
+|0.052
+|24.7
+|- | id=c211
+|Testing Point
+|11
+|Front
+|C2
+|GND
+|GND
+|- | id=c212
+|Testing Point
+|12
+|Front
+|C2
+|0.55
+|12350
+|- | id=c301
+|Testing Point
+|01
+|Front
+|C3
+|0.03
+|17.6
+|- | id=c302
+|Testing Point
+|02
+|Front
+|C3
+|0.03
+|17.4
+|- | id=c303
+|Testing Point
+|03
+|Front
+|C3
+|0.052
+|24.9
+|- | id=c304
+|Testing Point
+|04
+|Front
+|C3
+|0.651
+|10000000
+|- | id=c305
+|Testing Point
+|05
+|Front
+|C3
+|0.01
+|0.7
+|- | id=c306
+|Testing Point
+|06
+|Front
+|C3
+|0.647
+|20000000
+|- | id=c401
+|Testing Point
+|01
+|Front
+|C4
+|GND
+|GND
+|- | id=c402
+|Testing Point
+|02
+|Front
+|C4
+|0.378
+|11300
+|- | id=c403
+|Testing Point
+|03
+|Front
+|C4
+|0.378
+|11240
+|- | id=c404
+|Testing Point
+|04
+|Front
+|C4
+|GND
+|GND
+|- | id=c405
+|Testing Point
+|05
+|Front
+|C4
+|0.118
+|347.3
+|- | id=b101
+|Testing Point
+|01
+|Front
+|B1
+|0.735
+|83000
+|- | id=b102
+|Testing Point
+|02
+|Front
+|B1
+|0.395
+|20000
+|- | id=b201
+|Testing Point
+|01
+|Front
+|B2
+|GND
+|GND
+|- | id=b202
+|Testing Point
+|02
+|Front
+|B2
+|0.595
+|1172
+|- | id=b203
+|Testing Point
+|03
+|Front
+|B2
+|0.382
+|10930
+|- | id=b204
+|Testing Point
+|04
+|Front
+|B2
+|0.24
+|1600
+|- | id=b205
+|Testing Point
+|05
+|Front
+|B2
+|0.585
+|62000
+|- | id=b206
+|Testing Point
+|06
+|Front
+|B2
+|0.585
+|62000
+|- | id=b207
+|Testing Point
+|07
+|Front
+|B2
+|0.512
+|200000
+|- | id=b208
+|Testing Point
+|08
+|Front
+|B2
+|0.389
+|9120
+|- | id=b209
+|Testing Point
+|09
+|Front
+|B2
+|0.832
+|22350
+|- | id=b210
+|Testing Point
+|10
+|Front
+|B2
+|0.832
+|22350
+|- | id=b211
+|Testing Point
+|11
+|Front
+|B2
+|0.475
+|19820
+|- | id=b212
+|Testing Point
+|12
+|Front
+|B2
+|0.277
+|3350
+|- | id=b301
+|Testing Point
+|01
+|Front
+|B3
+|0.392
+|20000
+|- | id=b302
+|Testing Point
+|02
+|Front
+|B3
+|0.63
+|32000
+|- | id=b303
+|Testing Point
+|03
+|Front
+|B3
+|GND
+|GND
+|- | id=b401
+|Testing Point
+|01
+|Front
+|B4
+|0.647
+|OL
+|- | id=b402
+|Testing Point
+|02
+|Front
+|B4
+|0.422
+|82000
+|- | id=b403
+|Testing Point
+|03
+|Front
+|B4
+|GND
+|GND
+|- | id=b404
+|Testing Point
+|04
+|Front
+|B4
+|0.548
+|278000
+|- | id=b405
+|Testing Point
+|05
+|Front
+|B4
+|GND
+|GND
+|- | id=b406
+|Testing Point
+|06
+|Front
+|B4
+|0.6
+|730000
+|- | id=b407
+|Testing Point
+|07
+|Front
+|B4
+|0.362
+|200000
+|- | id=b408
+|Testing Point
+|08
+|Front
+|B4
+|0.6
+|12000000
+|- | id=b409
+|Testing Point
+|09
+|Front
+|B4
+|0.43
+|105500
+|- | id=a101
+|Testing Point
+|01
+|Front
+|A1
+|GND
+|GND
+|- | id=a102
+|Testing Point
+|02
+|Front
+|A1
+|0.54
+|11800
+|- | id=a103
+|Testing Point
+|03
+|Front
+|A1
+|0.4
+|20420
+|- | id=a104
+|Testing Point
+|04
+|Front
+|A1
+|0.4
+|20370
+|- | id=a105
+|Testing Point
+|05
+|Front
+|A1
+|0.424
+|5800
+|- | id=a201
+|Testing Point
+|01
+|Front
+|A2
+|GND
+|GND
+|- | id=a202
+|Testing Point
+|02
+|Front
+|A2
+|0.528
+|970000
+|- | id=a203
+|Testing Point
+|03
+|Front
+|A2
+|0.548
+|OL
+|- | id=a204
+|Testing Point
+|04
+|Front
+|A2
+|0.765
+|19600
+|- | id=a205
+|Testing Point
+|05
+|Front
+|A2
+|0.564
+|29200
+|- | id=a206
+|Testing Point
+|06
+|Front
+|A2
+|0.392
+|14280
+|- | id=a207
+|Testing Point
+|07
+|Front
+|A2
+|0.535
+|15300
+|- | id=a301
+|Testing Point
+|01
+|Front
+|A3
+|GND
+|GND
+|- | id=a302
+|Testing Point
+|02
+|Front
+|A3
+|0.645
+|OL
+|- | id=a401
+|Testing Point
+|01
+|Front
+|A4
+|0.422
+|82000
+|- | id=a402
+|Testing Point
+|02
+|Front
+|A4
+|GND
+|GND
+|- | id=a403
+|Testing Point
+|03
+|Front
+|A4
+|GND
+|GND
+|- | id=a404
+|Testing Point
+|04
+|Front
+|A4
+|0.416
+|16000
+|- | id=a405
+|Testing Point
+|05
+|Front
+|A4
+|0.516
+|3000000
+|- | id=a406
+|Testing Point
+|06
+|Front
+|A4
+|0.42
+|82000
+|- | id=a407
+|Testing Point
+|07
+|Front
+|A4
+|0.39
+|16250
+|}

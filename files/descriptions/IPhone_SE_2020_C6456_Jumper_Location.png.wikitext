@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone SE 2020 C6456 Jumper Location.png
+pageid:       273
+revid:        717
+source:       https://repair.wiki/w/File:IPhone_SE_2020_C6456_Jumper_Location.png
+history:      https://repair.wiki/index.php?title=File:IPhone_SE_2020_C6456_Jumper_Location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=717
+last_edited:  2023-11-05T22:13:23Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ffee79078765db43b6d7e2e7e9f668c6b63abd1b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+IPhone SE 2020 C6456 Jumper Location

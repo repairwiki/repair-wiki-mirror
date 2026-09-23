@@ -1,0 +1,48 @@
+<!--
+title:        IPad 7
+pageid:       1434
+revid:        10679
+source:       https://repair.wiki/w/IPad_7
+history:      https://repair.wiki/index.php?title=IPad_7&action=history
+permalink:    https://repair.wiki/index.php?oldid=10679
+last_edited:  2025-08-25T22:07:58Z
+contributors: Tiago199988, KevinShort
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         be0675269423f9cd8cb9ebd2416bef55178d5286
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2197, A2200, A2198, A2199
+|Device release date=2019-09-25
+|Device type=Tablet
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ipad10.2-gen7-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPad 7 PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPad 7 Schematics:https://www.sendspace.com/file/g18h6r

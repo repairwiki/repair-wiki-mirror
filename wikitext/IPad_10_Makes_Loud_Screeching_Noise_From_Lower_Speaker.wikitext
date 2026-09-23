@@ -1,0 +1,49 @@
+<!--
+title:        IPad 10 Makes Loud Screeching Noise From Lower Speaker
+pageid:       3353
+revid:        6106
+source:       https://repair.wiki/w/IPad_10_Makes_Loud_Screeching_Noise_From_Lower_Speaker
+history:      https://repair.wiki/index.php?title=IPad_10_Makes_Loud_Screeching_Noise_From_Lower_Speaker&action=history
+permalink:    https://repair.wiki/index.php?oldid=6106
+last_edited:  2025-04-03T01:27:31Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPad 10
+sha1:         a0e8ac4ce283fbd6980d07c21aa191c659e68c79
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPad 10
+|Affects parts=Lower Loud Speaker
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+iPad 10th Generation that makes a loud screech sound when audio plays through it.
+
+It will do it regardless of what speaker you have plugged in.
+
+
+
+== Symptoms ==
+* Speaker makes loud noise
+* Ugly sound coming from bottom speaker
+* It's not a parts problem
+* Speaker works fine in another housing
+* Sound is a loud screeching noise
+
+== Solution ==
+First, test with known good speaker, to ensure it's not a parts issue
+
+Then do a visual inspection of the board for any water damage or pry damage.
+
+If all looks good, then replace the IC below.
+
+It is located under the main shield on the right, next to the battery connector
+
+[[File:IPad 10 Audio IC Chip.png|center|thumb|888x888px|iPad 10 Audio IC Chip - When this fails, it causes loud screeching sound]]
+[[File:IPad 10 Audio IC Chip Location.png|center|thumb|1539x1539px|iPad 10 Audio IC Chip Location]]

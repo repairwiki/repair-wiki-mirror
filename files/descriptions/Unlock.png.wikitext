@@ -1,0 +1,18 @@
+<!--
+title:        File:Unlock.png
+pageid:       4540
+revid:        7597
+source:       https://repair.wiki/w/File:Unlock.png
+history:      https://repair.wiki/index.php?title=File:Unlock.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7597
+last_edited:  2025-06-13T03:06:43Z
+contributors: Chris
+anonymous_edits: 0
+categories:   
+sha1:         851b6e6a8240003f0ef34949e404f3a939821d76
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+ROM unlocking

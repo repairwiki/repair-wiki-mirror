@@ -1,0 +1,35 @@
+<!--
+title:        Hewlett Packard Pavilion 22xi Overheats and Powers Off Repair
+pageid:       1039
+revid:        2453
+source:       https://repair.wiki/w/Hewlett_Packard_Pavilion_22xi_Overheats_and_Powers_Off_Repair
+history:      https://repair.wiki/index.php?title=Hewlett_Packard_Pavilion_22xi_Overheats_and_Powers_Off_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2453
+last_edited:  2024-01-14T12:30:20Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Hewlett Packard Pavilion 22xi, Stubs
+sha1:         8b527eaceaff5930ad488fbd75d0d8e1fbe7265a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Hewlett Packard Pavilion 22xi
+|Affects parts=Logic Board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Monitor work for some time, a few minutes then it turns off and can't be power on unless it cools down.[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Overheats then powers off
+
+==Solution==
+
+* Replace eeprom (25xx), now don't use same one, use from another manufacturer, when you remove the old eeprom you have to read it (dump its contents) write that content in another eeprom and put it back in its place. The problem with this monitor is that the eeprom has a problem, it stops working when it heats up, the problem is in the eeprom.

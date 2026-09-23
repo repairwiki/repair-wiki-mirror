@@ -1,0 +1,43 @@
+<!--
+title:        Galaxy A52s 5G
+pageid:       3824
+revid:        10284
+source:       https://repair.wiki/w/Galaxy_A52s_5G
+history:      https://repair.wiki/index.php?title=Galaxy_A52s_5G&action=history
+permalink:    https://repair.wiki/index.php?oldid=10284
+last_edited:  2025-08-16T22:32:13Z
+contributors: Tiago199988, DentsasPanos
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         f510167d4846d85715ae58e9499eb3d8e809675e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Samsung|Device release date=2021, September 01|Device type=Phone|Has code name=SM-A528B, SM-A528B/DS, SM-A528N}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A52s-5g-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Galaxy A52s 5G - Known Good Mechanic USB C Readings.jpg|Galaxy A52s 5G - Known Good Mechanic USB C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

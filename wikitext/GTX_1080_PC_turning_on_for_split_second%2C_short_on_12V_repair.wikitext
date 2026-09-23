@@ -1,0 +1,52 @@
+<!--
+title:        GTX 1080 PC turning on for split second, short on 12V repair
+pageid:       1703
+revid:        3760
+source:       https://repair.wiki/w/GTX_1080_PC_turning_on_for_split_second,_short_on_12V_repair
+history:      https://repair.wiki/index.php?title=GTX_1080_PC_turning_on_for_split_second,_short_on_12V_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=3760
+last_edited:  2024-04-10T10:12:45Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for GTX 1080
+sha1:         ac602fd3d19abcac483438c2fe65be3afc411de0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=GTX 1080
+|Affects parts=Capacitor, VRM
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+==Problem description==
+GTX 1080 Zotac, PC not turning on or turning on for split second then turning off when the card is inserted. This particular case concerns a Zotac AMP EXTREME GTX 1080
+[[File:20240410 104859.jpg|thumb|219x219px|Short circuit measurement on 12V_EXT (Figure 1)]]
+
+==Symptoms==
+
+*Whole computer not starting
+*Card not powering up
+*Fans flinch for a split second
+*Short on 12V as measured by a multimeter
+[[File:20240410 1155411.jpg|thumb|239x239px|Vcore VRMs (Figure 2)]]
+[[File:Screenshot 20240410-105532.jpg|thumb|260x260px|Shorted capacitor close up view (Figure 3)]]
+[[File:20240410 111249.jpg|thumb|189x189px|Replaced capacitors (Figure 4)]]
+
+==Solution==
+===Diagnostic Steps===
+
+* Start by [[Nvidia Pascal (GTX 1000) GPU Diagnosing Guide|measuring the resistance of the 12V lanes]] (12V_BUS, 12V_EXT)
+* If you suffer from the same problem, you should measure sub 100 Ohms on one of them, follow this [[Short on 12V rail on Pascal (GTX 1000) GPUs Repair|guide for potential shorted components]] 
+** In this case, a short was found on one of the 12V_EXT connectors (Figure 1)
+* After identifying which rail is [[Short Circuits - Repair Basics|shorted]], inject voltage (1V 10A) to localize the shorted component 
+** The most obvious suspects are the VCore VRMs/MOSFETS shown in figure 2
+*** However the actual shorted component turned out to be a capacitor on the other side under the Vcore VRMs. The culprit was C195. C196 looked suspicious as well. (Figure 3,4)<br />
+
+===Repair Steps===
+Simply de-solder the shorted capacitor. It is not strictly necessary to replace it. However, it's value and rating are 16V 10 uF 0603 package. If the source of the short is a VRM, then you must replace it!
+
+After removing the shorted component, measure again to confirm the short is gone, if not, repeat the steps to find the other short.

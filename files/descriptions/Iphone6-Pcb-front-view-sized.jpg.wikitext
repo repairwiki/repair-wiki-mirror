@@ -1,0 +1,18 @@
+<!--
+title:        File:Iphone6-Pcb-front-view-sized.jpg
+pageid:       1914
+revid:        4115
+source:       https://repair.wiki/w/File:Iphone6-Pcb-front-view-sized.jpg
+history:      https://repair.wiki/index.php?title=File:Iphone6-Pcb-front-view-sized.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4115
+last_edited:  2024-06-27T19:45:29Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         6690cbbb6b6ce706ee7dec93a768584b945a62f6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iphone6-Pcb-front-view-sized

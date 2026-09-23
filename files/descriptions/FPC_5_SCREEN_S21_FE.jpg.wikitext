@@ -1,0 +1,17 @@
+<!--
+title:        File:FPC 5 SCREEN S21 FE.jpg
+pageid:       2392
+revid:        4880
+source:       https://repair.wiki/w/File:FPC_5_SCREEN_S21_FE.jpg
+history:      https://repair.wiki/index.php?title=File:FPC_5_SCREEN_S21_FE.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4880
+last_edited:  2024-09-18T08:05:40Z
+contributors: A1Repairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

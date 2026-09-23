@@ -1,0 +1,101 @@
+<!--
+title:        How To Repair iPhone 12 Pro Max fake temperature warning
+pageid:       9585
+revid:        13839
+source:       https://repair.wiki/w/How_To_Repair_iPhone_12_Pro_Max_fake_temperature_warning
+history:      https://repair.wiki/index.php?title=How_To_Repair_iPhone_12_Pro_Max_fake_temperature_warning&action=history
+permalink:    https://repair.wiki/index.php?oldid=13839
+last_edited:  2026-02-04T11:58:28Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 12 Pro Max, Stubs
+sha1:         d5a830998c452817e5802914eb5adc358f76d2cb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPhone 12 Pro Max
+|Affects parts=Main Logic Board, Charging Port
+|Needs equipment=Screwdrivers, Hot Air Station, Tweezers
+|Type=Soldering, Part Replacement
+|Difficulty=3. Hard
+}}
+== Problem description ==
+iPhone 12 Pro Max displays a “Temperature Too High” warning even when the device is physically cool. The phone may refuse to boot fully, disable charging, or throttle performance. 
+
+On this model, the fault is typically related to either:
+
+* A faulty charging port (dock flex) affecting temperature sensor readings, or
+* Separation / cracked solder joints between the AP and RF sandwich layers, interrupting RF temperature sensor lines.
+
+[[File:Iphone-12pm-charge-port.png|thumb|iPhone 12 PM - Charge Port Flex]]
+
+== Symptoms ==
+
+* “Temperature Too High” warning on boot
+* Device feels cool to the touch
+* Charging disabled or extremely limited
+* Warning appears immediately after power on
+* Issue persists after:
+** iOS restore
+** Battery replacement
+* No abnormal current draw on DCPS
+
+[[File:Iphone-12pm-resistors.png|thumb|iPhone 12 PM - Resistors to temporary bypass Temperature Warning]]
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+
+
+=== Diagnostic Steps ===
+
+# Confirm device is physically cool
+# Measure current draw (should be normal idle)
+# Check for obvious dock flex damage or aftermarket parts
+# If available, test with known-good charge port<br />
+=== Repair Steps ===
+
+==== Fix 1: Replace Charge Port (Recommended First Step) ====
+
+# Replace the charge port with a known-good OEM or high-quality part
+# Reassemble and test
+
+✅ If warning disappears → fault confirmed in dock flex
+----
+
+==== Fix 2: Reball Sandwich Board (Permanent Hardware Fix) ====
+If the issue persists:
+
+# Split the sandwich logic board
+# Inspect for cracked or cold solder joints
+# Reball the lower (RF) layer
+# Re-stack and test
+
+⚠️ This is an advanced repair and carries risk to CPU, baseband, and data.
+----
+
+==== Fix 3: Data Recovery Only (Temporary / Bypass Methods) ====
+<blockquote>⚠️ These methods are not permanent repairs and are intended only for data recovery.</blockquote>
+
+==== Option A: Known-Good Bottom Board ====
+
+* Use a known-good bottom (RF) board in an iSocket jig
+* Allows temporary boot for data access
+
+==== Option B: Temperature Sensor Bypass ====
+Bypass the RF temperature readings by adding a 10 kΩ resistor to ground on the following lines:
+
+* Pin 487 – NTC_RADIO_BB_SE
+* Pin 489 – NTC_RADIO_PA_SE
+
+This forces valid temperature values and clears the warning long enough to:
+
+* Boot the device
+* Back up data

@@ -1,0 +1,18 @@
+<!--
+title:        File:Front coils diode value a326.png
+pageid:       6359
+revid:        9707
+source:       https://repair.wiki/w/File:Front_coils_diode_value_a326.png
+history:      https://repair.wiki/index.php?title=File:Front_coils_diode_value_a326.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9707
+last_edited:  2025-08-02T12:44:45Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         adae92bf37d9baf209ff6766e7400835f34440eb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Front coils diode value

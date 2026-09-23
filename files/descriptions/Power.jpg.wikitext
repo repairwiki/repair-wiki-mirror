@@ -1,0 +1,18 @@
+<!--
+title:        File:Power.jpg
+pageid:       2446
+revid:        4984
+source:       https://repair.wiki/w/File:Power.jpg
+history:      https://repair.wiki/index.php?title=File:Power.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4984
+last_edited:  2024-10-09T06:58:11Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         02cf661e4c913e9fa7f61cac58b4acc9a583cd32
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Power delivery IC of the rev B controller board

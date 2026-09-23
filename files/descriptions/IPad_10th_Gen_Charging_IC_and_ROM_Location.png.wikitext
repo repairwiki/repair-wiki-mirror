@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad 10th Gen Charging IC and ROM Location.png
+pageid:       6800
+revid:        10211
+source:       https://repair.wiki/w/File:IPad_10th_Gen_Charging_IC_and_ROM_Location.png
+history:      https://repair.wiki/index.php?title=File:IPad_10th_Gen_Charging_IC_and_ROM_Location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10211
+last_edited:  2025-08-15T00:44:12Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         4199377076fabae61c75e38754ad14eff703a73d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad 10th Gen Charging IC and ROM Location

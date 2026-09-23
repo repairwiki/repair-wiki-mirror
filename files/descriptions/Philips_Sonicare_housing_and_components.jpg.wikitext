@@ -1,0 +1,18 @@
+<!--
+title:        File:Philips Sonicare housing and components.jpg
+pageid:       7724
+revid:        11366
+source:       https://repair.wiki/w/File:Philips_Sonicare_housing_and_components.jpg
+history:      https://repair.wiki/index.php?title=File:Philips_Sonicare_housing_and_components.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=11366
+last_edited:  2025-09-07T10:17:54Z
+contributors: Brainiac94
+anonymous_edits: 0
+categories:   
+sha1:         e77a454725bb7e7996769c9320ba4e91259934b0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The insides of the device removed from its housing.

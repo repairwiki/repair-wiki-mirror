@@ -1,0 +1,82 @@
+<!--
+title:        How To Read and Write iPhone 16 Pro SPI EEPROM using CH341A
+pageid:       9142
+revid:        13263
+source:       https://repair.wiki/w/How_To_Read_and_Write_iPhone_16_Pro_SPI_EEPROM_using_CH341A
+history:      https://repair.wiki/index.php?title=How_To_Read_and_Write_iPhone_16_Pro_SPI_EEPROM_using_CH341A&action=history
+permalink:    https://repair.wiki/index.php?oldid=13263
+last_edited:  2025-12-15T13:49:11Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 16 Pro, Repair guides for iPhone 16 Pro Max, Stubs
+sha1:         f82b5ba56de7fbdd41016929ed044be090044634
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPhone 16 Pro, iPhone 16 Pro Max
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, CH341A Programmer, Jumper Wire
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+
+== Description ==
+Some iPhone 16 Pro and 16 Pro Max devices can develop charging-related or USB-C communication issues where the ACE charging controller is electrically functional, but its EEPROM (SPI) data becomes corrupted. This commonly occurs after the use of faulty or aftermarket chargers, power surges, or unstable power delivery.
+
+In these cases, replacing the ACE controller alone does not resolve the issue, because the ACE EEPROM stores critical configuration data required for proper USB-C negotiation and charging behavior. When this data is damaged, it must be read, corrected, rewritten or replace the EEPROM physically.
+
+This guide documents how to access and modify ACE EEPROM data in-circuit on iPhone 16 Pro and Pro Max, avoiding the need to split the sandwich logic board.
+[[File:Ch341a-programmer.jpg|thumb|CH341A Programmer]]
+
+== Symptoms ==
+* Device does not charge via cable, but the port is confirmed good
+* Intermittent or unstable charging detection
+* Charging behavior changes depending on cable or power source
+* Device does not charge even after replacing the ACE charging controller  ==
+
+== Solution ==
+* Replace ACE Charging controller
+* Program a new ROM using CH341A programmer
+* Charging will be restored 
+
+=== Diagnostic Steps ===
+# Visual Inspection
+#* Look for signs of corrosion/Look for shorts around the ACE Charging Controller IC and ROM area
+#* Check for burnt ROM chips or ACE Charging Controller
+# Voltage Testing
+#* Use USB-C power meter
+#* Plug in USB-C and check if iPhone negotiates proper voltage  ==
+
+=== Repair Steps ===
+# Disconnect all power from the board
+# Solder jumpers from CH341A to ACE SPI points[[File:Ch341a-jumpers.png|center|thumb]]
+# Connect CH341A to PC
+# Open CH341A Programmer
+# Press Detect[[File:Detect-neo-programmer.png|center|thumb]]
+# Click Read[[File:Read-neo-programmer.png|center|thumb]]
+# Click Save. (Save at least two copies of the dump)[[File:Save-neo-programmer.png|center|thumb]]
+# Read again and compare files for consistency
+
+== Write / Restore Procedure ==
+# Click Open[[File:Open-neo-programmer.png|center|thumb]]
+# Select your file and press open [[File:Open-v2-neo-programmer.png|center|thumb]]
+# Click Program[[File:Programm-neo-programmer.png|center|thumb]]
+# Confirm verification passes with no errors
+
+== After Programming ==
+# Disconnect CH341A
+# Remove jumper wires
+# Inspect pads for bridges
+# Reconnect battery
+# Power on device and confirm charging works.
+
+== Why This Method Is Used ==
+* Preserves customer data
+* Avoids sandwich board separation
+* Reduces mechanical and thermal risk
+* Faster and safer EEPROM access
+* Uses inexpensive, widely available tools

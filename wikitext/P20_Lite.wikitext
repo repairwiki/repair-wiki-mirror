@@ -1,0 +1,44 @@
+<!--
+title:        P20 Lite
+pageid:       3842
+revid:        11428
+source:       https://repair.wiki/w/P20_Lite
+history:      https://repair.wiki/index.php?title=P20_Lite&action=history
+permalink:    https://repair.wiki/index.php?oldid=11428
+last_edited:  2025-09-07T20:00:12Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Huawei, Huawei Phones, Phones, Stubs
+sha1:         8623c86095656b18b703f968d8f996ee3b390134
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Huawei|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:P20lite-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Huawei P20 Lite PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+File:Huawei P20 Lite USB C readings.jpeg|huawei P20 Lite USB C Diode From a good phone
+</gallery>
+
+== More Information/External Sources ==
+Huawei P20 Lite Schematics: https://www.sendspace.com/file/hm92aw<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

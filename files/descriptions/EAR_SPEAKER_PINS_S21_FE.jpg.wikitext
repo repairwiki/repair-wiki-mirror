@@ -1,0 +1,17 @@
+<!--
+title:        File:EAR SPEAKER PINS S21 FE.jpg
+pageid:       2383
+revid:        4871
+source:       https://repair.wiki/w/File:EAR_SPEAKER_PINS_S21_FE.jpg
+history:      https://repair.wiki/index.php?title=File:EAR_SPEAKER_PINS_S21_FE.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4871
+last_edited:  2024-09-18T08:05:31Z
+contributors: A1Repairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

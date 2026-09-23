@@ -1,0 +1,18 @@
+<!--
+title:        File:Elitebook 850 G5 BIOS Chip Flashing.jpg
+pageid:       9588
+revid:        13848
+source:       https://repair.wiki/w/File:Elitebook_850_G5_BIOS_Chip_Flashing.jpg
+history:      https://repair.wiki/index.php?title=File:Elitebook_850_G5_BIOS_Chip_Flashing.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13848
+last_edited:  2026-02-06T15:42:08Z
+contributors: Cheapskate777
+anonymous_edits: 0
+categories:   
+sha1:         caf91437fbb63222168d7d1b4460091cba884fb7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Possible way to flash BIOS chip without desoldering chip if you don't have a heat gun

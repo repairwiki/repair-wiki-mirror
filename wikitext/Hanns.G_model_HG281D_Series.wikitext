@@ -1,0 +1,54 @@
+<!--
+title:        Hanns.G model HG281D Series
+pageid:       1037
+revid:        2456
+source:       https://repair.wiki/w/Hanns.G_model_HG281D_Series
+history:      https://repair.wiki/index.php?title=Hanns.G_model_HG281D_Series&action=history
+permalink:    https://repair.wiki/index.php?oldid=2456
+last_edited:  2024-01-14T12:31:03Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Device, Hanns.G, Hanns.G Television/Monitors, Stubs, Television/Monitors
+sha1:         733b1e73ecfb706bc8655759040ff248aea4b1b2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Hanns.G
+|Device release date=2007-07-27
+|Device type=Television/Monitor
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Hanns-G HG281D Front.jpg|Hanns-G HG281D Front
+File:Hanns G HG281D side-buttons 93j4.1024.webp|Hanns G HG281D side-buttons
+File:Hanns-G HG281D Back.jpg|Hanns-G HG281D Back
+File:Hanns-G HG-281DPB Front.jpg|Hanns-G HG281DPB Front
+File:Hanns-G HG-281DPB Bottom.jpg|Hanns-G HG-281DPB Bottom
+File:Hanns-G HG-281DPB Back.jpg|Hanns-G HG-281DPB Back
+File:Hanns-G HG-281DPB.jpg|Hanns-G HG-281DPB with Box and Cables
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Hanns-G HG281D board1.jpg|Hanns-G HG281D board
+File:Hanns-G HG281D board.jpg|Hanns-G HG281D board angle view
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+Hanns.G model HG281D. Information and repair guides here may also apply to model HG281DPB Series
+
+Size: 28" | Native Resolution: 1920 x 1200 (16:10) WUXGA | Panel: Active Matrix, TFT LCD | Viewing Angle: 160° (H) / 160° (V) | Pixel Pitch: 0.309mm | Display Colors: 16.7 Million | Brightness: 500 cd/m2 | Contrast Ratio: 800:1 | Response Time: 3 ms | Connectors: D-Sub, HDMI, 3.5mm Stereo In, 3.5mm Stereo Out, AC In | Power Supply: 100VAC - 240VAC, 50/60Hz Autodetect | Power Consumption: 100W Max | EPA Energy Star Compliant | 2.5W x 2 Channel Built-In Stereo Speakers | HDCP Support | Dimensions (H x W x D): 26.4"x 19.2" x 8.4" | Weight: 24 lbs.| Release Date: July 27, 2007

@@ -1,0 +1,18 @@
+<!--
+title:        File:Front-cam-only.png
+pageid:       8708
+revid:        12656
+source:       https://repair.wiki/w/File:Front-cam-only.png
+history:      https://repair.wiki/index.php?title=File:Front-cam-only.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12656
+last_edited:  2025-11-10T14:55:47Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         c4a92e6e4589cb61713f4a3915b002e65cda0ba8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Front-cam-only

@@ -1,0 +1,18 @@
+<!--
+title:        File:Astable-555-circuit.webp
+pageid:       212
+revid:        578
+source:       https://repair.wiki/w/File:Astable-555-circuit.webp
+history:      https://repair.wiki/index.php?title=File:Astable-555-circuit.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=578
+last_edited:  2023-10-29T18:07:19Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         681a4868073bdead2746d181e786a786d2c3edc0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Astable-555-circuit

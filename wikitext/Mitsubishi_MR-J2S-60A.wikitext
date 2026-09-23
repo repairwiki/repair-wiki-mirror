@@ -1,0 +1,60 @@
+<!--
+title:        Mitsubishi MR-J2S-60A
+pageid:       2060
+revid:        4341
+source:       https://repair.wiki/w/Mitsubishi_MR-J2S-60A
+history:      https://repair.wiki/index.php?title=Mitsubishi_MR-J2S-60A&action=history
+permalink:    https://repair.wiki/index.php?oldid=4341
+last_edited:  2024-07-16T08:17:23Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Mitsubishi, Mitsubishi Industrial Devices, Stubs
+sha1:         7d4fb83babc774dbf5464baec88de96d0383e131
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Mitsubishi
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240716 091244.jpg
+File:20240716 091253.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240716 091557.jpg
+File:20240716 091738.jpg
+File:20240716 091746.jpg
+File:20240716 091749.jpg
+File:20240716 091806.jpg
+File:20240716 091754.jpg
+File:20240716 091813.jpg
+File:20240716 091815.jpg
+File:20240716 091817.jpg
+File:20240716 091821.jpg
+File:20240716 091823.jpg
+File:20240716 091819.jpg
+File:20240716 091825.jpg
+File:20240716 091853.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

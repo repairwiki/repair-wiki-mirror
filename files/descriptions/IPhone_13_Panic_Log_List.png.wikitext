@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 13 Panic Log List.png
+pageid:       1336
+revid:        2930
+source:       https://repair.wiki/w/File:IPhone_13_Panic_Log_List.png
+history:      https://repair.wiki/index.php?title=File:IPhone_13_Panic_Log_List.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=2930
+last_edited:  2024-01-17T15:02:38Z
+contributors: Evanm1234
+anonymous_edits: 0
+categories:   
+sha1:         80e8cecdefe111d75396dbecb89513c8551320c6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+An example of panic log files you'll find in the iPhone when it has been randomly restarting.

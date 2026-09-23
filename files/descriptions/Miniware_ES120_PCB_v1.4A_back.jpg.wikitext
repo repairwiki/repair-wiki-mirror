@@ -1,0 +1,21 @@
+<!--
+title:        File:Miniware ES120 PCB v1.4A back.jpg
+pageid:       3350
+revid:        6098
+source:       https://repair.wiki/w/File:Miniware_ES120_PCB_v1.4A_back.jpg
+history:      https://repair.wiki/index.php?title=File:Miniware_ES120_PCB_v1.4A_back.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6098
+last_edited:  2025-04-01T10:22:38Z
+contributors: XenGi
+anonymous_edits: 0
+categories:   
+sha1:         bd83fe40a5ca788d08b28afe4b6da416c023ceec
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Backside of PCB inside a Miniware ES120 screwdriver.
+
+The PCB was cut short for a USB-C mod.

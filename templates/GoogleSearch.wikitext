@@ -1,0 +1,18 @@
+<!--
+title:        Template:GoogleSearch
+pageid:       1793
+revid:        3914
+source:       https://repair.wiki/w/Template:GoogleSearch
+history:      https://repair.wiki/index.php?title=Template:GoogleSearch&action=history
+permalink:    https://repair.wiki/index.php?oldid=3914
+last_edited:  2024-05-28T19:39:56Z
+contributors: Admin
+anonymous_edits: 0
+categories:   
+sha1:         f1875eb263e713ac6bab411c2e3b943636bb7d36
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<div class="gcse-search"></div>

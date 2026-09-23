@@ -1,0 +1,18 @@
+<!--
+title:        File:TrueDepth-camera-module.png
+pageid:       7130
+revid:        10666
+source:       https://repair.wiki/w/File:TrueDepth-camera-module.png
+history:      https://repair.wiki/index.php?title=File:TrueDepth-camera-module.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10666
+last_edited:  2025-08-25T21:12:25Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         abdfea78266db0120a11d2925f18144c19ab461e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+TrueDepth-camera-module

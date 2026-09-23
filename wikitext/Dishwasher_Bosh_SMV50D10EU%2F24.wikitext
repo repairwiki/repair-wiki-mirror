@@ -1,0 +1,40 @@
+<!--
+title:        Dishwasher Bosh SMV50D10EU/24
+pageid:       3070
+revid:        5761
+source:       https://repair.wiki/w/Dishwasher_Bosh_SMV50D10EU/24
+history:      https://repair.wiki/index.php?title=Dishwasher_Bosh_SMV50D10EU/24&action=history
+permalink:    https://repair.wiki/index.php?oldid=5761
+last_edited:  2025-03-05T19:50:07Z
+contributors: Kurijn
+anonymous_edits: 0
+categories:   Bosh, Bosh Dishwashers, Device, Dishwashers, Stubs
+sha1:         02aadd2e97e49cf4da566bd8241862d80d3742d2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Bosh|Has code name=SMV50D10EU/24|Device type=Dishwasher}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

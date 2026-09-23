@@ -1,0 +1,57 @@
+<!--
+title:        Simatic PS 307
+pageid:       2006
+revid:        4263
+source:       https://repair.wiki/w/Simatic_PS_307
+history:      https://repair.wiki/index.php?title=Simatic_PS_307&action=history
+permalink:    https://repair.wiki/index.php?oldid=4263
+last_edited:  2024-07-09T10:17:11Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Siemens, Siemens Industrial Devices, Stubs
+sha1:         97059e374fbc1cfb32161adfe9fd0a3daed4f30c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Siemens
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240709 091943.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240709 091632.jpg
+File:20240709 091636.jpg
+File:20240709 091705.jpg
+File:20240709 091729.jpg
+File:20240709 091709.jpg
+File:20240709 091742.jpg
+File:20240709 091753.jpg
+File:20240709 091734.jpg
+File:20240709 091810.jpg
+File:20240709 091803.jpg
+File:20240709 091758.jpg
+File:20240709 093224.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

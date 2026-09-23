@@ -1,0 +1,52 @@
+<!--
+title:        PlayStation 5 Pro
+pageid:       6190
+revid:        10647
+source:       https://repair.wiki/w/PlayStation_5_Pro
+history:      https://repair.wiki/index.php?title=PlayStation_5_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=10647
+last_edited:  2025-08-24T23:14:51Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         6914f54365accec05735845d756b1c3091efa518
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Sony|Device release date=07/11/2024|Device type=Game Console}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Ps5-pro.webp|alt=
+File:PS5 Pro Pic.webp|alt=
+File:IMG 20250730 180610.jpg|alt=
+File:IMG 20250730 180618.jpg|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:IMG 20250729 122210.jpg|alt=
+File:IMG 20250729 122053.jpg|alt=
+File:IMG 20250729 122145.jpg|alt=
+File:IMG 20250729 122223.jpg|alt=
+File:IMG 20250729 122218.jpg|alt=
+File:IMG 20250729 122233.jpg|alt=
+File:IMG 20250730 175959.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

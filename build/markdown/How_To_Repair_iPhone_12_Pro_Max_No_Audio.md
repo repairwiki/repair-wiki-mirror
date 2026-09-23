@@ -1,0 +1,108 @@
+---
+title: "How To Repair iPhone 12 Pro Max No Audio"
+pageid: 8673
+revid: 12615
+kind: other
+source: "https://repair.wiki/w/How_To_Repair_iPhone_12_Pro_Max_No_Audio"
+history: "https://repair.wiki/index.php?title=How_To_Repair_iPhone_12_Pro_Max_No_Audio&action=history"
+permalink: "https://repair.wiki/index.php?oldid=12615"
+last_edited: "2025-11-06T18:29:36Z"
+contributors:
+  - "IamMyron07"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for iPhone 12 Pro Max"
+  - "Stubs"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# How To Repair iPhone 12 Pro Max No Audio
+
+## Problem description
+An iPhone 12 Pro Max presents with no sound from the bottom loudspeaker and no vibration feedback.
+
+Standard checks such as speaker replacement and amplifier IC replacement fail to resolve the issue.
+
+Root cause: a faulty Sakkonet IC, resulting in loss of both audio output at the bottom speaker and haptic feedback.
+![iPhone 12 Pro Max - Sakonnet IC Location](images/3/3a/Sakonnet_12pm_location_board.png)
+
+## Symptoms
+- No sound from the bottom loudspeaker (earpiece works normally).
+- Vibration motor not working — no haptic feedback or alerts.
+- Speaker and taptic engine test fail in diagnostics.
+- Audio ICs and lines appear normal under diode mode check.
+- Replacing both audio amplifier ICs does not fix the issue.
+- Issue resolves completely after replacing the Sakkonet (U8400) IC.
+
+![iPhone 12 Pro Max - Sakonnet IC Location on Boardview](images/3/3b/Sakonnet_12pm_location_boardview.png)
+
+## Solution
+### Diagnostic Steps
+1. Visual Inspection
+
+- Examine the logic board, especially around the audio amplifiers and Sakonnet IC area, for corrosion, liquid exposure, or burnt components.
+- Inspect speaker and Taptic connectors for broken pins, lifted pads, or corrosion.
+- Verify that the bottom loudspeaker and Taptic Engine are OEM units and not aftermarket replacements.
+
+2. Replacement Test (Peripheral Check)
+
+- Temporarily connect a known-good bottom speaker and Taptic Engine to rule out external faults.
+- Power on the device and test for sound output and vibration feedback.
+  - If both remain dead, proceed with IC-level diagnosis.
+
+3. Audio Amplifier Replacement
+
+- Replace both audio amplifier ICs.
+- Retest the device after each replacement.
+  - If there’s no improvement, the fault likely lies in the Sakonnet (U8400) IC rather than the amps themselves.
+
+4. Sakonnet IC Replacement
+
+- Replace the Sakonnet IC (U8400) using controlled temperature.
+- Clean the area, reball the IC, and ensure all power rails are intact.
+- After replacement, reassemble and retest:
+  - Bottom speaker should now output audio.
+  - Taptic feedback should return to normal.
+
+5. Confirmation
+
+- Verify all audio functions:
+  - Bottom loudspeaker output
+  - Haptics/vibration
+- Confirm normal current draw and no abnormal heating near Sakonnet.
+
+### Repair Steps
+1. Preparation
+
+- Disconnect the battery and remove the logic board from the housing.
+
+----2. Audio Amplifier Replacement (Preliminary Step)
+
+- If corrosion or reflow signs are present, replace both audio amplifiers.
+- Reball and reflow the Speaker amps.
+- After installation, reassemble partially and test with known-good speaker and Taptic Engine.
+  - If both remain dead — proceed to Sakonnet replacement.
+
+----3. Sakonnet IC Removal
+
+- Using flux, heat Sakonnet IC area.
+- Gently lift the Sakonnet IC (U8400) once solder is molten.
+- Clean pads on the board thoroughly with solder wick and flux.
+
+----4. Reball & Reinstallation
+
+- Reball the donor Sakonnet IC with fresh solder balls.
+- Align precisely to the board pad array under microscope.
+- Reflow and Install IC.
+- Allow to cool and clean the area.
+
+----5. Post-Repair Testing
+
+- Reassemble logic board, connect battery, speaker, and Taptic Engine.
+- Power on and test:
+  - Bottom speaker output — play music or ring test.
+  - Vibration feedback — toggle silent switch or test via settings.

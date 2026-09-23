@@ -1,0 +1,18 @@
+<!--
+title:        File:IP7 C12 D12 Jumpers.jpg
+pageid:       1431
+revid:        3121
+source:       https://repair.wiki/w/File:IP7_C12_D12_Jumpers.jpg
+history:      https://repair.wiki/index.php?title=File:IP7_C12_D12_Jumpers.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3121
+last_edited:  2024-01-20T21:36:36Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         796848dc7d5f5e9ec68d91beac49b4bc314846e6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 7 Example of C12 and D12 jumpers

@@ -1,0 +1,18 @@
+<!--
+title:        File:JCID Programmable LiDAR Sensor.png
+pageid:       7356
+revid:        10919
+source:       https://repair.wiki/w/File:JCID_Programmable_LiDAR_Sensor.png
+history:      https://repair.wiki/index.php?title=File:JCID_Programmable_LiDAR_Sensor.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10919
+last_edited:  2025-08-30T11:49:07Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         3aaff218a79625399edce11a27e986e888fe2aa8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+JCID Programmable LiDAR Sensor

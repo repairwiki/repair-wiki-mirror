@@ -1,0 +1,18 @@
+<!--
+title:        File:Panic log screenshot .jpg
+pageid:       4322
+revid:        7365
+source:       https://repair.wiki/w/File:Panic_log_screenshot_.jpg
+history:      https://repair.wiki/index.php?title=File:Panic_log_screenshot_.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7365
+last_edited:  2025-06-05T00:49:23Z
+contributors: Oscarsphones
+anonymous_edits: 0
+categories:   
+sha1:         dd9b6e09e3a585edc9b65a2d7e3833872de75829
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Highlighted is the source code for the panic log

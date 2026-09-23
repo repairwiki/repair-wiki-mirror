@@ -1,0 +1,18 @@
+<!--
+title:        File:Ipad-10.5-usb-ic-location.png
+pageid:       9642
+revid:        13941
+source:       https://repair.wiki/w/File:Ipad-10.5-usb-ic-location.png
+history:      https://repair.wiki/index.php?title=File:Ipad-10.5-usb-ic-location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13941
+last_edited:  2026-02-12T04:36:26Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         4d9ab30c78b56991cd841cb40e8494679577027c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ipad-10.5-usb-ic-location

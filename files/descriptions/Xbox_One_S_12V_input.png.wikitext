@@ -1,0 +1,18 @@
+<!--
+title:        File:Xbox One S 12V input.png
+pageid:       4988
+revid:        8116
+source:       https://repair.wiki/w/File:Xbox_One_S_12V_input.png
+history:      https://repair.wiki/index.php?title=File:Xbox_One_S_12V_input.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8116
+last_edited:  2025-06-29T22:11:22Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         9b7948e78c41fea22caa88e78dcedc464dc87dd5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Xbox One S 12V input

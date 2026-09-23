@@ -1,0 +1,72 @@
+<!--
+title:        Samsung Galaxy A13 5G(A137) Not Charging
+pageid:       7103
+revid:        10632
+source:       https://repair.wiki/w/Samsung_Galaxy_A13_5G(A137)_Not_Charging
+history:      https://repair.wiki/index.php?title=Samsung_Galaxy_A13_5G(A137)_Not_Charging&action=history
+permalink:    https://repair.wiki/index.php?oldid=10632
+last_edited:  2025-08-24T19:23:20Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Galaxy A13 5G, Stubs
+sha1:         92f934156483b770ed7ccfebd686f2d30f267186
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Galaxy A13 5G
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering, BGA
+|Difficulty=4. Specialist
+}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+You have a phone that does not charge but it works with charged battery. It could have happened due to faulty charger/short on cable or something similar. 
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Phone does not charge at all
+* No charging logo on top(near battery)
+* Does not connect to PC
+* Burned charging port
+* Customer said happened with bad charger/usb cable
+
+=== Diagnostic Steps ===
+This is how to diagnose and repair the no charging fault:
+
+* Check if these diode values on fpc are ok.
+
+[[File:DP DM on conn.png|center|thumb|Required for Charging]]
+
+* ALL OF THE VOLTAGE CHECKINGS BELOW SHOULD BE DONE ONLY BY INSERTING A CHARGER AND NOT A BATTERY. IF YOU WANT TO CHECK GR SHOULD BE WITHOUT ANY SOURCE OF POWER(CHARGER OR BATTERY)
+
+[[File:Ic's to check.png|center|thumb|ic's to check]]
+[[File:IC and Diode value.png|center|thumb|IC's and Diode value]]
+
+* Check for 5v input in the VBUS IN capacitor:
+** if ok then check check on VBUS IF FL(bypassable coil):
+*** If voltage is ok then skip the next step
+* If no voltage in  VBUS IF FL then you most likely have a fused OverVoltage Pritection ic. There are 2 ways to fix it. 
+*# Change the OVP IC with a similar one.
+*# You can bypass it but by bypassing it you will have higher risk to damage a chaging ic in future because of faulty chargers/cables.
+*#* Bypass the OVP IC: remove the OVP IC and make the same exact jumper(short VBUS IN to VBUS IF) shown in the picture below
+*#* [[File:Removed ovp ic.jpg|center|thumb|removed ovp ic]]
+
+[[File:Bypassed OVP IC.jpg|center|thumb|Bypassed OVP IC]]
+
+* Check for Voltage on VPH COIL(3.7-4.2v) Should have stable voltage and no fluctuation.
+** If voltage is not stable then check GR of VPH COIL, if okay then the problem could be the charging ic(replace charging ic)
+* Check for GR and voltage on BOOTCAP
+** Should have 3.7-4.2v in one side and the other side should have almost the double voltage of it
+** if it doesn't then you could have a faulty bootcap or faulty charging ic. 
+** Check for faulty BOOTCAP: probe both sides of bootcap and check for short, if does not show low gr then its considred ok. 
+** '''<u>Note:</u>''' If you have a faulty bootcap then the problem you will most likely face is fake charging.
+** Your problem should be solved by replacing charging ic.<br />

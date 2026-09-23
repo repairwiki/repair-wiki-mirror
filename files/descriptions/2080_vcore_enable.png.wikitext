@@ -1,0 +1,18 @@
+<!--
+title:        File:2080 vcore enable.png
+pageid:       439
+revid:        938
+source:       https://repair.wiki/w/File:2080_vcore_enable.png
+history:      https://repair.wiki/index.php?title=File:2080_vcore_enable.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=938
+last_edited:  2023-11-07T22:00:38Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         144c695ddf1e0baab8a2c2a988ee464bac140207
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+2080 vcore enable

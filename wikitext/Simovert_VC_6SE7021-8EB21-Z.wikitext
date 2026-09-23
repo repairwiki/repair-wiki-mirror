@@ -1,0 +1,52 @@
+<!--
+title:        Simovert VC 6SE7021-8EB21-Z
+pageid:       2070
+revid:        4371
+source:       https://repair.wiki/w/Simovert_VC_6SE7021-8EB21-Z
+history:      https://repair.wiki/index.php?title=Simovert_VC_6SE7021-8EB21-Z&action=history
+permalink:    https://repair.wiki/index.php?oldid=4371
+last_edited:  2024-07-17T11:12:06Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Siemens, Siemens Industrial Devices, Stubs
+sha1:         384f25cd71b6db1d341c7c396fd1425b8578d383
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Siemens
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Screenshot 20240717-130831 eBay.jpg
+File:20240717 125033.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Screenshot 20240717-130950 eBay.jpg
+File:Screenshot 20240717-131005 eBay.jpg
+File:Screenshot 20240717-131029 eBay.jpg
+File:Screenshot 20240717-131042 eBay.jpg
+File:20240717 125745.jpg
+File:Screenshot 20240717-130939 eBay.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

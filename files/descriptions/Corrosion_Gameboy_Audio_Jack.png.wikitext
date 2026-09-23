@@ -1,0 +1,18 @@
+<!--
+title:        File:Corrosion Gameboy Audio Jack.png
+pageid:       5470
+revid:        8702
+source:       https://repair.wiki/w/File:Corrosion_Gameboy_Audio_Jack.png
+history:      https://repair.wiki/index.php?title=File:Corrosion_Gameboy_Audio_Jack.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8702
+last_edited:  2025-07-12T20:34:56Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         aa919721634888b8c18cce6ff88e1e175ad0f297
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Corrosion Gameboy Audio Jack

@@ -1,0 +1,18 @@
+<!--
+title:        File:PS5 Digital Modifications.jpg
+pageid:       3993
+revid:        6922
+source:       https://repair.wiki/w/File:PS5_Digital_Modifications.jpg
+history:      https://repair.wiki/index.php?title=File:PS5_Digital_Modifications.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6922
+last_edited:  2025-05-18T14:28:26Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         c0376ebb455b91d355c17e44d4a41423d23f59ea
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PS5 NOR Digital Modifications

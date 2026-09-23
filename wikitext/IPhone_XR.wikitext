@@ -1,0 +1,49 @@
+<!--
+title:        IPhone XR
+pageid:       1605
+revid:        12664
+source:       https://repair.wiki/w/IPhone_XR
+history:      https://repair.wiki/index.php?title=IPhone_XR&action=history
+permalink:    https://repair.wiki/index.php?oldid=12664
+last_edited:  2025-11-12T15:18:14Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         401d53342d39fafca80cb72629b0fa000f537646
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1984, A2105, A2106, A2107, A2108
+|Device release date=2018-10-26
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphonexr-800x800.webp|alt=
+File:Xr-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPhone XR PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPhone XR Power Button.jpg|alt=
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone XR Schematics: https://www.sendspace.com/file/u89oen

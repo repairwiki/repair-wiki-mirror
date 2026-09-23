@@ -1,0 +1,18 @@
+<!--
+title:        File:Asus A75V-K75V Fig. 2.jpg
+pageid:       765
+revid:        1770
+source:       https://repair.wiki/w/File:Asus_A75V-K75V_Fig._2.jpg
+history:      https://repair.wiki/index.php?title=File:Asus_A75V-K75V_Fig._2.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1770
+last_edited:  2024-01-08T18:51:02Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         8e90e802fd6097d2b38c66000d9f5a32734a1db4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Asus A75V/K75V Fig. 2

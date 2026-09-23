@@ -1,0 +1,46 @@
+<!--
+title:        IPhone XR not powering on & not charging
+pageid:       3737
+revid:        6566
+source:       https://repair.wiki/w/IPhone_XR_not_powering_on_%26_not_charging
+history:      https://repair.wiki/index.php?title=IPhone_XR_not_powering_on_%26_not_charging&action=history
+permalink:    https://repair.wiki/index.php?oldid=6566
+last_edited:  2025-05-13T08:06:12Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone XR, Stubs
+sha1:         330c23dc819df5e683ce0e85d757aa19f803cda1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone XR
+|Affects parts=Motherboard
+|Type=Soldering, BGA
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Not powering on
+* Not Charging
+* Low amperage draw from DCPSU
+* No short to ground on VDD Main, VDD Boost, or PP3V0_NAND
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+
+
+The charging IC that fails most commonly on this model is the Yangtze IC (U3300). This was the Tigris IC in previous models. It is under the bottom back shield. Use max heat, max air, largest nozzle to remove shield. It requires a lot of heat or tin snips to cut the shield. Be EXTREMELY careful not to float anything or knock off components. Be careful with how much force you use as too much force can flex the board and damage internal traces. The wireless charging IC (Iktara), baseband PMU, and baseband CPU all sit under this shield. Once the shield is removed, this chip is fairly easy to replace and usually fixes the problem.
+
+Migrated from old wiki

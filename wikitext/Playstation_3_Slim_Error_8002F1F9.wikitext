@@ -1,0 +1,83 @@
+<!--
+title:        Playstation 3 Slim Error 8002F1F9
+pageid:       4091
+revid:        7052
+source:       https://repair.wiki/w/Playstation_3_Slim_Error_8002F1F9
+history:      https://repair.wiki/index.php?title=Playstation_3_Slim_Error_8002F1F9&action=history
+permalink:    https://repair.wiki/index.php?oldid=7052
+last_edited:  2025-05-24T21:28:21Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Playstation 3 Slim, Stubs
+sha1:         911207b1bb99d8dbb8407f5e6b4fc096abbbebd7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Playstation 3 Slim
+|Affects parts=Motherboard
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+This error happens when the console is unable to detect the Wifi/Bluetooth Module.
+[[File:8002F1F9.jpg|thumb|Error  8002F1F9 ]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* You try to update the console firmware and get error 8002F1F9.
+* You can't use Wifi or Bluetooth.
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+This is issue is caused by a design flaw the chip is always providing power to the Wifi module even with the console on standby might be bad quality chips they used or design fault.
+
+The solution is to replace the chip or do a small modification to the circuit by installing a different power ic.
+
+=== Diagnostic Steps ===
+
+On the Playstation 3 Slim this problem is usually caused by a faulty J7L chip where it fails to output 1.8V.
+
+Bellow are the required voltages for the Chip to work, start my measuring the voltage input of the chip it must have 5V and 3.3V with the console on standby if these 2 voltages are present measure the output on the coil it must be 1.8V.
+
+[[File:PS3 Slim Wifi 1.8V.png|center|thumb|PS3 Slim J7L Voltages]]
+
+=== Repair Steps ===
+There are 2 ways to repair this fault, you can source the same chip from a donor board and replace it but keep in mind that with time it may fail again, or we can do a small modification by installing a [https://www.digikey.pt/en/products/detail/evvo/AMS1117-1-8/24370064 AMS1117-1.8] 
+
+==== Installing the same chip ====
+If you choose to install the same chip the process is fairly simple.
+
+Use your hot air station to desolder the old IC clean pads on the motherboard add new solder and solder the new chip.
+
+==== Installing the AMS1117-1.8 ====
+Due to the size of the AMS1117-1.8 we wont be able to install it in the position of where the J7L is located.
+
+# Use your Hot air station to remove the J7L chip, you can also remove the big coil on the 1.8v line if you want.
+# The AMS1117-1.8 has 4 contact points, we need to isolate the contact point that is alone to do that simply place a small piece of kapton tape under the ic.
+# Solder the AMS1117-1.8 like the image bellow[[File:Ams1117-1.8.png|center|thumb|AMS1117-1.8 Solder location]]
+
+After Soldering the new AMS1117-1.8 make sure you have 1.8V on the middle pin.
+
+This solution may seem more complex, but it is better since the AMS1117 is a more reliable IC compared to the J7L originally installed.
+
+== Final Testing ==
+Reassemble the console and make sure you are able to update the console without any issues.
+
+Make sure you can sync a controller using Bluetooth.
+
+Connect your console to the internet using Wifi.

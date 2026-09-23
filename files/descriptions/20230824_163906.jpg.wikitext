@@ -1,0 +1,18 @@
+<!--
+title:        File:20230824 163906.jpg
+pageid:       793
+revid:        1853
+source:       https://repair.wiki/w/File:20230824_163906.jpg
+history:      https://repair.wiki/index.php?title=File:20230824_163906.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1853
+last_edited:  2024-01-10T13:19:40Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         0ca3e6ec2acf75ee4a6d8e7e012a3e159ed55c61
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Pictures of A2251 MacBook

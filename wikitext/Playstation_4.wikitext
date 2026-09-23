@@ -1,0 +1,48 @@
+<!--
+title:        Playstation 4
+pageid:       834
+revid:        12534
+source:       https://repair.wiki/w/Playstation_4
+history:      https://repair.wiki/index.php?title=Playstation_4&action=history
+permalink:    https://repair.wiki/index.php?oldid=12534
+last_edited:  2025-11-02T20:38:16Z
+contributors: Tiago199988, Matthematics
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         8c4d273831cdca427a3561a2f55d57d0b399f938
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+The PlayStation 4 (commonly referred to as PS4) is a home video game console developed by Sony. It is the successor to its predecessor, the PlayStation 3. It was designed to compete with Microsoft's Xbox One and Nintendo's Wii U and Switch in the eight generation of video game consoles.{{Device page
+|Manufacturer=Sony|Device type=Game Console|Device release date=November 15, 2013|Has code name=Orbis}}
+
+== Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Sony-PlayStation-4-PS4-DualShock-4.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:SAA001-backside.jpg|alt=|SAA-001
+File:SAA-001-componentside.jpg|alt=|SAA-001
+File:SAC-001 PCB RAM Side.jpg|SAC-001
+File:SAC-001 PCB APU Side.jpg|SAC-001
+File:SAB-001 PCB APU Side.jpg|SAB-001
+File:SAB-001 PCB RAM Side.jpg|SAB-001
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Married chips sm .jpg|alt=
+</gallery>
+
+==More Information/External Sources==
+ADP-240AR PSU Schematics: https://www.sendspace.com/file/huc2o0
+
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc.!

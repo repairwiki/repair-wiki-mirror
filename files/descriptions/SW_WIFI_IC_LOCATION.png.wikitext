@@ -1,0 +1,18 @@
+<!--
+title:        File:SW WIFI IC LOCATION.png
+pageid:       8821
+revid:        12841
+source:       https://repair.wiki/w/File:SW_WIFI_IC_LOCATION.png
+history:      https://repair.wiki/index.php?title=File:SW_WIFI_IC_LOCATION.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12841
+last_edited:  2025-11-23T12:42:08Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         802dac0897838fb54aca842947399da3f5f8ac63
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+SW WIFI IC LOCATION

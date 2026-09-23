@@ -1,0 +1,47 @@
+<!--
+title:        RX 570
+pageid:       663
+revid:        6082
+source:       https://repair.wiki/w/RX_570
+history:      https://repair.wiki/index.php?title=RX_570&action=history
+permalink:    https://repair.wiki/index.php?oldid=6082
+last_edited:  2025-03-31T21:45:05Z
+contributors: ASRepairs, HumbleDeer
+anonymous_edits: 0
+categories:   AMD, AMD Computer Components, Computer Components, Device, Stubs
+sha1:         21f7850268ea93cb3a8d9610de14afeefe8b1141
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=AMD
+|Device type=Computer Component
+}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+The integral voltage rails present on graphics cards with the RX 570 chip can be found under the [https://repair.wiki/w/RX_570#Explanatory_Guides Explanatory Guides] section and a general overview of voltage rail reference points on the [https://repair.wiki/w/AMD_Polaris_(RX_400/500)_GPU_Diagnosing_Guide#Step_1:_Base_Voltage_Rails_(12V,_3.3V) Polaris Diagnosing Guide].
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+
+VBIOS dumps for a variety of RX570 graphics cards can be found on the [https://www.techpowerup.com/vgabios/?model=RX+570 TechPowerUp VGA Bios Collection]

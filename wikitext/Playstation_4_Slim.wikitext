@@ -1,0 +1,50 @@
+<!--
+title:        Playstation 4 Slim
+pageid:       835
+revid:        12543
+source:       https://repair.wiki/w/Playstation_4_Slim
+history:      https://repair.wiki/index.php?title=Playstation_4_Slim&action=history
+permalink:    https://repair.wiki/index.php?oldid=12543
+last_edited:  2025-11-02T20:45:55Z
+contributors: Tiago199988, Ben ProFixerr, Brunorivera, Matthematics
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         0e1ef452f1cac1794d437e78ba82c03b39854af8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+The PlayStation 4 Slim is a hardware revision of the original PlayStation 4 developed by Sony. The "Slim" version is widely regarded as the better choice for most users due to its energy efficiency, reduced noise level, affordability, HDR support and its updated controllers. {{Device page
+|Manufacturer=Sony|Device type=Game Console|Device release date=September 15, 2016}}
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ps4 slim.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IMG 8453.jpeg|alt=|SAE-003
+File:IMG 8454.jpeg|alt=|SAE-003
+File:SAD-002 PCB APU Side.jpg|SAD-002
+File:SAD-002 PCB RAM Side.jpg|SAD-002
+File:SAE-004 PCB APU Side.jpg|SAE-004
+File:SAE-004 PCB RAM Side.jpg|SAE-004
+File:SAF-005 PCB APU Side.jpg|SAF-005
+File:SAF-005 PCB RAM Side.jpg|SAF-005
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:PS4Slim-HDMI-Mechnic-Readings.jpg|PS4 Slim HDMI Port Diode Mode Readings through Mechanic T-824 Tester
+</gallery>
+
+==More Information/External Sources==
+ADP-160CR PSU Schematics: https://www.sendspace.com/file/tyv4di
+
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

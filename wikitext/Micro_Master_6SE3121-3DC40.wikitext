@@ -1,0 +1,52 @@
+<!--
+title:        Micro Master 6SE3121-3DC40
+pageid:       1894
+revid:        4083
+source:       https://repair.wiki/w/Micro_Master_6SE3121-3DC40
+history:      https://repair.wiki/index.php?title=Micro_Master_6SE3121-3DC40&action=history
+permalink:    https://repair.wiki/index.php?oldid=4083
+last_edited:  2024-06-13T18:19:40Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Siemens, Siemens Industrial Devices, Stubs
+sha1:         9bbe9c0199d9c1cc397e0e9124eb665d36b34a00
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Siemens
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240613 144522.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240613 144553.jpg
+File:20240613 144600.jpg
+File:20240613 144609.jpg
+File:20240613 145315.jpg
+File:20240613 144620.jpg
+File:20240613 145015.jpg
+File:20240613 145034.jpg
+File:20240613 144604.jpg
+File:20240613 145743.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

@@ -1,0 +1,128 @@
+---
+title: "MacBook Pro A2338 Not turning on, 0.00 - 0.05A current draw at 5V repair"
+pageid: 48
+revid: 3784
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A2338_Not_turning_on,_0.00_-_0.05A_current_draw_at_5V_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A2338_Not_turning_on,_0.00_-_0.05A_current_draw_at_5V_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3784"
+last_edited: "2024-04-27T10:14:14Z"
+contributors:
+  - "ASRepairs"
+  - "Gamefix"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A2338"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A2338"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Part replacement"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A2338 Not turning on, 0.00 - 0.05A current draw at 5V repair
+
+## Problem description
+Facing an issue with the MacBook Pro A2338 displaying 5V and a very low current draw of 0.00 to 0.05A on the USB-C meter.
+
+## Symptoms
+- MacBook Pro A2338 stuck on 5V with a current draw of 0.00 to 0.05A on the USB-C meter.
+- Not turning on, all voltages missing.
+
+## Solution
+![(Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+### Diagnostic Steps
+#### Check for DFU or Recovery Mode
+- Connect the MacBook Pro A2338 to another Mac or MacBook via the master port (top left side USB-C port, closest to the display).
+- Use Apple Configurator 2 to verify whether the device is in DFU or recovery mode.
+- If the device is in DFU mode, proceed to "Device stuck in DFU mode due to corrupt firmware" in the repair steps below.
+
+#### Check voltage on PPBUS_AON
+- Measure voltage on PPBUS_AON by placing your multimeter in DC mode, black probe on ground, and red probe on PPBUS_AON. A suitable measuring point on the 820-02020 logic board is C5403 (Figure 1). Normal voltage should be around 12.60-13.1V.
+- If the voltage is approximately 12.28-12.35V, it may indicate a communication issue between the SOC and PMICs, or corrupt firmware.
+- If the voltage is 0V, proceed to the repair steps for shorted or absent PPBUS_AON voltage.
+
+#### Check PP3v8_AON voltage
+- PP3v8_AON voltage may vary depending on the device's sleep state.
+- To check voltage on PP3v8_AON, set your multimeter to DC mode, black probe on ground, and red probe on PP3v8_AON. Measuring points include L5800, L5820, or L5840 (Figure 2) under the larger black shield sticker on the top side of the system board. Normal voltage should be around 3.8V.
+- If voltage is missing or low, proceed to the repair steps for PP3v8_AON low or missing.
+
+#### Check PP3v3_S2 voltage
+- To check voltage on PP3v3_S2, set your multimeter to voltage mode, place one lead on ground and the other lead on PP3v3_S2 LC710 (Figure 3) is a suitable measuring point. Normal voltage should be around 3.3V.
+- If PP3v3_S2 is missing, proceed to the repair steps for PP3v3_S2 low, missing, or shorted to ground.
+
+#### Check CD3217 support voltages
+- Measure the following support voltages for CD3217 (Figure 4):
+
+1. - PP5v_S2: Normal voltage ≈ 5V measuring point: LC320 (Figure 5).
+1. - PP3v3_S2_UPC: Normal voltage ≈ 3.3V, Normal diode mode to ground reading is ~ 0.420. measuring point: C8303 (Figure 6).
+1. - PP1v25_S2: Normal voltage ≈ 1.25V measuring point: Pin 2 of L77D0 (Figure 7).
+- If any of the S2 rails are missing, proceed to CD3217 support S2 rails low or missing repair steps below.
+- If all findings are negative, consider CD3217 or related circuit issues.
+Note that voltage measurement should be performed WHILE the device is plugged in!
+
+### Repair Steps
+#### Device stuck in DFU mode due to corrupt firmware
+- Revive firmware via Apple Configurator 2.
+- Ensure the MacBook is running the latest macOS version for consistent results.
+- [https://support.apple.com/guide/apple-configurator-mac/revive-or-restore-a-mac-with-apple-silicon-apdd5f3c75ad/mac#:~:text=recoveryOS%20and%20macOS-,In%20the%20Apple%20Configurator%20window%20on%20the%20first%20Mac%2C%20select,%3E%20Restore%2C%20then%20click%20Restore. Follow the provided Apple support article for the procedure.]
+- Once plugged in, open Apple Configurator 2. You should see a big square icon pop up that says "DFU" or rarely, "RECOVERY". Click the icon, Navigate to the top menu bar click "Actions" then "Advanced". Select Revive device. You will see a progress bar appear. This process can take over 30 minutes in some cases as Apple Configurator 2 now reinstalls the OS in addition to the M1's firmware. Data will still be retained with the revive option.
+- Be cautious that selecting "Restore" will wipe all user data.
+- Possible causes for a device to fail a DFU revive include various hardware issues listed above.
+
+#### PPBUS_AON shorted, low or absent
+[How to find short circuits](How_to_find_short_circuits.md)
+- If shorted
+  - Inject around 1V with a 5A limit into PPBUS_AON using a DC power supply.
+  - Perform thermal imaging of the board or apply isopropyl alcohol to locate the shorted component.
+  - Replace the identified shorted component.
+- If not shorted
+  - PPBUS_AON is created by the Intersil/Renesas ISL9240 (U5200) which is a buck or boost converter depending on its input voltage. If USB-C voltage is 5 V, the ISL9240 will boost the 5 V input to ≈12 V. If USB-C voltage is 20 V, the ISL9240 will buck (lower) the 20 V input to ≈12 V.
+  - When PPBUS_AON is absent with no short to ground, we need to first make sure that PPDCIN_AON_GHGR_R is making it to the ISL9240 (U5200). C5201 or C5202 is a good place to measure from. Measure PPDCIN_AON_CHGR_R with your multimeter in voltage mode. You should get the same voltage that you are getting on the USB-C amp meter (5 V in this case, because that is what we are troubleshooting.) If you get 0v on PPDCIN_AON_CHGR_R, check R5220, however it must be noted that if you have 0v here, one of the CD3217s is probably bad. See "CD3217 Diagnostic Steps" above.
+  - If you are getting 5V on PPDCIN_AON_CHGR, the ISL9240 is likely the cause of the problem, however we still need to check a few things before replacing the chip.
+  - The ISL9240 relies on a series of current sensing resistors to measure the amount of power being used by its output rail, PPBUS_AON. If one of these resistors is blown, the chip will think that something on the output is pulling too much power, and it will disable itself as a protection measure.
+  - To check the current sensing resistors, put your multimeter on resistance mode. Check each resistor listed below by placing your probes on each side of the resistors. The values should be within 5–10% of the reference listed below. Values slightly outside of the reference should be considered insignificant and ignored. If you find a resistor out of spec, replace the resistor AND the ISL9240, as the resistor likely blew as a result of the ISL9240 internally shorting. R5221, R5222, R5261, R5262 = 1.00 Ω
+  - If the current sensing values are normal, replace the ISL9240.
+  - 5V @ 0A, PPBUS_AON is Partially shorted at 60Ω, check the audio amplifiers IC's. There are 4 in total on the board UR600,UR630,UR700,UR730. Check the AREG lines to see which chip is bad.
+
+#### PP3v8_AON low or missing
+- Check for a short to ground on PP3v8_AON (normal diode mode to ground reading ≈ 0.350).
+- If a short to ground is found, replace the shorted component.
+- Check the enable signal to U5700 (Figure 8), P3V8_PWR_EN, and address any issues with U5340 (Figure 9) or surrounding components.
+  - P3V8AON_PWR_EN is sourced from CHGR_EN_MVR from the ISL9240 (U5200) and passes through a delay switch (U5340) where it is outputted as P3V8AON_PWR_EN.
+  - If P3V8AON_PWR_EN is missing, check voltage on R5340 (CHGR_EN_MVR). If CHGR_EN_MVR is missing, replace U5200.
+  - If CHGR_EN_MVR is present, but P3V8AON_PWR_EN is missing, potential faults could include U5340, or surrounding traces/resistors.
+- Ensure VIN (PPBUS_AON) is making it to U5700; Occasionally a via or trace can break resulting in a voltage not making it to some parts of the board. PPBUS_AON can be measured adjacent to U5700, on C5704.
+- If the above findings are negative, replace U5700.
+
+#### PP3v3_S2 low, missing, or shorted to ground
+- If PP3v3_S2 is missing with a short, find and replace the shorted component.
+  - most likely a shorted capacitor adjacent to the WiFi IC (UL000). Usually there will be corresponding corrosion.
+- If PP3v3_S2 is missing without a short, replace UC710 (Figure 3).
+  - you usually notice the fan will instantly spin to full speed if the issue is UC710.
+- If PP3v3_S2 is shorted to ground, find and replace the shorted component.
+- If no short to ground is measured on PP3v3_S2, ensure that PP3v3S2_EN is present and that the VIN, PPBUS_AON_3v3S2_VIN_ISNS is present at UC710. If both are present, and PP3v3_S2 is missing without a short to ground, Replace UC710.
+
+#### CD3217 support S2 rails low or missing
+- Check for shorts to ground or enable issues on the affected S2 rails.
+  - PP5v_S2 - Produced from UC300.
+- Check the enable signal for PP5v_S2, P5VS2_EN.
+  - P5VS2_EN is produced by the PMU, U8100.
+  - A missing enable signal can mean U8100 is bad, or there is a communication issue with U8100 and the SOC/other components. A firmware issue can also * *likely* cause missing enable signals from PMICs on the M1 machines. As of 10/17/2022, this remains rare.
+- Check the VIN voltage to UC300, PPBUS_5VS2_VIN.
+  - The VIN voltage listed above is sourced from PPBUS_AON and voltage measured on it should remain consistent with PPBUS_AON voltage. If voltage is low, possible causes could include a broken trace or RD550 blown or otherwise out of spec.
+- PP3v3_S2_UPC - LDO produced from U8100.
+  - The incidence is unknown for PP3v3_S2_UPC missing without a short or voltage leakage to ground, however possible differential diagnoses can include corrupt firmware, where a DFU revive may resolve the issue or a failed PMIC (U8100), or an issue with the SOC. This section will be updated when more M1 powered boards present with similar issues. As of 10/17/2022, issues with PMIC voltages remain rare.
+- PP1v25_S2 - Produced from U7700, BUCK 13 LDO.
+  - The incidence is unknown for PP1v25_S2 missing without a short or voltage leakage to ground, however possible differential diagnoses can include corrupt firmware, where a DFU revive may resolve the issue or a failed PMIC (U7700), or an issue with the SOC.
+
+#### CD3217 Diagnostic Process
+- There is no definitive diagnostic test for a faulty CD3217 (Figure 4) other than replacing it.
+- Test 1: Measure PPDCIN_AON_CHGR_R on both ports to identify an internal MOSFET issue in one CD3217 (Figure 4).
+- Test 2: Measure the LDO outputs of both CD3217s to check if one is not outputting proper voltage; replace the corresponding CD3217 if found.

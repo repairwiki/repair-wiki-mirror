@@ -1,0 +1,39 @@
+---
+title: "Tesla HPWC"
+pageid: 2203
+revid: 4578
+kind: other
+source: "https://repair.wiki/w/Tesla_HPWC"
+history: "https://repair.wiki/index.php?title=Tesla_HPWC&action=history"
+permalink: "https://repair.wiki/index.php?oldid=4578"
+last_edited: "2024-08-07T22:19:42Z"
+contributors:
+  - "ChrisC"
+anonymous_edits: 0
+categories:
+  - "Stubs"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Tesla HPWC
+
+([up to EV chargers section](EV_chargers.md))
+
+## Resources for DIY repair of the Tesla High Power Wall Charger (HPWC)
+[https://teslamotorsclub.com/tmc/threads/solid-red-light-of-death-tesla-hpwc-wall-charger-and-how-i-diyed-a-fix.225410/ TMC forum thread: Solid Red Light of Death Tesla HPWC wall charger [and how I DIY'ed a fix]] (owner retrofitted his failed unit with OpenEVSE parts; Youtube videos [https://youtu.be/5xglGiL9k6M 1] + [https://youtu.be/ll8Vjw8NCwg 2] + [https://youtu.be/FjdtZT5H2-s 3]) (later in same thread, another owner posts his [https://teslamotorsclub.com/tmc/posts/7511472/ description] and [https://youtu.be/seiM4jWwszI video] of a fix involving two loose wires)
+
+[https://teslamotorsclub.com/tmc/threads/repairing-a-tesla-wall-charger.211437/ TMC forum thread: Repairing a Tesla Wall Charger] (see post #6 for 100 Amp relay part number, and posts #26-27 for transformer P/N)
+
+[https://teslamotorsclub.com/tmc/threads/tesla-wall-connector-diy-repair.321099/ TMC forum thread: Tesla wall connector - DIY repair] (very advanced repair, but see post #4 for detailed tour of HPWC innards, and links to [https://forum.arduino.cc/t/evse-charger-miev-leaf-tesla-6-16a-esp32/878422 code for Arduino solution] for PCB replacement; again, very advanced)
+
+[https://teslamotorsclub.com/tmc/threads/trying-to-fix-a-gen-1-mobile-charger.176134/ TMC forum thread: Trying to fix a gen 1 mobile charger] (relay replacement on a Gen 1 mobile connector, includes tips for difficult removal of old relay) (note MC not HPWC)
+
+TMC forum thread:
+
+Found via these searches:
+
+- https://www.google.com/search?q=charger+repair+site:teslamotorsclub.com
+-

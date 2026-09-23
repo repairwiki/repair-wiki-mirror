@@ -1,0 +1,18 @@
+<!--
+title:        File:S10Back pcb.png
+pageid:       296
+revid:        748
+source:       https://repair.wiki/w/File:S10Back_pcb.png
+history:      https://repair.wiki/index.php?title=File:S10Back_pcb.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=748
+last_edited:  2023-11-05T22:32:36Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ddbbfa92cb2d62a384db706d68756f928ed9ecc3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+S10Back pcb

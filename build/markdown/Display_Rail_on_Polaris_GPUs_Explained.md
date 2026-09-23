@@ -1,0 +1,64 @@
+---
+title: "Display Rail on Polaris GPUs Explained"
+pageid: 397
+revid: 880
+kind: explanatory_guide
+source: "https://repair.wiki/w/Display_Rail_on_Polaris_GPUs_Explained"
+history: "https://repair.wiki/index.php?title=Display_Rail_on_Polaris_GPUs_Explained&action=history"
+permalink: "https://repair.wiki/index.php?oldid=880"
+last_edited: "2023-11-07T19:35:27Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for RX 460"
+  - "Explanatory guides for RX 470"
+  - "Explanatory guides for RX 480"
+  - "Explanatory guides for RX 560"
+  - "Explanatory guides for RX 570"
+  - "Explanatory guides for RX 580"
+  - "Explanatory guides for RX 590"
+infobox:
+  Device: "RX 460, RX 470, RX 480, RX 560, RX 570, RX 580, RX 590"
+  Type: "Circuit"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Display Rail on Polaris GPUs Explained
+
+    - In this section, we will discuss the Display Rail on Polaris GPUs, including its controller circuit, usage, and common issues.***
+
+## The Controller Circuit
+Often referred to as the 0.8V rail, the Display Rail is typically controlled by either the [https://datasheet.lcsc.com/szlcsc/2005191033_GSTEK-Green-Solution-Technology-GS9238-ATQ-R_C532950.pdf GS9238] or the [https://www.icware.ru/pdf/0004112.pdf APW8713] step-down voltage converters. These controllers take 3.3V (or in some cases 12V_BUS) and convert it to 0.8V. Sapphire cards, on the other hand, may use an MPS NB671 for the Display Rail buck converter, which has a slightly different pinout.
+![Location of the 0.8V controller on an RX 480 Reference card (Figure 1)](images/e/ea/Polaris_0.8v_board.jpg)
+![Schematic view of the 0.8V controller (GS9238 version) (Figure 2)](images/b/b1/Polaris_0.8v_schematic.jpg)
+![Enable signal schematic for the 0.8V regulator (Figure 3)](images/5/5d/Polaris_0.8v_en_schematic.jpg)
+While the markings on the schematic and board may vary between GPU models, the circuit design is typically consistent.
+
+It's important to note that the GS9238 generates its own 5V on the VCC pin and does not require external power, except for Vᵢₙ. In contrast, the APW8713 needs external 5V on its VCC pin to operate, which it receives from the [5V Rail on Polaris GPUs](5V_Rail_on_Polaris_GPUs_Explained.md).
+
+The Enable signal comes from the POK pin of the [1.8V Rail on Polaris GPUs](1.8V_Rail_on_Polaris_GPUs_Explained.md), which is the gate of an NPN transistor, shorting the EN signal to GND, as depicted in Figure 3.
+
+## Usage
+The Display Rail, as the name implies, powers the display components of the GPU, as shown in Figure 4.
+
+Inconsistencies in the output voltage can lead to issues like flickering displays. In cases where the controller is faulty and does not output voltage but still produces a POK signal, the card may appear to "work" but without displaying anything.
+![Usage of the Display Rail in Polaris GPUs (Figure 4)](images/9/92/Polaris_0.8v_usage.jpg)
+
+## Common Problems
+### No Voltage Output
+When encountering a missing voltage rail, begin by measuring the VCC and EN pins of the controller, ensuring that both are active high. The MPS NB671 generates its own VCC, so if it's missing, the buck converter itself may be faulty.
+
+If VCC and EN are both confirmed to be present, check if Vᵢₙ is being provided to the controller. Sometimes, the resistors between the voltage source and the controller can develop high resistance or become open, preventing the controller from receiving power.
+
+If Vᵢₙ is also confirmed to be present, verify that the feedback resistors have the correct values as shown in Figure 2.
+
+### Short or Very Low Resistance
+The Display Rail is designed to have low resistance, but if the resistance measures very low (sub 5 Ohms), this could indicate a dead GPU. Nonetheless, it's advisable to inspect for any potentially shorted capacitors using the method described here: [Short Circuits - Repair Basics](Short_Circuits_-_Repair_Basics.md)
+
+### No POK Signal
+The POK signal from this controller is responsible for enabling Vmem and VDDCI. If the controller is not producing a POK signal, check the FB circuit. If everything appears to be in order, replace the controller.

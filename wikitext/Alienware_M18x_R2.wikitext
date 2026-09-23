@@ -1,0 +1,44 @@
+<!--
+title:        Alienware M18x R2
+pageid:       612
+revid:        10200
+source:       https://repair.wiki/w/Alienware_M18x_R2
+history:      https://repair.wiki/index.php?title=Alienware_M18x_R2&action=history
+permalink:    https://repair.wiki/index.php?oldid=10200
+last_edited:  2025-08-13T23:05:41Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Dell, Dell Laptops, Device, Laptops, Stubs
+sha1:         f0c2cdffdd13190d82e0baebdcffa2498b82af58
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Dell
+|Has code name=M18x R2
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Alienware M18x R2.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==External Sources==

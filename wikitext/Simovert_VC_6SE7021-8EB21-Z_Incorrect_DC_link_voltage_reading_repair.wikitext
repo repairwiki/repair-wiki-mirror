@@ -1,0 +1,50 @@
+<!--
+title:        Simovert VC 6SE7021-8EB21-Z Incorrect DC link voltage reading repair
+pageid:       2073
+revid:        4375
+source:       https://repair.wiki/w/Simovert_VC_6SE7021-8EB21-Z_Incorrect_DC_link_voltage_reading_repair
+history:      https://repair.wiki/index.php?title=Simovert_VC_6SE7021-8EB21-Z_Incorrect_DC_link_voltage_reading_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=4375
+last_edited:  2024-07-17T11:15:04Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Simovert VC 6SE7021-8EB21-Z
+sha1:         ea15f619d9caf9cf276068fb18ef1e27979dfbe5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Simovert VC 6SE7021-8EB21-Z
+|Affects parts=Measure resistor
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+
+==Problem description==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+Repair of a problem where the rectified DC link voltage reading is incorrect on this Siemens Simovert VC inverter.
+[[File:20240717 131244.jpg|thumb|The measure resistors (figure 1)]]
+
+==Symptoms==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+*Incorrect DC voltage reading 
+*Measuring with MM yields correct voltage but the inverter measures it incorrectly
+*Inverter won't run and low DC voltage error
+
+
+==Solution==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+
+On the power board, there is a vertical ceramic resistor that houses 2 resistors inside (figure 1). Desolder it out and measure both resistors, they should measure the same, if not, you'll need to replace the resistor with an external one. Make sure to use a 1% or less tolerance.

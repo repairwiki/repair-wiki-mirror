@@ -1,0 +1,17 @@
+<!--
+title:        File:CECHL04 PCB 02.jpg
+pageid:       1624
+revid:        3536
+source:       https://repair.wiki/w/File:CECHL04_PCB_02.jpg
+history:      https://repair.wiki/index.php?title=File:CECHL04_PCB_02.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3536
+last_edited:  2024-03-02T08:16:30Z
+contributors: JEdwards
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

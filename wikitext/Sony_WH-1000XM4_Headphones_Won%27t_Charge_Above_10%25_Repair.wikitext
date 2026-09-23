@@ -1,0 +1,35 @@
+<!--
+title:        Sony WH-1000XM4 Headphones Won't Charge Above 10% Repair
+pageid:       1452
+revid:        3166
+source:       https://repair.wiki/w/Sony_WH-1000XM4_Headphones_Won't_Charge_Above_10%25_Repair
+history:      https://repair.wiki/index.php?title=Sony_WH-1000XM4_Headphones_Won't_Charge_Above_10%25_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=3166
+last_edited:  2024-01-23T01:52:46Z
+contributors: KevinShort
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for WH-1000XM4, Stubs
+sha1:         6fca29dc7bddd098a110c7eed471956815df6da1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=WH-1000XM4
+|Affects parts=SUB_R board
+|Needs equipment=Screwdriver, pry tool
+|Type=Part replacement
+|Difficulty=1. Easy
+}}
+{{stub}}
+
+==Problem description==
+How to repair Sony WH-1000XM4 headphones that won't fully charge the battery.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Headphones won't charge past 10%
+
+==Solution==
+Replace SUB_R board (aka right side board / the PCB in the right speaker assembly.) This is one of the most common issues with the WH-1000XM4.

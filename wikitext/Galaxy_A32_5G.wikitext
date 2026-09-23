@@ -1,0 +1,54 @@
+<!--
+title:        Galaxy A32 5G
+pageid:       2225
+revid:        10281
+source:       https://repair.wiki/w/Galaxy_A32_5G
+history:      https://repair.wiki/index.php?title=Galaxy_A32_5G&action=history
+permalink:    https://repair.wiki/index.php?oldid=10281
+last_edited:  2025-08-16T22:31:07Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         555ea3164a8c8146a6e689c58082ded1e1f965b1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A32-5g-600x600.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Galaxy A32 FPC Overview Front.jpg|Galaxy A32 FPC Overview Front
+File:Galaxy A32 5G FPC Overview Back.jpg|Galaxy A32 5G FPC Overview Back
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Galaxy A32 5G LCD Connector Diode Measurements.jpg|1. Galaxy A32 5G LCD Connector Diode Measurements
+File:A32 5g battery FPC diode mode readings.jpg|2. A32 5g battery FPC diode mode readings
+File:Galaxy A32 5g power button FPC diode mode readings.jpg|3. Galaxy A32 5g power button FPC diode mode readings
+File:Galaxy A32 5G camera 1 FPC diode mode readings.jpg|4. Galaxy A32 5G camera 1 FPC diode mode readings
+File:Galaxy A32 5G camera 2 FPC diode mode readings.jpg|5. Galaxy A32 5G camera 2 FPC diode mode readings
+File:Galaxy A32 5G camera 3 FPC diode mode readings.jpg|6. Galaxy A32 5G camera 3 FPC diode mode readings
+File:Galaxy A32 5G camera 4 FPC diode mode readings.jpg|7. Galaxy A32 5G camera 4 FPC diode mode readings
+File:Galaxy A32 5G camera 5 FPC diode mode readings.jpg|8. Galaxy A32 5G camera 5 FPC diode mode readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

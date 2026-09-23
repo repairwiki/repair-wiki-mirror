@@ -1,0 +1,18 @@
+<!--
+title:        File:Mode pin connected to ground.webp
+pageid:       2347
+revid:        4817
+source:       https://repair.wiki/w/File:Mode_pin_connected_to_ground.webp
+history:      https://repair.wiki/index.php?title=File:Mode_pin_connected_to_ground.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=4817
+last_edited:  2024-09-08T14:03:20Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         d7593355a023bafc49a4e8b0b5213d5e72b88c37
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Mode pin of the MCU on controller board rev. B connected to ground

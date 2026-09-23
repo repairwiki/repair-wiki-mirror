@@ -1,0 +1,50 @@
+<!--
+title:        Xbox Series S
+pageid:       1597
+revid:        12559
+source:       https://repair.wiki/w/Xbox_Series_S
+history:      https://repair.wiki/index.php?title=Xbox_Series_S&action=history
+permalink:    https://repair.wiki/index.php?oldid=12559
+last_edited:  2025-11-02T21:09:34Z
+contributors: Tiago199988, Ben ProFixerr
+anonymous_edits: 0
+categories:   Device, Game Consoles, Microsoft, Microsoft Game Consoles, Stubs
+sha1:         69786fc818314183bdfab359340e54898af21edd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Microsoft
+|Device release date=2020-11-10
+|Device type=Game Console
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Xboxseriess-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:XBOX SERIES S PCB APU Side.jpg|alt=
+File:XBOX SERIES S PCB RAM Side.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Xbox Series S-HDMI-Mechnic-Readings.jpg|Xbox Series S HDMI Port Diode Mode Readings through Mechanic T-824 Tester
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+Schematics Available at:  https://www.sendspace.com/file/ke327k
+
+Service Guide: https://documents.cdn.ifixit.com/DvHSbtYFxYgRPWl2.pdf

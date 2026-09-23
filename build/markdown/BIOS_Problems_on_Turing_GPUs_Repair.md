@@ -1,0 +1,55 @@
+---
+title: "BIOS Problems on Turing GPUs Repair"
+pageid: 455
+revid: 957
+kind: repair_guide
+source: "https://repair.wiki/w/BIOS_Problems_on_Turing_GPUs_Repair"
+history: "https://repair.wiki/index.php?title=BIOS_Problems_on_Turing_GPUs_Repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=957"
+last_edited: "2023-11-07T22:16:56Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for RTX 2060"
+  - "Repair guides for RTX 2070"
+  - "Repair guides for RTX 2080"
+  - "Repair guides for RTX 2080Ti"
+infobox:
+  Device: "RTX 2060, RTX 2070, RTX 2080, RTX 2080Ti"
+  Affects_parts: "BIOS Circuit"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# BIOS Problems on Turing GPUs Repair
+
+## Problem description
+If all hardware components on the card are verified to be in good condition and all required voltages are present, but the computer fails to detect the card, it often indicates a BIOS-related issue.
+
+The BIOS circuit operates as follows: During the initialization process, the GPU core pulls pin 1 (CS) low, which activates the BIOS chip. Subsequently, it reads the information stored in the BIOS, including details such as the card's name and clock settings, by communicating through pin 2 (directly connected to the core) and pin 5 (linked through a 33Ω resistor), as illustrated in figure 2. Once these readings are obtained, they are then transmitted to the computer for identification.
+
+- Different board manufacturers might use different bios chips, however, they have have the same pinout and work in the same principle.*
+
+Markings on the schematic and board could differ from GPU model to another but the circuit is almost always the same. [https://eu.mouser.com/datasheet/2/949/w25q40ew_revj_07182018_sfdp-1489916.pdf Here is a reference BIOS chip datasheet.]
+![Location of the BIOS chip on an RTX 2080 Reference. (Figure 1)](images/7/75/2080_bios.png)
+
+## Symptoms
+- All voltages (5, 1.8, vcore, vmem, and PEX) are present on the card but no output or backlight even after sometime (if there is backlight the problem is the memory).
+- The card does not get recognized by MATS.
+- The card works but unreliably (sometimes works but after power cycling it doesn't work)
+
+![Schematic view of the BIOS circuit on an RTX 2080. (Figure 2)](images/7/70/2080_bios_schematic.png)
+
+## Solution
+- Firstly, ensure that the BIOS chip is receiving power (1.8V) through its VDD pin (pin 8).
+- Next, using an oscilloscope, probing pins 2 and 5 during initialization allows you to determine whether the GPU core is engaging in communication with the BIOS.
+  - If there is no signal, it suggests that the core is not attempting to establish communication with the BIOS, which could indicate a faulty core or that the card has not yet reached the initialization phase.
+  - If there is communication, the issue might lie with the BIOS chip being faulty, the BIOS data being corrupted, or an incompatible BIOS being flashed.
+    - To fix this, re-flash the original BIOS (available from the TPU BIOS Library or the manufacturer's website) using an SPI/USB adapter.
+  - If communication is established and the BIOS chip is operational, containing the original BIOS content, but there is still no display output, then there may be an underlying issue, possibly a malfunctioning core.**

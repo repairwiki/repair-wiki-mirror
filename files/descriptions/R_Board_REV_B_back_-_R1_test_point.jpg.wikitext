@@ -1,0 +1,18 @@
+<!--
+title:        File:R Board REV B back - R1 test point.jpg
+pageid:       2461
+revid:        5023
+source:       https://repair.wiki/w/File:R_Board_REV_B_back_-_R1_test_point.jpg
+history:      https://repair.wiki/index.php?title=File:R_Board_REV_B_back_-_R1_test_point.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5023
+last_edited:  2024-10-12T09:29:41Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         05145d5ce849fbb603d35af93cd71b205ff6c1e4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Figure 3: Test point of the R1 shoulder switch on the rev. B controller board. green circle: testing point for the R1 switch.

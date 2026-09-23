@@ -1,0 +1,18 @@
+<!--
+title:        File:Nintendo Switch OLED Diode Readings Qianli iBridge.jpg
+pageid:       3395
+revid:        6163
+source:       https://repair.wiki/w/File:Nintendo_Switch_OLED_Diode_Readings_Qianli_iBridge.jpg
+history:      https://repair.wiki/index.php?title=File:Nintendo_Switch_OLED_Diode_Readings_Qianli_iBridge.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6163
+last_edited:  2025-04-13T15:06:51Z
+contributors: Fixmy
+anonymous_edits: 0
+categories:   
+sha1:         f538316e1b85f51d77e0147f2645a95e31a74ec4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Nintendo Switch OLED Diode Readings Qianli iBridge

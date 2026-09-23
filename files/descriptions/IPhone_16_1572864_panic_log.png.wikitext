@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 16 1572864 panic log.png
+pageid:       5310
+revid:        8524
+source:       https://repair.wiki/w/File:IPhone_16_1572864_panic_log.png
+history:      https://repair.wiki/index.php?title=File:IPhone_16_1572864_panic_log.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8524
+last_edited:  2025-07-06T00:16:26Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         3e8f2bf38be08e39d0b5d05e5db35700fc3073f4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 16 1572864 Panic Log Example

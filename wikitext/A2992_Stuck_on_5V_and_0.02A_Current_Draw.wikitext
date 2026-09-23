@@ -1,0 +1,53 @@
+<!--
+title:        A2992 Stuck on 5V and 0.02A Current Draw
+pageid:       9519
+revid:        13750
+source:       https://repair.wiki/w/A2992_Stuck_on_5V_and_0.02A_Current_Draw
+history:      https://repair.wiki/index.php?title=A2992_Stuck_on_5V_and_0.02A_Current_Draw&action=history
+permalink:    https://repair.wiki/index.php?oldid=13750
+last_edited:  2026-01-20T16:27:43Z
+contributors: CRC2018
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A2992, Stubs
+sha1:         22a51630e9c81d9c2540c03776ce3091d9b9232b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A2992
+|Type=Soldering, Teardown, Cleaning
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Macbook stuck at 5V on the USB C charger and low current draw 0.02a.  
+ -->
+
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+
+* USB Ammeter stuck at 5V
+* PPBUS_AON Present
+* No Magsafe Charging Light
+* No Power
+
+== Solution ==
+Liquid damage around C7762 pulling down PP1V8_AWAKE_SEPROM_LDO.
+
+=== Diagnostic Steps ===
+
+Check USB C Ammeter stuck at 5V and low current draw
+
+Check if PPBUS_AON and PP3V8_AON are present
+
+Proceed to visual inspection of area around C7762 for corrosion
+=== Repair Steps ===
+Clean area around C7762 of corrosion
+
+Remove or replace any shorted caps around C7762
+
+Test and repair any corroded traces.

@@ -1,0 +1,19 @@
+<!--
+title:        File:SD MB rev G front - testing points.jpg
+pageid:       2575
+revid:        5163
+source:       https://repair.wiki/w/File:SD_MB_rev_G_front_-_testing_points.jpg
+history:      https://repair.wiki/index.php?title=File:SD_MB_rev_G_front_-_testing_points.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5163
+last_edited:  2024-11-02T18:26:55Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         4d8f2234acba0d8b7e22332fa153f0042214f9b9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Steam Deck LCD Mainboard Revision G - Testing Points - Front

@@ -1,0 +1,18 @@
+<!--
+title:        File:Example output.jpg
+pageid:       4074
+revid:        7028
+source:       https://repair.wiki/w/File:Example_output.jpg
+history:      https://repair.wiki/index.php?title=File:Example_output.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7028
+last_edited:  2025-05-23T14:00:03Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         76a9769fcd1dad4b8472098136dfde91e018e5da
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PS5 Read error logs example output

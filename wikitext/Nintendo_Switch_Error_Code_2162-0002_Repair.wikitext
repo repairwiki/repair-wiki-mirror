@@ -1,0 +1,37 @@
+<!--
+title:        Nintendo Switch Error Code 2162-0002 Repair
+pageid:       894
+revid:        2186
+source:       https://repair.wiki/w/Nintendo_Switch_Error_Code_2162-0002_Repair
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Error_Code_2162-0002_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2186
+last_edited:  2024-01-13T14:19:56Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Switch, Stubs
+sha1:         c16afbe9667a6f9a9a3d2ef778716309b4bdcb31
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Main Logic Board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Getting Error Code 2162-0002
+[[File:Error Code 2162-0002 -2.jpeg|thumb|Error Code 2162-0002]]
+
+==Symptoms== 
+
+*Error Code 2162-0002 
+
+==Solution==
+
+* Replace M92T36

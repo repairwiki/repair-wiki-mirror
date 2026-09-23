@@ -1,0 +1,61 @@
+<!--
+title:        Samsung Galaxy S7 USB device not recognised. No data transfer.
+pageid:       2911
+revid:        5586
+source:       https://repair.wiki/w/Samsung_Galaxy_S7_USB_device_not_recognised._No_data_transfer.
+history:      https://repair.wiki/index.php?title=Samsung_Galaxy_S7_USB_device_not_recognised._No_data_transfer.&action=history
+permalink:    https://repair.wiki/index.php?oldid=5586
+last_edited:  2025-01-28T15:59:29Z
+contributors: Sempiternal66
+anonymous_edits: 0
+categories:   Missing device page, Repair guide, Repair guides for Galaxy S7, Repair guides for Galaxy S7 Edge, Stubs
+sha1:         8ab78077b9d189d976198e423cad48351a6af8e9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Galaxy S7, Galaxy S7 Edge
+|Affects parts=Motherboard
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope, Multimeter
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+Plugging the phone into Windows displays the below error with no data connection possible.
+
+USB device not recognized. The last USB device you connected to this computer malfunctioned, and Windows does not recognize it[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* No data connection e.g. MTP
+* USB device not recognized error.
+
+=== Diagnostic Steps ===
+
+Firstly, replace the charging port with a know good port, video guides can easily be found on YouTube. Then check to see if the issue is resolved.
+
+If a new charging port doesn't fix the data connection/USB device not recognized error then the below diagnostics may help.
+
+The below components are responsible for the data line on the phones mainboard. If any of these failing can cause this issue.
+
+Resistors and Diodes can typically be tested using a multimeter, if any of these components are bad replace them with new components. These can be purchased brand new or taken off a donor board.
+
+
+<u>Galaxy S7 - SM-G930F</u> - See Figure 1 for the location on the schematics diagram. (to be uploaded)
+
+Resistors: R8020 + R8019 (part number: 2007-008774 . 2.2OHM,5%,1/20W,tp,0603)
+
+Diode: ZD8008 + ZD8009 (part number: 0406-001690)
+
+<u>Galaxy S7 Edge - SM-G935F</u> - See Figure 2 for the location on the schematics diagram. (to be uploaded)
+
+Resistors: R8020 + R8019 (part number: 2007-008774 . 2.2OHM,5%,1/20W,tp,0603)
+
+Diodes: ZD8008 + ZD8009 (part number: 0406-001690)
+
+=== Repair Steps ===
+It's easier to replace these tiny resistors and didoes using a hot air gun and tweezers rather than a soldering iron but it is possible to use either.

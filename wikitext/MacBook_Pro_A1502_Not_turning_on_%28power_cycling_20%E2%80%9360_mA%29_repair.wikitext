@@ -1,0 +1,37 @@
+<!--
+title:        MacBook Pro A1502 Not turning on (power cycling 20–60 mA) repair
+pageid:       468
+revid:        1027
+source:       https://repair.wiki/w/MacBook_Pro_A1502_Not_turning_on_(power_cycling_20%E2%80%9360_mA)_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1502_Not_turning_on_(power_cycling_20%E2%80%9360_mA)_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=1027
+last_edited:  2023-11-08T18:05:25Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Stubs
+sha1:         14bd0f3ca0786b30ebf062299f39928d59e8f07c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Affects parts=Whole board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+<nowiki>#</nowiki>incomplete
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Not turning on.
+*Cycling between 20 to 60 mA current draw from the power supply.
+
+==Solution==
+PP5V_S0 shorted to ground via bad C6412 or C6432 capacitor, also PP5V_S3 will read shorted as it is connected to PP5V_S0
+
+[https://youtu.be/KpXNDsNEYhU?t=717 Fixed by replacing C6412 or C6432 capacitor.]

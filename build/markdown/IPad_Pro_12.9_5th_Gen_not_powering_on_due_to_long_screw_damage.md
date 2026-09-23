@@ -1,0 +1,54 @@
+---
+title: "IPad Pro 12.9 5th Gen not powering on due to long screw damage"
+pageid: 3736
+revid: 6882
+kind: repair_guide
+source: "https://repair.wiki/w/IPad_Pro_12.9_5th_Gen_not_powering_on_due_to_long_screw_damage"
+history: "https://repair.wiki/index.php?title=IPad_Pro_12.9_5th_Gen_not_powering_on_due_to_long_screw_damage&action=history"
+permalink: "https://repair.wiki/index.php?oldid=6882"
+last_edited: "2025-05-17T07:20:35Z"
+contributors:
+  - "Samhext"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for IPad Pro 12.9 5th Gen"
+  - "Stubs"
+infobox:
+  Device: "IPad Pro 12.9 5th Gen"
+  Affects_parts: "Motherboard"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# IPad Pro 12.9 5th Gen not powering on due to long screw damage
+
+![Location of standoff near PP3v3_BSB](images/c/c2/494358349_884077777209057_908469190106231820_n.png)
+
+## Problem description
+iPad Pro 12.9 5th Gen (and likely iPad 12.9 6th gen) can very easily get long screw damage that will lead to it not powering on after any repair in which the screen gets taken off.  The shield next to the battery connector in the middle of the board has one screw that's longer than the other and if the longer screw is put in the wrong standoff even slightly too far it could break a required power line needed for the ipad to power on.
+![PP3V3_BSB via and power line location above screw standoff.](images/0/0f/IPad_Pro_12.9"_5th_Gen_PP3v3_BSB_via_location.jpg)
+
+## Symptoms
+- With iPad plugged into USB amp meter ipad will pull close to 0.02a, then quickly jump to around 0.5a and then back down to near zero.
+- While plugged into a DCPSU, ipad will pull 0.00a before prompt to boot and only go up to around 0.014a-0.025a after prompt to boot.
+- Visible long screw damage on screw standoff above screen FPC's in the middle of the board.
+- While putting pressure on board near the screw standoff and prompting to boot you may get the iPad to power on
+
+## Solution
+The most likely cause will be a broken trace/via underneath the screw terminal with the long screw damage.  Specifically the PP3V3_BSB line and/or the via that carries that line deeper into the board is the most likely culprit.  However you should check and repair any other lines that may be damaged.
+### Repair Steps
+1. Remove the standoff with long screw damage.  You can either carefully slice the top layer of the board around the standoff, or use hot air to heat the solder and pull the standoff off the board.
+1. Carefully scrape the layers of the board off with a scalpel blade in a small section around the removed standoff.  Be extremely careful not to break any other lines while scraping.  The PP3V3_BSB line will be slightly above and to the right of the standoff.
+1. Once you've scraped enough of the layers off, check if the via that brings PP3V3_BSB deeper into the board is loose or if the line that goes from C8300 to the via is broken/damaged.
+1. If line is damaged or the via is loose, run a jumper wire from the line that goes to C8300 to the via.
+1. Check if iPad has a normal boot cycle on DCPSU and if everything is now working make sure to cover the area with conformal coating.
+
+In some cases if data recovery is all that's needed you can clamp the standoff to put pressure on the via so it will connect with the rest of the line long enough to power the ipad on and back it up.
+
+For a better view of the power line that needs to be worked on here is a video of a similar repair:
+
+https://youtu.be/823HF8IZckU?si=wV6fEc4ouPoI1hLm

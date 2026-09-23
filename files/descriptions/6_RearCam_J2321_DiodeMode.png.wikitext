@@ -1,0 +1,18 @@
+<!--
+title:        File:6 RearCam J2321 DiodeMode.png
+pageid:       1911
+revid:        4112
+source:       https://repair.wiki/w/File:6_RearCam_J2321_DiodeMode.png
+history:      https://repair.wiki/index.php?title=File:6_RearCam_J2321_DiodeMode.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4112
+last_edited:  2024-06-27T19:42:39Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         2f129ea450893b5bad93ee1a19a3047dfb46811f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+6 RearCam J2321 DiodeMode

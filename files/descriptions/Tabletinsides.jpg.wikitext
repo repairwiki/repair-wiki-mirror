@@ -1,0 +1,18 @@
+<!--
+title:        File:Tabletinsides.jpg
+pageid:       866
+revid:        2068
+source:       https://repair.wiki/w/File:Tabletinsides.jpg
+history:      https://repair.wiki/index.php?title=File:Tabletinsides.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2068
+last_edited:  2024-01-12T23:14:10Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         008cbf24e24ebeb2548ee83469782425b39c671b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Tabletinsides

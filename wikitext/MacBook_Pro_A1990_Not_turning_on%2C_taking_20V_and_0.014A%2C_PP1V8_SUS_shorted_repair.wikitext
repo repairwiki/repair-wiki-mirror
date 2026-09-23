@@ -1,0 +1,37 @@
+<!--
+title:        MacBook Pro A1990 Not turning on, taking 20V and 0.014A, PP1V8 SUS shorted repair
+pageid:       123
+revid:        564
+source:       https://repair.wiki/w/MacBook_Pro_A1990_Not_turning_on,_taking_20V_and_0.014A,_PP1V8_SUS_shorted_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1990_Not_turning_on,_taking_20V_and_0.014A,_PP1V8_SUS_shorted_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=564
+last_edited:  2023-10-29T16:13:50Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1990, Stubs
+sha1:         6e09bbe67e0b48320e572a59610329fa51da699e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1990
+|Affects parts=Motherboard
+|Needs equipment=multimeter, soldering iron, soldering station, BGA rework station
+|Type=BGA, Soldering
+|Difficulty=4. Specialist
+}}
+{{stub}}
+
+==Problem description==
+No power, taking 20V and 0.014A, PP1V8_SUS shorted
+[[File:PMIC + PCH A1990.png|thumb|(Figure 1) PMIC and PCH]]
+
+==Symptoms==
+
+*MacBook not turning on
+*PP1V8_SUS shorted
+
+==Solution==
+In this case PCH and PMIC to do. Usually if the board is taking 20V and 0.01A ~ 0.025A there is a problem with some of the PMIC's voltages. See Figure 1

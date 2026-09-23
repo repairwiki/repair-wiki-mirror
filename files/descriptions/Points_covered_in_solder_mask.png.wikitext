@@ -1,0 +1,18 @@
+<!--
+title:        File:Points covered in solder mask.png
+pageid:       5369
+revid:        8593
+source:       https://repair.wiki/w/File:Points_covered_in_solder_mask.png
+history:      https://repair.wiki/index.php?title=File:Points_covered_in_solder_mask.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8593
+last_edited:  2025-07-07T22:19:12Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         546359ed5bfcf868e21c1097ebc1fe0c7b7086c1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+points covered in solder mask

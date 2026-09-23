@@ -1,0 +1,46 @@
+<!--
+title:        Thinkpad T520
+pageid:       1477
+revid:        12999
+source:       https://repair.wiki/w/Thinkpad_T520
+history:      https://repair.wiki/index.php?title=Thinkpad_T520&action=history
+permalink:    https://repair.wiki/index.php?oldid=12999
+last_edited:  2025-12-01T23:44:42Z
+contributors: Pandrew, Tiago199988
+anonymous_edits: 0
+categories:   Device, Laptops, Lenovo, Lenovo Laptops, Stubs
+sha1:         256375b759baccaa64619fe38df551adf3b8a894
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Lenovo
+|Has code name=Kendo-3 UMA
+|Device release date=2011-03-29
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Thinkpad T520.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

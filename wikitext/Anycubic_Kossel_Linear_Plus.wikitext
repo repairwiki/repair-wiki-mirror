@@ -1,0 +1,41 @@
+<!--
+title:        Anycubic Kossel Linear Plus
+pageid:       1423
+revid:        3107
+source:       https://repair.wiki/w/Anycubic_Kossel_Linear_Plus
+history:      https://repair.wiki/index.php?title=Anycubic_Kossel_Linear_Plus&action=history
+permalink:    https://repair.wiki/index.php?oldid=3107
+last_edited:  2024-01-20T16:44:25Z
+contributors: Georgiy.Yushmanov
+anonymous_edits: 0
+categories:   3D Printers, Anycubic, Anycubic 3D Printers, Device, Stubs
+sha1:         97a196d19d0a0df2ed75bd4e0c71a1fe61fdfae1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Anycubic|Device type=3D Printer}}
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

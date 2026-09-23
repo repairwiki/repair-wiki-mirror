@@ -1,0 +1,66 @@
+<!--
+title:        IPhone 16 Pro Max Restarting When Opening Camera App
+pageid:       9240
+revid:        13416
+source:       https://repair.wiki/w/IPhone_16_Pro_Max_Restarting_When_Opening_Camera_App
+history:      https://repair.wiki/index.php?title=IPhone_16_Pro_Max_Restarting_When_Opening_Camera_App&action=history
+permalink:    https://repair.wiki/index.php?oldid=13416
+last_edited:  2025-12-27T19:38:28Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 16 Pro, Repair guides for iPhone 16 Pro Max, Stubs
+sha1:         6a2eb78ef954436cd3bb50eaca387f593c0f6db4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPhone 16 Pro, iPhone 16 Pro Max
+|Affects parts=Logic Board, CPU
+|Needs equipment=Soldering Iron, Hot Air Station, Soldering Wick, Microscope, Solder Paste
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+iPhone 16 Pro and Max devices experience repeated camera restarts when opening the Camera app.
+
+The root cause is a damaged or missing crystal capacitor located under the CPU.
+
+This fault cannot be resolved by software restore or peripheral replacement. The issue requires component-level repair under the CPU.
+[[File:Ip-16p-camera-restart-panic.jpg|thumb]]
+
+== Symptoms ==
+
+* Camera app causes immediate restart
+* Device reboots when camera initializes
+* Device boots normally but crashes under camera load
+* Issue persists after:
+** iOS restore
+** Camera module replacement
+
+== Solution ==
+[[File:Missing-crystal-cap-16p.png|thumb]]
+[[File:Crystal-cap-reinstalled-16p.png|thumb]]
+
+=== Diagnostic Steps ===
+
+# Confirm panic logs
+#* Look for kernel panic related to camera or standby
+# Reproduce issue
+#* Open Camera app → immediate reboot
+# Rule out peripherals
+#* Test with known-good camera modules
+# Board inspection
+#* Inspect CPU underside area for missing/damaged capacitors
+
+=== Repair Steps ===
+
+# Remove logic board from device
+# De-Solder CPU from board
+# Locate faulty/missing crystal capacitor(s)
+# Remove damaged capacitor carefully
+# Clean pads and inspect traces
+# Install replacement capacitor from donor CPU
+# Reassemble and test

@@ -1,0 +1,18 @@
+<!--
+title:        File:Fixed.png
+pageid:       6682
+revid:        10060
+source:       https://repair.wiki/w/File:Fixed.png
+history:      https://repair.wiki/index.php?title=File:Fixed.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10060
+last_edited:  2025-08-05T22:36:11Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         ab98f5b85764b8561cacbb055a963cd334928cba
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Fixed

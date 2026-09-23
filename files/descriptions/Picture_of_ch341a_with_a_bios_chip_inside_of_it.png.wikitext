@@ -1,0 +1,18 @@
+<!--
+title:        File:Picture of ch341a with a bios chip inside of it.png
+pageid:       550
+revid:        1242
+source:       https://repair.wiki/w/File:Picture_of_ch341a_with_a_bios_chip_inside_of_it.png
+history:      https://repair.wiki/index.php?title=File:Picture_of_ch341a_with_a_bios_chip_inside_of_it.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1242
+last_edited:  2023-11-25T17:47:43Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         61e7524d73c5beb92bbc8977b78757ced91b414f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Picture of ch341a with a bios chip inside of it

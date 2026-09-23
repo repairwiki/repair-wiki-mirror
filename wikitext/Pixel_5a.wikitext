@@ -1,0 +1,44 @@
+<!--
+title:        Pixel 5a
+pageid:       290
+revid:        10195
+source:       https://repair.wiki/w/Pixel_5a
+history:      https://repair.wiki/index.php?title=Pixel_5a&action=history
+permalink:    https://repair.wiki/index.php?oldid=10195
+last_edited:  2025-08-13T22:59:29Z
+contributors: ASRepairs, Tiago199988, ES
+anonymous_edits: 0
+categories:   Device, Google, Google Phones, Phones
+sha1:         da2447f23eca2e6cab4f4e6e020b061fcf428036
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Google
+|Has code name=Barbet
+|Device release date=2021-08-26
+|Device type=Phone
+}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Pixel-5a-5G-Mostly-Black.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements==
+<gallery showthumbnails="1">
+File:Pixel 5A battery connector.png
+File:Pixel 5a display connector.png
+</gallery>
+
+== More Information/External Sources ==
+Service Manual: https://storage.googleapis.com/support-kms-prod/Pg3QcFdEOTM9nTxkTaJYaHq6yhp1ckNI9DYm

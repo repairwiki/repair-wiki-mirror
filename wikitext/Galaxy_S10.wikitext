@@ -1,0 +1,48 @@
+<!--
+title:        Galaxy S10
+pageid:       303
+revid:        11433
+source:       https://repair.wiki/w/Galaxy_S10
+history:      https://repair.wiki/index.php?title=Galaxy_S10&action=history
+permalink:    https://repair.wiki/index.php?oldid=11433
+last_edited:  2025-09-07T20:14:30Z
+contributors: ASRepairs, Tiago199988, Ethan
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones
+sha1:         0f3225fe9893c3f7d87a9331104ce81271e1a7aa
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+|Device release date=8 March 2019|Has code name=SM-G973F/DS (Global), SM-G973U (USA), SM-G973W (Canada), SM-G9730 (China)}}
+== Guides ==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:S10-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:S10Front pcb.png
+File:S10Back pcb.png
+File:Galaxy S10 AUX PORT CONNECTOR.jpg
+File:Galaxy S10 SCREEN CONNECTOR - Diode Mode Readings.jpg
+File:Galaxy S10 BATTERY CONNECTOR - Diode Mode Readings.jpg
+File:Galaxy S10 SELFIE CAMERA - Diode Mode Readings.jpg
+File:Galaxy S10 ULTRAWIDE CONNECTOR - Diode Mode Readings.jpg
+File:Galaxy S10 TELEPHOTO+WIDE - Diode Mode Readings.jpg
+</gallery>
+
+==More Information/External Sources==
+Galaxy S10 Schematics: https://www.sendspace.com/file/j76ohe

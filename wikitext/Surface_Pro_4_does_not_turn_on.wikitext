@@ -1,0 +1,77 @@
+<!--
+title:        Surface Pro 4 does not turn on
+pageid:       4161
+revid:        7139
+source:       https://repair.wiki/w/Surface_Pro_4_does_not_turn_on
+history:      https://repair.wiki/index.php?title=Surface_Pro_4_does_not_turn_on&action=history
+permalink:    https://repair.wiki/index.php?oldid=7139
+last_edited:  2025-05-27T21:30:43Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Surface Pro 4, Stubs
+sha1:         37f4964d1852db759ad7b818156397ceee8e19c6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Surface Pro 4
+|Affects parts=Motherboard
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The device does not turn on.
+[[File:Blow resistor.png|thumb|Example of blow resistor on a Surface Pro 4]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* The device doesn't turn on.
+* The device doesn't turn on after a battery replacement.
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+If your device stopped turning on after a battery replacement, it is highly likely that a component on the motherboard has failed (I discovered this the hard way).
+
+To fix the device, we will perform a few troubleshooting steps.
+
+=== Diagnostic Steps ===
+
+There are 3 components that commonly fail: a 0-ohm resistor, two diodes, and the PMIC.
+
+First, let's check the 0-ohm resistor. Below is an image showing where this component is located. Using your multimeter in resistance mode, measure the resistance, it should be 0 ohms. If you measure anything different, the component is faulty.
+
+[[File:Surface pro 4 resistor.png|center|thumb|Surface Pro 4 Resistor Location]]
+
+The next two components to check are the two diodes. Using your multimeter in continuity mode, ensure they don't have continuity across them. Also, verify there is no physical damage, such as cracks or holes.
+
+[[File:Surface pro 4 diodes.png|center|thumb|Surface Pro 4 Diodes Location]]
+The next component to check is the PMIC. This component is commonly shorted. Follow the image below.
+[[File:Surface Pro 4 PMIC.png|center|thumb|Surface Pro 4 PMIC]]
+
+If one of the lines is shorted inject 1V with a DCPS and you will likely see the PMIC hot under a thermal camera.
+
+=== Repair Steps ===
+The resistor is easy to replace. Use a hot air station to desolder the old one and solder a new one, or if you have hot tweezers, it's even easier.
+
+The diodes follow the same process as the resistor.
+
+The PMIC is a BGA chip. To remove it, use your hot air station, clean the pads of any old solder, and solder a new PMIC.
+
+When assembling the device, be careful because the battery is always providing power to the motherboard. I recommend installing all the shields you can and being cautious with the heat sink, as it is made of copper, any wrong touch on a component can damage the motherboard again.
+
+== Final Testing ==
+Ensure the device charges and turns on. Test all other functions of the device before gluing the screen again.

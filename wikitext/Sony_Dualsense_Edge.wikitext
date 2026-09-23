@@ -1,0 +1,46 @@
+<!--
+title:        Sony Dualsense Edge
+pageid:       6601
+revid:        9980
+source:       https://repair.wiki/w/Sony_Dualsense_Edge
+history:      https://repair.wiki/index.php?title=Sony_Dualsense_Edge&action=history
+permalink:    https://repair.wiki/index.php?oldid=9980
+last_edited:  2025-08-05T11:21:57Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         f87731d5d2097e8549f02aaf14d157e9e62e77e3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Sony|Device type=Game Console|Device release date=26/01/2023}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Dualsense-edge-ps5-front.png|alt=
+File:Dualsense-edge-ps5-back.png|alt=
+File:Edge-stick-module.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Edge pcb front.webp|alt=
+File:Edge pcb back.png|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+Good Disassembly Guide https://youtu.be/C89Jxf0dR2k?si=T9wvP-zjURx9MHTk<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

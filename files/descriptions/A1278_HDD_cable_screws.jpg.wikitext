@@ -1,0 +1,18 @@
+<!--
+title:        File:A1278 HDD cable screws.jpg
+pageid:       1972
+revid:        4219
+source:       https://repair.wiki/w/File:A1278_HDD_cable_screws.jpg
+history:      https://repair.wiki/index.php?title=File:A1278_HDD_cable_screws.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4219
+last_edited:  2024-07-07T06:38:45Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         f8417c0a7cbe6e3cfb32b9bfb652734ecaa0d5bc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A picture show the screws that need to be removed to remove a A1278 MacBook Pro HDD cable

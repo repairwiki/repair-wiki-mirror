@@ -1,0 +1,64 @@
+<!--
+title:        Template:Device page
+pageid:       21
+revid:        14261
+source:       https://repair.wiki/w/Template:Device_page
+history:      https://repair.wiki/index.php?title=Template:Device_page&action=history
+permalink:    https://repair.wiki/index.php?oldid=14261
+last_edited:  2026-09-22T22:53:51Z
+contributors: Admin, ASRepairs, Jaxpet1233, ContentBot
+anonymous_edits: 0
+categories:   
+sha1:         e6404b1b903ffda53baf56e49e822192a01c429d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<noinclude>
+{{#template_params:Has code name (property=Has code name)|Manufacturer (property=Manufacturer)|Device release date (property=Inception)|Device type (property=Device type)}}
+</noinclude><includeonly>{| class="infobox"
+! class="infobox-heading" colspan="2" |<span>[[Device::{{PAGENAME}}]]</span>
+|-
+! Manufacturer
+| [[:Category:{{{Manufacturer|}}} {{{Device type|}}}s|{{{Manufacturer|}}}]]
+|-
+! Code name
+| {{{Has code name|}}}
+|-
+! Release date
+| {{{Device release date|}}}
+|-
+! Device type
+| [[Device type::{{{Device type|}}}]]
+|-
+|}
+[[Category:Device]]
+{{#if:{{{Manufacturer|}}}
+|[[Category:{{{Manufacturer|}}}]]
+{{#set:Manufacturer={{{Manufacturer|}}}}}
+{{#if:{{{Device type|}}}
+|[[Category:{{{Manufacturer|}}} {{{Device type|}}}s]]
+}}
+}}
+
+{{#if:{{{Device type|}}}
+|[[Category:{{{Device type|}}}s]]
+}}
+
+
+<!-- SEO description -->
+{{#seo:description=Repair guides, known faults and replacement parts for the {{#if:{{{Manufacturer|}}}|{{{Manufacturer}}}&#32;}}{{PAGENAME}}{{#if:{{{Device type|}}}|&#32;{{{Device type}}}}}.}}
+</includeonly>
+<noinclude>
+<templatedata>
+{
+	"params": {
+		"Manufacturer": {},
+		"Device release date": {},
+		"Device type": {},
+		"Has code name": {}
+	}
+}
+</templatedata>
+</noinclude>

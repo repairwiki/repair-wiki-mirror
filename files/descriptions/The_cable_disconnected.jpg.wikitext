@@ -1,0 +1,18 @@
+<!--
+title:        File:The cable disconnected.jpg
+pageid:       9546
+revid:        13780
+source:       https://repair.wiki/w/File:The_cable_disconnected.jpg
+history:      https://repair.wiki/index.php?title=File:The_cable_disconnected.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13780
+last_edited:  2026-01-26T19:50:12Z
+contributors: Firelemons
+anonymous_edits: 0
+categories:   
+sha1:         8fcf29a8089f747a37c5341bbbd11d1a47ece278
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The cable disconnected

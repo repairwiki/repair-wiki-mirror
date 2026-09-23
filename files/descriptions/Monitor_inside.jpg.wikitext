@@ -1,0 +1,18 @@
+<!--
+title:        File:Monitor inside.jpg
+pageid:       9545
+revid:        13779
+source:       https://repair.wiki/w/File:Monitor_inside.jpg
+history:      https://repair.wiki/index.php?title=File:Monitor_inside.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13779
+last_edited:  2026-01-26T19:43:32Z
+contributors: Firelemons
+anonymous_edits: 0
+categories:   
+sha1:         0a32ee0971c028e7bccd49d076ca41ace23b7977
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+inside of the monitor

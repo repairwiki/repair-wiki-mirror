@@ -1,0 +1,46 @@
+<!--
+title:        Hewlett Packard Pavilion 22xi
+pageid:       1017
+revid:        2448
+source:       https://repair.wiki/w/Hewlett_Packard_Pavilion_22xi
+history:      https://repair.wiki/index.php?title=Hewlett_Packard_Pavilion_22xi&action=history
+permalink:    https://repair.wiki/index.php?oldid=2448
+last_edited:  2024-01-14T12:28:59Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Device, HP, HP Television/Monitors, Stubs, Television/Monitors
+sha1:         42743f51fcbfb740a7779a2c8b6477ef4aa4c7ba
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=HP
+|Device release date=2018-07-31
+|Device type=Television/Monitor
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Pavilion 22xi Front.jpg|Pavilion 22xi Front
+File:Pavilion 22xi Back.jpg|Pavilion 22xi Back
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

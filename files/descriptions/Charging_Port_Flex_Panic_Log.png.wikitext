@@ -1,0 +1,18 @@
+<!--
+title:        File:Charging Port Flex Panic Log.png
+pageid:       582
+revid:        1330
+source:       https://repair.wiki/w/File:Charging_Port_Flex_Panic_Log.png
+history:      https://repair.wiki/index.php?title=File:Charging_Port_Flex_Panic_Log.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1330
+last_edited:  2023-12-12T23:04:09Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         07678f4ebe9951aceca0d44f4b228c7f72a8384d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 15 Pro Max panic log example. It will restart if the charging port flex is unplugged, causing 0x300000 panic log error

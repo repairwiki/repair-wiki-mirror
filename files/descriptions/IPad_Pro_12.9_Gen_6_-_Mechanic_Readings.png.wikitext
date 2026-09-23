@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Pro 12.9 Gen 6 - Mechanic Readings.png
+pageid:       3379
+revid:        6140
+source:       https://repair.wiki/w/File:IPad_Pro_12.9_Gen_6_-_Mechanic_Readings.png
+history:      https://repair.wiki/index.php?title=File:IPad_Pro_12.9_Gen_6_-_Mechanic_Readings.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6140
+last_edited:  2025-04-12T22:34:07Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         5b5a1b1e66525d5a6913bd2f33201467c620c0ac
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Pro 12.9 Gen 6 - Mechanic Tester Known Good Readings

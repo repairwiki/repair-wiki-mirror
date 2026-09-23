@@ -1,0 +1,37 @@
+<!--
+title:        MacBook Pro A1990 "Braindead" repair
+pageid:       120
+revid:        488
+source:       https://repair.wiki/w/MacBook_Pro_A1990_%22Braindead%22_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1990_%22Braindead%22_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=488
+last_edited:  2023-10-29T15:25:56Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1990, Stubs
+sha1:         5a739a2ad5b865ae7197c7edad2012a0b5cc2f69
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1990
+|Affects parts=Motherboard
+|Needs equipment=multimeter, soldering iron, soldering station, thermal camera
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Any shorted subrail on A1990 machines can cause the machine to hang on POST. 
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*MacBook hanging on POST
+
+==Solution==
+
+* Thermal imaging can reveal abnormal heat caused by a shorted component. 
+* This condition is most frequently caused by a SSD subrail, such as the 2v7 SSD power line.

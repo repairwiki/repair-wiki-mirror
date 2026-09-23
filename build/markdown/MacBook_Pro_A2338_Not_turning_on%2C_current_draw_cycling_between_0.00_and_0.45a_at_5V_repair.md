@@ -1,0 +1,60 @@
+---
+title: "MacBook Pro A2338 Not turning on, current draw cycling between 0.00 and 0.45a at 5V repair"
+pageid: 54
+revid: 535
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A2338_Not_turning_on,_current_draw_cycling_between_0.00_and_0.45a_at_5V_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A2338_Not_turning_on,_current_draw_cycling_between_0.00_and_0.45a_at_5V_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=535"
+last_edited: "2023-10-29T15:29:37Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 1
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A2338"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A2338"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A2338 Not turning on, current draw cycling between 0.00 and 0.45a at 5V repair
+
+## Problem description
+MacBook Pro A2338 not turning on, showing only 5V on the USB-C meter, and cycling current draw between 0.00 and 0.45A.
+
+## Symptoms
+- Not turning on, all voltages missing.
+- Not charging, only 5V on the USB-C input.
+- Pulling between 0.00-0.45A shown by USB-C ammeter.
+
+## Solution
+### Diagnostic Steps
+![(Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+#### Checking for short to ground on a rail powered by a PMIC. PP1v8_S2
+  - Missing information*
+
+#### Checking for short to ground on a rail produced by U7700 or U8100
+- Check for shorts to ground on outputs of U8100 and U7701: [How to find short circuits](How_to_find_short_circuits.md)
+- #L8100 / L8101 / L8102 (PPVDD_PCPU_AWAKE) (Figure 1) - Normal diode mode to ground reading ~0.007 / ~45Ω (Resistance)
+- #L82B0 / L82B1 (PPVDD_ECPU_AWAKE) - Normal diode mode to ground reading ~0.114 / 140Ω (Resistance)
+- #L8270 / L8271(PPVDD_CPU_SRAM_AWAKE) - Normal diode mode to ground reading ~ 0.116 / 450Ω (Resistance)
+- #L8120 (PPVDD_SOC_S1) - Normal diode mode to ground reading ~ 0.012 / 110Ω (Resistance)
+- #L8110 / L8111 / L8112 (PPVDD_GPU_AWAKE) - Normal diode mode to ground reading ~ 0.010 / 35Ω (Resistance)
+- #L8280 / L8281 (PPVDD_DISP_S1) - Normal diode mode to ground reading ~ 0.055 / 233Ω (Resistance)
+- #L8290 (PPVDD_DCS_S1) - Normal diode mode to ground reading ~ 0.176 / 310Ω (Resistance)
+- #L84E0 - (PP1v4_LDO_PREREG) - Normal diode mode to ground reading ~ 0.285 / >30kΩ (Resistance)
+
+### Repair Steps
+- High Resolution thermal imaging is highly specific for the detection of short circuits on M1 boards and should be the first line diagnostic method when short circuits are suspected.*
+
+#### short to ground on a rail produced by U7700 or U8100
+- Replace the shorted component
+    - Case Report from user: TCRS Circuit An 820-02020 presented with no power. Upon inspection, no diffuse signs of liquid damage were seen on the system board or enclosure components. Thermal imaging was performed which revealed abnormal pulsation and enhancement of U8100 and L8230 (PP1v8_S2). A short to ground was measured. 1v and 5 amps was injected to the line which revealed abnormal enhancement of UC820. (PP1v8_S2 to PP1v8_S2SW_VDD1 switch.) UC820 was replaced which restored 20v on the USB C amp meter, however amperage was still abnormal at 0.08 amps. Thermal imaging revealed some heating of the CPU when power was first connected. Further in depth visual inspection revealed C1105 to have signs of cracking and excessive heat. A short to ground was measured on PP1v8_S2SW_VDD1. C1105 was removed, with resolution of the short, however function was not fully restored, and PP1v8_S2SW_VDD1 was still seen to be missing despite normal VIN and EN lines to UC820. UC820 was replaced again which restored full function of the board. We can conclude that in this particular case, UC820 was likely damaged from overload due to a short on its output.*

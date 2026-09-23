@@ -1,0 +1,123 @@
+<!--
+title:        Galaxy A127(exynos) Earpiece and Mic Not Working
+pageid:       4792
+revid:        7890
+source:       https://repair.wiki/w/Galaxy_A127(exynos)_Earpiece_and_Mic_Not_Working
+history:      https://repair.wiki/index.php?title=Galaxy_A127(exynos)_Earpiece_and_Mic_Not_Working&action=history
+permalink:    https://repair.wiki/index.php?oldid=7890
+last_edited:  2025-06-22T12:38:48Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Galaxy A12, Stubs
+sha1:         9338a8017f7bc3d5871625b7fa0e98e36a5caa3e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Galaxy A12
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering, BGA
+|Difficulty=4. Specialist
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+The '''main microphone''' and '''earspeaker''' are completely non-functional.
+
+This issue typically arises '''after severe physical damage''', such as '''heavy drops''' or '''bending near the shield area'''.
+
+'''Note:''' You may have already attempted replacing components like the '''screen''', '''dock''', or '''earpiece''', but the issue persists.
+
+
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Unable to '''hear or speak''' during phone calls
+* '''Voice memos''' either cannot be recorded or are recorded '''without sound'''
+* '''Earspeaker fails''' the earpiece test in the '''Samsung service menu'''
+* '''Diode readings''' on the '''Main FPC Connector''' and '''earpiece output''' are within normal range
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+--><br />
+
+=== Diagnostic Steps ===
+
+* Visible '''impact damage''' or '''dents''' on the shield near the affected area
+[[File:Initial problem a127(non mtk).png|left|thumb|214x214px|Damage near shield]]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br>
+
+
+
+
+
+* '''Ground pad''' under the shield is either damaged or '''torn off''' with the shield
+
+* Carefully '''scrape off the first (ground) layer''' where shown.
+** If you observe '''bubbling''', '''lifted fibers''', or signs of '''delamination''', proceed with the repair steps
+[[File:2025 06 22 13 52 IMG 8465.PNG|left|thumb|208x208px|Delamination of 2nd layer]]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+=== Repair Steps ===
+
+* Remove the first (ground) layer in the affected area
+* Access the second layer and carefully remove the damaged and show the traces
+[[File:2025 05 19 15 57 IMG 7935.JPG|left|thumb|177x177px|Traces exposed of second layer]]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+* Pretin the traces to make jumpers
+* Mentioned the traces that go to power ic from cpu for sound functions
+[[File:PMIC TO CPU TRACES A127.png|left|thumb|173x173px|traces to pmic]]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+* Use 0.007mm silver jumper wire to reconstruct the connections
+* Clean the area thoroughly
+* Apply UV-curable solder mask to insulate the repair

@@ -1,0 +1,44 @@
+<!--
+title:        Samsung SyncMaster SA950
+pageid:       1027
+revid:        2445
+source:       https://repair.wiki/w/Samsung_SyncMaster_SA950
+history:      https://repair.wiki/index.php?title=Samsung_SyncMaster_SA950&action=history
+permalink:    https://repair.wiki/index.php?oldid=2445
+last_edited:  2024-01-14T12:27:59Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Device, Samsung, Samsung Television/Monitors, Stubs, Television/Monitors
+sha1:         42301bfe88d91d7cc539fa3d1fd129f0e03eb594
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Television/Monitor
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Samsung SyncMaster SA950.jpg|Samsung SyncMaster SA950
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

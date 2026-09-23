@@ -1,0 +1,19 @@
+<!--
+title:        File:RPi 5 Test point map.jpg
+pageid:       4956
+revid:        8081
+source:       https://repair.wiki/w/File:RPi_5_Test_point_map.jpg
+history:      https://repair.wiki/index.php?title=File:RPi_5_Test_point_map.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=8081
+last_edited:  2025-06-28T19:39:23Z
+contributors: MadEDoctor
+anonymous_edits: 0
+categories:   
+sha1:         d8c2a87cd6fe1b327737b0dd919681dd52451aa4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Test point map of a working Raspberry Pi 5

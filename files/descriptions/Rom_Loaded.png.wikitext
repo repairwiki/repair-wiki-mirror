@@ -1,0 +1,18 @@
+<!--
+title:        File:Rom Loaded.png
+pageid:       9316
+revid:        13527
+source:       https://repair.wiki/w/File:Rom_Loaded.png
+history:      https://repair.wiki/index.php?title=File:Rom_Loaded.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13527
+last_edited:  2026-01-01T21:42:14Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         9cbfc8bbd767a50b38e3db40db88e37fbd11f045
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Rom Loaded

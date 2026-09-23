@@ -1,0 +1,48 @@
+<!--
+title:        Playstation 3 CECH‑L04
+pageid:       1618
+revid:        3537
+source:       https://repair.wiki/w/Playstation_3_CECH%E2%80%91L04
+history:      https://repair.wiki/index.php?title=Playstation_3_CECH%E2%80%91L04&action=history
+permalink:    https://repair.wiki/index.php?oldid=3537
+last_edited:  2024-03-02T08:20:48Z
+contributors: JEdwards
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         ddd886cc766b6843d90e74f08d4aa71141da6271
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Sony
+|Has code name=CECH‑L04
+|Device release date=2008-10-01
+|Device type=Game Console
+}}
+{{stub}}
+<nowiki>*</nowiki>content not yet ready*
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ps3 fat 2.png|Vertical orientation view front/top with controller
+File:Ps3 fat 1.png|horizontal orientation view front/top
+File:Ps3 fat 3.png|horizontal orientation view front
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:CECHL04 PCB 01.jpg|CECH-L04 PCB (CPU side)
+File:CECHL04 PCB 02.jpg|CECH-L04 PCB (PSU Connector side)
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

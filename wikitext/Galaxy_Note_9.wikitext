@@ -1,0 +1,46 @@
+<!--
+title:        Galaxy Note 9
+pageid:       2198
+revid:        10292
+source:       https://repair.wiki/w/Galaxy_Note_9
+history:      https://repair.wiki/index.php?title=Galaxy_Note_9&action=history
+permalink:    https://repair.wiki/index.php?oldid=10292
+last_edited:  2025-08-16T22:40:44Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         e194a6ea8d0e5e44ccca37af00054d8a8d4ebe20
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Note9-800x800.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Galaxy Note 9 PCB N960F.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

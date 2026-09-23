@@ -1,0 +1,18 @@
+<!--
+title:        File:1A-before-boot.png
+pageid:       7766
+revid:        11463
+source:       https://repair.wiki/w/File:1A-before-boot.png
+history:      https://repair.wiki/index.php?title=File:1A-before-boot.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11463
+last_edited:  2025-09-08T22:01:04Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         7f5f30151265815e9e683e592dabe97b37d26bd0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+1A-before-boot

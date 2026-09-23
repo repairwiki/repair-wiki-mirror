@@ -1,0 +1,43 @@
+<!--
+title:        Pixel 4
+pageid:       7725
+revid:        11382
+source:       https://repair.wiki/w/Pixel_4
+history:      https://repair.wiki/index.php?title=Pixel_4&action=history
+permalink:    https://repair.wiki/index.php?oldid=11382
+last_edited:  2025-09-07T14:17:00Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Google, Google Phones, Phones, Stubs
+sha1:         109dfe2a5c04a6a486f927b0e323365617393643
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Google|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Google-Pixel-4.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Pixel 4 PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

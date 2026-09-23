@@ -1,0 +1,18 @@
+<!--
+title:        File:Navi perst buf schematic.png
+pageid:       1660
+revid:        3636
+source:       https://repair.wiki/w/File:Navi_perst_buf_schematic.png
+history:      https://repair.wiki/index.php?title=File:Navi_perst_buf_schematic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3636
+last_edited:  2024-03-14T16:02:46Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         a5bda73f614e173e9f3f4b98c820b089a3eb2e5f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Navi perst buf schematic

@@ -1,0 +1,18 @@
+<!--
+title:        File:InductorLenovoYoga7.jpg
+pageid:       9627
+revid:        13915
+source:       https://repair.wiki/w/File:InductorLenovoYoga7.jpg
+history:      https://repair.wiki/index.php?title=File:InductorLenovoYoga7.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13915
+last_edited:  2026-02-11T00:52:11Z
+contributors: Bizarre Electronics
+anonymous_edits: 0
+categories:   
+sha1:         b314fc3a33e0c1d313a5dd38b77442e24b9be5cf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The inductor that may be de soldered.

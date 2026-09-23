@@ -1,0 +1,55 @@
+<!--
+title:        IPhone 5
+pageid:       1630
+revid:        11417
+source:       https://repair.wiki/w/IPhone_5
+history:      https://repair.wiki/index.php?title=IPhone_5&action=history
+permalink:    https://repair.wiki/index.php?oldid=11417
+last_edited:  2025-09-07T16:08:46Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         e5b07fb87b662ce6e32f6429ecd5a6111c87a3c2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1428, A1429, A1442
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone5-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+'''Notice for all iPhone 5 models:''' Be careful when disconnecting the battery, if you dig in between the connector and shield behind it you can knock off a VERY VERY small resistor, there's many of them and depending on which ones you knock off you can get strange issues like battery percentage misreporting or the phone only working when plugged in.
+{| class="wikitable"
+|Models
+|-
+|A1428
+|-
+|A1429
+|-
+|A1442
+|}
+iPhone 5 Schematics: https://www.sendspace.com/file/oqk540

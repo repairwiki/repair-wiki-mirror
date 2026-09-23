@@ -1,0 +1,17 @@
+<!--
+title:        File:Seagate Expansion Card teardown4 SK Hynix’s new 4D NAND.webp
+pageid:       1165
+revid:        2651
+source:       https://repair.wiki/w/File:Seagate_Expansion_Card_teardown4_SK_Hynix%E2%80%99s_new_4D_NAND.webp
+history:      https://repair.wiki/index.php?title=File:Seagate_Expansion_Card_teardown4_SK_Hynix%E2%80%99s_new_4D_NAND.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=2651
+last_edited:  2024-01-16T00:22:45Z
+contributors: HaileyKitty
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

@@ -1,0 +1,51 @@
+<!--
+title:        MacBook Pro A2289 Not turning on, 0A at 20V
+pageid:       2794
+revid:        5458
+source:       https://repair.wiki/w/MacBook_Pro_A2289_Not_turning_on,_0A_at_20V
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2289_Not_turning_on,_0A_at_20V&action=history
+permalink:    https://repair.wiki/index.php?oldid=5458
+last_edited:  2025-01-08T13:18:20Z
+contributors: Reformatt
+anonymous_edits: 0
+categories:   Repair guide, Stubs
+sha1:         d4809dc1df390ced92f76a7807fff9ee253bb4e7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=
+|Affects parts=
+|Needs equipment=
+|Type=
+|Difficulty=
+}}
+== Problem description ==
+<!-- 
+Dead
+ -->
+
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Negotiates to 20V, draws no current, not booting 
+-->
+* Symptom 1 (Figure 1)
+* Symptom 2
+
+== Solution ==
+<!-- 
+Board examination showed some liquid damage on the keyboard facing side directly under the T2 chip. PP1V8_AWAKE was shorted to ground due to some corroded caps (C4522, C4526, C4523, C4535). Also replaced C4411 (PP0V9_SLPDDR) - note this rail measures very low at around 35 ohms or so and does not indicate a fault. C4526/C4411 are a 9.1uF feed through capacitor (Murata NFM15PC915D0E3D). You can steal them off a 820-1700 donor board.
+
+Be careful in this area as the T2 is directly on the opposite side of the board, don't know if it's underfilled or not as it's hidden under a metal shield. So I used low melt and an iron to get these caps off first before reworking with a lower melting point solder. This board did start to boot on the bench, but would then power off. Only booted when put back in the chassis with everything connected.
+
+-->
+
+
+
+=== Diagnostic Steps ===
+=== Repair Steps ===

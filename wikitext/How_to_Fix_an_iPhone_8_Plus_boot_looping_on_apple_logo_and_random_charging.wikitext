@@ -1,0 +1,55 @@
+<!--
+title:        How to Fix an iPhone 8 Plus boot looping on apple logo and random charging
+pageid:       7703
+revid:        11470
+source:       https://repair.wiki/w/How_to_Fix_an_iPhone_8_Plus_boot_looping_on_apple_logo_and_random_charging
+history:      https://repair.wiki/index.php?title=How_to_Fix_an_iPhone_8_Plus_boot_looping_on_apple_logo_and_random_charging&action=history
+permalink:    https://repair.wiki/index.php?oldid=11470
+last_edited:  2025-09-08T22:27:19Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 8, Repair guides for iPhone 8 Plus
+sha1:         d694666e5f0da5c7541f5c5c518089323e2f755b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 8 Plus, iPhone 8|Difficulty=3. Hard|Affects parts=Main Logic Board, Front Camera, Charging Port Flex|Type=Soldering, Part Replacement}}
+
+== Problem description ==
+Device stuck on Apple logo loop. Boots sometimes but not stable. Charging is inconsistent – sometimes charges, sometimes doesn’t.
+[[File:Iphone 8 series usb ic.png|thumb|Figure 1 - iPhone 8 / 8 Plus USB (Hydra) IC]]
+
+== Symptoms ==
+
+* Apple logo loop, device fails to boot reliably.
+* Random charging behavior.
+* New battery tested, no change.
+* On DCPS: current draw jumps directly to 0.200A when prompting to boot.
+* Not charging consistently even with known good cables.
+* Hydra IC shows heating on thermal inspection.
+[[File:Iphone 8 series front camera.png|thumb|Figure 2 - iPhone 8 / 8 Plus Front Camera]]
+
+== Diagnostic Steps ==
+
+# Visual Inspection
+#* Check for corrosion or damage around Hydra IC, Tristar, and battery connector.
+# DCPS Analysis
+#* Normal preboot sequence should ramp (0.020A → 0.080A → 0.200A).
+#* Direct jump to 0.200A suggests fault in Hydra/Tristar/PMIC path.
+# Parts Swapping
+#* Battery replaced → no effect.
+#* Test with known good charging port flex.
+#* Test with known good Front facing camera.
+# Thermal Check
+#* Hydra IC heating indicates abnormal activity.
+[[File:8PlusChargePort.png|thumb|Figure 3 - iPhone 8 / 8 Plus Charge Port]]
+
+== Repair Steps ==
+
+# Replace/test charging port flex.
+# Replace/test Front facing camera.
+# If issue persists → replace Hydra IC.
+# Test device boot and charging behavior on DCPS (expect proper ramping).
+# Confirm final: stable boot, consistent charging, normal thermal profile.

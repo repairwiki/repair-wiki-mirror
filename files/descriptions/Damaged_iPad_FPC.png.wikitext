@@ -1,0 +1,18 @@
+<!--
+title:        File:Damaged iPad FPC.png
+pageid:       6487
+revid:        9843
+source:       https://repair.wiki/w/File:Damaged_iPad_FPC.png
+history:      https://repair.wiki/index.php?title=File:Damaged_iPad_FPC.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9843
+last_edited:  2025-08-03T19:56:09Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         07561ecc3d2e3552fa330d21a8586767a24f00e3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Damaged iPad FPC

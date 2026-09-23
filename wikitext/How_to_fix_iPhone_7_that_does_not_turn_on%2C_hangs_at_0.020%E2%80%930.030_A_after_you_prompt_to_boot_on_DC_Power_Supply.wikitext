@@ -1,0 +1,52 @@
+<!--
+title:        How to fix iPhone 7 that does not turn on, hangs at 0.020–0.030 A after you prompt to boot on DC Power Supply
+pageid:       785
+revid:        1802
+source:       https://repair.wiki/w/How_to_fix_iPhone_7_that_does_not_turn_on,_hangs_at_0.020%E2%80%930.030_A_after_you_prompt_to_boot_on_DC_Power_Supply
+history:      https://repair.wiki/index.php?title=How_to_fix_iPhone_7_that_does_not_turn_on,_hangs_at_0.020%E2%80%930.030_A_after_you_prompt_to_boot_on_DC_Power_Supply&action=history
+permalink:    https://repair.wiki/index.php?oldid=1802
+last_edited:  2024-01-09T18:08:02Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone 7, Repair guides for IPhone 7 Plus, Stubs
+sha1:         aed6a13dbbf1f1eef8e0e56d5a63ea5e01d2c50c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone 7, IPhone 7 Plus
+|Affects parts=Motherboard
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Fixing an issue where the iPhone 7 would not turn on, pulls around 20-30 mA from the DC power supply.
+[[File:Ip7Coils.jpg|thumb|Example of an iPhone 7 with broken coils above CPU (Figure 1)]]
+
+==Symptoms==
+
+* No Power/Doesn't boot. Just dead.
+* Cannot get into DFU mode.
+* When the board is connected to a DC power supply
+** You get 0 A draw before prompt to boot
+** When you prompt to boot, it jumps up to 20–40 mA and just hangs at that value. No fluctuation
+
+==Solution==
+
+* Clean underfill above CPU
+* Clear out all underfill around L1801, L1804 and L3302
+* Poke those coils and see if they break off
+* If any of the three break, replace the coils that broke off.
+* Coil values
+** L1801 — 1 μH, 2.1 A, 0.12 Ω
+** L1804 — 1 μH, 2.1 A, 0.12 Ω
+** L3302 — 1.2 μH, 3.0 A, 0.080 Ω
+
+'''Please Note:''' You cannot check for these coils if they're loose by poking them with the underfill still there. You MUST clear it all out around these coils and then poke them to see if they break off.
+
+Also, these are pressed up right against the CPU, so be careful with your hot air, because you can accidentally "float" the CPU and cause a more significant failure.

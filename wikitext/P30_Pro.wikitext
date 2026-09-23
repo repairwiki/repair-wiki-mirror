@@ -1,0 +1,53 @@
+<!--
+title:        P30 Pro
+pageid:       861
+revid:        10343
+source:       https://repair.wiki/w/P30_Pro
+history:      https://repair.wiki/index.php?title=P30_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=10343
+last_edited:  2025-08-16T23:20:09Z
+contributors: ASRepairs, Tiago199988, Petritsahiti
+anonymous_edits: 0
+categories:   Device, Huawei, Huawei Phones, Phones, Stubs
+sha1:         162c9631d80da074f693de860f657bd2663cdbd1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Huawei
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:P30pro-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:2025 05 17 15 58 IMG 0913.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+File:2025 05 17 16 10 IMG 0915.JPG|Charging port
+File:2025 05 17 16 12 IMG 0917.JPG|Batery fpc
+File:2025 05 17 16 12 IMG 0918.JPG|Charging port fpc
+File:2025 05 17 16 13 IMG 0921.JPG|alt=|Telescope camera
+File:2025 05 17 16 13 IMG 0920.JPG|alt=|Display fpc 
+File:2025 05 17 16 18 IMG 0923.JPG|alt=|Main camera
+File:2025 05 17 16 18 IMG 0936.JPG|alt=|Main camera
+File:2025 05 17 16 19 IMG 0925.JPG|alt=|Main camera
+File:2025 05 17 16 19 IMG 0926.JPG|alt=|Selfie
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

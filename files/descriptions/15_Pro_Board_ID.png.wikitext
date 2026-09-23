@@ -1,0 +1,21 @@
+<!--
+title:        File:15 Pro Board ID.png
+pageid:       2797
+revid:        5465
+source:       https://repair.wiki/w/File:15_Pro_Board_ID.png
+history:      https://repair.wiki/index.php?title=File:15_Pro_Board_ID.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5465
+last_edited:  2025-01-13T07:13:21Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         1141f8fbb2ffe2ae1382fda6422e56dc1206caaa
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 15 Pro & 15 Pro Max - Board ID Resistor is R0812
+
+iPhone 15 Pro: 1M Ohm Resistor
+iPhone 15 Pro Max: 1K Ohm Resistor

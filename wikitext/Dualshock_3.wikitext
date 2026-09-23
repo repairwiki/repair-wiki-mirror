@@ -1,0 +1,43 @@
+<!--
+title:        Dualshock 3
+pageid:       2303
+revid:        4716
+source:       https://repair.wiki/w/Dualshock_3
+history:      https://repair.wiki/index.php?title=Dualshock_3&action=history
+permalink:    https://repair.wiki/index.php?oldid=4716
+last_edited:  2024-08-28T21:55:14Z
+contributors: Jamesbuckwas
+anonymous_edits: 0
+categories:   Device, Sony, Sony Video Game Controllers, Stubs, Video Game Controllers
+sha1:         955eabf0a43a2802e84b411f5b86db03d9e704a8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Sony|Device release date=April 15, 2008|Device type=Video Game Controller|Has code name=CECHZC2U}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

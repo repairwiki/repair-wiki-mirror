@@ -1,0 +1,36 @@
+<!--
+title:        How To Turn On iPhone 14 to 16 Plus lower layer
+pageid:       7361
+revid:        10938
+source:       https://repair.wiki/w/How_To_Turn_On_iPhone_14_to_16_Plus_lower_layer
+history:      https://repair.wiki/index.php?title=How_To_Turn_On_iPhone_14_to_16_Plus_lower_layer&action=history
+permalink:    https://repair.wiki/index.php?oldid=10938
+last_edited:  2025-08-30T17:56:52Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 14, Repair guides for iPhone 14 Plus, Repair guides for iPhone 15, Repair guides for iPhone 15 Plus, Repair guides for iPhone 16, Repair guides for iPhone 16 Plus, Repair guides for iPhone 16e
+sha1:         c637246ef8d515f1ab6328590cf74c77a64be1a7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 14, iPhone 14 Plus, iPhone 15, iPhone 15 Plus, iPhone 16, iPhone 16 Plus, iPhone 16e|Affects parts=Logic Board|Difficulty=4. Specialist|Type=Soldering}}
+
+== Problem description ==
+On newer iPhone models (14/Plus and above), the logic board is made of two sandwiched layers (upper + lower) and the CPU is on the lower layer. When troubleshooting short circuits on VDD_MAIN or other lines, technicians often separate the board to isolate and repair the issue.
+
+However, after clearing the short, you may need to boot only the lower layer to confirm that the board is functional before reballing . Since the upper layer (with power button & interposer connection) is removed, you need a manual method to simulate power-on.
+
+== Syptoms ==
+
+* Device has a short on VDD_MAIN/VDD_BATT → board split to isolate.
+* After repairing the short, phone does not auto-boot on lower layer.
+* Need a way to trigger boot for testing.
+
+== Repair Steps ==
+
+# Power Setup  Connect 4.2V from DC Power Supply (DCPS) to:  Positive lead → VDD_MAIN/VDD_BATT pad on lower board. Negative lead → Ground pad.
+# Locate Power Button Pin Identify the Power Button pin on the interposer connector of the lower board.
+# Simulate Power Press Use tweezers to short the Power Button pin to Ground momentarily. This mimics pressing the physical button.
+# Confirm Boot current draw on DCPS: If phone enters OS, lower layer repair is successful.[[File:Iphone14 - plus board.png|center|thumb|iPhone 14 / Plus ]][[File:Iphone16-plus board.png|thumb|iPhone 16 / Plus]][[File:Iphone15-plus board.png|left|thumb|iPhone 15 / Plus ]]

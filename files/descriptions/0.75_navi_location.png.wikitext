@@ -1,0 +1,18 @@
+<!--
+title:        File:0.75 navi location.png
+pageid:       1688
+revid:        3696
+source:       https://repair.wiki/w/File:0.75_navi_location.png
+history:      https://repair.wiki/index.php?title=File:0.75_navi_location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3696
+last_edited:  2024-03-24T11:58:15Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         c1772fa14ce1f96981920c087692652f8673721e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+0.75 navi location

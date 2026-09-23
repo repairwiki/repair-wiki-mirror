@@ -1,0 +1,18 @@
+<!--
+title:        File:ALS Sticker.png
+pageid:       283
+revid:        729
+source:       https://repair.wiki/w/File:ALS_Sticker.png
+history:      https://repair.wiki/index.php?title=File:ALS_Sticker.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=729
+last_edited:  2023-11-05T22:18:26Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         c5627dbba74c99dfaaa5b24f53d590c507397541
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+ALS Sticker

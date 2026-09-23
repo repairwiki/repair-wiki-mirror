@@ -1,0 +1,192 @@
+---
+title: "Diodes - Repair Basics"
+pageid: 215
+revid: 14120
+kind: other
+source: "https://repair.wiki/w/Diodes_-_Repair_Basics"
+history: "https://repair.wiki/index.php?title=Diodes_-_Repair_Basics&action=history"
+permalink: "https://repair.wiki/index.php?oldid=14120"
+last_edited: "2026-02-26T15:06:23Z"
+contributors:
+  - "ASRepairs"
+  - "Phonograph Steve"
+anonymous_edits: 1
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for Diodes"
+  - "Missing device page"
+  - "Repair Basics"
+  - "Stubs"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Diodes - Repair Basics
+
+This article aims to provide a comprehensive overview of diodes from a repair perspective, detailing their function, types, common issues, testing methods, and replacement considerations.
+![Diode symbols commonly found in schematics (Figure 1)](images/5/57/Diode_schematic_symbols.jpg)
+
+## What is a Diode?
+A diode is a fundamental semiconductor device commonly found in electronic circuits. A diode has two terminals called Anode and Cathode, and its primary function is to allow the flow of electric current in one direction while blocking it in the opposite direction. This property makes diodes useful for rectifying alternating current (AC) into direct current (DC), protecting circuits from reverse voltage, and more.
+
+Diodes have different characteristics found in their datasheets, the most important value when measuring is the forward voltage drop in "Volts".
+
+Diodes are typically identified by the symbols shown in Figure 1 and are usually denoted with the letter D followed by an identifier number. (E.g., D38)
+
+## Glossary of Basic Diode Terminology
+The terminology listed here will be helpful in understanding this article as well as technical literature and discussions elsewhere:
+
+- **Anode:** The positive terminal of the diode.
+- **Cathode:** The negative terminal of the diode.
+- **Forward bias:** Refers to a voltage or current applied to the diode in the direction in which it would normally conduct (positive at anode, negative at cathode).
+- **Forward drop:** The voltage that appears across the diode when conducting under forward bias. This voltage is technically dependent on current but usually hovers around closely to a specific value for a large range of currents.
+- **Reverse bias:** usually refers to a voltage applied to a diode in the direction in which it would normally block current (positive at the cathode, negative at the anode). This term is often used to discuss diodes such as Zener and Varactor diodes which are operated in this manner.
+- **Reverse breakdown voltage:** A specification that can usually be found in a diode's datasheet. It refers to the reverse bias voltage at which a diode stops blocking current and starts conducting. For most diodes this is an unwanted situation that can destroy the diode, but for some, such as Zener, Avalanche and TVS diodes, it is their intended mode of operation and are designed to withstand it up to a specified amount of current.
+
+### Function
+Diodes serve various functions in electronic circuits, with the most common being:
+
+#### One Way Path
+The most basic function of a diode is to serve as a unidirectional pathway for the flow of electrical current. This is the basis for their use as rectifiers listed below.
+
+This check-valve like behavior lends them to be used a lot in things like charge pumps and power converters.
+
+Digital logic using diodes to allow current to flow in specific ways from an input to an output can also be made, and has been used historically, in which context it was called Diode Steering, using diodes to create AND and OR gates (it should be noted that NOT gates cannot be created with diodes, which makes it impossible to create a computer using only diodes).
+
+Diode-Transistor Logic is an obsolete family of logic ICs that used a combination of transistors and diode steering.
+
+#### Rectification
+Diodes are frequently used to convert AC voltage to DC voltage. They allow the current to flow during the positive half-cycle of the AC signal and block it during the negative half-cycle, effectively converting the signal to a unidirectional flow. Different arrangements of individual or multiple diodes exist to achieve this (such as the full bridge rectifier) each having various advantages and disadvantages.
+
+#### Voltage Regulation
+Various types of diodes are used (or can be used) as voltage references for voltage regulators, this is, generating a stable voltage of a specific value from an unstable or unregulated voltage source. This stabilized voltage is rarely used as a power source of it's own, rather it's used by an associated voltage regulator as a reference to control it's own output voltage.
+
+Diodes that are commonly used for such purposes include Zener diodes, which when reverse biased through a resistor,) they block current up to a very specific voltage, at which point they start conducting and loading down the associated resistor to maintain this voltage across the diode.
+
+Zener diodes have the disadvantage that they are not very stable and also produce a lot of electrical noise. Filter capacitors in parallel to them may be necessary in some applications.
+
+Regular diodes have a very stable and low noise voltage drop when forward biased (with voltage applied in the direction in which the diode would normally conduct). Because this voltage is rather low (typically 0.7 Volts for silicon diodes), strings of multiple diodes in series are used for higher quality voltage references, which are used with a series resistor not unlike Zener diodes.
+
+LEDs can also be used in this manner with the advantage of larger voltage drops per diode (2 to 3 volts) though it is uncommon practice, and mostly used by electronics hobbyists.
+
+#### Protection
+TVS and Zener diodes are often used to protect sensitive components from voltage spikes and reverse voltage by blocking or clamping excessive voltage levels, serving as surge protectors and fly-back diodes in relays and inductive loads.
+
+Normal diodes can also protect a circuit from being connected to a power source with the wrong polarity, by being wired either in series or in parallel (forward biased when in series to block reverse current, or reverse biased when in parallel to short out reverse voltage and blow an associated fuse.
+
+#### Photodetection
+Photodiodes are used to convert light into electrical signals, making them valuable in various applications, including optical communication, light sensors, and photovoltaic cells in solar panels.
+
+More specialized light-detecting diodes do exist, such as solid state photomultipliers.
+
+## Types
+![Some diode packages and types (Figure 2)](images/0/0e/Diode_types_packages.png)There are multiple types of diodes for different applications, and they also come in different physical cases (technically called *packages*) that are either SMD or THT. Different diodes can look identical but have different properties, and can only be precisely identified by their part number when available.
+Outlined below are several of the different types of diodes.
+![Full bridge rectifier diode in multiple packages + diagram (Figure 3)](images/0/06/Diode-bridge-rectifier.jpg)
+
+#### Regular/Rectifier Diodes
+Regular or rectifier diodes are **the most common type of diodes**. Mainly used for converting AC to DC. They come in various package types and sizes.
+
+If used to rectify mains AC to DC, you'll typically find 4 diodes in full bridge configuration in one package.
+
+#### Schottky Diodes
+Schottky diodes are known for their **fast switching speed and low forward voltage drop**. They are used in high-frequency applications and as rectifiers in power supplies.
+
+Their disadvantage is their higher leakage current when reverse biased.
+
+#### Zener Diodes
+Zener diodes are designed to maintain a constant voltage across their terminals when operated in the reverse-biased breakdown region. **This means Zener diodes are designed to conduct backwards at (and only at) a specific "Zener" voltage.**
+
+They are used for voltage regulation and are often labeled with their nominal voltage value.
+
+#### Light Emitting Diodes (LEDs)
+LEDs are a specialized type of diode that emits light when forward-biased. They are commonly used in displays, indicators, and lighting applications.
+
+They also see use as light emitters in some optical fiber media (TOSLINK for example) or otherwise for light-based communication (such as the infrared LEDs in remote controls)
+
+#### Transient Voltage Suppression Diodes (TVS)
+TVS diodes are specialized electronic components designed to protect sensitive electronic circuits from voltage spikes, transient over-voltages, and electrostatic discharge (ESD) events.
+
+They operate by quickly diverting excess voltage away from the circuit they are safeguarding, preventing damage to components.
+
+Internally, they are especially built Zener diodes, or arrangements of Shottky and Zener diodes.
+
+#### Varactor Diodes
+Varactor diodes, also known as varicap diodes, are used in tuning and frequency modulation applications due to their ability to change capacitance with a varying reverse bias voltage. Once common in television and radio tuners, they are rarely used as a discrete component in consumer electronics today.
+
+#### Photo-diodes
+Photodiodes are light-sensitive diodes that produce a current in response to incident light. They are used in light detection and optical communication systems.
+
+### Historical Types
+These are some types of obsolete or no longer common diodes that may be found in older electronics:
+
+#### Crystal Detectors
+Primitive diodes made from natural semiconductor minerals such as galena or pyrite, and were used as demodulators ("detectors") in early radio receivers such as crystal radios. Many variants exist such as the popular "Cat's whisker" detector, and the commercially sold Perikon detector. These were often made by hand by hobbyists.
+
+#### Vacuum Diode / Vacuum Rectifier
+A diode that is not semiconductor based, consist of a hollow envelope (usually a glass bulb) that has been pumped to a very pure vacuum (it's a type of vacuum tube).
+
+The anode is a metal plate inside the tube, which catches free flying electrons emitted by a cathode which is heated red hot by a filament (and sometimes the filament itself is the cathode). The electrons are released from the cathode by thermionic emission (this is, electrons are released from hot metal surfaces), and current can only flow in one direction because the anode is kept cold and thus cannot emit electrons.
+
+These diodes were also used as detectors in radio circuits, and high power versions were used as rectifiers in many applications including consumer electronics up to the 1960's approximately.
+
+#### Copper Oxide Rectifier
+An early type of solid state rectifier which used a layer of oxide grown on copper plates as its semiconductor. Because they can only withstand a few volts in reverse bias, several plates are usually stacked, giving the whole unit a heatsink-like appearance.
+
+The stacks of plates are usually held together with a threaded rod passing through the whole stack, and insulated. Often a whole full bridge or half bridge rectifier would be built into a single stack of plates.
+
+#### Selenium Rectifier
+Similar to the copper oxide rectifier and can be considered it's successor. They were composed of steel plates with a layer of selenium on one side, which upon deposition was doped to form a PN junction. They were likewise often constructed by stacking plates on threaded rods.
+
+Because they could be made large relatively cheaply, they remained in use for a long time, especially in high current applications such as battery chargers.
+
+High voltage, low current selenium rectifiers were used in the flybacks of CRT TVs for some time, which in appearance resembled very long ceramic fuses.
+
+When repairing old equipment, selenium rectifiers are typically replaced with silicon diodes regardless of their condition, given that their failure mode is them burning up and releasing a cloud of toxic smoke with an unbearably intense fart-like smell. Their higher forward drop voltage should be considered when replacing them like so, with each plate in the stack dropping approximately 1 V.
+
+#### Tunnel Diode
+An unusual device which uses the effect of Quantum Tunneling to produce a diode with a region of negative differential resistance (within this region, an increase in voltage across the diode leads to a drop in current). This allowed them to be used as very high speed bi-stable devices, oscillators and amplifiers. Their use was limited mostly to electronic-scientific instruments and military gear, and they have almost completely been discontinued today.
+
+Large surpluses of ex-soviet tunnel diodes are available however, mostly from vendors in eastern Europe.![Measuring a Diode (Figure 4)](images/8/87/Diode_measurement.jpg)
+
+## Testing a Diode
+  - Make sure the diode does not have any physical damage such as liquid damage/corrosion first! That's the quickest way of identifying a faulty diode.**
+
+Testing a diode can help determine if it is functioning correctly. Most diodes can be tested using a digital multimeter in diode test mode. It's best to test the diode **outside the circuit**.
+
+### Regular / Schottky / Zener / LED
+1. Identify the anode and cathode terminals of the diode. The cathode is typically marked with a band or line on the diode's body.
+1. Set your multimeter to the diode test mode (usually indicated by a diode symbol).
+1. Place the red probe on the anode and the black probe on the cathode.
+1. The multimeter should display a voltage drop reading (around 0.2 to 0.7 V for silicon diodes). If it shows "OL" or less than 0.2, the diode is likely faulty.
+1. **Polarity is a concern**. If the diode has a reading when the probes are flipped that means the diode is faulty
+
+These considerations should be taken:
+
+- Diodes usually either fail in a **fully open or fully shorted state**. Rarely, the diode is damaged in such way that the voltage drop across it is outside the range. Other failure/degradation modes include lowered reverse breakdown voltage, increased resistance (which causes the diode to potentially overheat and waste power), and reverse leakage current, which makes the diode behave like a resistor when reverse biased but below breakdown voltage.
+- You can test the diode in-circuit, but keep in mind that other components in the circuit may affect the measurement, though this only lowers the reading of the forward drop voltage (assuming the diode isn't being energized from elsewhere, such as a battery in circuit), or making the diode read as shorted or leaky.
+- Many meters won't be able to get a reading on most LEDs, as these meters max out at 1 or 2 volts, which is below the forward voltage drop of most visible light LEDs.
+- Measuring a full bridge rectifier diode package is the same as measuring 4 regular diodes.
+
+### Identifying a Zener diode's Zener voltage
+1. Remove the diode from the circuit.
+1. Solder a 1 Kilo Ohm resistor in series with the Zener diode, connecting it to the anode terminal, for example.
+1. Using a Lab-Bench Power Supply, connect the positive terminal to the cathode of the diode and the negative terminal to the other end of the resistor (ie, reverse biased).
+1. Place your multimeter in DC voltage mode and connect its probes across the diode.
+1. Gradually increase the power supply voltage until the reading on your multimeter no longer rises.
+1. The voltage at which the multimeter reading plateaus represents the Zener voltage for this diode.
+Note that Zener diodes of voltages higher than typical lab bench supplies do exist though they are uncommon.
+
+## Replacement Considerations
+When replacing a diode, always read the datasheets and pay attention to the following parameters:
+
+1. **Type:** Ensure the replacement diode is of the same type and has similar electrical characteristics as the faulty diode.
+1. **Forward Voltage:** Match the forward voltage rating closely to the original diode. Using a diode with a significantly different forward voltage may affect circuit performance.
+1. **Reverse Voltage (Zener):** Pay attention to the reverse voltage rating. That's the most important parameter for Zener diodes.
+1. **Power Rating:** Match or exceed the power rating of the replacement diode with the original diode.
+1. **Package Type:** Choose a replacement diode with a compatible package type and size. Different packages have different mounting and pin configurations. If space is not a concern, you can use any size as it won't affect the circuit behavior.
+1. **Reverse Recovery Time:** In high-frequency applications, the reverse recovery time of the diode is crucial. Ensure the replacement diode has a similar or faster reverse recovery time.
+
+Replacing a diode with the wrong specifications can lead to circuit malfunctions or failure, so it's essential to choose a replacement carefully.

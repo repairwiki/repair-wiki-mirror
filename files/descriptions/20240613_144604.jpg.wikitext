@@ -1,0 +1,17 @@
+<!--
+title:        File:20240613 144604.jpg
+pageid:       1893
+revid:        4081
+source:       https://repair.wiki/w/File:20240613_144604.jpg
+history:      https://repair.wiki/index.php?title=File:20240613_144604.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4081
+last_edited:  2024-06-13T18:18:04Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

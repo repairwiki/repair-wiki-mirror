@@ -1,0 +1,52 @@
+<!--
+title:        VLT 131B0052
+pageid:       1738
+revid:        3885
+source:       https://repair.wiki/w/VLT_131B0052
+history:      https://repair.wiki/index.php?title=VLT_131B0052&action=history
+permalink:    https://repair.wiki/index.php?oldid=3885
+last_edited:  2024-05-27T13:58:05Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Danfoss, Danfoss Industrial Devices, Device, Industrial Devices
+sha1:         a64d0d4aedf6ae89bbfa2089206ec8466978bb76
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Danfoss
+|Has code name=Fc-302p7k5t5e20h1bg
+|Device type=Industrial Device
+}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240527 123257.jpg
+File:20240527 123307.jpg
+File:20240527 123245.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240527 125121.jpg
+File:20240527 125220.jpg
+File:20240527 125155.jpg
+File:20240527 125128.jpg
+File:20240527 125147.jpg
+File:20240527 125516.jpg
+File:20240527 125529.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:20240527 132327.jpg
+</gallery>
+
+==More Information/External Sources==
+[https://files.danfoss.com/download/Drives/M0013101_VLT_AutomationDrive_FC_301_302_AU275636650261en_000101.pdf Manual link]

@@ -1,0 +1,18 @@
+<!--
+title:        File:Iphone air interposer board.png
+pageid:       8645
+revid:        12572
+source:       https://repair.wiki/w/File:Iphone_air_interposer_board.png
+history:      https://repair.wiki/index.php?title=File:Iphone_air_interposer_board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12572
+last_edited:  2025-11-03T15:57:21Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         a5c0371c06f57bb7a38e60ce3c2fe8876237aad0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Iphone air interposer board

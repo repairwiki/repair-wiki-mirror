@@ -1,0 +1,21 @@
+<!--
+title:        File:Links-pc.png
+pageid:       1800
+revid:        3958
+source:       https://repair.wiki/w/File:Links-pc.png
+history:      https://repair.wiki/index.php?title=File:Links-pc.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3958
+last_edited:  2024-06-01T11:12:57Z
+contributors: Admin
+anonymous_edits: 0
+categories:   
+sha1:         a7443277604a0d2599ae693832da0064df16fa70
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+From https://www.pexels.com/photo/silver-imac-apple-magic-keyboard-and-magic-mouse-on-wooden-table-38568/.
+
+Licensed under https://www.pexels.com/license/.

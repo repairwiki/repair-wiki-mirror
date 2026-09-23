@@ -1,0 +1,52 @@
+<!--
+title:        MacBook Pro A2289 not booting, 20V at 0A current draw
+pageid:       2796
+revid:        5462
+source:       https://repair.wiki/w/MacBook_Pro_A2289_not_booting,_20V_at_0A_current_draw
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2289_not_booting,_20V_at_0A_current_draw&action=history
+permalink:    https://repair.wiki/index.php?oldid=5462
+last_edited:  2025-01-09T03:49:05Z
+contributors: Reformatt
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A2289, Stubs
+sha1:         53cae4c3003b6f06b8fb7f8fe5d3dfb88e25a370
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A2289
+|Affects parts=Motherboard
+|Needs equipment=Soldering iron, hot air station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Appears to be dead, not booting
+ -->
+
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+All USB-C ports negotiate to 20V, but 0A current draw. No response from power button. 
+-->
+* Symptom 1 (Figure 1)
+* Symptom 2
+
+== Solution ==
+<!-- 
+PP1V8_AWAKE shorted to ground due to liquid damage around C4522 and C4526. Replaced these and others corroded components in this area. C4526 is a 9.1uF pass through cap so can sourced off a donor 820-1700 board or Digikey/Mouser (Murata NFM15PC915D0E3)
+
+-->
+
+
+
+=== Diagnostic Steps ===
+
+
+=== Repair Steps ===

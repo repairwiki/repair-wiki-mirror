@@ -1,0 +1,84 @@
+---
+title: "Air International WK 8 Way Memory Seat Controller works briefly when replaced but quickly stops working"
+pageid: 2164
+revid: 4502
+kind: other
+source: "https://repair.wiki/w/Air_International_WK_8_Way_Memory_Seat_Controller_works_briefly_when_replaced_but_quickly_stops_working"
+history: "https://repair.wiki/index.php?title=Air_International_WK_8_Way_Memory_Seat_Controller_works_briefly_when_replaced_but_quickly_stops_working&action=history"
+permalink: "https://repair.wiki/index.php?oldid=4502"
+last_edited: "2024-07-25T08:22:28Z"
+contributors:
+  - "XTA"
+anonymous_edits: 0
+categories:
+  - "Missing device page"
+  - "Repair guide"
+  - "Repair guides for 8 Way Power Seat Memory Controller from a 2003 - 2007 Holden Commodore VY Series 2 Calais or VZ Calais"
+  - "Repair guides for HSV ClubSport VY Series 2 & VZ 2003 - 2007. HSV Senator Series 2 VY - VZ 2003 - 2007"
+  - "Repair guides for Holden Commodore SS VY Series 2 and VZ 2003-2007"
+  - "Repair guides for Holden Statesman 2004-2007"
+  - "Repair guides for Holden Statesman WK 2003-2004"
+  - "Stubs"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Air International WK 8 Way Memory Seat Controller works briefly when replaced but quickly stops working
+
+## Problem description
+Driver power seat works perfectly okay for 1 to 5 minutes after module is replaced however shortly there after the seat stops working.
+
+![Air International 4004167 Module.jpg](images/a/a2/Air_International_4004167_Module.jpg)
+
+## Symptoms
+- Seat is being supplied both ignition and 12v but doesn't move
+- Seat works very briefly before failing again
+- Module lets out the magic smoke shortly after seat is tested and working
+
+## Solution
+This problem is a pretty annoying problem with a not so simple solution as it can appear in many different ways. As these seat modules are very rare and expensive ($300+ AUD), it's always better to repair the module then to replace it.
+
+This issue can appear for a number of reasons
+
+- Faulty seat rail wiring
+
+- Faulty body loom
+
+- Faulty custom wiring when the seats are installed to lower end models that do not come with these seats from factory
+
+Repairing this problem requires 2 repairs, first the repair of the module and then the repair of the wiring in your car. In my case this was caused by faulty wiring on my power seat rail. This problem is a symptom of a bigger problem!
+
+### Diagnostic Steps
+This issue presents itself very quickly. Within the module it's almost always the same fault.
+
+To diagnose the issue within your car itself, I'd highly recommend attempting to swap the seat rail, this is a pretty big job but is the most likely cause of your issue. If you are running custom wiring check or redo the wiring. Insure your ignition power source is actually an ignition power source. If these do not solve the issue you may need to use an oscilloscope to test your ignition source to see if it's spiking in voltage.
+### Repair Steps
+Okay so as mentioned this problem is a nightmare. The module even being considered a hard repair is a walk in the park compared to figuring out where this problem is coming from in your car. If you notice smoke coming out from under the drivers seat and have disconnected the car's battery, you need to remove the drivers seat (4x 16mm bolts) this can be an absolute pain depending on what position the seat is in. Make **sure** the car's battery is disconnected during this process as you will need to remove the airbag and seatbelt pretensioner wires which will cause warnings to appear on the dash if the battery is connected while the seat isn't. You do not need to take the seat out of the car (yet). Flip the seat up so you can see the underside and remove the 2 Phillips screws and 5 connectors securing the module to the seat. Now disconnect the seat power wire (the big white plug but in some models is a big blue plug). You can now reinstall the seat without the module or power running to the seat and plug only the brown (airbag) and yellow (seatbelt pretensioner) wires, reconnect your battery and the seat will not blow smoke out of it. **PLEASE NOTE!!** In NSW (and many other states in Australia) your car will **NOT** pass it's yearly pink slip / safety inspection with a non-moveable driver seat (These seats are fully electronic and have no ability to be moved manually), In an accident your insurance may not cover you if you have removed this module. I highly recommend you do NOT drive your car in this state on public roads and only use this advice to move your car around on private property and for testing purposes!
+
+The repair on the module is very simple thankfully. Normally in this case the BTS462TAKSA1 N channel MOSFET (Technically a "PROFET") on Q19 eats the short and is why the module sometimes blows smoke out of the bottom and almost always smells burnt. This is thankfully very easy to replace.
+
+You will need to source a new BTS462TAKSA1 which are pretty readily available on eBay, AliExpress, Mouser and other online retailers and are very cheap in comparison to replacing the module, source multiple incase you have to replace this again during testing after attempting to repair your cars wiring. You will need a T10 screw driver to remove the 4 screws screwing the PCB to the plastic housing.
+
+  - 1.) Remove the Component**
+
+Tin the legs of the component with leaded solder, apply some flux and using a hot air rework station apply around ~350-400°C and remove the component (it's on a big ground plane). In some cases this MOSFET can almost weld itself to the ground pad if it was allowed to burn up over a long period of time before being detected. In this case you may have to scratch into the ground elsewhere on the PCB to fully reconnect this MOSFET.
+
+  - 2.) Replace the Component**
+
+Wick the old solder from the pads, using flux apply some fresh leaded solder. Using around 350°C of hot air, solder on the new MOSFET.
+
+  - 3.) Check the surrounding area's**
+
+Inspect the PCB closely and ensure no other damage. In my experience with the 2 modules I have repaired this was the only issue.
+
+  - Onto the car side of things.**
+
+Ideally replace your car's driver seat rail, this is probably were 95% of these issues occur. In a desperate situation, you can use a lower end seat in your car by making your own adaptor to steal 12v from the passenger seat and share it with a lower end drivers seat. You will need to create a loom long enough to reach your drivers side from the passenger side seat connector. You will need 2 packs of Item No. 120300 2 Way connectors available from Supercheap Auto, a crimping tool and a soldering iron. You need 2 wires positive and negative on the drivers side you will crimp a male connector to connect to the lower end seat, on the passenger side you will need 2 ends per wire, one to crimp a male connector to reconnect the passenger seat and one female connector to connect both seats to the power connector on the passenger side floor. This will allow you to install a lower end seat while you hunt down a new seat rail.
+
+In this situation I HIGHLY recommend you do **NOT** bypass this module, as clearly you have a short that is being stopped via the MOSFET, Shorting out the seat motors could cause a fire.
+
+Do NOT attempt to repair this yourself if you are not confident in your ability to work on electronics and wiring. Please be safe attempting this repair as this isn't a little amount of power like a MacBook logic board where you could give yourself a little tingle, you could seriously hurt yourself if you are not careful. Always have someone on stand-by to disconnect the battery.
+
+This guide was created by [https://repair.wiki/w/User:XTA XTA] , If you need any help with this repair feel free to contact me! If you have any sort of information about this module I would love to hear it!

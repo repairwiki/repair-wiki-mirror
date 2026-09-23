@@ -1,0 +1,18 @@
+<!--
+title:        File:PS4WeeToolsGoodNORDump.png
+pageid:       1044
+revid:        2422
+source:       https://repair.wiki/w/File:PS4WeeToolsGoodNORDump.png
+history:      https://repair.wiki/index.php?title=File:PS4WeeToolsGoodNORDump.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=2422
+last_edited:  2024-01-14T11:02:14Z
+contributors: Rara64
+anonymous_edits: 0
+categories:   
+sha1:         2d166f26800223bd3d6cf334c1fb2f1f8a967e59
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Example of good NOR chip dumps in the PS4 Wee Tools.

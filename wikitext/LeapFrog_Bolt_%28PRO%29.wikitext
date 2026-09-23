@@ -1,0 +1,44 @@
+<!--
+title:        LeapFrog Bolt (PRO)
+pageid:       3023
+revid:        5706
+source:       https://repair.wiki/w/LeapFrog_Bolt_(PRO)
+history:      https://repair.wiki/index.php?title=LeapFrog_Bolt_(PRO)&action=history
+permalink:    https://repair.wiki/index.php?oldid=5706
+last_edited:  2025-02-19T10:12:52Z
+contributors: WizardLord
+anonymous_edits: 0
+categories:   Device, IDEX 3D printers, LeapFrog B.V., LeapFrog B.V. IDEX 3D printers, Stubs
+sha1:         4aac566e1545ffbbf8a52a1e58acc2301a3e7a11
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+This is an industrial 3D printer made by LeapFrog in 2016. With the PRO version coming out in 2017. The pro version features HIWIN linear rails while the standard version uses rods. This printer runs a Raspberry PI 3 with an modified version of OctoPrint. The mainboard uses Marlin. Since this printer uses an HDMI screen and a pi 3 it's perfect for klipperisation. I included some pictures to help with the config.{{Device page
+|Manufacturer=LeapFrog B.V.|Device release date=2016, 2017|Device type=IDEX 3D printer}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:WhatsApp Image 2025-02-19 at 10.59.21.jpeg|To put klipper firmware on this board, this pin configuration can be used to make it work
+File:CBVrgkrU8XbqYyuzJ1CJzY2f9PjW8YqChQ.png|Picture of the main board from lpfrg.com
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

@@ -1,0 +1,19 @@
+<!--
+title:        File:Redmi Note 8 Pro - Known Good Mechanic USB C Readings.jpg
+pageid:       3819
+revid:        6673
+source:       https://repair.wiki/w/File:Redmi_Note_8_Pro_-_Known_Good_Mechanic_USB_C_Readings.jpg
+history:      https://repair.wiki/index.php?title=File:Redmi_Note_8_Pro_-_Known_Good_Mechanic_USB_C_Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6673
+last_edited:  2025-05-14T15:51:52Z
+contributors: DentsasPanos
+anonymous_edits: 0
+categories:   
+sha1:         af9e9276a6209cc53331c3a896558b3017c5e922
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Redmi Note 8 Pro - Known Good Mechanic USB C Readings

@@ -1,0 +1,92 @@
+---
+title: "Transformers - Repair Basics"
+pageid: 2977
+revid: 5653
+kind: explanatory_guide
+source: "https://repair.wiki/w/Transformers_-_Repair_Basics"
+history: "https://repair.wiki/index.php?title=Transformers_-_Repair_Basics&action=history"
+permalink: "https://repair.wiki/index.php?oldid=5653"
+last_edited: "2025-02-06T13:45:57Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for Transformers"
+  - "Missing device page"
+  - "Repair Basics"
+  - "Stubs"
+infobox:
+  Device: "Transformers"
+  Type: "Component"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Transformers - Repair Basics
+
+This article aims to provide a comprehensive overview of transformers from a repair perspective, detailing their function, types, common issues, testing methods, and replacement considerations.
+
+![Schematic diagram of transformers (Figure 1)](images/8/86/Transformer_schematic_diagram.png)
+
+## What is a Transformer?
+A transformer is an electrical component that **transfers electrical energy between two or more circuits through electromagnetic induction (without being connected together!)**. They are widely used in power supplies, audio equipment, and many other electronic and electrical applications to modify voltage and current levels.
+
+Transformers are typically identified by the symbols shown in Figure 1 and are usually denoted with the letters T1, T2 or TR1, TR2 etc., on circuit schematics.
+
+The most basic way to think of a transformer is that it is an [inductor](Inductors_-_Repair_Basics.md) with more than one winding where alternating current in one winding induces alternating current on the other winding(s).
+
+### Function
+Transformers serve various functions in electrical circuits, including (but not limited to):
+
+#### Voltage Conversion
+Transformers step up or step down AC voltages depending on the turn ratio between the primary and secondary windings. This is one of the most basic way to step up or down voltage. It is used on almost all AC-DC power supplies which require isolation from the AC power lines and the converted DC voltage.
+
+#### Isolation
+Many transformers provide galvanic isolation between circuits by preventing direct electrical connection while allowing energy transfer. This property is crucial when different voltage sources and levels are needed but with different reference levels (grounds).
+
+#### Current Sensing
+Current sensing using a transformer is a widely used technique in power electronics, electrical protection, and measurement applications. A **current transformer** is a special type of transformer designed to measure alternating current (AC) by producing a scaled-down replica of the primary current.
+
+## Types
+![Various transformer types and packages (Figure 2)](images/8/82/Transformer_types.jpg)Transformers come in various types and shapes but they mostly only differ in size, number of windings and, and core type.
+
+### Power Transformers
+Used in electrical power distribution, power transformers step voltages up or down in power grids and power supplies. They are built to handle high currents and operate at high efficiency.
+
+### Isolation Transformers
+These transformers provide electrical isolation between the primary and secondary windings, they are the most common and are used in almost all power supplies powered by mains AC voltage.
+
+### Autotransformers
+Unlike conventional transformers with separate primary and secondary windings, autotransformers use a single winding with taps at different points. They do not provide galvanic isolation.
+
+### Audio Transformers
+Designed specifically for audio applications, these transformers match impedance and isolate signals to ensure clarity and minimal distortion in audio circuits (not widely used anymore).
+
+## Testing a Transformer
+  - Before performing any tests, always inspect the transformer for visible damage such as burn marks, insulation breakdown, or deformations.**
+
+Common issues include shorted windings, open circuits, or degraded insulation. Mostly due to overcurrent, overheating and or age.
+
+### Continuity, Resistance, and Inductance Testing
+You typically only need to verify if the transformer is damaged if you've already made sure every other component in the circuit is functioning. Transformers rarely fail if the circuit is properly designed and just with inductors, a failed transformer is usually a symptom not the cause. In any case, to test if the transformer is working, do the following:
+- **Desolder the transformer:** It is hard to measure the transformer in circuit unless it is blown open so it is best if you take it out for measurement.
+- **Identify the windings:** Determine the primary and secondary winding terminals as per the schematic or labeling.
+- **Measure continuity:** Use the multimeter’s continuity setting to check that each winding is electrically continuous. An open circuit in a winding indicates a cut in the winding wire.
+- **Resistance Measurement:** Measure the DC resistance of both the primary and secondary windings. Extremely low resistance may indicate a shorted winding, while abnormally high resistance could suggest internal breaks or degraded connections.
+  - It is really hard to measure the "low" resistance of the winding unless you have a reference transformer. A better way it to use an LCR meter and measure the inductance of each winding if you can find the reference datasheet.
+
+## Replacement Considerations
+In 9/10 cases, you can not directly buy a replacement transformer unless you get it from a donor board/device. Further more, they are usually chosen and designed specifically for this circuit which makes it hard to standardize and substitute. If it is a standard transformer, make sure their specs match.
+
+The main way to "replace" a transformer is by rewiring the faulty winding if identified.
+
+- Open the transformer up, usually the core is split in two sides and joined with glue. Try not to break it as that can degrade performance.
+- Unwind each winding individually while keeping track of the number of turns and the order of the windings **this is really important!**
+- If the insulation is not damaged, it can be reused
+- Measure the diameter of the faulty winding (or all of them if you need to replace all windings) core and use the same diameter **enameled** core wire to replace it
+- Create identical number of turns on the core in the same order as before and glue it back to place
+
+This usually is the only way to replace the transformer. **Be careful as incorrect turn ratio can damage the circuits!**

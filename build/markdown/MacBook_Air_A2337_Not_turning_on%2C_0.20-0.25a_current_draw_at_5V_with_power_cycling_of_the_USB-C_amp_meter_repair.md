@@ -1,0 +1,53 @@
+---
+title: "MacBook Air A2337 Not turning on, 0.20-0.25a current draw at 5V with power cycling of the USB-C amp meter repair"
+pageid: 65
+revid: 453
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Air_A2337_Not_turning_on,_0.20-0.25a_current_draw_at_5V_with_power_cycling_of_the_USB-C_amp_meter_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Air_A2337_Not_turning_on,_0.20-0.25a_current_draw_at_5V_with_power_cycling_of_the_USB-C_amp_meter_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=453"
+last_edited: "2023-10-29T15:18:09Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Stubs"
+infobox:
+  Device: "MacBook Air A2337"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Air A2337 Not turning on, 0.20-0.25a current draw at 5V with power cycling of the USB-C amp meter repair
+
+## Problem description
+No Power on, 5v and ~0.20-0.25a as measured on the USB-C amp meter, with power cycling of the USB-C amp meter on the 820-02016 logic board.
+
+## Symptoms
+- 5v / ~0.20-0.25a with power cycling of the USB-C amp meter.
+- All voltages missing
+![(Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Solution
+### Diagnostic Steps
+High-resolution thermal imaging is the preferred first-line diagnostic method on M1-based boards when a short to ground on an S2 rail is suspected. Voltage injection is usually not required. If high-resolution thermal imaging is unavailable, proceed to the steps below to identify a short on PP3v3_S2 or PP1v25_S2.
+
+#### Measure diode mode readings to ground on PP3v3_S2
+- LC710 is the best place to measure for a short on PP3v3_S2 on the *820-02016* logic board.
+- #Place your multimeter in diode mode, and place the red probe on a grounding point such as a screw hole and the black probe on LC710.
+- #Normal diode mode reading to ground on PP3v3_S2 is around .440.
+
+#### Measure diode mode readings to ground on PP1v25_S2
+- Pin 1 of SWV011 is a good place to measure from.
+- #Normal diode mode reading to ground on PP1v25_S2 is ~0.490.
+
+Shorts to ground are generally considered when the diode mode to ground reading is significantly less than the above normal values. Readings can vary due to temperature or normal wear.
+
+[How to find short circuits](How_to_find_short_circuits.md) If a short to ground is measured, inject voltage to the associated line. Generally, 1v at 3-5 amps is sufficient to find most short circuits. NEVER INJECT MORE VOLTAGE THAN THE LINE IS RATED FOR! Carefully feel around the board for a warm area or utilize thermal imaging, then localize the shorted component using isopropyl alcohol. The alcohol will rapidly evaporate off the shorted component.
+### Repair Steps
+#### Short to ground on PP1v25_S2 or PP3v3_S2
+- Replace the shorted component.

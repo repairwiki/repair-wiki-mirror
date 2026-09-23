@@ -1,0 +1,18 @@
+<!--
+title:        File:MacBook Pro A1278 HDD bracket PCB.jpg
+pageid:       1973
+revid:        4220
+source:       https://repair.wiki/w/File:MacBook_Pro_A1278_HDD_bracket_PCB.jpg
+history:      https://repair.wiki/index.php?title=File:MacBook_Pro_A1278_HDD_bracket_PCB.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4220
+last_edited:  2024-07-07T06:59:14Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         148a89300f48562098d58c1ad5a53d0d9bb76adc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A picture showcasing the PCB on the HDD flex cable on the A1278 MacBook Pro

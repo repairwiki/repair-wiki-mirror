@@ -1,0 +1,21 @@
+<!--
+title:        File:IPhone 14 and iPhone 14 Plus Board ID Resistor.png
+pageid:       9741
+revid:        14101
+source:       https://repair.wiki/w/File:IPhone_14_and_iPhone_14_Plus_Board_ID_Resistor.png
+history:      https://repair.wiki/index.php?title=File:IPhone_14_and_iPhone_14_Plus_Board_ID_Resistor.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=14101
+last_edited:  2026-02-24T08:50:29Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         c949d4ad94a4544c817db123e6fa943bca97c5f6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 14 and iPhone 14 Plus Board ID Resistor
+
+iPhone 14 - 1M Ohm
+iPhone 14 Plus - 1K Ohm

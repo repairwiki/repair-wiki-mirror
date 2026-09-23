@@ -1,0 +1,18 @@
+<!--
+title:        File:6Plus Display connector (J2019).jpg
+pageid:       1922
+revid:        4124
+source:       https://repair.wiki/w/File:6Plus_Display_connector_(J2019).jpg
+history:      https://repair.wiki/index.php?title=File:6Plus_Display_connector_(J2019).jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4124
+last_edited:  2024-06-27T20:38:21Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         e1f6d789160dc59e79b6996f89fde912ca26c890
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 6 Plus display connector. Top right goes to top of the board, under the rear camera.

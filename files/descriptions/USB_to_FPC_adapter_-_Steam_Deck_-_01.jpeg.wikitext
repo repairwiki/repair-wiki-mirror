@@ -1,0 +1,19 @@
+<!--
+title:        File:USB to FPC adapter - Steam Deck - 01.jpeg
+pageid:       9769
+revid:        14145
+source:       https://repair.wiki/w/File:USB_to_FPC_adapter_-_Steam_Deck_-_01.jpeg
+history:      https://repair.wiki/index.php?title=File:USB_to_FPC_adapter_-_Steam_Deck_-_01.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=14145
+last_edited:  2026-03-01T09:39:18Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         6a6dffb15ad3293094ab05e5dc92f4f8834f4ffd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+USB to FPC adapter for testing the controller board(s)

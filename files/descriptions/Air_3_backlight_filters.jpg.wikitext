@@ -1,0 +1,18 @@
+<!--
+title:        File:Air 3 backlight filters.jpg
+pageid:       246
+revid:        671
+source:       https://repair.wiki/w/File:Air_3_backlight_filters.jpg
+history:      https://repair.wiki/index.php?title=File:Air_3_backlight_filters.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=671
+last_edited:  2023-11-05T16:39:15Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         5d418de2dd8ada81d10670c755baaf533ad64527
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Air 3 backlight filters

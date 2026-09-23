@@ -1,0 +1,18 @@
+<!--
+title:        File:Dustgate small pic.png
+pageid:       1465
+revid:        3196
+source:       https://repair.wiki/w/File:Dustgate_small_pic.png
+history:      https://repair.wiki/index.php?title=File:Dustgate_small_pic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3196
+last_edited:  2024-01-24T12:01:16Z
+contributors: Inwerp
+anonymous_edits: 0
+categories:   
+sha1:         cdd453f498ad0e08e35002416243dee4fe0415e2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+typical dustgate

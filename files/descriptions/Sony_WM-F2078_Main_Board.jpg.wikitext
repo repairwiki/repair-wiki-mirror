@@ -1,0 +1,18 @@
+<!--
+title:        File:Sony WM-F2078 Main Board.jpg
+pageid:       1180
+revid:        2667
+source:       https://repair.wiki/w/File:Sony_WM-F2078_Main_Board.jpg
+history:      https://repair.wiki/index.php?title=File:Sony_WM-F2078_Main_Board.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2667
+last_edited:  2024-01-16T00:38:51Z
+contributors: Namregal
+anonymous_edits: 0
+categories:   
+sha1:         3306485d1d9a3ab81d32f8f5a77dc5ff08a4e027
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Main board in the midst of some amateur hot air rework. Right below the ribbon connector there should be a blue component that looks like a film capacitor. It's some kind of a network. It was temporarily removed to allow me to resolder the connector.

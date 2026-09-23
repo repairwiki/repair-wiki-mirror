@@ -1,0 +1,18 @@
+<!--
+title:        File:20240831 190654.jpg
+pageid:       2327
+revid:        4752
+source:       https://repair.wiki/w/File:20240831_190654.jpg
+history:      https://repair.wiki/index.php?title=File:20240831_190654.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4752
+last_edited:  2024-08-31T18:41:58Z
+contributors: Kibillcat
+anonymous_edits: 0
+categories:   
+sha1:         3decca03b1f789b8077a9786952c449e94a39b78
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+GTX 1060 Expedition Bottom view

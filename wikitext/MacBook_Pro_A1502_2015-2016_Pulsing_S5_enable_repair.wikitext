@@ -1,0 +1,35 @@
+<!--
+title:        MacBook Pro A1502 2015-2016 Pulsing S5 enable repair
+pageid:       477
+revid:        994
+source:       https://repair.wiki/w/MacBook_Pro_A1502_2015-2016_Pulsing_S5_enable_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1502_2015-2016_Pulsing_S5_enable_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=994
+last_edited:  2023-11-08T13:07:09Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1502, Stubs
+sha1:         1685f5931122ecce5d570d261a504fbeee84c409
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1502
+|Affects parts=Whole board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+A short on any capacitor in PP5V_S3 rail can cause S5 enable to pulse.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Pulsing enable for S5
+
+==Solution==
+Check C6412 (or any other cap in PP5V_S3) for a PP5V_S0 audio short to ground. This can cause S5 enable and everything above it to pulse.

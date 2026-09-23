@@ -1,0 +1,50 @@
+<!--
+title:        HTC Vive Pro
+pageid:       1484
+revid:        3262
+source:       https://repair.wiki/w/HTC_Vive_Pro
+history:      https://repair.wiki/index.php?title=HTC_Vive_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=3262
+last_edited:  2024-01-27T19:25:02Z
+contributors: Whittz
+anonymous_edits: 0
+categories:   Device, Game Consoles, HTC, HTC Game Consoles, Stubs
+sha1:         e9bd5c191556804ea44b896a08fe5c59cf9e86bc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=HTC
+|Device release date=2018-08-01
+|Device type=Game Console
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:HTC Vive Pro FrontView.jpg|Front View
+File:HTC Vive Pro WithoutGasket.jpg|Without Gasket
+File:HTC Vive Pro Disassembled.jpg|Disassembled
+File:HTC Vive Pro Main FrontView.jpg|Main components - FrontView
+File:HTC Vive Pro Main LensView.jpg|Main components - LensView
+File:HTC Vive Pro USB.jpg|USB-C and Vive proprietary connector
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

@@ -1,0 +1,18 @@
+<!--
+title:        File:A03s CPU on board with UFS removed.png
+pageid:       2468
+revid:        5033
+source:       https://repair.wiki/w/File:A03s_CPU_on_board_with_UFS_removed.png
+history:      https://repair.wiki/index.php?title=File:A03s_CPU_on_board_with_UFS_removed.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5033
+last_edited:  2024-10-13T21:42:35Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         b85ce022bf1110931dbacb1a9a424a0d9ad5eb0b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A03s CPU on board with UFS removed

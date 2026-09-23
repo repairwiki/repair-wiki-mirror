@@ -1,0 +1,35 @@
+<!--
+title:        Nintendo Wii Wii Homebrew Issues
+pageid:       9130
+revid:        13246
+source:       https://repair.wiki/w/Nintendo_Wii_Wii_Homebrew_Issues
+history:      https://repair.wiki/index.php?title=Nintendo_Wii_Wii_Homebrew_Issues&action=history
+permalink:    https://repair.wiki/index.php?oldid=13246
+last_edited:  2025-12-13T22:48:22Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Wii
+sha1:         6ebebc1ca9892776d483fd6faf838a70cf300381
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Wii
+|Affects parts=
+|Needs equipment=
+|Type=
+|Difficulty=
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+Wii Homebrew Issues
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Solution ==
+Go here for support <nowiki>https://wii.guide/</nowiki> or <nowiki>https://www.reddit.com/r/WiiHacks/</nowiki>
+
+Guide imported from the old wiki

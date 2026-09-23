@@ -1,0 +1,43 @@
+<!--
+title:        Phone 2
+pageid:       8371
+revid:        12246
+source:       https://repair.wiki/w/Phone_2
+history:      https://repair.wiki/index.php?title=Phone_2&action=history
+permalink:    https://repair.wiki/index.php?oldid=12246
+last_edited:  2025-10-05T11:33:41Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Nothing, Nothing Phones, Phones, Stubs
+sha1:         e1c143665aa58dd640bf7292234f896bd4ee82de
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Nothing|Device release date=2023|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Nothing phone 2.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Nothing Phone Diode.jpg|alt=
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

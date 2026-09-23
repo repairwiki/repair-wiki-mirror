@@ -1,0 +1,18 @@
+<!--
+title:        File:Damaged ALS Sensor on iPad Pro.png
+pageid:       280
+revid:        726
+source:       https://repair.wiki/w/File:Damaged_ALS_Sensor_on_iPad_Pro.png
+history:      https://repair.wiki/index.php?title=File:Damaged_ALS_Sensor_on_iPad_Pro.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=726
+last_edited:  2023-11-05T22:17:38Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         99c5cd1170efcc57b38835946ca0c82ef4160554
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Damaged ALS Sensor on iPad Pro

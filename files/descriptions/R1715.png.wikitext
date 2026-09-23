@@ -1,0 +1,18 @@
+<!--
+title:        File:R1715.png
+pageid:       7134
+revid:        10670
+source:       https://repair.wiki/w/File:R1715.png
+history:      https://repair.wiki/index.php?title=File:R1715.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10670
+last_edited:  2025-08-25T21:22:45Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         47b7205315bc6565c4216c73a2ce2b210c2c51ce
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+R1715

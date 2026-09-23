@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 6 Plus EEPROM location.png
+pageid:       4283
+revid:        7317
+source:       https://repair.wiki/w/File:IPhone_6_Plus_EEPROM_location.png
+history:      https://repair.wiki/index.php?title=File:IPhone_6_Plus_EEPROM_location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7317
+last_edited:  2025-06-03T22:30:59Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         4489e68b5889481f5dcc10f30638febe2c9da2b3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 6 Plus EEPROM location

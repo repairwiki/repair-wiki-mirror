@@ -1,0 +1,48 @@
+<!--
+title:        Xbox One S
+pageid:       1569
+revid:        11332
+source:       https://repair.wiki/w/Xbox_One_S
+history:      https://repair.wiki/index.php?title=Xbox_One_S&action=history
+permalink:    https://repair.wiki/index.php?oldid=11332
+last_edited:  2025-09-06T14:42:46Z
+contributors: VCCBoardRepairs, Tiago199988, Ben ProFixerr
+anonymous_edits: 0
+categories:   Device, Game Consoles, Microsoft, Microsoft Game Consoles, Stubs
+sha1:         944aff3761e8de63a6f7c93709e31fd74f5949d0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Microsoft
+|Device type=Game Console
+|Has code name=Edmonton}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:XboxOneS.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Xbox one S top backside.jpg|alt=
+File:Xbox one S motherboard backside.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery>
+File:Xbox One S HDMI In Mechanic T-824 Tail Insertion Tool Diode Mode Readings.png|Xbox One S HDMI In Mechanic T-824 Tail Insertion Tool Diode Mode Readings
+File:Xbox One S-INPUT - HDMI-Mechnic-Readings.jpg|Xbox One S HDMI INPUT Port Diode Mode Readings through Mechanic T-824 Tester
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+Schematics Available at: https://www.sendspace.com/filegroup/EKE4BYFbP8kQKHRSUn65Hfd5uoBGXtBM

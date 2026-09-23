@@ -1,0 +1,19 @@
+<!--
+title:        File:Mi 11 Ultra USB C readings.jpg
+pageid:       3768
+revid:        6603
+source:       https://repair.wiki/w/File:Mi_11_Ultra_USB_C_readings.jpg
+history:      https://repair.wiki/index.php?title=File:Mi_11_Ultra_USB_C_readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6603
+last_edited:  2025-05-13T20:15:21Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         634ac6ef5444a119ca2bac627e62894f8d6bb064
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Mi 11 Ultra USB C readings from a good device

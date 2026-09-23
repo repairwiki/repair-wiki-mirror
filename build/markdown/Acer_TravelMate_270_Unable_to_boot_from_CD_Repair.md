@@ -1,0 +1,49 @@
+---
+title: "Acer TravelMate 270 Unable to boot from CD Repair"
+pageid: 553
+revid: 1250
+kind: repair_guide
+source: "https://repair.wiki/w/Acer_TravelMate_270_Unable_to_boot_from_CD_Repair"
+history: "https://repair.wiki/index.php?title=Acer_TravelMate_270_Unable_to_boot_from_CD_Repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=1250"
+last_edited: "2023-11-25T17:57:08Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Acer TravelMate 270"
+  - "Stubs"
+infobox:
+  Device: "Acer TravelMate 270"
+  Affects_parts: "CD Drive"
+  Needs_equipment: "Screwdriver set, tweezers"
+  Type: "Teardown, Software"
+  Difficulty: "1. Easy"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Acer TravelMate 270 Unable to boot from CD Repair
+
+## Problem description
+#incomplete
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- Can't boot from CD/DVD drive
+
+## Solution
+#### Software-based issues
+    - Must eliminate before attempting hardware solutions, unless something is incredibly obvious - these software problems are incredibly common, especially on pre-owned machines with modified settings***
+
+- Open BIOS setup (F2) and check to ensure that the CD-ROM drive (Samsung SN-124 CD-ROM) is detected and listed in the boot menu properties.
+- Windows installations - Windows XP may cause some issues booting depending on the problem. Try to use a Windows 2000 boot CD instead.
+- Make sure that the boot media is using a legitimate copy of the OS.
+- When POST occurs, attempt to press 'C' to boot straight to the CD, instead of going through the boot menu.
+- If an OS is installed, try to open the boot media within the OS. If it fails to do so, test with an audio CD.
+
+#### Hardware-based issues
+- If CD-ROM powers on, the green LED on the front panel will indicate whether power is being received through the IDE connector. If not, attempt to disconnect the drive from the machine, check the connector for any damage (unlikely) or debris (more likely). A silver screw can be found hiding away under the compartment door for the RAM. This will release the optical drive from its bay.
+- If working, open the drive door and attempt to clean the lens with isopropyl alcohol and a cotton swab. A simple step, but it could save hours of unnecessary troubleshooting.
+- Drive may present with intermittent periods of inactivity when it should be reading. A further analysis of this issue will come in the near future.

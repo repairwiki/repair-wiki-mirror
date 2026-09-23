@@ -1,0 +1,18 @@
+<!--
+title:        File:U4200 ic board.png
+pageid:       7153
+revid:        10703
+source:       https://repair.wiki/w/File:U4200_ic_board.png
+history:      https://repair.wiki/index.php?title=File:U4200_ic_board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10703
+last_edited:  2025-08-26T07:24:20Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         fc304a4ddf92571a9b5014a65882b248faeea968
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+U4200 ic board

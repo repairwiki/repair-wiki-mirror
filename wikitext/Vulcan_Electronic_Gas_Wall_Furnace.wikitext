@@ -1,0 +1,52 @@
+<!--
+title:        Vulcan Electronic Gas Wall Furnace
+pageid:       2574
+revid:        5160
+source:       https://repair.wiki/w/Vulcan_Electronic_Gas_Wall_Furnace
+history:      https://repair.wiki/index.php?title=Vulcan_Electronic_Gas_Wall_Furnace&action=history
+permalink:    https://repair.wiki/index.php?oldid=5160
+last_edited:  2024-11-01T07:46:37Z
+contributors: Liquid
+anonymous_edits: 0
+categories:   Appliances, Device, Vulcan, Vulcan Appliances
+sha1:         e138c77a7ab611bb3343ae03a64926677d380ba1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The '''Vulcan Electronic Gas Wall Furnace''' is a natural gas wall furnace with a front electronic control panel and fan outlet grill at floor level.
+
+Different furnaces with similar operation or internals can be found under the brand Bonaire or Pyrox.
+
+The internal control PCB may be called either "EFD Ignition Unit" or "Ignitor Module" as part number E.0.501104, 501EFD or 470120{{Device page
+|Manufacturer=Vulcan|Device type=Appliance|Has code name=4702206B}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Vulcan Electronic Gas Wall Furnace.jpg|Front view of wall furnace
+File:Vulcan Control Panel Off.jpg|Control panel off
+File:Vulcan Control Panel On.jpg|Control panel on
+File:Vulcan Front Cover Open.jpg|Front cover removed
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Vulcan Control Panel PCB.jpg|Front Control Panel PCB
+File:Vulcan Internal PCB.jpg|Internal ignition & fan control PCB
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Vulcan 501EFD.jpg|Wiring diagram of internal ignition/fan control PCB 
+File:Vulcan Schematic.png|Schematic based on the approximate locations of the components and traces on the internal ignition/fan control PCB
+File:Vulcan Wiring Diagram.jpeg|Wiring diagram that is found inside the cover of the furnace
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

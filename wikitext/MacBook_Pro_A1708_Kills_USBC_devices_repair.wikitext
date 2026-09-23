@@ -1,0 +1,34 @@
+<!--
+title:        MacBook Pro A1708 Kills USBC devices repair
+pageid:       183
+revid:        1856
+source:       https://repair.wiki/w/MacBook_Pro_A1708_Kills_USBC_devices_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1708_Kills_USBC_devices_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=1856
+last_edited:  2024-01-10T13:29:57Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1708, Stubs
+sha1:         31fca46276d5a924c08eae62b3e2f660fb0e4949
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1708
+|Affects parts=Motherboard
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+This is a dangerous issue that can potentially occur on the A1708 MacBook where the laptop sends more than 5V to connected USB devices, thus killing them. Here's how you could solve this issue.[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Kills USB-C devices
+
+==Solution==
+Make sure that 20 V is only present on C3101 OR C3201 (PP20V_USBC_XA_VBUS OR PP20V_USBC_XB_VBUS). If A is making 20 V on B, or vice versa, likely need to replace the MOSFETs Q3100 and/or Q3200, since they're letting 20 V through (backwards!) when they're not supposed to.

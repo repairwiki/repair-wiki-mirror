@@ -1,0 +1,18 @@
+<!--
+title:        File:2080 crystal oscillator location.jpg
+pageid:       458
+revid:        960
+source:       https://repair.wiki/w/File:2080_crystal_oscillator_location.jpg
+history:      https://repair.wiki/index.php?title=File:2080_crystal_oscillator_location.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=960
+last_edited:  2023-11-07T22:17:59Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         75a00f82d7bf725f794c5c559714b6a8db7ab7f2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+2080 crystal oscillator location

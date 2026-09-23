@@ -1,0 +1,98 @@
+---
+title: "How To Fix iPhone 8 Not Charging After Screen Repair. Stuck at 0% Battery Level"
+pageid: 1504
+revid: 3296
+kind: repair_guide
+source: "https://repair.wiki/w/How_To_Fix_iPhone_8_Not_Charging_After_Screen_Repair._Stuck_at_0%25_Battery_Level"
+history: "https://repair.wiki/index.php?title=How_To_Fix_iPhone_8_Not_Charging_After_Screen_Repair._Stuck_at_0%25_Battery_Level&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3296"
+last_edited: "2024-02-04T10:25:10Z"
+contributors:
+  - "ASRepairs"
+  - "VCCBoardRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for IPhone 8"
+  - "Repair guides for IPhone 8 Plus"
+infobox:
+  Device: "IPhone 8, IPhone 8 Plus"
+  Affects_parts: "Main Logic Board"
+  Needs_equipment: "Soldering Iron, Hot Air Station, Microscope"
+  Type: "BGA, Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# How To Fix iPhone 8 Not Charging After Screen Repair. Stuck at 0% Battery Level
+
+## Problem description
+How To Fix iPhone 8 Not Charging After Screen Repair. When you boot up the phone, you'll see it is stuck at 0% Battery Level. Sometimes, it will bootloop as well. And USB meter will show constant fluctuation in the battery levels.
+![Figure 1. iPhone 8 Mosfet Lines from battery connector to pads](images/9/95/IPhone_8_Mosfet.jpg)
+
+## Symptoms
+- Phone will fully boot up and get to the home screen but after about 3 minutes, it will just spontaneously restart
+- Sometimes the phone's battery is dead, but it will just bootloop forever.
+- Or sometimes it will boot to the home screen then instantly restart
+- You'll notice the battery level is sporadic (value constantly changes) or stays at 0% or 1%, even if battery is fully charged
+- You see it's not charging, where USB meter charging current is jumping all over the place, instead of a 1+ A current draw via USB.
+- In Settings > Battery > Battery Health, it says "Service" and no battery health percentage.
+- In 3u Tools, it shows no battery data.
+
+## Solution
+### Diagnostic Steps
+  - You'll want to check these first to confirm you have a board issue:**
+
+- Get a known good screen, charging port and battery — Helps validate if you have a board issue.
+- Get a known good OEM iPhone charging cable and brick.
+
+### Repair Steps
+These 2 lines are responsible for transmitting data from the battery to Tigris to the CPU.
+
+- I2C0_SMC_BI_GG_SDA_CONN
+  - Connects to the Q3200 Mosfet
+- I2C0_SMC_TO_GG_SCL_CONN
+  - Connects to the Q3201 Mosfet
+
+- Q3200/3201 Part Number: **RV3C002UNT2CL**
+  - Can be purchased from Digikey, Mouser, etc.
+
+### Possible Solutions:
+  - Battery connector:**
+
+- In some cases, the battery connector is warped or damaged
+  - You can visually inspect the small center pins of the battery connector. If they look like they're "pushed out" and hidden under the plastic of the connector, you can try pushing them back out with a tool
+  - If the connector looks smashed or missing plastic, then replace the connector
+  - Or you can replace the battery connector itself.
+
+  - Pry Damage after screen repair:**
+
+- If it happened after a screen repair, then most likely one or both battery mosfets (Q3200/Q3201) got damaged.
+  - Diode Mode the battery connector. The 2 small pins are the data lines that connect to the mosfets.
+  - If one or both small pins read as OL, then you have a damaged mosfet.
+  - If you have no ripped pads, replace the damaged mosfet,
+    - Then diode mode the battery connector again to make sure you have a diode mode reading again (~.665v)
+  - If you do have ripped pads, you'll need to run jumpers for the appropriate pin(s).
+  - Figure 1 shows where each pin connectors to.
+  - In red, is the top pin. Run jumper from A to B.
+  - In blue, is the bottom pin. Run jumper from C to D iPhone 8 battery connector to mosfet connections
+  - Video Example:
+    - At about 20 minutes in, I go over this process in detail on an iPhone 8 Plus: https://youtu.be/etO1x3IyU90
+
+  - Something Else:**
+
+- If the above doesn't solve it, then try replacing Tigris.
+  - **Please Note**: On older iPhones, it is known that Tristar will cause charging issues & replacing it will solve it. For iPhone 8/8P and newer, that chip is now Tigris that fails & requires a replacement
+- If this also doesn't solve it, it could be Hydra or another line under Tigris or Hydra having an issue.
+  - You'll need to diode mode each pad under Tigris and Hydra to see if you can find an OL or a short, causing the issue.
+    - If you find a shorted line, track down the shorted capacitor by injecting voltage
+    - If you find an OL where there should be a reading, follow the path of the line and diode mode every at every point. Find the point where the diode mode reading reappears. That should be where the line is disconnected and you'll need to replace the component that disconnected the line, usually a filter.
+
+### Final Testing
+- Run the stopwatch app and see if it can run for longer than the 3 minutes that it was rebooting at
+- Play a 1hr Youtube video to see if it can play it continuously
+- Check the USB charging current
+- Check the Battery Health in the Settings
+- Check if the battery level is showing accurate battery levels.

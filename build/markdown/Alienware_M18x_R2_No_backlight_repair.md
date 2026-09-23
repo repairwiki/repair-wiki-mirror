@@ -1,0 +1,43 @@
+---
+title: "Alienware M18x R2 No backlight repair"
+pageid: 555
+revid: 1254
+kind: repair_guide
+source: "https://repair.wiki/w/Alienware_M18x_R2_No_backlight_repair"
+history: "https://repair.wiki/index.php?title=Alienware_M18x_R2_No_backlight_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=1254"
+last_edited: "2023-11-25T18:00:38Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Alienware M18x R2"
+infobox:
+  Device: "Alienware M18x R2"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Alienware M18x R2 No backlight repair
+
+## Problem description
+Troubleshooting Alienware M18x R2 missing backlight. This machine mounts Compal LA-8321P board. This post applies to other machines, with different motherboard, but using similar backlight control.
+![Q45 circuit (Figure 1)](images/c/cd/LA-8321P_backlight_power.jpg)
+
+## Symptoms
+- No backlight on LCD
+
+## Solution
+- Make sure the problem is no backlight and not no image!*
+
+See Fig. 1.
+
+Very likely we find +INVPWR_B+ is not present. We must assure no short to ground w/ and w/ LCD connected.
+
+Next will check LCD_BKL_EN signal. If present (3V), then check R423 voltage on both pins. Getting 0V at pin 2 assures Q44 works correctly. 19V there suppose bad Q44; need to change it. If we get 0V at pin 2, but 19V at pin 1 (PWR_SRC_ON), 99% Q45 is bad; replace it. Is still possible (very low chance) to have bad C346 (corroded), or R423 (open).

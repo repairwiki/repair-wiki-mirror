@@ -1,0 +1,505 @@
+<!--
+title:        Macbook Board and Model numbers
+pageid:       7589
+revid:        13834
+source:       https://repair.wiki/w/Macbook_Board_and_Model_numbers
+history:      https://repair.wiki/index.php?title=Macbook_Board_and_Model_numbers&action=history
+permalink:    https://repair.wiki/index.php?oldid=13834
+last_edited:  2026-02-03T20:19:02Z
+contributors: Francis, David.Lecomte
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops
+sha1:         9d412bab7305c4c109ab728cb9f1059576c53217
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=Generalities
+|Device type=Laptop
+}}
+
+This page aims at giving a correspondence between model numbers and board numbers for Apple laptops, as well as information relevant to the board's architecture.
+
+The model number is of the form "Axxxx EMC xxxx", where the "x"-s are digits between 0 and 9. For many models, the "Axxxx" number will be enough to identify it. But there are exceptions, when an "Axxxx" number is used across multiple major revisions. This tended to occur a lot on really old models, but still happens occasionally (e.g. the A2338).
+
+The board number is of the form "820-xxxxx", and is etched somewhere on the board. The location might be extremely difficult to find, and can be hidden under shields, heat sinks, or removable parts.
+
+== I. Intel Macbooks ==
+
+=== I.1 Macbook Air ===
+{| class="wikitable"
+|+
+!style="background: #CCCCCC;"|Model number
+!style="background: #CCCCCC;"|Years sold
+!style="background: #CCCCCC;"|Type
+!style="background: #CCCCCC;"|Board number
+!style="background: #CCCCCC;"|Architecture
+!style="background: #CCCCCC;"|PCH
+!style="background: #CCCCCC;"|GPU
+!style="background: #CCCCCC;"|SSD
+!style="background: #CCCCCC;"|SMC
+|-
+|bgcolor=#CFF|A1465 EMC 2631
+|bgcolor=#CFF|2013-2014
+|bgcolor=#CFF|11.6"
+|bgcolor=#CFF|820-3435
+|bgcolor=#CFF|Intel Core 4th Generation
+|bgcolor=#CFF|Integrated
+|bgcolor=#CFF|Integrated
+|bgcolor=#CFF|Removable
+|bgcolor=#CFF|Discrete
+|-
+|A1466 EMC 2632
+|2013-2014
+|13"
+|820-3437
+|Intel Core 4th Generation
+|Integrated
+|Integrated
+|Removable
+|Discrete
+|-
+|bgcolor=#CFF|A1465 EMC 2924
+|bgcolor=#CFF|2015-2017
+|bgcolor=#CFF|11.6"
+|bgcolor=#CFF|820-00164
+|bgcolor=#CFF|Intel Core 5th Generation
+|bgcolor=#CFF|Integrated
+|bgcolor=#CFF|Integrated
+|bgcolor=#CFF|Removable
+|bgcolor=#CFF|Discrete
+|-
+|A1466 EMC 2925
+|2015-2016
+|13"
+|820-00165
+|Intel Core 5th Generation
+|Integrated
+|Integrated
+|Removable
+|Discrete
+|-
+|bgcolor=#CFF|A1466 EMC 3178
+|bgcolor=#CFF|2017
+|bgcolor=#CFF|13"
+|bgcolor=#CFF|820-00165
+|bgcolor=#CFF|Intel Core 5th Generation
+|bgcolor=#CFF|Integrated
+|bgcolor=#CFF|Integrated
+|bgcolor=#CFF|Removable
+|bgcolor=#CFF|Discrete
+|-
+|A1932 EMC 3184
+|2018-2019
+|13"
+|820-01521
+|T2 SOC
++ Intel Core 8th Generation
+|Integrated
+|Integrated
+|Soldered
+|Part of SOC
+|-
+|bgcolor=#CFF|A2179 EMC 3302
+|bgcolor=#CFF|2020-2021
+|bgcolor=#CFF|13"
+|bgcolor=#CFF|820-01055
+820-01958
+|bgcolor=#CFF|T2 SOC
++ Intel Core 10th Generation
+|bgcolor=#CFF|Integrated
+|bgcolor=#CFF|Integrated
+|bgcolor=#CFF|Soldered
+|bgcolor=#CFF|Part of SOC 
+|}
+
+=== I.2 Macbook Pro ===
+{| class="wikitable"
+|+
+!style="background: #CCCCCC;"|Model number
+!style="background: #CCCCCC;"|Years sold
+!style="background: #CCCCCC;"|Type
+!style="background: #CCCCCC;"|Board number
+!style="background: #CCCCCC;"|Architecture
+!style="background: #CCCCCC;"|PCH
+!style="background: #CCCCCC;"|GPU
+!style="background: #CCCCCC;"|SSD
+!style="background: #CCCCCC;"|SMC
+|-
+|bgcolor=#CEA|A1502 EMC 2678
+|bgcolor=#CEA|2013-2014
+|bgcolor=#CEA|13"
+|bgcolor=#CEA|820-3476
+820-3536
+|bgcolor=#CEA|Intel Core 4th Generation
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Removable
+|bgcolor=#CEA|Discrete
+|-
+|A1398 EMC 2674
+|2013-2014
+|15"
+|820-3662
+|Intel Core 4th Generation
+|Discrete
+|Integrated
+|Removable
+|Discrete
+|-
+|bgcolor=#CEA|A1398 EMC 2675
+|bgcolor=#CEA|2013-2014
+|bgcolor=#CEA|15"
+|bgcolor=#CEA|820-3787
+|bgcolor=#CEA|Intel Core 4th Generation
+|bgcolor=#CEA|Discrete
+|bgcolor=#CEA|Discrete
+|bgcolor=#CEA|Removable
+|bgcolor=#CEA|Discrete
+|-
+|A1502 EMC 2835
+|2015-2017
+|13"
+|820-4924
+|Intel Core 5th Generation
+|Integrated
+|Integrated
+|Removable
+|Discrete
+|-
+|bgcolor=#CEA|A1398 EMC 2909
+|bgcolor=#CEA|2015-2018
+|bgcolor=#CEA|15"
+|bgcolor=#CEA|820-00138
+|bgcolor=#CEA|Intel Core 5th Generation
+|bgcolor=#CEA|Discrete
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Removable
+|bgcolor=#CEA|Discrete
+|-
+|A1398 EMC 2910
+|2015-2016
+|15"
+|820-00163
+820-00426
+|Intel Core 5th Generation
+|Discrete
+|Discrete
+|Removable
+|Discrete
+|-
+|bgcolor=#CEA|A1708 EMC 2978
+|bgcolor=#CEA|2016-2017
+|bgcolor=#CEA|13", 2 Thunderbolts
+
+No Touchbar, No TouchID
+|bgcolor=#CEA|820-00875
+|bgcolor=#CEA|Intel Core 6th Generation
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Removable
+|bgcolor=#CEA|Discrete
+|-
+|A1706 EMC 3071
+|2016-2017
+|13", 4 Thunderbolts
+
+Touchbar, TouchID
+|820-00239
+|Intel Core 6th Generation
+|Integrated
+|Integrated
+|Soldered
+|Discrete
+|-
+|bgcolor=#CEA|A1707 EMC 3072
+|bgcolor=#CEA|2016-2018
+|bgcolor=#CEA|15"
+|bgcolor=#CEA|820-00281
+|bgcolor=#CEA|Intel Core 6th Generation
+|bgcolor=#CEA|Discrete
+|bgcolor=#CEA|Discrete
+|bgcolor=#CEA|Soldered
+|bgcolor=#CEA|Discrete
+|-
+|A1708 EMC 3164
+|2017-2019
+|13", 2 Thunderbolts
+
+No Touchbar, No TouchID
+|820-00840
+|Intel Core 7th Generation
+|Integrated
+|Integrated
+|Removable
+|Discrete
+|-
+|bgcolor=#CEA|A1706 EMC 3163
+|bgcolor=#CEA|2017-2018
+|bgcolor=#CEA|13", 4 Thunderbolts
+
+Touchbar, TouchID
+|bgcolor=#CEA|820-00923
+|bgcolor=#CEA|Intel Core 7th Generation
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Soldered
+|bgcolor=#CEA|Discrete
+|-
+|A1707 EMC 3162
+|2017-2018
+|15"
+|820-00928
+|Intel Core 7th Generation
+|Discrete
+|Discrete
+|Soldered
+|Discrete
+|-
+|bgcolor=#CEA|A1989 EMC 3214
+and EMC 3358
+|bgcolor=#CEA|2018-2019
+|bgcolor=#CEA|13", 4 Thunderbolts
+
+Touchbar, TouchID
+|bgcolor=#CEA|820-00850
+|bgcolor=#CEA|T2 SOC + 
+Intel Core 8th Generation
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Soldered
+|bgcolor=#CEA|Part of SOC
+|-
+|A1990 EMC 3215
+and EMC 3359
+|2018-2019
+|15"
+|820-01041
+820-01326
+|T2 SOC +
+Intel Core 8th Generation
+|Discrete
+|Discrete
+|Soldered
+|Part of SOC
+|-
+|bgcolor=#CEA|A1990 EMC 3359
+|bgcolor=#CEA|2019-2020
+|bgcolor=#CEA|15"
+|bgcolor=#CEA|820-01814
+820-01827
+|bgcolor=#CEA|T2 SOC + 
+Intel Core 9th Generation
+|bgcolor=#CEA|Discrete
+|bgcolor=#CEA|Discrete
+|bgcolor=#CEA|Soldered
+|bgcolor=#CEA|Part of SOC
+|-
+|A2159 EMC 3301
+|2019-2020
+|13", 2 Thunderbolts
+
+No touchbar, TouchID
+|820-01598
+|T2 SOC +
+Intel Core 8th Generation
+|Integrated
+|Integrated
+|Soldered
+|Part of SOC
+|-
+|bgcolor=#CEA|A2141 EMC 3347
+|bgcolor=#CEA|2019-2021
+|bgcolor=#CEA|16"
+|bgcolor=#CEA|820-01700
+|bgcolor=#CEA|T2 SOC +
+Intel Core 9th Generation
+|bgcolor=#CEA|Discrete
+|bgcolor=#CEA|Discrete
+|bgcolor=#CEA|Soldered
+|bgcolor=#CEA|Part of SOC
+|-
+|A2289 EMC 3456
+|2020
+|13", 2 Thunderbolts
+
+Touchbar, TouchID
+|820-01987
+|T2 SOC +
+Intel Core 8th Generation
+|Integrated
+|Integrated
+|Soldered
+|Part of SOC
+|-
+|bgcolor=#CEA|A2251 EMC 3348
+|bgcolor=#CEA|2020-2021
+|bgcolor=#CEA|13", 4 Thunderbolts
+
+Touchbar, TouchID
+|bgcolor=#CEA|820-01949
+|bgcolor=#CEA|T2 SOC +
+Intel Core 10th Generation
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Integrated
+|bgcolor=#CEA|Soldered
+|bgcolor=#CEA|Part of SOC
+|}
+
+== II. Apple Silicon Macbooks ==
+
+=== II.1. Macbook Air ===
+{| class="wikitable"
+!style="background: #CCCCCC;"|Model number
+!style="background: #CCCCCC;"|Years sold
+!style="background: #CCCCCC;"|Type
+!style="background: #CCCCCC;"|Board number
+!style="background: #CCCCCC;"|Architecture
+|-
+|bgcolor=#CFF|A2337 EMC 3598
+|bgcolor=#CFF|2021-2023
+|bgcolor=#CFF|13"
+|bgcolor=#CFF|820-02016
+|bgcolor=#CFF|Apple Silicon M1
+|-
+|A2681 EMC 4074
+|2022-2024
+|13.6"
+|820-02536
+|Apple Silicon M2
+|-
+|bgcolor=#CFF|A2941 EMC 8301
+|bgcolor=#CFF|2023-2024
+|bgcolor=#CFF|15"
+|bgcolor=#CFF|820-03160
+|bgcolor=#CFF|Apple Silicon M2
+|-
+|A3113 EMC 8611
+|2024-2025
+|13.6"
+|820-03285
+|Apple Silicon M3
+|-
+|bgcolor=#CFF|A3114 EMC 8612
+|bgcolor=#CFF|2024-2025
+|bgcolor=#CFF|15"
+|bgcolor=#CFF|820-03286
+|bgcolor=#CFF|Apple Silicon M3
+|-
+|A3240 EMC 8781
+|2025-
+|13.6"
+|820-03597-A
+|Apple Silicon M4
+|-
+|bgcolor=#CFF|A3241 EMC 8782
+|bgcolor=#CFF|2025-
+|bgcolor=#CFF|15"
+|bgcolor=#CFF|820-03681
+|bgcolor=#CFF|Apple Silicon M4
+|}
+
+=== II.2 Macbook Pro ===
+{| class="wikitable"
+!style="background: #CCCCCC;"|Model number
+!style="background: #CCCCCC;"|Years sold
+!style="background: #CCCCCC;"|Type
+!style="background: #CCCCCC;"|Board number
+!style="background: #CCCCCC;"|Architecture
+|-
+|bgcolor=#CEA|A2338 EMC 3578
+|bgcolor=#CEA|2020-2022
+|bgcolor=#CEA|13", 2 Thunderbolts,
+
+Touchbar, TouchID
+|bgcolor=#CEA|820-02020
+|bgcolor=#CEA|Apple Silicon M1
+|-
+|A2442 EMC 3650
+|2021-2023
+|14"
+|820-02098
+820-02443
+|Apple Silicon M1 Pro/Max
+|-
+|bgcolor=#CEA|A2485 EMC 3651
+|bgcolor=#CEA|2021-2023
+|bgcolor=#CEA|16"
+|bgcolor=#CEA|820-02100
+820-02382
+|bgcolor=#CEA|Apple Silicon M1 Pro/Max
+|-
+|A2338 EMC 8162
+|2022-2023
+|13", 2 Thunderbolts,
+
+Touchbar, TouchID
+|820-02773
+|Apple Silicon M2
+|-
+|bgcolor=#CEA|A2779 EMC 8102
+|bgcolor=#CEA|2023
+|bgcolor=#CEA|14"
+|bgcolor=#CEA|820-02655
+820-02841
+|bgcolor=#CEA|Apple Silicon M2 Pro/Max
+|-
+|A2780 EMC 8103
+|2023
+|16"
+|820-02652
+820-02890
+|Apple Silicon M2 Pro/Max
+|-
+|bgcolor=#CEA|A2918 EMC 8407
+|bgcolor=#CEA|2023-2024
+|bgcolor=#CEA|14", 2 Thunderbolts
+|bgcolor=#CEA|820-02757
+|bgcolor=#CEA|Apple Silicon M3
+|-
+|A2992 EMC 8407
+|2023-2024
+|14"
+|820-02918
+|Apple Silicon M3 Pro/Max
+|-
+|bgcolor=#CEA|A2991 EMC 8408
+|bgcolor=#CEA|2023-2024
+|bgcolor=#CEA|16"
+|bgcolor=#CEA|820-02935
+|bgcolor=#CEA|Apple Silicon M3 Pro/Max
+|-
+|A3112 EMC 8623
+|2024-
+|14", 3 Thunderbolts
+|820-03129
+|Apple Silicon M4
+|-
+|bgcolor=#CEA|A3401 EMC 8894
+|bgcolor=#CEA|2024-
+|bgcolor=#CEA|14"
+|bgcolor=#CEA|820-03400
+|bgcolor=#CEA|Apple Silicon M4 Pro
+|-
+|A3185 EMC 8623
+|2024-
+|14"
+|
+|Apple Silicon M4 Max
+|-
+|bgcolor=#CEA|A3403 EMC 8895
+|bgcolor=#CEA|2024-
+|bgcolor=#CEA|16"
+|bgcolor=#CEA|
+|bgcolor=#CEA|Apple Silicon M4 Pro
+|-
+|A3186 EMC 8624
+|2024-
+|16"
+|
+|Apple Silicon M4 Max
+|}
+__INDEX__

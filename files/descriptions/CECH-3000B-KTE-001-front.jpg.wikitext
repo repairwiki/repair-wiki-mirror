@@ -1,0 +1,17 @@
+<!--
+title:        File:CECH-3000B-KTE-001-front.jpg
+pageid:       4096
+revid:        7060
+source:       https://repair.wiki/w/File:CECH-3000B-KTE-001-front.jpg
+history:      https://repair.wiki/index.php?title=File:CECH-3000B-KTE-001-front.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7060
+last_edited:  2025-05-24T21:42:04Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

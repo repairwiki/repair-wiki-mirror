@@ -1,0 +1,18 @@
+<!--
+title:        File:OUTPUT of display boost ic.png
+pageid:       9609
+revid:        13881
+source:       https://repair.wiki/w/File:OUTPUT_of_display_boost_ic.png
+history:      https://repair.wiki/index.php?title=File:OUTPUT_of_display_boost_ic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13881
+last_edited:  2026-02-08T01:38:23Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         80962a5f38b7d5f43421aa2372437d9d7de930d1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+OUTPUT of display boost ic

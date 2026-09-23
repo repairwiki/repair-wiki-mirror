@@ -1,0 +1,18 @@
+<!--
+title:        File:Wireless-charging-flex-iphoneair-panic.png
+pageid:       8126
+revid:        11883
+source:       https://repair.wiki/w/File:Wireless-charging-flex-iphoneair-panic.png
+history:      https://repair.wiki/index.php?title=File:Wireless-charging-flex-iphoneair-panic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11883
+last_edited:  2025-09-20T06:18:23Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         f9548eba029b117c3a69a3f124ecb30c500c3aee
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Wireless-charging-flex-iphoneair-panic

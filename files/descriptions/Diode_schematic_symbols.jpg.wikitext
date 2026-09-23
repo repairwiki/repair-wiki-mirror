@@ -1,0 +1,18 @@
+<!--
+title:        File:Diode schematic symbols.jpg
+pageid:       230
+revid:        615
+source:       https://repair.wiki/w/File:Diode_schematic_symbols.jpg
+history:      https://repair.wiki/index.php?title=File:Diode_schematic_symbols.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=615
+last_edited:  2023-11-02T19:40:21Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         c9d7ffbe7af4fee6fb1576bcbec14f8063911b48
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Diode schematic symbols

@@ -1,0 +1,51 @@
+<!--
+title:        Siemens Sinamics repair, faulty motor phase 6SL3120-1TE23-0AA3
+pageid:       1765
+revid:        3881
+source:       https://repair.wiki/w/Siemens_Sinamics_repair,_faulty_motor_phase_6SL3120-1TE23-0AA3
+history:      https://repair.wiki/index.php?title=Siemens_Sinamics_repair,_faulty_motor_phase_6SL3120-1TE23-0AA3&action=history
+permalink:    https://repair.wiki/index.php?oldid=3881
+last_edited:  2024-05-27T12:54:07Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Sinamics 6SL3120-1TE23-0AA3
+sha1:         a3b6cd15a5f7998363a97056d97b66ef60aa48b1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Sinamics 6SL3120-1TE23-0AA3
+|Affects parts=IGBT module
+|Needs equipment=Screwdriver set, soldering iron, soldering station, multimeter
+|Type=Soldering, Part replacement
+|Difficulty=3. Hard
+}}
+==Problem description==
+Diagnosing and fixing a problem with a Siemens inverter Sinamics 6SL3120-1TE23-0AA3 that has a faulty output phase
+[[File:20240527 142820.jpg|thumb|Healthy phase measurement, (negative on + DC link and vice versa to all phases should read this value) Figure 1]]
+[[File:20240527 142826.jpg|thumb|Dead phase measurement (figure 2)]]
+[[File:20240527 143123.jpg|thumb|The IGBT model for this inverter (figure 3)]]
+
+==Symptoms== 
+
+*Open line or short circuit from DC link to one or more of the output phases. 
+*Unstable operation of the motor, spins little bit and stops.
+*
+
+==Solution==
+
+===Diagnostic Steps===
+
+* First, check the IGBT 
+
+* Place your red probe on - DC link, and the black all the phases individually, they should measure close to the value on figure 1
+* Do the same with black probe on + DC link
+* If you measure all the values to be the same, then you have another issue, the IGBT is healthy 
+* If you measure OL or low/short on one of the phases, proceed to repair steps<br />
+
+===Repair Steps===
+Replace the IGBT (Figure 3) and make sure the driving circuit isn't damaged, if you have a healthy phase you can compare since they're identical, measure the optocouplers/diodes.
+
+After replacement the inverter should work properly.

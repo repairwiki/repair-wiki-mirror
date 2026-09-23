@@ -1,0 +1,18 @@
+<!--
+title:        File:A03s Shield.png
+pageid:       2239
+revid:        4623
+source:       https://repair.wiki/w/File:A03s_Shield.png
+history:      https://repair.wiki/index.php?title=File:A03s_Shield.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4623
+last_edited:  2024-08-12T07:05:25Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         85ea213713cd50f24c811281e6d6fe407dcdfd20
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A03s Shield

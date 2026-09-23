@@ -1,0 +1,52 @@
+<!--
+title:        IPhone XS No Image on Screen
+pageid:       4595
+revid:        7659
+source:       https://repair.wiki/w/IPhone_XS_No_Image_on_Screen
+history:      https://repair.wiki/index.php?title=IPhone_XS_No_Image_on_Screen&action=history
+permalink:    https://repair.wiki/index.php?oldid=7659
+last_edited:  2025-06-14T00:05:26Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone XS, Repair guides for IPhone XS Max, Stubs
+sha1:         deab355d4af771ed6fd783a59805005f5c9423bb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone XS, IPhone XS Max
+|Affects parts=Motherboard
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+iPhone XS & XS Max uses an OLED display. This mean, there's no backlight, but many people will still diagnose No Image as "No Backlight".
+
+Always make sure to test with a known good screen, to rule out a parts issue.
+[[File:Screenshot From 2025-06-13 16-42-18.png|thumb|584x584px|iPhone Xs Boardview of display FPC with FL5783 circled in red and display chokes circled in green]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Phone turns on but nothing displays on the screen
+* Screen always stays black
+* You can hear sounds & feel vibrations.
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+* Diode mode the display connector (J5700) & check for any shorts or OL (Open Lines).
+* In most cases, you'll find PP3V0_DISPLAY_CONN filter FL5783 is blown & needs to be replaced.
+* In other cases, you may find one or more of the 5 chokes L5700, L5710, L5730, L5740 or L5720 is damaged or broken from pry damage
+* In rare cases, you may discover there is long screw damage in the screw hole next to the battery connector, which will sever image lines from the chokes mentioned above.

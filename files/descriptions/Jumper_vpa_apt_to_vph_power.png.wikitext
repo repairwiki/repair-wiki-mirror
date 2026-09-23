@@ -1,0 +1,18 @@
+<!--
+title:        File:Jumper vpa apt to vph power.png
+pageid:       4439
+revid:        7487
+source:       https://repair.wiki/w/File:Jumper_vpa_apt_to_vph_power.png
+history:      https://repair.wiki/index.php?title=File:Jumper_vpa_apt_to_vph_power.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7487
+last_edited:  2025-06-08T18:31:38Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         4aa9c9996ac75dda2011c5c751f1863de238f02d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+VPA_APT to VPH POWER jumper

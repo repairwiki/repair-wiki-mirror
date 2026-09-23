@@ -1,0 +1,68 @@
+<!--
+title:        MacBook Pro A1990 Restarting repair
+pageid:       8213
+revid:        12059
+source:       https://repair.wiki/w/MacBook_Pro_A1990_Restarting_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1990_Restarting_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=12059
+last_edited:  2025-09-24T13:50:40Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1990
+sha1:         4a8d9cba72f72cc38d4b315cbe9fdaee8ce7d0fb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=MacBook Pro A1990|Affects parts=TouchBar, Main Logic Board|Difficulty=3. Hard|Needs equipment=Screwdrivers|Type=Parts Disassembly}}
+
+== Problem Description ==
+MacBook Pro 15” A1990 randomly restarts shortly after boot. Before restarting, you may notice the trackpad freezing for a few seconds, and then macOS triggers a kernel panic.
+
+A panic log shows BridgeOS panic, which drives the Touch Bar.
+
+This issue is commonly caused by a faulty Touch Bar or BridgeOS communication failure, not by macOS, SSD, or user data.
+----
+[[File:A1990-touchbar-panic.png|thumb|MacBook Pro A1990 Touch Bar (bridgeOS) Panic Log]]
+
+== Symptoms ==
+
+* Mac boots to macOS, but freezes shortly after startup.
+* Trackpad stops responding before reboot.
+* Device restarts on a loop.
+* Touch Bar not working (blank or unresponsive).
+* No liquid damage or visible board damage.
+* Apple Diagnostics and Disk Utility show no errors.
+* Issue persists in Safe Mode and Recovery Mode.
+
+----
+[[File:A1990-touchbar-location.png|thumb|MacBook Pro A1990 Touch Bar FPC Connector Location]]
+
+== Diagnostic Steps ==
+
+# Check Panic Log
+#* Panic log will mention bridgeOS  issues.
+#* This confirms Touch Bar communication error.
+# Visual Inspection
+#* Inspect Touch Bar flex cable and connectors for corrosion or physical damage.
+#* Check for pin damage at Touch Bar connector on logic board.
+# Test Without Touch Bar
+#* Disconnect the Touch Bar flex from the logic board.
+#* Boot macOS and observe behavior.
+#* If restart loop stops, Touch Bar is confirmed faulty.
+
+----
+
+== Solutions ==
+
+=== Option 1: Disconnect Touch Bar (Temporary Fix) ===
+
+* Disconnect Touch Bar flex from logic board and run Mac without Touch Bar.
+* If system boots and stays stable, you’ve isolated the issue.
+* Note: Device will run without Touch Bar functionality.
+
+=== Option 2: Replace Touch Bar Assembly ===
+
+* Replace Touch Bar or entire Top Case with a known-good part.
+* This resolves BridgeOS crash and restores full functionality.

@@ -1,0 +1,43 @@
+<!--
+title:        G7 ThinQ
+pageid:       8366
+revid:        12242
+source:       https://repair.wiki/w/G7_ThinQ
+history:      https://repair.wiki/index.php?title=G7_ThinQ&action=history
+permalink:    https://repair.wiki/index.php?oldid=12242
+last_edited:  2025-10-05T11:30:41Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, LG, LG Phones, Phones, Stubs
+sha1:         2f8a18ce0fd56277985cb7c923521e330cfbd7a1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=LG|Device release date=2018|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:LG g7 thinq.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:LG g7 thinq diode.jpg|alt=
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

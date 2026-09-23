@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Pro 12.9" 5th Gen PP3v3 BSB via location.jpg
+pageid:       3735
+revid:        6560
+source:       https://repair.wiki/w/File:IPad_Pro_12.9%22_5th_Gen_PP3v3_BSB_via_location.jpg
+history:      https://repair.wiki/index.php?title=File:IPad_Pro_12.9%22_5th_Gen_PP3v3_BSB_via_location.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6560
+last_edited:  2025-05-13T07:31:18Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   
+sha1:         5ba3f3bb24bfc855fe75d81879671c40268322db
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The via and power line location for PP3V3_BSB shown in board view

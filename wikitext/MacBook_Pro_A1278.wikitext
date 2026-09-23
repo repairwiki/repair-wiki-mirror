@@ -1,0 +1,59 @@
+<!--
+title:        MacBook Pro A1278
+pageid:       1977
+revid:        10308
+source:       https://repair.wiki/w/MacBook_Pro_A1278
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1278&action=history
+permalink:    https://repair.wiki/index.php?oldid=10308
+last_edited:  2025-08-16T22:53:31Z
+contributors: ASRepairs, Tiago199988, XTA, Dorkydanny
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         16c1faebc8298ee7ccfded3c54c2c40e5a733a72
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1278
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:A1278.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+Board 820-3315 B Schematic: [https://cdn.dorkydanny.org/MacBook/A1278/820-3115-B.brd https://cdn.dorkydanny.org/MacBook/A1278/820-3315-B.brd]
+
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->Logic Board Model Numbers
+
+2008 - 820-2327
+
+2009 - 820-2530
+
+2010 - 820-2879
+
+2011 - 820-2936
+
+2012 - 820-3115

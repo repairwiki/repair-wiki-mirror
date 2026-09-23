@@ -1,0 +1,114 @@
+<!--
+title:        Seagate F3 family MCMT issue
+pageid:       4565
+revid:        12175
+source:       https://repair.wiki/w/Seagate_F3_family_MCMT_issue
+history:      https://repair.wiki/index.php?title=Seagate_F3_family_MCMT_issue&action=history
+permalink:    https://repair.wiki/index.php?oldid=12175
+last_edited:  2025-09-28T20:00:07Z
+contributors: VCCBoardRepairs, Chris
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for F3 Family HDDs, Stubs
+sha1:         0495bf6d56b32d04a4ad446fcd25bee1b1a1c5db
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=F3 Family HDDs
+|Affects parts=Firmware
+|Needs equipment=PC3000
+}}
+{{stub}}
+
+== Problem description ==
+How to recognize MCMT issue on Seegate Rosewood drives and get access to the data again.
+
+What is the Media Cache Management Table? This is the special table responsible for the media cache 😊
+
+Ok then. What the Media Cache is?
+
+This is a special area located on the edge of the platter where the right/write speed is the highest. It stores the most frequently used/last updated data. It may contain parts of the file system (e.g. parts of the MFT table) and important operating system files. Therefore, it is very important to make copies of the system file 348 (346 in older drives) or module 50 before starting to work with MCMT.
+
+In this article, we will consider the case of a damaged MCMT in the ST5000LM000 drive, although it is the M11 family, in the case of the Rosewood family the procedure is identical.
+
+
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+So how do you recognize a damaged MCMT board?
+
+There are several symptoms in the terminal:
+
+1.)  MCMT corrupted
+
+2.)  SIM Error with 348 in the ID – this is physical damage od the file most likely the file can’t be read
+
+3.)  Update Mask
+
+4.)  Edac Value
+
+5.)  [Scrub Remove]!
+
+6.)  SP Regen Fail
+[[File:SP Regen terminal.png|center|thumb|717x717px]]
+7.)  Search IDEDC index
+
+8.)  Stuck LED + BSY status register
+
+9.)  In the Rosewood family DWF issue
+
+== Solution ==
+How to fix the issue and get access to the data?
+
+1. Prepare the ROM 
+[[File:Unlock.png|center|thumb|653x653px]]
+2. Unlock the ROM
+[[File:Unlock 2.png|center|thumb|761x761px]]
+3. Get the terminal access with pressing CRTL + Z
+[[File:Unlock 3.png|center|thumb|690x690px]]
+4. Now it is the time to make copies of the most important system files, don’t forget save both copies of those files, it’s very important:
+
+* 3x1B – P list
+* 3x28 – translator
+* 3x35 – Non Resident G-List
+* 3x93 – SMP flags
+* 3x348 – MCMT<br />[[File:Files save 1.png|center|thumb|710x710px]]
+
+[[File:Files save 2.png|center|thumb|705x705px]]
+5. Now we need to compere both copies of the file 348.
+[[File:Comparing the files.png|center|thumb|742x742px]]
+[[File:Comparing the files 2.png|center|thumb|895x895px]]
+6. It is the time for clear the MCMT by using /CU10 command in the terminal. This command is going to clear the MCMT but we have it’s copies so we can work with them later.
+[[File:CU10.png|center|thumb|898x898px]]
+7. Repower the drive and restart the utility if you need
+
+8. Now the drive is stabile and we can make a backup of the HDD resources
+[[File:Boot.png|center|thumb|888x888px]]
+9. In ideal conditions everything should be working and you could proceed to create a task in Data Extractor. But usually drives with corrupted MCMT have a lot of bad sectors so it is a good idea to stop their relocation. We do this by editing the system file 93
+[[File:93 edit 1.png|center|thumb|878x878px|Set the flags like on the picture below and click OK]]
+[[File:93 edit 2.png|center|thumb|875x875px]]
+10. This file needs to be write in the ATA indirect mode (Seagate Rosewood family)
+[[File:Indirect mode.png|center|thumb|871x871px]]
+[[File:Indirect mode 2.png|center|thumb|880x880px|If you have problems with writing this file to the surface I have a small pro tip for you.[[File:Pro tip.png|center|thumb|886x886px|You can write this file as a module 2A using ATA direct mode 😊]]]]
+11. Now the drive is ready for the data recovery process but the MCMT is missing and we don’t have the access to the Media Cache where for example part of the MFT table might be located. We need to fix that issue. Lets open our saved copies of the file 348 and use the MCMT \ Edit and MCMT \ Parser options
+[[File:Mcmt edit1.png|center|thumb|901x901px]]
+12. Here we need to fill the “DirtySegmentCount” with 0 and check all the option below that and click OK 
+[[File:Mcmt edit2.png|center|thumb|406x406px]]
+13. After editing the file we need to fix the check sum
+[[File:Check sum 1.png|center|thumb|787x787px]]
+[[File:Check sum 2.png|center|thumb]]
+14. We look for a place in the file where there are 0000, we change the byte order and check the checksum again
+[[File:Check sum 3.png|center|thumb|805x805px]]
+15. We can save the prepared file as module 50 on the drive, but this solution can sometimes be unstable. The best option is to send this file to RAM and then create a task in Data extractor
+[[File:Ram 1.png|center|thumb|829x829px]]
+[[File:Ram 2.png|center|thumb|845x845px]]
+16. Now we can check if we have access to the data
+
+[[File:Sector edit.png|center|thumb|981x981px]]
+[[File:Sector edit 1.png|center|thumb|435x435px]]
+[[File:Sector edit 2.png|center|thumb|623x623px]]
+
+
+Now we can go to Data Extractor and create a new task. It would be a good idea to create a scenario so that in the event of a HDD reset, DE itself sends a handshake and sends MCMT to RAM, but this is material for another long article. I hope I managed to explain at least a little what it is and how to remove errors related to MCMT

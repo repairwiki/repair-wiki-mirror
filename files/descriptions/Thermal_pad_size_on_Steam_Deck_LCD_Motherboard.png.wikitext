@@ -1,0 +1,18 @@
+<!--
+title:        File:Thermal pad size on Steam Deck LCD Motherboard.png
+pageid:       2514
+revid:        5085
+source:       https://repair.wiki/w/File:Thermal_pad_size_on_Steam_Deck_LCD_Motherboard.png
+history:      https://repair.wiki/index.php?title=File:Thermal_pad_size_on_Steam_Deck_LCD_Motherboard.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5085
+last_edited:  2024-10-17T13:35:21Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         8501171dc64f899e1152e6b8d24f1280045d30b4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Thermal pad size on Steam Deck LCD Motherboard (picture and measurements by KenFixed)

@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad 7 5V input.png
+pageid:       7125
+revid:        10660
+source:       https://repair.wiki/w/File:IPad_7_5V_input.png
+history:      https://repair.wiki/index.php?title=File:IPad_7_5V_input.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10660
+last_edited:  2025-08-25T20:20:11Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         cb4b56e453d685cc85b42aa838841b4ef4e9f5c6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad 7 5V input

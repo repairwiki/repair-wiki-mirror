@@ -1,0 +1,18 @@
+<!--
+title:        File:Galaxy A12 Backlight coil shorted .png
+pageid:       4770
+revid:        7857
+source:       https://repair.wiki/w/File:Galaxy_A12_Backlight_coil_shorted_.png
+history:      https://repair.wiki/index.php?title=File:Galaxy_A12_Backlight_coil_shorted_.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7857
+last_edited:  2025-06-21T20:56:42Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         9db7202cd308e77cdccc5c0c7219c9d5234939eb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Galaxy A12 Backlight coil shorted

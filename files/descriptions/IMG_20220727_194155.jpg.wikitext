@@ -1,0 +1,17 @@
+<!--
+title:        File:IMG 20220727 194155.jpg
+pageid:       9149
+revid:        13272
+source:       https://repair.wiki/w/File:IMG_20220727_194155.jpg
+history:      https://repair.wiki/index.php?title=File:IMG_20220727_194155.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13272
+last_edited:  2025-12-16T18:36:05Z
+contributors: RoseHunter
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

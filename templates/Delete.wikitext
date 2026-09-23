@@ -1,0 +1,48 @@
+<!--
+title:        Template:Delete
+pageid:       682
+revid:        1546
+source:       https://repair.wiki/w/Template:Delete
+history:      https://repair.wiki/index.php?title=Template:Delete&action=history
+permalink:    https://repair.wiki/index.php?oldid=1546
+last_edited:  2023-12-17T21:48:12Z
+contributors: Cat
+anonymous_edits: 0
+categories:   
+sha1:         6bd03610d6291f5b45ef8d29c2b07c784e8a8013
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{| style="text-align:center; margin:auto; text-size:50"
+|+ <big><big>'''Warning'''</big></big>
+| This page has been marked for deletion.
+|-
+| The given reason is: {{#if: {{{1|}}}|{{{1}}}|<span style="color:red">No reason has been given</span>}}
+|}
+<hr>
+<noinclude>
+<templatedata>
+{
+	"params": {
+		"1": {
+			"aliases": [
+				"reason"
+			],
+			"label": "reason",
+			"description": "The reason for deletion",
+			"example": "Spam",
+			"type": "string",
+			"required": true
+		}
+	},
+	"paramOrder": [
+		"1"
+	],
+	"description": "Prepend this to a page that shouldn't be on here and it will get added to Category:Candidates for deletion.",
+	"format": "inline"
+}
+</templatedata>
+</noinclude>
+<includeonly>[[Category:Candidates for deletion]]</includeonly>

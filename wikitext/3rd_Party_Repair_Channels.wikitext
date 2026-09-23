@@ -1,0 +1,410 @@
+<!--
+title:        3rd Party Repair Channels
+pageid:       568
+revid:        13520
+source:       https://repair.wiki/w/3rd_Party_Repair_Channels
+history:      https://repair.wiki/index.php?title=3rd_Party_Repair_Channels&action=history
+permalink:    https://repair.wiki/index.php?oldid=13520
+last_edited:  2026-01-01T21:10:45Z
+contributors: ASRepairs, Tiago199988, Liquid, LetUsRepair
+anonymous_edits: 1
+categories:   General Repair Guides
+sha1:         110634e5c90de852961462a95a0ff1fd9cb907df
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<div style="float:right">__TOC__</div>
+
+This page contains a compiled list of 3rd party repair YouTube channels which contain helpful resources, organized alphabetically.
+
+These channels are not endorsed in any way. Do not blindly trust everything you see on Youtube, including the following list, use common sense and critical thinking.
+
+===Channels===
+
+====1====
+*[https://m.youtube.com/user/ATVVideoProductions/videos 12voltvids]
+====2====
+*[https://www.youtube.com/channel/UCPJDXka5b-XRXbOwT5irdcw 23compservice]
+====8====
+*[https://youtube.com/c/8BitKeys 8-Bit Keys] (Musical Keyboard Repair)
+====A====
+*[https://www.youtube.com/channel/UCddME9uIohkAvZk1ajH600w A One Mobiles & Repairs] (iPhone, iPad & Samsung phone board repair)
+*[https://www.youtube.com/channel/UC877Or5M5vOBo2DSafVNRPQ A.S.Repairs] (GPU/Graphics card Repair)
+*[https://www.youtube.com/channel/UCpWfbU54SvQ606V2YiNQvAQ ААНТ КОНТАКТ Сервис по ремонту электроники] (Russian, Computer board repair)
+*[https://www.youtube.com/channel/UCNntnT1Asa2kcK3Ernvxmzw Ассоциация Сервисных Центров] (Russian, Laptop board repair)
+*[https://m.youtube.com/user/acsdata/videos ACS Data Recovery]
+*[https://youtube.com/c/ActionRetro Action Retro](Retro Computer Repair)
+*[https://www.youtube.com/channel/UCURRdjIBFE8TDJlPOuiob3Q Adamant IT]
+*[https://www.youtube.com/c/Aditya11ttt Aditya11ttt] (Laptop board repair)
+*[https://m.youtube.com/c/adriansdigitalbasement/videos Adrian's Digital Basement]
+*[https://www.youtube.com/channel/UC_3wtPkmdCACTI0noYddCnA AFS SOLUTIONS] (Laptop board repair)
+*[https://www.youtube.com/channel/UCCPUeuiH1-Vl7ua661HMN8g AkitaTek] (French, General computer and game console repair incl. board repair)
+*[https://youtube.com/c/alwaysafix alwaysafix]
+*[https://www.youtube.com/channel/UCtfcWatnWeEY_vq_UOL4PDQ Andrew Paul]
+*[https://www.youtube.com/c/AnyRepair AnyRepair] (Greek, Laptop and phone board repair)
+*[https://www.youtube.com/channel/UCwyLxifYtKtnHi5TRDaD03A Anonymous Repair] (General consumer electronics repair incl. board repair)
+*[https://www.youtube.com/channel/UCLrS7einmzTbMO8s9LGekVA Apfeldoktor]
+*[https://youtube.com/user/aphexteknol aphexteknol] (Retro Computer Repair)
+*[https://www.youtube.com/c/apmac_repair apmac] (Korean, 에이플러스맥)
+*[https://www.youtube.com/c/AppleLogicBoardRepairCenter Apple Logic Board Repair Center]
+*[https://www.youtube.com/channel/UCwrZb7kKRqe7TSN6oxxTGFw Asia Telecom]
+*[https://youtube.com/channel/UCUKpuPe-1FrtflS7gNn2sYQ asjpalms] (Phone Repair)
+*[https://www.youtube.com/channel/UCqov_pJOeGOZIQjBaQrXmPw AssasinWarlord] (German)
+
+====B====
+*[https://www.youtube.com/c/ChrisLongPhoneRepair B&C Connection LLC]
+*[https://youtube.com/c/backofficeshow backofficeshow]
+*[https://www.youtube.com/channel/UC9GiteyeFSMlmqyBAt9oM9w barevids] (Car amplifier board repair)
+*[https://youtube.com/c/BenHeckHacks Ben Heck Hacks]
+*[https://www.youtube.com/channel/UCx6sqSfOr_OcxoEsIhQR0CQ/videos BennVennElectronics] (Nintendo Gameboy/Atari Lynx modification and repair)
+*[https://youtube.com/c/Bigclive bigclivedotcom] (Random Tech Repair)
+*[https://m.youtube.com/user/bigdog8882/videos bigdog8882] (TV Repair)
+*[https://www.youtube.com/@blackhorserepairs Black Horse Repairs] (Mostly car, ECM, related repairs)
+*[https://youtube.com/c/BlueglowElectronics Blueglow Electronics](Old A/V Equipment Repair)
+*[https://m.youtube.com/channel/UCnIJm8CnWGx6x9u_FalEj9w/videos Bob. Kalpon]
+*[https://www.youtube.com/branchuscreations Branchus Creations] (Vintage Apple/Macintosh repair, soldering tutorials)
+*[https://youtube.com/c/BorderlineOCD BorderlineOCD](Retro Console/Computer Repair)
+*[https://www.youtube.com/user/pbhenry3 Brenden Henry] (Razer Blade board repair)
+*[https://www.youtube.com/channel/UCmXYsXAQHr-dPcln5IzPzRQ BTL Electronics] (MacBook and other consumer electronics board repair)
+*[https://www.youtube.com/channel/UChwnFBBtasi2kn2TDK5OsWg Buy it Fix it] (Electronics Repair)
+
+====C====
+*[https://www.youtube.com/channel/UCkla_diIysF6d0qxTSx4h-w Calebe Rodrigues] (Espanol)
+*[https://www.youtube.com/channel/UCq9nKrdgNXKsYQp3YK6kHkQ Cambo Fixing]
+*[https://youtube.com/c/CanadianComputerCollector CanadianComputerCollector] (Retro Computer Repair, Mainly Apple Computers)
+*[https://youtube.com/user/Capman550 Capman550]
+*[https://www.youtube.com/c/Servicellarauca carlos quiceno] (Spanish, Phone board repair)
+*[https://www.youtube.com/channel/UC4ow7Tj_8Jr8CTCE74LtBfA Certified Laptop Repair](Laptop repair)
+*[https://www.youtube.com/c/sarovgorod/featured Сергей Клочков] (Russian)
+*[https://www.youtube.com/c/chipfocuschipfocus chip focus] (General laptop and phone repair incl. Board Repair)
+*[https://youtube.com/c/ChrisTorrence Chris Torrence]
+*[https://www.youtube.com/c/Service-coreUa CORE] (Russian, Laptop, desktop and graphics card board repair)
+*[https://www.youtube.com/channel/UCuQojOmnW8bp-6XwHUF-gRQ Creative Hardware]
+*[https://www.youtube.com/channel/UCXOBGysu_q9V9E4Fw3SNBmg creative hardware & scientist] (Desktop board repair)
+*[https://m.youtube.com/user/curiousmarc/videos curiousmarc] (Historical significant computers)
+*[https://www.youtube.com/c/CyberDocLLC CyberDoc LLC] (iPhone and iPad board repair)
+*[https://www.youtube.com/channel/UC8PykZ77XYdR6JoxzDcwM-w Cyberman]
+*[https://www.youtube.com/user/cyrix32001 cyrix32001] (Desktop board repair)
+*[https://www.youtube.com/channel/UC1hV3qVDnADy4P51fBIlh3A C&Y Computer Services] (graphics card and laptop repair)
+
+====D====
+*[https://m.youtube.com/c/dlab500/videos D-lab Electronics]
+*[https://youtube.com/c/DammitJeff DammitJeff]
+*[https://www.youtube.com/channel/UC8q23MpiyWjv9vd4r85oj1A Daniel Rakowiecki] (Polish, laptop(boards) / electronics repairs)
+*[https://www.youtube.com/c/DaniilGerasimov/videos Daniil Gerasimov] (Russian)
+*[https://www.youtube.com/channel/UCOok_Bwr9dqR1mq_BzqKOng Data Rescue Labs Inc.]
+*[https://www.youtube.com/c/DavideMenegalli Davide Menegalli] (Italian, Phone board repair)
+*[https://www.youtube.com/channel/UCJkmbV_cndEe6Af8b5qVyoQ De-Kompozytor] (Polish, electronics repairs / Vintage electronics repair)
+*[https://www.youtube.com/channel/UCUasjdlBiiomR0AROCRuGRw DEEP FIX]
+*[https://m.youtube.com/user/TheDefpom/videos Defpom's Electronics & Repair]
+*[https://www.youtube.com/c/GeorgeDerby Derby Computers] (Greek, General consumer electronics repair incl. board repair)
+*[https://youtube.com/c/DiodeGoneWild DiodeGoneWild]
+*[https://www.youtube.com/c/DominikMuhelye DominikMuhelye] (Hungarian)
+*[https://www.youtube.com/channel/UCBPLij8RWsQrMxl_bjk-R8w dosdude1] (Mac board repair and mods)
+*[https://www.youtube.com/channel/UCSfhNaQ8qN7h-FLjEgo0fqg Dr-Bios com] (general basic about board repair, Desktop board repair)
+*[https://m.youtube.com/channel/UCuwCEerek4ggchL1uHpYnBw/videos Duality Repair]
+*[https://www.youtube.com/user/Dusten04 Dusten Mahathy]
+
+====E====
+*[https://www.youtube.com/channel/UCI1TgRCqdyXopa3pPDhKVFA EdgarYoReparo] (Spanish, Phone board repair)
+*[https://www.youtube.com/c/EevblogDave EEVblog] (Engineering, repair)
+*[https://www.youtube.com/channel/UCHvOnKxSOqXV99sTV6Ayxqw Electronic Workshop - YouTube]
+*[https://youtube.com/c/Electronicle Electronicle]
+*[https://m.youtube.com/channel/UC1czABA87SroDeBAqsk1TDA/videos Electronics Old and New by M Caldeira]
+*[https://www.youtube.com/channel/UCjnbxkuatqFUOka45PbTQvg Electronics Repair Resources Area = 𝑬𝑹𝑹𝑨]
+*[https://www.youtube.com/channel/UCooKQlg-HZ0PFAPc4Ymg3RA Electronics Repair School]
+*[https://www.youtube.com/channel/UC1-i5wQc_4qWmpcsBjxPz-A electronicloop.de]
+*[https://www.youtube.com/channel/UCF142MacmPclNOM0UO84KNA Elekworld]
+*[https://m.youtube.com/channel/UCLqBEpeQPZTdhCd0nHWIf6g/videos Eli Tech] (Graphics card board repair)
+*[https://youtube.com/c/Eman2000 Eman200]
+*[https://www.youtube.com/c/EngineeringScaleModels Engineering Scale Models] (Engineering, repair)
+*[https://youtube.com/channel/UCoNQOnzalzMXOyghK3TdPOg Error 42]
+*[https://www.youtube.com/channel/UC3699MS1BvNz4ABm62qFWcw ExpressITpl] (Polish, Laptop board repair)
+
+====F====
+*[https://www.youtube.com/channel/UCzPCIo1ztuoFNVeetB6xAPQ Federico Cerva] (iPhone and iPad board repair)
+*[https://www.youtube.com/c/FFcossag FFcossag] (General electronics repair incl. board repair)
+*[https://www.youtube.com/user/GarnerDesigns Fixed Until Broken]
+*[https://youtube.com/c/FixitPhilYT Fix It Phil]
+*[https://m.youtube.com/channel/UCFwbWEaLjLCJssewakuqzhw/videos Fix The Tempo]
+*[https://www.youtube.com/channel/UCoBTIuhduIoXk3x81trUnzQ FIXD Phone Repair]
+*[https://www.youtube.com/channel/UCXRXOm4HdQgETOygVENGvRQ Fixingthingz4u] (iPhone board repair)
+*[https://www.youtube.com/@fixologytechrepairs Fixology Tech Repairs]
+*[https://m.youtube.com/channel/UCcdNFTXs5o3uqklRZR-8GHw/videos FIXST Maintenance College]
+*[https://m.youtube.com/c/Fonekong/videos Fonekong]
+*[https://www.youtube.com/channel/UCXH9OcSpylmh-xJusPi8IKQ Forest]
+*[https://www.youtube.com/c/FrancescoFerretti Francesco Ferretti] (Vintage electronics repair incl. board repair)
+*[https://www.youtube.com/user/MrFreeqwer Freeqwer] (Russian)
+*[https://youtube.com/c/FrugalRepair FrugalRepair]
+*[https://www.youtube.com/c/fxbbm/featured fxbbm] (English)
+
+====G====
+*[https://www.youtube.com/channel/UCz8wXApIfSms8o_8sGXmO6A G-Lon]
+*[https://www.youtube.com/user/JLJames5880 Game Console Repair Legion Playstation, Xbox, NES]
+*[https://www.youtube.com/channel/UCPCjw2_9Is-gMAvFlpIzRAA GDTech informatica] (Brazillian, general laptop board repair)
+*[https://youtube.com/c/geekwithsocialskills Geek with Social Skills]
+*[https://www.youtube.com/channel/UCl8BrD8lUhcPic0VsHuctqA GerRepair] (German, Graphics card board repair)
+*[https://m.youtube.com/user/gezzasw/videos Gerry Sweeney]
+*[https://www.youtube.com/user/MrGitasdidi Gitaruga] (Russian, Desktop board repair)
+*[https://m.youtube.com/user/mikelv98/videos Go Cell Phone Repair]
+*[https://www.youtube.com/c/Zettabitlab/videos Gorilla Service]
+*[https://www.youtube.com/user/GrantsPassTVRepairs Grants Pass TV Repair] (TV repair incl. board repair)
+*[https://www.youtube.com/channel/UCPVPq5p1ulpKxBys6yvsq5w GSM İletişim] (Turkish, Phone repair)
+
+====H====
+*[https://www.youtube.com/user/EastCoreHaiste/featured Haiste Repair] (Laptop and Desktop Repair and Refurbishment Guides)
+*[https://www.youtube.com/c/HamRadioTag HamRadio Tag] (Russian, Laptop board repair)
+*[https://www.youtube.com/c/cqljohn1HandHeldRehab HandHeldRehab] (iPhone and iPad board repair)
+*[https://youtube.com/c/DaniilGerasimov HappyPC] (Russian, Computer and Graphics card repair)
+*[https://www.youtube.com/c/HarshadPatel Harshad Patel] (Hindi, Computer board repair)
+*[https://www.youtube.com/c/HaykGabrielyan-official Hayk Gabrielyan]
+*[https://www.youtube.com/user/hddrecoveryservices HDD Recovery Services]
+*[https://youtube.com/c/HeyBirt Hey Birt!]
+*[https://m.youtube.com/c/HughJeffreys/videos Hugh Jeffreys]
+
+====I====
+*[https://www.youtube.com/c/iBoffRCC iBoff RCC] (Mac board repair and mods)
+*[https://www.youtube.com/channel/UClQ3aXXtQ5XTN3Z0UOt0Ctw] (Phone Repair, iPhones)
+*[https://www.youtube.com/channel/UCCa6do4XROkGYo4J--a8bRA iDoctor UK] (Phone repair, iPhones)
+*[https://www.youtube.com/channel/UClU3q7_NFB2UV5uzuBafgRg i Fix Electronics] (Desktop board and laptop repair)
+*[https://m.youtube.com/user/WhiteFireDragon/videos iluvbeanz] (keyboard, engeeneering)
+*[https://www.youtube.com/channel/UCc9bTJ17TZdUD3mpVfo-DGA immi info] (Desktop board repair)
+*[https://www.youtube.com/channel/UCHzvqnM2vteC67ZBIt_C84g InfoSquad] (Spanish, Laptop board repair)
+*[https://www.youtube.com/c/InoelRepara Inoel Repara] (Board repair)
+*[https://www.youtube.com/channel/UCPjp41qeXe1o_lp1US9TpWA iPad Rehab]
+*[https://www.youtube.com/channel/UCqZW4dAWm3vxQYH49GvhuOQ iRevive] (Macbook board repair)
+*[https://www.youtube.com/channel/UCLo4w5uaGST214MmoiAbkoA iris Computer Service Bilaspur chattisgarh] (Hindi, Computer board repair)
+*[https://www.youtube.com/channel/UC2u027-yXG3FgDp4l9l33kA Italian Retro Guy] (Retro consoles repair, and general repair)
+*[https://www.youtube.com/channel/UCyd3U7eaptFrvFCRn4Ssk3A iTCXtreme] (General consumer electronics repair incl. board repair)
+*[https://m.youtube.com/c/IteslaSolutions/videos iTesla Solutions]
+*[https://www.youtube.com/channel/UC2W9ERfsfIQngo8ALu1-Y4w iToffer] (Russian, Graphics card board repair)
+*[https://www.youtube.com/channel/UCKzNfl53FACO0zYC--NbzIw iTouch] (Laptop and phone repair incl. board repair)
+*[https://www.youtube.com/c/iz8dwf iz8dwf] (Vintage electronics repair incl. board repair)
+
+====J====
+*[https://www.youtube.com/channel/UC3qP_ZOQG5Lde-Cx_-beL9A J REPAIR]
+*[https://www.youtube.com/channel/UC2q1EOP5KEkKBgFRdnAvpwQ JaiPhone]
+*[https://www.youtube.com/channel/UCr_GXW2Y56hOpGchXYNqZOQ James Condon] (small engine repair and generator repair)
+*[https://m.youtube.com/c/JanBeta/videos Jan Beta] (Retro Computer Repair)
+*[https://youtube.com/channel/UClnuTzmBpOKDzDY5IVLx1Fw Jason Hornby]
+*[https://www.youtube.com/channel/UCzuMNqyQT_31FdujCS-4pdg Jason's Electronics Repair (mostly games consoles)]
+*[https://www.youtube.com/c/JazzEnso JAZZ ENSO] (Philipines]
+*[https://www.youtube.com/c/JerryWalker-JMPrecision Jerry Walker] (Vintage electronics repair incl. board repair)
+*[https://www.youtube.com/channel/UC6IW7NnHa51t2JAHi31JmUw Joe's Gaming & Electronics] (Game consoles, headphones etc.)
+*[https://m.youtube.com/channel/UCsK99WXk9VhcghnAauTBsbg/videos joe smith] (DMM testing)
+*[https://www.youtube.com/channel/UCU0EcCb7B_Ln-8hR_edLsHw Joey Does Tech] (Game consoles)
+*[https://m.youtube.com/c/JoeyTECHPH/videos Joey TECH PH]
+*[https://www.youtube.com/user/JohnAudioTech/videos JohnAudioTech]
+*[https://www.youtube.com/user/JonnyFixy Jonny Fix]
+*[https://www.youtube.com/c/JordanPier Jordan Pier] (Vintage AV equipment repair incl. board repair)
+*[https://m.youtube.com/c/Jos%C3%A9Faria/videos José Faria]
+*[https://www.youtube.com/channel/UCeZAr_6VZ3UipLWyjrlqiTQ Joseph Hughes]
+*[https://www.youtube.com/channel/UCjpQHACYDW_Se5GLDp2CtLQ Josh Davidson] (Mostly Xbox 360)
+*[https://www.youtube.com/channel/UCKjyOrGmpQCe-hjRYnUn17Q JSPrivateTech Repairs] (iDevices repair)
+*[https://www.youtube.com/c/Juan4Repair Juan 4 Repair] (iDevices repair - Macbooks)
+*[https://www.youtube.com/channel/UCTzaX6UqsLEW8xHFjjz6Upw JustNote] (Russian, Computer board repair)
+
+====K====
+*[https://www.youtube.com/channel/UCFOjsHNR62Bd8z63xv-wMmA Kabonster] (iPhone board repair]
+*[https://www.youtube.com/channel/UCmHMyRkl3X6hUC46Gj3BTMg Kccs Tech] (iPhone board repair)
+*[https://www.youtube.com/channel/UCqTJrxxpJXfB4LB_NzNxbPA KrisFix-Germany] (German, Graphics card repair)
+*[https://www.youtube.com/channel/UCsOQ8NbS2hCLNb2j6YYJRwA Kumagoro brother's DIY] (Japanese, General consumer electronics repair incl. board repair)
+
+====L====
+*[https://m.youtube.com/c/lalbabupssahani/videos lalbabu.p.s.sahani] (MacBook & Windows Laptop repair & training services )
+*[https://m.youtube.com/user/lapfix/videos lapfix]
+*[https://www.youtube.com/channel/UCEqwn5BZnQjaKvhSemrsJkA Lapi Care]
+*[https://www.youtube.com/channel/UCZIyJxTSt2fYQj-vFCpaQcA Laptex]
+*[https://www.youtube.com/channel/UCROO-pcFHLJ7ys_spOyW4kg Leandro Jumper] (iDevices)
+*[https://www.youtube.com/channel/UCFX1Z9N6aPWuCN_KR8UZ2vg Learn Electronics Repair] (motherboard, graphics cards and other repairs)
+*[https://m.youtube.com/channel/UCNxRtR6XCnCAEZ3M4mtBTZA/videos Leboy Technician]
+*[https://www.youtube.com/@LecomteRepairServices Lecomte Repair Services] (French with subtitles, Macbook and iPhone logic board repair)
+*[https://www.youtube.com/c/LeronZhuomaoBGAReworkReballing Leron Lee Electronics Service Machines & Tools] (Mandarin?, LCD CoF and BGA rework)
+*[https://youtube.com/c/Lazygamereviews LGR] (Retro Computer Repair)
+*[https://youtube.com/c/LiquidAudio Liquid Audio]
+*[https://youtube.com/c/LongIslandRetroGaming Long Island Retro Gaming]
+*[https://www.youtube.com/channel/UCl2mFZoRqjw_ELax4Yisf6w Louis Rossmann]
+*[https://www.youtube.com/c/LouisRossmannLIVEboardrepair Louis Rossmann Live]
+*[https://youtube.com/c/lukemiani Luke Miani]
+
+====M====
+*[https://www.youtube.com/channel/UCW-HHEyt67RhZ6q21n4p2zQ Mac84] (vintage Mac repair and tinkering)
+*[https://www.youtube.com/c/MaicSalazarDiagnostic/videos Maic Salazar Diagnostics] ECM repair
+*[https://www.youtube.com/channel/UCDr_mrH8maYQZCUc6mHtDdQ Mafiya67] (Russian)
+*[https://m.youtube.com/channel/UCxQND04oRmv_KgEpWjW0-mg/videos Magic Smoke]
+*[https://www.youtube.com/c/MajidGoraya Majid Goraya]
+*[https://youtube.com/c/markfixesstuff Mark Fixes Stuff]
+*[https://www.youtube.com/channel/UCZwaC2sXIynkVIv6kF8bTAQ Mark Shaffer]
+*[https://www.youtube.com/channel/UCuKaOzzAzX1EqqbaPi4VQoQ Marnics] (generally board repair)
+*[https://www.youtube.com/channel/UCT1he_hovJKEpmSX_0Q8p9g Master Liu]
+*[https://youtube.com/c/MattKC MattKC]
+*[https://www.youtube.com/channel/UC1w4hC8IIZFXhxndBguuuhg Майнеры в носках] (Russian, Graphics card board repair)
+*[https://www.youtube.com/channel/UC00PTYtMmqAdAfTbuAon4_g Meraklı Bilgisayarcı]
+*[https://www.youtube.com/channel/UC5f3eCXyxsqadRHzTeZSdZw Metadata VE] (Spanish, Laptop board repair)
+*[https://www.youtube.com/channel/UC3knEJpo0vLo-bUfkgUGAVA Micro Mage Repair] (consoles, and general micro soldering repair)
+*[https://www.youtube.com/channel/UCXV6DsyLznCk_Ec2fLsKqEQ Microsoldering]
+*[https://m.youtube.com/channel/UCRTHkTBt3Kj0Ig0ugnshLkQ/videos MicroSolderingSupply.com]
+*[https://youtube.com/c/MikesMacShack Mike's Mac Shack]
+*[https://m.youtube.com/user/trclubricants/videos MikesRadioRepair]
+*[https://youtube.com/c/MindFlareRetro MindFlareRetro]
+*[https://youtube.com/channel/UCBzhkodR48R8j0b38ytBvRA Mister Radio]
+*[https://www.youtube.com/c/MmanzilsTech MmanzilsTech]
+*[https://www.youtube.com/c/MobilityElectronics Mobility Electronics]
+*[https://www.youtube.com/channel/UCe8D5lo_zrqS8xtsNspeCgg MONEY TALKS WIRELESS] (iDevices)
+*[https://www.youtube.com/@morethanafix More Than A Fix] (Board repair, mostly Apple MacBooks)
+*[https://youtube.com/motiondesignstudio Motion Design Studio] (Automotive, Electronics, Small Engines, Comp Sci, and Inventions)
+*[https://m.youtube.com/c/MoviloneEsGranada/videos MovilOne Phone Repair (1)]
+*[https://m.youtube.com/channel/UC3fkKCLVhc78HMgrI0gy9xA/videos MovilOne Mobile repair (2)]
+*[https://www.youtube.com/channel/UCOe-ZgEHVSjiUqRNaShWVeg/ mqhapx] (Russian)
+*[https://m.youtube.com/user/MrCarlsonsLab/videos Mr Carlson's Lab]
+*[https://youtube.com/c/MrLurchsThings Mr Lurch's Things]
+*[https://www.youtube.com/channel/UCGKoDyrC8Pc93-zqdDvMj9A MrJohhhnnnyyy] (Consumer electronics board repair)
+*[https://www.youtube.com/channel/UC-YlkP3c1zKUPfyMMurARAQ MrMario2011] (Game console modification and repairs)
+*[https://www.youtube.com/user/MrReeceyburger123 MrReeceyburger123] (TV board repair)
+*[https://www.youtube.com/channel/UChY9Cgv-iyPDvf1Bkyx20OQ My Mate VINCE]
+*[https://m.youtube.com/c/MSTPhone/videos MST] (mobile phone repair)
+*[https://www.youtube.com/channel/UC7OwfjgVADe5s5f9f8P-0zA MTS] (General consumer electronics repair incl. board repair)
+*[https://www.youtube.com/channel/UCdHMJcG58WpMdvIVzvZWEIg MV TechLabs] (Graphics card board repair)
+*[https://www.youtube.com/channel/UC1w4hC8IIZFXhxndBguuuhg Майнеры в носках] (Russian)
+*[https://www.youtube.com/channel/UCGSee3Z7iCDDETBRyV_PZZQ Миха FixDevice] (Russian)
+
+====N====
+*[https://m.youtube.com/user/NebukadV/videos NebukadV]
+*[https://www.youtube.com/channel/UC3UNqHA4DfwXXr3_vokAEHA New Retro Repair]
+*[https://m.youtube.com/c/NikTelio/videos Nik Telio]
+*[https://youtube.com/c/NearFarMedia NFM]'''[https://www.youtube.com/@northwestrepair northwestrepair] (English, Really good for graphics cards)'''
+*[https://www.youtube.com/c/NorthridgeFix NorthridgeFix] (notebooks, graphics cards, board repair)
+*[https://www.youtube.com/channel/UCJTrnevHaK73BbOxfteY5Gw NorCal715] (AV equipment repair incl. board repair)
+*[https://www.youtube.com/channel/UCR1HSvPGgweMlKoHRkSkwjw notebook-31] (Russian, Computer board repair)
+
+====O====
+*[https://www.youtube.com/channel/UCONEgqbAkLjcg3Q9ogAHN-A OM CHIPLEVEL REPAIRING] (board repair)
+*[https://www.youtube.com/channel/UCy3Br3ZuoYtzQelIbI0fFVA Orbiter Electronics] (Consumer electronics repair incl. board repair)
+*[https://youtube.com/channel/UC3uw34JchaewByfYurGY1Uw Optimize Logic Repair] (Macbook board level repair)
+*[https://www.youtube.com/channel/UCW5_Tus83L7dP3c9NhgiCuA Oros Cosmin / SoroS] ( Mac board repair France)
+
+====P====
+*[https://www.youtube.com/channel/UCG59vVRe_wP55tqqWLimnAQ Paul Daniels]
+*[https://www.youtube.com/channel/UC3I2VGluHnEYmslh4kZj3nQ Paul S] (Mac board repair)
+*[https://www.youtube.com/channel/UCxrYBwXuW2jVg8z9B9LYAWg Paul's TV Co] (TV board repair)
+*[https://www.youtube.com/channel/UCInsBABCP2aylnudcVZb6jg Paweł Ostrówka]
+*[https://www.youtube.com/channel/UCLAkaWhM73EJ_SvNOkoOGWQ PC-Expert] (Russian, Laptop board repair)
+*[https://www.youtube.com/channel/UC5Vs294goti2Zc4cLhn7PhQ PC Vitamins Professional Repairs]
+*[https://www.youtube.com/channel/UCabpXFEszoj-HwHWdKtmAXg piernov]
+*[https://www.youtube.com/channel/UC4HXvSnsuZ7pw8I55wktRQA Phonefix Mia]
+*[https://youtube.com/c/PhoneRepairGuru Phone Repair Guru]
+*[https://www.youtube.com/channel/UCwMb2t8FtYDbgiYDiOQMtYQ Phone Repair Share]
+*[https://youtube.com/user/Antidote21984 Plan C]
+*[https://www.youtube.com/channel/UCDCBjnm6Ge1JoM5jt4M0iRw Powerbook Medic] (General consumer electronics and Mac repair incl. board repair)
+*[https://www.youtube.com/channel/UCp8LfEseAcmfEw_xK4utyIw PowerPro] (Russian)
+*[https://www.youtube.com/@LiangZaiXiuJi Pretty Boy Repair PC-Repair] (Chinese, Graphics Card, Computer Board Repair)
+*[https://www.youtube.com/channel/UC11m-0gbymNHKmpaJJ3Dz7w Pro Hack] (TV board repair)
+*[https://www.youtube.com/channel/UCHZJwl50XTnQYZXcMFXKI_Q ProFixerr] (Phones, Tablets, Consoles)
+*[https://www.youtube.com/channel/UCOxmlaJURX3nq8eLuJPbl3A Psivewri] (Older Machines are repaired and restored, similar to Hugh Jeffreys.)
+
+====Q====
+*[https://www.youtube.com/channel/UCrfl6LgXgk69uPvkz0HCjNw Qs Tech Service] (General consumer electronics repair incl. board repair)
+
+====R====
+*[https://m.youtube.com/user/radiotvphononut/videos radiotvphononut]
+*[https://www.youtube.com/c/RafalBielawski/videos Rafal Bielawski] (Polish, mostly iPhone board repairs)
+*[https://www.youtube.com/user/redliquid1/videos redliquid] (Polish, mostly networking stuff)
+*[https://m.youtube.com/user/remingtoncountry1100/videos remingtoncountry1100]
+*[https://www.youtube.com/channel/UC2D9iDnY_ZD7sozyhN-Bq4A Remonter] (Russian)
+*[https://www.youtube.com/channel/UC3ByF8DcZ3yxUs7VP1NOuyA REWA Technology]
+*[https://www.youtube.com/c/ITsystem repair Computer system] (Korean, Computer repair incl. board repair)
+*[https://m.youtube.com/channel/UC1y6xP3H_3X0S3Wr7Be37Cw/videos RepairAllTV]
+*[https://www.youtube.com/channel/UCbiyEAaZVDASz1m3bQlmbCg Reptronix Academy] (Mobile repair)
+*[https://www.youtube.com/channel/UCDtiT1a7crehZtUZM5d5CzA Restore Urphone] (phone repair)
+*[https://www.youtube.com/channel/UCLrS7einmzTbMO8s9LGekVA RESQ] (iPhone board repair)
+*[https://www.youtube.com/c/RetroSix RetroSix] (Nintendo Game Consoles, Mulitmeter Understanding)
+*[https://www.youtube.com/channel/UCbcHWi4FChW3PygTxeaGuhw Retro Surgery] (Retro video game hardware repairs)
+*[https://m.youtube.com/c/RetroTechUSA/videos Retro Tech]
+*[https://m.youtube.com/user/RetroGameModz/videos RetroGameModz]
+*[https://www.youtube.com/c/RetroSpector78 RetroSpector78] (Vintage computer repair incl. board repair)
+*[https://www.youtube.com/channel/UCaIkz00tuwa0FD6bLE-Lj5g RKLC Repair Knowledge] (Desktop board repair, notebooks)
+*[https://www.youtube.com/channel/UCHUBtjguaD7WFhK2kS_8COQ Riki Kim] (iPhone repair)
+*[https://www.youtube.com/channel/UC4tslFjar1O5EX9Gio7ntzA Rob Brown] (General electronics repair incl. board repair)
+
+====S====
+*[https://www.youtube.com/channel/UCb_JRECXuyiZpx49ggC7Zpg SAC DO] (Indonesian)
+*[https://www.youtube.com/user/sdgelectronics SDG Electronics]
+*[https://www.youtube.com/user/Sanches524/videos Sanches42 [Александр]] (Russian)
+*[https://www.youtube.com/channel/UCraGaDLfWec67xl9FEPndtw See Jane Drill] (English language, mostly household DIY/repairs)
+*[https://www.youtube.com/channel/UCsnuJbBwU0wNT5aMS9FdrKg Sela Mobile Restoration] (iPhone board repair)
+*[https://www.youtube.com/c/SfdxShow Sfdx Show] (Espanol]
+*[https://www.youtube.com/user/shango066 shango066] (Vintage AV equipment repair incl. board repair)
+*[https://www.youtube.com/channel/UCesASBqkFxkIO2XmUcwcPCw SHRI RAM INSTITUTE OF TECHNOLOGY] (Hindi, Computer board repair)
+*[https://www.youtube.com/channel/UC1lN1KHuBlldGsYRSSbSBLA SiE-Tech Notebook Reparatur] (German, Laptop repair)
+*[https://www.youtube.com/channel/UCqLJ3VXCMvm3S0D7zw4mKuQ sieguntur] (Hindi, Laptop board repair)
+*[https://www.youtube.com/c/SpecializedECURepairFortLauderdale Specialized ECU Repair] (Car ECU repair)
+*[https://www.youtube.com/channel/UCznDTy_WUj7bmCwvgKmmqZw SR Advice] (Desktop board repair)
+*[https://www.youtube.com/channel/UCTjmLCEVb9r1OpFDJMMWyIw StezStix Fix?] (General Repair)
+*[https://www.youtube.com/channel/UCzKeFor3FgFrLAKZ0HgQYEQ STG Repairs] (Phone board repair)
+*[https://www.youtube.com/channel/UC39yMXOL0ubFxLWwF1RwelA STS Telecom]
+*[https://www.youtube.com/channel/UCQlNMnpXulxarHByVYcI-Bg Support Pro] (Desktop board repair)
+*[https://m.youtube.com/user/supyrow/videos su pyrow]
+*[https://www.youtube.com/channel/UCLrocjVng7FvmJNQo8s2e4g SureCanDo] (Computer repair incl. board repair)
+
+====T====
+*[https://m.youtube.com/c/Tampatec/videos TampaTec] (general repair)
+*[https://www.youtube.com/channel/UC3sNyp8KcUj7gZ_0FrZMvzw Tech Device Repair - TDR] (Games consoles, Dekstop board repair)
+*[https://www.youtube.com/c/TCRSCircuit TCRS Circuit]
+*[https://www.youtube.com/channel/UCF38se2nDM3uPdd2ahyQhXA Techinformative] (Repair of older mobile devices. Mostly Windows Phone repair.)
+*[https://www.youtube.com/channel/UCRRTfkRDKqsI9FSXP1sc4kw Terabit Lab] (Russian)
+*[https://www.youtube.com/@Tesla_Radio Tesla Rádio] (Slovak, vintage television and radio repair)
+*[https://www.youtube.com/channel/UCDbWmfrwmzn1ZsGgrYRUxoA The Post Apocalyptic Inventor] (repairs and rebuilds many tools)
+*[https://m.youtube.com/c/Thesignalpath/videos The Signal Path]
+*[https://m.youtube.com/user/kev31779/videos The Active Region]
+*[https://www.youtube.com/channel/UC6NQFJ2548VxaQnaqCf1GSw The Chipmaster] (Laptop board repair)
+*[https://www.youtube.com/channel/UCKCIqGzXj0G3Ii6NAB_uBuw The House of Moth]
+*[https://www.youtube.com/channel/UCllFkMo5A0V5UKYNltNEt4Q The Workbench] (General consumer electronics repair incl. board repair)
+*[https://www.youtube.com/channel/UCQDCfn5ingx1p0LYADGYl1w Teknik Takip] (Turkish, Computer board repair)
+*[https://www.youtube.com/channel/UCRRTfkRDKqsI9FSXP1sc4kw Terabit Lab] (Russian, Computer and graphics card board repair)
+*[https://www.youtube.com/user/Teslatronixlab Teslatronixlab] (TV board repair)
+*[https://www.youtube.com/c/TheArtofRepair TheArtofRepair]
+*[https://www.youtube.com/channel/UCYqSxtPmcRCYSy6yBYgZh7g Tech Cemetery] (Graphics card board repair)
+*[https://www.youtube.com/channel/UCGPZLNMwJ-AercMtjvrLWfA Technikkeller]
+*[https://www.youtube.com/channel/UCeHILuUwWmHDQqbocxUvVoA TheCod3r] (Console Repair)
+*[https://www.youtube.com/user/cwwirth This Does Not Compute] (General repair of vintage electronics.)
+*[https://www.youtube.com/channel/UCfOrKQtC1tDfGf_fFVb8pYw TronicsFix]
+*[https://m.youtube.com/user/TRXBench/videos TRX Bench]
+*[https://www.youtube.com/channel/UCs2ifGhv560iyuPfA05bpsg T&T Informatika] (Hungarian)
+
+====V====
+*[https://www.youtube.com/c/VCCBoardRepairs VCC Board Repairs - Jesse Cruz] (iPhone & iPad logic board repairs, troubleshooting & diagnostics)
+*[https://www.youtube.com/channel/UCjscfmLmyeajUdxDxrlQc9g VIK-off] (Russian)
+*[https://www.youtube.com/c/VIKon-msk/videos VIK-on] (Russian, Graphics card and laptop board repair)
+*[https://www.youtube.com/channel/UChHgSwkXdAUi5XtS5vCAjiw virtualfeaturetv]
+*[https://www.youtube.com/channel/UCWQVQ8l96VN7U2ASF45-15A Vita_Tec]
+*[https://www.youtube.com/channel/UCiUAFHtzv_2xJHEjWIk1fOw Voultar] (Retro video game repair and modifications)
+*[https://www.youtube.com/channel/UCLrtVXjG6Hn37e0Mj3a3nKw Volt's Repairs] (Vintage audio equipment and industrial equipment repair)
+*[https://m.youtube.com/c/Vrm24com/videos VRM24.com] (phone teardown tutorial)
+
+====W====
+*[https://m.youtube.com/user/w2aew/videos w2aew]
+*[https://www.youtube.com/channel/UCxjO9OpYB4G1XZ1qi5C1khw Шаман Laptop.] (Russian)
+
+====X====
+*[https://www.youtube.com/c/xDevscom_EE xDevs_com] (Measurement equipment repair)
+
+====Y====
+*[https://www.youtube.com/channel/UCuNTrT6uxqRjguuW2o8YIHQ Yap Gitsin] (Laptop board repair, discrete to UMA conversion)
+
+====Z====
+*[https://m.youtube.com/c/ZefengLiu/videos Zefeng Liu]
+*[https://www.youtube.com/channel/UCds8ge1czX9hNqWX8xRVmhw Zoras Tech] (Graphics card board repair, modding, and overclocking)
+*[https://www.youtube.com/channel/UCngeArCaT3SnXTMcU5nzf7g Zona Hardware] (Desktop board repair, Graphics card repair, Modding and overclocking)
+
+====@====
+*[https://www.youtube.com/channel/UC1IdKbgRAZD4L3ixvzxqEIw @dityainfotech kaimur]
+
+====*====
+*[https://www.youtube.com/user/tamaosuneo タマオのDIY／Tamao DIY] (Japanese, Desktop Board Repair, Graphics Card, Laptop)
+*[https://www.youtube.com/channel/UCgaTQ4N7-Q50UTLkYSHslCQ 笔记本维修厮] (Chinese, Laptop board repair)
+*[https://www.youtube.com/channel/UCb9Td4pYK4eLgX2pg8b1mAQ 우리동네도라이바TV] (Korean, Computer Board Repair)
+*[https://www.youtube.com/channel/UCsHHeVGBzWf2k_y36BlUHiw 墨墨唧唧歪歪] (Chinese)
+*[https://www.youtube.com/channel/UCnia4qj0Wgm8q_iUq-6lUbQ Гитарюга] (Russian)
+[[Category:General Repair Guides]]

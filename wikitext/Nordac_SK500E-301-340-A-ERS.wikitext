@@ -1,0 +1,61 @@
+<!--
+title:        Nordac SK500E-301-340-A-ERS
+pageid:       2031
+revid:        4293
+source:       https://repair.wiki/w/Nordac_SK500E-301-340-A-ERS
+history:      https://repair.wiki/index.php?title=Nordac_SK500E-301-340-A-ERS&action=history
+permalink:    https://repair.wiki/index.php?oldid=4293
+last_edited:  2024-07-10T14:19:18Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Nordac, Nordac Industrial Devices, Stubs
+sha1:         3ff20f1cf5e12c06dd3471e960306da6d6eac263
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Nordac
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240710 092838.jpg
+File:20240710 092846.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240710 091232.jpg
+File:20240710 091238.jpg
+File:20240710 091415.jpg
+File:20240710 092009.jpg
+File:20240710 091558.jpg
+File:20240710 091617.jpg
+File:20240710 091645.jpg
+File:20240710 091518.jpg
+File:20240710 091553.jpg
+File:20240710 091430.jpg
+File:20240710 091337.jpg
+File:20240710 091342.jpg
+File:20240710 091319.jpg
+File:20240710 091325.jpg
+File:20240710 091249.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

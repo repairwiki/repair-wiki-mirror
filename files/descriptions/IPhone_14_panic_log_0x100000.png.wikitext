@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 14 panic log 0x100000.png
+pageid:       701
+revid:        1649
+source:       https://repair.wiki/w/File:IPhone_14_panic_log_0x100000.png
+history:      https://repair.wiki/index.php?title=File:IPhone_14_panic_log_0x100000.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1649
+last_edited:  2023-12-28T20:00:53Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         b9d11fd834401a5e8d71df488771988616b52c91
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 14 Panic Log Example. Charging Port Flex unplugged. This causes 3 min restart. Panic Log Code 0x100000

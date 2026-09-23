@@ -1,0 +1,18 @@
+<!--
+title:        File:Lsusb- Steam controller bootloader.webp
+pageid:       2350
+revid:        4820
+source:       https://repair.wiki/w/File:Lsusb-_Steam_controller_bootloader.webp
+history:      https://repair.wiki/index.php?title=File:Lsusb-_Steam_controller_bootloader.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=4820
+last_edited:  2024-09-08T14:13:23Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         0cd07a08a547e2388b7fb841e2b3c102f0a190a2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+lsusb: Steam controller bootloader

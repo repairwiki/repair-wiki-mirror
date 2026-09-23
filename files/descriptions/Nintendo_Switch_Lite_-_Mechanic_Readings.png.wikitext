@@ -1,0 +1,18 @@
+<!--
+title:        File:Nintendo Switch Lite - Mechanic Readings.png
+pageid:       3380
+revid:        6144
+source:       https://repair.wiki/w/File:Nintendo_Switch_Lite_-_Mechanic_Readings.png
+history:      https://repair.wiki/index.php?title=File:Nintendo_Switch_Lite_-_Mechanic_Readings.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6144
+last_edited:  2025-04-13T01:30:55Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         80a195a708e5bcae2c019f377b544cbf587847bc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Nintendo Switch Lite - Known Good Mechanic Readings

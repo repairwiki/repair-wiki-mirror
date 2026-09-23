@@ -1,0 +1,43 @@
+<!--
+title:        Galaxy A72
+pageid:       3826
+revid:        10288
+source:       https://repair.wiki/w/Galaxy_A72
+history:      https://repair.wiki/index.php?title=Galaxy_A72&action=history
+permalink:    https://repair.wiki/index.php?oldid=10288
+last_edited:  2025-08-16T22:36:26Z
+contributors: Tiago199988, DentsasPanos
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         72583de8abc279abbb4d46e66345c87da1bed338
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Samsung|Device release date=2021, March 26|Device type=Phone|Has code name=SM-A725F, SM-A725F/DS, SM-A725M, SM-A725M/DS}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A72-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Galaxy A72 PCB A725F.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Galaxy A72 - Known Good Mechanic USB C Readings.jpg|Galaxy A72 - Known Good Mechanic USB C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

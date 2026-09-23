@@ -1,0 +1,60 @@
+<!--
+title:        IPhone XS Not Charging
+pageid:       4590
+revid:        7652
+source:       https://repair.wiki/w/IPhone_XS_Not_Charging
+history:      https://repair.wiki/index.php?title=IPhone_XS_Not_Charging&action=history
+permalink:    https://repair.wiki/index.php?oldid=7652
+last_edited:  2025-06-13T23:30:28Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone XS, Repair guides for IPhone XS Max, Stubs
+sha1:         48276eda75c8e2d76ef3f2aaca8b61f9f5ae08ce
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone XS, IPhone XS Max
+|Affects parts=Motherboard
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+iPhone XS will turn on but does not charge
+[[File:Screenshot From 2025-06-13 16-27-28.png|thumb|iPhone Xs Yangtze location on bottom side of top board]]
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->If the phone turns on but doesn't charge, you'll want to first rule out a parts issue:
+
+* Unplug everything, ear speaker flex, power button flex, cameras, antennas, etc.
+* Only leave the screen, charging port and battery, then test again
+* If still not charging, test with a known good charging port, battery and screen.
+
+'''Troubleshooting & Solutions:'''
+
+# Sometimes, the ear speaker flex, which has a flood illuminator (for Face ID) and ALS sensor (for auto brightness and true tone), will get liquid damaged
+#* These sensors sit right by where the ear mesh is located and it's super easy for liquid to sneak into the phone and get on these sensors. The corrosion will short data lines underneath them and cause bootlooping, not charging and other random issues.
+#* If this is the case, you can either
+#** Replace the flex and lose Face ID
+#** Or safely remove the flood illuminator off the flex, clean off the corrosion and place it back
+#** Or sometimes the flex is damaged beyond repair, so you can swap the sensors to a new flex.
+# In majority of cases, you'll find that replacing Yangtze (U3300) will solve charging problems
+#* Yangtze will give the common "Tristar" issues that you would see on iPhone 7 and older models.
+#* I would recommend you split the sandwich & test charging with just the top board, battery, charging port and screen.
+#** If you get 0.006 A or something very low, try replacing Yangtze
+# In rare cases, Hydra will be the cause of the no charging.
+#* Replace Hydra and see if that solves it.
+
+
+''Migrated from old wiki''

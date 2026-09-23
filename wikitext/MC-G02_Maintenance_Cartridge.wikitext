@@ -1,0 +1,40 @@
+<!--
+title:        MC-G02 Maintenance Cartridge
+pageid:       3781
+revid:        6619
+source:       https://repair.wiki/w/MC-G02_Maintenance_Cartridge
+history:      https://repair.wiki/index.php?title=MC-G02_Maintenance_Cartridge&action=history
+permalink:    https://repair.wiki/index.php?oldid=6619
+last_edited:  2025-05-14T01:13:02Z
+contributors: Antcz
+anonymous_edits: 0
+categories:   Canon Printers, Canon Printers Printers, Device, Printers, Stubs
+sha1:         5873fd1bab3e9d31b48ccceef3b5e00b948d3ce0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Canon Printers|Device type=Printer}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

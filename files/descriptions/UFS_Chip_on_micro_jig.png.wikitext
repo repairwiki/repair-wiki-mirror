@@ -1,0 +1,18 @@
+<!--
+title:        File:UFS Chip on micro jig.png
+pageid:       2472
+revid:        5037
+source:       https://repair.wiki/w/File:UFS_Chip_on_micro_jig.png
+history:      https://repair.wiki/index.php?title=File:UFS_Chip_on_micro_jig.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5037
+last_edited:  2024-10-13T22:31:18Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         5a6d6fdac0374215de25d9be2e2d660d8b0a7665
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+UFS Chip on micro jig

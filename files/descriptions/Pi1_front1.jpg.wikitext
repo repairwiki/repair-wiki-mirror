@@ -1,0 +1,17 @@
+<!--
+title:        File:Pi1 front1.jpg
+pageid:       942
+revid:        2204
+source:       https://repair.wiki/w/File:Pi1_front1.jpg
+history:      https://repair.wiki/index.php?title=File:Pi1_front1.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2204
+last_edited:  2024-01-13T15:47:52Z
+contributors: HaileyKitty
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

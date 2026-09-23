@@ -1,0 +1,43 @@
+<!--
+title:        Galaxy S25 Ultra
+pageid:       9167
+revid:        13894
+source:       https://repair.wiki/w/Galaxy_S25_Ultra
+history:      https://repair.wiki/index.php?title=Galaxy_S25_Ultra&action=history
+permalink:    https://repair.wiki/index.php?oldid=13894
+last_edited:  2026-02-08T21:30:29Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         38a3412db057e24347d5245f6e43f3c56cedf113
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Samsung|Device release date=2025, February 03|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:S25 ultra.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:S25 Ultra PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

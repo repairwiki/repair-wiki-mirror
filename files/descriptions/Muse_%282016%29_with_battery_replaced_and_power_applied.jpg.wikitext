@@ -1,0 +1,18 @@
+<!--
+title:        File:Muse (2016) with battery replaced and power applied.jpg
+pageid:       8854
+revid:        12884
+source:       https://repair.wiki/w/File:Muse_(2016)_with_battery_replaced_and_power_applied.jpg
+history:      https://repair.wiki/index.php?title=File:Muse_(2016)_with_battery_replaced_and_power_applied.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=12884
+last_edited:  2025-11-27T10:47:27Z
+contributors: Pandapip1
+anonymous_edits: 0
+categories:   
+sha1:         285a88bb6c5247187d73d49b4a63c77e2cfe6049
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Soldered and powered

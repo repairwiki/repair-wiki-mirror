@@ -1,0 +1,66 @@
+<!--
+title:        IPhone 16 Pro
+pageid:       2422
+revid:        8561
+source:       https://repair.wiki/w/IPhone_16_Pro
+history:      https://repair.wiki/index.php?title=IPhone_16_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=8561
+last_edited:  2025-07-06T21:47:22Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, MrBane
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         8374d1ead0bac94a6c1e35c47745519704bd0c5c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Iphone-16-pro.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:IP16PRO FPC 11.jpg|alt=
+File:IP16PRO FPC 4.jpg|alt=
+File:IP16PRO ChargingPort FPC.jpg|alt=
+File:IP16PRO FPC 3.jpg|alt=
+File:IP16PRO Battery FPC.jpg|alt=
+File:IP16PRO FPC 9.jpg|alt=
+File:IP16PRO FPC 7.jpg|alt=
+File:IP16PRO BackCover WirelessCharging FPC.jpg|alt=
+File:IP16PRO Antenna FPC.jpg|alt=
+File:IP16PRO FPC 9.png|alt=
+File:IP16PRO FPC 10.png|alt=
+File:IP16PRO FPC 7.png|alt=
+File:IP16PRO FPC 8.png|alt=
+File:IP16PRO FPC 5.png|alt=
+File:IP16PRO FPC 2.png|alt=
+File:IP16PRO FPC 1.png|alt=
+File:IP16PROProx ALS FPC.png|alt=
+File:IP16PRO Antenna FPC.png|alt=
+File:IP16PRO Display FPC.png|alt=
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->Apple Self Service iPhone 16 Pro
+
+Repair Manual ID: '''CPWJQA'''

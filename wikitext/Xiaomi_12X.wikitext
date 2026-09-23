@@ -1,0 +1,44 @@
+<!--
+title:        Xiaomi 12X
+pageid:       9301
+revid:        14051
+source:       https://repair.wiki/w/Xiaomi_12X
+history:      https://repair.wiki/index.php?title=Xiaomi_12X&action=history
+permalink:    https://repair.wiki/index.php?oldid=14051
+last_edited:  2026-02-21T12:00:02Z
+contributors: Tiago199988, Elko
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         77b4a446addb65689e504e9926ca87575bfa8770
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Xiaomi|Device release date=2021|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Xiaomi 12X - Mechanic Reader Values (Power ON).jpg|Xiaomi 12X (Model: 2112123AG) - Mechanic Reader Values (Power ON)
+File:Xiaomi 12X - Mechanic Reader Values (Power OFF).jpg|Xiaomi 12X (Model: 2112123AG) - Mechanic Reader Values (Power OFF)
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

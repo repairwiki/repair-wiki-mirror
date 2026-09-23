@@ -1,0 +1,44 @@
+<!--
+title:        Nintendo Wii
+pageid:       8955
+revid:        13907
+source:       https://repair.wiki/w/Nintendo_Wii
+history:      https://repair.wiki/index.php?title=Nintendo_Wii&action=history
+permalink:    https://repair.wiki/index.php?oldid=13907
+last_edited:  2026-02-08T21:58:43Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Game Consoles, Nintendo, Nintendo Game Consoles, Stubs
+sha1:         637f42bc4b584524e2398ba5b1f4d7905109988d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Nintendo|Device type=Game Console}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Wii-Console.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:RVL-001.jpg|alt=
+File:RVL-001 UNDER .jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

@@ -1,0 +1,73 @@
+<!--
+title:        IPhone 11 with half backlight on display
+pageid:       4226
+revid:        7226
+source:       https://repair.wiki/w/IPhone_11_with_half_backlight_on_display
+history:      https://repair.wiki/index.php?title=IPhone_11_with_half_backlight_on_display&action=history
+permalink:    https://repair.wiki/index.php?oldid=7226
+last_edited:  2025-05-31T14:29:37Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 11, Stubs
+sha1:         cb159000270921163e4132b3e0eb71ea732b9fa7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+
+{{Repair Guide
+|Device=iPhone 11
+|Affects parts=Motherboard
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope, Multimeter, Thermal Camera
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The device turns on and works but there is a dark spot on one of the bottom corners.
+[[File:Iphone 11 half backlight.jpg|thumb|400x400px|Example of issue iPhone 11 with a dark spot on the left corner]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* There is a dark spot on the bottom left side of the screen 
+* There is a dark spot on the bottom right side of the screen 
+
+=== Diagnostic Steps ===
+
+The first step is to try to swap parts before assuming there is a problem with the motherboard, so start by trying a new display.
+
+If a new display doesn't fix the issue the next step is to diagnose the motherboard.
+
+Why this issue even happens in the first place? Well, because on the iPhone 11 motherboard there are actually 2 backlight circuits for the display.
+
+Start by taking diode readings of the LCD FPC especially the backlight lines and compare with the image below. If a line that should have 0.500 measures 0.000, you know there is a short. If it measures OL or nothing at all, it means that the circuit is open.
+
+[[File:Iphone 11 display fpc.jpg|center|thumb|400x400px|Image FPC Diode readings]]
+After taking diode readings of the FPC, you will probably already find the line that is faulty, use a program like ZXW to trace where it goes.
+
+The backlight circuits are located under a shield on the top board, so if you're skilled enough, you may not need to split the boards.
+
+As we said before, there are 2 backlight circuits, so if you have a dark spot on the left side of the screen, you should focus your attention there.
+
+[[File:Iphone 11 backlight circuit.jpg|center|thumb|395x395px|iPhone 11 Backlight Circuits]]
+The most common issue is for the output resistor to be blown, if you already took diode measurements of the FPC you saw that.
+[[File:Image.jpg|center|thumb|iPhone 11 Backlight Circuit Output Resistors Location]]
+A common issue is also a short on PP_DISPLAY_BL12_ANODE or PP_DISPLAY_BL34_ANODE, a short on these lines can destroy the entire circuit. Coils, backlight IC, Caps, and diodes.
+[[File:Blow circuit.jpg|center|thumb|iPhone 11 Blown Backlight Circuit]]
+Here is also a schematic of how one IC works in detail.
+[[File:IPhone 11 Backlight Circuit Schematic.png|center|thumb|610x610px|iPhone 11 Backlight Circuit Schematic]]
+
+
+=== Repair Steps ===
+Replacing the output resistors is easy, find them on a donor board or use any with 0.000 ohm resistance and foot size of 0201.
+
+The backlight IC U5650 or U5660 is an LM3539A1 and can be easily found.
+
+If you have a short on, for example, a capacitor PP_DISPLAY_BL12_ANODE or PP_DISPLAY_BL34_ANODE, it is recommended to remake that circuit.

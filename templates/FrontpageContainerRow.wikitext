@@ -1,0 +1,18 @@
+<!--
+title:        Template:FrontpageContainerRow
+pageid:       580
+revid:        1328
+source:       https://repair.wiki/w/Template:FrontpageContainerRow
+history:      https://repair.wiki/index.php?title=Template:FrontpageContainerRow&action=history
+permalink:    https://repair.wiki/index.php?oldid=1328
+last_edited:  2023-12-12T23:02:05Z
+contributors: Admin
+anonymous_edits: 0
+categories:   
+sha1:         68d021e788c640bd134d7107de0798fc327e27d4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<div class="frontpage-container-row">{{{1}}}</div>

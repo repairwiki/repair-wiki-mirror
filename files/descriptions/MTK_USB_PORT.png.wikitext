@@ -1,0 +1,18 @@
+<!--
+title:        File:MTK USB PORT.png
+pageid:       6362
+revid:        9710
+source:       https://repair.wiki/w/File:MTK_USB_PORT.png
+history:      https://repair.wiki/index.php?title=File:MTK_USB_PORT.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9710
+last_edited:  2025-08-02T13:07:24Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         4aedd31152e257a4d693125990098567fc81bc6e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+MTK USB PORT

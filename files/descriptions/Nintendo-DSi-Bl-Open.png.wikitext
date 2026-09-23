@@ -1,0 +1,17 @@
+<!--
+title:        File:Nintendo-DSi-Bl-Open.png
+pageid:       9281
+revid:        13455
+source:       https://repair.wiki/w/File:Nintendo-DSi-Bl-Open.png
+history:      https://repair.wiki/index.php?title=File:Nintendo-DSi-Bl-Open.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13455
+last_edited:  2026-01-01T17:25:52Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

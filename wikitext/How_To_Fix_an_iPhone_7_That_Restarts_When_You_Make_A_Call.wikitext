@@ -1,0 +1,41 @@
+<!--
+title:        How To Fix an iPhone 7 That Restarts When You Make A Call
+pageid:       1471
+revid:        3217
+source:       https://repair.wiki/w/How_To_Fix_an_iPhone_7_That_Restarts_When_You_Make_A_Call
+history:      https://repair.wiki/index.php?title=How_To_Fix_an_iPhone_7_That_Restarts_When_You_Make_A_Call&action=history
+permalink:    https://repair.wiki/index.php?oldid=3217
+last_edited:  2024-01-25T06:42:08Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone 7, Repair guides for IPhone 7 Plus, Stubs
+sha1:         11dd822c02052b9f3d9f5bf71c2ae5f2132e766a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone 7, IPhone 7 Plus
+|Affects parts=Main Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Part replacement
+|Difficulty=1. Easy
+}}
+{{stub}}
+
+==Problem description==
+How To Fix an iPhone 7 That Restarts When You Make A Call. Basically, it will restart or shut off as soon as you start the call. 
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Phone restarts when you make a call
+
+==Solution==
+===Troubleshooting===
+*Unplug the Front Facing Camera, then test again
+*If the issue is solved, then plug in a new front-facing camera flex cable and try again
+===Explanation:===
+Usually this is caused by the ALS or proximity sensors getting some corrosion from liquid damage.
+
+It's easier to just replace the part, but sometimes, you can clean off the corrosion with a toothbrush and isopropyl alcohol and get the flex working again.

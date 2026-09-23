@@ -1,0 +1,53 @@
+<!--
+title:        Poco F2 Pro
+pageid:       3827
+revid:        11432
+source:       https://repair.wiki/w/Poco_F2_Pro
+history:      https://repair.wiki/index.php?title=Poco_F2_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=11432
+last_edited:  2025-09-07T20:06:37Z
+contributors: Tiago199988, DentsasPanos, Ajimalg82
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         fe707673a966031381f5bf1965be19428c761c59
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Xiaomi|Device release date=2020, May 12|Device type=Phone|Has code name=M2004J11G}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:BOARD - A.png|MOTHERBOARD -B
+File:BOARD-B.png|MOTHERBOARD -A
+File:Poco F2 Pro PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:F2 PRO DISPLAY CONN.png|DISPLAY CONNECTOR
+File:F2 PRO MAIN CONNECTOR.png|MAIN CONNECTOR
+File:F2 PRO FCAM.png|FRONT CAMERA
+File:F2 PRO MAIN CAM.png|MAIN CAM
+File:F2 PRO TELEPHOTO.png|TELEPHOTO CAMERA
+File:F2 PRO ULTRAWIDE.png|ULTRAWIDE CAMERA
+File:F2 PRO DEPTH.png|DEPTH CAMERA
+File:F2 PRO BATT CONN.png|BATTERY CONNECTOR
+File:F2 PRO PROXIMITY.png|PROXIMITY CONNECTOR
+File:Poco F2 Pro - Known Good Mechanic USB C Readings.jpg|Poco F2 Pro - Known Good Mechanic USB C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->Xiaomi Poco F2 Pro Schematics: https://www.sendspace.com/filegroup/q9Ceqa5tUTfzp95fsBrJjcFxU%2BlS12Xqwp4mdaD3IoS%2FPiH4bm3wdw

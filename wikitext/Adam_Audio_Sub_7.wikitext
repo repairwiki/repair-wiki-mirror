@@ -1,0 +1,41 @@
+<!--
+title:        Adam Audio Sub 7
+pageid:       3656
+revid:        6464
+source:       https://repair.wiki/w/Adam_Audio_Sub_7
+history:      https://repair.wiki/index.php?title=Adam_Audio_Sub_7&action=history
+permalink:    https://repair.wiki/index.php?oldid=6464
+last_edited:  2025-05-08T01:12:23Z
+contributors: Juanmartinvk
+anonymous_edits: 0
+categories:   AV Equipments, Adam Audio, Adam Audio AV Equipments, Device, Stubs
+sha1:         9991bb0fea8583ad679480a390a2da0f7d21ebc3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Adam Audio|Has code name=Sub 7|Device type=AV Equipment}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Adam Audio Sub 7 amplifier panel.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

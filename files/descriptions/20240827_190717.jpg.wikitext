@@ -1,0 +1,18 @@
+<!--
+title:        File:20240827 190717.jpg
+pageid:       2325
+revid:        4750
+source:       https://repair.wiki/w/File:20240827_190717.jpg
+history:      https://repair.wiki/index.php?title=File:20240827_190717.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4750
+last_edited:  2024-08-31T18:28:43Z
+contributors: Kibillcat
+anonymous_edits: 0
+categories:   
+sha1:         f21c74f9ed94a5d1412c0bf524e553e45b4e3d7a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Zoomed in broken off resistor

@@ -1,0 +1,18 @@
+<!--
+title:        File:Samkey info.png
+pageid:       6802
+revid:        10214
+source:       https://repair.wiki/w/File:Samkey_info.png
+history:      https://repair.wiki/index.php?title=File:Samkey_info.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10214
+last_edited:  2025-08-15T12:56:55Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         7f6084d18aef12d2288bf866e4b3c2234081edf4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Samkey info

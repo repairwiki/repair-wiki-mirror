@@ -1,0 +1,28 @@
+<!--
+title:        Template:FrontpageHeader
+pageid:       1795
+revid:        14258
+source:       https://repair.wiki/w/Template:FrontpageHeader
+history:      https://repair.wiki/index.php?title=Template:FrontpageHeader&action=history
+permalink:    https://repair.wiki/index.php?oldid=14258
+last_edited:  2026-09-22T22:53:41Z
+contributors: ASRepairs, ContentBot
+anonymous_edits: 0
+categories:   
+sha1:         ace4b038a44a1b0b4173d25827b63824ea7ffc33
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<div class="frontpage-title">
+    <p class="prefix">Welcome to</p>
+    <h1>Repair Wiki</h1>
+    <p class="suffix">A community project, originally created by the [https://fighttorepair.org/ Repair Preservation Group]</p>
+    <p> The goal of the Repair Wiki is to create a repository of information for repairing any kind of device from
+        phones to medical equipment. </p>
+    <div class="frontpage-stats">
+        <div class="frontpage-stat">[[Special:AllPages|<span class="frontpage-stat-value">{{NUMBEROFARTICLES}}</span><span class="frontpage-stat-label">Articles</span>]]</div>
+        <div class="frontpage-stat">[[Special:Statistics|<span class="frontpage-stat-value">{{NUMBEROFEDITS}}</span><span class="frontpage-stat-label">Edits</span>]]</div>
+    </div>
+</div>

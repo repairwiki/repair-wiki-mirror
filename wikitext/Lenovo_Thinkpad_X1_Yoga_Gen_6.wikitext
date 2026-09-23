@@ -1,0 +1,48 @@
+<!--
+title:        Lenovo Thinkpad X1 Yoga Gen 6
+pageid:       8984
+revid:        13054
+source:       https://repair.wiki/w/Lenovo_Thinkpad_X1_Yoga_Gen_6
+history:      https://repair.wiki/index.php?title=Lenovo_Thinkpad_X1_Yoga_Gen_6&action=history
+permalink:    https://repair.wiki/index.php?oldid=13054
+last_edited:  2025-12-03T21:51:32Z
+contributors: Jacopops
+anonymous_edits: 0
+categories:   Device, Laptop 2-1 convertibles, Lenovo, Lenovo Laptop 2-1 convertibles, Stubs
+sha1:         2985b830f20353747e2af1c3663182fb78a4adf1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Lenovo|Device release date=2021|Device type=Laptop 2-1 convertible|Has code name=Jaguar}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Overall Lenovo X1 Yoga gen 6.jpg|Overalls
+File:Top 4x mics Lenovo X1 Yoga gen 6.jpg|Top 4 microphones. Only two are visible in the picture.
+File:Left Side Lenovo X1 Yoga gen 6.jpg|Left side
+File:Right Side Lenovo X1 Yoga gen 6.jpg|Right side
+File:Back Lenovo X1 Yoga gen 6.jpg|Bottom cover
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Detachable USB connector Lenovo X1 Yoga gen 6.jpg|Close-up on the detachable USB connector pads
+File:Detachable USB connector piece Lenovo X1 Yoga gen 6.jpg|Detachable USB connector ALLTO_C19131-10935-L
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

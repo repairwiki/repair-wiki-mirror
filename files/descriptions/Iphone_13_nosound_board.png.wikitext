@@ -1,0 +1,18 @@
+<!--
+title:        File:Iphone 13 nosound board.png
+pageid:       8752
+revid:        12741
+source:       https://repair.wiki/w/File:Iphone_13_nosound_board.png
+history:      https://repair.wiki/index.php?title=File:Iphone_13_nosound_board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12741
+last_edited:  2025-11-18T21:17:07Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         5c838e3bee22d7a74235d5f06611cf872a4f259a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Iphone 13 nosound board

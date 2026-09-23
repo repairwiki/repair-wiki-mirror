@@ -1,0 +1,49 @@
+<!--
+title:        Simco ChargeMaster Medium
+pageid:       1931
+revid:        4171
+source:       https://repair.wiki/w/Simco_ChargeMaster_Medium
+history:      https://repair.wiki/index.php?title=Simco_ChargeMaster_Medium&action=history
+permalink:    https://repair.wiki/index.php?oldid=4171
+last_edited:  2024-06-30T07:18:27Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Simco, Simco Industrial Devices, Stubs
+sha1:         543819d6bc88aa1e90a85ff20ec7f8b264679ce6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Simco
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240627 141347.jpg
+File:20240627 141356.jpg
+File:20240627 141409.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240627 140514.jpg
+File:20240627 140706.jpg
+File:20240627 140518.jpg
+File:20240627 140719.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

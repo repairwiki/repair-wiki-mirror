@@ -1,0 +1,18 @@
+<!--
+title:        File:Shorted cap boardview.png
+pageid:       7768
+revid:        11466
+source:       https://repair.wiki/w/File:Shorted_cap_boardview.png
+history:      https://repair.wiki/index.php?title=File:Shorted_cap_boardview.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11466
+last_edited:  2025-09-08T22:17:39Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         9f2b7a8eeadb8624464470d5f06672bf06800554
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Shorted cap boardview

@@ -1,0 +1,18 @@
+<!--
+title:        File:Capacitor types packagess.jpg
+pageid:       501
+revid:        1041
+source:       https://repair.wiki/w/File:Capacitor_types_packagess.jpg
+history:      https://repair.wiki/index.php?title=File:Capacitor_types_packagess.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1041
+last_edited:  2023-11-08T20:47:01Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         b19a609efe46ac2c955cf94d980d930b0092ddab
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Capacitor types packagess

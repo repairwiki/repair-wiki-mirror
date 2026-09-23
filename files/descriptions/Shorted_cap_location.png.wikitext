@@ -1,0 +1,18 @@
+<!--
+title:        File:Shorted cap location.png
+pageid:       8756
+revid:        12745
+source:       https://repair.wiki/w/File:Shorted_cap_location.png
+history:      https://repair.wiki/index.php?title=File:Shorted_cap_location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12745
+last_edited:  2025-11-19T00:43:02Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         78f35d7ffa147232cb008a07726a6c22988b468f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Shorted cap location

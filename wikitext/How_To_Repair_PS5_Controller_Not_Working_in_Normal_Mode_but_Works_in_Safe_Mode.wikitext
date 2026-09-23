@@ -1,0 +1,80 @@
+<!--
+title:        How To Repair PS5 Controller Not Working in Normal Mode but Works in Safe Mode
+pageid:       9664
+revid:        13982
+source:       https://repair.wiki/w/How_To_Repair_PS5_Controller_Not_Working_in_Normal_Mode_but_Works_in_Safe_Mode
+history:      https://repair.wiki/index.php?title=How_To_Repair_PS5_Controller_Not_Working_in_Normal_Mode_but_Works_in_Safe_Mode&action=history
+permalink:    https://repair.wiki/index.php?oldid=13982
+last_edited:  2026-02-18T02:27:34Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for PlayStation 5, Repair guides for PlayStation 5 Pro, Repair guides for PlayStation 5 Slim, Stubs
+sha1:         7bc9f7ff3918496bc240606c7fdb53a3f46e4c67
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=PlayStation 5, PlayStation 5 Pro, PlayStation 5 Slim
+|Affects parts=Main Logic Board
+|Needs equipment=Hot Air Station, Soldering Iron, De-Soldering Wick, Tweezers
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+The PS5 DualSense controller works normally in Safe Mode, but does not function or connect properly in Normal Mode. The controller may power on but fails to pair, respond, or operate during regular system use.
+
+This issue is typically caused by a faulty Bluetooth/WiFi module on the main logic board.
+== Symptoms ==
+
+* Controller works in PS5 Safe Mode
+* Controller does not respond in normal system mode
+* Fails to pair or reconnect wirelessly
+* May work only via USB in Safe Mode
+* Firmware update does not resolve issue
+* Resetting controller does not fix problem
+
+== Solution ==
+<gallery>
+File:Bdm010-btwifi-location.png|PlayStation 5 BDM-010 WiFi/BT Module Location
+File:Edm044-btwifi-location.png|PlayStation 5 Slim EDM-044 WiFi/BT Module Location
+File:Edm032-btwifi-location.png|PlayStation 5 EDM-032 WiFi/BT Module Location
+File:Edm020-btwifi-location.png|PlayStation 5 EDM-020 WiFi/BT Module Location
+File:Edm040-btwifi-location.png|PlayStation 5 Slim EDM-040 WiFi/BT Module Location
+File:Edm033-btwifi-location.png|PlayStation 5 EDM-033 WiFi/BT Module Location
+File:Ps5pro-vs010-btwifi-locationS.png|PlayStation 5 Pro VSM-010 WiFi/BT Module Location
+</gallery>
+
+=== Diagnostic Steps ===
+
+# Reset Controller
+#* Press reset button (rear pinhole) for 5–10 seconds
+#* Re-test
+# Test via USB
+#* Connect controller via USB cable
+#* Confirm it works in Safe Mode but not in normal mode
+# Test Controller on Another System
+#* Verify PS5 controller is not at fault
+# Confirm Firmware Update
+#* Attempt PS5 firmware update
+#* If no change → hardware fault likely
+# Visual Inspection
+#* Inspect PCB for corrosion or damage around RF module
+
+If controller consistently works only in Safe Mode → proceed to module replacement.
+
+=== Repair Steps ===
+
+# Power off System
+# Disassemble carefully
+# Remove PCB assembly
+# Locate BT/WiFi module
+# Apply flux
+# Remove faulty module with controlled hot air
+# Clean pads thoroughly
+# Install exact matching replacement module with a new one
+# Reflow evenly
+# Inspect solder joints under magnification
+# Reassemble System

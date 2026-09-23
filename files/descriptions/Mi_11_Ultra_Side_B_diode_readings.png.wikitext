@@ -1,0 +1,17 @@
+<!--
+title:        File:Mi 11 Ultra Side B diode readings.png
+pageid:       5765
+revid:        9077
+source:       https://repair.wiki/w/File:Mi_11_Ultra_Side_B_diode_readings.png
+history:      https://repair.wiki/index.php?title=File:Mi_11_Ultra_Side_B_diode_readings.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9077
+last_edited:  2025-07-27T18:07:55Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

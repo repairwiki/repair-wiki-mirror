@@ -1,0 +1,41 @@
+<!--
+title:        MacBook Pro A1502 Not turning on (80 mA current draw) repair
+pageid:       480
+revid:        1023
+source:       https://repair.wiki/w/MacBook_Pro_A1502_Not_turning_on_(80_mA_current_draw)_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1502_Not_turning_on_(80_mA_current_draw)_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=1023
+last_edited:  2023-11-08T18:01:10Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Stubs
+sha1:         ff367008d908547dafa0a9d499575f61fb8e442b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=
+|Affects parts=
+|Needs equipment=
+|Type=
+|Difficulty=
+}}
+==Problem description==
+<nowiki>#</nowiki>incomplete
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Not turning on.
+*Only drawing 80 mA from the charge port.
+
+==Solution==
+Corrosion at U1900 RTC (Real Time Clock) circuit
+
+* U1900 and C1910 were removed
+* Corrosion was removed
+* U1900 and C1910 were restored.
+
+[https://www.youtube.com/watch?v=L8sc8ll7EaA Example video]

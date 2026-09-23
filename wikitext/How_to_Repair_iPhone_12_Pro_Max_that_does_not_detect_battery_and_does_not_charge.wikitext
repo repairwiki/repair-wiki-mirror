@@ -1,0 +1,82 @@
+<!--
+title:        How to Repair iPhone 12 Pro Max that does not detect battery and does not charge
+pageid:       8265
+revid:        12106
+source:       https://repair.wiki/w/How_to_Repair_iPhone_12_Pro_Max_that_does_not_detect_battery_and_does_not_charge
+history:      https://repair.wiki/index.php?title=How_to_Repair_iPhone_12_Pro_Max_that_does_not_detect_battery_and_does_not_charge&action=history
+permalink:    https://repair.wiki/index.php?oldid=12106
+last_edited:  2025-09-26T02:35:04Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 12 Pro Max
+sha1:         5d65aad576e19887265f8425bb76eabe82c8c9f5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 12 Pro Max|Needs equipment=Soldering Iron, Hot Air Station, Tweezer, Flux|Affects parts=Main Logic Board|Difficulty=4. Specialist|Type=Soldering}}
+
+== Problem Description ==
+An iPhone 12 Pro Max shows no charging and battery not detected, even after replacing the charging port, using a new cable and charging cable/brick.
+
+* Battery connector voltage (BATT_VCC) reads 3.7–4.0 V (normal).
+* Charging IC and USB IC measure fine.
+* Battery FPC diode readings normal.
+
+Root cause: low I²C voltage (0.2V instead of 1.8V) on SDA/SCL pins.
+
+Tracing these lines leads to U2470, the battery data level translator IC.
+
+Replacing U2470 restores I²C communication, allowing the phone to detect the battery and charge normally.
+----
+[[File:12pm-u2470-batt-pins.png|thumb|iPhone 12 Pro Max - Battery Pins]]
+
+== Symptoms ==
+
+* iPhone does not charge or power from the battery.
+* Battery percentage not displayed, device may only run on DCPS.
+* No corrosion or damage visible on battery connector area.
+
+----
+[[File:12pm-u2470-schematics.png|thumb|iPhone 12 Pro Max U2470 - Schematic]]
+
+== Diagnostic Steps ==
+
+# Measure Battery Connector Voltage
+#* BATT_VCC → 3.7–4.0V = ✅ Good
+#* If missing, diagnose power path first.
+# Check Battery FPC Diode Mode
+#* All lines read within normal range = ✅
+# Measure I²C Lines (SCL/SDA)
+#* Expected: ~1.8 V
+#* Observed: ~0.2 V → indicates line is being pulled low.
+# Trace I²C Lines to U2470
+#* Locate U2470 (near battery FPC).
+#* Check for damage/corrosion.
+#* If clean, suspect internal short or failure pulling bus low.
+
+----
+[[File:12pm-u2470.png|thumb|iPhone 12 Pro Max - U2470 Location]]
+
+== Repair Steps ==
+
+=== 1. Remove Faulty U2470 ===
+
+* Use hot air station to remove U2470.
+* Clean pads, inspect for shorts.
+
+=== 2. Replace U2470 ===
+
+* Install a new/reballed U2470.
+* Align carefully.
+
+=== 3. Verify Voltages ===
+
+* After installation, re-check I²C voltage at battery FPC:
+** Should now be ~1.8V.
+
+=== 4. Final Test ===
+
+* Connect battery, boot phone.
+* Confirm battery is detected, percentage shows, and device charges.

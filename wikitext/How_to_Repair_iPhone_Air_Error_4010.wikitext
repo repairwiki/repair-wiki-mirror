@@ -1,0 +1,73 @@
+<!--
+title:        How to Repair iPhone Air Error 4010
+pageid:       8647
+revid:        12574
+source:       https://repair.wiki/w/How_to_Repair_iPhone_Air_Error_4010
+history:      https://repair.wiki/index.php?title=How_to_Repair_iPhone_Air_Error_4010&action=history
+permalink:    https://repair.wiki/index.php?oldid=12574
+last_edited:  2025-11-03T15:58:37Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 17 Air, Stubs
+sha1:         c6b9c9e2938f3891b22e9f5c6e4109366e9ade72
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPhone 17 Air
+|Affects parts=Main Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Desoldering Wick, Reballing Stencil, Soldering Paste, Tweezer
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+When attempting to restore an iPhone Air, the process begins normally but fails with Error 4010 while the progress bar is visible.
+
+This fault is specific to board structure — the iPhone Air uses a two-layer stacked logic board design, and the upper small interposer board must be properly soldered and communicating for restore to complete.
+
+If the upper small board is missing, misaligned, or has poor solder joints, iTunes/Finder fails to communicate through the interposer, resulting in a restore failure (Error 4010).
+[[File:Error4010.jpg|thumb|iPhone Air - Error 4010]]
+[[File:Iphone air interposer board.png|thumb|iPhone Air - Interposer Layer]]
+
+== Symptoms ==
+
+* iTunes/Finder restore stops midway and displays Error 4010.
+* Device enters recovery mode but cannot complete restore.
+* Progress bar appears on the device before failure.
+* Logic board previously separated or worked on (reball/reflow attempt visible).
+* No visible liquid or burn marks.
+* Top small interposer board missing or partially soldered.
+
+== Solution ==
+Ensure the upper small board is properly installed and soldered to the main board using clean interposer pads.
+
+Error 4010 occurs when communication between the interposer layer is missing.
+
+=== Diagnostic Steps ===
+
+# Visual Inspection
+#* Confirm whether the upper small board (highlighted in red in image) is installed.
+#* Check for partial seating, lifted pads, or missing solder balls on the interposer array.
+#* Inspect for previous rework signs — flux residue, uneven board gap, or warped interposer.
+# Restore Behavior Observation
+#* If device is recognized and begins restore but fails with Error 4010, communication starts but fails mid-process — strong indication of interconnect fault.
+
+=== Repair Steps ===
+
+# Preparation
+#* Clean both upper and lower board pads.
+# Reballing the Small Board
+#* Reball lower layer using 148/158 solder paste.
+#* Inspect under microscope for uniform ball shape and no bridges.
+# Reflow & Installation
+#* Align the small board precisely with the lower board under microscope.
+#* Heat until solder joints settle and board self-aligns.
+#* Avoid excessive pressure to prevent pad sinking.
+# Testing
+#* Allow the board to cool fully.
+#* Attempt restore again — device should now restore fully with no Error 4010.
+# Final Verification
+#* Complete setup process and check IMEI, Wi-Fi, and serial data for full functionality.

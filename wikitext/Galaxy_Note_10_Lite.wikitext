@@ -1,0 +1,50 @@
+<!--
+title:        Galaxy Note 10 Lite
+pageid:       3713
+revid:        6861
+source:       https://repair.wiki/w/Galaxy_Note_10_Lite
+history:      https://repair.wiki/index.php?title=Galaxy_Note_10_Lite&action=history
+permalink:    https://repair.wiki/index.php?oldid=6861
+last_edited:  2025-05-16T22:46:21Z
+contributors: Tiago199988, Ajimalg82
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         193a31be1d2d43f8cc917f1d59249fb21a2e46d2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Samsung|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:NOTE 10 LITE BOARD-A.png|BOARD A
+File:NOTE 10 LITE BOARD-B.png|BOARD B
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Note10lite.jpeg|USB C readings from a good working phone
+File:NOTE 10 LITE MAIN CONN.png|MAIN CONNECTOR
+File:NOTE 10 LITE S-PEN.png|SPEN CONNECTOR
+File:NOTE 10 LITE FRONT-CAM.png|FRONT CAMERA CONNECTOR
+File:NOTE 10 LITE MAIN CAM.png|MAIN B2B CONNECTOR
+File:ULTRAWIDE CAM.png|ULTRAWIDE CAMERA
+File:NOTE 10 LITE POWER VOLUME.png|POWER/ VOLUME CONNECTOR
+File:NOTE 10 LITE BATT CONN.png|BATTERY CONNECTOR
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

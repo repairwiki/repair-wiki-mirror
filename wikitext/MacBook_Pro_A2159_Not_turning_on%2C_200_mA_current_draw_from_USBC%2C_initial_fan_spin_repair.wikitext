@@ -1,0 +1,55 @@
+<!--
+title:        MacBook Pro A2159 Not turning on, 200 mA current draw from USBC, initial fan spin repair
+pageid:       98
+revid:        514
+source:       https://repair.wiki/w/MacBook_Pro_A2159_Not_turning_on,_200_mA_current_draw_from_USBC,_initial_fan_spin_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2159_Not_turning_on,_200_mA_current_draw_from_USBC,_initial_fan_spin_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=514
+last_edited:  2023-10-29T15:28:04Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A2159, Stubs
+sha1:         529d86b4bc8d275bb51a773144ad64e6123857d9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A2159
+|Affects parts=Motherboard
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+''820-01598''  MacBook fan spinning initially but not posting, booting, or showing an image. 
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Drawing 0.2A at 20V as measured with a USB-C meter
+*No picture
+*Initial fan spin
+
+==Solution==
+===Diagnostic Steps===
+
+====Dead U7710/U8110====
+
+*This is a signature fault on the 820-01598 logic board.
+**The VCCIO (U8110) and EDRAM (U7710) buck converter controller ICs fail in unison, resulting in a no POST/boot condition.
+**You will often observe that the fan spins briefly and the amperage (as measured on the USB C amp meter) will settle around 200ma (0.2A)
+*Measure PP0v95_S0_CPUVCCIO_REG_R on L8102.
+**If voltage is present, this is not your issue.
+**Measure the PVCCIO_EN signal at R8165, It should be present at 3.3v.
+**Measure the PPVCCEDRAMS0_EN_FILT_BUF signal at R7766 - It should be present at 3.3v
+**If any of those is missing, proceed to the repair steps below.
+
+===Repair Steps===
+
+*If both enable signals are present, and PP0v95_S0_CPUVCCIO_REG_R is missing, replace '''BOTH U7710 and U8110.'''
+*Typically, when this fault occurs, you will have either no backlight or no camera function after the repair.
+**It is unknown why this happens, however it probably is related to either the backlight driver serial communication or camera serial communication somehow overloading parts of the CPU, causing it to draw more power than the chips are rated for causing this issue.
+**'''If the device has no backlight after the repair:'''- Replace U8400
+*'''If the device has no camera function after the repair:'''- Replace the display assembly

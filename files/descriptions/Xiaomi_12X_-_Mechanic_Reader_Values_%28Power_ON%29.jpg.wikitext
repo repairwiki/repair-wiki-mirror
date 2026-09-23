@@ -1,0 +1,19 @@
+<!--
+title:        File:Xiaomi 12X - Mechanic Reader Values (Power ON).jpg
+pageid:       9710
+revid:        14047
+source:       https://repair.wiki/w/File:Xiaomi_12X_-_Mechanic_Reader_Values_(Power_ON).jpg
+history:      https://repair.wiki/index.php?title=File:Xiaomi_12X_-_Mechanic_Reader_Values_(Power_ON).jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=14047
+last_edited:  2026-02-21T11:50:33Z
+contributors: Elko
+anonymous_edits: 0
+categories:   
+sha1:         d920c4be21cd4d5a7c6ebc1872ddf258f12f8aee
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Xiaomi 12X (Model: 2112123AG) - Mechanic Reader Values (Power ON)

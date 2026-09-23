@@ -1,0 +1,18 @@
+<!--
+title:        File:Wireless-charging-iphone-air.png
+pageid:       8098
+revid:        11852
+source:       https://repair.wiki/w/File:Wireless-charging-iphone-air.png
+history:      https://repair.wiki/index.php?title=File:Wireless-charging-iphone-air.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11852
+last_edited:  2025-09-20T02:47:34Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         1609396ceb7e145aa70013dd3d4ee52062cd03de
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Wireless-charging-iphone-air

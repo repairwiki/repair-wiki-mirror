@@ -1,0 +1,43 @@
+<!--
+title:        Poco M3
+pageid:       8662
+revid:        12619
+source:       https://repair.wiki/w/Poco_M3
+history:      https://repair.wiki/index.php?title=Poco_M3&action=history
+permalink:    https://repair.wiki/index.php?oldid=12619
+last_edited:  2025-11-08T22:24:53Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         bffcebbd171213058aeddedec43d3956ee114ffe
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Xiaomi|Device release date=27/11/2020|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Poco M3.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

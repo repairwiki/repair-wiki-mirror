@@ -1,0 +1,18 @@
+<!--
+title:        File:Pascal Bios board.jpg
+pageid:       371
+revid:        845
+source:       https://repair.wiki/w/File:Pascal_Bios_board.jpg
+history:      https://repair.wiki/index.php?title=File:Pascal_Bios_board.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=845
+last_edited:  2023-11-07T17:33:19Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         2e83c0cd053846567f582d398957f8e5265aa787
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Pascal Bios board

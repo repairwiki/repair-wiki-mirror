@@ -1,0 +1,18 @@
+<!--
+title:        File:Querycode-unbind-nand.png
+pageid:       6914
+revid:        10412
+source:       https://repair.wiki/w/File:Querycode-unbind-nand.png
+history:      https://repair.wiki/index.php?title=File:Querycode-unbind-nand.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10412
+last_edited:  2025-08-20T07:10:23Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         a5c80e0567ca865f0c6a7ac9627006dc3235bebb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Querycode-unbind-nand

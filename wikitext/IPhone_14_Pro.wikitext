@@ -1,0 +1,63 @@
+<!--
+title:        IPhone 14 Pro
+pageid:       642
+revid:        12679
+source:       https://repair.wiki/w/IPhone_14_Pro
+history:      https://repair.wiki/index.php?title=IPhone_14_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=12679
+last_edited:  2025-11-12T15:29:37Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, IamMyron07, Petritsahiti
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         3f1332ef45de2f0ba5e10ac2867e0b9018af260a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device release date=2022-09-22
+|Device type=Phone
+}}
+{{stub}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Iphone14pro-800x800.webp|alt=
+File:Ip-14pm-fcam.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:2025 05 13 18 44 IMG 0758.JPG|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:IPhone 14 Pro and Pro Max Board ID Resistor.png|iPhone 14 Pro and Pro Max share the same top board, with only 1 resistor being different. This image shows where the Board ID resistor is located & what value it must be so it can be use for both iPhone 14 Pro and iPhone 14 Pro Max. iPhone 14 Pro: 1M Ohm. 14 Pro Max: 1K Ohm
+File:Iphone 14 pro .jpg|alt=|Batery fpc 
+File:2025 05 12 11 48 IMG 0726.jpg|alt=|Charging fpc 
+File:2025 05 14 14 04 IMG 0766.JPG|alt=|Display fpc 
+File:2025 05 14 09 29 IMG 0763.JPG|alt=|Big camera fpc 
+File:2025 05 13 18 39 IMG 0755.JPG|alt=|Compass fpc 
+File:2025 05 13 23 31 IMG 0760.JPG|alt=|Wireless charger and power button fpc 
+File:2025 05 13 18 39 IMG 0754.JPG|alt=|Antenna fpc 
+File:2025 05 13 18 35 IMG 0751.JPG|alt=|Selfie fpc 
+File:2025 05 13 18 33 IMG 0749.JPG|alt=|Flash fpc 
+File:2025 05 13 18 33 IMG 0747.JPG|alt=|Upper antenna fpc 
+File:2025 05 13 18 31 IMG 0746.JPG|alt=|Dot matrix fpc 
+File:2025 05 13 18 30 IMG 0745.JPG|alt=|Radar fpc 
+File:2025 05 13 18 30 IMG 0744.JPG|alt=|Camera fpc 
+File:2025 05 13 18 27 IMG 0742.JPG|alt=|Lower antenna fpc 
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 14 Pro Self Repair Store
+
+'''Repair Manual ID:  CBLXRW'''

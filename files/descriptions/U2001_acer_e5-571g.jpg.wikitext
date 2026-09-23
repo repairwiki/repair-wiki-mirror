@@ -1,0 +1,18 @@
+<!--
+title:        File:U2001 acer e5-571g.jpg
+pageid:       543
+revid:        1231
+source:       https://repair.wiki/w/File:U2001_acer_e5-571g.jpg
+history:      https://repair.wiki/index.php?title=File:U2001_acer_e5-571g.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1231
+last_edited:  2023-11-25T17:13:26Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         745f7b6e7e80e6e2db6a6698792216cb0666013d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+U2001 acer e5-571g

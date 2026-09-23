@@ -1,0 +1,18 @@
+<!--
+title:        File:Screenshot From 2025-10-06 20-41-12.png
+pageid:       8375
+revid:        12253
+source:       https://repair.wiki/w/File:Screenshot_From_2025-10-06_20-41-12.png
+history:      https://repair.wiki/index.php?title=File:Screenshot_From_2025-10-06_20-41-12.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12253
+last_edited:  2025-10-07T04:44:30Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   
+sha1:         8866e594fe028a2b63d057274f69280ecd871637
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+boardview showing other side of ipad air 4 backlight filter power rail

@@ -1,0 +1,43 @@
+<!--
+title:        Redmi Note 8 Pro
+pageid:       3829
+revid:        13352
+source:       https://repair.wiki/w/Redmi_Note_8_Pro
+history:      https://repair.wiki/index.php?title=Redmi_Note_8_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=13352
+last_edited:  2025-12-22T22:08:03Z
+contributors: Tiago199988, DentsasPanos
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         9cfdc543b089456ff508b54a2933c5c79eaa9d26
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Xiaomi|Device release date=2019, September 24|Device type=Phone|Has code name=2015105, M1906G7I, M1906G7G}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Redmi Note 8 Pro.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Redmi Note 8 Pro - Known Good Mechanic USB C Readings.jpg|Redmi Note 8 Pro - Known Good Mechanic USB C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

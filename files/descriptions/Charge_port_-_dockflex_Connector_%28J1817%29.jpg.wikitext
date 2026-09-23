@@ -1,0 +1,18 @@
+<!--
+title:        File:Charge port - dockflex Connector (J1817).jpg
+pageid:       1920
+revid:        4122
+source:       https://repair.wiki/w/File:Charge_port_-_dockflex_Connector_(J1817).jpg
+history:      https://repair.wiki/index.php?title=File:Charge_port_-_dockflex_Connector_(J1817).jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4122
+last_edited:  2024-06-27T20:37:34Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         77c9edd9f55ecde36e1a7ef2ba82c80a000c175f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 6 Plus charge port / dock flex connector. Bottom left goes to edge of the board, next to bottom of the battery.

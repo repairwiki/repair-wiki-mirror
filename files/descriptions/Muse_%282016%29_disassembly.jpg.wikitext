@@ -1,0 +1,18 @@
+<!--
+title:        File:Muse (2016) disassembly.jpg
+pageid:       8845
+revid:        12873
+source:       https://repair.wiki/w/File:Muse_(2016)_disassembly.jpg
+history:      https://repair.wiki/index.php?title=File:Muse_(2016)_disassembly.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=12873
+last_edited:  2025-11-27T10:19:33Z
+contributors: Pandapip1
+anonymous_edits: 0
+categories:   
+sha1:         40f3a112a1204850a5070eb098cfb1603587dbdd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Using a pick to open the casing

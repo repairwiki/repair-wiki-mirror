@@ -1,0 +1,46 @@
+<!--
+title:        Galaxy Z Flip 4
+pageid:       3789
+revid:        11017
+source:       https://repair.wiki/w/Galaxy_Z_Flip_4
+history:      https://repair.wiki/index.php?title=Galaxy_Z_Flip_4&action=history
+permalink:    https://repair.wiki/index.php?oldid=11017
+last_edited:  2025-08-31T19:37:18Z
+contributors: Tiago199988, Samhext
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         80e69b0e65564f190983c09ecf60a884ea448dc8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Galaxy Z Filp 4 5G.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Galaxy Z Flip 4 F721U PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Zflip4.jpg|Samsung Galaxy Z Flip 4 Mechanic USB-C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

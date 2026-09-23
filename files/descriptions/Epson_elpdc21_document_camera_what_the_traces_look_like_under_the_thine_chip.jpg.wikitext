@@ -1,0 +1,20 @@
+<!--
+title:        File:Epson elpdc21 document camera what the traces look like under the thine chip.jpg
+pageid:       1074
+revid:        2482
+source:       https://repair.wiki/w/File:Epson_elpdc21_document_camera_what_the_traces_look_like_under_the_thine_chip.jpg
+history:      https://repair.wiki/index.php?title=File:Epson_elpdc21_document_camera_what_the_traces_look_like_under_the_thine_chip.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2482
+last_edited:  2024-01-14T13:51:18Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         cd4cedaf980647ec81aff61b88e35fd7ec0dcbca
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+This is what the traces look like under the Thine THP7312 chip.
+May be useful for future reverse engineering, or for probing signals on the edge.

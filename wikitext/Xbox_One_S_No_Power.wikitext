@@ -1,0 +1,75 @@
+<!--
+title:        Xbox One S No Power
+pageid:       4996
+revid:        8125
+source:       https://repair.wiki/w/Xbox_One_S_No_Power
+history:      https://repair.wiki/index.php?title=Xbox_One_S_No_Power&action=history
+permalink:    https://repair.wiki/index.php?oldid=8125
+last_edited:  2025-06-29T22:45:57Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Xbox One S, Stubs
+sha1:         1b4376db8b15caaffd7e4d59ed9ceff1cf4ad7ab
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Xbox One S
+|Affects parts=Motherboard, PSU
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope, Multimeter
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The Console does not turn on.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* The console does not turn on
+
+=== Diagnostic Steps ===
+Usually an Xbox that shows no signs of life is due to a missing standby voltage.
+
+The first voltage required is 12V, this line is produced from the power supply.
+
+Connect your power supply to the motherboard and then to mains power with your multimeter measure the test point shown on the image below.
+[[File:Xbox One S 12V input.png|center|thumb|481x481px|Xbox One S 12V input]]
+If 12V is good we know the problem is not caused by the PSU.
+
+The next important line to check is the 5V it is common to have a short here.
+[[File:Xbox One S 5V Line.png|center|thumb|478x478px|Xbox One S 5V Line]]
+The next line to check is 1.1V 
+[[File:Xbox One S 1.1V Standby.png|center|thumb|517x517px|Xbox One S 1.1V Standby]]
+
+
+The next line to check is 1.8V
+[[File:Xbox One S 1.8V Standby.png|center|thumb|508x508px|Xbox One S 1.8V Standby]]
+The last main standby voltage to check is 3.3V
+[[File:Xbox One S 3.3V Standby.png|center|thumb|528x528px|Xbox One S 3.3V Standby]]
+
+=== Repair Steps ===
+If you find a shorted line on the motherboard with your DCPS inject a voltage into that rail and monitor the board under a thermal camera the component that is shorted will heat up. Be careful not to inject a higher voltage than the line is rated for.
+
+If you find a shorted line on the motherboard with your DCPS, inject a voltage into that rail and monitor the board under a thermal camera, the component that is shorted will heat up. Be careful not to inject a higher voltage than the line is rated for.
+[[File:Shorted U4C3.png|center|thumb|Shorted U4C3]]
+If 12V is missing and the line is not shorted replace the PSU.
+
+If 5V is missing and is not shorted replace U4C3.
+
+If 1.1V is missing and is not shorted replace U4D4.
+
+If 1.8V is missing and is not shorted replace U3D6.
+
+If 1.8V is missing and is not shorted replace U4C2.
+
+== Final Testing ==
+After repairing the console, make sure it turns on fully and runs a game.

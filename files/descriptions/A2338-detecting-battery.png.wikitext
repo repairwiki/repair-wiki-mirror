@@ -1,0 +1,18 @@
+<!--
+title:        File:A2338-detecting-battery.png
+pageid:       9328
+revid:        13548
+source:       https://repair.wiki/w/File:A2338-detecting-battery.png
+history:      https://repair.wiki/index.php?title=File:A2338-detecting-battery.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13548
+last_edited:  2026-01-04T19:56:56Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         df1245be11bdf76d566cfec50ab323b2a2a81a2c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A2338-detecting-battery

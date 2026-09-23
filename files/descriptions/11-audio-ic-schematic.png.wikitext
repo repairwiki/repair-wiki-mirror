@@ -1,0 +1,18 @@
+<!--
+title:        File:11-audio-ic-schematic.png
+pageid:       8309
+revid:        12159
+source:       https://repair.wiki/w/File:11-audio-ic-schematic.png
+history:      https://repair.wiki/index.php?title=File:11-audio-ic-schematic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12159
+last_edited:  2025-09-28T14:27:28Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         73604ec41e465c661ce4a771675e82e0473a3706
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+11-audio-ic-schematic

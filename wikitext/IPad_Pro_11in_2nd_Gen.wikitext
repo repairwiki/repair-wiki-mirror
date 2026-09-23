@@ -1,0 +1,46 @@
+<!--
+title:        IPad Pro 11in 2nd Gen
+pageid:       2604
+revid:        9037
+source:       https://repair.wiki/w/IPad_Pro_11in_2nd_Gen
+history:      https://repair.wiki/index.php?title=IPad_Pro_11in_2nd_Gen&action=history
+permalink:    https://repair.wiki/index.php?oldid=9037
+last_edited:  2025-07-26T19:58:14Z
+contributors: VCCBoardRepairs, Tiago199988, Samhext
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         cfd34719e582fa40d05c60c4102d0ec217877d35
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Tablet
+|Has code name=A2228, A2068, A2230, A2231}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Ipadpro11-gen2-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Ipadpro11 2ndgen.jpg|iPad Pro 11" 2nd Gen USB-C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

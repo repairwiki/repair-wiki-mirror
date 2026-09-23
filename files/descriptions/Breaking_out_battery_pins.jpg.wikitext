@@ -1,0 +1,18 @@
+<!--
+title:        File:Breaking out battery pins.jpg
+pageid:       1724
+revid:        3817
+source:       https://repair.wiki/w/File:Breaking_out_battery_pins.jpg
+history:      https://repair.wiki/index.php?title=File:Breaking_out_battery_pins.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3817
+last_edited:  2024-05-12T11:40:40Z
+contributors: Brainiac94
+anonymous_edits: 0
+categories:   
+sha1:         42ee08ffcceea77d3b8dc72e016553b0a36bbc58
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Nikon EN-EL15 battery with contacts broken out for sniffing during insertion into camera. The onewire bus pin is in the center (red)

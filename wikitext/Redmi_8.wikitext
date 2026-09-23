@@ -1,0 +1,59 @@
+<!--
+title:        Redmi 8
+pageid:       9798
+revid:        14186
+source:       https://repair.wiki/w/Redmi_8
+history:      https://repair.wiki/index.php?title=Redmi_8&action=history
+permalink:    https://repair.wiki/index.php?oldid=14186
+last_edited:  2026-03-21T20:15:21Z
+contributors: Hlyan Htet
+anonymous_edits: 0
+categories:   Repair guide, Stubs
+sha1:         3cb56d1dd441b50a04a9407e687a216dbab9b918
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=
+|Affects parts=
+|Needs equipment=
+|Type=
+|Difficulty=
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+No power 
+
+အားသွင်းတာ မဝင်ဘူး"
+
+ခေါင်းလဲတယ် မရဘူး"
+
+BQ IC Input Oputမှာပြသနာ
+
+
+[[File:Redmi Note 8 Pro.png|border|thumb|300x300px|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Symptom 1 (Figure 1)
+* Symptom 2
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+
+
+=== Diagnostic Steps ===
+
+
+=== Repair Steps ===

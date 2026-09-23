@@ -1,0 +1,79 @@
+<!--
+title:        IPhone X image no centered and iphone restarting
+pageid:       5640
+revid:        8911
+source:       https://repair.wiki/w/IPhone_X_image_no_centered_and_iphone_restarting
+history:      https://repair.wiki/index.php?title=IPhone_X_image_no_centered_and_iphone_restarting&action=history
+permalink:    https://repair.wiki/index.php?oldid=8911
+last_edited:  2025-07-21T23:11:19Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone X, Stubs
+sha1:         8dac2e75f96d8fb64c3a3fc65f6768327dbb14a2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=IPhone X
+|Affects parts=Motherboard
+|Needs equipment=Microscope, Multimeter
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The iPhone turns on but the Apple logo is not centered on the display, and it may also display some weird graphics.
+[[File:Logo on right side.jpg|thumb|300x300px|Logo on the right side]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Apple logo not centered
+* Apple logo not centered and iphone restarting<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+=== Diagnostic Steps ===
+The first step is always try a new screen to make sure you dont have a parts problem.
+
+If a new display does not fix the issue the next step is to inspect the LCD FPC for any physical damage.
+
+If you have the Apple logo on the right side your issue is likely caused by a faulty coil (L2780) a GPU line (BUCK8_LX0).
+
+If the Apple logo is in the lower part of the display your issue is most likely caused by a open filter (FL5780) on the line PP1V8_DISPLAY_CONN.
+
+=== Repair Steps ===
+If the Logo in on the right side of the screen we must replace L2780 this is a common issue on the iPhone X, the coil is located on the top board next to the CPU.
+[[File:L2780 Location.png|thumb|L2780 Location]]
+
+# Split the boards using your preferred method.
+# Locate and inspect the coil L2780 for any cracks.
+# Replace the coil you can get one from a donor motherboard or buy a new one here is the specs '''1UH-20%-2.5A-0.052OHM'''
+# Test the motherboard on tool like and Isocket to confirm the issue is fixed.
+# Reball the bottom board and solder the boards back together.
+
+
+
+If the logo is on the bottom part of the screen like in the image bellow the issue is with the PP1V8_DISPLAY line.
+[[File:Logo on the bottom part of the screen.png|center|thumb|300x300px|Logo on the bottom part of the screen]]
+
+# Locate FL5780 is located near the LCD FPC 
+
+[[File:FL5780 Location.png|center|thumb|FL5780 Location]]
+
+#
+# Replace the filter you can grab one from a donor board or buy new one here is the specs: '''33-OHM-25%-1500MA.'''
+
+Note if you dont have a filter on hand you can make a small jumper to test if it fixes the issue.
+
+== Final Testing ==
+After doing the repair if you had to split the board make sure to test every function of the device.
+
+Make sure the display can produce image like expected.

@@ -1,0 +1,95 @@
+---
+title: "MacBook Air A1932 Not turning on, pulling 0.00-0.02A at 5V repair"
+pageid: 153
+revid: 482
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Air_A1932_Not_turning_on,_pulling_0.00-0.02A_at_5V_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Air_A1932_Not_turning_on,_pulling_0.00-0.02A_at_5V_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=482"
+last_edited: "2023-10-29T15:25:37Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Air A1932"
+  - "Stubs"
+infobox:
+  Device: "MacBook Air A1932"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station, thermal camera"
+  Type: "Soldering, Software"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Air A1932 Not turning on, pulling 0.00-0.02A at 5V repair
+
+## Problem description
+Diagnosing and resolving issues where a MacBook (820-01521) remains stuck on 5V with low current draw (~0.00–0.02 A) as indicated by a USB-C current meter. Commonly, this is attributed to a short to ground on the PPBUS_G3H power rail. Differentiate this from cases where one port reads 5V ~0.12–0.25 A while another reads 5V ≈5V 0.02 A (CD3215 issue), and where all ports show 5V ~0.00–0.02 A (PPBUS_G3H issue or T2 corruption).
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- MacBook not turning on and is stuck on 5V with low current draw (~0.00–0.02 A) as measured by USB-C amp meter.
+- Absent PPBUS_G3H voltage due to a short or creation problem.
+- Device stuck in DFU mode due to corrupt T2/BridgeOs firmware.
+## Solution
+### Diagnostic Steps
+#### Check for DFU or Recovery Mode
+- Connect the MacBook to another Mac via the master port (*Left side, bottom port, closest to the trackpad)* and use Apple Configurator 2 to verify if it's in DFU mode.
+- If in DFU mode, proceed to "Device stuck in DFU mode due to corrupt T2 firmware" repair steps.
+#### Check PPBUS_G3H Voltage
+- Measure voltage on PPBUS_G3H (C6482 or similar) using a multimeter.
+- Compare measured voltages to reference ranges.
+- Interpret results based on voltage values and proceed to appropriate repair steps.
+    - ≈12.60–12.65 V = Normal*
+    - ≈12.28–12.35 V = T2 communication issue with the ISL9240.* The likely cause for this is **the device is stuck in DFU mode due to corrupt T2 firmware.** Proceed to repair steps below for corrupt T2 firmware.
+    - ≈0 V = Short to ground or absent voltage due to a creation problem.* Proceed to repair steps below for shorted or absent PPBUS_G3H voltage.
+#### Check PP3v3_G3H_RTC Voltage
+- Measure PP3v3_G3H_RTC on a capacitor or resistor near CD3215 (C3100 or C3200 are both good places to measure this line.).
+- Compare measured values to normal range (~3.3V).
+  - Values below the above spec should be considered abnormal. Proceed "PP3v3_G3H_RTC low or absent" in the repair steps below.*
+### Repair Steps
+#### Device stuck in DFU mode due to corrupt T2 firmware
+- Revive or restore T2 firmware via Apple Configurator 2.
+- Ensure you're running the latest macOS version for consistent results.
+- [https://support.apple.com/guide/apple-configurator-mac/revive-or-restore-an-intel-based-mac-apdebea5be51/mac Follow the provided Apple support article for the procedure.]
+- You should see a big square icon pop up that says "DFU" or rarely, "RECOVERY". Click the icon, Navigate to the top menu bar click "Actions" then "Advanced". Select Revive device. You will see a progress bar appear. This process can take anywhere from 2 minutes to over 30 minutes in some cases. It is important to note, if the device is in Recovery mode, the end user may have brought the device to another repair shop or Apple first, who attempted a DFU revive which failed. You may have a secondary issue if the revive fails again.
+    - SELECTING RESTORE WILL WIPE ALL USER DATA!**
+#### PPBUS_G3H Short to Ground
+- Inject ~1V with 5A limit into PPBUS_G3H using DC power supply.
+- Localize shorted component using thermal imaging or isopropyl alcohol method.
+- Replace the identified shorted component.
+#### PPBUS_G3H Absent or Low with No Short
+- PPBUS_G3H is created by the Intersil/Renesas ISL9240 (U7000) which is a buck or boost converter depending on its input voltage. If USB-C voltage is 5 V, the ISL9240 will boost the 5 V input to ≈12 V. If USB-C voltage is 20 V, the ISL9240 will buck (lower) the 20 V input to ≈12 V.*
+- Check if PPDCIN_G3H is reaching ISL9240 (U7000).
+  - C7024 or C7026 is a good place to measure from.
+  - Measure PPDCIN_G3H with your multimeter in voltage mode.
+  - You should get the same voltage that you are getting on the USB-C amp meter (5 V in this case, because that is what we are troubleshooting.)
+  - If you get 0v on PPDCIN_G3H, check for a short, and if no short is found, move down to "CD3215 troubleshooting".
+#### CD3215 Troubleshooting
+- If you are getting 5 V on PPDCIN_G3H, the ISL9240 is likely the cause of the problem, however we still need to check a few things before replacing the chip. The ISL9240 relies on a series of current sensing resistors to measure the amount of power being used by its output rail, PPBUS_G3H. If one of these resistors is blown, the chip will think that something on the output is pulling too much power, and it will disable itself as a protection measure.
+  - Check current sensing resistors: R7021, R7022, R7061, R7062.
+    - Their values are all 1Ohm
+- Replace ISL9240 if the resistors are normal.
+
+#### PP3v3_G3H_RTC Low or Absent
+- Diagnose possible shorted capacitor around CD3215 or from CD3215 itself.
+- Check GHGR_EN_MVR signal produced by ISL9240 (U7000).
+  - If PP3v3_G3H_RTC is not shorted, check for its enable signal, GHGR_EN_MVR. CHGR_EN_MVR is produced by the ISL9240 (U7000). The ISL9240 commonly fails in a way that prevents CHGR_EN_MVR from being produced. If the enable signal above is missing, replace the ISL9240 (U7000.)
+- PP3v3_G3H_RTC can also be pulled low by PP3v3_UPC_XA_LDO or PP3v3_UPC_XB_LDO, so if you have no measurable short to ground, and your enable/VIN is present, check both the above rails for a short or low resistance to ground. Low resistance to ground/short on the above LDO lines will usually be caused by a bad CD3215.
+- Replace ISL9240 (U7000) if enable signal is missing.
+
+#### CD3215/DC IN MOSFET Troubleshooting (PPDCIN_G3H missing with no short)
+The Texas Instruments CD3215 is a multifunction USB-C mux and controller. The 820-01521 uses the C00/C00Z variant of the chip. One of the most important functions of the CD3215 is to open the DC IN MOSFET, to allow voltage through to the rest of the board. When PPDCIN_G3H is missing, the likely cause of the issue is one of the CD3215s is not opening the charger MOSFET.
+
+Usually, when a CD3215 is at fault, you will get 5 V on PPDCIN_G3H on one port, but not the other. The CD3215 that corresponds to the port where PPDCIN_G3H missing will usually be the cause of the fault.
+
+- To diagnose which CD3215 is not opening the DC IN MOSFET you will need to take 2 measurements, one to determine which CD3215 is in use and another to confirm which CD3215 is not opening the DC IN MOSFET. First, measure voltage on F3000 and F3010. One will measure 0 V, and one will measure 5 V. The fuse that measures 5 V corresponds with the CD3215 in use.*
+
+F3000 goes to U3100 and F3010 goes to U3200. Each fuse corresponds to a USB-C port.
+
+Check PPDCIN_G3H voltage on both ports. The port that demonstrates missing PPDCIN_G3H voltage will correspond with the failed CD3215.
+
+Be sure to use a CD3215C00 or CD3215C00Z. A CD3215B03 will not work.

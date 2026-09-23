@@ -1,0 +1,48 @@
+<!--
+title:        IPhone XS
+pageid:       1528
+revid:        12654
+source:       https://repair.wiki/w/IPhone_XS
+history:      https://repair.wiki/index.php?title=IPhone_XS&action=history
+permalink:    https://repair.wiki/index.php?oldid=12654
+last_edited:  2025-11-10T14:41:12Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07, DentsasPanos
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         1c20811691c2e068a38399d5a7726cac7febd56a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device release date=2018-09-21
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphonexs-800x800.webp|alt=
+File:X-xsm-fcam.png|iPhone XS - TrueDepth Camera Assembly
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPhone XS PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPhone XS - Known Good Mechanic Lightning Readings.jpg|iPhone XS - Known Good Mechanic Lightning Readings
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone XS Schematics: https://www.sendspace.com/file/ynjkpn

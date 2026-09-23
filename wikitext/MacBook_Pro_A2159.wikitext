@@ -1,0 +1,43 @@
+<!--
+title:        MacBook Pro A2159
+pageid:       601
+revid:        10328
+source:       https://repair.wiki/w/MacBook_Pro_A2159
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2159&action=history
+permalink:    https://repair.wiki/index.php?oldid=10328
+last_edited:  2025-08-16T23:02:07Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         3d523f0dbff3027a65acb62d468da7dab2fe59ea
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2159
+|Device type=Laptop
+}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A2159.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

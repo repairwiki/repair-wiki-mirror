@@ -1,0 +1,18 @@
+<!--
+title:        File:YCS USB-C Diode Readings.jpg
+pageid:       3384
+revid:        6150
+source:       https://repair.wiki/w/File:YCS_USB-C_Diode_Readings.jpg
+history:      https://repair.wiki/index.php?title=File:YCS_USB-C_Diode_Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6150
+last_edited:  2025-04-13T13:10:05Z
+contributors: Fixmy
+anonymous_edits: 0
+categories:   
+sha1:         59332b2ae083797271d2c146da24248b10523068
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Nintendo Switch Lite - Known Good YCS TNS 360 Readings

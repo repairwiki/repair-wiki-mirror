@@ -1,0 +1,18 @@
+<!--
+title:        File:IPHONE 15-15 PLUS USB IC & ROM LOCATION.png
+pageid:       6708
+revid:        10092
+source:       https://repair.wiki/w/File:IPHONE_15-15_PLUS_USB_IC_%26_ROM_LOCATION.png
+history:      https://repair.wiki/index.php?title=File:IPHONE_15-15_PLUS_USB_IC_%26_ROM_LOCATION.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10092
+last_edited:  2025-08-07T19:32:52Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         e4ce33e4953984ec65252455b6c5fa238065f06f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+IPHONE 15-15 PLUS USB IC & ROM LOCATION

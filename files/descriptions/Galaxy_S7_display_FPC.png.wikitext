@@ -1,0 +1,18 @@
+<!--
+title:        File:Galaxy S7 display FPC.png
+pageid:       8639
+revid:        12563
+source:       https://repair.wiki/w/File:Galaxy_S7_display_FPC.png
+history:      https://repair.wiki/index.php?title=File:Galaxy_S7_display_FPC.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12563
+last_edited:  2025-11-02T23:38:41Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         226345dd576b83528b89573a4ac3b6e4c432d962
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+galaxy S7 display FPC

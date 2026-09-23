@@ -1,0 +1,17 @@
+<!--
+title:        File:Motherboard of PSARCD100-08 Capacitor with wrong polarity marked.jpg
+pageid:       9634
+revid:        13928
+source:       https://repair.wiki/w/File:Motherboard_of_PSARCD100-08_Capacitor_with_wrong_polarity_marked.jpg
+history:      https://repair.wiki/index.php?title=File:Motherboard_of_PSARCD100-08_Capacitor_with_wrong_polarity_marked.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13928
+last_edited:  2026-02-11T22:33:16Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

@@ -1,0 +1,67 @@
+<!--
+title:        How to Fix iPhone 15 Rear Camera Not Switching Lenses Intermittent Camera
+pageid:       6747
+revid:        10139
+source:       https://repair.wiki/w/How_to_Fix_iPhone_15_Rear_Camera_Not_Switching_Lenses_Intermittent_Camera
+history:      https://repair.wiki/index.php?title=How_to_Fix_iPhone_15_Rear_Camera_Not_Switching_Lenses_Intermittent_Camera&action=history
+permalink:    https://repair.wiki/index.php?oldid=10139
+last_edited:  2025-08-11T02:11:37Z
+contributors: VCCBoardRepairs, IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 15
+sha1:         e79adaedd2a877da1e84faa98de5a6e545fdffc2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 15|Affects parts=Main Logicboard|Needs equipment=Microscope, Soldering iron|Difficulty=3. Hard|Type=Soldering}}
+
+== Problem description ==
+iPhone 15 units experience an issue where the rear camera will not switch from 0.5x (ultra-wide) to 1x (wide) or 2x(telephoto), or switches intermittently. This is often due to two capacitors near the rear camera connector developing cold solder joints (improper solder bonding) or failing. These capacitors are part of the camera power circuit — when the connection is unstable, the system cannot properly drive the other camera modules.
+
+[[File:Capacitors.png|thumb|Capacitors located on the iPhone 15 camera power circuit]]
+
+== Symptoms ==
+
+* Camera stuck on 0.5x
+* Lag or delay when switching between lenses
+* Camera intermittently switches but fails again shortly
+
+== Diagnostic steps ==
+
+# Confirm the Symptom
+#* Open the Camera app.
+#* Attempt to switch between 0.5x, 1x, and 2x zoom.
+#* Note if the camera is stuck on one lens (usually 0.5x) or switching is slow/intermittent.
+# Rule Out Software Issues
+#* Force close the Camera app and reopen it.
+#* Test in third-party camera apps (e.g., Instagram, Snapchat).
+#* Update iOS to the latest version.
+#* Perform a hard reset of the phone.
+#* If the issue persists, proceed to hardware diagnostics.
+# Inspect Camera Connector
+#* Disassemble the phone and visually inspect the rear camera connector on the logic board for debris, corrosion, or mechanical damage.
+#* Clean with IPA (isopropyl alcohol) if necessary.
+# Test with a Known Good Camera Module
+#* Connect a known working rear camera assembly to the board.
+#* If switching works normally, the fault is in the customer’s camera module (replace camera).
+#* If switching still fails, the fault is on the logic board — proceed to step 5.
+# Probe the Lens Switching Capacitors
+#* Locate the two capacitors near the rear camera connector (refer to the location photo in the guide).
+#* Inspect for cold solder joints (dull, cracked, or uneven solder).
+
+== Repair steps ==
+
+# Preparation
+#* Disconnect battery.
+#* Shield surrounding components with Kapton tape.
+# Remove Glue
+#* Carefully soften and scrape away the factory glue covering the capacitors using hot air.
+# Reflow or Re-solder
+#* Apply flux around both capacitors.
+#* Using a soldering iron or hot air, reflow both ends of each capacitor.
+# Clean Area
+#* Remove excess flux with isopropyl alcohol and an ESD brush.
+# Reassemble & Test
+#* Reconnect battery, boot device, and test camera switching between all lenses.

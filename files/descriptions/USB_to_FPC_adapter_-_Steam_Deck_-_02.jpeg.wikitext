@@ -1,0 +1,17 @@
+<!--
+title:        File:USB to FPC adapter - Steam Deck - 02.jpeg
+pageid:       9770
+revid:        14146
+source:       https://repair.wiki/w/File:USB_to_FPC_adapter_-_Steam_Deck_-_02.jpeg
+history:      https://repair.wiki/index.php?title=File:USB_to_FPC_adapter_-_Steam_Deck_-_02.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=14146
+last_edited:  2026-03-01T09:39:43Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

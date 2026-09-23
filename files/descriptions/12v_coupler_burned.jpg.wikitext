@@ -1,0 +1,18 @@
+<!--
+title:        File:12v coupler burned.jpg
+pageid:       889
+revid:        2112
+source:       https://repair.wiki/w/File:12v_coupler_burned.jpg
+history:      https://repair.wiki/index.php?title=File:12v_coupler_burned.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2112
+last_edited:  2024-01-13T01:41:02Z
+contributors: Whittz
+anonymous_edits: 0
+categories:   
+sha1:         6f857108c1923697f9ddee961f7f6a6b19f5d1eb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+One cause of device booting then powering down after a second.

@@ -1,0 +1,39 @@
+<!--
+title:        Template:Explanatory Guide
+pageid:       129
+revid:        1804
+source:       https://repair.wiki/w/Template:Explanatory_Guide
+history:      https://repair.wiki/index.php?title=Template:Explanatory_Guide&action=history
+permalink:    https://repair.wiki/index.php?oldid=1804
+last_edited:  2024-01-09T18:11:59Z
+contributors: Admin, ASRepairs
+anonymous_edits: 1
+categories:   
+sha1:         f9e1ed0d3da02ef1282f0d4a72eb74417c74121b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<noinclude>
+{{#template_params:Type (label=What are you trying to explain?;property=Explanatory Guide Type)|Device (label=Device(s);list;property=Device)|Difficulty (property=Repair Guide difficulty)}}
+</noinclude><includeonly>{| class="infobox"
+! class="infobox-heading" colspan="2" |<span style="font-size: larger;">{{PAGENAME}}</span>
+|-
+! Type
+| [[Explanatory Guide Type::{{{Type|}}}]]
+|-
+! Device(s)
+| {{#arraymap:{{{Device|}}}|,|x|[[Device::x]]}}
+|-
+! Difficulty
+| {{Repair Guide Difficulty|{{{Difficulty}}}}}
+|-
+|}
+
+[[Repair Guide difficulty::{{{Difficulty|}}}|]]
+
+[[Category:Explanatory guide]]
+
+{{#if: {{{Device|}}} | {{#arraymap: {{{Device}}} |, |@@@@ |[[Category:Explanatory guides for @@@@]] {{#ifexist: @@@@||[[Category:Missing device page]]}} | }} }}
+</includeonly>

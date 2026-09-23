@@ -1,0 +1,75 @@
+<!--
+title:        IPhone 15 Pro Stuck at 1 Percent Charging and No Battery Data 0xa1 Panic Log Code
+pageid:       4305
+revid:        7350
+source:       https://repair.wiki/w/IPhone_15_Pro_Stuck_at_1_Percent_Charging_and_No_Battery_Data_0xa1_Panic_Log_Code
+history:      https://repair.wiki/index.php?title=IPhone_15_Pro_Stuck_at_1_Percent_Charging_and_No_Battery_Data_0xa1_Panic_Log_Code&action=history
+permalink:    https://repair.wiki/index.php?oldid=7350
+last_edited:  2025-06-04T21:18:23Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone 15 Pro, Repair guides for IPhone 15 Pro Max, Stubs
+sha1:         d7132ec0c97ff705f894386b09833fadad7d1341
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone 15 Pro, IPhone 15 Pro Max
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering, BGA
+|Difficulty=4. Specialist
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+iPhone 15 Pro that is not charging. It says it is at 1% battery level & doesn't go up. The USB meter is constantly fluctuating. When you plug in the charging cable, it pops up as 0% remaining. 
+
+It also restarts every 3 minutes due to lack of battery data. The panic log error will be 0xa1.
+
+Even with a new battery and charging port installed, the symptoms will remain the same.
+
+This tends to happen when the phone gets water damaged & fries the PMIC.
+[[File:15 Pro 0xa1 Panic Log.png|alt=15 Pro 0xa1 Panic Log Example|thumb|Figure 1 - iPhone 15 Pro 0xa1 Panic Log Example]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Not Charging at 9V
+* USB Meter is fluctuating 
+* Always reads battery at 1%
+* When plugging in the charger, it says 0% remaining
+* Restarts every 3 minutes
+* Panic Log Error code is 0xa1 (Figure 1)
+
+== Solution ==
+=== Diagnostic Steps ===
+
+# Test with known good parts. Specifically battery & charging port
+# Check the battery connector for damage. The pins should all be straight & not bent, warped or missing
+# Check the connector '''Diode Mode Values''': 
+## ZXW Pin 1: 0.439V  
+### I2C2_SMC_CHARGER_BI_GG_SDA_1V8  
+## ZXW Pin 2: 0.548  
+### I2C2_SMC_CHARGER_TO_GG_SCL_1V8_CONN  
+## ZXW Pin 5: OL  
+### ANALOG_BATT_VCELL_NEG_CONN  
+## ZXW Pin 6: 0.505V  
+### ANALOG_BATT_VCELL_POS_CONN [[File:IPhone 15 Pro FPC Connector Diode Mode Values.png|center|thumb|iPhone 15 Pro FPC Connector Diode Mode Values]]
+# Check the '''voltage''' of the battery connector pins, by connecting the board only, with charging port flex. Then plug in the charger to it & measure each pin:  
+## ZXW Pin 1: 1.5V  
+### I2C2_SMC_CHARGER_BI_GG_SDA_1V8  
+## ZXW Pin 2: 1.8V  
+### I2C2_SMC_CHARGER_TO_GG_SCL_1V8_CONN  
+## ZXW Pin 5: 0.6V  
+### ANALOG_BATT_VCELL_NEG_CONN  
+## ZXW Pin 6: 0.6V  
+### eANALOG_BATT_VCELL_POS_CONN[[File:IPhone 15 Pro Board & Charging Port.png|center|thumb|iPhone 15 Pro Board & Charging Port. How to measure the voltage at the battery connector]]<br />
+=== Repair Steps ===
+If you have a bad diode mode reading or low voltage on the battery connector, it's likely PMIC that has failed.

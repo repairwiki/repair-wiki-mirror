@@ -1,0 +1,195 @@
+<!--
+title:        A1707 2016-2017 15” Touchbar MacBook Pro
+pageid:       3365
+revid:        6122
+source:       https://repair.wiki/w/A1707_2016-2017_15%E2%80%9D_Touchbar_MacBook_Pro
+history:      https://repair.wiki/index.php?title=A1707_2016-2017_15%E2%80%9D_Touchbar_MacBook_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=6122
+last_edited:  2025-04-07T04:24:01Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   Apple Laptops, MacBook Pro, Repair guide, Repair guides for MacBook Pro A1707
+sha1:         6400591a43873b3e021f8ef77e42ec0155307087
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1707
+|Affects parts=Motherboard, battery
+|Needs equipment=Multimeter
+|Type=Part replacement
+|Difficulty=2. Medium
+}}
+
+{|class="wikitable"
+! style="text-align:left;"| Problem
+! Solution
+
+|-
+|Charger at 5 V, 0.000 A draw; no power draw. 
+|PP3V3_G3H is most likely shorted to ground with a 0–1 Ω short, most likely due to bad capacitor. When PP3V3_G3H is directly shorted to ground, it won't produce heat—the PP3V3_G3H power IC is usually smart enough to just turn off when it detects a straight 0 Ω short. 
+|-
+|20 V, 0 A, not turning on, no shorts. 
+|Check for low resistance to ground on SMBUS_SMC_5_G3H_SDA or SMBUS_SMC_5_G3H_SCL. On older MacBooks, this would result in no battery recognition and a lower voltage on PPBUS_G3H. On USB-C models, it actually results in the machine not turning on at all. Can be caused by a tiny speck of conductive material in the battery connector. 
+|-
+|No power, PPBUS_G3H shorted to ground.
+|Inject 1 V (increase if no reaction), watch for hot spots with thermal cam. Usually it's a bad tantalum cap
+Example: <nowiki>https://www.youtube.com/watch?v=33M3krGWAOU</nowiki> (board taking 20 V, 20 mA, PPBUS_G3H 0.3 V because of a 56 Ω short to ground)
+
+Measure PPBUS_G3H to vCORE coils (coils around CPU/GPU) IF those measure under 1 Ω (0.3–0.8) then you most likely have a direct 12 V short to CPU/GPU. On this board this situation is always a no-fix.
+|-
+|No power, PP3V3_S4 shorted to ground.
+|Measure power rails to find problem or use [[visual inspection]]
+Example of bad capacitor found by visual inspection: https://www.youtube.com/watch?v=UtjHpZs5O5w (full stream: https://www.youtube.com/watch?v=awnOEQ5HC8Q&t=1667s)
+|-
+|20 V, 0 A, not turning on.
+|PP3V3_S4SW_SNS shorted to ground. Traced to shorted C5650.
+|-
+|Charger stuck at 5 V instead of 20 V
+|PP3V3_G3H missing due to a short circuit on the input to PP3V3_G3H creation circuit
+
+PP3V3_G3H shorted to ground with 0–1 Ω resistance (board will draw 0.000 A on USB-C ampmeter)
+
+Corroded LDO cap for PP3V3_G3H around a CD3215. On right side of board, check under shielding by SSD under the right CD3215 for hidden corroded cap.
+
+
+Example: <nowiki>https://www.youtube.com/watch?v=G1pSqm97j6s</nowiki> (drawing 200 mA, 1 V on PP3V3_G3H, not possible to measure short to ground on PP3V3_UPC_LDO because it is only bringing PP3V3_G3H down when machine is turned on)
+
+
+PP3V3_G3H missing due to PM_EN_P3V3_G3H missing due to bad ISL9239
+
+CD 3215 chip does not receive a signal to request 20 V from the charger. Issue should be traced back along the line to identify culprit, which is often ISL 9239.
+
+Bad CD3215
+
+Bad CD3215 ROM chip (U2890)
+
+CD3215 had corrosion nearby, fixed by cleaning up the area and reflowing
+
+
+Example: <nowiki>https://www.youtube.com/watch?v=wPMV38TygnA</nowiki> (corroded capacitor next to CD3215, fixed by reflow of CD3215 and replaced capacitor)
+
+
+CD3215 liquid damaged. Attempt to reflow affected chip(s) first. Replace the chip(s) if reflowing does not resolve the issue.
+
+
+See Charger stuck at 5 V instead of 20 V
+
+
+Example: <nowiki>https://www.youtube.com/watch?v=7-fmZX4FcNc</nowiki>
+
+|-
+|Charger not turning on USB-C amp=meter at all.
+|Check PP20V_USBC for each port's resistance to ground.
+
+USB-C charge port is shorted to ground, inside the charge port. Replace the charge port, it is modular. See if it changes.
+|-
+|Battery not recognized
+|First, '''try a known good battery.''' 
+
+If it doesn't work, check the battery cable going to the board. Sometimes there is corrosion here, sometimes the customer tore the bar on the connector off the connector.
+
+In some rare cases the SMC still is a factor in battery recognition on this board.
+|-
+|No backlight
+|'''Make sure the issue is no backlight, and not no image!'''
+*'''Verify that the screen assembly does not have the "flexgate" issue.''' Open laptop just a tiny bit and see if image/backlight shows. You can tell it is a flexgate issue when you can see a backlight when the machine is barely open, but you cannot see a backlight once the screen is fully open. Check the A1706 and A1708 13" Model in this wiki for info on how to fix the flexgate issue.
+*Blown backlight fuse rarely happens, if ever. This board has a current sensing circuit in place that keeps the backlight fuse from blowing if there is a short to ground on the backlight line. 
+*Short to ground on backlight output due to bad capacitor on output.
+*Bad screen - if backlight voltage is 49{{--}}55{{nbsp}}V, bad screen. This can also be caused by the flexgate issue. Check the A1706 and A1708 13" Model in this wiki for info on how to fix the flexgate issue.
+*Corrosion on current sense vias/traces for backlight to U8400 LP8548
+|-
+|No image
+|Check the LCD cable and the connector on both the screen side and the logic board side. The backlight power line is right next to the eDP data line for the image. Any minor corrosion or liquid damage here results in 30 volts or more going to the DisplayPort mux, U9850. U9850 is what the dedicated GPU and the CPU's integrated GPU go to before it goes to the screen.
+
+This is a good thing, unlike the 13" machine where the backlight voltage destroys the CPU, here it destroys a cheap chip. Replace U9850, and the screen cable, and the connector(on the screen side and the logic board side) and it will usually be fine. See [https://youtu.be/MyHPEFzEGRg How do I fix a black screen on my Touchbar MacBook Pro?]
+|-
+|"Braindead"
+|Laptop turns on but draws 100{{--}}200{{nbsp}}mA, no image.
+Rest in peace. No Solution.
+
+|-
+|Touchbar freezes during normal operation
+
+Touchbar freezes after changing volume or brightness
+|Press Cmd+Space to open Spotlight. Touchbar responds again
+|
+
+|-
+|Discharge during normal operation
+
+Won't charge during normal operation when plugging in charger
+
+Won't charge when turned off
+|Charger may have gone on strike. Unplug charger from AC and from Laptop, wait a few seconds, try again. Try a different port on MacBook (the problem with the other port will go away automatically).
+
+SMC problems may prevent charging at all. When turned off, [https://support.apple.com/en-us/HT201295 perform an SMC reset]
+
+|-
+|Probbelms with doubblble keystrokes (Problems with double keystrokes):
+|Blowing pressurized air may help temporarily.
+
+Genius bar replaces the entire top case free of charge, with no data loss. Remember to specify the correct keyboard layout you want, or else you might get a different one.
+|-
+|19.5 V 360 mA power draw, no image
+|
+When PPBUS_G3H is missing but no short circuit, bad ISL9239 chip.
+|-
+|No image, EDP_PANEL_PWR_EN missing, machine taking 20 V and 1.4 A at the first kick then 20 V 0.9 A and the current was dropping down to 0.8 A -> 0.6 A -> 0.4 A
+
+|Bad GPU, solved with GPU replacement. 
+|-
+|No power, taking 20 V and 0.014 A, PP1V8_SUS shorted
+||In this case PCH and PMIC to do.
+
+
+Usually if the board is taking 20 V and 0.01–0.025 A there is a problem with some of the PMIC's voltages. See Fig. 1.
+
+[[File:PMIC + PCH A1990.png|alt=A1707 820-00928 (but 820-00281 has the same problems) Problem: No power, the machine was taking 20V and 0.014A, PP1V8_SUS shorted Solution: In this case PCH and PMIC to do. Usually if the board is taking 20V and 0.01A ~ 0.025A there is a problem with some of the PMIC's voltages.|thumb|A1707 820-00928 (but 820-00281 has the same problems) Problem: No power, the machine was taking 20V and 0.014A, PP1V8_SUS shorted Solution: In this case PCH and PMIC to do. Usually if the board is taking 20V and 0.01A ~ 0.025A there is a problem with some of the PMIC's voltages.]]
+|-
+|All charge ports boot looping
+|SOC_SWCLK_DBG signal missing, this required a small jumper wire under U3200
+|-
+|20v, 0.04 amp draw, no power
+|PP1V8_SUS was missing as well as the caps under PMIC were shorted
+works after PMIC replacement 
+|-
+|Right fan on high at power-up, left fan working normally, after changing the battery using metal tools and brute force
+|You most likely ripped off one of the tiny MOSFETs that control the PWM for the fan speed. Look on the bottom side of the board near the battery connector and most likely the MOSFET near the edge of the board will be missing. Replace it (and repair traces if you broke them) and the fan will return back to normal speed.
+Watch the full video of this repair here: https://www.youtube.com/watch?v=MgPighrnTA0
+|-
+|Both fans on high at power-up after changing the battery using metal tools and brute force
+|There is a small gap between the battery in the middle and you most probably damaged some sensors on the trackpad. Check the trackpad board and repair the damage you did there and the fans will return to normal speed
+|-
+|not waking up from sleep after closing
+only starts after unplugging of battery
+
+sleep without closing (through OS) is no problem
+|
+* Problem with one of the Hall Sensors
+* SMC_LID acts normal (3.4V with open Laptop; 0V closed)
+* SMC_LID_LEFT or SMC_LID_RIGHT is not acting
+** SMC needs both signals to go to sleep
+** Display, Keyboard, Powerbutton, Trackpad, ... are in sleep mode and don't wake up
+* Solution: look at R5252, C5250, R5253, C5260, both Hall Sensor Boards (J5250, J5260) and U5255 area for corrosion --> repair
+** if Tracks are missing (like my case) to Pin 1 of R5252 or R5252 a direkt connection to Pin 2 of the Hall sensor chip 
+|
+|-
+|Device powers on but Touch bar has no power, missing keyboard backlight and ambient light sensor. Displays critical update but wont update.
+|Check for missing components near edge of board. Caps knocked off board while someone removing bottom cover with pry tool inserted too far. C4206, C4226, C4080, C4440, R4080, C4070. Some of the caps are filter only but a few are needed for proper operation. Device originally had no backlight due to shorted cap on PPVOUT_S0_LCDBKLT. But customer attempted to remove bottom and caused more damage. 
+|
+|-
+|20v, 220mA, not turning on
+|U8295 getting hot (95 degrees). Short on PP3v3_S0_LEFT, Removed U8295 and injected PP3v3_S0_LEFT, U2800 gets hot. The actual short is on PP3V3_TBT_X_S0 (U2800)
+|
+|-
+|20V, 0mA, PM_BATLOW_L low
+|PM_BATLOW_L=0.7V, replacing SMC didn't help. Resolved by reflowing UB000 and U2800
+|
+|}
+
+
+[[Category:Apple Laptops]]
+[[Category:MacBook Pro]]

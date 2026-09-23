@@ -1,0 +1,48 @@
+<!--
+title:        Nikon D850
+pageid:       1726
+revid:        11582
+source:       https://repair.wiki/w/Nikon_D850
+history:      https://repair.wiki/index.php?title=Nikon_D850&action=history
+permalink:    https://repair.wiki/index.php?oldid=11582
+last_edited:  2025-09-14T22:22:38Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Cameras, Device, Nikon, Nikon Cameras, Stubs
+sha1:         d06d5cd171ccb99bd2efee339f25960fbb2b6fd0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Nikon
+|Has code name=D850
+|Device type=Camera
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Nikon D850.jpg|alt=
+File:Nikon D850 screen.jpg|alt=
+File:Nikon D850 back.jpg|alt=
+File:Nikon D850 up.jpg|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

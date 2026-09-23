@@ -1,0 +1,72 @@
+<!--
+title:        IPhone 14 Pro Max – No Modem Firmware After RF Layer Swap
+pageid:       6206
+revid:        9565
+source:       https://repair.wiki/w/IPhone_14_Pro_Max_%E2%80%93_No_Modem_Firmware_After_RF_Layer_Swap
+history:      https://repair.wiki/index.php?title=IPhone_14_Pro_Max_%E2%80%93_No_Modem_Firmware_After_RF_Layer_Swap&action=history
+permalink:    https://repair.wiki/index.php?oldid=9565
+last_edited:  2025-07-31T13:00:16Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 14 Pro Max, Stubs
+sha1:         448f801fcaba65f4c8ac41561e7c5d865cfeddb5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPhone 14 Pro Max
+|Affects parts=Motherboard
+|Needs equipment=Microscope, Hot Air Station, Multimeter, Schematic + Boardview for iPhone 14 Pro Max, Tweezers, Flux, Soldering tools
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+An iPhone 14 Pro initially came in with “No Service” (no IMEI on dialer), but modem firmware was still present. The device was previously worked on by another technician who attempted to resolve the issue by swapping the RF (bottom) layer. After the swap, the phone began showing “No Modem Firmware”, making the situation worse.
+
+This issue is due to mismatched board configuration resistors (Fig. 3) — specifically the Board ID, Platform ID, and SKU ID resistors — between the original and donor layers.
+
+
+[[File:No-Modem-Firmware.png|thumb|Modem firmware blank (Figure 1)]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* No IMEI on dialer
+* Modem firmware missing (blank under Settings > General > About) (Fig. 1)
+* Cannot connect to any network
+
+=== Diagnostic Steps ===
+
+# Check for Modem Firmware:
+#* Navigate to Settings > General > About
+#* If “Modem Firmware” is blank, baseband is not initializing.
+# Confirm RF Layer Swap:
+#* Check with client or inspect board for signs of reball or swap on the RF side.
+# Inspect Board Config Resistors:
+#* Check if Board ID, SKU ID, and Platform ID resistors are missing or incorrectly placed on the donor RF layer.
+#* Use microscope + boardview/schematic to locate and match resistor values from the original board.<br />[[File:Different-Board-Revisions.png|thumb|2 different board revisions  (Figure 3)]]
+[[File:Modem-Firmware-Restored.png|thumb|Restored modem firmware after replacing board,sku and platform ID resistors (Figure 2)]]
+
+=== Repair Steps ===
+
+# Identify Original Config Resistors:
+#* If original RF board is available, measure and note resistor values at Board ID, SKU ID, and Platform ID.
+# Transfer Resistors to Donor RF Layer:
+#* Carefully remove the config resistors from the original board.
+#* Solder them to the corresponding pads on the donor RF layer.
+#* Ensure alignment and no shorts between pads.
+# Inspect and Clean:
+#* Check for cold joints or missing components.
+#* [[File:Resistor-locations.png|thumb|Location for Board, SKU and Platform ID resistors. (Figure 4)]]Clean area with IPA and test continuity.
+# Assemble and Test:
+#* Power on the phone.
+#* Go to Settings > About and check if “Modem Firmware” appears. (Fig. 2)
+#* Dial *#06# to confirm IMEI is now visible.
+#* Test network signal and cellular connectivity.

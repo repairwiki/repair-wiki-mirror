@@ -1,0 +1,38 @@
+<!--
+title:        Sony WH-1000XM3 Headphones Charging but Not Turning On Repair
+pageid:       1454
+revid:        3174
+source:       https://repair.wiki/w/Sony_WH-1000XM3_Headphones_Charging_but_Not_Turning_On_Repair
+history:      https://repair.wiki/index.php?title=Sony_WH-1000XM3_Headphones_Charging_but_Not_Turning_On_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=3174
+last_edited:  2024-01-23T02:13:59Z
+contributors: KevinShort
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for WH-1000XM3, Stubs
+sha1:         806a5bd5364081a48d137f8329ac1fa8b4541513
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=WH-1000XM3
+|Affects parts=Main board
+|Needs equipment=screwdrivers, pry tool, soldering equipment
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+How to fix Sony WH-1000XM3 headphones that will not turn on.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Will not power on but appears to charge (red charging light comes on and stays lit).
+
+==Solution==
+
+* Use a multimeter to check the battery. Battery should read between 3.7v and 4.2v. If it's outside of this range, replace battery with another one.
+* Check connections, check unit for signs of water damage.
+* Assuming all the above stuff is good, you have a dead L_MAIN board, replace L_MAIN board. The service manual says you can't but you can. Just make sure you solder all wires in the correct order.

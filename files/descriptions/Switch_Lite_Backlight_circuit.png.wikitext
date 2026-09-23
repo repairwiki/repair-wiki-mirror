@@ -1,0 +1,18 @@
+<!--
+title:        File:Switch Lite Backlight circuit.png
+pageid:       7100
+revid:        10622
+source:       https://repair.wiki/w/File:Switch_Lite_Backlight_circuit.png
+history:      https://repair.wiki/index.php?title=File:Switch_Lite_Backlight_circuit.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10622
+last_edited:  2025-08-24T13:50:22Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         84528752b851e4817a48426182022fa26e420d67
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Switch Lite Backlight circuit

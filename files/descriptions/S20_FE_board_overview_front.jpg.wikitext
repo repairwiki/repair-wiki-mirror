@@ -1,0 +1,17 @@
+<!--
+title:        File:S20 FE board overview front.jpg
+pageid:       2210
+revid:        4589
+source:       https://repair.wiki/w/File:S20_FE_board_overview_front.jpg
+history:      https://repair.wiki/index.php?title=File:S20_FE_board_overview_front.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4589
+last_edited:  2024-08-12T05:15:30Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

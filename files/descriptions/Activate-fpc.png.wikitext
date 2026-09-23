@@ -1,0 +1,18 @@
+<!--
+title:        File:Activate-fpc.png
+pageid:       7549
+revid:        11150
+source:       https://repair.wiki/w/File:Activate-fpc.png
+history:      https://repair.wiki/index.php?title=File:Activate-fpc.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11150
+last_edited:  2025-09-02T01:14:36Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         56958c0ba47e79950b2ef5ce6ece353c1d1935c6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Activate-fpc

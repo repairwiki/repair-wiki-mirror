@@ -1,0 +1,18 @@
+<!--
+title:        File:Galaxy S10 BATTERY CONNECTOR - Diode Mode Readings.jpg
+pageid:       299
+revid:        751
+source:       https://repair.wiki/w/File:Galaxy_S10_BATTERY_CONNECTOR_-_Diode_Mode_Readings.jpg
+history:      https://repair.wiki/index.php?title=File:Galaxy_S10_BATTERY_CONNECTOR_-_Diode_Mode_Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=751
+last_edited:  2023-11-05T22:34:45Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         5f2b05648babe46d0f37a4eb72c0183507622a00
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Galaxy S10 BATTERY CONNECTOR - Diode Mode Readings

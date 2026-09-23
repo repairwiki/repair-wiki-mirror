@@ -1,0 +1,51 @@
+---
+title: "MacBook Pro A1706 Charger stuck at 5V instead of 20V repair"
+pageid: 221
+revid: 3979
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A1706_Charger_stuck_at_5V_instead_of_20V_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A1706_Charger_stuck_at_5V_instead_of_20V_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3979"
+last_edited: "2024-06-01T20:50:19Z"
+contributors:
+  - "ASRepairs"
+  - "Giuliongo"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A1706"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A1706"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station, thermal camera"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A1706 Charger stuck at 5V instead of 20V repair
+
+## Problem description
+Charging voltage from USB-C charger is stuck at 5V instead of 20V.
+
+For more information about this problem, check [Charger stuck at 5V instead of 20V on MacBooks](Charger_stuck_at_5V_instead_of_20V_on_MacBooks.md)![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- Not charging
+- Most likely not turning on
+- Drawing very little to no current
+## Solution
+- If 5 V and 0.00 A draw, most likely a 0–1 Ω short to ground on PP3V3_G3H
+- PP3V3_G3H missing due to a short circuit on the input to PP3V3_G3H creation circuit
+- Corroded LDO capacitor for PP3V3_G3H around a CD3215. On right side of board, check under shielding by SSD under the right CD3215 for hidden corroded capacitor. [https://www.youtube.com/watch?v=Wb5dkH_mTEc Example video] (PP3V3_G3H 1.5 V, also bad ISL9239)
+- PP3V3_G3H missing due to PM_EN_P3V3_G3H missing due to bad ISL9239 (U7000) [https://www.youtube.com/watch?v=Wb5dkH_mTEc Example video] (PP3V3_G3H 1.5 V, also corrosion at LDO capacitors next to CD3215)
+- Bad U6903, responsible for creating PP3V3_G3H
+- Diode providing input to U6903 is bad
+- Bad C6905, C6906 capacitors around U6903
+- Bad CD3215
+- Bad CD3215 ROM chip (U2890)
+- 300 mA for a few seconds then reboot (PP3V3_G3H present and working CD3215): corroded resistors around thunderbolt ROM chip (U2890 or UB090)
+- If 5V 0.40A look with a thermal camera if one of the CD3215 are warming up, when spotted replace it with new one
+If the issue is a bad CD3215, one way to get an idea, is to see which does not boot loop. When you plug the charger in with the USB-C current meter, it will turn on for 2–3 seconds, then turn off and turn on again. Whichever port doesn't boot loop usually has an associated CD3215 that is bad. Also, the bad CD3215 will occasionally get hotter than the rest. [https://www.youtube.com/watch?v=pVg6Oxn9IUM Example video.]

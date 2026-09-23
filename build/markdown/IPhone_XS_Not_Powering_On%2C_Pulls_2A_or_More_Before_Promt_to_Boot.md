@@ -1,0 +1,61 @@
+---
+title: "IPhone XS Not Powering On, Pulls 2A or More Before Promt to Boot"
+pageid: 4588
+revid: 7649
+kind: repair_guide
+source: "https://repair.wiki/w/IPhone_XS_Not_Powering_On,_Pulls_2A_or_More_Before_Promt_to_Boot"
+history: "https://repair.wiki/index.php?title=IPhone_XS_Not_Powering_On,_Pulls_2A_or_More_Before_Promt_to_Boot&action=history"
+permalink: "https://repair.wiki/index.php?oldid=7649"
+last_edited: "2025-06-13T23:21:30Z"
+contributors:
+  - "Samhext"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for IPhone XS"
+  - "Repair guides for IPhone XS Max"
+  - "Stubs"
+infobox:
+  Device: "IPhone XS, IPhone XS Max"
+  Affects_parts: "Motherboard"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# IPhone XS Not Powering On, Pulls 2A or More Before Promt to Boot
+
+## Problem description
+iPhone Xs is not turning on and pulls 2 amps of more from DCPSU before prompt to boot
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Solution
+Do a full visual inspection of the board and check for water damage under the stickers on the back. Remove the foam around the connectors to get a better look at everything. You're looking for any signs of corrosion on or around components and ICs.
+
+If there is no water damage, is is most likely a shorted capacitor on any of the below lines:
+
+- **PP_VDD_MAIN** — This is the most likely line to be shorted
+- **PP_VDD_BOOST** — This line is usually shorted when it's not VDD MAIN
+- **Speaker Amp (U4902 or U5002)** — This is a bit rare but it does happen
+
+You'll need to inject voltage (4 V / 2 A) directly into the line you measured as short and use freeze spray (see here https://youtu.be/3MtLSQJvQxI) or thermal camera (see here: https://youtu.be/fkd4iDjgfvc) to spot the capacitor that is shorted.
+
+In these cases, you can just remove the shorted capacitor and not replace it. The device will function normally with no negative effects.
+
+Replacing it means you are adding more heat to the board to reinstall it, which increases the risk of something going wrong.
+
+If you have a case of water damage, then you'll have to pay attention to the spots on the board where there's signs of water damage.
+
+Often, you'll find corrosion on capacitors but also under ICs.
+
+Since this is a 2 layer board, you can split the sandwich into 2 separate parts, top board & bottom board.
+
+- Then you can check to see if the short is still present when connecting the top layer to the DC Power Supply by itself.
+- If the short is still present, the culprit will be on the top board somewhere
+- If the short clears, then the short is present on the bottom board.
+  - So in this case, you can inject voltage into the bottom board to find the short.
+
+  - Please Note:** If you are using a DC power supply to inject voltage through the battery connector, like using an iPower Pro or DT880 (see here https://youtu.be/rawjB9yxe1A), be aware that Yangtze may heat up instantly. This is because the battery connector line PP_BATT_VCC connects to PP_VDD_MAIN through it, which creates lots of heat. In most cases, the short is not the chip itself, but a shorted cap. In rare cases, it's Yangtze itself. So try removing it & check if there's any shorts under Yangtze. If not, then the issue was Yangtze and you'll need to replace it.
+
+- Migrated from old wiki*

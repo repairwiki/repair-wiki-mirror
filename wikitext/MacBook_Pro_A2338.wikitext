@@ -1,0 +1,45 @@
+<!--
+title:        MacBook Pro A2338
+pageid:       604
+revid:        10330
+source:       https://repair.wiki/w/MacBook_Pro_A2338
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2338&action=history
+permalink:    https://repair.wiki/index.php?oldid=10330
+last_edited:  2025-08-16T23:02:47Z
+contributors: ASRepairs, Tiago199988, Dorkydanny
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         9e044aa42e86335c81bcefa31bf38ccd15d3d617
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2338
+|Device type=Laptop
+}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A2338.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+Board 820-02020 Schematic: https://cdn.dorkydanny.org/MacBook/A2338/820-02020.bvr
+
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

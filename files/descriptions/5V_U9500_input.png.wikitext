@@ -1,0 +1,18 @@
+<!--
+title:        File:5V U9500 input.png
+pageid:       4153
+revid:        7126
+source:       https://repair.wiki/w/File:5V_U9500_input.png
+history:      https://repair.wiki/index.php?title=File:5V_U9500_input.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7126
+last_edited:  2025-05-27T16:51:55Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         128a2b6035e368276613c1a07a8f34ff2dacf1fe
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+U9500 5V input

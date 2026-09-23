@@ -1,0 +1,98 @@
+---
+title: "IPad Not Charging Battery Always Reporting 1 Percent Charge"
+pageid: 6483
+revid: 9848
+kind: repair_guide
+source: "https://repair.wiki/w/IPad_Not_Charging_Battery_Always_Reporting_1_Percent_Charge"
+history: "https://repair.wiki/index.php?title=IPad_Not_Charging_Battery_Always_Reporting_1_Percent_Charge&action=history"
+permalink: "https://repair.wiki/index.php?oldid=9848"
+last_edited: "2025-08-03T20:35:15Z"
+contributors:
+  - "Tiago199988"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for IPad 2"
+  - "Repair guides for IPad 3"
+  - "Repair guides for IPad 4"
+  - "Repair guides for IPad 5"
+  - "Repair guides for IPad 6"
+  - "Repair guides for IPad 7"
+  - "Repair guides for IPad 8"
+  - "Repair guides for IPad 9"
+  - "Repair guides for IPad Air"
+  - "Repair guides for IPad Air 2"
+  - "Repair guides for IPad Air 3"
+  - "Repair guides for IPad Air 4"
+  - "Repair guides for IPad Air 5"
+  - "Repair guides for IPad Pro 10.5"
+  - "Repair guides for IPad Pro 11in 1st Gen"
+  - "Repair guides for IPad Pro 11in 2nd Gen"
+  - "Repair guides for IPad Pro 11in 3rd Gen"
+  - "Repair guides for IPad Pro 11in 4th Gen"
+  - "Repair guides for IPad Pro 12.9 1st Gen"
+  - "Repair guides for IPad Pro 12.9 2nd Gen"
+  - "Repair guides for IPad Pro 12.9 3rd Gen"
+  - "Repair guides for IPad Pro 12.9 4th Gen"
+  - "Repair guides for IPad Pro 12.9 5th Gen"
+  - "Repair guides for IPad Pro 12.9 6th Gen"
+  - "Repair guides for IPad Pro 9.7"
+  - "Stubs"
+infobox:
+  Device: "IPad 2,IPad 3,IPad 4,IPad 5, IPad 6, IPad 7, IPad 8, IPad 9, IPad Air, IPad Air 2, IPad Air 3, IPad Air 4, IPad Air 5, IPad Pro 10.5, IPad Pro 11in 1st Gen, IPad Pro 11in 2nd Gen, IPad Pro 11in 3rd Gen, IPad Pro 11in 4th Gen, IPad Pro 12.9 1st Gen, IPad Pro 12.9 2nd Gen, IPad Pro 12.9 3rd Gen, IPad Pro 12.9 4th Gen, IPad Pro 12.9 5th Gen, IPad Pro 12.9 6th Gen, IPad Pro 9.7"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "DCPSU, Thermal Camera or freeze spray"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# IPad Not Charging Battery Always Reporting 1 Percent Charge
+
+## Problem description
+The iPad does not charge, the battery percentage is always at 1% and it may also restart.
+## Symptoms
+- Battery percentage always stuck at 1%
+- The iPad doesnt charge
+- The iPad randomly restarts every few minutes
+
+### Diagnostic Steps
+This issue is usually caused by a faulty battery or a conection issue between the motherboard and the battery.
+
+If the iPad is restarting check if the panic logs of the devices has a reference to the TG0B and TG0V sensors if it does the problem is related to the battery or a communication issue between the battery and the motherboard.
+
+Open the device and check if the screw on the battery connector is present and screwed in properly, if this screw is missing it will cause the issues above.
+
+Remove the motherboard out of the housing and inspect the Battery FPC for any physical damage it is common to have this connector damaged if the iPad was open before and something was inserted here to disconnect the battery.
+
+You can also touch the connection with a pair of tweezers to make sure they are solid and not cracked.
+![Damaged iPad Battery FPC](images/0/02/Damaged_iPad_FPC.png)
+If every thing looks ok the next step is to test a new battery.
+
+## Repair Steps
+If the screw is missing you need to install a new one, make sure the one you get is not to long or the connector wont be pushed properly into the battery, dont over tight the screw or it can damage the FPC, sometimes if the screw is over tight it can also bend the FPC the side pins will lift causing issues.
+
+Most iPads use a screw between **1.8–2.3mm Phillips**
+
+If the connector is damaged the solution is to replace it to do this i recomend adding low melt solder on the motherboard connections to make the repair easier.
+
+After adding solder use your hot air station to desolder the FPC, while the board is still hot use your soldering iron with e bit tip to clean the holes, It will take a bit of heat to clean the holes, if the soldering iron is not enough you can help with your hot air station at the same time.
+
+After cleaning the holes place the new connector and add fresh solder.
+
+These connectors are easy to find and a lot of devices use the same one.
+
+The iPad Air 1 / Air 2 iPad 5 / 6 / 7 / 8 / 9 all use the same part.
+
+The iPad Air 3/Pro 11" 1st Gen (2018)/Pro 11" 2nd Gen(2020)/3rd Gen(2021)/Pro 10.5/Pro 12.9" 1st Gen(2015)/Pro 12.9" 3rd Gen(2018)/Pro 12.9" 4th Gen(2020)/Pro 12.9" 5th Gen (2021)/Pro 12.9" 6th Gen(2022)/Air 4 (5 Pin) all use the same part.
+
+The iPad Pro 9.7" / Pro 12.9" 2nd Gen (2017) (5 Pin) all use the same part.
+
+## Repair Steps
+After doing the repair make the sure the iPad is reporting the correct battery percentage.
+
+Make sure the device does not restart.
+
+Make sure the device is charging normally

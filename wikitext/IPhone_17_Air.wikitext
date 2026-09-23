@@ -1,0 +1,63 @@
+<!--
+title:        IPhone 17 Air
+pageid:       7790
+revid:        12689
+source:       https://repair.wiki/w/IPhone_17_Air
+history:      https://repair.wiki/index.php?title=IPhone_17_Air&action=history
+permalink:    https://repair.wiki/index.php?oldid=12689
+last_edited:  2025-11-12T15:37:05Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         5712840dff4d12c3d17dc041c4aa28296db7c65e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device release date=2025-09-19
+|Device type=Phone
+|Has code name=A3517, A3260, A3518}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:IPhone 17 Air.png|alt=
+File:Iphone-air-front-device.png|alt=
+File:Iphone-air-rear-device.png|alt=
+File:Iphone-air-rear-opened-device.png|alt=
+File:Ip-air-fcam.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Ip-air-front-board.png|alt=
+File:Ip-air-rear-board.png|alt=
+File:Ip-air-front-cam.png|alt=
+File:Ip-air-rear-cam.png|alt=
+File:IPhone Air PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Charge-port.png|alt=
+File:Battery-fpc.png|alt=
+File:Display-fpc.png|alt=
+File:Dotprojector-ircamera-fpc.png|alt=
+File:Front-camera.png|alt=
+File:Power-button.png|alt=
+File:Prox-fpc.png|alt=
+File:Rear-camera.png|alt=
+File:Wirelss-flex.png|alt=
+</gallery>
+
+== More Information/External Sources ==
+Apple Self Service iPhone 17 Air
+
+Repair Manual ID: JWAQML

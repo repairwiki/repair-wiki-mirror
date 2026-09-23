@@ -1,0 +1,44 @@
+<!--
+title:        Aspire E5-773G
+pageid:       1207
+revid:        12981
+source:       https://repair.wiki/w/Aspire_E5-773G
+history:      https://repair.wiki/index.php?title=Aspire_E5-773G&action=history
+permalink:    https://repair.wiki/index.php?oldid=12981
+last_edited:  2025-12-01T23:33:00Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Acer, Acer Laptops, Device, Laptops, Stubs
+sha1:         313417f9fa818cda70447de36cb1a3b733c282de
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Acer
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Aspire E5-773G.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

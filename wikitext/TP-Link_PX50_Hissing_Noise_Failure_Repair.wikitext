@@ -1,0 +1,60 @@
+<!--
+title:        TP-Link PX50 Hissing Noise Failure Repair
+pageid:       9809
+revid:        14209
+source:       https://repair.wiki/w/TP-Link_PX50_Hissing_Noise_Failure_Repair
+history:      https://repair.wiki/index.php?title=TP-Link_PX50_Hissing_Noise_Failure_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=14209
+last_edited:  2026-03-28T02:44:58Z
+contributors: M32
+anonymous_edits: 0
+categories:   
+sha1:         61a22534af178e7976436db4c0ebd4def53d5792
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The TP-Link PX50 is a PLC+WiFi mesh router. It uses cheap consumer grade capacitors and passive convective cooling. This results in the device cooking itself if placed in a location with poor airflow.
+
+A symptom of impending failure is a hissing noise coming from the device especially when PLC backhaul is active. Eventually the device will fall off the network and the status LED may turn red.
+
+This repair involves replacing two low ESR 16v 680uF electrolytic capacitors.
+
+'''Equipment needed:'''
+* soldering iron
+* solder
+* snips to trim capacitor legs
+* philips #2 screwdriver
+* flathead screwdriver or paint can opener
+
+'''Supplies needed:'''
+* replacement capacitors (I used Nichicon [https://www.digikey.com/en/products/detail/nichicon/UHE1C681MPD/589265 UHE1C681MPD])
+* replacement silastic (I used Chip Quik [https://www.digikey.com/en/products/detail/chip-quik-inc/EGS10W-20G/10059589?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLlhNC2cu46g5_jXU1zrLhATmB&gclid=Cj0KCQjw1ZjOBhCmARIsADDuFTAABEoUnra0ugbv1TmxxXgIA-42TKSB_deTrtshbe2V4vPNEC9d9 EGS10W-20G])
+
+
+Step 1. Pry open the top cover. The cover is held on with 4 plastic clips (located at approximately the red circles in photo below). The main body can be squeezed by hand slightly to relieve some pressure from an opposing set of clips and the cap can be pried up in those spots with a flathead screwdriver inserted in to a vent opening (a paint can opener works great for this as it allows you to pull up on the lid without putting pressure on the lip of the main body).
+[[File:IMG 0914.jpeg|thumb|Location of tabs top view]]
+
+Step 2. Unscrew two Philips screws holding the PCB assembly within the body shell. Use a Philips #2 screwdriver to remove the two screws (circled in blue below).
+[[File:IMG 0913.jpeg|thumb|View with top cover removed. ]]
+
+Step 3. Extract the PCB assembly. Pull the PCB assembly straight out.
+
+Step 4. Locate the bulging electrolytic capacitors and remove. The capacitors may have some silastic adhering them to each the board and each other. The silastic is likely dry and no longer sticky at this point. Carefully break it away and discard while being very careful not to rip or knock off any of the microscopic surface mount components nearby. Desolder and discard the failed capacitors. Location of capacitors that failed for me are circled in red below.
+[[File:IMG 0909.jpeg|thumb|TP-Link PX50 hissing capacitors. ]]
+
+
+Step 5. Install replacement capacitors. Clean the pads and insert the replacement capacitors, seating them against the PCB. Negative (longer) leg of each goes to the outside edge of the PCB. Solder on the capacitors, being mindful of the small SMDs nearby. Trim the legs and apply fresh silastic between the capacitors and anchoring them to the PCB.
+[[File:IMG 0911.jpeg|thumb|Replacement capacitors installed with silastic]]
+
+Note: The replacement capacitors I used are a slightly taller form factor and a little wider leg spacing but worked with no problem since there is enough room in the case.
+[[File:IMG 0908.jpeg|thumb|Capacitor comparison. Originals on left.]]
+
+Step 6. Power on to test. It may take a couple minutes to rejoin the network, but the hissing sound should be gone immediately.
+
+Step 7. Reassemble. Ensure the ports line up with the case opening (circled red below) and the opposite edge of the PCB is retained in the provided slot (circled blue below). 
+[[File:IMG 0912.jpeg|thumb|PX50 empty case.]]
+Reinstall the screws and the cap, ensuring the different sized pegs on the cap go into the appropriate holes (circled green below and in photo for step #2 above). 
+[[File:IMG 0910.jpeg|thumb|Bottom view of TP-Link PX50 top cover. ]]
+If any clips were broken during opening you may choose to put a dab of silastic in the same spots to retain the lid. Only a couple of intact clips are needed to keep the lid attached in most instances.

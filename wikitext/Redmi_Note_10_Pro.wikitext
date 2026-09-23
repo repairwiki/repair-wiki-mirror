@@ -1,0 +1,44 @@
+<!--
+title:        Redmi Note 10 Pro
+pageid:       3771
+revid:        10642
+source:       https://repair.wiki/w/Redmi_Note_10_Pro
+history:      https://repair.wiki/index.php?title=Redmi_Note_10_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=10642
+last_edited:  2025-08-24T20:45:55Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         72931a07697d907decf1d3ebb43e9e3fa239d559
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Xiaomi|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Redmi Note 10 Pro.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+File:Redmi note 10 pro USB C readings.jpeg|alt=
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

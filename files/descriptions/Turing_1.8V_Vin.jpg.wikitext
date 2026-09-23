@@ -1,0 +1,18 @@
+<!--
+title:        File:Turing 1.8V Vin.jpg
+pageid:       432
+revid:        930
+source:       https://repair.wiki/w/File:Turing_1.8V_Vin.jpg
+history:      https://repair.wiki/index.php?title=File:Turing_1.8V_Vin.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=930
+last_edited:  2023-11-07T21:57:23Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         2151c39f84284b29a826d825093e30f46a159ee3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Turing 1.8V Vin

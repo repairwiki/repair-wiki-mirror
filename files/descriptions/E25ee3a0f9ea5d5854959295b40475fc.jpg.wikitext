@@ -1,0 +1,18 @@
+<!--
+title:        File:E25ee3a0f9ea5d5854959295b40475fc.jpg
+pageid:       2528
+revid:        5103
+source:       https://repair.wiki/w/File:E25ee3a0f9ea5d5854959295b40475fc.jpg
+history:      https://repair.wiki/index.php?title=File:E25ee3a0f9ea5d5854959295b40475fc.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5103
+last_edited:  2024-10-22T05:53:01Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         da873a1156e8161821377838ce7bcd6fe67f7533
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+VT, VX, VY, VZ Power mirror switch clip

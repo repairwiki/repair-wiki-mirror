@@ -1,0 +1,18 @@
+<!--
+title:        File:Ref 480 12vext shorts front.jpg
+pageid:       383
+revid:        861
+source:       https://repair.wiki/w/File:Ref_480_12vext_shorts_front.jpg
+history:      https://repair.wiki/index.php?title=File:Ref_480_12vext_shorts_front.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=861
+last_edited:  2023-11-07T19:09:26Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         21875840745ae11208ca3eb6c2842ef8d09b8f1f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+ref 48

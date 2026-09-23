@@ -1,0 +1,18 @@
+<!--
+title:        File:Screenshot From 2025-06-13 16-42-18.png
+pageid:       4594
+revid:        7657
+source:       https://repair.wiki/w/File:Screenshot_From_2025-06-13_16-42-18.png
+history:      https://repair.wiki/index.php?title=File:Screenshot_From_2025-06-13_16-42-18.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7657
+last_edited:  2025-06-14T00:03:27Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   
+sha1:         7b8e374816ce77b5abb0c2828513db6b0c61fe6b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iphone xs boardview of touch FPC

@@ -1,0 +1,18 @@
+<!--
+title:        File:Piece of metal to remove.png
+pageid:       5613
+revid:        8874
+source:       https://repair.wiki/w/File:Piece_of_metal_to_remove.png
+history:      https://repair.wiki/index.php?title=File:Piece_of_metal_to_remove.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8874
+last_edited:  2025-07-20T20:30:50Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         8991d658a517df2bfb28531fd8884094c58136bc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Piece of metal to remove

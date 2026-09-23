@@ -1,0 +1,61 @@
+<!--
+title:        IPhone 17 Pro
+pageid:       7791
+revid:        13380
+source:       https://repair.wiki/w/IPhone_17_Pro
+history:      https://repair.wiki/index.php?title=IPhone_17_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=13380
+last_edited:  2025-12-22T23:27:15Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07, Fkh3d
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         f48b568e9473e9bf5940a5cd2f2c9d6ca9d24c37
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device release date=2025-09-19
+|Device type=Phone
+|Has code name=A3523, A3256, A3524}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:IPhone 17 Pro.png|alt=
+File:Ip-17pmax-fcam.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Iphone 17 pro pcb.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:IPhone 17 Pro Mechanic Diode-Reading.jpg|alt=
+File:17-pm-CHARGEPORT-fpc-diode.png|alt=
+File:17-pm-DISPLAY-fpc-diode.png|alt=
+File:17-pm-IR-camera-fpc-diode.png|alt=
+File:17-pm-WIRELESSCHARGE-fpc-diode.png|alt=
+File:17-pm-front-prox-fpc-diode.png|alt=
+File:17-pm-batt-fpc-diode.png|alt=
+File:17-pm-FRONT-camera-fpc-diode.png|alt=
+File:17-pm-ultra-wide-camera-fpc-diode.png|alt=
+File:17-pm-telephoto-camera-fpc-diode.png|alt=
+File:17-pm-wide-camera-fpc-diode.png|alt=
+File:17-pm-POWERBTN-fpc-diode.png|alt=
+</gallery>
+
+== More Information/External Sources ==
+Apple Self Service iPhone 17 Pro
+
+Repair Manual ID: SQVBDR<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

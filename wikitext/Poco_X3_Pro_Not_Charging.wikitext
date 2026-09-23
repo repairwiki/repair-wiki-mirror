@@ -1,0 +1,65 @@
+<!--
+title:        Poco X3 Pro Not Charging
+pageid:       5662
+revid:        8945
+source:       https://repair.wiki/w/Poco_X3_Pro_Not_Charging
+history:      https://repair.wiki/index.php?title=Poco_X3_Pro_Not_Charging&action=history
+permalink:    https://repair.wiki/index.php?oldid=8945
+last_edited:  2025-07-22T06:00:30Z
+contributors: VCCBoardRepairs, Ajimalg82
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Poco X3 Pro, Stubs
+sha1:         c54a9ac3eddc74f2e768bf25c1cf2f7c39ca8a9a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Poco X3 Pro
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+If you have a phone in this condition it will have a issue with no charging/ slow charging. If you have tried new charging port or whole dock assembly then proceed to the following steps. 
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* No charging symbol when charger is plugged in
+* Charging symbol shows up while plugging but the phone charges very slow or does't charge at all.
+note: If you have a phone with slow charging or with no fast charging then try to replace the battery with known good OEM one. 
+
+=== Diagnostic Steps ===
+
+The problem of the charging is a little complicated but if you follow the steps below exacly I show then you will be able to solve the issue of the phone.
+
+* Check if VBUS reaches to the main board from the bottom board(as shown in the picture). If you don'e see 5 volts in this specific line then you should proceed to run a jumper from bottom board 5V VBUS and jumper to this point and check.
+
+[[File:5V IN.png|center|thumb|VBUS]]
+
+* Check if OVP IC(over voltage protection circuit) is working properly or not:
+** Check the cap OVP_IN if 5 volt are available there, if they are not available then you probably have a missing line from VBUS to OVP_IN, run a jumper wire and the issue will be solved. 
+** Check the cap OVP_OUT for 5v, if not available then you can run a jumper from OVP_IN to OVP_OUT and check. (if the OVP IC is burned it is recommended to remove it or replace it if you have one)
+
+[[File:OVP BYPASS.png|center|thumb|OVP IC]]
+
+* Check the charging ic:
+** Check if the charging ic is outputing voltage in the line called VPH_OUT (without battery)
+*** if vph isn't being outputed then the problem could be the charging ic itself or it could have a minor short on the VPH_OUT
+*** Check for shorts near the charging ic
+
+[[File:VPH OUT.png|center|thumb|CHARGING IC + BOOTCAP]]
+
+* Check bootcap: (The bootcap is a capacitor required for charging, if it shorted or missing the phone will go in fake charging condition)
+** Check for shorts on both sides of the bootcap
+** It is a cap that is not connected to Ground so to properly check if its shorted or not is to just place both the multimeter probes on the 2 poles of the capacitor to check it
+** this capacitor should output 7-9volts on the one side and 3-4 volts on the VPH side. If it outputting the same voltage on both sides then you probably have a faulty charging ic, proceed by replacing it. <br />

@@ -1,0 +1,93 @@
+---
+title: "HTC Vive XR Elite Face Tracking Port Settings Fix"
+pageid: 1446
+revid: 3155
+kind: repair_guide
+source: "https://repair.wiki/w/HTC_Vive_XR_Elite_Face_Tracking_Port_Settings_Fix"
+history: "https://repair.wiki/index.php?title=HTC_Vive_XR_Elite_Face_Tracking_Port_Settings_Fix&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3155"
+last_edited: "2024-01-22T18:16:28Z"
+contributors:
+  - "Whittz"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for HTC Vive XR Elite"
+  - "Stubs"
+infobox:
+  Device: "HTC Vive XR Elite"
+  Affects_parts: "Port forwarding / software"
+  Needs_equipment: "software"
+  Type: "Software"
+  Difficulty: "1. Easy"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# HTC Vive XR Elite Face Tracking Port Settings Fix
+
+## Problem description
+Either face stuttering or no face tracking at all in apps like VrChat or ChilloutVr.
+
+Usually caused by Vive copying VrChat's OSC code and forcing Vive's port to forward on the Ports used by other apps.
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- VRCFT's incoming ping showing over the 1000's (usually when using OSC routers)
+- Avatar face stuttering/jittering from expression to expression
+- No face expressions being shown
+
+## Solution
+For now, the simplest solution is to manually edit Vive's OSC Ports and update to the latest software via Vive Console.
+
+uninstall any old vive face tracking software(ie. SRanipal) and make sure Vive's streaming software is installed for PCVR connection.
+
+Software needed:
+
+- VIVE Console - https://store.steampowered.com/app/1635730/VIVE_Console_for_SteamVR/
+
+(this includes the latest SRanipal software and no longer needs installed separately)
+
+- VRCFT - https://docs.vrcft.io/docs/vrcft-software/vrcft
+
+Open the programs, allowing SteamVr to open (even if headset isn't on.)
+
+In VRCFT Module install, Install the SRanipal module, then in settings turn on Calibration and Continous Calibration.
+
+Close SteamVr and other programs that popped up. This allows any data to populate that wasn't present before.
+
+Go to C:\ProgramData\HTC\ViveSoftware\ViveRR\RRServer
+
+edit/open both
+
+- serverSettings.settings
+
+- serverSettings.settings.sync
+
+at the bottom of each will have "RAPILPS": 100,
+
+After that line paste the text bewteen the lines:
+
+_____________________
+
+"MMF": false,
+
+"VOF": false,
+
+"VRCSP": 9012,
+
+"VRCRP": 9013,
+
+"VRCHN": "localhost",
+
+"PL": 0
+
+_____________________<blockquote>*Some have had decent response with ("PL": 2) instead.</blockquote>Reboot pc and start SteamVr with Vive connected. Open VCRFT then the social app you're using.
+
+At first some expressions may not show, but continue using it and the Continuous calibration should fix and smooth out any issues.
+
+(calibration can be running through a few expressions or after a few minutes of use. depends if you used a previous face tracker or not.)
+
+### Diagnostic Steps
+Diagnostics are self-explanatory. As long as you're not routing other OSC apps, most diagnostics is visually seeing an odd ping or no expressions being shown and/or stuttering between the expressions.
+### Repair Steps

@@ -1,0 +1,46 @@
+<!--
+title:        MacBook Pro A1990
+pageid:       599
+revid:        10326
+source:       https://repair.wiki/w/MacBook_Pro_A1990
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1990&action=history
+permalink:    https://repair.wiki/index.php?oldid=10326
+last_edited:  2025-08-16T23:01:31Z
+contributors: ASRepairs, Tiago199988, Ronanl
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         36bf90e0f3ff3fe087ff9ee3422d0b4cef31d6f9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1990
+|Device type=Laptop
+}}
+{{stub}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A1990.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+- A1990 820-01814-01,820-01814-A,820-01814-B schematic LO31 and board [https://e.pcloud.link/publink/show?code=kZ3bcwZSFzGynqcw1pmjUD9Uw0FC0xXv9gV]

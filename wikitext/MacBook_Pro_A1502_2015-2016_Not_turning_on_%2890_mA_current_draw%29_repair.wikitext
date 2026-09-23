@@ -1,0 +1,40 @@
+<!--
+title:        MacBook Pro A1502 2015-2016 Not turning on (90 mA current draw) repair
+pageid:       476
+revid:        992
+source:       https://repair.wiki/w/MacBook_Pro_A1502_2015-2016_Not_turning_on_(90_mA_current_draw)_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1502_2015-2016_Not_turning_on_(90_mA_current_draw)_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=992
+last_edited:  2023-11-08T13:05:43Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1502, Stubs
+sha1:         988e088210c015634d214931e95b9d8816a10a83
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1502
+|Affects parts=Whole board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+No power, no green light, 90mA taken, PPBUS_G3H stuck at 12.27 V
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Not turning on
+*Only pulling 90 mA from charge port
+*No green charge led
+*PPBUS_G3H stuck at 12.27 V
+
+==Solution==
+Corrosion around SMC chip and surrounding components, short on PP3V42_G3H, bad clock chip).
+
+[https://www.youtube.com/watch?v=aMy3xLcH78g Example video]:  (Reflow of SMC, replaced surrounding components, jumper wire, used voltage injection to determine short, replacement of clock chip).

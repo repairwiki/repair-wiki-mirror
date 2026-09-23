@@ -1,0 +1,46 @@
+<!--
+title:        MacBook Pro A1502 2015-2016 No backlight repair
+pageid:       473
+revid:        986
+source:       https://repair.wiki/w/MacBook_Pro_A1502_2015-2016_No_backlight_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1502_2015-2016_No_backlight_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=986
+last_edited:  2023-11-08T13:00:19Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1502, Stubs
+sha1:         b2d5dc736814f102a93ce3541e9197cd78876777
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1502
+|Affects parts=Motherboard, Display assembly
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Identifying and solving backlight issues on the A1592 MacBook. A MacBook Pro with no backlight on the display is experiencing an issue where the screen remains dark even though the computer is powered on and operational. This means that while the computer itself may be functioning, the display is not emitting any light, making it extremely difficult or impossible to see the content on the screen. Shining a strong light on the display at an angle might reveal that the content is indeed present, but the backlight is not illuminating it.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+* The display appears completely dark, with no visible content or backlight illumination.
+* Occasionally, the backlight might flicker or flash briefly when the MacBook Pro is powered on or waking from sleep, but it remains dark after these brief instances.
+* Connecting the MacBook Pro to an external monitor or TV results in a functional display on the external screen, confirming that the computer itself is working correctly.
+
+==Solution==
+'''Make sure the issue is no backlight, and not no image!'''
+
+* Blown backlight fuse rarely if ever happens. This board has a current sensing circuit in place that keeps the backlight fuse from blowing if there is a short to ground on the backlight line.
+* Short to ground on backlight output(if backlight fuse blown, check this).
+* Bad screen/screen cable — if backlight voltage is 49–50 V, bad screen.
+* '''USING WRONG SCREEN! If you use a 2012, or a 2013–2014 screen on a 2015–2016 A1502, it will not work properly. Backlight will only turn on once OS is booted, but not during early EFI boot process, unless you close the lid and open it again (or swipe a magnet over the hall sensor area)'''
+* Data line between LCD and U7701 backlight driver is bad. Usually this should be 4.5 V–5 V. If it is lower, either the screen/screen cable is shorting it to ground(bad screen/screen cable), or a cap on the board or something is shorting it to ground, or the pullup resistor for it is bad. '''The screen NEEDS to talk to the LED backlight driver for it to turn on the backlight!'''
+* If the screen is shorting the backlight to ground, you can fix the screen if the cap/connector on the screen is bad, it just sucks to do. But it is the only option since this screen is no longer available.
+
+'''You can fix the screen if the cap/connector on the screen is bad, it just sucks to do. But it is the only option since this screen is no longer available.'''

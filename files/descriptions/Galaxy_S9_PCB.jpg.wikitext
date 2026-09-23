@@ -1,0 +1,17 @@
+<!--
+title:        File:Galaxy S9 PCB.jpg
+pageid:       9118
+revid:        13222
+source:       https://repair.wiki/w/File:Galaxy_S9_PCB.jpg
+history:      https://repair.wiki/index.php?title=File:Galaxy_S9_PCB.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13222
+last_edited:  2025-12-13T22:24:45Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

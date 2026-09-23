@@ -1,0 +1,54 @@
+<!--
+title:        IPhone 12
+pageid:       1404
+revid:        12669
+source:       https://repair.wiki/w/IPhone_12
+history:      https://repair.wiki/index.php?title=IPhone_12&action=history
+permalink:    https://repair.wiki/index.php?oldid=12669
+last_edited:  2025-11-12T15:21:29Z
+contributors: VCCBoardRepairs, Tiago199988, KevinShort, IamMyron07, IRepairMe, DentsasPanos
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         85aee827e826c7fc0d90190d35f69b6ea861af1a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2172, A2402, A2403, A2404
+|Device release date=2020-10-23
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone12-768x768.webp|alt=
+File:Ip-12p-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPhone 12 - Known Good Mechanic Lightning Readings.jpg|iPhone 12 - Known Good Mechanic Lightning Readings
+File:IPhone 12 Charging Port Diode Readings.jpg|iPhone 12 YCS Good Readings
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 12 Self Repair Store
+
+'''Repair Manual ID: RBQEVH'''
+
+Schematics for iPhone 12: https://www.sendspace.com/file/zaxilx

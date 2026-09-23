@@ -1,0 +1,57 @@
+<!--
+title:        IPhone 7
+pageid:       782
+revid:        13511
+source:       https://repair.wiki/w/IPhone_7
+history:      https://repair.wiki/index.php?title=IPhone_7&action=history
+permalink:    https://repair.wiki/index.php?oldid=13511
+last_edited:  2026-01-01T20:51:47Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, Ethan, DentsasPanos
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         71c4afbc4608ed69de1145fa60259564f0fdd4fb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Phone
+|Device release date=September 16, 2016}}
+{{stub}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Iphone7-800x800.webp|alt=
+</gallery>
+ 
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+File:Home Button Voltages.jpg|iPhone 7 Home Button Traces
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:IPhone 7 - Known Good Mechanic USB C Readings.jpg|iPhone 7 - Known Good Mechanic Lightning Readings
+File:Homer IC Diode Values Intel.PNG|Homer IC Diode Values Intel
+File:Audio IC Diode Values Intel.PNG|Audio IC Diode Values Intel
+File:PMU diode value Qualcomm.PNG|PMU diode value Qualcomm
+File:IPhone 7 BaseBand Diode Values Qualcomm.png|BaseBand Diode Values Qualcomm
+File:IPhone 7 Touch And LCD FPC Diode Values - J4502.png|Touch And LCD FPC Diode Values - J4502
+File:IPhone 7 Rear Camera FPC Diode Values - J4501.png|Rear Camera FPC Diode Values
+File:IPhone 7 Power Button FPC Diode Values - J4504.png|Power Button FPC Diode Values - J4504
+File:IPhone 7 Front Camera FPC Diode Values - J4503.png|Front Camera FPC Diode Values - J4503
+File:IPhone 7 Home Button FPC Diode Values - J3801.png|Home Button FPC Diode Values - J3801
+File:IPhone 7 Battery FPC Diode Values - J2201.png|Battery FPC Diode Values - J2201
+File:IPhone 7.jpg|Home Button Diode Values
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 7 Schematics: https://www.sendspace.com/file/iadz0j

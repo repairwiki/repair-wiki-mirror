@@ -1,0 +1,44 @@
+<!--
+title:        Tab 10L Gen 2
+pageid:       3896
+revid:        11943
+source:       https://repair.wiki/w/Tab_10L_Gen_2
+history:      https://repair.wiki/index.php?title=Tab_10L_Gen_2&action=history
+permalink:    https://repair.wiki/index.php?oldid=11943
+last_edited:  2025-09-20T22:20:09Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Stubs, TCL, TCL Tablets, Tablets
+sha1:         87be4a610eba5170784ed729ab790eeec7b2b006
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=TCL|Device type=Tablet}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Tab 10L Gen 2.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+File:TCl Tab 10L Gen 2.jpeg|TCL Tab 10L Gen 2 USB C readings from a good phone
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

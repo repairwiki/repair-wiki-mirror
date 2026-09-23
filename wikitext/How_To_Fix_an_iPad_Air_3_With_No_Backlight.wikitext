@@ -1,0 +1,59 @@
+<!--
+title:        How To Fix an iPad Air 3 With No Backlight
+pageid:       243
+revid:        673
+source:       https://repair.wiki/w/How_To_Fix_an_iPad_Air_3_With_No_Backlight
+history:      https://repair.wiki/index.php?title=How_To_Fix_an_iPad_Air_3_With_No_Backlight&action=history
+permalink:    https://repair.wiki/index.php?oldid=673
+last_edited:  2023-11-05T16:41:00Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPad Air 3
+sha1:         95a621f6b1e54c5d24beed81a4f04a7e31ec923b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=iPad Air 3
+|Affects parts=Main Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+
+==Problem description==
+When an iPad Air 3 comes in for a screen repair, then ends up with no backlight, then maybe the backlight circuit has damage. It usually happens due to the battery not being disconnected while attempting to plug in the screen. You will see the image on the screen but very dim and you will hear all the noises coming from it, but difficult to see the image.
+[[File:Ipadair3backlight.jpg|thumb|210x210px|(Figure 1) - iPad Air 3 Charging with No Backlight]]
+[[File:Air3 diode.jpg|thumb|201x201px|(Figure 2) - iPad Air 3 Backlight Diode is cracked & likely part of the cause of no backlight]]
+
+==Symptoms==
+Some symptoms include
+
+* Turns on, charges and makes noise, but the screen is dim (Figure 1)
+* iPad was working before the screen repair, but now doesn't work after.
+* No backlight even after putting back the original screen
+* Screen brightness doesn't work
+
+==Solution==
+===Diagnostic Steps===
+
+* Test with known good parts
+* Test with the original screen
+* If still no backlight, do a visual inspection of the board.
+* Look for blown diodes
+* (Figure 2) (Figure 2) - iPad Air 3 Backlight Diode is cracked & likely part of the cause of no backlight
+** Diode mode across the diode, with red probe on one leg, black probe on the other.
+*** A known good diode will give OL in one direction & some reading in the other direction
+*** If you get continuity across the diode, then it's likely bad
+* Diode Mode the display connectors, checking for any shorts or open line
+
+===Repair Steps===
+
+* [[File:Air 3 backlight filters.jpg|thumb|205x205px|(Figure 3) - iPad Air 3 Backlight filters that need to be replaced, even if the readings are good across them.]][[File:Air3 working.jpg|thumb|238x238px|iPad Air 3 fixed, after replacing 2 diodes & 3 backlight filters]]If you find blown backlight diodes, replace them.
+** Make sure you put in the correct orientation
+** Most iPad diodes are compatible. So you can grab from almost any donor board
+* If still no backlight, consider replacing all 3 backlight filters next to one of the connectors
+** Refer to Figure 3 (Figure 3) - iPad Air 3 Backlight filters that need to be replaced, even if the readings are good across them.
+** Replace the filters, even if you get good readings across them.

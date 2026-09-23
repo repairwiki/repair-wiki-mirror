@@ -1,0 +1,38 @@
+<!--
+title:        Acer Aspire 5057g Turning on and then off Repair
+pageid:       1192
+revid:        2734
+source:       https://repair.wiki/w/Acer_Aspire_5057g_Turning_on_and_then_off_Repair
+history:      https://repair.wiki/index.php?title=Acer_Aspire_5057g_Turning_on_and_then_off_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2734
+last_edited:  2024-01-16T16:16:02Z
+contributors: ASRepairs, Evanm1234
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Aspire 5057g
+sha1:         802524a2958e68ccdde7d08f59c8a33acd4e3f9a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Aspire 5057g
+|Affects parts=Main Logic Board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+==Problem description==
+Fixing an issue with Acer Aspire 5057g powers on then off by itself.
+
+== Symptoms ==
+
+* Laptop turning on, then turns off
+
+[[File:5057g power.jpg|thumb|Figure 1]] 
+
+==Solution==
+
+* Check for short on power button board in area marked on images.
+
+* See Figure 1.

@@ -1,0 +1,18 @@
+<!--
+title:        File:PS5 UART conections.png
+pageid:       4072
+revid:        7026
+source:       https://repair.wiki/w/File:PS5_UART_conections.png
+history:      https://repair.wiki/index.php?title=File:PS5_UART_conections.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7026
+last_edited:  2025-05-23T13:38:45Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         9d1e092258239e8b13610dd33fcb657d3b511a68
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PS5 UART Conections

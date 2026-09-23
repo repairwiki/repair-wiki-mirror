@@ -1,0 +1,18 @@
+<!--
+title:        File:Flash capacitor.jpg
+pageid:       209
+revid:        575
+source:       https://repair.wiki/w/File:Flash_capacitor.jpg
+history:      https://repair.wiki/index.php?title=File:Flash_capacitor.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=575
+last_edited:  2023-10-29T17:25:21Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         cccd8ede5e389795cf232a5c92c9661beddf32f7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Camera Flash capacitor

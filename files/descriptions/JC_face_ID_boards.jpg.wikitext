@@ -1,0 +1,18 @@
+<!--
+title:        File:JC face ID boards.jpg
+pageid:       4252
+revid:        7257
+source:       https://repair.wiki/w/File:JC_face_ID_boards.jpg
+history:      https://repair.wiki/index.php?title=File:JC_face_ID_boards.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7257
+last_edited:  2025-06-01T20:53:43Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         3e2b7d95b627af7d9f92fd46c88580aa4c38e24d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+JC face ID boards

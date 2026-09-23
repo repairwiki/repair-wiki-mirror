@@ -1,0 +1,18 @@
+<!--
+title:        File:Surface pro 4 diodes.png
+pageid:       4159
+revid:        7134
+source:       https://repair.wiki/w/File:Surface_pro_4_diodes.png
+history:      https://repair.wiki/index.php?title=File:Surface_pro_4_diodes.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7134
+last_edited:  2025-05-27T20:50:47Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         fcd2eb65f70f2e617acd5742ab7b65f6f426630f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Surface Pro 4 Diodes

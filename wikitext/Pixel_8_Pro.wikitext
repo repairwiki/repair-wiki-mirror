@@ -1,0 +1,49 @@
+<!--
+title:        Pixel 8 Pro
+pageid:       3745
+revid:        11036
+source:       https://repair.wiki/w/Pixel_8_Pro
+history:      https://repair.wiki/index.php?title=Pixel_8_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=11036
+last_edited:  2025-08-31T19:55:14Z
+contributors: Tiago199988, ES
+anonymous_edits: 0
+categories:   Device, Google, Google Phones, Phones, Stubs
+sha1:         09997f3761f26b5eb4de00e1397e46c07d913d24
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Google
+|Has code name=Husky
+|Device release date=2023-10-12
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Pixel-8-pro-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+File:Google Pixel 8 Pro USB C Readings from working device.jpeg|Google Pixel 8 Pro USB C Readings from working device.jpeg
+</gallery>
+
+== More Information/External Sources ==
+Service manual: https://documents.cdn.ifixit.com/NPkSHnWfYvCwqbTd.pdf<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

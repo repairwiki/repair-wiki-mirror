@@ -1,0 +1,47 @@
+<!--
+title:        PlayStation 5 Slim
+pageid:       4024
+revid:        13901
+source:       https://repair.wiki/w/PlayStation_5_Slim
+history:      https://repair.wiki/index.php?title=PlayStation_5_Slim&action=history
+permalink:    https://repair.wiki/index.php?oldid=13901
+last_edited:  2026-02-08T21:50:46Z
+contributors: Tiago199988, HDGenius
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         fb1bb935ea748b2bb94a331306fee716f6961eb1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Sony|Device type=Game Console|Device release date=November 10, 2023}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Playstation 5 Slim Digital Edition.png|alt=
+File:Playstation 5 Slim standard.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:EDM-040 PCB APU Side.jpg|EDM-040
+File:EDM-040 PCB RAM Side.jpg|EDM-040
+File:Playstation 5 EDM-044 Board APU Side.jpg|EDM-044
+File:Playstation 5 EDM-055 Board APU Side.jpg|EDM-044
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+File:PS5 Slim EDM-040 NAND SWAP.png|alt=
+</gallery>
+
+== More Information/External Sources ==<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

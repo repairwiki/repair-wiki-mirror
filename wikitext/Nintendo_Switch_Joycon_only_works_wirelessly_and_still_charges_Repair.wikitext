@@ -1,0 +1,36 @@
+<!--
+title:        Nintendo Switch Joycon only works wirelessly and still charges Repair
+pageid:       936
+revid:        2309
+source:       https://repair.wiki/w/Nintendo_Switch_Joycon_only_works_wirelessly_and_still_charges_Repair
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Joycon_only_works_wirelessly_and_still_charges_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2309
+last_edited:  2024-01-13T20:41:23Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Switch, Stubs
+sha1:         82700eaf205610575be6322f2d104e877b9be6ac
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Main Logic Board
+|Needs equipment=Screwdrivers, known good parts, spudger
+|Type=Part replacement
+|Difficulty=2. Medium
+}}
+{{stub}}
+
+==Problem description==
+Repair of an issue where the Joy-con only works wireless, but still charges on the Switch.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Joy-con only works wireless
+*Joy-con still charges
+
+==Solution==
+Replace side-rail ribbon. It is probably damaged.

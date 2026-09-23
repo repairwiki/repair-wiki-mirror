@@ -1,0 +1,18 @@
+<!--
+title:        File:Solderingbad02edited.jpg
+pageid:       536
+revid:        1165
+source:       https://repair.wiki/w/File:Solderingbad02edited.jpg
+history:      https://repair.wiki/index.php?title=File:Solderingbad02edited.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1165
+last_edited:  2023-11-15T18:35:47Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         d34aed54634208842d6b45a2b122e6ef6f39c14b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Solderingbad02edited

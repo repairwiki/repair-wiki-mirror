@@ -1,0 +1,18 @@
+<!--
+title:        File:M92T32.png
+pageid:       4202
+revid:        7195
+source:       https://repair.wiki/w/File:M92T32.png
+history:      https://repair.wiki/index.php?title=File:M92T32.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7195
+last_edited:  2025-05-28T22:35:14Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         57cf09ac32c838f62c5347911ecfc12a63f4ae76
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+M92T32 check for shorts

@@ -1,0 +1,18 @@
+<!--
+title:        File:Iphone15-plus board.png
+pageid:       7363
+revid:        10927
+source:       https://repair.wiki/w/File:Iphone15-plus_board.png
+history:      https://repair.wiki/index.php?title=File:Iphone15-plus_board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10927
+last_edited:  2025-08-30T12:16:46Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         6e030ba8f757d8498c6199f09f00998ab5e3ef5c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Iphone15-plus  board

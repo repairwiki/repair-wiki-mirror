@@ -1,0 +1,18 @@
+<!--
+title:        File:ISL6259 on a 820-2936.jpg
+pageid:       1979
+revid:        4229
+source:       https://repair.wiki/w/File:ISL6259_on_a_820-2936.jpg
+history:      https://repair.wiki/index.php?title=File:ISL6259_on_a_820-2936.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4229
+last_edited:  2024-07-08T08:04:21Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         255b819d3d14708bc39fabba434229855bebef21
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Boring picture to remind you which way the I points on the IS6259 :)

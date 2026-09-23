@@ -1,0 +1,18 @@
+<!--
+title:        File:ASL01 CHARGE.png
+pageid:       8784
+revid:        12778
+source:       https://repair.wiki/w/File:ASL01_CHARGE.png
+history:      https://repair.wiki/index.php?title=File:ASL01_CHARGE.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12778
+last_edited:  2025-11-19T21:10:55Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         66669085bd18a6a0a1ac6251c914fb561bdc2644
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+ASL01 CHARGE

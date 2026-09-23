@@ -1,0 +1,44 @@
+<!--
+title:        IPhone 11 Pro
+pageid:       258
+revid:        12667
+source:       https://repair.wiki/w/IPhone_11_Pro
+history:      https://repair.wiki/index.php?title=IPhone_11_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=12667
+last_edited:  2025-11-12T15:19:56Z
+contributors: ASRepairs, Tiago199988, Ethan, IamMyron07, DentsasPanos
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones
+sha1:         d56ffc85f7cb98dbc69758ca3f1831d7c0c39d1f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Phone
+|Device release date=September 20, 2019}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Iphone11pro-1-768x768.webp|alt=
+File:Ip-11p-pmax-fcam.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:IPhone 11 Pro - Known Good Mechanic Lightning Readings.jpg|iPhone 11 Pro - Known Good Mechanic Lightning Readings
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+Schematics for iPhone 11 Pro: https://www.sendspace.com/file/nqi4cz

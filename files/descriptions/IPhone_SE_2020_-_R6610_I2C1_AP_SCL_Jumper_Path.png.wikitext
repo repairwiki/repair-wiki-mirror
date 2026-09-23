@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone SE 2020 - R6610 I2C1 AP SCL Jumper Path.png
+pageid:       272
+revid:        716
+source:       https://repair.wiki/w/File:IPhone_SE_2020_-_R6610_I2C1_AP_SCL_Jumper_Path.png
+history:      https://repair.wiki/index.php?title=File:IPhone_SE_2020_-_R6610_I2C1_AP_SCL_Jumper_Path.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=716
+last_edited:  2023-11-05T22:13:07Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         7764a753b341e8940c555d0fb2a3ae92b95e9f6a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+IPhone SE 2020 - R6610 I2C1 AP SCL Jumper Path

@@ -1,0 +1,44 @@
+<!--
+title:        Test1
+pageid:       1693
+revid:        4303
+source:       https://repair.wiki/w/Test1
+history:      https://repair.wiki/index.php?title=Test1&action=history
+permalink:    https://repair.wiki/index.php?oldid=4303
+last_edited:  2024-07-11T06:29:25Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Laptops, Stubs, Test2, Test2 Laptops
+sha1:         a56200548d98b5dfa50295b24c58ddb4f90690a6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=test2
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

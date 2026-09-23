@@ -1,0 +1,48 @@
+<!--
+title:        IPhone XS Max
+pageid:       1529
+revid:        12665
+source:       https://repair.wiki/w/IPhone_XS_Max
+history:      https://repair.wiki/index.php?title=IPhone_XS_Max&action=history
+permalink:    https://repair.wiki/index.php?oldid=12665
+last_edited:  2025-11-12T15:18:41Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         1365f0e6a6159acb326f4539e400e6d3a486bd6f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device release date=2018-09-21
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphonexsmax-800x800.webp|alt=
+File:X-xsm-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPhone XS Max PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone XS Max Schematics: https://www.sendspace.com/file/casqah

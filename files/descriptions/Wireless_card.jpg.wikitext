@@ -1,0 +1,18 @@
+<!--
+title:        File:Wireless card.jpg
+pageid:       1188
+revid:        2682
+source:       https://repair.wiki/w/File:Wireless_card.jpg
+history:      https://repair.wiki/index.php?title=File:Wireless_card.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2682
+last_edited:  2024-01-16T01:59:12Z
+contributors: Evanm1234
+anonymous_edits: 0
+categories:   
+sha1:         a35d737cf247e5cdbf2c714d399117631021b8d9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The wireless card will look like this.

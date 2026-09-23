@@ -1,0 +1,18 @@
+<!--
+title:        File:Iphone11 cpu issue.gif
+pageid:       7349
+revid:        10912
+source:       https://repair.wiki/w/File:Iphone11_cpu_issue.gif
+history:      https://repair.wiki/index.php?title=File:Iphone11_cpu_issue.gif&action=history
+permalink:    https://repair.wiki/index.php?oldid=10912
+last_edited:  2025-08-30T10:48:23Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         668b55283dea99d98ba3e5fce98a77827e7ad40f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Iphone11 cpu issue

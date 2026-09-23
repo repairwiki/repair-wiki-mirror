@@ -1,0 +1,44 @@
+<!--
+title:        Nintendo Switch 2
+pageid:       9206
+revid:        13898
+source:       https://repair.wiki/w/Nintendo_Switch_2
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_2&action=history
+permalink:    https://repair.wiki/index.php?oldid=13898
+last_edited:  2026-02-08T21:43:17Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Game Consoles, Nintendo, Nintendo Game Consoles, Stubs
+sha1:         ae6df9ecb0300279a51b5521120b2e23b6c0397b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Nintendo|Device release date=05/06/2025|Device type=Game Console}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Nintendo Switch 2 console in handheld mode.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Switch 2 PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Switch 2 Top USB-C Port Diode .jpeg|Switch 2 Top USB-C Port Diode
+File:Switch 2 Bottom USB-C Port Diode .jpeg|Switch 2 Bottom USB-C Port Diode
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->Boardview available at https://www.sendspace.com/file/kyflwj

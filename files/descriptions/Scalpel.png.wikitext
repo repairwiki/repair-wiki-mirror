@@ -1,0 +1,18 @@
+<!--
+title:        File:Scalpel.png
+pageid:       2353
+revid:        4831
+source:       https://repair.wiki/w/File:Scalpel.png
+history:      https://repair.wiki/index.php?title=File:Scalpel.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4831
+last_edited:  2024-09-09T05:50:32Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         8e598523d4815b3fbc057e70b2aaa9c9bb54535a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+#11 scalpel blade

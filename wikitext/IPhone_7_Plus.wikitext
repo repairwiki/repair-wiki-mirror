@@ -1,0 +1,44 @@
+<!--
+title:        IPhone 7 Plus
+pageid:       783
+revid:        13512
+source:       https://repair.wiki/w/IPhone_7_Plus
+history:      https://repair.wiki/index.php?title=IPhone_7_Plus&action=history
+permalink:    https://repair.wiki/index.php?oldid=13512
+last_edited:  2026-01-01T20:52:10Z
+contributors: ASRepairs, Tiago199988, Ethan, Oolfs
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         581e82924bf01d88811ead7e35c67f7071f1a826
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Phone
+|Device release date=September 16, 2016}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Iphone7plus-800x800.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:IPhone 7.jpg|Home Button Diode Values
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 7 Plus Schematics: https://www.sendspace.com/file/veet8p

@@ -1,0 +1,49 @@
+---
+title: "MacBook Pro 2021 A2442 Water Damage No Keyboard Repair"
+pageid: 845
+revid: 2029
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_2021_A2442_Water_Damage_No_Keyboard_Repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_2021_A2442_Water_Damage_No_Keyboard_Repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=2029"
+last_edited: "2024-01-12T21:58:46Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A2442"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A2442"
+  Affects_parts: "Keyboard L16A"
+  Needs_equipment: "Soldering Iron, Hot Air rework station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro 2021 A2442 Water Damage No Keyboard Repair
+
+## Problem description
+Water damage causes the keyboard to stop working either completely or have some keys not working.
+![PCAL6416A Chip (Figure 1)](images/3/3c/359191833.jpg)
+
+## Symptoms
+- All keys not working (typing), some keys not working.
+
+## Solution
+### Diagnostic Steps
+Visual inspection of board shows corrosion.
+### Repair Steps
+Located at UT101, check for corrosion or damaged components. Replace the chip at UT101 and check around UT105, and UT102 for any corrosion/damage. The chip code is PCAL6416A, in QFN package.
+
+You can only get it from scrap boards. Same chip is used in older Macs, like A1502 and A1398, but in BGA package; useless here.
+
+You can find QFN package in other M1 model, like A2338.
+
+It is also available on T2 models, like A2251, A2289.
+
+Just open schematics and search in pdf for "PCAL64"; then (if found) be sure it is HWQFN package (not BGA).

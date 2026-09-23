@@ -1,0 +1,40 @@
+---
+title: "MacBook Pro A1708 USB devices not working but charger works repair"
+pageid: 184
+revid: 3632
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A1708_USB_devices_not_working_but_charger_works_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A1708_USB_devices_not_working_but_charger_works_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3632"
+last_edited: "2024-03-13T22:31:29Z"
+contributors:
+  - "ASRepairs"
+  - "Bahlaivlad"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A1708"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A1708"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A1708 USB devices not working but charger works repair
+
+## Problem description
+USB devices not working when plugged in although charger works on an A1708 MacBook Pro
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- Charging the laptop works but no connected USB device is recognized
+
+## Solution
+This board has a USB redriver chip which is not present in the schematic and boardview. It is located right next to the USB connector, on the opposite side from the CD3215s, next to U2800. Marking on the chip is PI3USB32224BXEAE. If it dies, it prevents USB communication with devices. Often times you can see a hole on the chip. Replace it!
+
+In my case after replacing redriver IC (twice), on one of the ports Type-C devices were recognized, but did not when using Type-C to Type-A adapter (e.g. USB flash drive is recognized through Type-C port, but does not work on the same port when connecting trough Type-C to Type-A adapter).  Data+ and Data- lines of USB 2.0 specification connected directly to CD3215 ICs (USBC_XA_USB_BOT_P and USBC_XA_USB_BOT_N for A port). It seems like redriver IC fault caused some minor fault inside of CD3215, when CD3215 is able to work somehow. Replaced corresponding CD3215 and the fault is gone (U3100 for lower port, U3200 for upper port). Just FYI, you can measure USB_BOT_P and USB_BOT_N pins on the CD3215 itself. On the faulty one I had some measurements in diode mode, where on the good one there is OL.

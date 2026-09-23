@@ -1,0 +1,18 @@
+<!--
+title:        File:PMIC + PCH A1990.png
+pageid:       122
+revid:        286
+source:       https://repair.wiki/w/File:PMIC_%2B_PCH_A1990.png
+history:      https://repair.wiki/index.php?title=File:PMIC_%2B_PCH_A1990.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=286
+last_edited:  2023-10-11T16:25:28Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         9f5fcbe49a0381a3fcec78a1a9ddedd779d4ccbd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PMIC + PCH on A1990 MacBook

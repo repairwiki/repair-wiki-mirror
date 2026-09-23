@@ -1,0 +1,17 @@
+<!--
+title:        File:IPad Pro 129 5th gen board overview.jpg
+pageid:       1463
+revid:        3190
+source:       https://repair.wiki/w/File:IPad_Pro_129_5th_gen_board_overview.jpg
+history:      https://repair.wiki/index.php?title=File:IPad_Pro_129_5th_gen_board_overview.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3190
+last_edited:  2024-01-24T00:59:07Z
+contributors: KevinShort
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

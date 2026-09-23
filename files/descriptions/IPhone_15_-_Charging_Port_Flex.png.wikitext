@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 15 - Charging Port Flex.png
+pageid:       7662
+revid:        11278
+source:       https://repair.wiki/w/File:IPhone_15_-_Charging_Port_Flex.png
+history:      https://repair.wiki/index.php?title=File:IPhone_15_-_Charging_Port_Flex.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11278
+last_edited:  2025-09-05T02:12:19Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         be9c26b3bff48fd9dfe30bd5e170dd06b9855bcf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 15 - Charging Port Flex

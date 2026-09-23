@@ -1,0 +1,18 @@
+<!--
+title:        File:Rear camera Connector (J2321).jpg
+pageid:       1918
+revid:        4120
+source:       https://repair.wiki/w/File:Rear_camera_Connector_(J2321).jpg
+history:      https://repair.wiki/index.php?title=File:Rear_camera_Connector_(J2321).jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4120
+last_edited:  2024-06-27T20:36:48Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ae4b829ec1440897d1d00b8cc4da236d679400b3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 6 Plus rear camera connector. Top right goes to top of the board, under the rear camera

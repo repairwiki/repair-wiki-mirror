@@ -1,0 +1,44 @@
+<!--
+title:        Aspire 5057g
+pageid:       1206
+revid:        2732
+source:       https://repair.wiki/w/Aspire_5057g
+history:      https://repair.wiki/index.php?title=Aspire_5057g&action=history
+permalink:    https://repair.wiki/index.php?oldid=2732
+last_edited:  2024-01-16T16:14:52Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Acer, Acer Laptops, Device, Laptops, Stubs
+sha1:         6482f0d85793396a82e22785e06f77be6e4bfe53
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Acer
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

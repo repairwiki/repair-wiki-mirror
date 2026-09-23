@@ -1,0 +1,50 @@
+---
+title: "Replacing Battery for Nextbase 622GW"
+pageid: 2204
+revid: 4632
+kind: repair_guide
+source: "https://repair.wiki/w/Replacing_Battery_for_Nextbase_622GW"
+history: "https://repair.wiki/index.php?title=Replacing_Battery_for_Nextbase_622GW&action=history"
+permalink: "https://repair.wiki/index.php?oldid=4632"
+last_edited: "2024-08-12T16:44:06Z"
+contributors:
+  - "ASRepairs"
+  - "Dwardu"
+anonymous_edits: 0
+categories:
+  - "Missing device page"
+  - "Repair guide"
+  - "Repair guides for Nextbase 622GW"
+  - "Stubs"
+infobox:
+  Device: "Nextbase 622GW"
+  Affects_parts: "Battery"
+  Needs_equipment: "Phillips screwdriver (PH00x40)A plastic pry toolA thin metal pry toolA soldering iron"
+  Type: "Part replacement"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Replacing Battery for Nextbase 622GW
+
+## Problem description
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- Battery isn't holding a charge anymore
+
+## Solution
+You will need to contact Nextbase to order a battery. They will offer you to fix it themselves, but it will cost triple just to fix it, and you have to pay for postage.
+
+### Repair Steps
+1. Power off the device.
+1. Remove the 4 screws on the outside, 2 on top, 2 on the bottom.
+1. Use a plastic pry tool to open the camera, be careful not to pull apart completely as this could result in the touchscreen panel and LCD panel ribbon cables being torn, also damage to the Wi-Fi antenna and main PCB.
+1. Remove the black tape to gain a clear view of the connectors underneath it, then proceed to lift up the connectors to remove the touchscreen and LCD panel, also carefully unclip the WiFi antenna from the main PCB.
+1. Once you have removed the touchscreen & LCD panel and Wi-Fi antenna you will then have full access to the main PCB where you can remove the 5 screws (one in each corner and one in the centre at the bottom edge of the PCB) also flip up the connector in the top right-hand corner to unplug the ribbon cable.
+1. When the screws and the ribbon cable have been removed you will be able to remove the main PCB which will then give you access to where the battery pack is located.
+1. Once you have removed the main PCB you will then see the battery pack cover which will require you to remove the 3 screws that hold it into place then unplug the lens PCB ribbon cable to gain full access to the battery pack location and to ensure the ribbon cable doesn’t tear.
+1. When the screws are removed from the battery pack cover the battery can then be removed from the housing, prise the battery pack from the battery cover (use a plastic pry tool for this to ensure the battery pack does not get pierced). You can then de-solder the existing faulty battery pack from the PCB paying attention to which cable/wire came from which terminal/ solder point, also paying attention to the below images in the way the battery pack sits in the battery cover as it is very important to adhere the new battery pack in exactly the same way in order for the battery pack and cables/wires to sit into the housing correctly.
+1. When assembling the unit, please ensure the battery pack and the cables are inserted into the correct position, then insert the main PCB ensuring the light sensor (bottom edge of the PCB) is inserted first and sits in the correct position, you will then be able to plug in the ribbon cable (top right-hand corner) and re-insert the 5 screws into the main PCB.
+1. When everything is in the correct position you can plug the touchscreen panel and LCD panel ribbon cables into the correct connectors, also ensure the Wi-Fi antenna is clipped onto its correct point on the main PCB and clip the unit together then finally insert the four screws into the housing, two at the top and two at the bottom.

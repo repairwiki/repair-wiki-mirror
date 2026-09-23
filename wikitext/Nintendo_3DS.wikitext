@@ -1,0 +1,84 @@
+<!--
+title:        Nintendo 3DS
+pageid:       1211
+revid:        9854
+source:       https://repair.wiki/w/Nintendo_3DS
+history:      https://repair.wiki/index.php?title=Nintendo_3DS&action=history
+permalink:    https://repair.wiki/index.php?oldid=9854
+last_edited:  2025-08-03T21:06:50Z
+contributors: ASRepairs, Tiago199988, SonoSooS
+anonymous_edits: 0
+categories:   Device, Game Consoles, Nintendo, Nintendo Game Consoles, Stubs
+sha1:         f1c29979ec0726367b21cb17760fa3ffa105deda
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Nintendo
+|Has code name=CTR
+|Device release date=2011-02-26
+|Device type=Game Console
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Nintendo3ds.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:3ds pcb.png|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+
+==More Information/External Sources==
+
+===About/Info===
+Not to be confused with the [[New Nintendo 3DS]] which has many dissimilar components most notably the '''motherboard'''.
+
+Nintendo 3DS can also refer to the [[Nintendo 2DS]] which shares almost every component with one less of each hinge, speaker, and ''D''.
+
+===Power-up sequence===
+
+====From power loss====
+
+This happens as soon as battery or charger voltage is applied to the system.
+
+* Voltage regulation kicks in, the MCU gets powered
+*The MCU boots up
+**I2C lines are initialized
+**Configuration resistors are scanned
+**Power regulation is configured
+***Battery presence detection is configured (independent of pins BAT+, BAT-, or the middle pin being shorted anywhere)
+***Charger presence is detected
+**Battery rejection is run
+
+The system is ready for the handling of the Power button press, even if the configuration is invalid (shorted battery lines, lack of sufficient battery charge, battery is rejected, etc.).
+
+====Soft start====
+
+This happens when the press of the Power button is detected by the MCU.
+
+*Do state vericiation of the hardware
+**Battery rejection is run
+***If the battery is rejected, do emergency shutdown
+**If this is a kiosk unit, and charger *presence* is not detected, cancel the power sequence
+*Change the Power LED animation to the fade-in pattern
+*Configure voltage regulation for the SoC
+*Take SoC out of reset (/RESET1 and /RESET2 are no longer active)
+*The PLL eventually locks, and the ARM9 bootrom starts executing, shortly followed by the ARM11 bootrom
+**Cryptographic things are initialized
+**Boot devices are discovered
+**First valid boot option is booted, or if none are valid, the infamous blue screen is displayed

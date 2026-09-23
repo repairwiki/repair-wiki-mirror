@@ -1,0 +1,65 @@
+<!--
+title:        IPad 9 No Backlight (LCD Problem)
+pageid:       5620
+revid:        8881
+source:       https://repair.wiki/w/IPad_9_No_Backlight_(LCD_Problem)
+history:      https://repair.wiki/index.php?title=IPad_9_No_Backlight_(LCD_Problem)&action=history
+permalink:    https://repair.wiki/index.php?oldid=8881
+last_edited:  2025-07-20T20:47:30Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPad 9, Stubs
+sha1:         de51f6c05c5e9e5427746d7146118870c0f27992
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=IPad 9
+|Affects parts=LCD
+|Needs equipment=Microscope
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The LCD of iPad Produces no backlight.
+*
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+'''This Guide is only made to repair the LCD screen.<br />'''
+
+The LCD of this iPad has a defect on the Backlight cable that can be repaired without swapping the backlight module.
+
+First remove this sticker.
+[[File:Sticker to remove.png|center|thumb]]
+Next remove this piece of metal.
+[[File:Piece of metal to remove.png|center|thumb]]
+Next using a small precision dremel with a cutting bit make a small hole like this.
+
+Be careful to not cut too deep or you will damage the LCD, cut really slow.
+[[File:Hole.png|center|thumb]]
+After making the hole you will see the cable is ripped in this section.
+[[File:Ripped cable.png|center|thumb]]
+To repair the cable we will need to expose the coper traces,use a X-Ato blade like this one.
+[[File:X-acto.png|center|thumb]]
+Scrape the cable very gently until it looks like this.
+[[File:Cable.png|center|thumb]]
+After scraping we need to do a few jumpers like the image bellow.
+
+'''Avoid using to much flux because if you do it will infiltrate the LCD and you will have stains on LCD'''
+[[File:Jumpers.png|center|thumb]]
+After doing the jumps you can place a small piece of kapton tape over it.
+
+After doing this test the LCD and you should have it back working like normal.
+[[File:Repaired iPad.png|center|thumb]]

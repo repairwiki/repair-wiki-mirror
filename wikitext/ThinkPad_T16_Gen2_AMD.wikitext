@@ -1,0 +1,46 @@
+<!--
+title:        ThinkPad T16 Gen2 AMD
+pageid:       2398
+revid:        12997
+source:       https://repair.wiki/w/ThinkPad_T16_Gen2_AMD
+history:      https://repair.wiki/index.php?title=ThinkPad_T16_Gen2_AMD&action=history
+permalink:    https://repair.wiki/index.php?oldid=12997
+last_edited:  2025-12-01T23:43:43Z
+contributors: Tiago199988, AnonRepair
+anonymous_edits: 0
+categories:   Device, Laptops, Lenovo, Lenovo Laptops, Stubs
+sha1:         61288520fa3980483c57f1267892374a3964f689
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Lenovo|Device type=Laptop|Device release date=2023|Has code name=21K7}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:ThinkPad T16 Gen2 AMD.jpeg|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:T16 Gen 2 AMD PCB.jpg|T16 AMD Gen2 motherboard
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->[[Category:Lenovo Laptops]]
+[[Category:Device]]
+[[Category:Lenovo]]
+[[Category:Laptops]]

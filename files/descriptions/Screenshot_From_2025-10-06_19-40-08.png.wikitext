@@ -1,0 +1,18 @@
+<!--
+title:        File:Screenshot From 2025-10-06 19-40-08.png
+pageid:       8372
+revid:        12250
+source:       https://repair.wiki/w/File:Screenshot_From_2025-10-06_19-40-08.png
+history:      https://repair.wiki/index.php?title=File:Screenshot_From_2025-10-06_19-40-08.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12250
+last_edited:  2025-10-07T02:50:37Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   
+sha1:         7d77b9cc73dba9c94f4d5c9573b5a2054a3f0aff
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+screenshot of boardview software showing diode readings of an ipad air 4 LCD FPC connector

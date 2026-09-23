@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone XR R0601 DFU Resistor.png
+pageid:       9569
+revid:        13812
+source:       https://repair.wiki/w/File:IPhone_XR_R0601_DFU_Resistor.png
+history:      https://repair.wiki/index.php?title=File:IPhone_XR_R0601_DFU_Resistor.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13812
+last_edited:  2026-02-02T00:06:15Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         da5536c0b8e2736f7c519b1e61289c7d9ce6a257
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone XR R0601 DFU Resistor. If broken, it will cause the phone to be stuck in DFU mode

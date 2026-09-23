@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 16 2097152 Panic Log Example.png
+pageid:       5311
+revid:        8525
+source:       https://repair.wiki/w/File:IPhone_16_2097152_Panic_Log_Example.png
+history:      https://repair.wiki/index.php?title=File:IPhone_16_2097152_Panic_Log_Example.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8525
+last_edited:  2025-07-06T00:17:06Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         a59636a5821a2e0e4a311362ca220464ea407fc3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 16 2097152 Panic Log Example

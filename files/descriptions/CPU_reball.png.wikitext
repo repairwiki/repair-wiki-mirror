@@ -1,0 +1,18 @@
+<!--
+title:        File:CPU reball.png
+pageid:       2493
+revid:        5059
+source:       https://repair.wiki/w/File:CPU_reball.png
+history:      https://repair.wiki/index.php?title=File:CPU_reball.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5059
+last_edited:  2024-10-14T01:09:29Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         90a45d51dde48c63b9a1c40c960a0871da0aefaf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+CPU reball

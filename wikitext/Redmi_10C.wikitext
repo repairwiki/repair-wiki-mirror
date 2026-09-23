@@ -1,0 +1,43 @@
+<!--
+title:        Redmi 10C
+pageid:       3802
+revid:        10638
+source:       https://repair.wiki/w/Redmi_10C
+history:      https://repair.wiki/index.php?title=Redmi_10C&action=history
+permalink:    https://repair.wiki/index.php?oldid=10638
+last_edited:  2025-08-24T20:23:08Z
+contributors: Tiago199988, DentsasPanos
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         ac31f7deceb75db0ee4fda8ff3e9ef89febd5e0c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Device type=Phone|Device release date=2022, March 23|Manufacturer=Xiaomi|Has code name=220333QAG, 220333QBI, 220333QNY, 220333QL}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Redmi-10c.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Redmi 10C - Known Good Mechanic USB C Readings.jpg|Redmi 10C - Known Good Mechanic USB C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

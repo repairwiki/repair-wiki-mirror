@@ -1,0 +1,18 @@
+<!--
+title:        File:Paste drying technique.gif
+pageid:       2485
+revid:        5051
+source:       https://repair.wiki/w/File:Paste_drying_technique.gif
+history:      https://repair.wiki/index.php?title=File:Paste_drying_technique.gif&action=history
+permalink:    https://repair.wiki/index.php?oldid=5051
+last_edited:  2024-10-14T00:42:05Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         15891a6e553eb14093e2b6f2e335d975a9a794c9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Paste drying technique

@@ -1,0 +1,18 @@
+<!--
+title:        Template:Main page subtitle
+pageid:       1658
+revid:        3634
+source:       https://repair.wiki/w/Template:Main_page_subtitle
+history:      https://repair.wiki/index.php?title=Template:Main_page_subtitle&action=history
+permalink:    https://repair.wiki/index.php?oldid=3634
+last_edited:  2024-03-14T14:31:25Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         28792632ed997c042125500ec3f59464b28ccc36
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The goal of the Repair Wiki is to create a repository of information for repairing any kind of device from phones to medical equipment.

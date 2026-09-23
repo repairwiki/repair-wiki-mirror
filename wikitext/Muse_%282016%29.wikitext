@@ -1,0 +1,43 @@
+<!--
+title:        Muse (2016)
+pageid:       8665
+revid:        12610
+source:       https://repair.wiki/w/Muse_(2016)
+history:      https://repair.wiki/index.php?title=Muse_(2016)&action=history
+permalink:    https://repair.wiki/index.php?oldid=12610
+last_edited:  2025-11-06T01:29:51Z
+contributors: Pandapip1
+anonymous_edits: 0
+categories:   Device, EEG Headbands, Muse, Muse EEG Headbands, Stubs
+sha1:         6f84b5241d2b36351c44d601b395d6dd09a4a6ae
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Muse|Device type=EEG Headband}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Muse (2016) Device Photo.jpg|A Muse (2016) headband
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Muse 2016 Mainboard.jpg|Mainboard
+File:Muse 2016 Battery Board (Take 2).jpg|Battery Board
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+
+* Battery is a 3.7v lithium polymer 552030 20mm x 30mm x 5mm (Ref: https://fatseas.com/2017/06/14/my-muse-headset-has-a-dead-battery/, https://fatseas.com/2017/06/30/i-replaced-my-muse-headband-battery/)

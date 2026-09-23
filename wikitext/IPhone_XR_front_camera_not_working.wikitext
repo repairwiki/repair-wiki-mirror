@@ -1,0 +1,50 @@
+<!--
+title:        IPhone XR front camera not working
+pageid:       3838
+revid:        6710
+source:       https://repair.wiki/w/IPhone_XR_front_camera_not_working
+history:      https://repair.wiki/index.php?title=IPhone_XR_front_camera_not_working&action=history
+permalink:    https://repair.wiki/index.php?oldid=6710
+last_edited:  2025-05-14T18:59:27Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone XR, Stubs
+sha1:         e08f9ff6cb2d91365ea9937b14452d33e02e80f4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone XR
+|Affects parts=Front facing camera, motherboard
+|Type=Soldering, Part replacement
+|Difficulty=2. Medium
+}}
+{{stub}}
+
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Rear cameras work, but when you switch to front cam, it doesn't work
+* Front camera shows black screen
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+* Try a new front camera. Since the front camera assembly is 3 pieces, you'll lose Face ID if you replace all 3
+** Make sure to UPDATE after replacing the front camera. It won't work just by replacing it.
+** If that solves your issue, then the front camera is bad.
+** If you don't want to lose Face ID, you can attempt to get the front camera only out of the metal housing with grinder or snips to replace it & keep the IR cam & Dot Projector original.
+* Diode mode the front camera connector & check for any issues
+** If a pin is shorted when it's not supposed to be, look for shorted components on the line and remove short
+** If a pin is OL when it should have a reading check for any filters on that line and make sure they have continuity across both sides
+*** If no continuity when measuring both sides of the filter, you will need to replace the filter 
+**** If you cannot find the filter on a donor board or new from distributors you can usually get away with using a backlight filter of the same size as the filter you removed.  DO NOT use a jumper wire as this sets you up for more issues of easily shorted parts downstream from the filter if the line ever gets shorted again
+
+Migrated from old wiki

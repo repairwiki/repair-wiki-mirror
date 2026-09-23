@@ -1,0 +1,18 @@
+<!--
+title:        File:ISocket tool.png
+pageid:       4394
+revid:        7441
+source:       https://repair.wiki/w/File:ISocket_tool.png
+history:      https://repair.wiki/index.php?title=File:ISocket_tool.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7441
+last_edited:  2025-06-07T17:02:48Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         a347a1d10b583caccf5358ab37702b547bcc2fbd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iSocket tool

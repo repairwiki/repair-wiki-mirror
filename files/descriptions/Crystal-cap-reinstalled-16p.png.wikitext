@@ -1,0 +1,18 @@
+<!--
+title:        File:Crystal-cap-reinstalled-16p.png
+pageid:       9248
+revid:        13415
+source:       https://repair.wiki/w/File:Crystal-cap-reinstalled-16p.png
+history:      https://repair.wiki/index.php?title=File:Crystal-cap-reinstalled-16p.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13415
+last_edited:  2025-12-27T19:38:12Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         bb46da02716f747a6067c46e6155828c1558f0d2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Crystal-cap-reinstalled-16p

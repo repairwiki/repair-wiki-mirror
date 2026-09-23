@@ -1,0 +1,18 @@
+<!--
+title:        File:IMG 0911.jpeg
+pageid:       9816
+revid:        14207
+source:       https://repair.wiki/w/File:IMG_0911.jpeg
+history:      https://repair.wiki/index.php?title=File:IMG_0911.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=14207
+last_edited:  2026-03-28T01:52:17Z
+contributors: M32
+anonymous_edits: 0
+categories:   
+sha1:         076a5e890da684d06adb75fc20d58ad710ce3d7d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+TP-Link PX50 Capacitor Replacement

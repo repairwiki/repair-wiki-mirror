@@ -1,0 +1,18 @@
+<!--
+title:        File:Bypassed OVP IC.jpg
+pageid:       7105
+revid:        10628
+source:       https://repair.wiki/w/File:Bypassed_OVP_IC.jpg
+history:      https://repair.wiki/index.php?title=File:Bypassed_OVP_IC.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=10628
+last_edited:  2025-08-24T19:16:54Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         f65aadb3ba22a61b2f66b887fb15293b4f511b7c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Bypassed OVP IC

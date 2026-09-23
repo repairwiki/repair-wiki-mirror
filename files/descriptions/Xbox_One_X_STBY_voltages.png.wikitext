@@ -1,0 +1,18 @@
+<!--
+title:        File:Xbox One X STBY voltages.png
+pageid:       7818
+revid:        11547
+source:       https://repair.wiki/w/File:Xbox_One_X_STBY_voltages.png
+history:      https://repair.wiki/index.php?title=File:Xbox_One_X_STBY_voltages.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11547
+last_edited:  2025-09-14T20:30:18Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         67c3c627192af67e917b9548538b13b934256ea0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Xbox One X STBY voltages

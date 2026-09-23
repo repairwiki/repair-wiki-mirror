@@ -1,0 +1,18 @@
+<!--
+title:        File:ACER V206HQL Base Removal.jpg
+pageid:       9540
+revid:        13774
+source:       https://repair.wiki/w/File:ACER_V206HQL_Base_Removal.jpg
+history:      https://repair.wiki/index.php?title=File:ACER_V206HQL_Base_Removal.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13774
+last_edited:  2026-01-26T19:04:16Z
+contributors: Firelemons
+anonymous_edits: 0
+categories:   
+sha1:         cf9caf47c0da6fcc09c7a454509e6b50150a87aa
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+how to remove the monitor base

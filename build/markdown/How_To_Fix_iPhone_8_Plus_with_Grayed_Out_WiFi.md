@@ -1,0 +1,59 @@
+---
+title: "How To Fix iPhone 8 Plus with Grayed Out WiFi"
+pageid: 1501
+revid: 3295
+kind: repair_guide
+source: "https://repair.wiki/w/How_To_Fix_iPhone_8_Plus_with_Grayed_Out_WiFi"
+history: "https://repair.wiki/index.php?title=How_To_Fix_iPhone_8_Plus_with_Grayed_Out_WiFi&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3295"
+last_edited: "2024-02-04T10:24:35Z"
+contributors:
+  - "ASRepairs"
+  - "VCCBoardRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for IPhone 8"
+  - "Repair guides for IPhone 8 Plus"
+infobox:
+  Device: "IPhone 8, IPhone 8 Plus"
+  Affects_parts: "Main Logic Board"
+  Needs_equipment: "Soldering Iron, Hot Air Station, Microscope"
+  Type: "BGA, Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# How To Fix iPhone 8 Plus with Grayed Out WiFi
+
+## Problem description
+How to fix iPhone 8 Plus with grayed out wifi. This is most common on iPhone 8 Plus, not so much on iPhone 8, but still possible.
+![Figure 1. Example of 4 jumpers needed for WiFi repair on iPhone 8 Plus](images/2/23/8P-WiFi-Jumpers.png)
+
+## Symptoms
+- WiFi button is grayed out
+- No WiFi at all
+- You can't enable WiFi
+- WiFi toggle button is grayed out in the settings
+- WiFI button is not clickable in the control panel This means there is a board issue. It is not an antenna or flex issue, as they don't cause the button itself to be grayed out.
+
+## Solution
+- In most cases, there are ripped pads on the corner, under the WiFi (WLAN_W) chip. See Figure 1
+- Pins 19, 20, 22 and 23 must be jumped to their respective traces.
+- For Example: iPhone 8 Plus - 4 Jumper solution for Grayed Out WiFi
+- Once the jumpers are in place, use UV mask to cover them, to prevent any shorting/bridging/movement
+- Reball the original WiFi IC & place back.
+
+  - See full repair tutorial here: https://youtu.be/eVmKNJ7nsgI**
+
+If the WiFi chip ends up having torn pads, you must replace the WiFi IC.
+
+For this, you'll need to also unbind (aka unlock) the WiFi chip via the NAND.
+
+The NAND is what has the paired info for the WiFi chip.
+
+You can unlock the WiFi using the iRepair P10 using Purple Mode to reprogram the NAND & unpair the WiFi chip.
+
+It is done via USB. No need to desolder the NAND.

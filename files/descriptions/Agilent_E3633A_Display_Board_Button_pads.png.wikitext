@@ -1,0 +1,17 @@
+<!--
+title:        File:Agilent E3633A Display Board Button pads.png
+pageid:       9842
+revid:        14242
+source:       https://repair.wiki/w/File:Agilent_E3633A_Display_Board_Button_pads.png
+history:      https://repair.wiki/index.php?title=File:Agilent_E3633A_Display_Board_Button_pads.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=14242
+last_edited:  2026-04-01T03:52:57Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

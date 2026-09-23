@@ -1,0 +1,45 @@
+<!--
+title:        IdeaPad Yoga 13ALC6
+pageid:       850
+revid:        12987
+source:       https://repair.wiki/w/IdeaPad_Yoga_13ALC6
+history:      https://repair.wiki/index.php?title=IdeaPad_Yoga_13ALC6&action=history
+permalink:    https://repair.wiki/index.php?oldid=12987
+last_edited:  2025-12-01T23:37:04Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Device, Laptops, Lenovo, Lenovo Laptops, Stubs
+sha1:         fa7cca9eb3917df5e31f71f1a57de9afea264d40
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Lenovo
+|Has code name=13ALC6
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:IdeaPad Yoga 13ALC6.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

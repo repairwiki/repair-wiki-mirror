@@ -1,0 +1,18 @@
+<!--
+title:        File:Screen frame bottom levered.jpg
+pageid:       2409
+revid:        4899
+source:       https://repair.wiki/w/File:Screen_frame_bottom_levered.jpg
+history:      https://repair.wiki/index.php?title=File:Screen_frame_bottom_levered.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4899
+last_edited:  2024-09-20T12:12:12Z
+contributors: AnonRepair
+anonymous_edits: 0
+categories:   
+sha1:         d83101db7549a4245c7515141eb86f302b2e44f4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Screen frame bottom levered

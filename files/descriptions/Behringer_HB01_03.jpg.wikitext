@@ -1,0 +1,19 @@
+<!--
+title:        File:Behringer HB01 03.jpg
+pageid:       1418
+revid:        3096
+source:       https://repair.wiki/w/File:Behringer_HB01_03.jpg
+history:      https://repair.wiki/index.php?title=File:Behringer_HB01_03.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3096
+last_edited:  2024-01-20T02:40:07Z
+contributors: Whittz
+anonymous_edits: 0
+categories:   
+sha1:         ead2dc2db805451c7ebd584cf3dd95f8077a1d94
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Reference image

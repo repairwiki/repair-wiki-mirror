@@ -1,0 +1,18 @@
+<!--
+title:        File:C7771 on a 820-2610 logic board.png
+pageid:       2037
+revid:        4310
+source:       https://repair.wiki/w/File:C7771_on_a_820-2610_logic_board.png
+history:      https://repair.wiki/index.php?title=File:C7771_on_a_820-2610_logic_board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4310
+last_edited:  2024-07-13T04:25:44Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         892a80f9d0eedbd34eb9b35a222e596c0d004f8f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Boardview screenshot of c7771 on a 820-2610 logic board

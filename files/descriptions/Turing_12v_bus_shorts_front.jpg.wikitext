@@ -1,0 +1,18 @@
+<!--
+title:        File:Turing 12v bus shorts front.jpg
+pageid:       421
+revid:        917
+source:       https://repair.wiki/w/File:Turing_12v_bus_shorts_front.jpg
+history:      https://repair.wiki/index.php?title=File:Turing_12v_bus_shorts_front.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=917
+last_edited:  2023-11-07T21:48:03Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         8316a249e130bb5a6a8f056ea374f62fb16d6544
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Turing 12v bus shorts front

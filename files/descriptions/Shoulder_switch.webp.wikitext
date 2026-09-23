@@ -1,0 +1,19 @@
+<!--
+title:        File:Shoulder switch.webp
+pageid:       2535
+revid:        5116
+source:       https://repair.wiki/w/File:Shoulder_switch.webp
+history:      https://repair.wiki/index.php?title=File:Shoulder_switch.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=5116
+last_edited:  2024-10-24T17:31:39Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         f6afd6380ad6c26b326880e9dc0283cb3455fb3c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Steam Deck Controller Board Shoulder switch

@@ -1,0 +1,49 @@
+<!--
+title:        IPhone 15 Pro
+pageid:       623
+revid:        12683
+source:       https://repair.wiki/w/IPhone_15_Pro
+history:      https://repair.wiki/index.php?title=IPhone_15_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=12683
+last_edited:  2025-11-12T15:32:33Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, Ethan, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones
+sha1:         f1f81dfab299e98a80a843f4eaaf981167191e44
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=D83	Vantage
+|Device type=Phone
+|Device release date=Friday, September 22}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Iphone15pro-800x800.webp|alt=
+File:Ip-15p-fcam.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:15 Pro Board ID.png|iPhone 15 Pro & 15 Pro Max - Board ID Resistor is R0812. iPhone 15 Pro: 1M Ohm Resistor.  iPhone 15 Pro Max: 1K Ohm Resistor
+File:IPhone 15 Pro - USB Port Readings.png|iPhone 15 Pro - USB Port Readings through Mechanic T-824 Reader
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+
+Apple Self Service iPhone 15 Pro
+
+Repair Manual ID: '''VRGJFQ'''

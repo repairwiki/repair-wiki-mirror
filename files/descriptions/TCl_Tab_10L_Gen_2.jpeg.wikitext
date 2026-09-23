@@ -1,0 +1,19 @@
+<!--
+title:        File:TCl Tab 10L Gen 2.jpeg
+pageid:       3895
+revid:        6787
+source:       https://repair.wiki/w/File:TCl_Tab_10L_Gen_2.jpeg
+history:      https://repair.wiki/index.php?title=File:TCl_Tab_10L_Gen_2.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6787
+last_edited:  2025-05-15T22:09:28Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         660c8c5d8665513746a971d0afc53e6c8111ab66
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+TCL Tab 10L Gen 2 USB C readings from a good port

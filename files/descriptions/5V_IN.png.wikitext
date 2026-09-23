@@ -1,0 +1,18 @@
+<!--
+title:        File:5V IN.png
+pageid:       5659
+revid:        8939
+source:       https://repair.wiki/w/File:5V_IN.png
+history:      https://repair.wiki/index.php?title=File:5V_IN.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8939
+last_edited:  2025-07-22T01:45:11Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         7e63964066f25daaf5ca49169a2097097db42059
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+5V IN

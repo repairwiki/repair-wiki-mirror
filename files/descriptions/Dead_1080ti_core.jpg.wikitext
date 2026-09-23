@@ -1,0 +1,18 @@
+<!--
+title:        File:Dead 1080ti core.jpg
+pageid:       1640
+revid:        3593
+source:       https://repair.wiki/w/File:Dead_1080ti_core.jpg
+history:      https://repair.wiki/index.php?title=File:Dead_1080ti_core.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3593
+last_edited:  2024-03-07T15:39:42Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ba9ba3f770b89338ed8dc09f45336ed14289e3bd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+dead 1080ti core

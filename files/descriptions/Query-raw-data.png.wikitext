@@ -1,0 +1,18 @@
+<!--
+title:        File:Query-raw-data.png
+pageid:       8187
+revid:        11979
+source:       https://repair.wiki/w/File:Query-raw-data.png
+history:      https://repair.wiki/index.php?title=File:Query-raw-data.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11979
+last_edited:  2025-09-21T11:43:22Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         b94bbb72ae16d8687b25278dbc05ddee608a3bf4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Query-raw-data

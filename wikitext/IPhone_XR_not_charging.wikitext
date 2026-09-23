@@ -1,0 +1,53 @@
+<!--
+title:        IPhone XR not charging
+pageid:       3835
+revid:        6704
+source:       https://repair.wiki/w/IPhone_XR_not_charging
+history:      https://repair.wiki/index.php?title=IPhone_XR_not_charging&action=history
+permalink:    https://repair.wiki/index.php?oldid=6704
+last_edited:  2025-05-14T18:36:04Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone XR, Stubs
+sha1:         a49b6071dc20fac3bd76492525e5000cd773ed25
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone XR
+|Affects parts=Motherboard
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Phone does not boot using power button nor plugging in the charger
+* Phone charges at 0.013A
+* On DC Power Supply, it draws 82mA before prompt to boot
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+* The most likely culprit is Yangtze.
+* Replace Yangtze (U3300)
+* It is the "Charging IC" for this model
+* After replacing, check if the 82mA current draw before prompt to boot is cleared, to confirm the issue is solved.
+* In some cases, a liquid damaged ear speaker flex can cause no charging.
+** Try testing with the ear speaker flex unplugged. 
+
+Please Note: The shield covering Yangtze is very tough to remove. It is recommended to add 138C low melt solder to all the solder joints around the edges, to make it a little bit easier to remove.
+
+In the process, you may float Baseband or WTR that is under the shield. & cause baseband issues.
+
+
+Migrated from old wiki

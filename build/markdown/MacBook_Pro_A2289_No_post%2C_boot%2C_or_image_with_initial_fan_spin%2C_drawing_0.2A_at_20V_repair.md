@@ -1,0 +1,55 @@
+---
+title: "MacBook Pro A2289 No post, boot, or image with initial fan spin, drawing 0.2A at 20V repair"
+pageid: 79
+revid: 526
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A2289_No_post,_boot,_or_image_with_initial_fan_spin,_drawing_0.2A_at_20V_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A2289_No_post,_boot,_or_image_with_initial_fan_spin,_drawing_0.2A_at_20V_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=526"
+last_edited: "2023-10-29T15:28:40Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A2289"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A2289"
+  Affects_parts: "Motherboard, Camera, Display assembly"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A2289 No post, boot, or image with initial fan spin, drawing 0.2A at 20V repair
+
+## Problem description
+- 820-01987* MacBook fan spinning initially but not posting, booting, or showing an image.
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- Drawing 0.2A at 20V as measured with a USB-C meter
+- No picture
+- Initial fan spin
+
+## Solution
+### Diagnostic Steps
+#### Dead U7710/U8110
+- This is a signature fault on the 820-01598 and 820-01987 logic boards.
+  - The VCCIO (U8110) and EDRAM (U7710) buck converter controller ICs fail in unison, resulting in a no POST/boot condition.
+  - You will often observe that the fan spins briefly and the amperage (as measured on the USB C amp meter) will settle around 200ma (0.2A)
+- Measure PP0v95_S0_CPUVCCIO_REG_R on L8102.
+  - If voltage is present, this is not your issue.
+  - Measure the PVCCIO_EN signal at R8165, It should be present at 3.3v.
+  - Measure the PPVCCEDRAMS0_EN_FILT_BUF signal at R7766 - It should be present at 3.3v
+  - If any of those is missing, proceed to the repair steps below.
+
+### Repair Steps
+- If both enable signals are present, and PP0v95_S0_CPUVCCIO_REG_R is missing, replace **BOTH U7710 and U8110.**
+- Typically, when this fault occurs, you will have either no backlight or no camera function after the repair.
+  - It is unknown why this happens, however it probably is related to either the backlight driver serial communication or camera serial communication somehow overloading parts of the CPU, causing it to draw more power than the chips are rated for causing this issue.
+  - **If the device has no backlight after the repair:**- Replace U8400
+- **If the device has no camera function after the repair:**- Replace the display assembly

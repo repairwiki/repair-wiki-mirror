@@ -1,0 +1,18 @@
+<!--
+title:        File:Clip locations.jpg
+pageid:       9543
+revid:        13777
+source:       https://repair.wiki/w/File:Clip_locations.jpg
+history:      https://repair.wiki/index.php?title=File:Clip_locations.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13777
+last_edited:  2026-01-26T19:28:33Z
+contributors: Firelemons
+anonymous_edits: 0
+categories:   
+sha1:         00bfc0dbb341ab099d4d958d1216b9e65a13ff9a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+clip locations for the case

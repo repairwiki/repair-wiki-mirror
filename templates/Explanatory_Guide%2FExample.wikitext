@@ -1,0 +1,18 @@
+<!--
+title:        Template:Explanatory Guide/Example
+pageid:       141
+revid:        326
+source:       https://repair.wiki/w/Template:Explanatory_Guide/Example
+history:      https://repair.wiki/index.php?title=Template:Explanatory_Guide/Example&action=history
+permalink:    https://repair.wiki/index.php?oldid=326
+last_edited:  2023-10-14T19:26:42Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Explanatory guide
+sha1:         dafb5c568a037789e0eac9508d90997c5a777172
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide}}

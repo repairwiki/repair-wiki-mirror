@@ -1,0 +1,18 @@
+<!--
+title:        File:CABC UNDER PMIC.png
+pageid:       5722
+revid:        9017
+source:       https://repair.wiki/w/File:CABC_UNDER_PMIC.png
+history:      https://repair.wiki/index.php?title=File:CABC_UNDER_PMIC.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9017
+last_edited:  2025-07-26T00:47:12Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         da59ae0467caeb12bfd25161d3d9ea5c89e0ca64
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+CABS UNDER PMIC

@@ -1,0 +1,75 @@
+<!--
+title:        MacBook Pro A1286 Randomly reboots or kernel panics repair
+pageid:       2041
+revid:        4320
+source:       https://repair.wiki/w/MacBook_Pro_A1286_Randomly_reboots_or_kernel_panics_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1286_Randomly_reboots_or_kernel_panics_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=4320
+last_edited:  2024-07-15T06:15:39Z
+contributors: ASRepairs, XTA
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1286
+sha1:         e367521916a0ec637ba68c6951d5a11a868400a6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+
+{{Repair Guide
+|Device=MacBook Pro A1286
+|Affects parts=Framebuffer Regulator Circuit
+|Needs equipment=Soldering & Rework Equipment, Screw Driver Set, Tweezers
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+==Problem description==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The device randomly reboots or kernel panics typically during boot
+[[File:C9560 on a 820-2850 2010 Logic board.png|thumb|C9560 on a 820-2850 logic board]]
+
+==Symptoms==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+*Random reboot's or crash's 
+*Random kernel panics 
+
+==Solution==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+In most cases on a 2010 820-2850 logic board this issue is going to be caused by C9560 failing much like the case with the 2008-2009 A1297's well known C7771 fault causing the device to not boot, the small tantalum capacitor Apple used is not suitable for it's application. 
+
+If C9560 is not your issue with this board, this can also be caused by a damaged RAM slot (Typically the one closest to the keyboard) in this case it's best to just max out the RAM on the working slot and call it a day. Replacing the RAM slot's on these boards is a lot of work and not worth it. 
+
+===Diagnostic Steps===
+
+In most cases you would not need to do any diagnostic's to detect this issue because once you turn the device on or attempt to use it this issue will show it self.
+
+You should obviously test both your RAM and RAM slots first to ensure it's not the RAM but all of these boards have this issue and if you are working on a 820-2850 logic board in any capacity you should replace C9560 even if it's good to ensure the longevity of the board. 
+===Repair Steps===
+
+
+As I mentioned in the A1297 C7771 guide I made, this repair requires soldering so it's technically "hard" however even in that case I mentioned that the repair is pretty easy, this one even more so as the location of this cap on this logic board is in a much easier spot to work on and this board is nowhere near as rare or expensive so it's much easier to replace if it goes wrong! This was one of my first repairs on a MacBook logic board years ago when I was learning, anybody that has the ability to use hot air and a soldering iron to replace a large cap even as a beginner should be able to succeed with this repair. Obviously beginners should only attempt this on a board they own but this is a great first repair for a beginner! :)  
+
+This is basically exactly the same repair as C7771 on the A1297, it's the same issue (Cap wise, on the A1297 this issue causes the machine to not boot at all), same design failure by the same company on a logic board that is only 1-2 years apart from the other! As I mentioned in the A1297 guide, you should replace this cap with a bigger 330uf non tantalum cap that is more suited to handle the application to ensure this failure doesn't happen again! On this logic board the cap has more room around it and it's easier to access, I have never needed to move any other component to fit a bigger cap in this area!  
+
+
+'''Step 1) Remove the cap'''
+
+Apply some flux to both sides of the cap, tin the pads with leaded solder to make the cap easier to remove and apply hot air (I like to keep my Quick 861DW around 350c @ 97 airspeed while removing these kind of caps). Once the solder is molten remove the cap from the board!
+
+
+'''Step 2) Solder on the new cap'''
+
+
+Wick both pads clean, on pad 2 (The side furthest from the screw hole) using your tweezers scrape into the solder mask of the board to extend the ground pad out to give more room for the new bigger cap to be able to solder down correctly! then tin the pads, apply flux and using hot air solder the new cap in place!
+
+
+Your 2010 A1286 should now not randomly restart or kernel panic! :)

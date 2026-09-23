@@ -1,0 +1,18 @@
+<!--
+title:        File:Capacitor symbols.jpg
+pageid:       208
+revid:        574
+source:       https://repair.wiki/w/File:Capacitor_symbols.jpg
+history:      https://repair.wiki/index.php?title=File:Capacitor_symbols.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=574
+last_edited:  2023-10-29T16:53:48Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         0498b82804a1fe7c8da4c0f584e39914657f7412
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Capacitor schematic symbols

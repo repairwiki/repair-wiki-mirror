@@ -1,0 +1,102 @@
+---
+title: "How To Fix an iPhone 15 With Touch Not Working"
+pageid: 8758
+revid: 12747
+kind: other
+source: "https://repair.wiki/w/How_To_Fix_an_iPhone_15_With_Touch_Not_Working"
+history: "https://repair.wiki/index.php?title=How_To_Fix_an_iPhone_15_With_Touch_Not_Working&action=history"
+permalink: "https://repair.wiki/index.php?oldid=12747"
+last_edited: "2025-11-19T00:44:56Z"
+contributors:
+  - "IamMyron07"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for iPhone 15"
+  - "Repair guides for iPhone 15 Plus"
+  - "Stubs"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# How To Fix an iPhone 15 With Touch Not Working
+
+## Problem description
+iPhone 15 boots normally but touchscreen does not respond at all. Display shows image, but there is no touch input on the entire panel. Replacing the screen does not fix the issue.
+![iPhone 15 / Plus - Capacitor (C9202) Location](images/5/52/Shorted_cap_location.png)
+This is a common failure caused by a short-to-ground on the PP5V1_TOUCH_VDDTX_S2_CONN rail, typically due to a shorted capacitor C9202, which is hidden beneath a shield.
+
+## Symptoms
+- No touch response
+- Display panel works
+- Screen replacement does not restore touch
+- Phone boots normally
+
+![iPhone 15 / Plus - Rosin Melted on Shorted Capacitor (C9202) [[File:Pin location notouch 15.png|thumb|iPhone 15 / Plus - PP5V1_TOUCH_VDDTX_S2 PIN Location\]\]](images/4/48/Iphone_15_no_touch_due_to_cap_location.png)
+
+## Solution
+### Diagnostic Steps
+### 1. Diode-Mode Measurement on Display FPC
+- Measure the PP5V1_TOUCH_VDDTX_S2_CONN pad at the display connector.  Expected: ~0.571 V  Actual: 0.00 V → confirmed short-to-ground
+
+----
+
+### 2. Resistance-to-Ground Check
+- Measure rail resistance → very low (0–1 Ω)  Confirms hard short.
+
+----
+
+### 3. Voltage Injection (First Attempt)
+- Inject 1–2V into the rail
+- No visible heat on board → shorted component is under shield
+
+----
+
+### 4. Consult Diagram / Boardview
+Boardview reveals:
+
+- A Capacitor of PP5V1_TOUCH_VDDTX_S2_CONN under the EMI shield
+- Most likely failing component: C9202
+
+----
+
+### 5. Expose Shielded Area
+- Use a knife / scalpel / mini dremel / micro-shears
+- Cut the EMI shield flap over the capacitor (do not remove the entire shield)
+- Expose C9202 and nearby components
+
+----
+
+### 6. Second Voltage Injection (With Rosin)
+- Apply rosin flux over the newly exposed area
+  - Rosin helps highlight heat by turning liquid
+- Inject 1–2V again
+- C9202 begins heating, confirming it as the shorted component
+
+### Repair Steps
+### 1. Remove the Shorted Capacitor
+- Heat the area
+- Remove C9202 carefully
+- Clean pads using low-temp solder and wick if needed
+
+### 2. Replace With Correct Value
+- Install a new 10 µF capacitor (same package size)
+- Align properly
+- Reflow gently until seated
+
+### 3. Clean Up
+- Clean rosin with alcohol
+- Inspect for solder bridges or disturbed components
+
+### 4. Final Testing
+- Reassemble
+- Power on the device
+- Test full touch functionality:
+  - Scroll
+  - Keyboard
+  - Edge touch
+  - Multitouch gestures
+
+Touch should now work normally, confirming repair success.

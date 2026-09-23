@@ -1,0 +1,43 @@
+<!--
+title:        Galaxy Z Fold 4 5g
+pageid:       3721
+revid:        11019
+source:       https://repair.wiki/w/Galaxy_Z_Fold_4_5g
+history:      https://repair.wiki/index.php?title=Galaxy_Z_Fold_4_5g&action=history
+permalink:    https://repair.wiki/index.php?oldid=11019
+last_edited:  2025-08-31T19:39:19Z
+contributors: VCCBoardRepairs, Tiago199988, Samhext
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         cb999a0f845e7b877b2424f204f232899c6bc33a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Samsung|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Galaxy Z Fold 4 5G.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Galaxy Z Fold 4 5G F936U PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Fold 4 USB Reading.jpg|Samsung Galaxy Fold 4 known good mechanic USB-C reading
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

@@ -1,0 +1,19 @@
+<!--
+title:        File:XR Rear Cam LDO U1601.png
+pageid:       3839
+revid:        6711
+source:       https://repair.wiki/w/File:XR_Rear_Cam_LDO_U1601.png
+history:      https://repair.wiki/index.php?title=File:XR_Rear_Cam_LDO_U1601.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6711
+last_edited:  2025-05-14T19:05:12Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   
+sha1:         51c5048549d7f14279f8e1c0943a38d0938aed9c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+thumbnail image pulled from old wiki iPhone XR page

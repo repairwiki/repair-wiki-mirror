@@ -1,0 +1,47 @@
+<!--
+title:        Nintendo Wii An Error Has Occurred... when entering or exiting system apps (such as Mii Channel)
+pageid:       9125
+revid:        13237
+source:       https://repair.wiki/w/Nintendo_Wii_An_Error_Has_Occurred..._when_entering_or_exiting_system_apps_(such_as_Mii_Channel)
+history:      https://repair.wiki/index.php?title=Nintendo_Wii_An_Error_Has_Occurred..._when_entering_or_exiting_system_apps_(such_as_Mii_Channel)&action=history
+permalink:    https://repair.wiki/index.php?oldid=13237
+last_edited:  2025-12-13T22:42:07Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Wii
+sha1:         c47d38f4ccc9b6f69478e9df641c810a88eb5429
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Wii
+|Affects parts=
+|Needs equipment=
+|Type=
+|Difficulty=
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+"An Error Has Occurred..." when entering or exiting system apps (such as Mii Channel)
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* "An Error Has Occurred..." when entering or exiting system apps (such as Mii Channel)
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+* Disc drive isn't connected / completely dead
+* Can also be due to bad Homebrew, try reinstalling default IOS IOS36, IOS58 and IOS80 from NUS downloader
+
+
+=== Guide imported from the old wiki ===

@@ -1,0 +1,54 @@
+<!--
+title:        MacBook Air A1932 High fan speed, slow or hanging on boot at the Apple logo and progress bar repair
+pageid:       162
+revid:        387
+source:       https://repair.wiki/w/MacBook_Air_A1932_High_fan_speed,_slow_or_hanging_on_boot_at_the_Apple_logo_and_progress_bar_repair
+history:      https://repair.wiki/index.php?title=MacBook_Air_A1932_High_fan_speed,_slow_or_hanging_on_boot_at_the_Apple_logo_and_progress_bar_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=387
+last_edited:  2023-10-22T14:29:18Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Air A1932, Stubs
+sha1:         f11611196ab0ccc78c00d6dded6dde02e4feb21e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Air A1932
+|Affects parts=Motherboard, battery
+|Type=Part replacement, Software
+|Difficulty=2. Medium
+}}
+{{stub}}
+
+==Problem description==
+MacBook Air A1932 slow, hanging on the apple logo and progress bar with fans spinning very fast
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*High fan speed
+*Slow or hanging on the apple logo and progress bar
+
+==Solution==
+===Diagnostic Steps===
+
+==== Check that the battery cable is fully seated into the battery connector ====
+The cable should "click" into the connector. A partially seated battery connector is a common occurrence among technicians unaccustomed to working on the newer MacBook Air devices.
+
+==== Attempt to boot into Apple Diagnostics by holding the D key on startup ====
+Apple Diagnostics may display a ''"There may be an issue with the System Management Controller (SMC)"'' error. This error seldom indicates a board issue on A1932 devices and usually indicates an issue with the battery, or any of the device's thermal sensors, most commonly the palm-rest sensor located in the trackpad.
+
+If Apple Diagnostics displays any battery related error, replace the battery.
+
+Occasionally, you will be unable to boot into Apple Diagnostics as the device will hang after you enter your WiFi password to boot into diagnostics. This can be caused by any of the above causes listed in the differential diagnosis. If this occurs, perform a thorough visual inspection of the logic board, Audio I/O board, trackpad (you will need to remove it from the enclosure.) and trackpad cable, and the battery management board (you will need to pull up the protective cover and foam).
+
+===Repair Steps===
+Perform necessary repairs based on your diagnostic findings.
+
+* Replace battery as needed if diagnostic findings suggest a battery issue.
+* Replace trackpad / trackpad cable if your visual inspection reveals any corrosion or damaged/knocked off components.
+* Replace any corroded components on the system board per visual inspection.
+
+'''If you are unable to boot into Apple Diagnostics, or Apple Diagnostics displays no error, and your visual inspection is unremarkable, test with a KNOWN GOOD battery. Battery issues presenting with high fan speed/hanging on boot are very common on A1932 devices.'''

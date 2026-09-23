@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Pro 12.9 Gen 3 - Mechanic Reader.png
+pageid:       3371
+revid:        6129
+source:       https://repair.wiki/w/File:IPad_Pro_12.9_Gen_3_-_Mechanic_Reader.png
+history:      https://repair.wiki/index.php?title=File:IPad_Pro_12.9_Gen_3_-_Mechanic_Reader.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6129
+last_edited:  2025-04-10T17:15:48Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         4346866a1095e1cf62ed59d597b55f2b9bc721e0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Pro 12.9 Gen 3 - Mechanic Reader - Known good readings

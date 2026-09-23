@@ -1,0 +1,48 @@
+<!--
+title:        Template:Repair Guide
+pageid:       22
+revid:        14260
+source:       https://repair.wiki/w/Template:Repair_Guide
+history:      https://repair.wiki/index.php?title=Template:Repair_Guide&action=history
+permalink:    https://repair.wiki/index.php?oldid=14260
+last_edited:  2026-09-22T22:53:45Z
+contributors: Admin, ASRepairs, ContentBot
+anonymous_edits: 1
+categories:   
+sha1:         1a94e429e45cab850a43e93a220dad3c371f6bd1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<noinclude>
+{{#template_params:Device (list;property=Device)|Affects parts (label=Affects part(s);list;property=Affects part)|Needs equipment (list;property=Needs equipment)|Difficulty (property=Repair Guide difficulty)|Type (list;property=Repair Guide type)}}
+</noinclude><includeonly>{| class="infobox citizen-table-nowrap" style=""
+! class="infobox-heading" colspan="2" |<span>{{PAGENAME}}</span>
+|-
+! Device
+| {{#arraymap:{{{Device|}}}|,|x|[[Device::x]]}}
+|-
+! Affects part(s)
+| {{#arraymap:{{{Affects parts|}}}|,|x|[[Affects part::x]]}}
+|-
+! Needs equipment
+| {{#arraymap:{{{Needs equipment|}}}|,|x|[[Needs equipment::x]]}}
+|-
+! Difficulty
+| {{Repair Guide Difficulty|{{{Difficulty}}}}}
+|-
+! Type
+| {{#arraymap:{{{Type|}}}|,|x|[[Repair Guide type::x]]}}
+|-
+|}
+
+[[Repair Guide difficulty::{{{Difficulty|}}}|]]
+
+[[Category:Repair guide]]
+{{#if: {{{Device|}}} | {{#arraymap: {{{Device}}} |, |@@@@ |[[Category:Repair guides for @@@@]]{{#ifexist: @@@@|[[Device::@@@@| ]]|[[Category:Missing device page]]}} | }} }}
+
+
+<!-- SEO description -->
+{{#if:{{{Device|}}}|{{#seo:description=Repair guide for {{{Device}}}{{#if:{{{Affects parts|}}}|, affecting {{{Affects parts}}}}}.{{#if:{{{Type|}}}|&#32;{{{Type}}}.}}}}}}
+</includeonly>

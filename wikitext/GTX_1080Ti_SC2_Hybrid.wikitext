@@ -1,0 +1,59 @@
+<!--
+title:        GTX 1080Ti SC2 Hybrid
+pageid:       1964
+revid:        4210
+source:       https://repair.wiki/w/GTX_1080Ti_SC2_Hybrid
+history:      https://repair.wiki/index.php?title=GTX_1080Ti_SC2_Hybrid&action=history
+permalink:    https://repair.wiki/index.php?oldid=4210
+last_edited:  2024-07-06T09:50:30Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Computer Components, Device, EVGA, EVGA Computer Components, Stubs
+sha1:         1dbcdc518cc7c9b3eb51229378a5d5fa3bb6b380
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=EVGA
+|Device type=Computer Component
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:B830b5ae4fc1.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240706 112414.jpg
+File:20240706 112921.jpg
+File:20240706 112444.jpg
+File:20240706 112551.jpg
+File:20240706 112519.jpg
+File:20240706 112601.jpg
+File:20240706 112451.jpg
+File:20240706 112447.jpg
+File:20240706 112556.jpg
+File:20240706 112623.jpg
+File:20240706 112615.jpg
+File:20240706 112455.jpg
+File:20240706 112627.jpg
+File:20240706 112805.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:1080ti measurements.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

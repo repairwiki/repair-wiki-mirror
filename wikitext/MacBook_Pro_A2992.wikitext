@@ -1,0 +1,43 @@
+<!--
+title:        MacBook Pro A2992
+pageid:       7705
+revid:        12506
+source:       https://repair.wiki/w/MacBook_Pro_A2992
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2992&action=history
+permalink:    https://repair.wiki/index.php?oldid=12506
+last_edited:  2025-11-02T15:41:35Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         51725f1a41ac183788b172b86a852244b938eccc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Apple|Device type=Laptop|Has code name=A2992}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A2992.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+Schematics and boardview for '''820-02918:''' https://www.sendspace.com/filegroup/nZYZ2Ag%2Bw73B3dz4vVqjsw<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

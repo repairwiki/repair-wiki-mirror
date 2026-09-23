@@ -1,0 +1,218 @@
+<!--
+title:        Raspberry Pi MXL7704
+pageid:       973
+revid:        2327
+source:       https://repair.wiki/w/Raspberry_Pi_MXL7704
+history:      https://repair.wiki/index.php?title=Raspberry_Pi_MXL7704&action=history
+permalink:    https://repair.wiki/index.php?oldid=2327
+last_edited:  2024-01-13T20:51:23Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for Raspberry Pi
+sha1:         70ebf6f4e566af9620750c9028549d4048e45b2d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=Raspberry Pi
+|Type=Circuit
+|Difficulty=2. Medium
+}}
+The MXL7704 is a programmable quadruple step-down DC/DC converter that is used in the following [[Raspberry Pi]] models:
+
+* Raspberry Pi '''3''' (A+ and B+) (''MXL7704-R3'' version)
+* Raspberry Pi '''4''' (all) (''MXL7704-P4'' version)
+
+The MxL7704-AQB, MxL7704-XQB, MxL7704-R3 and MxL7704-P4 might be replaceable by the one-time programmable (OTP) successor MxL7704-BQB
+
+The new model may be (one time) programmable to match the specific raspberry pi model default values.
+
+== Common cause of failure ==
+If the Pi's 5V pin is shorted to the neighboring 3.3V pin, the MXL7704 will try to clamp the voltage on the 3.3V line. This destroys the MXL7704 chip, leaving the 3.3V line permanently shorted to GND.
+
+== Configuring ==
+The MXL7704 chip can be configured via an I<sup>2</sup>C interface. The I<sup>2</sup>C address depends on the version of the chip:
+{| class="wikitable"
+!Version
+!Address
+|-
+|AQB and XQB versions
+|<code>0x2D</code>
+|-
+|R3 version (Raspberry Pi 3)
+|<code>0x1D</code>
+|-
+|P4 version (Raspberry Pi 4)
+|<code>0x1B</code>
+|}
+Despite having a different I<sup>2</sup>C address, the R3 version of the chip will be correctly recognized by the OS if it's installed in a Raspberry Pi 4.
+
+Note that '''any changes made to the configuration are not permanently stored.''' Every time the chip is powered off, its default configuration is restored. Different versions of the chip have different default configurations:
+{| class="wikitable"
+!Model
+!Default configuration
+|-
+|Raspberry Pi 3 (A+ and B+)
+|
+ pi@raspberrypi:~ $ i2cdump -y 1 0x1d
+      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f    0123456789abcdef
+ 00: a0 01 e4 27 43 57 27 00 00 00 02 00 XX XX XX XX    ???'CW'...?.XXXX
+ 10: a5 a5 5a c0 c0 e4 1f 48 10 a9 7f 67 00 00 XX XX    ??Z????H???g..XX
+|-
+|Raspberry Pi 4
+|
+ pi@raspberrypi:~ $ i2cdump -y 1 0x1b
+      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f    0123456789abcdef
+ 00: a0 01 e4 27 43 57 27 00 00 00 02 00 XX XX XX XX    ???'CW'...?.XXXX
+ 10: a5 a5 5a b0 a5 e4 de 48 10 e9 5e 66 00 27 XX XX    ??Z????H??^f.'XX
+|}
+Here's the meaning of the two default configurations (for more info, see the datasheet linked at the bottom of the page):
+{| class="wikitable"
+!Address
+!Setting
+! colspan="2" |Raspberry Pi 3A+ / 3B+
+! colspan="2" |Raspberry Pi 4
+|-
+!
+!
+!'''Value'''
+!'''Meaning'''
+!'''Value'''
+!'''Meaning'''
+|-
+|<code>0x02</code>
+|Phase interleaving
+|<code>0xe4</code>
+|1 → 2 → 3 → 4
+|<code>0xe4</code>
+|1 → 2 → 3 → 4
+|-
+|<code>0x10</code>
+|V_out LDO
+|<code>0xa5</code>
+|3.3V
+|<code>0xa5</code>
+|3.3V
+|-
+|<code>0x11</code>
+|V_out buck 1
+|<code>0xa5</code>
+|3.3V
+|<code>0xa5</code>
+|3.3V
+|-
+|<code>0x12</code>
+|V_out buck 2
+|<code>0x5a</code>
+|1.8V
+|<code>0x5a</code>
+|1.8V
+|-
+|<code>0x13</code>
+|V_out buck 3
+|<code>0xc0</code>
+|1.2V
+|<code>0xb0</code>
+|1.1V
+|-
+|<code>0x14</code>
+|V_out buck 4
+|<code>0xc0</code>
+|1.2V
+|<code>0xa5</code>
+|1.03V
+|-
+|<code>0x15</code>
+|Buck Sequence Group Assignment
+|<code>0xe4</code>
+|
+* 1: group 0
+* 2: group 1
+* 3: group 2
+* 4: group 3
+|<code>0xe4</code>
+|
+* 1: group 0
+* 2: group 1
+* 3: group 2
+* 4: group 3
+|-
+|<code>0x16</code>
+|
+* LDO Sequence Group Assignment
+* Channel Enables
+|<code>0x1f</code>
+|
+* group 0
+* all enabled
+|<code>0xde</code>
+|
+* group 3
+* bucks enabled, LDO disabled
+|-
+|<code>0x17</code>
+|
+* SEQ EN Assign
+* PG1 Routing
+|<code>0x48</code>
+|
+* SEQ EN: group 1
+* PG1 Routing: buck 4
+|<code>0x48</code>
+|
+* SEQ EN: group 1
+* PG1 Routing: buck 4
+|-
+|<code>0x18</code>
+|PG2 Routing
+|<code>0x10</code>
+|buck 4
+|<code>0x10</code>
+|buck 4
+|-
+|<code>0x19</code>
+|
+* Fault Actions
+* Down Sequencing
+* Frequency
+|<code>0xa9</code>
+|
+* Reset whole chip if any channel faults
+* Soft power off disabled
+* 78 Ω discharge enabled
+* 1.81 MHz
+|<code>0xe9</code>
+|
+* Reset whole chip if any channel faults
+* Soft power off enabled
+* 78 Ω discharge enabled
+* 1.81 MHz
+|}
+The following pads can be used to access the I<sup>2</sup>C interface:
+{| class="wikitable"
+!Model
+!SDA
+!SCL
+|-
+|Raspberry Pi 3 (A+ and B+)
+|<code>PP60</code>
+|<code>PP59</code>
+|-
+|Raspberry Pi 4
+| colspan="2" |The relevant traces[[File:768px-MXL7704 I2C interface.jpg|alt=MXL7704 location|thumb|MXL7704 location on Raspberry Pi 4]]
+|}
+
+== Compute Module 4 (CM4) ==
+Since the LDO VIN is shorted to ground by CM4's layout design, the MxL7704-P4 (where the LDO is disabled by default programming) has to be used.
+
+When using the MxL7704-R3 variant (which is the one available in AliExpress), the CM4 '''will not start''' since the LDO is assigned to group0 and cannot start - so group0 cannot start. With it all the buck converters stay disabled.
+
+A tested alternative for using MxL7704-R3 for repairing CM4 is to disconnect Pin8 (LDO) and Pin7 (VIN) from the board and connect it (Pin7) permanently with +5V instead.
+
+== References ==
+
+# [[MXL7704 (Raspberry Pi)#cite%20ref-1|↑]] ''[https://assets.maxlinear.com/web/documents/mxl7704.pdf MXL7704 datasheet]'', MaxLinear, Inc., 2018
+# [[MXL7704 (Raspberry Pi)#cite%20ref-2|↑]] ''[https://assets.maxlinear.com/web/files/changenotifications/pdn-20012a%20multiple%20mxl%20exar%20parts%20product%20discontinuation%20notification-1033.pdf MXL7704 Product Discontinuation Notice]'', MaxLinear, Inc., 2021
+# [[MXL7704 (Raspberry Pi)#cite%20ref-3|↑]] ''[https://assets.maxlinear.com/web/documents/mxl7704-b.pdf MXL7704-BQB datasheet]'', MaxLinear, Inc., 2022

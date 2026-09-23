@@ -1,0 +1,18 @@
+<!--
+title:        File:Pro tip.png
+pageid:       4554
+revid:        7611
+source:       https://repair.wiki/w/File:Pro_tip.png
+history:      https://repair.wiki/index.php?title=File:Pro_tip.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7611
+last_edited:  2025-06-13T04:04:10Z
+contributors: Chris
+anonymous_edits: 0
+categories:   
+sha1:         7b95fc794341f2bf780965b322c1b9001877ce91
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+ProTip ;)

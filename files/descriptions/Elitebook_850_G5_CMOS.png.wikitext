@@ -1,0 +1,18 @@
+<!--
+title:        File:Elitebook 850 G5 CMOS.png
+pageid:       4264
+revid:        7278
+source:       https://repair.wiki/w/File:Elitebook_850_G5_CMOS.png
+history:      https://repair.wiki/index.php?title=File:Elitebook_850_G5_CMOS.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7278
+last_edited:  2025-06-03T00:26:58Z
+contributors: Cheapskate777
+anonymous_edits: 0
+categories:   
+sha1:         1a3c476f8324f1e408bc5c652e5f95258744d2ad
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+CMOS battery of HP Elitebook 850 G5

@@ -1,0 +1,88 @@
+---
+title: "How To Fix an iPhone 8 With No Image. Turns on but nothing shows on the screen"
+pageid: 1495
+revid: 3277
+kind: repair_guide
+source: "https://repair.wiki/w/How_To_Fix_an_iPhone_8_With_No_Image._Turns_on_but_nothing_shows_on_the_screen"
+history: "https://repair.wiki/index.php?title=How_To_Fix_an_iPhone_8_With_No_Image._Turns_on_but_nothing_shows_on_the_screen&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3277"
+last_edited: "2024-01-30T06:43:55Z"
+contributors:
+  - "VCCBoardRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for IPhone 8"
+  - "Repair guides for IPhone 8 Plus"
+  - "Stubs"
+infobox:
+  Device: "IPhone 8, IPhone 8 Plus"
+  Affects_parts: "Main Logic Board"
+  Needs_equipment: "Soldering Iron, Hot Air Station, Microscope"
+  Type: "BGA, Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# How To Fix an iPhone 8 With No Image. Turns on but nothing shows on the screen
+
+## Problem description
+How To Fix an iPhone 8 With No Image. Turns on but nothing shows on the screen.
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- No Image on the screen
+- Nothing shows up on the screen
+- Screen turns on but black image
+- Phone turns on but stays black
+
+## Solution
+You'll want to check these first to confirm you have a board issue:
+
+- Get a known good screen — Helps validate that you have a board issue.
+- Check USB charging current — If an iPhone shows proper charging current (≈1 A via USB or more), then mostly likely the device is alive.
+- Listen to for any sounds or vibration — Helps confirm if the phone powers on.
+- Turn off the phone, then plug in the charger and use a flashlight onto the center of the screen, to look for the Apple logo — This helps confirm you are getting image, but no backlight.
+- Check for water damage. Often times, the backlight circuit gets hit the hardest in water damage cases.
+- Plug into computer and see if iTunes or 3uTools detects the device in DFU mode. When an iPhone is in DFU mode, it won't display anything on the screen. Sometimes it display an Apple logo for a split second, then blank screen and backlight ON
+
+### Troubleshooting Steps and Solutions
+Here are 2 walkthrough videos:
+
+- https://youtu.be/etO1x3IyU90
+- https://youtu.be/EETRKumh2Jc
+
+#### LCD Connector:
+Diode mode the LCD connector (J5700) and check for any shorts (0.000 V) or OL on a line where there should be a reading (≈200–700 mV).
+
+Most commonly, you'll find the filter FL5705 (240 Ohm, 0201) has been pry damaged, causing no image.
+
+Replace it & it should solve it.
+
+Otherwise, you'll find one these lines shorted to ground:
+
+- PP5V7_DISPLAY_AVDDH_CONN
+- PP5V7_MESON_AVDDH_CONN
+- PN5V7_DISPLAY_MESON_AVDDN_CONN
+
+If shorted, you'll need to inject voltage to find the shorted capacitor.
+
+  - Please note:** Inject no more than 5.7 V but it is recommended to inject like 2 V or 3 V and see if that's enough to find the short. Injecting 5.7 V will inject too much power too quickly and cause the heat to spread really fast and hard to pinpoint the shorted capacitor.
+
+Sometimes, you'll find an OL reading at PP1V8_LCM_CONN. If so, find FL3906 and check for pry damage or blown filter. Replace if you get a diode mode reading on one side of the filter, but OL on the other. Both sides of the filter should give you the same diode mode reading.
+
+#### Chestnut (U5600) — Image IC
+If diode mode reading at the LCD connector is good, check Chesnut (U5600), which is responsible for image.
+
+Check C5600 for continuity across it. It should not have any. If there is continuity, replace it.
+
+Check if there's any water damage under Chesnut. Lift the IC and see if any corrosion is present. If so, clean the corrosion and replace Chesnut and test again.
+
+If still no image, diode mode the pads underneath Chestnut and check for any shorts or OL on a line where there should be a reading.
+
+If you find a shorted line, track down the shorted capacitor by injecting voltage
+
+If you find an OL where there should be a reading, follow the path of the line and diode mode every at every point. Find the point where the diode mode reading reappears. That should be where the line is disconnected and you'll need to replace the component that disconnected the line, usually a filter.
+
+If no abnormal readings under Chestnut, just replace Chestnut and test again.

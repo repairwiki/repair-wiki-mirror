@@ -1,0 +1,18 @@
+<!--
+title:        File:R987 pascal.png
+pageid:       1575
+revid:        3425
+source:       https://repair.wiki/w/File:R987_pascal.png
+history:      https://repair.wiki/index.php?title=File:R987_pascal.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3425
+last_edited:  2024-02-13T16:09:53Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         7ebc2049fb7780e78022b62b05377383e6e233a0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+R987 pascal

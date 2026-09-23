@@ -1,0 +1,18 @@
+<!--
+title:        File:Samsung S20 Ultra Board - Back.png
+pageid:       2377
+revid:        4864
+source:       https://repair.wiki/w/File:Samsung_S20_Ultra_Board_-_Back.png
+history:      https://repair.wiki/index.php?title=File:Samsung_S20_Ultra_Board_-_Back.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4864
+last_edited:  2024-09-15T01:54:08Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         d1a601da08d9c53784203b506009a16d91aeb351
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Samsung S20 Ultra Board - Back

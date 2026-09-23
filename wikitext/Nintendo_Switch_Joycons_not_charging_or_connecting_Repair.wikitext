@@ -1,0 +1,42 @@
+<!--
+title:        Nintendo Switch Joycons not charging or connecting Repair
+pageid:       921
+revid:        2239
+source:       https://repair.wiki/w/Nintendo_Switch_Joycons_not_charging_or_connecting_Repair
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Joycons_not_charging_or_connecting_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2239
+last_edited:  2024-01-13T16:44:12Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Switch, Stubs
+sha1:         7c7d717e8b4dd3f66f5f182e9683773f9d862d9d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=JoyCons
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+[[File:1200px-Joycon DCDC cap diagram.jpg|thumb|Diagram showing resistor layout (Figure 1)]]
+==Problem description==
+Fixing an issue where the Joycons are not charging or connecting/pairing. Joycons aren't charging (on one or both sides), the fan works, and the side-rail is confirmed working. 
+==Symptoms==
+
+*Joycons not charging or connecting/pairing
+*Joycons aren't charging (on one or both sides)
+*The fan works
+*The side-rail is confirmed working.
+
+==Solution==
+[[File:1041px-Right Joycon DC-DC converter.jpg|thumb|Right Joycon DC-DC converter (Figure 3)]][[File:1200px-Left Joycon DC-DC converter.jpg|thumb|Left Joycon DC-DC converter (Figure 2)]]Measure both resistors. 18kohm on both resistors (Figure 1) indicates a failed/shorted capacitor (even if the cap does not test as a short). Resistors should measure 100kohm and 22kohm respectively.
+
+Measure pin 6 (Figure 2 & 3) in diode mode-- it should read 0. If it reads 0.6v drop this reinforces the capacitor failure.
+
+If resistors check out, the DC-DC component may need replacing

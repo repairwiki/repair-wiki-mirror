@@ -1,0 +1,39 @@
+<!--
+title:        Acer Aspire E5-773G Battery is not working repair
+pageid:       1193
+revid:        2743
+source:       https://repair.wiki/w/Acer_Aspire_E5-773G_Battery_is_not_working_repair
+history:      https://repair.wiki/index.php?title=Acer_Aspire_E5-773G_Battery_is_not_working_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2743
+last_edited:  2024-01-16T16:19:02Z
+contributors: ASRepairs, Evanm1234
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Aspire E5-773G, Stubs
+sha1:         2b2bc191c7c5f8b934041c93969e80dec53bd183
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Aspire E5-773G
+|Affects parts=Battery
+|Needs equipment=None
+|Type=General
+|Difficulty=1. Easy
+}}
+{{stub}}
+==Problem description==
+Fixing an issue with an Acer Aspire E5-773G laptop where the battery "does not work"
+
+== Symptoms ==
+
+* Battery not working
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]] 
+
+==Solution==
+
+* this laptop has an Battery enable switch (SW1) in the lower left corner (view from keyboard side)
+
+* press the switch on startup, or assemble the keyboard case to press it down

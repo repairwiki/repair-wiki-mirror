@@ -1,0 +1,18 @@
+<!--
+title:        File:Picture of EDM-020 Southbridge and bios chip.jpg
+pageid:       5504
+revid:        8756
+source:       https://repair.wiki/w/File:Picture_of_EDM-020_Southbridge_and_bios_chip.jpg
+history:      https://repair.wiki/index.php?title=File:Picture_of_EDM-020_Southbridge_and_bios_chip.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=8756
+last_edited:  2025-07-14T21:08:10Z
+contributors: Rassawyer
+anonymous_edits: 0
+categories:   
+sha1:         2fa4d0b79fa9d2d8b5732023901e99dcb389938e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Picture showing location of bios chip next to Southbridge.

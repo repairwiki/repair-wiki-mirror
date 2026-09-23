@@ -1,0 +1,19 @@
+<!--
+title:        File:Switch vsys.jpg
+pageid:       2298
+revid:        4708
+source:       https://repair.wiki/w/File:Switch_vsys.jpg
+history:      https://repair.wiki/index.php?title=File:Switch_vsys.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4708
+last_edited:  2024-08-27T17:48:44Z
+contributors: Aaron.stevenson408
+anonymous_edits: 0
+categories:   
+sha1:         e14e75f5e5142e9a0ca6ba8ededa100cdc0337ae
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Switch VSYS location - First Stage Boot Checks
+Only use in First Stage Boot Checks

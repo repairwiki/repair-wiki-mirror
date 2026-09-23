@@ -1,0 +1,18 @@
+<!--
+title:        File:INJECT 1.8V for boost ic testing.png
+pageid:       9608
+revid:        13880
+source:       https://repair.wiki/w/File:INJECT_1.8V_for_boost_ic_testing.png
+history:      https://repair.wiki/index.php?title=File:INJECT_1.8V_for_boost_ic_testing.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13880
+last_edited:  2026-02-08T01:37:17Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         7dadd45119ac59bb0cfe643a6d572f26a10ce427
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+INJECT 1.8V for boost ic testing

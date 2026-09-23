@@ -1,0 +1,18 @@
+<!--
+title:        File:Spi from cpu poco x3 pro.png
+pageid:       5669
+revid:        8953
+source:       https://repair.wiki/w/File:Spi_from_cpu_poco_x3_pro.png
+history:      https://repair.wiki/index.php?title=File:Spi_from_cpu_poco_x3_pro.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8953
+last_edited:  2025-07-22T20:31:56Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         9f6a45412eab6fb6c73c8bd1e8ea7e2be0b2ad57
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Spi from cpu

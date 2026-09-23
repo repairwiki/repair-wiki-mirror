@@ -1,0 +1,17 @@
+<!--
+title:        File:4610-1NR ThermHead3.jpg
+pageid:       1002
+revid:        2359
+source:       https://repair.wiki/w/File:4610-1NR_ThermHead3.jpg
+history:      https://repair.wiki/index.php?title=File:4610-1NR_ThermHead3.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2359
+last_edited:  2024-01-13T23:00:41Z
+contributors: HaileyKitty
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

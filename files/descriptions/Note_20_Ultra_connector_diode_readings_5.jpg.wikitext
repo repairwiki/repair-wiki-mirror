@@ -1,0 +1,17 @@
+<!--
+title:        File:Note 20 Ultra connector diode readings 5.jpg
+pageid:       2221
+revid:        4601
+source:       https://repair.wiki/w/File:Note_20_Ultra_connector_diode_readings_5.jpg
+history:      https://repair.wiki/index.php?title=File:Note_20_Ultra_connector_diode_readings_5.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4601
+last_edited:  2024-08-12T05:37:27Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

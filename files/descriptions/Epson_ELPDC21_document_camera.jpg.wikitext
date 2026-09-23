@@ -1,0 +1,19 @@
+<!--
+title:        File:Epson ELPDC21 document camera.jpg
+pageid:       1048
+revid:        2428
+source:       https://repair.wiki/w/File:Epson_ELPDC21_document_camera.jpg
+history:      https://repair.wiki/index.php?title=File:Epson_ELPDC21_document_camera.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2428
+last_edited:  2024-01-14T11:37:55Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         f5cbc3c5d14667e296f757e4d23f36c60e76bfe3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+This picture shows the Epson ELPDC21 Document Camera sitting on a desk, viewed from above.

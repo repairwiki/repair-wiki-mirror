@@ -1,0 +1,18 @@
+<!--
+title:        File:Muse 2016 Battery Board.jpg
+pageid:       8666
+revid:        12605
+source:       https://repair.wiki/w/File:Muse_2016_Battery_Board.jpg
+history:      https://repair.wiki/index.php?title=File:Muse_2016_Battery_Board.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=12605
+last_edited:  2025-11-06T01:19:06Z
+contributors: Pandapip1
+anonymous_edits: 0
+categories:   
+sha1:         1f38547b510c0d2e0c3bc083f8b152d001706df7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Muse 2016 Battery Board

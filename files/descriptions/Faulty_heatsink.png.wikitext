@@ -1,0 +1,18 @@
+<!--
+title:        File:Faulty heatsink.png
+pageid:       8925
+revid:        12968
+source:       https://repair.wiki/w/File:Faulty_heatsink.png
+history:      https://repair.wiki/index.php?title=File:Faulty_heatsink.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12968
+last_edited:  2025-12-01T22:58:27Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         37388e59425b532fae05d3083a31e8d8d5301a5d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Faulty heatsink

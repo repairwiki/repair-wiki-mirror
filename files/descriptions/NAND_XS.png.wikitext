@@ -1,0 +1,18 @@
+<!--
+title:        File:NAND XS.png
+pageid:       8807
+revid:        12814
+source:       https://repair.wiki/w/File:NAND_XS.png
+history:      https://repair.wiki/index.php?title=File:NAND_XS.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12814
+last_edited:  2025-11-23T02:26:25Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         37869e161f2bc5827c1e986155df405214132cda
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+NAND XS

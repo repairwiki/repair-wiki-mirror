@@ -1,0 +1,44 @@
+<!--
+title:        Playstation 3 Slim
+pageid:       4068
+revid:        7063
+source:       https://repair.wiki/w/Playstation_3_Slim
+history:      https://repair.wiki/index.php?title=Playstation_3_Slim&action=history
+permalink:    https://repair.wiki/index.php?oldid=7063
+last_edited:  2025-05-24T21:43:49Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         44696d8ab9ebda12ec678eac3cd29a70f06f0369
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Sony|Device type=Game Console|Device release date=01/09/2019}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Playstation 3 slim Image.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:CECH-3000B-KTE-001-front.jpg|KTE-001 CPU Side
+File:CECH-3000B-KTE-001-back.jpg|KTE-001 Bottom Side
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

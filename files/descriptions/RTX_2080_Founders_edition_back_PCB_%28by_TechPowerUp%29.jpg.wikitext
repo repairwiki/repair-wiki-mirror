@@ -1,0 +1,17 @@
+<!--
+title:        File:RTX 2080 Founders edition back PCB (by TechPowerUp).jpg
+pageid:       570
+revid:        1283
+source:       https://repair.wiki/w/File:RTX_2080_Founders_edition_back_PCB_(by_TechPowerUp).jpg
+history:      https://repair.wiki/index.php?title=File:RTX_2080_Founders_edition_back_PCB_(by_TechPowerUp).jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1283
+last_edited:  2023-12-02T14:32:49Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

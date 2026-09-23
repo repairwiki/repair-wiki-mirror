@@ -1,0 +1,18 @@
+<!--
+title:        File:Ipadwifionly.png
+pageid:       8782
+revid:        12774
+source:       https://repair.wiki/w/File:Ipadwifionly.png
+history:      https://repair.wiki/index.php?title=File:Ipadwifionly.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12774
+last_edited:  2025-11-19T17:24:26Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         e947c33a2b7fce46c3037799e8bfc44c16eac73f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ipadwifionly

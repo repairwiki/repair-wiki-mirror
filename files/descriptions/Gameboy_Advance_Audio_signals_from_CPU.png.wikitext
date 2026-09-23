@@ -1,0 +1,18 @@
+<!--
+title:        File:Gameboy Advance Audio signals from CPU.png
+pageid:       5467
+revid:        8699
+source:       https://repair.wiki/w/File:Gameboy_Advance_Audio_signals_from_CPU.png
+history:      https://repair.wiki/index.php?title=File:Gameboy_Advance_Audio_signals_from_CPU.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8699
+last_edited:  2025-07-12T19:53:13Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         28f50914b221249971192b219f4858de140243f8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Gameboy Advance Audio signals from CPU

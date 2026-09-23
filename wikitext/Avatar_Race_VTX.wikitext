@@ -1,0 +1,93 @@
+<!--
+title:        Avatar Race VTX
+pageid:       1259
+revid:        2858
+source:       https://repair.wiki/w/Avatar_Race_VTX
+history:      https://repair.wiki/index.php?title=Avatar_Race_VTX&action=history
+permalink:    https://repair.wiki/index.php?oldid=2858
+last_edited:  2024-01-16T22:59:53Z
+contributors: Mads Tech
+anonymous_edits: 0
+categories:   Device, Drones, Stubs, Walksnail, Walksnail Drones
+sha1:         f437eaa635501a2d8d40bd92b0c99e8129ad3c1e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+
+{{Device page
+|Manufacturer=Walksnail|Device type=Drone}}
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Avatar Race.webp
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Avatar HD Race VTX PCB Top.jpg
+File:Avatar Race VTX PCB Bottom.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+The Avatar VTX is designed to be used with the Fat Shark Dominator, Walksnail Avatar HD FPV Goggles and Caddx Goggles X.
+{| class="wikitable"
+|Model
+|Avatar HD Mini VTX V3
+|-
+|Communication Frequency
+|5.725-5.850GHz
+|-
+|Transmitter Power (EIRP)
+|FCC:<27dBm;CE:<14dBm;SRRC:<20dBm;
+MIC:<25dBm
+|-
+|I/O Interface
+|JST1.0*4(Power in)JST0.8*4(USB)
+|-
+|Mounting Holes
+|25.5*25.5mm(M2 hole);20*20mm(M3 hole)
+|-
+|Dimensions
+|31.5*31.5*9.4mm
+|-
+|Storage
+|32G
+|-
+|Recording
+|1080p/720p
+|-
+|Weight
+|13.4g
+|-
+|Operating Temperature
+| -20-40℃
+|-
+|Channels
+|8
+|-
+|Wide Power Input
+|3.1V-13V
+|-
+|Supported FC System
+|Betaflight; Inav; Fettec; Kiss; ArduPliot
+|-
+|OSD
+|Canvas mode
+|-
+|Latency
+|Average latency 22ms
+|-
+|Antenna
+|1(IPEX)
+|}

@@ -1,0 +1,65 @@
+<!--
+title:        NEEWER S101-300W flash charging slow/delay
+pageid:       2627
+revid:        7768
+source:       https://repair.wiki/w/NEEWER_S101-300W_flash_charging_slow/delay
+history:      https://repair.wiki/index.php?title=NEEWER_S101-300W_flash_charging_slow/delay&action=history
+permalink:    https://repair.wiki/index.php?oldid=7768
+last_edited:  2025-06-16T22:04:31Z
+contributors: Mastergeek
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for NEEWER S101-300W PRO
+sha1:         340818c47dbc99ff7b7eaccacd659f84d1af6636
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=NEEWER S101-300W PRO
+|Affects parts=Electrolytic capacitors
+|Needs equipment=2.5mm Hex screwdriver, phillips screwdriver, soldering iron
+|Difficulty=2. Medium
+|Type=Soldering}}
+This is a studio monolight strobe flash device, with wireless sync functions (2.4GHz) as advertised by the [https://neewer.com/collections/strobe-flashes/products/neewer-s101-300w-pro-strobe-flash-light-66604336 manufacturer].
+
+== Problem description ==
+This device is rated for quick flash recycling times (among 0.4 to 2.5 seconds), but a common issue on these devices involves '''long recharge times or actually never getting to finish charging the flash'''.
+
+It may be a design flaw; I've seen two of these devices already with the exact same of its electrolytic capacitors damaged. Said capacitors are rated <nowiki>'''</nowiki>400V 220µF<nowiki>'''</nowiki> and <nowiki>'''</nowiki>105°C<nowiki>'''</nowiki>.
+
+'''<big>If attempting any repair be extra sure <nowiki>''</nowiki>the device is disconnected from mains power and make use of appropriate safety gear when disassembling the device", be careful with charged high voltage capacitors.</big>'''
+
+The disassembling process would require a '''hex 2.5mm screwdriver''' for the 4 outer screws, and the rest are '''phillip screws'''.
+
+
+[[File:NEEWER S101-300W PRO.webp|thumb|NEEWER S101-300W PRO]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Flash shot takes too long to charge (above 3 seconds)
+* Flash shot never becomes ready
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+Replace one or more bad capacitors inside the device.
+
+
+=== Diagnostic Steps ===
+
+Turn on the device and measure the amount of time it takes to charge the flash after shooting. By the specification and advertising of the manufacturer, flash charge times should be around 0.1s and 1.8s, so anything above 2 or 3 seconds may be an indicator of a faulty capacitor. As well, if the capacitor in question has gone bad and splashed its contents inside the device, a subtle but distinguishable smell may be picked up through the fan exhaust. 
+=== Repair Steps ===
+Disassemble the device down to the power board assembly (this device uses a fragile lamp in its front, so be gentle when unscrewing around it, go slowly...), unscrew to free it from the logic board, '''make sure capacitors are discharged, otherwise discharge carefully with an adequate resistor'''.
+Locate the pair of capacitors which are smaller in size, usually are closer to the power connections, on of them should show signs of damage, be it an obvious exploded capacitor with its contents splashed around, or a slightly bulged capacitor that may or may not display a crack on its top surface. Clean up the area if the damaged capacitor splashed its electrolyte content around.
+
+Proceed to desolder the damaged capacitor leads in order to remove it, it may be kept in place by some glue on its bottom, so use a strong prying tool to help you (make sure you discharge the capacitors beforehand). Having removed the capacitor, replace with another 400V 220µF electrolytic capacitor of '''high temperature tolerance''' (good quality 105°C or better is recommended). Make sure not putting it in the wrong orientation or it may explode upon the device powering on...
+
+Re assemble the device up to having all the connections in place and test the repair, the new capacitor should allow the device to charge its flash shot in less than 2 seconds (as per manufacturer's rating). If everything's fine then finish the reassembling.
+
+Even if  the spare capacitor is of good quality and has been properly replaced, the device may damage the capacitor in a relatively short time of usage if used heavily (long and quick succession of shots over stressing the capacitor). This may be a design flaw;  maybe some changes to the design could fix it (bigger capacitors or more of them).

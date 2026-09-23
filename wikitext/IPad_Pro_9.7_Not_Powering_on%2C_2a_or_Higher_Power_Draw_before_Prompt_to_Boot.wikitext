@@ -1,0 +1,63 @@
+<!--
+title:        IPad Pro 9.7 Not Powering on, 2a or Higher Power Draw before Prompt to Boot
+pageid:       5422
+revid:        8872
+source:       https://repair.wiki/w/IPad_Pro_9.7_Not_Powering_on,_2a_or_Higher_Power_Draw_before_Prompt_to_Boot
+history:      https://repair.wiki/index.php?title=IPad_Pro_9.7_Not_Powering_on,_2a_or_Higher_Power_Draw_before_Prompt_to_Boot&action=history
+permalink:    https://repair.wiki/index.php?oldid=8872
+last_edited:  2025-07-20T19:50:12Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPad Pro 9.7, Stubs
+sha1:         4e971708f5b36706d3a1cf3a04b7a7acb51a9ed0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPad Pro 9.7
+|Affects parts=Motherboard
+|Needs equipment=Microscope, Thermal Camera, DCPS
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+iPad Pro 9.7 not powering on with 2a or higher power draw from DCPS before prompt to boot.
+[[File:2+Amps.gif|thumb|433x433px]]
+
+== Solution ==
+
+
+
+If this iPad draws any current before prompt to boot it means there is a short on the motherboard.
+
+The first step it to inspect the motherboard for any blown components and water damage.
+
+If there is no water damage, is is most likely a shorted component on any of the below lines:
+
+* '''PP_VCC_MAIN''' 
+* '''PP_BATT_VCC''' 
+* '''PPSTROBE_LX'''
+* '''PPVCC_HIGH'''
+
+The most common line to have a short is VCC_MAIN.
+
+To detect the short you'll need to inject voltage (4 V / 2 A) directly into the line you measured as short and use freeze spray (see here https://youtu.be/3MtLSQJvQxI) or thermal camera (see here: https://youtu.be/fkd4iDjgfvc) to spot the capacitor that is shorted.
+
+On this iPad when there is a short on VCC_MAIN U8500 will also get hot dont assume immediately that U8500 is the cause look around the board for other hot spots.
+[[File:IPad Pro 9.7 Example.png|center|thumb|532x532px|iPad Pro 9.7 Example]]
+If the Short is on a Chip you need to replace that component.
+
+If the Short is on decoupling capacitor you can remove it from the board most of the times the capacitance wont drop that much to affect the function of the device.
+
+If there is water damage, corrosion may be the cause of the short sometimes cleaning the corrosion is enough to clear the short however if you see signs of water by a chip it probably means there is water under the IC and you have remove it clean the corrosion aand reball or replace the Chip.
+
+[[File:Water by a chip.png|center|thumb|353x353px|Water by a chip]]
+
+After removing the shorted component you can take a diode reading of the line a healthy VCC Main should have a vault between 0.400 and 0.500.

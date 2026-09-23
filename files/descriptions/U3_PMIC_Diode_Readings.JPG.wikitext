@@ -1,0 +1,17 @@
+<!--
+title:        File:U3 PMIC Diode Readings.JPG
+pageid:       5067
+revid:        8236
+source:       https://repair.wiki/w/File:U3_PMIC_Diode_Readings.JPG
+history:      https://repair.wiki/index.php?title=File:U3_PMIC_Diode_Readings.JPG&action=history
+permalink:    https://repair.wiki/index.php?oldid=8236
+last_edited:  2025-06-30T21:27:23Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

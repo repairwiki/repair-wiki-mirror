@@ -1,0 +1,18 @@
+<!--
+title:        File:Acer Aspire v3-772g picture of the power button connector.png
+pageid:       548
+revid:        1240
+source:       https://repair.wiki/w/File:Acer_Aspire_v3-772g_picture_of_the_power_button_connector.png
+history:      https://repair.wiki/index.php?title=File:Acer_Aspire_v3-772g_picture_of_the_power_button_connector.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1240
+last_edited:  2023-11-25T17:43:01Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         e15e7ad8466512a5c01e601f00e29ecae3ed9f60
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Acer Aspire v3-772g picture of the power button connector

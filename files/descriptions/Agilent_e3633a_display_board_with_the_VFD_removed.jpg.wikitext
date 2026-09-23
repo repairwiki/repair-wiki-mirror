@@ -1,0 +1,17 @@
+<!--
+title:        File:Agilent e3633a display board with the VFD removed.jpg
+pageid:       9843
+revid:        14245
+source:       https://repair.wiki/w/File:Agilent_e3633a_display_board_with_the_VFD_removed.jpg
+history:      https://repair.wiki/index.php?title=File:Agilent_e3633a_display_board_with_the_VFD_removed.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=14245
+last_edited:  2026-04-01T04:00:55Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

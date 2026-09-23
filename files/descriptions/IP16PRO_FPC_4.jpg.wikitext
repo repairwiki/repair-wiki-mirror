@@ -1,0 +1,17 @@
+<!--
+title:        File:IP16PRO FPC 4.jpg
+pageid:       3004
+revid:        5681
+source:       https://repair.wiki/w/File:IP16PRO_FPC_4.jpg
+history:      https://repair.wiki/index.php?title=File:IP16PRO_FPC_4.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5681
+last_edited:  2025-02-14T15:26:19Z
+contributors: MrBane
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

@@ -1,0 +1,18 @@
+<!--
+title:        File:Right trigger.jpg
+pageid:       2448
+revid:        4991
+source:       https://repair.wiki/w/File:Right_trigger.jpg
+history:      https://repair.wiki/index.php?title=File:Right_trigger.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4991
+last_edited:  2024-10-09T12:07:46Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         c630fe1c3b272f1570eea2b9c7e1d8614d195dff
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Schematic of the right trigger of the rev B controller board

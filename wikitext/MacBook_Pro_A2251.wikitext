@@ -1,0 +1,72 @@
+<!--
+title:        MacBook Pro A2251
+pageid:       602
+revid:        1905
+source:       https://repair.wiki/w/MacBook_Pro_A2251
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2251&action=history
+permalink:    https://repair.wiki/index.php?oldid=1905
+last_edited:  2024-01-10T17:25:52Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         3a40b971ee2aac7d8f2422e441fee42c8be7139e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2251
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20230824 163906.jpg
+File:20230824 164023.jpg
+File:20230824 164003.jpg
+File:20230824 163918.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20230824 164412.jpg
+File:20230824 165330.jpg
+File:20230824 165346.jpg
+File:20230824 165349.jpg
+File:20230824 164431.jpg
+File:20230824 164532.jpg
+File:20230824 164603.jpg
+File:20230824 164516.jpg
+File:20230824 164441.jpg
+File:20230824 164742.jpg
+File:20230824 165352.jpg
+File:20230824 165355.jpg
+File:20230824 165407.jpg
+File:20230824 165426.jpg
+File:20230824 165439.jpg
+File:20230824 165442.jpg
+File:20230824 165505.jpg
+File:20230824 165512.jpg
+File:20230824 165516.jpg
+File:20230824 165524.jpg
+File:20230824 165556.jpg
+File:20230824 165605.jpg
+File:20230824 165614.jpg
+File:20230824 165633.jpg
+File:20230824 165639.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==External Sources==
+[https://openboarddata.org/?a=showboardsolutions&bpath=laptops/apple/820-00850 Measurements]

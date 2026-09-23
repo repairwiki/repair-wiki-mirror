@@ -1,0 +1,63 @@
+<!--
+title:        IPad Pro 12.9 3rd Gen No Backlight
+pageid:       5625
+revid:        8890
+source:       https://repair.wiki/w/IPad_Pro_12.9_3rd_Gen_No_Backlight
+history:      https://repair.wiki/index.php?title=IPad_Pro_12.9_3rd_Gen_No_Backlight&action=history
+permalink:    https://repair.wiki/index.php?oldid=8890
+last_edited:  2025-07-20T22:01:04Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPad Pro 12.9 3rd Gen, Stubs
+sha1:         2a47199c1d02edff8f2be072a36503c4d3e8b53d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=IPad Pro 12.9 3rd Gen
+|Affects parts=Motherboard
+|Needs equipment=Microscope, Multimeter
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The iPad turns on but backlight is not working you can only see something if you point a flashlight at the screen
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* The iPad turns on but it has no backlight
+
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->== Diagnostic Steps ==
+First always try a working screen to prove you dont have a parts problem.
+
+If a new display doesnt solve the backlight issue the next step is to diagnose the motherboard.
+
+Start by doing a visual inspection of the FPC connectors if everything looks ok using you multimeter take diode readings of the FPC and compare with the image bellow.
+[[File:IPad Pro 12.9 2018 FPC diode readings.png|center|thumb]]
+The next step is to inspect the backlight circuit of the motherboard (it is common to have a blow capacitor here)
+[[File:IPad Pro 12.9 2018 Backlight Circuit.png|center|thumb]]
+
+=== Repair Steps ===
+If there is physical damage to the FPC connectors, replace them. The best method is to use a hot air station to desolder the old FPC, clean the old solder from the motherboard, apply new solder, align the new FPC, and use the hot air station to solder it. (Be careful not to use excessive heat, as it may melt the FPC).
+
+When taking diode readings of the FPC, if you measure a line that should read, for example, 0.500V but get 0.100V or 0.000V, it indicates a short on that line. The best way to trace the short is to inject voltage into the line with a DCPS and use a thermal camera to identify which component heats up.
+
+If you measure a line that should read 0.500V but get OL (Open Line), it indicates a disconnection in the circuit. To trace the issue, consult the board view to follow the line’s path.
+
+If a filter connected to the backlight connector is open, replace it with one matching the same specifications (refer to the schematics) or source it from a donor board.
+
+If you see a shorted capacitor on the PPLED_OUT line the 3 diodes on the same line will probably be damaged, you must replace them with one matching the same specifications (refer to the schematics) or source it from a donor board.
+
+If none of the above steps resolve the no backlight issue, the next step is to replace U8100.

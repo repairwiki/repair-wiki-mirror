@@ -1,0 +1,44 @@
+<!--
+title:        Poco X3 NFC
+pageid:       3883
+revid:        13126
+source:       https://repair.wiki/w/Poco_X3_NFC
+history:      https://repair.wiki/index.php?title=Poco_X3_NFC&action=history
+permalink:    https://repair.wiki/index.php?oldid=13126
+last_edited:  2025-12-07T16:30:41Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         c5aecd293b66ea95420e17f593703b80076fb01e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Xiaomi|Device type=Phone|Device release date=08/09/2020}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:X3 NFC.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+File:Xiaomi Poco X3 NFC diode USB C.jpeg|Xiaomi Poco X3 NFC diode USB C from a good phone
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

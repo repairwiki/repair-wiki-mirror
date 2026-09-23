@@ -1,0 +1,19 @@
+<!--
+title:        File:Xiaomi Poco X3 NFC diode USB C.jpeg
+pageid:       3882
+revid:        6772
+source:       https://repair.wiki/w/File:Xiaomi_Poco_X3_NFC_diode_USB_C.jpeg
+history:      https://repair.wiki/index.php?title=File:Xiaomi_Poco_X3_NFC_diode_USB_C.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6772
+last_edited:  2025-05-15T21:02:14Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         d115440c7094115eddbd7f2865ff1e8ae688c70c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Xiaomi Poco X3 NFC diode USB C from a good phone

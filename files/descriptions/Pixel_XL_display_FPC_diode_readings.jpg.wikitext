@@ -1,0 +1,18 @@
+<!--
+title:        File:Pixel XL display FPC diode readings.jpg
+pageid:       1343
+revid:        2959
+source:       https://repair.wiki/w/File:Pixel_XL_display_FPC_diode_readings.jpg
+history:      https://repair.wiki/index.php?title=File:Pixel_XL_display_FPC_diode_readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2959
+last_edited:  2024-01-17T16:15:57Z
+contributors: Evanm1234
+anonymous_edits: 0
+categories:   
+sha1:         507e27e4300276a3c19afa077d486e1e27ac10a4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+1 - display connector

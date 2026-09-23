@@ -1,0 +1,18 @@
+<!--
+title:        File:DIODE VALUE main fpc galaxy a33 5g.png
+pageid:       9570
+revid:        13814
+source:       https://repair.wiki/w/File:DIODE_VALUE_main_fpc_galaxy_a33_5g.png
+history:      https://repair.wiki/index.php?title=File:DIODE_VALUE_main_fpc_galaxy_a33_5g.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13814
+last_edited:  2026-02-02T00:54:12Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         eefcc8d089d6a43375a781e448455c11e1a4ff70
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+DIODE VALUE

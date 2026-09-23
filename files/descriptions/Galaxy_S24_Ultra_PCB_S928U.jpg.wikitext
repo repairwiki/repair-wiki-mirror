@@ -1,0 +1,17 @@
+<!--
+title:        File:Galaxy S24 Ultra PCB S928U.jpg
+pageid:       6821
+revid:        10253
+source:       https://repair.wiki/w/File:Galaxy_S24_Ultra_PCB_S928U.jpg
+history:      https://repair.wiki/index.php?title=File:Galaxy_S24_Ultra_PCB_S928U.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=10253
+last_edited:  2025-08-16T22:07:55Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

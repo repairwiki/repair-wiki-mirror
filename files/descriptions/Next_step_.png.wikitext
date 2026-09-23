@@ -1,0 +1,18 @@
+<!--
+title:        File:Next step .png
+pageid:       4836
+revid:        7955
+source:       https://repair.wiki/w/File:Next_step_.png
+history:      https://repair.wiki/index.php?title=File:Next_step_.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7955
+last_edited:  2025-06-22T22:31:53Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         f6b4702b64ec32371367d91e7448eebaf24f8f6d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+next step

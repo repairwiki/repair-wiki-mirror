@@ -1,0 +1,18 @@
+<!--
+title:        File:2080 straps location on board.jpg
+pageid:       456
+revid:        958
+source:       https://repair.wiki/w/File:2080_straps_location_on_board.jpg
+history:      https://repair.wiki/index.php?title=File:2080_straps_location_on_board.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=958
+last_edited:  2023-11-07T22:17:27Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         317844fb4a35439261a755f03a8b661730012b7b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+2080 straps location on board

@@ -1,0 +1,67 @@
+<!--
+title:        How To Fix Important Display Message Even After Transferring Touch IC
+pageid:       8175
+revid:        11976
+source:       https://repair.wiki/w/How_To_Fix_Important_Display_Message_Even_After_Transferring_Touch_IC
+history:      https://repair.wiki/index.php?title=How_To_Fix_Important_Display_Message_Even_After_Transferring_Touch_IC&action=history
+permalink:    https://repair.wiki/index.php?oldid=11976
+last_edited:  2025-09-21T11:09:40Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 12, Repair guides for iPhone 12 Mini, Repair guides for iPhone 12 Pro, Repair guides for iPhone 12 Pro Max, Repair guides for iPhone 13, Repair guides for iPhone 13 Mini, Repair guides for iPhone 13 Pro, Repair guides for iPhone 13 Pro Max, Repair guides for iPhone 14, Repair guides for iPhone 14 Plus, Repair guides for iPhone 14 Pro, Repair guides for iPhone 14 Pro Max, Repair guides for iPhone 15, Repair guides for iPhone 15 Plus, Repair guides for iPhone 15 Pro, Repair guides for iPhone 15 Pro Max, Repair guides for iPhone 16, Repair guides for iPhone 16 Pro, Repair guides for iPhone 16 Pro Max, Repair guides for iPhone 16e
+sha1:         9605f16fcf733cf739c753181ebada8a3a832d28
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 12, iPhone 12 Pro, iPhone 12 Mini, iPhone 12 Pro Max, iPhone 13, iPhone 13 Pro, iPhone 13 Mini, iPhone 13 Pro Max, iPhone 14, iPhone 14 Pro, iPhone 14 Plus, iPhone 14 Pro Max, iPhone 15, iPhone 15 Pro, iPhone 15 Plus, iPhone 15 Pro Max, iPhone 16,
+iPhone 16 Pro, iPhone 16e, iPhone 16 Pro Max|Affects parts=Display|Needs equipment=JC Programmer|Difficulty=3. Hard|Type=Programming}}
+
+== Problem Description ==
+When performing a display replacement on iPhone models that require Touch IC transfer (e.g. iPhone 12-16 series), even after transferring the original touch IC from the old display to the new one, the “Unable to verify this iPhone has a genuine Apple display” message still shows up.
+
+This usually occurs due to MTSN data mismatch — the new display doesn’t have the correct pairing data that tells the phone it’s the original display.
+----
+
+== Symptoms ==
+
+* “Important Display Message” still shows after successful touch IC transfer.
+* Everything else (touch, brightness, Face ID) may work fine.[[File:Display-message.png|thumb|"Important Display Message"]]
+
+----
+
+== Diagnostic Steps ==
+
+# Confirm touch IC transfer was done properly (no bad solder joints, no missing pads).
+# Connect phone to JC Programmer or equivalent tool and check if MTSN data on new display matches old display.
+# If mismatch is found, message will continue to display until data is written correctly.
+
+----
+
+== Repair Steps ==
+
+=== Method 1: Pre-Transfer MTSN Data ===
+
+# Read Old Display MTSN Data:
+#* Before transferring touch IC, connect old display to JC V1SE/V1SPRO  programmer.[[File:CONNCET-DISPLAY.png|center|thumb|Connect Display to Appropriate Connector]]
+#* Select Read MTSN or Read Display Data and save to PC/programmer.[[File:READ.png|center|thumb|Read]]
+# Write to New Display:
+#* Connect new display to programmer.
+#* Select Write MTSN or Write Display Data to program old display’s data to the new one. [[File:WRITE.png|center|thumb|WRITE]]
+# Transfer Touch IC:
+#* Once data is written, perform touch IC transfer normally.
+#* Install new display → message should be gone.
+
+----
+
+=== Method 2: Post-Transfer Fix (If Already Transferred Touch IC) ===
+
+# Connect Phone to Programmer:
+#* After touch IC transfer, connect phone with new display installed to JC Programmer.
+# Use Fix True Tone Option:
+#* On JC Programmer, select Fix True Tone.[[File:TP-FIX.png|center|thumb|TP Fix]]
+#* Select the appropriate display you are using, original or third party.[[File:SELECT-DISPLAY.png|center|thumb|Select Display]]
+#* This will rewrite correct MTSN data to the new display flex.[[File:WRITE-COMPLETED.png|center|thumb|Verified correct data written to new display]]
+# Reboot Phone:
+#* Power cycle device → confirm that “Important Display Message” is cleared.

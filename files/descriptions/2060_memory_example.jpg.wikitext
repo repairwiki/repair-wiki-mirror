@@ -1,0 +1,18 @@
+<!--
+title:        File:2060 memory example.jpg
+pageid:       369
+revid:        841
+source:       https://repair.wiki/w/File:2060_memory_example.jpg
+history:      https://repair.wiki/index.php?title=File:2060_memory_example.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=841
+last_edited:  2023-11-07T16:56:21Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ad6d57617750445c3335c6c128b79860e5491edb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+2060 memory example

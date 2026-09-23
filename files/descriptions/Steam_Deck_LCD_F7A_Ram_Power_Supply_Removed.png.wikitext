@@ -1,0 +1,18 @@
+<!--
+title:        File:Steam Deck LCD F7A Ram Power Supply Removed.png
+pageid:       2308
+revid:        4723
+source:       https://repair.wiki/w/File:Steam_Deck_LCD_F7A_Ram_Power_Supply_Removed.png
+history:      https://repair.wiki/index.php?title=File:Steam_Deck_LCD_F7A_Ram_Power_Supply_Removed.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4723
+last_edited:  2024-08-29T21:55:50Z
+contributors: Kenroman
+anonymous_edits: 0
+categories:   
+sha1:         fa8e34264f65fe355fa27a889493287da007eb7c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Steam Deck LCD F7A Ram Power Supply Removed

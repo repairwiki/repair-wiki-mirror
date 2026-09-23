@@ -1,0 +1,18 @@
+<!--
+title:        File:Smd resistor example.png
+pageid:       144
+revid:        330
+source:       https://repair.wiki/w/File:Smd_resistor_example.png
+history:      https://repair.wiki/index.php?title=File:Smd_resistor_example.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=330
+last_edited:  2023-10-14T21:29:18Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         0bc1e106359e2391120707c2aacb41371eb2f89b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Smd resistor example

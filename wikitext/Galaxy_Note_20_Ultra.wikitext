@@ -1,0 +1,56 @@
+<!--
+title:        Galaxy Note 20 Ultra
+pageid:       2213
+revid:        11026
+source:       https://repair.wiki/w/Galaxy_Note_20_Ultra
+history:      https://repair.wiki/index.php?title=Galaxy_Note_20_Ultra&action=history
+permalink:    https://repair.wiki/index.php?oldid=11026
+last_edited:  2025-08-31T19:46:01Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         027fcf7214a3b1423790f496d5c78b801639e632
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Galaxy Note 20 Ultra.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Note 20 ultra connector diode readings 11.jpg|Note 20 ultra connector diode readings 11
+File:Note 20 ultra connector diode readings 8.jpg|Note 20 ultra connector diode readings 8
+File:Note 20 Ultra connector 6 diode readings.jpg|Note 20 Ultra connector 6 diode readings
+File:Note 20 ultra connector diode readings 7.jpg|Note 20 ultra connector diode readings 7
+File:Note 20 ultra connector diode readings 10.jpg|Note 20 ultra connector diode readings 10
+File:Note 20 ultra connector diode readings 9.jpg|Note 20 ultra connector diode readings 9
+File:Note 20 Ultra connector diode readings 3.jpg|Note 20 Ultra connector diode readings 3
+File:Note 20 Ultra connector diode readings 5.jpg|Note 20 Ultra connector diode readings 5
+File:Note 20 Ultra connector diode readings 1.jpg|Note 20 Ultra connector diode readings 1
+File:Note 20 Ultra connector diode readings 4.jpg|Note 20 Ultra connector diode readings 4
+File:Note 20 Ultra connector diode readings 2.jpg|Note 20 Ultra connector diode readings 2
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

@@ -1,0 +1,70 @@
+<!--
+title:        Samsung Galaxy A32 5G Not Turning On Diagnose
+pageid:       6363
+revid:        9711
+source:       https://repair.wiki/w/Samsung_Galaxy_A32_5G_Not_Turning_On_Diagnose
+history:      https://repair.wiki/index.php?title=Samsung_Galaxy_A32_5G_Not_Turning_On_Diagnose&action=history
+permalink:    https://repair.wiki/index.php?oldid=9711
+last_edited:  2025-08-02T13:33:12Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   Repair guide, Stubs
+sha1:         a66445896c047e1b350696c2e98271c32ac33fb7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=
+|Affects parts=
+|Needs equipment=
+|Type=
+|Difficulty=
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+I will explain the way to fully diagonose a dead samsung galaxy A32 5G (SM-A326) that is not turning on.
+=== Diagnostic Steps ===
+
+* Check with dcps:
+** If you have a full short while plugging in the boot cable that means you have short on VBAT(make sure you haven't plugged the cable upside down)if VBAT is shorted then probably CHARGING ic is the issue
+** If you see 0.050-0.070 just with plugging in the boot cable and you press power button and nothing happenes that generally means you have a short on VPH_PWR line
+** If you dont have anything in before and phone stucks on 0.100-0.200 after pressing power that usually means cpu is working but its not communicating with the ufs storage, it could be due to cold solder/ hard drop(ripped pads)/ UFS died/ cold soldered cpu. To confirm if your cpu is ok then connect the phone to a computer and in device manager.
+** if you have 0.000 before triggering and 0.000 after triggering this usually means the device isn't triggering, the reason could be the power button line is broken/ power ic might be damaged/ crystal oscillator might not be working
+* Plug in the charger and check the following:
+
+* Check charging ic:
+** With charger plugged in:
+*** Check if vbus is being supplied to the charging ic
+*** Check if charging ic is outputing VPH_PWR
+*** Check if VPH_PWR is stable (3.0-4.2v)
+*** [[File:Charging section A326.png|center|thumb|Charging section A326]]
+** Without charger plugged in:
+*** Check for shorts near charging ic
+*** Check diode value (should be 0.250+)
+* Check Power ic:
+** Without charger plugged in:
+*** Check for shorts near the power ic
+*** Check diode value on the buck coils
+*** [[File:Diode value of buck coils a326.png|center|thumb|Diode value of buck coils a326]][[File:Front coils diode value a326.png|center|thumb|Front coils diode value a326]]
+** With charger plugged in:
+*** Check if VPH_PWR reaches the power ic
+*** Check if voltage is stable on the buck coils
+*** Check for SYSTEM RESET_B presense 1.8v
+*** Check for WATCHDOG presense 1.8v
+*** [[File:System reset + watchdog a326.png|center|thumb|SYSTEM RESET + WATCHDOG]]
+*** Check if phone automatically shows a port in device manager when device pluged in to computer
+*** [[File:MTK USB PORT.png|center|thumb|MTK USB PORT]]
+** Check power ic pad value if necessary:
+*** [[File:Pmic diode value.png|center|thumb|Pmic diode value]]
+
+'''<u>NOTE:</u>''' Presence of 1.8v on SYSTEM RESET_B means POWER_IC section is OK. Presence of 1.8v on WATCHDOG means CPU is is being powered and communicating.
+
+* IF autoport:
+*# You could have cold solder in CPU or UFS side or Broken traces(recommended to reball both)
+*# You could have damaged UFS that leads to no fix and no data recovery aswell (You can check its health with various programmers like: EASY JTAG, MIPI TESTER, MEDUSA PRO, JCID U15, etc.)

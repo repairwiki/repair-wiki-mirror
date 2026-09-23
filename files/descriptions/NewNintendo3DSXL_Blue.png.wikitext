@@ -1,0 +1,17 @@
+<!--
+title:        File:NewNintendo3DSXL Blue.png
+pageid:       9279
+revid:        13453
+source:       https://repair.wiki/w/File:NewNintendo3DSXL_Blue.png
+history:      https://repair.wiki/index.php?title=File:NewNintendo3DSXL_Blue.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13453
+last_edited:  2026-01-01T17:25:48Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

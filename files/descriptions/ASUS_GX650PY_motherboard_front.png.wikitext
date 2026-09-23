@@ -1,0 +1,18 @@
+<!--
+title:        File:ASUS GX650PY motherboard front.png
+pageid:       3600
+revid:        6395
+source:       https://repair.wiki/w/File:ASUS_GX650PY_motherboard_front.png
+history:      https://repair.wiki/index.php?title=File:ASUS_GX650PY_motherboard_front.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6395
+last_edited:  2025-05-02T18:37:33Z
+contributors: Mordimort
+anonymous_edits: 0
+categories:   
+sha1:         1d6fa01961c8fd0011443da88ec6f01589f97dba
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A view of the front of the ASUS GX650PY's motherboard.

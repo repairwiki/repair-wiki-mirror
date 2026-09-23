@@ -1,0 +1,36 @@
+<!--
+title:        MacBook Pro A1502 2015-2016 Not turning on (170 mA current draw) repair
+pageid:       481
+revid:        1004
+source:       https://repair.wiki/w/MacBook_Pro_A1502_2015-2016_Not_turning_on_(170_mA_current_draw)_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1502_2015-2016_Not_turning_on_(170_mA_current_draw)_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=1004
+last_edited:  2023-11-08T13:19:18Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1502, Stubs
+sha1:         0256e813f076fd639fbdc3e99c1976a802b070dd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1502
+|Affects parts=Whole board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+<nowiki>#</nowiki>incomplete
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Not turning on
+*Only drawing 170 mA from the magsafe charge port
+
+==Solution==
+All main rails present except for VCore. Thermal camera showed U8080 getting hot due to short to ground on the output (PP5V_S0_FET). C7740 (1uF 10V) was shorted on the PP5V_S0_BKLT line. Component was corroded due to an insect dying and decomposing on top of that cap. Board was mint otherwise.

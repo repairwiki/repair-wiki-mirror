@@ -1,0 +1,18 @@
+<!--
+title:        File:MEASURE.png
+pageid:       4864
+revid:        7987
+source:       https://repair.wiki/w/File:MEASURE.png
+history:      https://repair.wiki/index.php?title=File:MEASURE.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7987
+last_edited:  2025-06-23T21:45:09Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         67759ab531bb588527f43378db2134b1674ef01a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+OVP IC FUNCTION

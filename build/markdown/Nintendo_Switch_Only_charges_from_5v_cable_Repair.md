@@ -1,0 +1,38 @@
+---
+title: "Nintendo Switch Only charges from 5v cable Repair"
+pageid: 933
+revid: 2300
+kind: repair_guide
+source: "https://repair.wiki/w/Nintendo_Switch_Only_charges_from_5v_cable_Repair"
+history: "https://repair.wiki/index.php?title=Nintendo_Switch_Only_charges_from_5v_cable_Repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=2300"
+last_edited: "2024-01-13T20:37:44Z"
+contributors:
+  - "ASRepairs"
+  - "HaileyKitty"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Nintendo Switch"
+  - "Stubs"
+infobox:
+  Device: "Nintendo Switch"
+  Affects_parts: "Charging circuit"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Nintendo Switch Only charges from 5v cable Repair
+
+## Problem description
+Repair of an issue where the Switch only charges from 5v cable
+
+## Symptoms
+- Only charges from 5v cable
+
+## Solution
+The culprit is M92T36. Replace it.

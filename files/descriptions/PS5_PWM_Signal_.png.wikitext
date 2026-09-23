@@ -1,0 +1,18 @@
+<!--
+title:        File:PS5 PWM Signal .png
+pageid:       8685
+revid:        12629
+source:       https://repair.wiki/w/File:PS5_PWM_Signal_.png
+history:      https://repair.wiki/index.php?title=File:PS5_PWM_Signal_.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12629
+last_edited:  2025-11-09T21:53:26Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         c124017c8ed50b23324ebf428d2ccae16c463292
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PS5 PWM Signal

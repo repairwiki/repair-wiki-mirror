@@ -1,0 +1,19 @@
+<!--
+title:        File:Nintendo DS Lite PCB top side with lcd.jpg
+pageid:       748
+revid:        1734
+source:       https://repair.wiki/w/File:Nintendo_DS_Lite_PCB_top_side_with_lcd.jpg
+history:      https://repair.wiki/index.php?title=File:Nintendo_DS_Lite_PCB_top_side_with_lcd.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1734
+last_edited:  2024-01-02T22:33:04Z
+contributors: Motrotz
+anonymous_edits: 0
+categories:   
+sha1:         f98316bcc60f1cd39ae2fba68f6dcd121f745d2d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Nintendo DS Lite PCB, top side, bottom LCD connected, digitizer missing

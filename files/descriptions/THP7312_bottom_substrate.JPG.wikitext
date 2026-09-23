@@ -1,0 +1,19 @@
+<!--
+title:        File:THP7312 bottom substrate.JPG
+pageid:       1075
+revid:        2483
+source:       https://repair.wiki/w/File:THP7312_bottom_substrate.JPG
+history:      https://repair.wiki/index.php?title=File:THP7312_bottom_substrate.JPG&action=history
+permalink:    https://repair.wiki/index.php?oldid=2483
+last_edited:  2024-01-14T13:53:59Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         bb96fe87403460cbf2c6e22462e02bbbcdfaed4c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+This is a high resolution image of what the THP7312 chip's bottom layer substrate looks like. May be useful for future reverse engineering.

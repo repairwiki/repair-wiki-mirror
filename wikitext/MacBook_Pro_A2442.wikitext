@@ -1,0 +1,49 @@
+<!--
+title:        MacBook Pro A2442
+pageid:       846
+revid:        10331
+source:       https://repair.wiki/w/MacBook_Pro_A2442
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2442&action=history
+permalink:    https://repair.wiki/index.php?oldid=10331
+last_edited:  2025-08-16T23:03:02Z
+contributors: ASRepairs, Tiago199988, Oolfs, Dorkydanny
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         ddc7f32eb0ef6bdff0643ce217994a6555d03ff1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2442
+|Device type=Laptop
+|Device release date=October 18, 2021}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:A2442.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+Board 820-02100 Schematic: https://cdn.dorkydanny.org/MacBook/A2442/820-02100.bvr
+
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+https://everymac.com/ultimate-mac-lookup/?search_keywords=A2442
+
+https://support.apple.com/kb/SP854?locale=en_US

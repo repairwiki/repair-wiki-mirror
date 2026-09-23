@@ -1,0 +1,18 @@
+<!--
+title:        File:PS4WeeToolsMemoryTestFlag.jpg
+pageid:       1070
+revid:        2475
+source:       https://repair.wiki/w/File:PS4WeeToolsMemoryTestFlag.jpg
+history:      https://repair.wiki/index.php?title=File:PS4WeeToolsMemoryTestFlag.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2475
+last_edited:  2024-01-14T13:19:39Z
+contributors: Rara64
+anonymous_edits: 0
+categories:   
+sha1:         d30142266b8d78cce870333d0b577962582f006f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Memory Test flag activated in PS4 Wee Tools.

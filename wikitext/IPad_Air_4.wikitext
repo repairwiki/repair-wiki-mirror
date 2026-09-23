@@ -1,0 +1,54 @@
+<!--
+title:        IPad Air 4
+pageid:       249
+revid:        13297
+source:       https://repair.wiki/w/IPad_Air_4
+history:      https://repair.wiki/index.php?title=IPad_Air_4&action=history
+permalink:    https://repair.wiki/index.php?oldid=13297
+last_edited:  2025-12-16T21:11:22Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         cfcd58edf20c8907756ba0bcf14b064f1f3872c2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2316, A2324, A2325, A2072
+|Device release date=2020-10-23
+|Device type=Tablet
+}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ipadair4-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPad Air 4 - Charging Port Diode Mode Readings.jpg|iPad Air 4 - Charging Port Diode Mode Readings
+File:IPad Air 4 A2316 - Mechanic Reader Values.png|iPad Air 4 A2316 - Mechanic Reader Values
+</gallery>
+
+== More Information/External Sources ==
+CD3217 Know good ROM dump: https://www.sendspace.com/filegroup/o50KR%2FmFSzssNPV4%2FfMXR%2FabYypKCONhcqYX3llc5ZpMEjLjsYg%2FIrgZTsYR3WPismwz23kyDF0O7ZcGCVfnDg
+
+iPad Air 4
+
+Model Numbers:
+
+* A2316          Wi-Fi Only
+* A2324          Wi-Fi + Cellular
+* A2325          Wi-Fi + Cellular
+* A2072          Wi-Fi + Cellular

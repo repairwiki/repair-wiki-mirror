@@ -1,0 +1,18 @@
+<!--
+title:        File:Wicking donor board.png
+pageid:       2469
+revid:        5034
+source:       https://repair.wiki/w/File:Wicking_donor_board.png
+history:      https://repair.wiki/index.php?title=File:Wicking_donor_board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5034
+last_edited:  2024-10-13T21:53:57Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         d3864837cf1ba19040321a7f8612c6431a2b1acd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Wicking donor board

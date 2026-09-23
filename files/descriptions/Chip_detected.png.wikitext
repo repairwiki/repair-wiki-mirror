@@ -1,0 +1,18 @@
+<!--
+title:        File:Chip detected.png
+pageid:       9314
+revid:        13525
+source:       https://repair.wiki/w/File:Chip_detected.png
+history:      https://repair.wiki/index.php?title=File:Chip_detected.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13525
+last_edited:  2026-01-01T21:33:00Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         a44b61c78209cb473666cbe948a81f77f855e1b5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+chip detected

@@ -1,0 +1,18 @@
+<!--
+title:        File:ReadingPS4ProNORChipWithWires.jpg
+pageid:       1043
+revid:        2421
+source:       https://repair.wiki/w/File:ReadingPS4ProNORChipWithWires.jpg
+history:      https://repair.wiki/index.php?title=File:ReadingPS4ProNORChipWithWires.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2421
+last_edited:  2024-01-14T10:35:43Z
+contributors: Rara64
+anonymous_edits: 0
+categories:   
+sha1:         7f125adf5436e99b3d9de048ec92ccb36c5e52ac
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Reading Playstation 4 Pro NOR chip without removing it from the board.

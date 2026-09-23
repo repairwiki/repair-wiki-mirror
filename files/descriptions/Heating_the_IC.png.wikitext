@@ -1,0 +1,18 @@
+<!--
+title:        File:Heating the IC.png
+pageid:       2492
+revid:        5058
+source:       https://repair.wiki/w/File:Heating_the_IC.png
+history:      https://repair.wiki/index.php?title=File:Heating_the_IC.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5058
+last_edited:  2024-10-14T01:02:11Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         09288627fe9a596e51b81045334b152c2bfe1de9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Heating the IC

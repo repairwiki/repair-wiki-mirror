@@ -1,0 +1,18 @@
+<!--
+title:        File:CUH-10xxA - SAA-001 - GL3520.png
+pageid:       838
+revid:        2009
+source:       https://repair.wiki/w/File:CUH-10xxA_-_SAA-001_-_GL3520.png
+history:      https://repair.wiki/index.php?title=File:CUH-10xxA_-_SAA-001_-_GL3520.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=2009
+last_edited:  2024-01-12T01:18:50Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         9c1673375d72e50c8a752457efedaaff5ddfa660
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+3.3 voltage regulator for GL3520

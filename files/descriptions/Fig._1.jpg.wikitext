@@ -1,0 +1,18 @@
+<!--
+title:        File:Fig. 1.jpg
+pageid:       2520
+revid:        5093
+source:       https://repair.wiki/w/File:Fig._1.jpg
+history:      https://repair.wiki/index.php?title=File:Fig._1.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5093
+last_edited:  2024-10-21T20:56:22Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         e7f03f4756aacec1b92d5d25af55e63c1bfba242
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Motorola SREC File

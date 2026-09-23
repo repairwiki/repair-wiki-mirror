@@ -1,0 +1,43 @@
+<!--
+title:        Pixel 5
+pageid:       7463
+revid:        11060
+source:       https://repair.wiki/w/Pixel_5
+history:      https://repair.wiki/index.php?title=Pixel_5&action=history
+permalink:    https://repair.wiki/index.php?oldid=11060
+last_edited:  2025-08-31T20:07:52Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Google, Google Phones, Phones, Stubs
+sha1:         7d423ff146ec4ef0133cd20f57e3c4faa7e1860a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Google|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Pixel-5-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Google Pixel 5 PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

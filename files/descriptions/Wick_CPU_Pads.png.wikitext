@@ -1,0 +1,18 @@
+<!--
+title:        File:Wick CPU Pads.png
+pageid:       2479
+revid:        5044
+source:       https://repair.wiki/w/File:Wick_CPU_Pads.png
+history:      https://repair.wiki/index.php?title=File:Wick_CPU_Pads.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5044
+last_edited:  2024-10-13T23:33:38Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         94a15f5fcfae1dad023e5bc6c82cb7915c5fd1f9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Wick CPU Pads

@@ -1,0 +1,73 @@
+<!--
+title:        IPad Air 4 Stuck on recovery mode
+pageid:       6155
+revid:        9837
+source:       https://repair.wiki/w/IPad_Air_4_Stuck_on_recovery_mode
+history:      https://repair.wiki/index.php?title=IPad_Air_4_Stuck_on_recovery_mode&action=history
+permalink:    https://repair.wiki/index.php?oldid=9837
+last_edited:  2025-08-03T19:41:33Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPad Air 4, Stubs
+sha1:         c08d253810ae5cd8b8192138e824c2691e517e8a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPad Air 4
+|Affects parts=Motherboard
+|Needs equipment=
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+iPad Air 4 appears stuck in recovery mode. It connects to iTunes/3UTools and completes the restore process successfully, but after flashing, it immediately reboots back into recovery mode instead of booting to the setup or lock screen. This cycle repeats even after multiple successful restores.
+[[File:IPad stuck on recovery mode.png|thumb|iPad stuck on recovery mode (Figure 1)]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* iPad is Stuck in Recovery Mode (Connect to PC screen)
+* Device shows up in iTunes/3UTools and completes the restore successfully 
+* After flashing, the device reboots straight back into recovery mode
+
+=== Diagnostic Steps ===
+
+# Connect iPad to PC/Mac using iTunes or Finder.
+#* Device is detected in Recovery Mode.
+#* Attempting to update or restore completes successfully but the iPad reboots back into Recovery Mode (loop).
+# Check software first.
+#* Use tools like 3uTools or Apple Configurator to confirm restore success.
+#* If device still reboots into recovery → move on to hardware diagnostics.
+# Open the iPad and disconnect the power button flex.
+#* With battery disconnected, unplug the power button flex from the logic board.
+#* Reconnect battery and attempt to boot.
+# Boot without the power button flex.
+#* If iPad boots to home screen successfully without power button flex connected → power flex is confirmed faulty.
+[[File:Power-btn-connector.png|thumb|iPad Air 4 Power button flex connector]]
+
+=== Repair Steps ===
+
+# Power off and open the iPad carefully.
+#* Standard teardown for iPad Air 4 using heat pad and opening picks.
+#* Disconnect battery first for safety.
+# Locate and remove the power button flex.
+#* Disconnect the power flex from the top section of the board.
+#* If needed, peel the adhesive and unroute the flex from the frame.
+# Replace the power flex cable.
+#* Install a known good or brand new power button flex.
+#* Ensure connectors are clean and properly seated.
+# Reconnect battery and test.
+#* Boot the iPad.
+#* It should now exit recovery and boot to the home screen without issues.
+# Final testing.
+#* Test power button functionality.
+#* Confirm the device no longer returns to recovery loop. (Figure 2)[[File:IPad successfully booted.png|thumb|iPad Successfully booted after disconnecting power button flex (Figure 2)]]

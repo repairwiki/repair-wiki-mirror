@@ -1,0 +1,18 @@
+<!--
+title:        File:PSE4 DRY THERMAL.png
+pageid:       8890
+revid:        12926
+source:       https://repair.wiki/w/File:PSE4_DRY_THERMAL.png
+history:      https://repair.wiki/index.php?title=File:PSE4_DRY_THERMAL.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12926
+last_edited:  2025-11-30T05:23:47Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         325bd0e103807dc6089ff834710df3dcda568bc0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PSE4 DRY THERMAL

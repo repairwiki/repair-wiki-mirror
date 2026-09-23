@@ -1,0 +1,19 @@
+<!--
+title:        File:Redmi note 10 pro USB C readings.jpeg
+pageid:       3770
+revid:        6605
+source:       https://repair.wiki/w/File:Redmi_note_10_pro_USB_C_readings.jpeg
+history:      https://repair.wiki/index.php?title=File:Redmi_note_10_pro_USB_C_readings.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6605
+last_edited:  2025-05-13T20:25:38Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         c141718861e4c992a8b37879011334525c0f7d66
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+redmi note 10 pro USB C readings

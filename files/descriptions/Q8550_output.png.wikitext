@@ -1,0 +1,18 @@
+<!--
+title:        File:Q8550 output.png
+pageid:       7131
+revid:        10667
+source:       https://repair.wiki/w/File:Q8550_output.png
+history:      https://repair.wiki/index.php?title=File:Q8550_output.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10667
+last_edited:  2025-08-25T21:19:57Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         c4eb3a170379b58a3f1411bbea47a52fe946dc97
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Q8550 output

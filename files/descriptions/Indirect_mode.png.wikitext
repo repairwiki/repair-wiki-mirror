@@ -1,0 +1,18 @@
+<!--
+title:        File:Indirect mode.png
+pageid:       4552
+revid:        7609
+source:       https://repair.wiki/w/File:Indirect_mode.png
+history:      https://repair.wiki/index.php?title=File:Indirect_mode.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7609
+last_edited:  2025-06-13T04:00:11Z
+contributors: Chris
+anonymous_edits: 0
+categories:   
+sha1:         1935e0c675bdec185dcdd0bd1d278c36f8a9a0da
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+ATA(indirect)

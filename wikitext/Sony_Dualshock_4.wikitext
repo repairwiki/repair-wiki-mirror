@@ -1,0 +1,54 @@
+<!--
+title:        Sony Dualshock 4
+pageid:       6496
+revid:        9877
+source:       https://repair.wiki/w/Sony_Dualshock_4
+history:      https://repair.wiki/index.php?title=Sony_Dualshock_4&action=history
+permalink:    https://repair.wiki/index.php?oldid=9877
+last_edited:  2025-08-03T21:21:06Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         a99b45ebedf0b239c9c8656ea35f28229fea724f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Sony|Device type=Game Console}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Dualshock4-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:1-889-300-21Bottom.jpg|alt=
+File:1-893-557-21Bottom.jpg|alt=
+File:1-889-300-21Top.jpg|alt=
+File:JDM-030 1-980-146-11 Top.jpg|alt=
+File:JDM-030 1-980-146-11 Bottom.jpg|alt=
+File:JDM-040 1-981-330-31 Bottom.jpg|alt=
+File:JDM-050 1-982-355-11 Top.jpg|alt=
+File:JDM-055 1-982-707-31 Bottom.jpg|alt=
+File:JDM-0111-893-557-31Top.jpg|alt=
+File:JDM-055 1-982-707-31 Top.jpg|alt=
+File:JDM-0201-893-899-11Bottom.jpg|alt=
+File:JDM-0201-893-899-11Top.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

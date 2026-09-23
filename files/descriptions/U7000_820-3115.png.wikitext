@@ -1,0 +1,18 @@
+<!--
+title:        File:U7000 820-3115.png
+pageid:       1978
+revid:        4228
+source:       https://repair.wiki/w/File:U7000_820-3115.png
+history:      https://repair.wiki/index.php?title=File:U7000_820-3115.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4228
+last_edited:  2024-07-08T06:45:09Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         e23d97a82021ec17a55760897fa4317da8edba69
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Boardview view of U7000 (ISL6259) on a 820-3115 logic board

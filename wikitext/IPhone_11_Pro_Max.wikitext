@@ -1,0 +1,49 @@
+<!--
+title:        IPhone 11 Pro Max
+pageid:       1531
+revid:        12668
+source:       https://repair.wiki/w/IPhone_11_Pro_Max
+history:      https://repair.wiki/index.php?title=IPhone_11_Pro_Max&action=history
+permalink:    https://repair.wiki/index.php?oldid=12668
+last_edited:  2025-11-12T15:20:20Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         96f48a80b8b7abde537cdb5847c9d1e1f804c7f9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device release date=2019-09-20
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone11pro-768x768.webp|alt=
+File:Ip-11p-pmax-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+
+Schematics for iPhone 11 Pro Max: https://www.sendspace.com/file/nqi4cz

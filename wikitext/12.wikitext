@@ -1,0 +1,46 @@
+<!--
+title:        12
+pageid:       3787
+revid:        11926
+source:       https://repair.wiki/w/12
+history:      https://repair.wiki/index.php?title=12&action=history
+permalink:    https://repair.wiki/index.php?oldid=11926
+last_edited:  2025-09-20T21:38:26Z
+contributors: VCCBoardRepairs, Tiago199988, Samhext
+anonymous_edits: 0
+categories:   Device, OnePlus, OnePlus Phones, Phones, Stubs
+sha1:         5e16e639361f69a8212568c6b0389e73848c718b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=OnePlus
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Oneplus 12.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Oneplus 12 PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Oneplus12.jpg|Oneplus 12 Mechanic USB-C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

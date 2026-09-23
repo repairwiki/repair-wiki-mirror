@@ -1,0 +1,70 @@
+<!--
+title:        Playstation 3 Slim Blue Screen Of Death
+pageid:       4708
+revid:        7790
+source:       https://repair.wiki/w/Playstation_3_Slim_Blue_Screen_Of_Death
+history:      https://repair.wiki/index.php?title=Playstation_3_Slim_Blue_Screen_Of_Death&action=history
+permalink:    https://repair.wiki/index.php?oldid=7790
+last_edited:  2025-06-18T22:12:02Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Playstation 3 Slim, Stubs
+sha1:         6bcd6f0b222a088e83ca2b0efb1ae48ce8723620
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Playstation 3 Slim
+|Affects parts=Motherboard
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+Console Turns on but after a few seconds it displays a blue screen saying "Settings information is corrupted"
+[[File:Ps3 bsod.jpg|thumb|349x349px|Error displayed]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Console Turns on but after a few seconds it displays a blue screen saying "Settings information is corrupted"
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+This issue is usually related to a problem on the LAN section of the motherboard, this can be caused by a damaged LAN Port, LAN controller (88E1118R-NNC2) or a short on this circuit.
+
+=== Diagnostic Steps ===
+
+The first step is to inspect the Ethernet Port for any physical damage or liquid damage.
+
+The next step is to use a multimeter to check for shorts around the Ethernet controller, this component is located behind the LAN port.
+[[File:Lan controller location.png|center|thumb|PS3 Lan Controller Location]]
+
+it is common to find shorts here and it usually is the controller that is faulty.
+
+=== Repair Steps ===
+If there is any physical damage to the LAN Port you can replace it or even remove it if you don't use it.
+
+If there are shorts around the "Marvell" IC, you can inject a small amount of current into that circuit with a DCPS and see what gets hot. If there are shorts on multiple lines around the IC, it is probably the chip that is dead, this is a really common issue and in most cases it's the actual fault.
+
+There are multiple versions of this component and to replace it you need to check markings on yours and make sure you get the same one.
+
+[[File:PS3 Lan controller Markings.png|center|thumb|PS3 Lan controller Markings]]
+This component may be hard to find to buy since the consoles are quite old now, so you may need to source from a donor board.
+
+Replacing this component is quite straightforward simply use your heatgun to desolder the old IC, clean the old solder, add new solder, and use your heatgun to install the new IC.
+
+==== Final Testing ====
+After replacing the port or the LAN controller, make sure to plug an Ethernet cable and make sure the connection is able to connect to the internet.

@@ -1,0 +1,18 @@
+<!--
+title:        File:Initial checking.png
+pageid:       4830
+revid:        7948
+source:       https://repair.wiki/w/File:Initial_checking.png
+history:      https://repair.wiki/index.php?title=File:Initial_checking.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7948
+last_edited:  2025-06-22T22:17:17Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         97876b8380adb6b51a038571dbb2d7bbae6a3ded
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Checking

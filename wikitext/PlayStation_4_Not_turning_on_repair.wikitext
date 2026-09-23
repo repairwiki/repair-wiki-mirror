@@ -1,0 +1,41 @@
+<!--
+title:        PlayStation 4 Not turning on repair
+pageid:       837
+revid:        6543
+source:       https://repair.wiki/w/PlayStation_4_Not_turning_on_repair
+history:      https://repair.wiki/index.php?title=PlayStation_4_Not_turning_on_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=6543
+last_edited:  2025-05-12T21:50:19Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Playstation 4, Stubs
+sha1:         a82fa56c4b59ce3b4e0a954a8087fcdfa0666cd5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+
+{{Repair Guide
+|Device=Playstation 4
+|Affects parts=Motherboard, Power supply
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=
+|Difficulty=3. Hard
+}}
+{{stub}}
+==Problem description==
+Diagnosing and fixing issues related to "No power" on a PS4
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Not turning on
+
+==Solution==
+Check power supply is outputting +5V_STBY at PSU Connector on board
+
+Check power supply is outputting 12v at PSU Connector on board
+
+Check for shorts around the southbridge IC
+
+Check for Blow Fuses

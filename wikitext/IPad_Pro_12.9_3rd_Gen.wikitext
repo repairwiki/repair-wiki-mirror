@@ -1,0 +1,49 @@
+<!--
+title:        IPad Pro 12.9 3rd Gen
+pageid:       1415
+revid:        13303
+source:       https://repair.wiki/w/IPad_Pro_12.9_3rd_Gen
+history:      https://repair.wiki/index.php?title=IPad_Pro_12.9_3rd_Gen&action=history
+permalink:    https://repair.wiki/index.php?oldid=13303
+last_edited:  2025-12-16T21:12:51Z
+contributors: VCCBoardRepairs, Tiago199988, KevinShort
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         ab340b8788907284a69714675eb44ae9ba7ab7df
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1876, A2014, A1895, A1983
+|Device release date=2018-11-07
+|Device type=Tablet
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ipadpro129-gen3-800x800.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPad Pro 129 3rd charging port connector diode readings.jpg|iPad Pro 12.9 3rd Gen charging port connector diode mode measurements
+File:IPad Pro 12.9 Gen 3 - Mechanic Reader.png|iPad Pro 12.9 Gen 3 - Mechanic Reader - Known good readings
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+CD3217 Know good ROM dump: https://www.sendspace.com/filegroup/o50KR%2FmFSzssNPV4%2FfMXR%2FabYypKCONhcqYX3llc5ZpMEjLjsYg%2FIrgZTsYR3WPismwz23kyDF0O7ZcGCVfnDg

@@ -1,0 +1,17 @@
+<!--
+title:        File:781px-HDZero Goggles Image.webp.png
+pageid:       1297
+revid:        2870
+source:       https://repair.wiki/w/File:781px-HDZero_Goggles_Image.webp.png
+history:      https://repair.wiki/index.php?title=File:781px-HDZero_Goggles_Image.webp.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=2870
+last_edited:  2024-01-16T23:06:48Z
+contributors: Mads Tech
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

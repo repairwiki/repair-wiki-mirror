@@ -1,0 +1,52 @@
+<!--
+title:        Fatshark Sharkbyte HDZero
+pageid:       1311
+revid:        2887
+source:       https://repair.wiki/w/Fatshark_Sharkbyte_HDZero
+history:      https://repair.wiki/index.php?title=Fatshark_Sharkbyte_HDZero&action=history
+permalink:    https://repair.wiki/index.php?oldid=2887
+last_edited:  2024-01-16T23:18:26Z
+contributors: Mads Tech
+anonymous_edits: 0
+categories:   Device, Drones, HDZero, HDZero Drones, Stubs
+sha1:         b8c098c74da1df7089c302d8a10ffa942333a647
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=HDZero|Device type=Drone}}
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:900px-Lu2a0371 6.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:RF PCB Front-2048x1061.jpg
+File:RF PCB Back-2048x1072.jpg
+File:DVR PCB Front-2048x1194.jpg
+File:DVR PCB Back-2048x1294.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Scrollwheelresistors-2048x1031.png
+File:HDZero VRX Fuse Blown-2048x1194.jpg
+</gallery>
+
+==More Information/External Sources==
+
+This module was the first model released under the Shark Byte brand using HD Zero chipset and is compatible with all VTX modules by both HDZero and Fat Shark.
+
+* Model RX5.1
+* Weight:80.3g
+* Dimensions:105 x 21 x 39mm
+* Operating Frequencies:5.725-5.850GHz
+* Input Power: 5.5mm Barrel Connector, 8-16V Center Pin Positive

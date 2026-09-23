@@ -1,0 +1,42 @@
+<!--
+title:        Zenimals Sound Machine
+pageid:       6113
+revid:        9450
+source:       https://repair.wiki/w/Zenimals_Sound_Machine
+history:      https://repair.wiki/index.php?title=Zenimals_Sound_Machine&action=history
+permalink:    https://repair.wiki/index.php?oldid=9450
+last_edited:  2025-07-29T19:57:36Z
+contributors: TheBigS
+anonymous_edits: 0
+categories:   
+sha1:         6426bc862fa306659e3e3327afcafd6061c891ac
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Zenimals is a sleep sound machine. It provides meditations and white noise to help one get to sleep. Zenimal sleep "collections" (audio tracks) are delivered in a proprietary format (on microsd cards) and the device will only play proprietary audio. There is no way for users to play their own audio or repair failed microsd cards.
+
+=== Bounty ===
+There currently two bounties known for Zenimals devices, they are hosted on Opire and Github:
+
+==== Reverse Engineer Zenimals Sound Machine ====
+Issue Link: https://github.com/TheBigS/zenimals-bounty/issues/1
+
+Bounty: https://app.opire.dev/issues/01K1B9R6GTWXDEAAKMJQ0QAHKV
+
+==== Rip Zenimals Sound Machine Firmware ====
+Issue Link: https://github.com/TheBigS/zenimals-bounty/issues/2
+
+Bounty: https://app.opire.dev/issues/01K1BTZMV04S2GWZ887ATRGDH6
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+== PCB pictures ==
+== Reference measurements (also schematics if available) ==
+== More Information/External Sources ==
+https://zenimals.com/
+
+https://zenimals.com/collections/all

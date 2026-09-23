@@ -1,0 +1,18 @@
+<!--
+title:        File:Charging-ic-thermal.png
+pageid:       7696
+revid:        11314
+source:       https://repair.wiki/w/File:Charging-ic-thermal.png
+history:      https://repair.wiki/index.php?title=File:Charging-ic-thermal.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11314
+last_edited:  2025-09-06T12:28:20Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         fb3ffd84c9607b02b599b04f3dc6cf983007460d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Charging-ic-thermal

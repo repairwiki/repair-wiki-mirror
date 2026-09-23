@@ -1,0 +1,37 @@
+<!--
+title:        How to fix an iPad that will charge when powered off but not when powered on
+pageid:       1354
+revid:        2987
+source:       https://repair.wiki/w/How_to_fix_an_iPad_that_will_charge_when_powered_off_but_not_when_powered_on
+history:      https://repair.wiki/index.php?title=How_to_fix_an_iPad_that_will_charge_when_powered_off_but_not_when_powered_on&action=history
+permalink:    https://repair.wiki/index.php?oldid=2987
+last_edited:  2024-01-17T21:33:59Z
+contributors: KevinShort
+anonymous_edits: 0
+categories:   Missing device page, Repair guide, Repair guides for IPad Air, Repair guides for iPad Air 2, Repair guides for iPad Mini, Repair guides for iPad Mini 2, Repair guides for iPad Mini 3, Repair guides for iPad Mini 4, Stubs
+sha1:         8808141a1bafc1e234ac62e41624ad8c1d083a09
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPad Air, iPad Air 2, iPad Mini, iPad Mini 2, iPad Mini 3, iPad Mini 4
+|Affects parts=motherboard
+|Needs equipment=microscope, soldering equipment
+|Type=BGA, Soldering
+|Difficulty=4. Specialist
+}}
+{{stub}}
+
+==Problem description==
+Certain models of the iPad can develop an issue where they will stop charging while fully booted but will still charge while powered off.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*iPad pulls full amperage when the charger is plugged in (approximately 2.3 amps) then drops to zero amps when fully booted.
+*Disconnecting the charger while at full amperage then replugging shows zero amps.
+*Device automatically boots when the battery is attached.
+
+==Solution==
+This issue is almost always caused by a faulty PMIC. Replacing the PMIC corrects the issue a majority of the time.

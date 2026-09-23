@@ -1,0 +1,41 @@
+<!--
+title:        MegaFlow 50
+pageid:       7711
+revid:        11355
+source:       https://repair.wiki/w/MegaFlow_50
+history:      https://repair.wiki/index.php?title=MegaFlow_50&action=history
+permalink:    https://repair.wiki/index.php?oldid=11355
+last_edited:  2025-09-07T00:26:47Z
+contributors: Pandapip1
+anonymous_edits: 0
+categories:   Device, Electric Air Dusters, Stubs, Wolfbox, Wolfbox Electric Air Dusters
+sha1:         7ecfb1078ed85a08e1041b6159e03dad9a08c314
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Wolfbox|Device type=Electric Air Duster}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery>
+File:Wolfbox MF50.jpg|A partially disassembled Wolfbox MF50
+File:Wolfbox MF50 with cover removed.jpg|Wolfbox MF50 with cover removed, showing battery and the circuit board
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+The internal battery is a 2S Li-Ion battery rated for 18.5 Wh. It has the form factor of approximately two standard 18650 batteries.
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

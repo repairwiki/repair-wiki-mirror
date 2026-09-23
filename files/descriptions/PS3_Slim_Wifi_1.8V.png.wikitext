@@ -1,0 +1,18 @@
+<!--
+title:        File:PS3 Slim Wifi 1.8V.png
+pageid:       4085
+revid:        7045
+source:       https://repair.wiki/w/File:PS3_Slim_Wifi_1.8V.png
+history:      https://repair.wiki/index.php?title=File:PS3_Slim_Wifi_1.8V.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7045
+last_edited:  2025-05-24T20:35:04Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         aa0e486ba0a2e4b06a3ae6efcd846e7fdc5ff077
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PS3 Slim J7L Voltages

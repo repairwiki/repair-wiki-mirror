@@ -1,0 +1,18 @@
+<!--
+title:        File:15-pro-max-wireless-flex.png
+pageid:       8498
+revid:        12384
+source:       https://repair.wiki/w/File:15-pro-max-wireless-flex.png
+history:      https://repair.wiki/index.php?title=File:15-pro-max-wireless-flex.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12384
+last_edited:  2025-10-20T11:39:32Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         3546e0cc919ae0aac347dfa5c2d7572f4ede0261
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+15-pro-max-wireless-flex

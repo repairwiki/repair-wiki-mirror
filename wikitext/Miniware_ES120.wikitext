@@ -1,0 +1,47 @@
+<!--
+title:        Miniware ES120
+pageid:       1517
+revid:        13003
+source:       https://repair.wiki/w/Miniware_ES120
+history:      https://repair.wiki/index.php?title=Miniware_ES120&action=history
+permalink:    https://repair.wiki/index.php?oldid=13003
+last_edited:  2025-12-01T23:55:34Z
+contributors: ASRepairs, Tiago199988, XenGi
+anonymous_edits: 0
+categories:   Device, Miniware, Miniware Others, Others, Stubs
+sha1:         e2bf5ae2bb59b627e0844b25f4dd613d18b62dbf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Miniware
+|Device type=Other
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Miniware ES120.jpg|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Miniware ES120 PCB v1.4A front.jpg|Front side of the ES120 v1.4A PCB
+File:Miniware ES120 PCB v1.4A back.jpg|Back side of the ES120 v1.4A PCB
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+* [https://gitlab.com/XenGi/es120-usb-c-mod USB-C mod]

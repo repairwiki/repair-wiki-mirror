@@ -1,0 +1,18 @@
+<!--
+title:        File:PMIC + PCH.png.png
+pageid:       3366
+revid:        6120
+source:       https://repair.wiki/w/File:PMIC_%2B_PCH.png.png
+history:      https://repair.wiki/index.php?title=File:PMIC_%2B_PCH.png.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6120
+last_edited:  2025-04-07T04:03:11Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         4ca4de7ade332e320c1eb643f32c6854c98a79fa
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A1707 820-00928 (but 820-00281 has the same problems) Problem: No power, the machine was taking 20V and 0.014A, PP1V8_SUS shorted Solution: In this case PCH and PMIC to do. Usually if the board is taking 20V and 0.01A ~ 0.025A there is a problem with some of the PMIC's voltages.

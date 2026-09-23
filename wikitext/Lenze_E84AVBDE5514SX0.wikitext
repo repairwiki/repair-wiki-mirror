@@ -1,0 +1,58 @@
+<!--
+title:        Lenze E84AVBDE5514SX0
+pageid:       2095
+revid:        4402
+source:       https://repair.wiki/w/Lenze_E84AVBDE5514SX0
+history:      https://repair.wiki/index.php?title=Lenze_E84AVBDE5514SX0&action=history
+permalink:    https://repair.wiki/index.php?oldid=4402
+last_edited:  2024-07-18T09:52:16Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Lenze, Lenze Industrial Devices, Stubs
+sha1:         428723209e32941222b6a11cc813b051e67cadf5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Lenze
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240717 091639.jpg
+File:20240717 091642.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240717 092106.jpg
+File:20240717 092047.jpg
+File:20240717 092055.jpg
+File:20240717 092101.jpg
+File:20240717 092114.jpg
+File:20240717 092120.jpg
+File:20240717 092124.jpg
+File:20240717 092127.jpg
+File:20240717 092138.jpg
+File:20240717 092131.jpg
+File:20240717 092150.jpg
+File:20240717 092158.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

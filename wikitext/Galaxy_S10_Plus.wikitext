@@ -1,0 +1,46 @@
+<!--
+title:        Galaxy S10 Plus
+pageid:       2191
+revid:        11434
+source:       https://repair.wiki/w/Galaxy_S10_Plus
+history:      https://repair.wiki/index.php?title=Galaxy_S10_Plus&action=history
+permalink:    https://repair.wiki/index.php?oldid=11434
+last_edited:  2025-09-07T20:15:22Z
+contributors: VCCBoardRepairs, Tiago199988, Samhext
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         07b08945fcf21843834694d9a5b011c57c489680
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+|Has code name=SM-G975F/DS (Global), SM-G975U (USA), SM-G975W (Canada)}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:S10-plus-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:NSwMuoW2.jpg|Samsung Galaxy S10 Plus Mechanic USB-C Readings
+</gallery>
+
+== More Information/External Sources ==
+Galaxy S10 Plus Schematics: https://www.sendspace.com/file/9bl0ql<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

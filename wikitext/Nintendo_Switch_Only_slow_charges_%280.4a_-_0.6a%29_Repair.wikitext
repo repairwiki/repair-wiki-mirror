@@ -1,0 +1,36 @@
+<!--
+title:        Nintendo Switch Only slow charges (0.4a - 0.6a) Repair
+pageid:       932
+revid:        2295
+source:       https://repair.wiki/w/Nintendo_Switch_Only_slow_charges_(0.4a_-_0.6a)_Repair
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Only_slow_charges_(0.4a_-_0.6a)_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2295
+last_edited:  2024-01-13T20:35:21Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Stubs
+sha1:         231bf153552f6102c2377fdf880979d26196ec00
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Charging circuit
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+Fixing an issue where the Switch charges but very slowly. Drawing between 0.4A and 0.6A from the charger.
+
+== Symptoms ==
+
+* Only slow charges (0.4a - 0.6a)
+
+== Solutions ==
+
+* Change M92T36 or check 100k resistors above M92T36

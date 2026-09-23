@@ -1,0 +1,17 @@
+<!--
+title:        File:RF PCB Front-2048x1061.jpg
+pageid:       1304
+revid:        2880
+source:       https://repair.wiki/w/File:RF_PCB_Front-2048x1061.jpg
+history:      https://repair.wiki/index.php?title=File:RF_PCB_Front-2048x1061.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2880
+last_edited:  2024-01-16T23:15:38Z
+contributors: Mads Tech
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

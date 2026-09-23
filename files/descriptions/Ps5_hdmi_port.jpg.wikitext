@@ -1,0 +1,18 @@
+<!--
+title:        File:Ps5 hdmi port.jpg
+pageid:       3943
+revid:        6847
+source:       https://repair.wiki/w/File:Ps5_hdmi_port.jpg
+history:      https://repair.wiki/index.php?title=File:Ps5_hdmi_port.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6847
+last_edited:  2025-05-16T22:12:12Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         ae13e8fd322396795cf511be8d917495ca6d871f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Well soldered HDMI Port

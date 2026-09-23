@@ -1,0 +1,43 @@
+<!--
+title:        How To Fix an iPhone 14 that is shows temperature warning and does not charge
+pageid:       7765
+revid:        11469
+source:       https://repair.wiki/w/How_To_Fix_an_iPhone_14_that_is_shows_temperature_warning_and_does_not_charge
+history:      https://repair.wiki/index.php?title=How_To_Fix_an_iPhone_14_that_is_shows_temperature_warning_and_does_not_charge&action=history
+permalink:    https://repair.wiki/index.php?oldid=11469
+last_edited:  2025-09-08T22:23:30Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 14
+sha1:         eac82cd59fc2a0413d902a3254ade18091cd4b67
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 14|Affects parts=Main Logic Board|Needs equipment=Microscope, Soldering Iron, Hot Air Station|Difficulty=4. Specialist|Type=Soldering}}
+
+== Problem description ==
+iPhone 14 shows temperature warning when powered on. Device charges normally while powered off but does not charge when turned on. Severe overheating occurs once the phone boots.
+
+== Symptoms ==
+
+* Temperature warning appears after boot.
+* Phone charges when powered off, but not when powered on.
+* Device overheats rapidly while powered on.
+* On DCPS: pre-boot draw ~1A before prompt to boot, then device boots normally.
+
+== Diagnostic Steps ==
+
+# Connect to DCPS and observe current draw – confirm abnormal 1A draw before prompt to boot.[[File:1A-before-boot.png|thumb|Figure 1 - Example of 1A of consumption before prompt to boot|center]]
+# Check with thermal camera – locate rapid heating component.
+# Identify shorted capacitor on SPKRAMP_TOP_VBOOST line.[[File:Shorted cap boardview.png|thumb|Figure 3 - Shorted Capacitor on SPKRAMP_TOP_VBOOST line shown on Boardview|center]][[File:Shorted cap.png|thumb|Figure 2 - Shorted capacitor on SPKRAMP_TOP_VBOOST line|center]]
+== Repair Steps ==
+
+# Remove motherboard from housing, split layer and perform resistance measurement on SPKRAMP_TOP_VBOOST rail.
+# Confirm low resistance indicating short.
+# Identify and remove the shorted capacitor from the rail.
+# Recheck resistance to confirm short is cleared.
+# Reassemble device and test boot with DCPS – ensure pre-boot current draw normalizes.
+# Power on phone and check charging behavior – should now charge normally without temperature warning.
+# Verify device stability under load (charging + usage) before closing repair.[[File:Iphone temp warning.png|center|thumb|573x573px|Figure 1 - Example of Temperature warning on iPhone]]

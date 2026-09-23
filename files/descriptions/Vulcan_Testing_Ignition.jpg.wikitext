@@ -1,0 +1,17 @@
+<!--
+title:        File:Vulcan Testing Ignition.jpg
+pageid:       2560
+revid:        5146
+source:       https://repair.wiki/w/File:Vulcan_Testing_Ignition.jpg
+history:      https://repair.wiki/index.php?title=File:Vulcan_Testing_Ignition.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5146
+last_edited:  2024-11-01T06:55:18Z
+contributors: Liquid
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

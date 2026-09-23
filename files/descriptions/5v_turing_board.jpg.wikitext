@@ -1,0 +1,18 @@
+<!--
+title:        File:5v turing board.jpg
+pageid:       427
+revid:        924
+source:       https://repair.wiki/w/File:5v_turing_board.jpg
+history:      https://repair.wiki/index.php?title=File:5v_turing_board.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=924
+last_edited:  2023-11-07T21:54:14Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         9c1627e5f6f9cfebbe03fc1748c9c8a483e47cb9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+5v turing board

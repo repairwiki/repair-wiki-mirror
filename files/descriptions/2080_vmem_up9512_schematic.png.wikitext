@@ -1,0 +1,18 @@
+<!--
+title:        File:2080 vmem up9512 schematic.png
+pageid:       442
+revid:        942
+source:       https://repair.wiki/w/File:2080_vmem_up9512_schematic.png
+history:      https://repair.wiki/index.php?title=File:2080_vmem_up9512_schematic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=942
+last_edited:  2023-11-07T22:03:55Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         b79b3366e83ef4b3c797b9a35c035b6893f16ba5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+2080 vmem up9512 schematic

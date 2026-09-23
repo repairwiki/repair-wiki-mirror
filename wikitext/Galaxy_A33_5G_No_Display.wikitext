@@ -1,0 +1,57 @@
+<!--
+title:        Galaxy A33 5G No Display
+pageid:       9573
+revid:        13818
+source:       https://repair.wiki/w/Galaxy_A33_5G_No_Display
+history:      https://repair.wiki/index.php?title=Galaxy_A33_5G_No_Display&action=history
+permalink:    https://repair.wiki/index.php?oldid=13818
+last_edited:  2026-02-02T01:05:19Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Galaxy A33 5G, Stubs
+sha1:         b27a33aaf42243bdd8fdb7bceeff7c4d56a19a75
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Galaxy A33 5G
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering, Teardown, BGA
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+Galaxy A33 screen does not respond at all. Displays no image, but there is a touch input on the entire panel. Replacing the screen does not fix the issue.
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* No display(graphics) on screen
+* Phone boots normally
+* Touchscreen works
+* Charges normally
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+The problem is due to a missing VDD_LCD_ELAVDD_7P6 signal. 
+
+=== Repair Steps ===
+[[File:DIODE VALUE main fpc galaxy a33 5g.png|center|thumb|Diode Value]]
+
+* Check GR on the connector (you will get a missing GR on a following pin)[[File:BURNED PIN galaxy a33 5g.png|center|thumb|BURNED PIN]]
+* Check GR on the Capacitor where the area is burned, if GR is ok then proceed to do the jumper like in the following picture[[File:JUMPER samsung galaxy a33 5g.png|center|thumb|JUMPER]]
+* Test the display if it works
+* If everything seems fine cover the jumper with UV oil.

@@ -1,0 +1,19 @@
+<!--
+title:        File:Nintendo DS Lite EM10 check.jpg
+pageid:       751
+revid:        1738
+source:       https://repair.wiki/w/File:Nintendo_DS_Lite_EM10_check.jpg
+history:      https://repair.wiki/index.php?title=File:Nintendo_DS_Lite_EM10_check.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1738
+last_edited:  2024-01-02T23:09:27Z
+contributors: Motrotz
+anonymous_edits: 0
+categories:   
+sha1:         ff4970748d1aee744b03fdfeed18d93893bf44d7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Nintendo DS Lite EM10 continuity measurements.

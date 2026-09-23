@@ -1,0 +1,17 @@
+<!--
+title:        File:IPad 10 PCB.jpg
+pageid:       7469
+revid:        11065
+source:       https://repair.wiki/w/File:IPad_10_PCB.jpg
+history:      https://repair.wiki/index.php?title=File:IPad_10_PCB.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=11065
+last_edited:  2025-08-31T20:17:06Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

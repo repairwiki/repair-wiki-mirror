@@ -1,0 +1,18 @@
+<!--
+title:        File:Nand-in-programmer.png
+pageid:       6913
+revid:        10410
+source:       https://repair.wiki/w/File:Nand-in-programmer.png
+history:      https://repair.wiki/index.php?title=File:Nand-in-programmer.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10410
+last_edited:  2025-08-20T07:07:32Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         2d950fb9fd4d1a157d96d757932b1c3cc7f321ac
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Nand-in-programmer

@@ -1,0 +1,18 @@
+<!--
+title:        File:0.75v en navi.png
+pageid:       1690
+revid:        3698
+source:       https://repair.wiki/w/File:0.75v_en_navi.png
+history:      https://repair.wiki/index.php?title=File:0.75v_en_navi.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3698
+last_edited:  2024-03-24T12:01:11Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         2f3e6c06d13e4225bbf3517504089ea4b21e2234
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+0.75v en navi

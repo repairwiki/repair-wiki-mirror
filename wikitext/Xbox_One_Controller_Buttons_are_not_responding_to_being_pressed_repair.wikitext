@@ -1,0 +1,36 @@
+<!--
+title:        Xbox One Controller Buttons are not responding to being pressed repair
+pageid:       1356
+revid:        2989
+source:       https://repair.wiki/w/Xbox_One_Controller_Buttons_are_not_responding_to_being_pressed_repair
+history:      https://repair.wiki/index.php?title=Xbox_One_Controller_Buttons_are_not_responding_to_being_pressed_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2989
+last_edited:  2024-01-17T21:45:14Z
+contributors: HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Wireless Controller for Xbox One, Stubs
+sha1:         20ff272399248b6433b96e523970378bbf11dfd6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Wireless Controller for Xbox One
+|Affects parts=Logic board
+|Needs equipment=
+|Type=Cleaning
+|Difficulty=1. Easy
+}}
+==Problem description==
+Buttons are not responding to being pressed.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Buttons not working.
+
+==Solution==
+Clean carbon tracks on the PCB and carbon pad on the membrane
+
+If cleaning doesn't help, measure continuity between diode footprint and IO expander's respective test pad, early revisions can have their vias disconnect out of nowhere. You can find pinouts and schematics [https://acidmods.com/forum/index.php/board,537.0.html Here]

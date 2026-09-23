@@ -1,0 +1,47 @@
+<!--
+title:        Tab A7 Lite
+pageid:       3788
+revid:        11575
+source:       https://repair.wiki/w/Tab_A7_Lite
+history:      https://repair.wiki/index.php?title=Tab_A7_Lite&action=history
+permalink:    https://repair.wiki/index.php?oldid=11575
+last_edited:  2025-09-14T22:19:00Z
+contributors: Tiago199988, Samhext
+anonymous_edits: 0
+categories:   Device, Samsung, Samsung Tablets, Stubs, Tablets
+sha1:         23617306b2386c725aacdae97453b47a02e6bfc8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Has code name=SM-T227U
+|Device type=Tablet
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Samsung-galaxy-tab-a7-lite-gray.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Taba7lite.jpg|Samsung Galaxy Tab A7 Lite Mechanic USB-C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

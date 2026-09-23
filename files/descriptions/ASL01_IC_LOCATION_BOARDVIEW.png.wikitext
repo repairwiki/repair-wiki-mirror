@@ -1,0 +1,18 @@
+<!--
+title:        File:ASL01 IC LOCATION BOARDVIEW.png
+pageid:       8786
+revid:        12780
+source:       https://repair.wiki/w/File:ASL01_IC_LOCATION_BOARDVIEW.png
+history:      https://repair.wiki/index.php?title=File:ASL01_IC_LOCATION_BOARDVIEW.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12780
+last_edited:  2025-11-19T21:13:00Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         c01d4fa522be38408b86794eb86a64770314b10b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+ASL01 IC LOCATION BOARDVIEW

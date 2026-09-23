@@ -1,0 +1,48 @@
+<!--
+title:        IPad Mini 6
+pageid:       1478
+revid:        13487
+source:       https://repair.wiki/w/IPad_Mini_6
+history:      https://repair.wiki/index.php?title=IPad_Mini_6&action=history
+permalink:    https://repair.wiki/index.php?oldid=13487
+last_edited:  2026-01-01T18:19:58Z
+contributors: VCCBoardRepairs, Tiago199988, KevinShort
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         97c22326501e5efda8afc6411fd43fe91350943c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2567, A2568, A2569
+|Device release date=2021-09-24
+|Device type=Tablet
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ipadmini6-1-600x600.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPad Mini 6 Wifi PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPad Mini 6 - USB C Readings.png|iPad Mini 6 - USB C Readings with Mechanic Reader
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+CD3217 Know good ROM dump: https://www.sendspace.com/filegroup/o50KR%2FmFSzssNPV4%2FfMXR%2FabYypKCONhcqYX3llc5ZpMEjLjsYg%2FIrgZTsYR3WPismwz23kyDF0O7ZcGCVfnDg

@@ -1,0 +1,48 @@
+<!--
+title:        IPhone 17
+pageid:       7789
+revid:        12688
+source:       https://repair.wiki/w/IPhone_17
+history:      https://repair.wiki/index.php?title=IPhone_17&action=history
+permalink:    https://repair.wiki/index.php?oldid=12688
+last_edited:  2025-11-12T15:36:36Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         38185661148bfccc75b18d7ebae36e39317f6bff
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device release date=2025-09-19
+|Device type=Phone
+|Has code name=A3520, A3258, A3519}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:IPhone 17.webp|alt=
+File:Ip-17-fcam.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Iphone 17 PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+Apple Self Service iPhone 17 
+
+Repair Manual ID: KFSVGE

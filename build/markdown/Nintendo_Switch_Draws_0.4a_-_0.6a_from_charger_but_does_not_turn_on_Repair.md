@@ -1,0 +1,40 @@
+---
+title: "Nintendo Switch Draws 0.4a - 0.6a from charger but does not turn on Repair"
+pageid: 925
+revid: 6321
+kind: repair_guide
+source: "https://repair.wiki/w/Nintendo_Switch_Draws_0.4a_-_0.6a_from_charger_but_does_not_turn_on_Repair"
+history: "https://repair.wiki/index.php?title=Nintendo_Switch_Draws_0.4a_-_0.6a_from_charger_but_does_not_turn_on_Repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=6321"
+last_edited: "2025-04-25T18:12:25Z"
+contributors:
+  - "ASRepairs"
+  - "HaileyKitty"
+  - "DevinJM3"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Nintendo Switch"
+  - "Stubs"
+infobox:
+  Device: "Nintendo Switch"
+  Affects_parts: "EMMC"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Part replacement"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Nintendo Switch Draws 0.4a - 0.6a from charger but does not turn on Repair
+
+## Problem description
+Fixing a problem where the Switch is drawing 0.4a - 0.6a from charger but does not turn on
+
+## Symptoms
+- Draws 0.4a - 0.6a from charger
+- Does not turn on
+
+## Solution
+Do not forget to plugin the EMMC. Otherwise you may have an issue with P13USB audio/video IC. Full video [https://youtu.be/YKmu0JM3_HA?feature=shared&t=1016 here]

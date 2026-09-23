@@ -1,0 +1,18 @@
+<!--
+title:        File:Air3 diode.jpg
+pageid:       245
+revid:        670
+source:       https://repair.wiki/w/File:Air3_diode.jpg
+history:      https://repair.wiki/index.php?title=File:Air3_diode.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=670
+last_edited:  2023-11-05T16:38:02Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         bf567a303e8bf84f901aede9520db451f7cb6415
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Air3 diode

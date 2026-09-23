@@ -1,0 +1,106 @@
+<!--
+title:        PlayStation 5
+pageid:       677
+revid:        13707
+source:       https://repair.wiki/w/PlayStation_5
+history:      https://repair.wiki/index.php?title=PlayStation_5&action=history
+permalink:    https://repair.wiki/index.php?oldid=13707
+last_edited:  2026-01-11T20:31:11Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, Ben ProFixerr, A1Repairs, Matthematics
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         80949300a811cf6ebe5834c1a77d3d01d0fa0b81
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Sony
+|Device type=Game Console
+|Device release date=November 11, 2020|Has code name=Erebus}}
+{{stub}}The PlayStation 5 (commonly referred to as PS5) is a home video game console developed by Sony. It is competing with Microsoft's Xbox Series X and S with the ninth generation of consoles. 
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:IMG 2985.JPG|PS5 Screw Lengths, locations, and quantities.
+File:Ps5.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:BDM-010.jpg|EDM-010
+File:BDM010.png|EDM-010
+File:EDM-020 PCB APU Side.jpg|EDM-020
+File:EDM-020 PCB RAM Side.jpg|EDM-020
+File:EDM-032 PCB APU Side.jpg|EDM-032
+File:EDM-032 PCB RAM Side.jpg|EDM-032
+File:EDM-033 PCB APU Side.jpg|EDM-033
+File:EDM-033 PCB RAM Side.jpg|EDM-033
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery>
+File:PS5-HDMI-Mechnic-Readings.jpg|PS5  HDMI Port Diode Mode Readings through Mechanic T-824 Tester
+File:HDMI NO PORT MEASUREMENTS.jpg|PS5 HDMI Diode Measurements of board without port installed. Used Fluke 115 multimeter - Red probe on ground black probe on respective pads..
+File:USB Ports.png|PS5 EDM-020 USB 3.0 Diode Measurements
+File:Power and disk buttons con.png|PS5 EDM-020 Power and Disk FPC Diode Measurements
+File:M2 SSD.png|PS5 EDM-020 M2 SSD FPC Diode Measurements
+File:LED FPC.png|PS5 EDM-020 LED FPC Diode Measurements
+File:Front USB FPC.png|PS5 EDM-020 Front USB Diode Measurements
+File:LAN Port.png|PS5 EDM-020 LAN Port Diode Measurements
+File:Disk Drive DATA FPC.png|PS5 EDM-020 Disk Drive Data FPC Diode Measurements
+File:Fan and drive power.jpg|PS5 EDM-020 FAN and Disk drive power Diode Measurements
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+Bios image Dumps [https://www.dropbox.com/sh/mt8kh3g1sn0d58e/AABkEriL6nJCusMnbJ5E_Z5ia?dl=0&fbclid=IwAR3n6y5wA4ICiHM1dVNxfir8S-CcrrxQKJTuNPwnywdKA7hCm6LmN9xZ7kw]
+
+Boardview available at:https://www.sendspace.com/file/ayzrna
+
+{| class="wikitable"
+!'''<u>Parts</u>'''
+!'''<u>Description</u>'''
+!'''<u>Source</u>'''
+!
+|-
+|MN864739 
+|HDMI Encoder IC
+|Aliexpress and other suppliers
+|
+|-
+|CXD90061GG 
+|Southbridge
+|Aliexpress or donor boards
+|
+|-
+|Dialog DA9081
+|SSD and Nand PMIC
+|Aliexpress
+|
+|-
+|25Q16JVNIM
+|BIOS IC
+|Aliexpress
+|
+|-
+|Dialog DA9065
+|Southbridge PMIC
+|Aliexpress
+|
+|-
+|0.1ub X5R 0603 16V
+|Small cap behind HDMI Port
+|Aliexpress
+|
+|-
+|CXD90062GG 
+|SSD Controller
+|Aliexpress or donor boards
+|
+|}

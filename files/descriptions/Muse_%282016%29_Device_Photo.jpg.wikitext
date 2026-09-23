@@ -1,0 +1,18 @@
+<!--
+title:        File:Muse (2016) Device Photo.jpg
+pageid:       8669
+revid:        12609
+source:       https://repair.wiki/w/File:Muse_(2016)_Device_Photo.jpg
+history:      https://repair.wiki/index.php?title=File:Muse_(2016)_Device_Photo.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=12609
+last_edited:  2025-11-06T01:28:47Z
+contributors: Pandapip1
+anonymous_edits: 0
+categories:   
+sha1:         d1533dfdafa514cdd6d999bb62d43f70c14c6316
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A photo of the original Muse (2016) EEG Headband

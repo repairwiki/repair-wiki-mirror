@@ -1,0 +1,18 @@
+<!--
+title:        File:Ipadair4 panic-log.png
+pageid:       8178
+revid:        11967
+source:       https://repair.wiki/w/File:Ipadair4_panic-log.png
+history:      https://repair.wiki/index.php?title=File:Ipadair4_panic-log.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11967
+last_edited:  2025-09-21T10:27:51Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         29caaa762d3163cdbe58df70a503fab10f920c4c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ipadair4 panic-log

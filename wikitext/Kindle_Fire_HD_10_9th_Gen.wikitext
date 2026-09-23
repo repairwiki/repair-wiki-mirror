@@ -1,0 +1,43 @@
+<!--
+title:        Kindle Fire HD 10 9th Gen
+pageid:       3727
+revid:        6553
+source:       https://repair.wiki/w/Kindle_Fire_HD_10_9th_Gen
+history:      https://repair.wiki/index.php?title=Kindle_Fire_HD_10_9th_Gen&action=history
+permalink:    https://repair.wiki/index.php?oldid=6553
+last_edited:  2025-05-13T01:59:12Z
+contributors: VCCBoardRepairs, Samhext
+anonymous_edits: 0
+categories:   Amazon, Amazon Tablets, Device, Stubs, Tablets
+sha1:         13f395d1432e84958ba1e2064700dce1dc1eb083
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Amazon|Device type=Tablet|Has code name=M2V3R5|Device release date=2019}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Ox-0v8RS.jpg|Amazon Kindle Fire HD 10 9th Gen USB-C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

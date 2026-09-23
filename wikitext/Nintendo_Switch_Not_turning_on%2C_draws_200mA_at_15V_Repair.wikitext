@@ -1,0 +1,37 @@
+<!--
+title:        Nintendo Switch Not turning on, draws 200mA at 15V Repair
+pageid:       904
+revid:        2202
+source:       https://repair.wiki/w/Nintendo_Switch_Not_turning_on,_draws_200mA_at_15V_Repair
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Not_turning_on,_draws_200mA_at_15V_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2202
+last_edited:  2024-01-13T14:37:22Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Switch, Stubs
+sha1:         d31a88e503ccc0ab025fbc6f97a0084c6b9ef7cb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Main Logic Board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+== Problem description ==
+No power. Takes 15V@0.2A. Might respond to being "turned off" by holding down the power button, current will drop to 0.1A. Might even respond to being turned back on and current climbs back up to 0.2A.
+
+== Symptoms ==
+
+* Not turning on.
+* Takes 15V@0.2A. 
+* Might respond to being "turned off" by holding down the power button, current will drop to 0.1A. 
+* Might even respond to being turned back on and current climbs back up to 0.2A.
+
+== Solution ==
+Can be caused by PI3USB [source coming soon - ItalianRetroGuy], '''replace PI3USB.'''

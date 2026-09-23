@@ -1,0 +1,18 @@
+<!--
+title:        File:Thin blade.png
+pageid:       2356
+revid:        4834
+source:       https://repair.wiki/w/File:Thin_blade.png
+history:      https://repair.wiki/index.php?title=File:Thin_blade.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4834
+last_edited:  2024-09-09T06:21:04Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         4f03dc8f33b6f8428b3686438c7a79f661cbe2d2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Very thin spatula blade

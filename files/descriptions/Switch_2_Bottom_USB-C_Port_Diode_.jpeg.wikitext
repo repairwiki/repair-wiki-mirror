@@ -1,0 +1,17 @@
+<!--
+title:        File:Switch 2 Bottom USB-C Port Diode .jpeg
+pageid:       9593
+revid:        13862
+source:       https://repair.wiki/w/File:Switch_2_Bottom_USB-C_Port_Diode_.jpeg
+history:      https://repair.wiki/index.php?title=File:Switch_2_Bottom_USB-C_Port_Diode_.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13862
+last_edited:  2026-02-07T21:48:41Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

@@ -1,0 +1,18 @@
+<!--
+title:        File:Hdmi port readings.png
+pageid:       8813
+revid:        12820
+source:       https://repair.wiki/w/File:Hdmi_port_readings.png
+history:      https://repair.wiki/index.php?title=File:Hdmi_port_readings.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12820
+last_edited:  2025-11-23T06:47:05Z
+contributors: Ben ProFixerr
+anonymous_edits: 0
+categories:   
+sha1:         501a45cf2a420104012c57120c63e150e7d42a82
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+layout of the hdmi port and the traces. color coded to follow the pairs and patterns explanation

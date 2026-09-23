@@ -1,0 +1,18 @@
+<!--
+title:        File:Stuck on logo.png
+pageid:       7151
+revid:        10701
+source:       https://repair.wiki/w/File:Stuck_on_logo.png
+history:      https://repair.wiki/index.php?title=File:Stuck_on_logo.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10701
+last_edited:  2025-08-26T07:22:08Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         8995eda6e3a47c65f26d24a79c95e5ff1d224116
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+stuck on logo

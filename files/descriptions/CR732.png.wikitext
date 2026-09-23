@@ -1,0 +1,18 @@
+<!--
+title:        File:CR732.png
+pageid:       2416
+revid:        4919
+source:       https://repair.wiki/w/File:CR732.png
+history:      https://repair.wiki/index.php?title=File:CR732.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4919
+last_edited:  2024-09-22T22:05:27Z
+contributors: Samsscreenrepair
+anonymous_edits: 0
+categories:   
+sha1:         396c1d6ed0bdfa7552909718c910f21b1f5ce7c3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Boardview of CR732 on A2338

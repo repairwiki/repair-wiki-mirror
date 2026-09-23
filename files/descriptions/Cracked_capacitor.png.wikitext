@@ -1,0 +1,18 @@
+<!--
+title:        File:Cracked capacitor.png
+pageid:       537
+revid:        1166
+source:       https://repair.wiki/w/File:Cracked_capacitor.png
+history:      https://repair.wiki/index.php?title=File:Cracked_capacitor.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1166
+last_edited:  2023-11-15T18:37:00Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ee437395152c9b638d06db49eb6efae16d81e6fd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Cracked capacitor

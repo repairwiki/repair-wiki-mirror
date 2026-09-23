@@ -1,0 +1,54 @@
+<!--
+title:        1.8V Rail on Polaris GPUs Explained
+pageid:       392
+revid:        874
+source:       https://repair.wiki/w/1.8V_Rail_on_Polaris_GPUs_Explained
+history:      https://repair.wiki/index.php?title=1.8V_Rail_on_Polaris_GPUs_Explained&action=history
+permalink:    https://repair.wiki/index.php?oldid=874
+last_edited:  2023-11-07T19:28:19Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for RX 460, Explanatory guides for RX 470, Explanatory guides for RX 480, Explanatory guides for RX 560, Explanatory guides for RX 570, Explanatory guides for RX 580, Explanatory guides for RX 590
+sha1:         ebb1806bd825bfb75e4a6f81a1e70f34bd16db89
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=RX 460, RX 470, RX 480, RX 560, RX 570, RX 580, RX 590
+|Type=Circuit
+|Difficulty=2. Medium
+}}
+''''''In this guide, we will explore the 1.8V rail on Polaris cards, how it's created, its usage, and common problems associated with it.'''''
+
+==The Controller Circuit==
+Polaris cards typically use a [https://cal.equipment/doc/_Datasheets/_DC_DC/gs7103.pdf GS7103-A] or a similar Low Drop Out (LDO) regulator to control the 1.8V rail.
+
+The output voltage is adjusted through the FB pin using a voltage divider (please refer to the datasheet or Figure 2).
+[[File:Polaris 1.8v board.jpg|thumb|Location of the 1.8V regulator on an RX 480 Reference card (Figure 1)]]
+[[File:Polaris 1.8v controller schematic.jpg|thumb|Schematic view of the 1.8V regulator (Figure 2)]]
+[[File:1.8v enable polaris.jpg|thumb|Enable for 1.8V regulator schematic view (Figure 3)]]
+While markings on the schematic and board may vary from one GPU model to another, the circuit design remains mostly consistent.
+
+==Usage==
+The 1.8V rail is primarily used to power low-level logic components within the GPU core, as well as straps and clock.
+
+==Common Problems==
+
+===No Voltage on the 1.8V Rail===
+Begin by checking the EN (Figure 3) and V<sub>CC</sub> pins. If either of them is missing, the controller will not operate. The enable pin should always be in a high state as soon as the card receives power, while V<sub>CC</sub> is supplied from the 5V LDO, either directly or through a low-resistance path.
+
+After confirming the presence of both EN and V<sub>CC</sub> on the controller, the next step is to examine the V<sub>in</sub> pin, where 3.3V is supplied through some resistors.
+
+If all of the above checks out but there is still no output, investigate the voltage divider on the FB pin according to the schematic (Figure 2) or the datasheet.
+
+===Short on the 1.8V Rail===
+The 1.8V rail feeds directly into the core. If you measure low resistance or a short on this rail, it's highly likely that the GPU core is defective. A short on the 1.8V rail is frequently associated with a dead core, occurring in over 95% of cases.
+
+While less common, a capacitor could also be the source of the short. Using the steps provided in this guide [[Short Circuits - Repair Basics]] attempt to identify the source of the short.
+
+===No POK Signal===
+The POK (Power OK) signal from the 1.8V controller is responsible for enabling the Display Rail. If the POK signal is absent, the rest of the card will not function.
+
+If 1.8V is being regulated but POK is not rising, replace the controller. Otherwise, inspect the FB resistors and ensure that the POK signal are not actively held low or shorted to ground.

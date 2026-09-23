@@ -1,0 +1,44 @@
+<!--
+title:        IPad Air 3
+pageid:       1509
+revid:        10684
+source:       https://repair.wiki/w/IPad_Air_3
+history:      https://repair.wiki/index.php?title=IPad_Air_3&action=history
+permalink:    https://repair.wiki/index.php?oldid=10684
+last_edited:  2025-08-25T22:13:57Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         712daa056fa739f39e9e88f08e4b9d7bab592c77
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Tablet
+|Has code name=A2152, A2123, A2153, A2154}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ipadair3-800x800.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPad Air 3 PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

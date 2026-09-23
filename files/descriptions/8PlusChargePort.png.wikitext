@@ -1,0 +1,18 @@
+<!--
+title:        File:8PlusChargePort.png
+pageid:       7764
+revid:        11460
+source:       https://repair.wiki/w/File:8PlusChargePort.png
+history:      https://repair.wiki/index.php?title=File:8PlusChargePort.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11460
+last_edited:  2025-09-08T21:29:14Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         c01edc33f387dfef208af8a01420ff328265cf17
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+8PlusChargePort

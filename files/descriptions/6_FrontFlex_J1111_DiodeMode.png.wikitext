@@ -1,0 +1,18 @@
+<!--
+title:        File:6 FrontFlex J1111 DiodeMode.png
+pageid:       1912
+revid:        4113
+source:       https://repair.wiki/w/File:6_FrontFlex_J1111_DiodeMode.png
+history:      https://repair.wiki/index.php?title=File:6_FrontFlex_J1111_DiodeMode.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4113
+last_edited:  2024-06-27T19:43:12Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         58e803c27166a743c6f4ba439546eaa500be4006
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+6 FrontFlex J1111 DiodeMode

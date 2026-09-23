@@ -1,0 +1,115 @@
+<!--
+title:        Capacitors - Repair Basics
+pageid:       214
+revid:        4376
+source:       https://repair.wiki/w/Capacitors_-_Repair_Basics
+history:      https://repair.wiki/index.php?title=Capacitors_-_Repair_Basics&action=history
+permalink:    https://repair.wiki/index.php?oldid=4376
+last_edited:  2024-07-17T14:27:34Z
+contributors: ASRepairs
+anonymous_edits: 1
+categories:   Explanatory guide, Explanatory guides for Capacitors, Missing device page, Repair Basics
+sha1:         b4aabfae6215604754fa05e855c964e0068e7552
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=Capacitors
+|Type=Component
+|Difficulty=1. Easy
+}}
+This article aims to provide a comprehensive overview of capacitors from a repair perspective, detailing their function, types, common issues, testing methods, and replacement considerations.
+[[File:Capacitor symbols.jpg|thumb|Capacitor symbols commonly found in schematics (Figure 1)]]
+
+== What is a Capacitor? ==
+A Capacitor is a fundamental electrical component found in every single electronic device. '''Its primary function is to store and release electrical energy.''' 
+
+Capacitors store and release electrical energy in the form of an electric field. They consist of two conductive plates separated by an insulating material, often referred to as a dielectric. '''This means that there is almost infinite resistance between the plates.'''
+
+'''You can think of a capacitor as a very tiny battery that is able to charge and discharge VERY quickly.'''
+
+Capacitors are measured in "Farads (F)". Though farads are huge units, you'll typically find them in Nano (nF), Micro (uF), and Milli (mF).
+
+Capacitors in schematics look like in Figure 1 and are usually denoted with the letter C followed by an identifier number. (E.g. C211)
+
+=== Function ===
+When voltage is applied across the plates, an electric field forms between them, storing energy in the form of electrostatic charge. Capacitors can store this energy and release it back into the circuit as needed, often used for purposes like filtering, energy storage, and signal coupling or isolation.
+
+==== Energy Storage ====
+[[File:Flash capacitor.jpg|thumb|164x164px|Camera flash Capacitor (Figure 2)]]
+One of the primary functions of capacitors is to store electrical energy. They can store a charge when connected to a voltage source and release it when the voltage is removed or reduced. This feature is essential in applications where high current for a short time is required, such as in camera flashes.
+[[File:Smoothing capacitors.png|thumb|Smoothing capacitors on the input/output of a DC-DC converter circuit (Figure 3)]]
+
+==== Voltage Smoothing ====
+In most circuits, you'll find capacitors close to VCC inputs of most ICs (Integrated circuits) to provide a stable and smooth input for the IC.
+
+Capacitors are used at the input/output stage of DC-DC voltage converters. DC-DC converters inherently produce pulsating or "ripple" DC output voltage due to the switching action of electronic components. Capacitors are employed to filter and smooth this output by storing and releasing electrical energy, reducing voltage fluctuations and ensuring a more stable DC voltage as shown in Figure 3
+
+==== Frequency filtering (low/high pass) ====
+Capacitors, characterized by their high resistance to direct current (DC), '''effectively block DC passage'''. In contrast, with high-frequency alternating current (AC), capacitors cyclically charge and discharge in response to the changing current polarity. This dynamic behavior creates the impression that '''AC flows through the capacitor''', akin to its behavior as a conductor.
+[[File:Capacitor filters.jpg|thumb|Low-pass and High-pass filters (Figure 4)]]
+The most basic filtering circuits are [[wikipedia:Low-pass_filter|Low-pass]] and [[wikipedia:High-pass_filter|High-pass]] filters (Figure 4), they -as the name suggests- either let low or high frequency signals pass though them.
+
+==== Timing circuits ====
+Capacitors are often used in conjunction with resistors to create simple timing circuits. The time constant of an RC (Resistor-Capacitor) circuit is determined by the values of the resistor and capacitor. By selecting appropriate resistor and capacitor values, you can create precise time delays, time constants, or time intervals. These circuits are often used in applications like pulse shaping, oscillators, and time-delay circuits.
+[[File:Astable-555-circuit.webp|thumb|220x220px|Astable 555 timer circuit (Figure 5)]]
+Basic timing circuits make use of the capacitor charge/discharge cycle to generate precise time intervals. A 555 timer circuit is shown in Figure 5 as an example where the capacitor C can change the period of the output signal.
+
+and much more, if you'd like to learn in more detail about capacitor applications, [[wikipedia:Applications_of_capacitors|look here]].
+[[File:Capacitor types packagess.jpg|thumb|226x226px|Some capacitor packages and types (Figure 6)]]
+[[File:Capacitor types.jpg|thumb|Capacitor types (Figure 7)|233x233px]]
+
+=== Types ===
+
+==== Fixed value Capacitors ====
+Fixed value capacitors come in different type depending on their construction
+
+===== Electrolytic Capacitors =====
+These have a high capacitance value and are commonly used for energy storage in power supply circuits. Because of their chemistry, '''Electrolytic capacitors are polarized'''. The negative lead is usually indicated with a strip or a mark.
+
+They come in different sizes. Voltage rating and capacitance is written on them.
+
+===== Ceramic Capacitors =====
+The most commonly used and produced capacitor type, especially multilayer ceramic capacitors (MLCCs). '''Not polarized.'''
+
+They offer a wide range of capacitance values and are used for decoupling, filtering, and timing applications. They however, have much less energy density than electrolytic capacitors.
+
+In almost all cases, you'll find ceramic capacitors in SMD packages. They use the same size standards as resistors. For the most part, there is no writing on those capacitors. So you'll have to rely for a schematic to find value/rated voltage.
+
+===== Film Capacitors =====
+Film capacitors are versatile and can be used for filtering, coupling, and signal processing tasks. They offer very low ESR (equivalent series resistance). Usually they are larger than other types of capacitors but have much higher surge and pulse load capabilities. As film capacitors are '''not polarized''', they can be used in AC voltage applications without DC bias.\
+
+Value and rated voltage are both written on those capacitors.
+
+===== Tantalum Capacitors =====
+Tantalum Capacitors is a form of dry electrolytic capacitors. They offer higher energy density and stability than ceramic caps but '''are polarized.''' The negative lead is usually indicated with a strip or a mark.
+
+Value and rated voltage are both written on those capacitors.
+
+==== Variable Capacitors ====
+These have an adjustable capacitance value and are used in tuning circuits. Not widely used for commercial applications anymore. Found in labs for testing.
+
+== Testing a Capacitor ==
+Begin by visually inspecting the capacitor. If you notice obvious discoloration or any swelling in the case, especially in the case of electrolytic capacitors, it's a clear that the capacitor needs to be replaced.
+
+Before testing the capacitor, ensure it is discharged by shorting its terminals with a resistor (20-100 ohms) until you read the voltage on the capacitor to be zero.
+
+Usually, capacitors fail in a short circuit. To test this, you need to measure it '''outside of the circuit''' in resistance mode of your multimeter. You'll measure low resistance at first because the capacitor is charging but the resistance should rise with time. Ideally within 10s of kilo ohms.
+
+If you've ruled out capacitor shorts but are still encountering abnormal or suboptimal circuit behavior, the next step is to evaluate the capacitors using an LCR meter '''outside the circuit''' as well.  
+
+Testing a capacitor with an LCR meter not only provides you with the actual capacitance values across various frequencies but also reveals the crucial Equivalent Series Resistance (ESR). Keep in mind that ESR values vary among different capacitor types, so it's advisable to compare your results with a similar capacitor in the circuit. Generally, higher ESR values indicate a less desirable capacitor performance.
+
+In normal conditions, a capacitance measurement within a 5% range of the rated value is considered acceptable. However, for electrolytic capacitors, a variation of up to 20% can still fall within acceptable limits.
+
+== Replacement Considerations ==
+he most important things to keep in mind when replacing a faulty Capacitor are as follows:
+
+# '''Capacitance:''' Choose a replacement capacitor with the same capacitance value as the faulty one '''especially if it was used in timing circuits.''' If the capacitor was used for voltage smoothing, larger capacitances will work as well.
+# '''Voltage rating:''' Pick a capacitor with a voltage rating that matches or exceeds the original one. In most cases, a higher voltage rating merely results in a larger physical size, as the voltage rating indicates the capacitor's voltage-handling capacity.
+# '''Type:''' Try to stick to the same type as the original capacitor. However, depending on the application, you can use a different type if the size is not a concern.
+# '''Physical size:''' Preferably, try to choose a replacement capacitor with the same dimensions as the faulty one. If this isn't available and size constraints are not an issue, you can opt for a larger or smaller capacitor as long as it matches the voltage rating, as this will function the exact same way.
+
+[[Category:Repair_Basics| ]]

@@ -1,0 +1,68 @@
+<!--
+title:        Poco X3 Pro No Light After 2 SecondS Of Powering ON
+pageid:       5725
+revid:        9021
+source:       https://repair.wiki/w/Poco_X3_Pro_No_Light_After_2_SecondS_Of_Powering_ON
+history:      https://repair.wiki/index.php?title=Poco_X3_Pro_No_Light_After_2_SecondS_Of_Powering_ON&action=history
+permalink:    https://repair.wiki/index.php?oldid=9021
+last_edited:  2025-07-26T00:57:07Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Poco X3 Pro, Stubs
+sha1:         a58f0ef51abe37a9da07d7bb957771d806f99ccc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Poco X3 Pro
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering, Teardown, BGA
+|Difficulty=4. Specialist
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+When you turn on the device you will see the "POCO" booting logo for the first 1-2 seconds and after that the screen goes black
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* When the device is booted shows "POCO" logo and after 1-2 seconds screen goes blank
+[[File:Full light.png|center|thumb|Light on]]
+* Graphics are still hardly visible (with external source of light) 
+[[File:Low light.png|center|thumb|No Light, only graphics]]
+* Light section turns off
+* Phone boots up normally
+* High Diode value on the Display_CABC, the diode value on this should be ~ 0.610v
+[[File:CABC DISPLAY.png|center|thumb|CABC DISPLAY]]
+
+
+If you have all the symptoms mentioned above then proceed to the repair steps.
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+This problem occurs due to a missing CABC(pwm) line, this controls the brightness supplied to the display panel. Usually this track gets damaged from inside so the best way to repair it is to make a jumper from under the power ic to the display connector.
+
+* Make sure the Diode Value on this pin is High or OL
+
+* Remove the Power IC
+
+[[File:PMIC.png|center|thumb|PMIC]]
+
+* Take a jumper from under the pmic (exact pad shown in the picture) and make a jumper to the display connector (exact pad shown in the picture)
+
+[[File:CABC UNDER PMIC.png|center|thumb|CABC UNDER PMIC]]
+[[File:CABC DISPLAY.png|center|thumb|CABC DISPLAY]]
+
+* Reinstall the power ic and test.

@@ -1,0 +1,18 @@
+<!--
+title:        File:A2588FrontCameraFPCDiode.jpg
+pageid:       1586
+revid:        3447
+source:       https://repair.wiki/w/File:A2588FrontCameraFPCDiode.jpg
+history:      https://repair.wiki/index.php?title=File:A2588FrontCameraFPCDiode.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3447
+last_edited:  2024-02-22T06:52:03Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         4b5018b525dad08520e1e7d3eacf04be457e4671
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Air 5 - #7 Front camera connector

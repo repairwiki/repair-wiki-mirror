@@ -1,0 +1,18 @@
+<!--
+title:        File:TrueDepth camera issue.png
+pageid:       4249
+revid:        7254
+source:       https://repair.wiki/w/File:TrueDepth_camera_issue.png
+history:      https://repair.wiki/index.php?title=File:TrueDepth_camera_issue.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7254
+last_edited:  2025-06-01T20:23:57Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         e4035f474ab5dee64d4c9bd38a2728b521dc5ef2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+TrueDepth camera issue

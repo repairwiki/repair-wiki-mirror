@@ -1,0 +1,52 @@
+<!--
+title:        IPhone 16e
+pageid:       3372
+revid:        12687
+source:       https://repair.wiki/w/IPhone_16e
+history:      https://repair.wiki/index.php?title=IPhone_16e&action=history
+permalink:    https://repair.wiki/index.php?oldid=12687
+last_edited:  2025-11-12T15:35:44Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         01681abaa427726925b4685dd423c436bc115d19
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Iphone-16e.webp|alt=
+File:Ip-16e-fcam.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:IPhone 16e PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+
+Apple Self Service iPhone 16e
+
+Repair Manual ID: CJBKQD
+
+Schematics: https://www.sendspace.com/filegroup/C8AtwJ9f3dCFgj7eTSQq4d7omXXiAGeY<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

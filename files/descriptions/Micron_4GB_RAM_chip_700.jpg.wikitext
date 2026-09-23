@@ -1,0 +1,17 @@
+<!--
+title:        File:Micron 4GB RAM chip 700.jpg
+pageid:       950
+revid:        2249
+source:       https://repair.wiki/w/File:Micron_4GB_RAM_chip_700.jpg
+history:      https://repair.wiki/index.php?title=File:Micron_4GB_RAM_chip_700.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2249
+last_edited:  2024-01-13T16:54:54Z
+contributors: HaileyKitty
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

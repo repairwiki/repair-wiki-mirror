@@ -1,0 +1,18 @@
+<!--
+title:        File:Panel Info G27C4X.png
+pageid:       8875
+revid:        12909
+source:       https://repair.wiki/w/File:Panel_Info_G27C4X.png
+history:      https://repair.wiki/index.php?title=File:Panel_Info_G27C4X.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12909
+last_edited:  2025-11-29T12:19:44Z
+contributors: InonDalal
+anonymous_edits: 0
+categories:   
+sha1:         083c5873c1c26898e08bf7b9e661bd017e062572
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+monitor uses TPM270WF1-ST2701B01925A Panel from TP Vision

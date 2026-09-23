@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone Xs touch Diode readings.png
+pageid:       4389
+revid:        7436
+source:       https://repair.wiki/w/File:IPhone_Xs_touch_Diode_readings.png
+history:      https://repair.wiki/index.php?title=File:IPhone_Xs_touch_Diode_readings.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7436
+last_edited:  2025-06-07T15:03:28Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         13de1ecca3ec4d4e94c740c17ed0c69a5757a869
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone Xs touch Diode readings

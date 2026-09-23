@@ -1,0 +1,63 @@
+---
+title: "Playstation 4 Pulsing Blue Light of Death"
+pageid: 981
+revid: 2523
+kind: repair_guide
+source: "https://repair.wiki/w/Playstation_4_Pulsing_Blue_Light_of_Death"
+history: "https://repair.wiki/index.php?title=Playstation_4_Pulsing_Blue_Light_of_Death&action=history"
+permalink: "https://repair.wiki/index.php?oldid=2523"
+last_edited: "2024-01-14T15:47:59Z"
+contributors:
+  - "ASRepairs"
+  - "Rara64"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Playstation 4"
+  - "Repair guides for Playstation 4 Pro"
+  - "Repair guides for Playstation 4 Slim"
+  - "Stubs"
+infobox:
+  Device: "Playstation 4, Playstation 4 Pro, Playstation 4 Slim"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station, BGA rework station"
+  Type: "BGA, Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Playstation 4 Pulsing Blue Light of Death
+
+## Problem description
+Pulsing Blue Light of Death signifies a hardware failure that is not terminal to the process so the console can stay running.
+## Symptoms
+- Power indicator keeps pulsing blue and the console stays on
+
+## Solution
+Pulsing Blue Light of Death can be caused by many different issues.
+
+Here are the known faults that can cause it:
+
+### Bad Hard Drive
+A bad hard drive can be the cause of a pulsing BLOD.
+
+Best way to check if that's the case is to remove it and check if the console will boot to Safe Mode.
+
+### APU connection with the board
+Original PS4s have a known fault where the solder balls under the APU will fail thus creating a connection issue. However, other Playstation 4 revisions can also suffer from this issue. A good way to find out if that's the problem is to put pressure on the back side of the APU with your hand and try to power on the console while still applying pressure. If the console will boot this is your issue, although this method might not work in some cases.
+
+You will need a BGA Rework Station to solve this. While reflow of the APU can fix this, a reball might be needed.
+
+### Faulty RAM chips
+If you have a thermal imaging camera, you can power on the console and inspect the RAM chips for unusual heat spots. If you don't have a thermal camera, you can try to feel the board with your hand.
+
+RAM chips are known to go bad and generate excessive heat while also causing the pulsing blue light of death ([https://youtu.be/Zpuv3ze7egQ here's a video from TheCod3r demonstrating such fault]).
+
+In case of the original PS4 (CUH-10XX/CUH-11XX), it will be hard to inspect all of the modules as they are on both sides of the board.
+
+If you don't find any heat spots, RAM can still be the culprit - refer to the other faults section.
+
+### Other faults
+See [Playstation 4 Fault finding with UART](Playstation_4_Fault_finding_with_UART.md) guide to find what's causing the pulsing BLOD.

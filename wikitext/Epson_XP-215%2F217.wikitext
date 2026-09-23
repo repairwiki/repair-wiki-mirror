@@ -1,0 +1,44 @@
+<!--
+title:        Epson XP-215/217
+pageid:       993
+revid:        2355
+source:       https://repair.wiki/w/Epson_XP-215/217
+history:      https://repair.wiki/index.php?title=Epson_XP-215/217&action=history
+permalink:    https://repair.wiki/index.php?oldid=2355
+last_edited:  2024-01-13T22:59:21Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Device, Epson, Epson Printers, Printers, Stubs
+sha1:         9aaa226a1fe56028f6b34b5d39898a5eec33d203
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Epson
+|Device type=Printer
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

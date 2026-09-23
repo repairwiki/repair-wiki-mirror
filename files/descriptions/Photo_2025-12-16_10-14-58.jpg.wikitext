@@ -1,0 +1,17 @@
+<!--
+title:        File:Photo 2025-12-16 10-14-58.jpg
+pageid:       9144
+revid:        13266
+source:       https://repair.wiki/w/File:Photo_2025-12-16_10-14-58.jpg
+history:      https://repair.wiki/index.php?title=File:Photo_2025-12-16_10-14-58.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13266
+last_edited:  2025-12-16T09:15:03Z
+contributors: Agrabn
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

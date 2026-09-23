@@ -1,0 +1,18 @@
+<!--
+title:        File:S22U-FPC4.png
+pageid:       311
+revid:        764
+source:       https://repair.wiki/w/File:S22U-FPC4.png
+history:      https://repair.wiki/index.php?title=File:S22U-FPC4.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=764
+last_edited:  2023-11-05T22:39:37Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         8b921505ddf77752b68d6ad8d04f398ef175442d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+S22U-FPC4

@@ -1,0 +1,18 @@
+<!--
+title:        File:6 Touch J2401 DiodeMode.png
+pageid:       1907
+revid:        4108
+source:       https://repair.wiki/w/File:6_Touch_J2401_DiodeMode.png
+history:      https://repair.wiki/index.php?title=File:6_Touch_J2401_DiodeMode.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4108
+last_edited:  2024-06-27T19:39:16Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         9827da877ab6d02e399325b8584a3a44661241a9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+6 Touch J2401 DiodeMode

@@ -1,0 +1,45 @@
+<!--
+title:        MacBook Pro A1706
+pageid:       595
+revid:        12508
+source:       https://repair.wiki/w/MacBook_Pro_A1706
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1706&action=history
+permalink:    https://repair.wiki/index.php?oldid=12508
+last_edited:  2025-11-02T15:47:23Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         ddd7f6df9dafd2cb98cccfedca329ca43d636155
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1706
+|Device type=Laptop
+}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A1706.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+Schematic and boardview for 820-00239: https://www.sendspace.com/filegroup/GpBvL0%2FB15WFPvySyhA8NA
+
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

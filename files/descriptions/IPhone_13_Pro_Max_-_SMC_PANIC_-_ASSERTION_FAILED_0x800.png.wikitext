@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 13 Pro Max - SMC PANIC - ASSERTION FAILED 0x800.png
+pageid:       262
+revid:        700
+source:       https://repair.wiki/w/File:IPhone_13_Pro_Max_-_SMC_PANIC_-_ASSERTION_FAILED_0x800.png
+history:      https://repair.wiki/index.php?title=File:IPhone_13_Pro_Max_-_SMC_PANIC_-_ASSERTION_FAILED_0x800.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=700
+last_edited:  2023-11-05T22:04:50Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         713ad3e8625c00a6230d40f1a92cdbd6f583c0d8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+IPhone 13 Pro Max - SMC PANIC - ASSERTION FAILED 0x800

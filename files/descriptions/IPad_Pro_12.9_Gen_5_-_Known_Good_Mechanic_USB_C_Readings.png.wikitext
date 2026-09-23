@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Pro 12.9 Gen 5 - Known Good Mechanic USB C Readings.png
+pageid:       3666
+revid:        6476
+source:       https://repair.wiki/w/File:IPad_Pro_12.9_Gen_5_-_Known_Good_Mechanic_USB_C_Readings.png
+history:      https://repair.wiki/index.php?title=File:IPad_Pro_12.9_Gen_5_-_Known_Good_Mechanic_USB_C_Readings.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6476
+last_edited:  2025-05-08T23:10:13Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         22299207f00aa7cf97897989dfd55bf03f331d6d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Pro 12.9 Gen 5 - Known Good Mechanic USB C Readings

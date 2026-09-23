@@ -1,0 +1,18 @@
+<!--
+title:        File:Reballing paste on the spatula.png
+pageid:       2484
+revid:        5050
+source:       https://repair.wiki/w/File:Reballing_paste_on_the_spatula.png
+history:      https://repair.wiki/index.php?title=File:Reballing_paste_on_the_spatula.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5050
+last_edited:  2024-10-14T00:32:28Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         5200d019fa875db02f00e618448f6294ce9373fe
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Reballing paste on the spatula

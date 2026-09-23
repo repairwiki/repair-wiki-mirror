@@ -1,0 +1,18 @@
+<!--
+title:        File:Ipadair3backlight.jpg
+pageid:       244
+revid:        669
+source:       https://repair.wiki/w/File:Ipadair3backlight.jpg
+history:      https://repair.wiki/index.php?title=File:Ipadair3backlight.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=669
+last_edited:  2023-11-05T16:36:30Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         3e7096c53adbd9a2d291ba713956a2d1de243b0b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ipadair3backlight

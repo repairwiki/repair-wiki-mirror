@@ -1,0 +1,112 @@
+<!--
+title:        How To Repair DualSense 5 Controller Stick Drift Issue
+pageid:       9599
+revid:        13910
+source:       https://repair.wiki/w/How_To_Repair_DualSense_5_Controller_Stick_Drift_Issue
+history:      https://repair.wiki/index.php?title=How_To_Repair_DualSense_5_Controller_Stick_Drift_Issue&action=history
+permalink:    https://repair.wiki/index.php?oldid=13910
+last_edited:  2026-02-09T07:08:14Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Sony Dualsense Controller, Stubs
+sha1:         f1ad081815dec4e31a964b5ce8e78d6b4d4abcf7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Sony Dualsense Controller
+|Affects parts=Main Logic Board
+|Needs equipment=Hot Air Station, Soldering Iron, Tweezers, Low Melt Solder, Board Holder
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+Stick drift is a common issue where the controller’s analog stick registers movement even when you aren’t touching it. This makes characters move on their own, menus scroll by themselves, and generally interferes with gameplay. (See Fig. 1)
+[[File:Dualsense-stick-drift.png|thumb|Figure 1 -- DualSense 5 Controller Showing Drift in Gamepad Tester Software when the stick is not moved in real life]]
+
+== Symptoms ==
+
+* Character or cursor moves without input
+* Stick input appears when controller is idle
+* Drift occurs only in certain directions
+* Slight drift even when stick is centered
+* Drift persists across games and menus
+
+[[File:Dualsense-5-joystick-module.png|thumb|Figure 2 -- DualSense 5 Controller Joystick Module]]
+[[File:Dualsense-5-joystick-solder.png|thumb|Figure 3 -- DualSense 5 Controller Joystick Solder Points ]]
+[[File:Dualsense-5-joystick-desolder.png|thumb|Figure 4 -- Removing DualSense 5 Controller Joystick Module]]
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+
+
+=== Diagnostic Steps ===
+----
+
+# Confirm the Drift
+#* Connect the controller to a PS5 or PC.
+#* Leave the analog stick untouched.
+#* You can use a controller testing software on PC:  https://ds.daidr.me/
+#* Observe:
+#** Character or cursor movement
+#** Axis movement in controller test software
+# Rule Out Software Causes
+#* Reset the controller using the rear reset pin (5–10 seconds).
+#* Update controller firmware on PS5.
+#* Re-test for drift.
+#* If drift persists → hardware fault confirmed.
+# Check Drift Severity
+#* Slight, inconsistent drift → likely contamination.
+#* Strong, constant drift in one direction → worn potentiometer.
+#* Drift on both axes → joystick module failure.
+# Inspect for Physical Wear
+#* Rotate and press the stick.
+#* Note:
+#** Loose feel
+#** Grinding or resistance
+#** Stick not returning to center
+# Decide Repair Path
+#* Minor drift → cleaning attempt.
+#* Persistent drift → joystick module replacement.
+
+----
+
+=== Repair Steps ===
+
+==== Repair Option 1: Cleaning (Temporary / Minor Drift) ====
+
+# Power off and disconnect the controller.
+# Remove faceplate and access the analog stick.
+# Blow compressed air around the base of the stick.
+# Apply 90%+ isopropyl alcohol or contact cleaner to the stick base.
+# Rotate the stick fully in all directions for 20–30 seconds.
+# Allow to dry completely.
+# Reassemble and test.
+
+✅ Use this if drift is mild or intermittent.
+----
+
+==== Repair Option 2: Joystick Module Replacement (Permanent Fix) ====
+
+# Fully disassemble the controller.
+# Remove battery and internal shields.
+# Expose the joystick module PCB.
+# Desolder the joystick module:
+#* Add low melt solder to joystick solder points (See Fig. 3)
+#* Heat evenly
+#* Avoid lifting pads
+# Clean solder pads thoroughly.
+# Install a new joystick module (OEM or Hall-effect upgrade).
+# Solder all anchor and signal pins securely.
+# Inspect joints under magnification.
+# Reassemble controller.
+# Test analog stick response.
+
+✅ This is the recommended long-term fix for stick drift.

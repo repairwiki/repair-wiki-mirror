@@ -1,0 +1,17 @@
+<!--
+title:        File:Ip-16p-fcam.png
+pageid:       8699
+revid:        12646
+source:       https://repair.wiki/w/File:Ip-16p-fcam.png
+history:      https://repair.wiki/index.php?title=File:Ip-16p-fcam.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12646
+last_edited:  2025-11-10T14:38:27Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

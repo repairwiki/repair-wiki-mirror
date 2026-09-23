@@ -1,0 +1,62 @@
+---
+title: "Common laser copier problems and their potential solutions"
+pageid: 1007
+revid: 2415
+kind: explanatory_guide
+source: "https://repair.wiki/w/Common_laser_copier_problems_and_their_potential_solutions"
+history: "https://repair.wiki/index.php?title=Common_laser_copier_problems_and_their_potential_solutions&action=history"
+permalink: "https://repair.wiki/index.php?oldid=2415"
+last_edited: "2024-01-14T10:23:58Z"
+contributors:
+  - "ASRepairs"
+  - "HaileyKitty"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for Printers"
+  - "Missing device page"
+  - "Printers"
+infobox:
+  Type: "Common issues and fixes"
+  Device: "Printers"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Common laser copier problems and their potential solutions
+
+| Problem | Solutions |
+| --- | --- |
+| ADF failure to feed |  * replace feed rollers as a set |
+| ADF double feeding |  * Check ADF reverse roller * replace rollers as a set * some use friction pad instead of reverse roller. This also should be replaced. * Some larger printers will have an ultrasonic double feeding sensor. check/configure this. |
+| ADF Jams - other than pickup related |  * Check for obstructions in the paper path * Check motors are operating - use printer output checks or cheat the door sensors and observe * Check sensors are operating - use input checks or attempt to determine which sensor failed from error/jam codes or position of paper at the moment the jam occurs |
+| ADF does not rise when paper placed in tray |  * Check ADF lift motor - ouput checks * Check lift mechanism not gummed up with staples and paper clips * Check paper set sensor - input checks - these often get dusty |
+| when copying document from ADF - black lines on front side only |  * Check for any foreign contamination on slit glass * Clean all mirrors on optical assembly * Clean/replace white strip |
+| When copying document from ADF - black lines on back side only |  * Single pass ADFs will have a second scanner above check for contamination |
+| Scanner squeaks loudly when moving |  * apply grease - preferably camera grease (no outgassing) |
+| Scanner does not detect paper size properly (or does not recognize paper on flat bed at all) |  * check paper size sensors - there are typically 3 * check CCD & white plate * clean white background * clean scanner glass - both sides |
+| Paper tray - 3 roller type - failure to feed |  * replace rollers as a set * check motors with output checks * check feed mechanism * clean sensors * check sensors with input checks * check tray lift mechanism * check paper properly loaded |
+| Paper tray - 3 roller type - double feeding |  * replace rollers as a set * check feed mechanism * check paper in tray not sticking together or statically charged. Especially old paper. "leaf" through the paper to dissipate some static |
+| Paper tray - 1 roller type - failure to feed |  * replace roller * check motor with output checks * clean sensors * check sensors with input checks * check tray lift mechanism * check paper properly loaded |
+| Paper tray - 1 roller type - double feeding |  * replace roller and friction pad * check paper in tray not sticking together or statically charged. Especially old paper. "leaf" through the paper to dissipate some static |
+| Paper tray - vacuum feed type - failure to feed |  * check belts not worn * check airflow - clean filters * adjust airflow - up or down * ensure correct paper weight selected * enable "feed assist" if available |
+| Paper tray - vacuum feed type - double feeding |  * check airflow - clean filters * adjust airflow - up or down * ensure correct paper weight selected |
+| paper tray - registration off across feed |  * check tray bottom gear may have jumped a tooth or two * check paper properly loaded - side fences tight * in service mode may be able to adjust registration for each tray |
+| registration off with feed (lead edge) |  * resolve any mechanical issues first * in service mode may be able to adjust registration for each tray |
+| skew |  * resolve any mechanical issues first * check paper properly loaded - side fences tight * in service mode may be able to adjust "buckle" to adjust for skew * may be a physical adjustment for skew |
+| solid thin line - prints and copies |  * check for white buildups on charge roller or charge corona wire - replace, don't bother cleaning, it'll be back * check for scratch around drum - replace drum |
+| solid thin line - prints and copies - dirty brown color |  * check image transfer belt cleaning mechanism - replace |
+| large brown line - prints and copies - may be intermittent |  * check image transfer belt cleaning mechanism - likely clogged * follow clog to source - augers may be jammed |
+| voids - no toner in thin line |  * chunks in development unit blocking developer flow - can attempt cleaning - insert thin mylar and clean back side of developer blade - or replace developer or development unit * scratch on drum |
+| identical voids or spots every several pages |  * scratch or foreign matter on image transfer belt |
+| large missing area (void) on pages - all colors |  * image transfer belt badly torn - will fail completely soon |
+| black funny plastic paper chunks found all over machine |  * image transfer belt torn * fuser belt torn |
+| light background on printed pages |  * potential sensor failed * problem with drum |
+| light dusting of toner all over inside of machine |  * developer worn out - replace - typically it will last a year or two depending on usage |
+| marks on back side of pages - copies and prints |  * Primary transfer roller issues - rebuild/replace |
+| brown marks on back side of pages |  * primary transfer roller issues - rebuild/replace |
+| fuser not warming up |  * thermistor or thermostat issue - check continuity on thermostats * fuser bulb broken * fuser bulb no continuity * some machines will lock you out after a fuser has overheated until you enter/leave service mode & reboot * other machines lock you out until a code is entered in service mode * other machines require a new microfuse to be installed in fuser (new unit detection) * Careful here, don't start any fires * don't cheat thermostats ever - replace them * if machine has inductive heating for fuser that unit may be in need of replacement |
+| fuser warm, but not not fusing toner to paper at all |  * check pressure mechanism of fuser * check ALL fuser bulbs are working - sometimes there is a bulb in pressure roller * clean thermistors * significantly wrong paper weight set |
+| toner not completely fused to paper |  * check ALL fuser bulbs are working - sometimes there is a bulb in pressure roller * check paper weight set in machine * increase temperature of fuser * clean thermistors and non-contact sensors for fuser * check fuser pressure mechanism * increase pressure |
+| ghost images printed after dark areas |  * increase pressure / temperature of fuser |

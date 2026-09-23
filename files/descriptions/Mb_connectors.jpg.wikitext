@@ -1,0 +1,18 @@
+<!--
+title:        File:Mb connectors.jpg
+pageid:       2400
+revid:        4890
+source:       https://repair.wiki/w/File:Mb_connectors.jpg
+history:      https://repair.wiki/index.php?title=File:Mb_connectors.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4890
+last_edited:  2024-09-20T11:49:00Z
+contributors: AnonRepair
+anonymous_edits: 0
+categories:   
+sha1:         8ead3cc81cad1985ac1a706751ffc4b18a444201
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Motherboard connectors and screws to remove

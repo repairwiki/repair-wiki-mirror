@@ -1,0 +1,93 @@
+---
+title: "IPhone 8 No Backlight or Dark Spot On Screen Repair"
+pageid: 1468
+revid: 3209
+kind: repair_guide
+source: "https://repair.wiki/w/IPhone_8_No_Backlight_or_Dark_Spot_On_Screen_Repair"
+history: "https://repair.wiki/index.php?title=IPhone_8_No_Backlight_or_Dark_Spot_On_Screen_Repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3209"
+last_edited: "2024-01-25T00:09:53Z"
+contributors:
+  - "KevinShort"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for IPhone 8"
+  - "Repair guides for IPhone 8 Plus"
+infobox:
+  Device: "IPhone 8, IPhone 8 Plus"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "Microscope, Multimeter, Soldering Equipment"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# IPhone 8 No Backlight or Dark Spot On Screen Repair
+
+## Problem description
+How to fix an iPhone 8 or iPhone 8 Plus backlight.
+![iPhone with no backlight](images/f/ff/IP7_No_Backlight.png)
+## Symptoms
+- Screen is dark
+- You can see an image but no light coming from screen
+- There's a dark spot on the corner
+
+## Solution
+### Diagnostic Steps
+### You'll want to check these first to confirm you have a board issue:
+- Get a known good screen — Helps validate that you have a board issue.
+- Check USB Charging Current — If an iPhone shows proper charging current (≈1 A via USB or more), then mostly likely the device is alive.
+- Listen to for any sounds or vibration — Helps confirm if the phone powers on.
+- Turn off the phone, then plug in the charger and shine a flashlight on the center of the screen to look for the Apple logo — This helps confirm you are getting image, but no backlight.
+- Check for water damage. Often times, the backlight circuit gets hit the hardest in water damage cases.
+- **TEST WITH CHARGING PORT UNPLUGGED.** Seen a few where liquid damage at the taptic engine (which connects through the charging port), will cause no backlight.
+  - In this case, replace the charging port and/or taptic engine.
+
+### Repair Steps
+In most cases, no backlight is caused by blown filters on the backlight circuit.
+Most commonly it's due to these Filters
+
+  - iPhone 8**
+
+- R5735
+- R5733
+- R5734
+
+  - iPhone 8 Plus**
+
+- R5730
+- R5733
+- R5735
+- R5731
+- R5732
+
+You'll need to use Diode mode on your multimeter to find the blown filter. (see video for the full process of diagnosing the backlight: https://www.youtube.com/watch?v=K-FFSMiHXPw)
+
+Since backlight comes from the LCD connector, this is the connector you want to check the diode mode readings. Essentially, you're comparing the diode mode values of a known good board vs your problematic board. Most boardview software, like ZXW, will provide the known good diode mode values and you can use that as reference. Expect to see a small ±5–10% variance of what you get.
+
+With a backlight issue, you should find a pin on the LCD connector to read OL, when it should be giving you a diode mode reading. This line with the OL is what you want to investigate further.
+
+These are the lines to expect to find an issue:
+
+- PP_DISPLAY_BL12_CAT1_CONN
+- PP_DISPLAY_BL12_ANODE_CONN
+- PP_DISPLAY_BL12_CAT2_CONN
+- PP_DISPLAY_BL34_CAT1_CONN (iPhone 8 only)
+- PP_DISPLAY_BL34_ANODE_CONN (iPhone 8 only)
+- PP_DISPLAY_BL34_CAT2_CONN (iPhone 8 only)
+
+Also, sometimes, you can get lucky and visually spot the blown filter, but it's recommended to use your multimeter to confirm it's bad, as well as check the rest are good.
+
+- A good/working filter will have continuity across it and will have the same diode mode reading on both sides
+- A blown filter will **not** have continuity across it. In diode mode, you'll find one side has a diode mode reading and the other side will have either OL or a reading that is a larger value than what it should be.
+
+The replacement filter should be the same value of the original. You can see the values in the schematic or boardview software like ZXW.
+
+  - Please Note:** Never use a jumper wire as a replacement for a filter. This can permanently damage the phone if a surge in current occurs and there's no filter to protect the circuit.
+
+Once you replace the filter, check that you be able to diode mode the connector again and find that the pin that was reading OL, is now giving you a proper reading.
+
+Now you can test again and confirm the backlight is working again.

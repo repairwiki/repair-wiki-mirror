@@ -1,0 +1,18 @@
+<!--
+title:        File:Panic Log Example of 0x400000.png
+pageid:       577
+revid:        1319
+source:       https://repair.wiki/w/File:Panic_Log_Example_of_0x400000.png
+history:      https://repair.wiki/index.php?title=File:Panic_Log_Example_of_0x400000.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1319
+last_edited:  2023-12-12T22:15:31Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         e35d8ef506a888b910014f00e4da84e58603f986
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Panic Log Example of 0x400000, which is due to the wireless charging flex being unplugged

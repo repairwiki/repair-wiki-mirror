@@ -1,0 +1,59 @@
+---
+title: "How To Fix iPhone 7 With A Home Button That Will Rapid Click When You Press It"
+pageid: 1474
+revid: 3363
+kind: repair_guide
+source: "https://repair.wiki/w/How_To_Fix_iPhone_7_With_A_Home_Button_That_Will_Rapid_Click_When_You_Press_It"
+history: "https://repair.wiki/index.php?title=How_To_Fix_iPhone_7_With_A_Home_Button_That_Will_Rapid_Click_When_You_Press_It&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3363"
+last_edited: "2024-02-09T12:44:38Z"
+contributors:
+  - "ASRepairs"
+  - "VCCBoardRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for IPhone 7"
+  - "Repair guides for IPhone 7 Plus"
+  - "Repair guides for IPhone 8"
+  - "Repair guides for IPhone 8 Plus"
+infobox:
+  Device: "IPhone 7, IPhone 7 Plus, IPhone 8, IPhone 8 Plus"
+  Affects_parts: "Home Button"
+  Needs_equipment: "Soldering Iron, Hot Air Station, Microscope"
+  Type: "BGA, Soldering"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# How To Fix iPhone 7 With A Home Button That Will Rapid Click When You Press It
+
+## Problem description
+How To Fix iPhone 7 With A Home Button That Will Rapid Click When You Press It.
+
+iPhone 7 and 7 Plus Home Buttons are paired to the phone, so you cannot replace the home button. If you do, the home button will completely stop functioning. No click and no Touch ID.
+
+Only Apple,  AASP, and IRP can replace home button and get home button function and Touch ID function working.
+## Symptoms
+- Home Button clicks really fast
+- Home button feels like a machine gun
+
+## Solution
+- If this occurred after a screen replacement, check the home button screen flex to see if there are any tears on it. See Figure 1:
+  - If you find tears, replace the screen
+
+![Figure 1. iPhone 7/7 Plus Home Button Flex on the Screen](images/4/4b/IP7_Screen_Home_Button_Flex.png)
+
+- Try placing the original home button into another known good screen to check if issue persists
+  - This will validate if the problem is in the screen somewhere.
+
+- Visually inspect the home button flex itself for any small tears
+  - If you find tears, you'll need to run jumpers to reconnect any broken traces. You can refer to ZXW. Select "Phone7P_Touch". This works for iPhone 7 and 7 Plus.
+- Visually inspect the small flex in the home button (the one that folds over). It often cracks and can cause this issue
+  - If so, you'll need to run jumpers to reconnect the broken traces. This small flex has about 3 lines that need to be jumped. You'll need to scrape the exterior layer and expose those 3 traces.
+- Visually inspect the small IC on the home button flex (Turtle IC U10) for any small cracks or small chips
+  - If so, you can replace the Turtle IC U10. It is not paired to the phone and can be replaced.
+- Visually inspect the metal circular part (the back side of the home button) to see if there's any signs of liquid damage
+  - If so, then there's corrosion inside causing the sensor not to function properly. It's not practical to fix, as it requires you to crack open the metal shell, which is not an easy process.

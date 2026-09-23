@@ -1,0 +1,18 @@
+<!--
+title:        File:Dualsense-5-joystick-solder.png
+pageid:       9597
+revid:        13867
+source:       https://repair.wiki/w/File:Dualsense-5-joystick-solder.png
+history:      https://repair.wiki/index.php?title=File:Dualsense-5-joystick-solder.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13867
+last_edited:  2026-02-08T00:45:29Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         d55851f8c44d34a3e258a1ce3293b4a0c7ae024d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Dualsense-5-joystick-solder

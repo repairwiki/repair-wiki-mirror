@@ -1,0 +1,18 @@
+<!--
+title:        File:Flex Connected.png
+pageid:       7824
+revid:        11557
+source:       https://repair.wiki/w/File:Flex_Connected.png
+history:      https://repair.wiki/index.php?title=File:Flex_Connected.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11557
+last_edited:  2025-09-14T21:16:46Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         0bbaf1034ebe72195eb52b86c1dfa2957694a514
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Flex Connected

@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Mini 7 - Mechanic Reader .png
+pageid:       3424
+revid:        6199
+source:       https://repair.wiki/w/File:IPad_Mini_7_-_Mechanic_Reader_.png
+history:      https://repair.wiki/index.php?title=File:IPad_Mini_7_-_Mechanic_Reader_.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6199
+last_edited:  2025-04-16T16:58:21Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         0af0109fcf6bec10f30347c65527092d4fde5825
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Mini 7 WiFi/Cellular Model - Known Good Mechanic Reader Values

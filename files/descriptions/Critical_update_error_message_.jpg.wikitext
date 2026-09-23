@@ -1,0 +1,18 @@
+<!--
+title:        File:Critical update error message .jpg
+pageid:       2255
+revid:        4646
+source:       https://repair.wiki/w/File:Critical_update_error_message_.jpg
+history:      https://repair.wiki/index.php?title=File:Critical_update_error_message_.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4646
+last_edited:  2024-08-19T15:16:53Z
+contributors: ProMoe
+anonymous_edits: 0
+categories:   
+sha1:         5073b2b5ba1e75850a4fbbe6ae8184dbcde29d15
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Critical update error message

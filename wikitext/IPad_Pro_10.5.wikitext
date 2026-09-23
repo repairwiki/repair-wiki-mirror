@@ -1,0 +1,46 @@
+<!--
+title:        IPad Pro 10.5
+pageid:       1247
+revid:        8916
+source:       https://repair.wiki/w/IPad_Pro_10.5
+history:      https://repair.wiki/index.php?title=IPad_Pro_10.5&action=history
+permalink:    https://repair.wiki/index.php?oldid=8916
+last_edited:  2025-07-21T23:27:12Z
+contributors: Tiago199988, KevinShort
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         1b8c3289604ddb48a4f9891a2914c30d9fb5c87c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1701, A1709
+|Device release date=2017-06-13
+|Device type=Tablet
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:IPad Pro 10.5.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

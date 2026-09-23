@@ -1,0 +1,18 @@
+<!--
+title:        File:Steam Deck Rev G Board L.jpg
+pageid:       9552
+revid:        13791
+source:       https://repair.wiki/w/File:Steam_Deck_Rev_G_Board_L.jpg
+history:      https://repair.wiki/index.php?title=File:Steam_Deck_Rev_G_Board_L.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13791
+last_edited:  2026-01-29T23:13:22Z
+contributors: Razimon
+anonymous_edits: 0
+categories:   
+sha1:         7d9e4a19c21fe7ba9a6d682eeefd296096cfcd1b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Board L (Rev. G) with L1 test pad marked

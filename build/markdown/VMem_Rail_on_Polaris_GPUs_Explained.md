@@ -1,0 +1,60 @@
+---
+title: "VMem Rail on Polaris GPUs Explained"
+pageid: 401
+revid: 885
+kind: explanatory_guide
+source: "https://repair.wiki/w/VMem_Rail_on_Polaris_GPUs_Explained"
+history: "https://repair.wiki/index.php?title=VMem_Rail_on_Polaris_GPUs_Explained&action=history"
+permalink: "https://repair.wiki/index.php?oldid=885"
+last_edited: "2023-11-07T19:41:59Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for RX 460"
+  - "Explanatory guides for RX 470"
+  - "Explanatory guides for RX 480"
+  - "Explanatory guides for RX 560"
+  - "Explanatory guides for RX 570"
+  - "Explanatory guides for RX 580"
+  - "Explanatory guides for RX 590"
+infobox:
+  Device: "RX 460, RX 470, RX 480, RX 560, RX 570, RX 580, RX 590"
+  Type: "Circuit"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# VMem Rail on Polaris GPUs Explained
+
+    - In this page, we'll delve into the VMem Rail on Polaris series graphics cards, exploring how it operates, its usage, and common problems.***
+
+## The Controller Circuit
+VMem refers to the voltage supplied to the memory chips on the graphics card. The controller for VMem is often the [http://www.gstekic.com/pdf/GS7256.pdf GS7256]. In some cases, the [https://pdf1.alldatasheet.pl/datasheet-pdf/view/1113871/UPI/UP1666Q.html UP1666Q] is used (found in certain Gigabyte models). This page will focus on the GS7256, which is the most common variant.
+
+The VCC supply for the controller can vary depending on the model, with some receiving it from the [5V rail](5V_Rail_on_Polaris_GPUs_Explained.md), while others utilize the 12V_EXT rail, as shown in the schematic.
+
+The Enable signal is controlled by the PGOOD (Power Good) signal from the [Display Rail](Display_Rail_on_Polaris_GPUs_Explained.md) controller, as depicted in Figure 3.
+![Location of Vmem on the RX 480 Reference board (Figure 1)](images/d/df/Polaris_vmem_board.jpg)
+![Schematic of the Vmem controller (Figure 2)](images/7/7c/Polaris_vmem_schematic.jpg)
+![Enable signal for the Vmem controller schematic (Figure 3)](images/f/fd/Polaris_vmem_en.jpg)
+It's important to note that while markings on the schematic and board may differ between GPU models, the core circuit design remains largely consistent.
+
+## Usage
+VMem, as the name suggests, is the voltage that powers the memory chips on the graphics card. Additionally, Vmem is directly supplied to the core, where it powers the memory controller logic.
+
+## Common Problems
+### No VMem Voltage
+Initiate your troubleshooting process by measuring the EN and VCC pins of the controller. If either of these pins is missing or shorted, the controller will not function. If both pins show as high, proceed to examine the FB circuit, as illustrated in Figure 2.
+
+If everything appears to be in order, yet VMem remains absent, it could be indicative of a malfunctioning MOSFET. MOSFETs often exhibit short circuits when they fail, but at times, they can cease functioning without shorting. You can verify this with an oscilloscope by measuring the gate of the MOSFET or the "UGATE" pin of the controller to confirm whether the controller is generating the PWM signal. If no signal is present, the controller is likely dead.
+
+In the event that the aforementioned checks are satisfactory but VMem is still missing, it may suggest a shorted VMem.
+
+### Short on Vmem
+[Short Circuits - Repair Basics](Short_Circuits_-_Repair_Basics.md)
+
+A VMem measurement of less than 10 Ohms often indicates a shorted memory chip. To identify this, you can inject 1V into Vmem and apply isopropyl alcohol to the memory chips. Observe if one or more of the memory chips heat up and evaporate the alcohol more rapidly than the rest. It may also be a shorted capacitor, if it is not either of those, the core itself may be shorted.

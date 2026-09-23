@@ -1,0 +1,18 @@
+<!--
+title:        File:L Playstation-5-HDMI-Encoder-IC-MN864739.jpg
+pageid:       3972
+revid:        6890
+source:       https://repair.wiki/w/File:L_Playstation-5-HDMI-Encoder-IC-MN864739.jpg
+history:      https://repair.wiki/index.php?title=File:L_Playstation-5-HDMI-Encoder-IC-MN864739.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6890
+last_edited:  2025-05-17T16:06:08Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         913f4d1dc7fc8bbb46622c8ab5260163d696d399
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PS5 HDMI chokes

@@ -1,0 +1,17 @@
+<!--
+title:        File:Pm281x black wire 220v position.jpg
+pageid:       9726
+revid:        14076
+source:       https://repair.wiki/w/File:Pm281x_black_wire_220v_position.jpg
+history:      https://repair.wiki/index.php?title=File:Pm281x_black_wire_220v_position.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=14076
+last_edited:  2026-02-23T04:19:37Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

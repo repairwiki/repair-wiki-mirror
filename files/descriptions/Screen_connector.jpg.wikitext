@@ -1,0 +1,18 @@
+<!--
+title:        File:Screen connector.jpg
+pageid:       2407
+revid:        4897
+source:       https://repair.wiki/w/File:Screen_connector.jpg
+history:      https://repair.wiki/index.php?title=File:Screen_connector.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4897
+last_edited:  2024-09-20T11:57:47Z
+contributors: AnonRepair
+anonymous_edits: 0
+categories:   
+sha1:         5e14e9e51090652abbdff69cfeb1bab88f665081
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Screen connector

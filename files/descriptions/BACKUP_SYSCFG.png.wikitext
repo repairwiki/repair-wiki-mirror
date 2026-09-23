@@ -1,0 +1,18 @@
+<!--
+title:        File:BACKUP SYSCFG.png
+pageid:       8808
+revid:        12815
+source:       https://repair.wiki/w/File:BACKUP_SYSCFG.png
+history:      https://repair.wiki/index.php?title=File:BACKUP_SYSCFG.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12815
+last_edited:  2025-11-23T02:29:14Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         b3d1ab6f0fac8bae3693b2178dda75c293964640
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+BACKUP SYSCFG

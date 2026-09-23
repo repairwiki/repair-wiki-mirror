@@ -1,0 +1,38 @@
+<!--
+title:        Micromaster 430 fault F0023 repair (faulty optocoupler)
+pageid:       1904
+revid:        4267
+source:       https://repair.wiki/w/Micromaster_430_fault_F0023_repair_(faulty_optocoupler)
+history:      https://repair.wiki/index.php?title=Micromaster_430_fault_F0023_repair_(faulty_optocoupler)&action=history
+permalink:    https://repair.wiki/index.php?oldid=4267
+last_edited:  2024-07-09T11:24:20Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Micro Master 430 6SE6430-2UD31-5CA0
+sha1:         7795f20fa01bbc07f1efabb230f61cb7ecd41863
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Micro Master 430 6SE6430-2UD31-5CA0
+|Affects parts=HCNW3120, 330Ohm, 2.7kOhm
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+
+==Problem description==
+Diagnosing and fixing error/fault code F0023 on Siemens micromaster 430 inverter/VFD. This particular guide concerns a faulty driving optocoupler.
+[[File:20240626 135216.jpg|thumb|Faulty phase (middle) showcase with lightbulbs (Figure 1)]]
+[[File:20240626 152924.jpg|thumb|Correctly functioning gate signal (Figure 2)]]
+[[File:20240626 152937.jpg|thumb|Faulty gate signal (Figure 3)]]
+[[File:20240626 151436.jpg|thumb|Faulty components (Figure 4)]]
+
+==Symptoms== 
+*Fault F0023 over 20Hz output frequency, "working" under 20Hz but choppy motor movement.
+*When starting the motor on low frequency (below 10Hz), it spins, stops, then spins again
+
+==Solution==
+First, check if the IGBT module itself is functioning and not faulty, use an LCR meter and measure all 6 output gates against their respective emitters. If the IGBT is fine, measure the signal going to it while running, BE VERY CAREFUL! IF YOU SHORT SOMETHING WHILE MEASURING THE GATES WHEN THE INVERTER IS RUNNING IT COULD EXPLODE!. I recommend soldering thin enameled wires from the gates and emitters for ease of measurement. In this case, one of the gates was not being driven properly, (figures 2,3). Tracked where the driving signal is coming from, it was from the right most opto coupler. The output side was fine (every component measured correctly, resistors and the SOT23 diodes) but after measuring the input side (figure 4), both resistors (330 and 2.7k) were different values. Although even when replaced, the inverter still acted weird. Turns out, even though the optocoupler diode measured fine (1.4v drop on pin 2-3) the output side was faulty. Replacing the optocoupler fixed this issue.

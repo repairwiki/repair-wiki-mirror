@@ -1,0 +1,100 @@
+<!--
+title:        PlayStation 5 Disk to Digital Conversion
+pageid:       3991
+revid:        7020
+source:       https://repair.wiki/w/PlayStation_5_Disk_to_Digital_Conversion
+history:      https://repair.wiki/index.php?title=PlayStation_5_Disk_to_Digital_Conversion&action=history
+permalink:    https://repair.wiki/index.php?oldid=7020
+last_edited:  2025-05-23T00:08:42Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for PlayStation 5, Stubs
+sha1:         375195e1271232751410069b685ea2d03d218b0a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=PlayStation 5
+|Affects parts=Motherboard, Disk Drive
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering
+|Difficulty=3. Hard}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+Just like the PlayStation 4, the disc drive in a PlayStation 5 is paired to the motherboard. When the PS5 cannot communicate with the Renesas chip, the console is unable to update the system firmware, resulting in errors such as SU-101312-8.
+[[File:SU-101312-8.webp|thumb|Error  SU-101312-8[[File:Ps5 bios location.jpg|thumb|PS5 Bios Chip Location]]]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* You purchased a disc version motherboard but are unable to reinstall the firmware.
+* The Renesas chip has failed.
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+As of May 18, 2025, there is no way to pair a new disc drive to the console. The only solution is to convert the motherboard to a Digital Version.
+
+'''''Note: This guide is only valid for the standard version of the PS5 (FAT).'''''
+
+=== Special Equiment Needed ===
+To convert the console from Disc to Digital, you will need an EEPROM Reader/Writer. The most popular model is the CH341A, which is affordable, reliable, and widely available on websites like AliExpress, eBay, Amazon, etc.
+
+You will also need a SOP8 adapter to connect the BIOS chip to the programmer.
+
+=== Repair Steps ===
+To convert the console to a Digital Version, you will need to modify specific values in the PS5 NOR (BIOS).
+
+The BIOS chip (25Q16JVNIM) is located next to the southbridge.
+
+==== Step 1: Remove the BIOS Chip ====
+
+* Locate the BIOS chip (25Q16JVNIM) next to the southbridge on the PS5 motherboard. Use a hot air station to carefully desolder the chip. Exercise caution and avoid excessive heat, as it can damage the chip.
+
+==== Step 2: Connect and Read the BIOS Chip ====
+
+* Solder the bios chip to the SOP8 adapter.
+* Connect the chip to the programmer.
+* Connect your programmer to the computer.
+* Read the chip and save a copy of the bios file on your computer it will create a .bin file.
+
+==== Step 3: Modify the BIOS File ====
+
+==== '''''Important: Before opening the BIOS file, create a backup copy.''''' ====
+To convert the motherboard to a Digital Version, modify two specific offsets in the BIOS file (0x1C7011 and 0x1C7038). Follow these steps.
+
+* Open the BIOS .bin file in a hex editor, such as HxD [https://mh-nexus.de/en/hxd/]
+* Press Ctrl + G, enter <code>001C7011</code>, and press Enter. This will navigate to the first address. The cursor will highlight a value of '''<code>02</code>'''. Change this value to <code>03</code>.
+* Press Ctrl + G again, enter <code>001C7038</code>, and press Enter. This will navigate to the second address. The cursor will highlight a value of <code>89</code>. Change this value to <code>8D</code>.
+* Save the modified BIOS file.
+Your File should look like the image bellow after the modifications
+[[File:PS5 Digital Modifications.jpg|left|thumb|500x500px|PS5 Digital Modifications]]
+
+
+
+
+==== Step 4: Write the Modified BIOS File ====
+Load the modified BIOS file into the programmer software. Write the new BIOS data to the chip using the EEPROM Reader/Writer.
+
+==== Step 5: Reattach the BIOS Chip ====
+Solder the BIOS chip back to the motherboard, ensuring it is in the same orientation as before. Reassemble the console. You may leave the disc drive disconnected if desired.
+
+==== Step 6: Reinstall PS5 Firmware ====
+Reinstall the PS5 system firmware. Follow the official guide on the PlayStation website for detailed instructions: PlayStation Support. [https://www.playstation.com/en-us/support/hardware/ps5/system-software/]
+
+== Final Testing ==
+'''Online Connectivity''': Connect the PS5 to the internet via Wi-Fi or Ethernet. Go to '''Settings > Network > Test Internet Connection''' to verify a successful connection.
+
+'''PlayStation Store Access''': Open the PlayStation Store, sign in with your PlayStation Network account, and confirm you can browse and download digital games or apps.
+
+'''Game Launch''': Download a small free-to-play game or demo from the PlayStation Store, install it, and verify it launches correctly.

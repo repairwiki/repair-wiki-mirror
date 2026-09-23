@@ -1,0 +1,58 @@
+<!--
+title:        Short Circuits - Repair Basics
+pageid:       341
+revid:        4381
+source:       https://repair.wiki/w/Short_Circuits_-_Repair_Basics
+history:      https://repair.wiki/index.php?title=Short_Circuits_-_Repair_Basics&action=history
+permalink:    https://repair.wiki/index.php?oldid=4381
+last_edited:  2024-07-17T14:29:10Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for General, Missing device page, Repair Basics
+sha1:         022ffc7def2ec2e517c4c0deaae342c3552f1dbe
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=General
+|Type=Idea/Concept
+|Difficulty=1. Easy
+}}
+This article provides an overview of short circuits, their causes, and how to diagnose and repair them in electrical circuits.
+
+== What is a short circuit? ==
+A short circuit is an electrical circuit that has an improper path to ground with no/low resistance. This usually happens when a component such as a capacitors or MOSFET dies, creating a path to ground. The failure can be caused by corrosion, blown capacitors, and so on.
+
+[https://www.youtube.com/watch?v=hoYIzmItja4 Here's a short introduction video]
+
+== Detecting a short ==
+If you encounter a situation where a voltage rail in your device either remains at 0 V or fails to reach its specified voltage, a potential issue may be a short circuit on that rail. However, it's important to first confirm whether the rail is being enabled since some voltage rails naturally have low resistance to ground between 0 and 1Ω (E.g. Power rails for CPUs, GPUs). When suspecting a short circuit on a rail, the initial step is always a visual inspection of the circuit board, checking for signs of corrosion, burnt or damaged components, discoloration, and similar anomalies.
+
+To determine if the rail is indeed shorted, you can use a multimeter in either diode or resistance mode. Ensure that the negative (black) probe is connected to the lower side of the rail, typically the ground (GND). Reversing the probe connection '''may''' yield low resistance readings due to internal protection diodes in integrated circuits (ICs), even in the absence of a short circuit.
+
+If the measurement shows a 0Ω (or 0V) reading from the rail to GND (0Ω assuming you account for the probe resistance, usually 0.4Ω), this unequivocally indicates the presence of a short circuit. In cases where non-zero values are measured, the severity of the issue depends on the voltage and current specifications of the rail.
+
+== Locating a short ==
+If you're dealing with a shorted rail in your device, the following steps can help you locate and address the issue. First, perform a thorough visual inspection of the circuit board, looking for telltale signs like burn marks, discoloration, solder bridges (particularly if the device has undergone prior repair work), or any components that appear physically damaged. Identifying these visual cues can speed up the repair significantly.
+
+If you find any components matching these descriptions, remove them and then check if the short circuit persists. If a visual inspection doesn't uncover any anomalies, cautiously power up the device and [https://www.youtube.com/watch?v=3GNkrQgiwJs&t=285s check if any components on the affected rail become notably hot]. Remove any shorted components discovered and check if the short remains. It's essential to exercise caution, as not every warm component is necessarily shorted. As a general guideline, components that become too hot to touch are likely damaged. Typically, the shorted component will heat up significantly faster than the rest.
+
+In cases where you cannot identify any additional shorted components using the methods mentioned above, and the short circuit still persists, [https://www.youtube.com/watch?v=0OZZdhLrOKo&t=289s you may need to inject voltage into the motherboard]. This approach is based on the idea that the area of the short circuit will have a higher current flow, resulting in increased heat generation. However, use extreme care when injecting voltage, as excessive voltage or current can potentially harm your device. Never inject voltage beyond a rail's specified voltage or current rating. Try to always start at 1V as it is usually safe for virtually all rails.
+
+Another technique involves injecting power into the shorted line while simultaneously using a thermal imaging camera to identify the hottest component, pinpointing the source of the short. Remove and inspect the identified component. Alternatively, you can use freeze spray (or just compressed air upside down while spraying) or isopropyl alcohol to identify the component that heats up the quickest.
+
+If you still can't locate the short, it suggests that the short might have very low resistance or may not exist at all. In this case, retrace your steps, removing any wires or makeshift connections you've added, and re-check for the short. Perform another visual inspection of the area surrounding the rail. It's also possible that another rail, generated from your suspected "shorted" rail, is shorted and causing the problem. "Dead" shorts, characterized by very low impedance, are often caused by solder bridges or power components like MOSFETs, diodes, or large capacitors. MOSFETs and diodes are typically well heatsinked, making it challenging to detect excessive power dissipation from a short. Voltage rails for the CPU or GPU usually measure as short circuits, making shorts on power rails for them difficult to identify due to their low resistance and high current characteristics. For reference, a CPU drawing 25 W at a 0.8 V core voltage has an equivalent "resistance" of just 25.6 mΩ and requires over 30 A, making it challenging to identify overheating components in such a rail.
+
+== Short Circuit Protection (AKA, "OCP" Over Current Protection) ==
+Nearly all power supplies, which serve as voltage rail generators, incorporate some form of short circuit protection, typically in the form of overcurrent protection. The following lines provide a brief overview of the most commonly utilized protection circuits:
+
+# The simplest method for implementing overcurrent protection involves the use of a resistor placed after the power supply. This approach is primarily employed in low-power circuitry, such as logic signals or low-power battery-operated devices like TV remotes. While it is cost-effective and dependable, it is notably inefficient and unsuitable for rails that demand precise voltage levels. Additionally, resistive overcurrent protection does not completely cut off power in the event of a fault; it merely limits the current to a maximum value determined by the resistor. For efficiency reasons, this limiting value should be set at least four times the nominal power draw.
+# Fusing is another common method of short circuit protection. In this approach, a device physically interrupts the power supply if the current draw exceeds a specified threshold. One of the primary advantages of using fuses is that they effectively disconnect the power, preventing further damage to the short-circuited device, which is crucial in high-power circuits like house wiring or the electricity grid. Fuses are predominantly used in high-power applications (above 100 W), where resistive protection is not cost-effective or feasible. However, most fuses are single-use, necessitating replacement after a fault. Resettable fuses, like circuit breakers, and self-resetting fuses such as Poly-Fuse, for low power applications and [[Resistors - Repair Basics|PTC resistors]] are available for higher power applications.
+# Active current limiting is another method of short circuit protection, commonly found in switching power supplies. In this method, a controller measures the current draw on a supply rail. If the current exceeds a predefined threshold, the controller either reduces the voltage (as seen in lab power supplies) or completely shuts off the supply (as seen in most switching power supplies, except lab power supplies). If the supply is shut off, the controller determines when and if the supply should be reactivated. In most cases, the supply is configured to shut off when an overcurrent (short circuit) is detected, and it is turned on again after a period. If the short circuit has not been rectified, the supply will shut off again. In higher-power supplies, this might manifest as a "clicking" sound (often referred to as "power cycling") and may be observed on a voltmeter as an unstable voltage output.
+
+== YouTube Video Playlist for short circuits ==
+[https://www.youtube.com/playlist?list=PLkVbIsAWN2ltSxcN9uk-ZVJLNmvZvYmsW&pbjreload=102 Click here]
+
+[[Category:Repair_Basics| ]]

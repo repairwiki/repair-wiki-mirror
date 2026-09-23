@@ -1,0 +1,18 @@
+<!--
+title:        File:Fig. 2 Notepad ++ Wrong SREC Checksum.jpg
+pageid:       2521
+revid:        5094
+source:       https://repair.wiki/w/File:Fig._2_Notepad_%2B%2B_Wrong_SREC_Checksum.jpg
+history:      https://repair.wiki/index.php?title=File:Fig._2_Notepad_%2B%2B_Wrong_SREC_Checksum.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5094
+last_edited:  2024-10-21T20:59:33Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         7298f4eecb55c499168d02134889a334f4ff4259
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Notepad ++ Wrong SREC Checksum

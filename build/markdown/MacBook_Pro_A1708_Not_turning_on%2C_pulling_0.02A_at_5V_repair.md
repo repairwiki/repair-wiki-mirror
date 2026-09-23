@@ -1,0 +1,40 @@
+---
+title: "MacBook Pro A1708 Not turning on, pulling 0.02A at 5V repair"
+pageid: 187
+revid: 12457
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A1708_Not_turning_on,_pulling_0.02A_at_5V_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A1708_Not_turning_on,_pulling_0.02A_at_5V_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=12457"
+last_edited: "2025-10-28T06:38:10Z"
+contributors:
+  - "ASRepairs"
+  - "JoshMaer"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A1708"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A1708"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A1708 Not turning on, pulling 0.02A at 5V repair
+
+## Problem description
+No Power, 5v and ~0.02A current draw on the A1708 MacBook diagnosis and repair.
+![Example image (Figure 1) -- U2800](images/f/f0/FB_IMG_1761628770499.jpg)
+
+## Symptoms
+- Not turning on
+- Charger stuck at 5V with a current draw of 20 milliamps as measured by a USB-C meter
+
+## Solution
+Remove the shield over U2800 (Figure 1), clean and inspect all components around it, reflow if necessary.

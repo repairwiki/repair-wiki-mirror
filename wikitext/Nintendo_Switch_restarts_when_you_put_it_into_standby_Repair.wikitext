@@ -1,0 +1,34 @@
+<!--
+title:        Nintendo Switch restarts when you put it into standby Repair
+pageid:       905
+revid:        2211
+source:       https://repair.wiki/w/Nintendo_Switch_restarts_when_you_put_it_into_standby_Repair
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_restarts_when_you_put_it_into_standby_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2211
+last_edited:  2024-01-13T16:24:44Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Switch, Stubs
+sha1:         2321ab133e60842daa61547fdb87e8415198b0a2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Main Logic Board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+== Problem description ==
+Fixing a problem where the Switch restarts when you put it into standby
+
+== Symptoms ==
+
+* Switch restarts when you put it into standby
+
+== Solution ==
+Check the mosfets above the usb type c port, [[Transistors - Repair Basics|click here to learn more about MOSFETs]] and how to check them. Replace them if faulty.

@@ -1,0 +1,18 @@
+<!--
+title:        File:Ic's to check.png
+pageid:       7107
+revid:        10630
+source:       https://repair.wiki/w/File:Ic's_to_check.png
+history:      https://repair.wiki/index.php?title=File:Ic's_to_check.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10630
+last_edited:  2025-08-24T19:18:57Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         091399d6e415c9eb728d7b71705c3ed2655a5392
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+ic's to check

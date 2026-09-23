@@ -1,0 +1,40 @@
+---
+title: "MacBook Pro A1708 No sound/audio, sound card is not showing up in the system repair"
+pageid: 186
+revid: 438
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A1708_No_sound/audio,_sound_card_is_not_showing_up_in_the_system_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A1708_No_sound/audio,_sound_card_is_not_showing_up_in_the_system_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=438"
+last_edited: "2023-10-27T10:12:31Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A1708"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A1708"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A1708 No sound/audio, sound card is not showing up in the system repair
+
+## Problem description
+When A1708 is not playing audio and the audio device is not showing up in the system
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- No audio out
+- Sound card not showing up in the system
+
+## Solution
+It could be a chipped off R2041 on the backside of the CPU, so no AUD_PWR_EN on L6361 and therefore only 0.3 V on L83_1V8 for the U6300 chip. Installed new resistor and sound card shows up.
+
+You may want to check these four main ICs responsible for sound on the 820-00840/00875 boards U6200/6300/6400/6420. Compare diode mode reading with known good board in regard to these ICs. Also refer to schematic and check VIN, enables, data lines (U6400/6420 AUD_I2C_SDA/ AUD_I2C_SCL) etc. Check values of all resistors associated with these four ICs (refer to schematic for values)

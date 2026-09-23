@@ -1,0 +1,18 @@
+<!--
+title:        File:Program to run.png
+pageid:       9312
+revid:        13523
+source:       https://repair.wiki/w/File:Program_to_run.png
+history:      https://repair.wiki/index.php?title=File:Program_to_run.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13523
+last_edited:  2026-01-01T21:26:56Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         ea2dd3da098683525e0ec734a7d66c81957a4eac
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Program to run

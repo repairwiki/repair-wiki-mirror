@@ -1,0 +1,17 @@
+<!--
+title:        File:J4100 ipad 6 a1954 diode values v1.jpg
+pageid:       2151
+revid:        4467
+source:       https://repair.wiki/w/File:J4100_ipad_6_a1954_diode_values_v1.jpg
+history:      https://repair.wiki/index.php?title=File:J4100_ipad_6_a1954_diode_values_v1.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4467
+last_edited:  2024-07-19T05:56:11Z
+contributors: A1Repairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

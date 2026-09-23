@@ -1,0 +1,18 @@
+<!--
+title:        File:Solderclump.jpg
+pageid:       535
+revid:        1164
+source:       https://repair.wiki/w/File:Solderclump.jpg
+history:      https://repair.wiki/index.php?title=File:Solderclump.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1164
+last_edited:  2023-11-15T18:33:58Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         6957168959f3e69c25165e21fb0c02095b647942
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Solderclump

@@ -1,0 +1,86 @@
+---
+title: "MacBook Air A1932 Not turning on, missing P5VG3S EN signal repair"
+pageid: 163
+revid: 448
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Air_A1932_Not_turning_on,_missing_P5VG3S_EN_signal_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Air_A1932_Not_turning_on,_missing_P5VG3S_EN_signal_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=448"
+last_edited: "2023-10-29T15:17:25Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Air A1932"
+  - "Stubs"
+infobox:
+  Device: "MacBook Air A1932"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station, thermal camera"
+  Type: "Soldering, Software"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Air A1932 Not turning on, missing P5VG3S EN signal repair
+
+## Problem description
+When the 820-01521 board is not turning on and P5VG3S_EN signal is missing, it might be a dead or corrupted T2 chip.
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- MacBook not turning on
+- P5VG3S_EN signal is low or missing
+
+## Solution
+### Diagnostic Steps
+#### Check for DFU or Recovery Mode
+- Connect the MacBook to another Mac via the master port (*Left side, bottom port, closest to the trackpad)* and use Apple Configurator 2 to verify if it's in DFU mode.
+- If in DFU mode, proceed to "Device stuck in DFU mode due to corrupt T2 firmware" repair steps.
+
+#### Check voltages that U7800 outputs
+- PP1v8_SLPS2R - Normal voltage ~1.8v
+- PP1v1_SLPS2R - Normal voltage ~1.1v
+- PP0v9_SLPDDR - Normal voltage ~ 0.9v
+- PPVDDCPU_AWAKE ~ Normal voltage ~ 1.06v
+- PP0v82_SLPDDR ~ Normal voltage ~ 0.82v
+
+If any of the above rails is missing, U7800 may be bad, the rail may be shorted, or the T2 may not be communicating with U7800. Many of these rails have very low resistance to ground as they power the CPU portion of the T2. Do not assume you have a short until you have compared it to a known good board. Many of these rails will read 50-100 Ω to ground. PP1v8_SLPS2R is an exception, with its resistance normally being well within kilo-ohms.
+
+A missing SLP or AWAKE voltage listed above without a short to ground (Less than 10 ohms usually), with P5VG3S_EN missing is suggestive of an issue with U7800.
+
+#### T2 may not be communicating properly with U7800
+If all SLP and AWAKE voltages are present at their normal voltages, the T2 may not be communicating properly with U7800. Attempt to force the device into DFU mode to reflash the T2's firmware. Proceed to repair steps below for "Forcing device into DFU mode to reflash T2 firmware"
+
+### Repair Steps
+#### Device stuck in DFU mode due to corrupt T2 firmware
+- Revive or restore T2 firmware via Apple Configurator 2.
+- Ensure you're running the latest macOS version for consistent results.
+- [https://support.apple.com/guide/apple-configurator-mac/revive-or-restore-an-intel-based-mac-apdebea5be51/mac Follow the provided Apple support article for the procedure.]
+- You should see a big square icon pop up that says "DFU" or rarely, "RECOVERY". Click the icon, Navigate to the top menu bar click "Actions" then "Advanced". Select Revive device. You will see a progress bar appear. This process can take anywhere from 2 minutes to over 30 minutes in some cases. It is important to note, if the device is in Recovery mode, the end user may have brought the device to another repair shop or Apple first, who attempted a DFU revive which failed. You may have a secondary issue if the revive fails again.
+    - SELECTING RESTORE WILL WIPE ALL USER DATA!**
+
+#### Missing SLP or AWAKE voltage without the presence of a short to ground
+REMEMBER, Many of the SLP and AWAKE lines will naturally have low resistance to ground !!
+
+Replace U7800.
+
+#### Missing SLP or AWAKE voltage with the presence of a short to ground.
+[How to find short circuits](How_to_find_short_circuits.md)
+
+Unfortunately, many times when a SLP or AWAKE voltage is shorted to ground, it will be due to a failed T2 chip, which would render the board beyond repair, however in some cases, a capacitor, or U7800 itself will be the cause of the short circuit.
+
+Use short detection strategies to find the short circuit and replace the shorted component. Do not inject a higher voltage than the line creates. *Example: Do not inject higher than 0.82v on PP0v82_SLPDDR*
+
+#### Forcing the device into DFU mode to reflash T2/BridgeOs firmware
+Attempt to restore BridgeOs firmware via Apple Configurator 2 by placing the device into DFU mode.
+
+STOP! Before you begin, is your Mac on the LATEST VERSION of MacOs? If not, update your system before proceeding. Forcing a MacBook into DFU mode, and attempting to restore BridgeOs firmware on a old version of MacOs may result in a bricked device.
+
+Follow the instructions on this [https://support.apple.com/guide/apple-configurator-2/revive-or-restore-an-intel-based-mac-apdebea5be51/mac Apple support article] on how to revive or restore T2/BridgeOs firmware, including on how to force a Intel based MacBook into DFU mode by using a key combination.
+
+If the device fails the firmware revive or restore, the T2 chip or U7800 may be the cause of the failure.
+
+  - If all SLP and AWAKE voltages are present, and a DFU revive fails, replace U7800 empirically. If the problem persists after replacing U7800, the T2 chip is the likely cause of the fault, and a diagnosis of a failed T2 chip can be made.**

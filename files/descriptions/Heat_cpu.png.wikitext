@@ -1,0 +1,18 @@
+<!--
+title:        File:Heat cpu.png
+pageid:       2357
+revid:        4835
+source:       https://repair.wiki/w/File:Heat_cpu.png
+history:      https://repair.wiki/index.php?title=File:Heat_cpu.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4835
+last_edited:  2024-09-09T06:24:07Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         01e78188116b3217156b3fa8e3995229c7675fa3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Heat the CPU in circles

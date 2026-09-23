@@ -1,0 +1,62 @@
+<!--
+title:        Template:Note
+pageid:       115
+revid:        273
+source:       https://repair.wiki/w/Template:Note
+history:      https://repair.wiki/index.php?title=Template:Note&action=history
+permalink:    https://repair.wiki/index.php?oldid=273
+last_edited:  2023-10-07T20:00:21Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         9ca8639dde6299d75c337d46db3ef58bf3fb0294
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<languages/>
+<onlyinclude>{{#if: {{{1|{{{content|{{{text|{{{demo|<noinclude>demo</noinclude>}}}}}}}}}}}} | <templatestyles src="Note/styles.css" /><div role="note" class="note note-{{#switch: {{{2|{{{type|}}}}}}
+    |gotcha=error
+    |warning=warn
+    |notice=info
+    |=info
+    |#default={{{2|{{{type|}}}}}}
+    }} {{#ifeq:{{{inline|}}}|1|note-inline}}">{{{1|{{{content|{{{text}}}}}}}}}</div>
+  | [[File:OOjs UI icon lightbulb-yellow.svg|18px|alt=<translate><!--T:1--> Note</translate>|link=]]&nbsp;'''<translate><!--T:2--> Note:</translate>''' }}<!--
+--></onlyinclude>
+{{documentation|content=
+<translate>
+== Usage == <!--T:3-->
+</translate>
+<pre>
+{{Note|text=Foo}}
+{{Note|type=info|text=Foo}}
+{{Note|type=reminder|text=Foo}}
+{{Note|type=reminder|text=Multiple<br>lines<br>of<br>text}}
+{{Note|type=warn|text=Foo}}
+{{Note|type=error|text=Foo}}
+{{Note}} <translate nowrap><!--T:6--> Loose test</translate>
+
+* Text {{Note|inline=1|text=Foo}}
+</pre>
+{{Note|text=Foo}}
+{{Note|type=info|text=Foo}}
+{{Note|type=reminder|text=Foo}}
+{{Note|type=reminder|text=Multiple<br>lines<br>of<br>text}}
+{{Note|type=warn|text=Foo}}
+{{Note|type=error|text=Foo}}
+{{Note}} <translate><!--T:4--> Loose test</translate>
+
+* Text {{Note|inline=1|text=Foo}}
+
+== Parameters ==
+
+{{Note/doc}}
+
+== See also ==
+* {{tl|warn}}, shortcut for this template with <code>type=warning</code>.
+* {{tl|mbox}}, and in particular the namespace-agnostic {{tl|ombox}}, which by default resembles a typical "info" template.
+
+}}
+[[Category:Templates{{#translation:}}|{{PAGENAME}}]]

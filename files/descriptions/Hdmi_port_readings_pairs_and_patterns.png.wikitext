@@ -1,0 +1,18 @@
+<!--
+title:        File:Hdmi port readings pairs and patterns.png
+pageid:       8815
+revid:        12826
+source:       https://repair.wiki/w/File:Hdmi_port_readings_pairs_and_patterns.png
+history:      https://repair.wiki/index.php?title=File:Hdmi_port_readings_pairs_and_patterns.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12826
+last_edited:  2025-11-23T06:58:26Z
+contributors: Ben ProFixerr
+anonymous_edits: 0
+categories:   
+sha1:         b3b44a3360c013e864507db67a542c2102d47c01
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Hdmi port readings pairs and patterns

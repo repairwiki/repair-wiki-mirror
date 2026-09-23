@@ -1,0 +1,18 @@
+<!--
+title:        File:Ecotality PE-30 overview.jpg
+pageid:       2165
+revid:        4505
+source:       https://repair.wiki/w/File:Ecotality_PE-30_overview.jpg
+history:      https://repair.wiki/index.php?title=File:Ecotality_PE-30_overview.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4505
+last_edited:  2024-07-25T22:50:33Z
+contributors: ChrisC
+anonymous_edits: 0
+categories:   
+sha1:         7d4762747541454fa793e48fcaf1e137dcc68e4f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+view of PE-30 hardware, including shorter ADA config

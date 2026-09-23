@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad 10 Audio IC Chip Location.png
+pageid:       3355
+revid:        6105
+source:       https://repair.wiki/w/File:IPad_10_Audio_IC_Chip_Location.png
+history:      https://repair.wiki/index.php?title=File:IPad_10_Audio_IC_Chip_Location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6105
+last_edited:  2025-04-03T01:25:04Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         9f2649f5467aa5205021c88827fdbc0df3fc5303
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad 10 Audio IC Chip Location

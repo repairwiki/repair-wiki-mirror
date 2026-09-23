@@ -1,0 +1,18 @@
+<!--
+title:        File:Zotac 1080Ti after removing the core (Figure 3).jpg
+pageid:       1639
+revid:        3592
+source:       https://repair.wiki/w/File:Zotac_1080Ti_after_removing_the_core_(Figure_3).jpg
+history:      https://repair.wiki/index.php?title=File:Zotac_1080Ti_after_removing_the_core_(Figure_3).jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3592
+last_edited:  2024-03-07T15:32:18Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         4ff874771b9d0df38a055977ba04a3d54bbb1c80
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Zotac 1080Ti after removing the core (Figure 3)

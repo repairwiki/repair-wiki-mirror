@@ -1,0 +1,43 @@
+<!--
+title:        Template:Device page/Example
+pageid:       40
+revid:        4180
+source:       https://repair.wiki/w/Template:Device_page/Example
+history:      https://repair.wiki/index.php?title=Template:Device_page/Example&action=history
+permalink:    https://repair.wiki/index.php?oldid=4180
+last_edited:  2024-07-01T10:56:55Z
+contributors: Admin, ASRepairs
+anonymous_edits: 0
+categories:   Device, Stubs
+sha1:         f6314b1a2e859c07af40c98274302fd3e1afb8f1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

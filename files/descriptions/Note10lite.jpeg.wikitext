@@ -1,0 +1,19 @@
+<!--
+title:        File:Note10lite.jpeg
+pageid:       3714
+revid:        6532
+source:       https://repair.wiki/w/File:Note10lite.jpeg
+history:      https://repair.wiki/index.php?title=File:Note10lite.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6532
+last_edited:  2025-05-12T16:28:02Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         835b37d66ec0dbc4dbbcf052c427c65f9f9774c0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Galaxy Note 10 Lite USB C readings from a good working phone

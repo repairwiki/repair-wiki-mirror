@@ -1,0 +1,18 @@
+<!--
+title:        File:Thermal signature.jpg
+pageid:       3133
+revid:        5855
+source:       https://repair.wiki/w/File:Thermal_signature.jpg
+history:      https://repair.wiki/index.php?title=File:Thermal_signature.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5855
+last_edited:  2025-03-09T19:20:35Z
+contributors: LetUsRepair
+anonymous_edits: 0
+categories:   
+sha1:         5ac0c12365824262e78aad5df00430f08289c007
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Image showing thermal signature of a shorted component, on an A1708 (820-00840).

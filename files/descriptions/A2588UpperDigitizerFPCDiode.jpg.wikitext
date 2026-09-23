@@ -1,0 +1,18 @@
+<!--
+title:        File:A2588UpperDigitizerFPCDiode.jpg
+pageid:       1582
+revid:        3443
+source:       https://repair.wiki/w/File:A2588UpperDigitizerFPCDiode.jpg
+history:      https://repair.wiki/index.php?title=File:A2588UpperDigitizerFPCDiode.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3443
+last_edited:  2024-02-22T06:50:12Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         729aaa67f6dfa2004cbbaeafcbcc9d7612b0507f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Air 5 - #3 Upper digitizer connector

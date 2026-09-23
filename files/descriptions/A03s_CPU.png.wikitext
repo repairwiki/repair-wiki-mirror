@@ -1,0 +1,18 @@
+<!--
+title:        File:A03s CPU.png
+pageid:       2238
+revid:        4622
+source:       https://repair.wiki/w/File:A03s_CPU.png
+history:      https://repair.wiki/index.php?title=File:A03s_CPU.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4622
+last_edited:  2024-08-12T07:01:00Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         c3dea41df8a5e503a9c85a65bdd25d2e3373b86a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A03s CPU

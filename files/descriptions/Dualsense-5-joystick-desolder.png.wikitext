@@ -1,0 +1,18 @@
+<!--
+title:        File:Dualsense-5-joystick-desolder.png
+pageid:       9598
+revid:        13868
+source:       https://repair.wiki/w/File:Dualsense-5-joystick-desolder.png
+history:      https://repair.wiki/index.php?title=File:Dualsense-5-joystick-desolder.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13868
+last_edited:  2026-02-08T00:47:23Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         d0ee06497413308375abeddf90aecab407fef898
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Dualsense-5-joystick-desolder

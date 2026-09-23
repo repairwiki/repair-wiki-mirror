@@ -1,0 +1,20 @@
+<!--
+title:        Template:ContainerColumnNoTitle
+pageid:       831
+revid:        1989
+source:       https://repair.wiki/w/Template:ContainerColumnNoTitle
+history:      https://repair.wiki/index.php?title=Template:ContainerColumnNoTitle&action=history
+permalink:    https://repair.wiki/index.php?oldid=1989
+last_edited:  2024-01-10T22:55:33Z
+contributors: Admin
+anonymous_edits: 0
+categories:   
+sha1:         f4cf4f44e2f4f19f4178b423c21288af30a4534f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<div class="frontpage-container-column">
+  <div class="frontpage-container-content">{{{1}}}</div>
+</div>

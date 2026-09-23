@@ -1,0 +1,61 @@
+---
+title: "MacBook Pro A1708 Charger stuck at 5V instead of 20V repair"
+pageid: 178
+revid: 3691
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A1708_Charger_stuck_at_5V_instead_of_20V_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A1708_Charger_stuck_at_5V_instead_of_20V_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3691"
+last_edited: "2024-03-21T09:35:19Z"
+contributors:
+  - "ASRepairs"
+  - "IFixNC Beau"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A1708"
+infobox:
+  Device: "MacBook Pro A1708"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station, thermal camera"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A1708 Charger stuck at 5V instead of 20V repair
+
+## Problem description
+Charging voltage from USB-C charger is stuck at 5V instead of 20V.
+
+For more information about this problem, check [Charger stuck at 5V instead of 20V on MacBooks](Charger_stuck_at_5V_instead_of_20V_on_MacBooks.md)
+![Location of C6465 capacitor on the board view (Figure 1)](images/7/79/Screen_Shot_2024-03-20_at_4.10.10_PM.png)
+
+## Symptoms
+- Not charging
+- Most likely not turning on
+- Drawing very little current
+
+## Solution
+- If 5 V and 0.00 A draw, most likely a 0–1 Ω short to ground on PP3V3_G3H
+- PP3V3_G3H missing due to a short circuit on the input to PP3V3_G3H creation circuit
+- Check for short on PP3V3_G3H with multimeter in diode mode. A good place to check is C6465. If short, inject 3v at 1a to find the short. If a short is found and repaired, ISL 9239 may also be bad due to the short.
+
+[https://www.youtube.com/watch?v=gBAZCUShuU4 Example video] (board taking 35 mA, 160 Ω short on PPVIN_G3H_P3V3G3H (input PP3V3_G3H creation circuit), fixed by replacing 3 capacitors and 1 diode)
+
+- 5 V varying slightly around 0.05 A, repaired by reflowing with hot air and flux U2800 (TBT ALPINE RIDGE chip) and components around through the aluminium enclosure
+- Corroded LDO capacitor for PP3V3_G3H around a CD3215
+- PP3V3_G3H missing due to PM_EN_P3V3_G3H missing due to bad ISL9239
+
+[https://www.youtube.com/watch?v=myhB6dcm5lE Example video] (device not turning on, charger taking 0 mA)
+
+- Bad CD3215
+- Bad CD3215 ROM chip (U2890)
+- Bad solder of R3000 or R3001 resistor (not passing PP3V3_G3H through to one of the CD3215s)
+- Bad / dead ISL9239 — it needs to make the enable for the 3.3 V regulator (U6990), PM_EN_P3V3_G3H
+- Bad / dead SMC — it needs to talk to the CD3215s to tell them to go to 20 V
+- Bad pi3usb32 (USB switch, not present on boardview, located next to usb ports)
+
+[https://www.youtube.com/watch?v=nX7RwlTbHTQ Example video] (PP3V3_G3H 0.3 V, resistance to ground measured as 380 kΩ, active short caused by pi3usb32, found by using thermal camera)

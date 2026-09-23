@@ -1,0 +1,23 @@
+<!--
+title:        Template:FrontpageContainerColumn
+pageid:       581
+revid:        1336
+source:       https://repair.wiki/w/Template:FrontpageContainerColumn
+history:      https://repair.wiki/index.php?title=Template:FrontpageContainerColumn&action=history
+permalink:    https://repair.wiki/index.php?oldid=1336
+last_edited:  2023-12-12T23:17:27Z
+contributors: Admin
+anonymous_edits: 0
+categories:   
+sha1:         ae87c62f0f854e0e7206e79d36b8ba9f6f263c23
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<div class="frontpage-container-column">
+  <div class="frontpage-container-heading">
+    <h2>{{{1}}}</h2>
+  </div>
+  <div class="frontpage-container-content">{{{2}}}</div>
+</div>

@@ -1,0 +1,155 @@
+<!--
+title:        How To Repair PS4 Overheating
+pageid:       8814
+revid:        12927
+source:       https://repair.wiki/w/How_To_Repair_PS4_Overheating
+history:      https://repair.wiki/index.php?title=How_To_Repair_PS4_Overheating&action=history
+permalink:    https://repair.wiki/index.php?oldid=12927
+last_edited:  2025-11-30T05:24:44Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Playstation 4, Repair guides for Playstation 4 Pro, Repair guides for Playstation 4 Slim, Stubs
+sha1:         50b4c9852889d07e07e45befdb6f552e2fefcf22
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Playstation 4, Playstation 4 Pro, Playstation 4 Slim
+|Affects parts=Cooling Fan
+|Needs equipment=Screwdrivers, Prying Tools
+|Type=Part Replacement
+|Difficulty=2. Medium
+}}
+== Problem description ==
+PS4 (all variants – Fat / Slim / Pro) overheats, becomes extremely loud, or shuts down with the message:<blockquote>“The PS4 is too hot. Turn off the PS4 and wait until the temperature goes down.”</blockquote>Most common causes:
+
+* Dust-clogged heatsink & vents
+* Fan not spinning (failed fan or power rail issue)
+* Dry or worn-out thermal paste
+* Obstructed airflow due to pet hair, smoke residues, or environmental buildup
+* Incorrect reassembly after previous repair
+[[File:Ps4-overheat-warning.jpg|thumb|PS4 Overheating Warning]]
+[[File:PS4 FAN.png|thumb|Playstation 4 Cooling FAN]]
+
+== Symptoms ==
+
+* Loud jet-engine noise before shutdown
+* Immediate shutdown after launching a game
+* Overheating warning
+* No fan spin on boot
+* Random frame drops or lag (thermal throttling)
+* Hot bottom shell or rear grill
+* Fan oscillates or starts/ stops suddenly
+
+[[File:PSE4 DRY THERMAL.png|thumb|Playstation 4 Dry Thermal Paste]]
+
+== Solution ==
+[[File:PS4 HEATSINK.png|thumb|Playstation 4 Heatsink]]
+
+=== Diagnostic Steps ===
+
+==== 1. External Inspection ====
+
+* Check air vents for dust buildup
+* Confirm console placement (not inside a closed cabinet)
+* Check for pet hair, cigarette tar, debris
+
+----
+
+==== 2. Boot Test ====
+
+* Power on the PS4 while watching the fan:
+** Spins at boot = Fan OK
+** Clicks or hesitates/No spin = Worn bearings or mechanical fan fault
+
+----
+
+==== 3. Thermal Paste Check ====
+If PS4 has never been serviced:
+
+* Thermal paste is usually dry
+* Dust likely packed inside heatsink fins
+
+----
+
+==== 4. Heatsink Airflow Check ====
+Common issue: packed dust wall between fan and heatsink.
+
+=== Repair Steps ===
+
+==== 1. Disassembly ====
+(Varies by PS4 model)
+
+* Remove top cover
+* Remove power supply (PS4 Fat)
+* Disconnect fan connector
+* Remove motherboard
+* Extract entire cooling assembly
+
+----
+
+==== 2. Cleaning (Critical Step) ====
+
+===== Fan Cleaning =====
+
+* Use compressed air + soft brush
+* Spin fan manually to verify smooth rotation
+* If grinding noise → Replace fan
+
+===== Vents & Shell =====
+
+* Clean rear vents and side inlets thoroughly
+* Remove dust mats (large clumps)
+
+===== Heatsink Cleaning =====
+
+* Remove old dust “blanket” from heatsink fins
+* Flush with air from both directions
+
+----
+
+==== 3. Thermal Paste Replacement ====
+
+* Remove old paste from APU and heatsink using isopropyl alcohol
+* Apply high-quality thermal paste (Arctic MX-4 / Arctic Silver / Noctua NT-H1)
+* Ensure full flat contact with even pressure
+
+----
+
+==== 4. Reassemble the Cooling System ====
+
+* Reinstall heatsink securely
+* Ensure all screws (especially pressure screws) are tightened in X pattern
+* Reconnect fan carefully
+* Reassemble the rest of the console
+
+----
+
+=== 5. Replace Fan (If Dead) ===
+
+==== When to replace: ====
+
+* No spin at boot
+* Weak or intermittent spin
+* Noise from bearings
+* Burnt smell or discoloration
+
+==== Part requirements: ====
+
+* Model-specific fan (PS4 Fat, Slim, Pro each use different connectors)
+
+Replace fan → test again.
+----
+
+==== Verification ====
+After reassembly:
+
+* Boot console → fan should spin immediately
+* Run a game for 20–30 minutes
+* No overheating message
+* Fan ramps gradually, not instantly
+* Rear exhaust warm (normal)
+* System stable under stress

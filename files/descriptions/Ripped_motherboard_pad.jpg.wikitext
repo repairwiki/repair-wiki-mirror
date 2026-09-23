@@ -1,0 +1,18 @@
+<!--
+title:        File:Ripped motherboard pad.jpg
+pageid:       4239
+revid:        7241
+source:       https://repair.wiki/w/File:Ripped_motherboard_pad.jpg
+history:      https://repair.wiki/index.php?title=File:Ripped_motherboard_pad.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7241
+last_edited:  2025-05-31T23:25:13Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         f445600f58a2560a48c7bc0ebc905ccd821d301b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ripped motherboard pad

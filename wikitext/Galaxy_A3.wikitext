@@ -1,0 +1,46 @@
+<!--
+title:        Galaxy A3
+pageid:       3905
+revid:        6799
+source:       https://repair.wiki/w/Galaxy_A3
+history:      https://repair.wiki/index.php?title=Galaxy_A3&action=history
+permalink:    https://repair.wiki/index.php?oldid=6799
+last_edited:  2025-05-16T02:10:58Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         a286118c82cc9f2688cb445dc0c795f79291a886
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Galaxya3.jpg|Samsung Galaxy A3 Mechanic USB-C readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

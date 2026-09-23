@@ -1,0 +1,18 @@
+<!--
+title:        File:Xbox One S 1.1V Standby.png
+pageid:       4990
+revid:        8118
+source:       https://repair.wiki/w/File:Xbox_One_S_1.1V_Standby.png
+history:      https://repair.wiki/index.php?title=File:Xbox_One_S_1.1V_Standby.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8118
+last_edited:  2025-06-29T22:23:49Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         792a1ae81c110f9db221b9b191fbf4777010950b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Xbox One S 1.1V Standby

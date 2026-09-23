@@ -1,0 +1,18 @@
+<!--
+title:        File:Cable to disconnect.png
+pageid:       4837
+revid:        7956
+source:       https://repair.wiki/w/File:Cable_to_disconnect.png
+history:      https://repair.wiki/index.php?title=File:Cable_to_disconnect.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7956
+last_edited:  2025-06-22T22:36:27Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         6c92dd3dc97b65ddaa9e3b58795c700033a713cf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Cable to disconnect

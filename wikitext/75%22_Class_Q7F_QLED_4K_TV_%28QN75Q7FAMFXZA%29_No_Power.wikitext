@@ -1,0 +1,101 @@
+<!--
+title:        75" Class Q7F QLED 4K TV (QN75Q7FAMFXZA) No Power
+pageid:       4841
+revid:        7960
+source:       https://repair.wiki/w/75%22_Class_Q7F_QLED_4K_TV_(QN75Q7FAMFXZA)_No_Power
+history:      https://repair.wiki/index.php?title=75%22_Class_Q7F_QLED_4K_TV_(QN75Q7FAMFXZA)_No_Power&action=history
+permalink:    https://repair.wiki/index.php?oldid=7960
+last_edited:  2025-06-22T22:53:43Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for 75" Class Q7F QLED 4K TV (QN75Q7FAMFXZA), Stubs
+sha1:         6b2007b34e342d5150b40ad88d6d7efb2a61b02b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=75" Class Q7F QLED 4K TV (QN75Q7FAMFXZA)
+|Affects parts=Powersupply
+|Needs equipment=Microscope, Soldering Iron
+|Type=Soldering
+|Difficulty=2. Medium
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The TV does not turn on.
+
+The most common issue with this TV is a power supply problem.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* The TV does not turn on
+* The Standby LED is not present
+
+== Warning!!! ==
+Usualy TVs have exposed power supplies and the Capacitors on them can be charged even if the TV is unplugged from the wall.
+
+Only touch the Power supply by the edges of the PCB and it is recommended for you to use gloves.
+
+If you touch the wrong place you may be shocked and you can get seriously hurt.
+
+Be specially careful not to touch these capacitors.
+
+[[File:Capacitors that you need to be careful.png|center|thumb|Capacitors that you need to be careful]]
+
+
+=== Disassembling the TV ===
+
+In order to diagnose the problem with the TV we gonna have to open it.
+
+This TV and and many samsung TVs are screw less so you need a special tool to open it ('''BN81-14946B)'''     
+
+This tool can be found on many websites on online.
+[[File:BN81-14946B.png|center|thumb|'''Special tool used to open samsung TVs''']]
+The are 2 holes on the bottow side of the tv insert the tool like in the image bellow.
+[[File:Place to insert tool.png|center|thumb|Place to insert tool]]
+You will see that the plastic cover will pop then start going around the TV like this.
+[[File:Next step .png|center|thumb|Going around the TV]]
+
+After going around all the plastic it will come loose simply lift it and put it a side.
+
+=== Diagnostic Steps ===
+The first step is to understand if the problem is on the main board or the Power supply, to do this we will disconect the cable that goes from the PSU to the main board.
+[[File:Cable to disconnect.png|center|thumb|Cable to disconnect]]
+After disconnecting this cable plug the tv into the wall if the backlight of the TV turns on it means that issue is on the main board, if the backlight does not turn it means there is an issue with the PSU.
+
+Remove the PSU from the TV.
+
+The first thing we gonna check is if the Fuse is good to do this put your multimeter in continuity mode and measure it if the fuse is good the multimeter will beep.
+[[File:Fuse.png|center|thumb|Fuse]]
+If the fuse is good (most likely will be) the next step is to inpect the solder joints of these components this is the number one fault on this model.
+
+[[File:Component to Check.png|center|thumb|Component to Check]]
+
+Use a microscope to inspect the solder joints of every pin it is common to have cracks like the image bellow.
+[[File:Craked Solder joint.png|center|thumb|Craked Solder joint]]
+
+=== Repair Steps ===
+If the problem is on the power supply you can choose to repair or to simply replace it.
+
+To repair the broken solder join:
+
+Start by applying flux and low melt solder with your soldering iron then use solder with to clean the solder.
+
+After cleaning the old solder clean the PCB with a q-tip and isopropyl alcohol.
+
+Apply fresh flux and use a good solder to solder the pin to the PCB.
+
+This process is recomended for every pin of these components not just the one with the broken connection.
+
+== Final Testing ==
+After reparing the PSU assemble the TV again expect for the plastic cover.
+
+Connect the TV to the wall and see if it will turn on, if every thing looks fine you can them install the plastic cover again.

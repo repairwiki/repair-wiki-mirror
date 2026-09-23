@@ -1,0 +1,18 @@
+<!--
+title:        File:Nintendo Switch Backlight Voltages.png
+pageid:       7101
+revid:        10623
+source:       https://repair.wiki/w/File:Nintendo_Switch_Backlight_Voltages.png
+history:      https://repair.wiki/index.php?title=File:Nintendo_Switch_Backlight_Voltages.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10623
+last_edited:  2025-08-24T14:01:16Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         43a49b76b6b837676ad97af7844e1196466cd62b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Nintendo Switch Backlight Voltages

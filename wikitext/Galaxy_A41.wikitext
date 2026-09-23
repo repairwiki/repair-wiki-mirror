@@ -1,0 +1,44 @@
+<!--
+title:        Galaxy A41
+pageid:       3794
+revid:        10282
+source:       https://repair.wiki/w/Galaxy_A41
+history:      https://repair.wiki/index.php?title=Galaxy_A41&action=history
+permalink:    https://repair.wiki/index.php?oldid=10282
+last_edited:  2025-08-16T22:31:37Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         2052d5fb7a66e2f55282ca5fc647b8c18824f7eb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Samsung|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A41-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+File:Samsung Galaxy A41 USB C Readings.jpeg|Samsung Galaxy A41 USB C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

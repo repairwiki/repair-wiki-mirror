@@ -1,0 +1,50 @@
+<!--
+title:        IPhone 13 Pro Max
+pageid:       1616
+revid:        12676
+source:       https://repair.wiki/w/IPhone_13_Pro_Max
+history:      https://repair.wiki/index.php?title=IPhone_13_Pro_Max&action=history
+permalink:    https://repair.wiki/index.php?oldid=12676
+last_edited:  2025-11-12T15:27:28Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07, A1Repairs, Optimize Logic
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         aed1a0c15759e1307f84091f9451b572b9398cc6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone13promax-1-768x768.webp|alt=
+File:Ip-13series-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPhone 13 Pro Max PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:13 pro max charging port diode Final.jpg|iPhone 13 Pro Max Charging port Diode measurements using T824 USB-C / LIGHTNING PORT TAIL INSERTION TESTER. Image provided by A1 Phone Repairs
+File:5G Antenna Diode Readings.jpg|Diode readings for iPhone 13 Pro Max 5G antenna flex.
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 13 Pro Max Self Repair Store
+
+'''Repair Manual ID: EGKCZN'''

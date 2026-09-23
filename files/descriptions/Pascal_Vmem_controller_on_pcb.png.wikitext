@@ -1,0 +1,18 @@
+<!--
+title:        File:Pascal Vmem controller on pcb.png
+pageid:       360
+revid:        829
+source:       https://repair.wiki/w/File:Pascal_Vmem_controller_on_pcb.png
+history:      https://repair.wiki/index.php?title=File:Pascal_Vmem_controller_on_pcb.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=829
+last_edited:  2023-11-07T16:42:34Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         fa6160ad35dbf897216d156f538cc50f15c9a00d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Pascal Vmem controller on pcb

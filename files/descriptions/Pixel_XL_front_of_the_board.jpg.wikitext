@@ -1,0 +1,18 @@
+<!--
+title:        File:Pixel XL front of the board.jpg
+pageid:       1341
+revid:        2955
+source:       https://repair.wiki/w/File:Pixel_XL_front_of_the_board.jpg
+history:      https://repair.wiki/index.php?title=File:Pixel_XL_front_of_the_board.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2955
+last_edited:  2024-01-17T16:04:23Z
+contributors: Evanm1234
+anonymous_edits: 0
+categories:   
+sha1:         a3756d1461563d2db9f4e0759d8d77c17038de44
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Front of the board

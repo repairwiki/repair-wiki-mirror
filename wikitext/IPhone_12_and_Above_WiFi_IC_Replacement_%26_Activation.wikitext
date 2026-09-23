@@ -1,0 +1,56 @@
+<!--
+title:        IPhone 12 and Above WiFi IC Replacement & Activation
+pageid:       6809
+revid:        10436
+source:       https://repair.wiki/w/IPhone_12_and_Above_WiFi_IC_Replacement_%26_Activation
+history:      https://repair.wiki/index.php?title=IPhone_12_and_Above_WiFi_IC_Replacement_%26_Activation&action=history
+permalink:    https://repair.wiki/index.php?oldid=10436
+last_edited:  2025-08-20T19:09:03Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 12, Repair guides for iPhone 12 Mini, Repair guides for iPhone 12 Pro, Repair guides for iPhone 12 Pro Max, Repair guides for iPhone 13, Repair guides for iPhone 13 Mini, Repair guides for iPhone 13 Pro, Repair guides for iPhone 13 Pro Max, Repair guides for iPhone 14, Repair guides for iPhone 14 Plus, Repair guides for iPhone 14 Pro, Repair guides for iPhone 14 Pro Max, Repair guides for iPhone 15, Repair guides for iPhone 15 Plus, Repair guides for iPhone 15 Pro, Repair guides for iPhone 15 Pro Max, Repair guides for iPhone 16, Repair guides for iPhone 16 Plus, Repair guides for iPhone 16 Pro, Repair guides for iPhone 16 Pro Max
+sha1:         3017b789ab431fe7176817995db12c05788b0fa0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 12, iPhone 12 Mini, iPhone 12 Pro, iPhone 12 Pro Max, iPhone 13, iPhone 13 Mini, iPhone 13 Pro, iPhone 13 Pro Max, iPhone 14, iPhone 14 Plus, iPhone 14 Pro, iPhone 14 Pro Max, iPhone 15, iPhone 15 Plus, iPhone 15 Pro, iPhone 15 Pro Max, iPhone 16, iPhone 16 Plus, iPhone 16 Pro, iPhone 16 Pro Max|Affects parts=Main Logic Board, WiFi IC|Needs equipment=Soldering iron, Hot Air Station, JC Programmer, JC WiFi IC|Difficulty=4. Specialist|Type=Microsoldering}}
+
+== Problem description ==
+On iPhone 12 and newer models, the Wi-Fi IC is paired (bound).  
+
+If the Wi-Fi IC fails, replacing it requires unbinding the pairing data from the NAND and activating a new programmable JC Wi-Fi IC using a JC Wi-Fi module for the V1SPRO.
+== Symptoms ==
+[[File:Wifi-not-working.png|thumb|iPhone WiFi not working - 14 Pro Max (fig. 1)|left]]
+* Wi-Fi toggle is greyed out (see fig. 1)
+* Wi-Fi address shows "N/A" in Settings -> About
+* Bluetooth toggle spins endlessly and never enables
+
+
+
+
+== Diagnostic Steps ==
+
+* Confirm WiFi is not working in Settings -> About
+* Measure surrounding caps/rails near WiFi IC to rule out short
+* Check for broken WiFi interposer connections
+* Confirm WiFi IC is faulty and needs replacement (see fig. 2)[[File:WiFi-IC-NAND-LOCATION.png|thumb|WiFi IC and NAND - iPhone 14 Pro Max (fig. 2)|left]]
+
+
+
+
+
+
+
+
+== Repair Steps ==
+(We used an iPhone 14 Pro Max as an example)
+* Locate and remove faulty WiFi IC (see fig. 2)
+* Locate and remove the NAND (see fig. 2)
+* Place the NAND in the JC programmer and run Query Code / Unbind (see fig. 3 & 4)[[File:Nand-in-programmer.png|thumb|NAND installed in JC V1SPRO Programmer (fig. 3)|center]][[File:Querycode-unbind-nand.png|thumb|Query code/unbind on JC Programmer (fig. 4)|center]]
+* Reball and re-install the NAND on the iPhone
+* Power up the phone and connect it to the JC programmer (On models where the WiFi ic is on the lower board, you will need to power it up in an iSocket)
+* Install a new programmable Wi-Fi IC in the programmer and run Activate Wi-Fi IC (see fig. 5 & 6)[[File:Jcid-wifi-ic-in-programmer.png|thumb|JCID WiFi IC installed in V1SPRO programmer (fig. 5)[[File:Acrivate-wifi-ic.png|thumb|Activate WiFi IC (fig. 6)]]|center]]
+* Once activation is successful, reball the new IC and re-install it on the logic board (see fig. 7)[[File:Iphone-wifi-ic-installed.png|thumb|295x295px|JCID WiFi IC installed - iPhone 14 Pro Max (fig. 7)|center]]
+* Power up the iPhone and verify that Wi-Fi functions are restored (see fig. 8)[[File:Iphone-wifi-working.png|thumb|iPhone WiFi functional after WiFi IC replacement (fig. 8)|center]]

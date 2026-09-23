@@ -1,0 +1,18 @@
+<!--
+title:        File:Nintendo Switch OLED Diode Readings YCS TNS 360.jpg
+pageid:       3397
+revid:        6165
+source:       https://repair.wiki/w/File:Nintendo_Switch_OLED_Diode_Readings_YCS_TNS_360.jpg
+history:      https://repair.wiki/index.php?title=File:Nintendo_Switch_OLED_Diode_Readings_YCS_TNS_360.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6165
+last_edited:  2025-04-13T15:07:22Z
+contributors: Fixmy
+anonymous_edits: 0
+categories:   
+sha1:         9b7bd71d2729bbc1dd02a0b5d67ee717a90930f9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Nintendo Switch OLED Diode Readings YCS TNS 360

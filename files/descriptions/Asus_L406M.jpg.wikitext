@@ -1,0 +1,18 @@
+<!--
+title:        File:Asus L406M.jpg
+pageid:       768
+revid:        1775
+source:       https://repair.wiki/w/File:Asus_L406M.jpg
+history:      https://repair.wiki/index.php?title=File:Asus_L406M.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1775
+last_edited:  2024-01-08T18:53:59Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         908b427335a329231581ba4e068c5b42f137cdf1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Asus L406M

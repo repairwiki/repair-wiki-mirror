@@ -1,0 +1,37 @@
+<!--
+title:        Raspberry Pi LAN9514
+pageid:       974
+revid:        2328
+source:       https://repair.wiki/w/Raspberry_Pi_LAN9514
+history:      https://repair.wiki/index.php?title=Raspberry_Pi_LAN9514&action=history
+permalink:    https://repair.wiki/index.php?oldid=2328
+last_edited:  2024-01-13T20:51:41Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for Raspberry Pi
+sha1:         07d38e2a5e803840f6165c293d5ed92a10155b87
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=Raspberry Pi
+|Type=Circuit
+|Difficulty=2. Medium
+}}
+The LAN9514 is a chip that is found in the following [[Raspberry Pi]] models:
+
+* Raspberry Pi '''1''' (B+)
+* Raspberry Pi '''2''' (all)
+* Raspberry Pi '''3''' (model B only)
+
+The chip provides a four-port USB hub as well as ethernet functionality. It interfaces with the Pi's CPU via an internal USB connection.
+
+== Before soldering in a new chip ==
+
+* Measure the resistance between ground and the <code>USBDM0</code> pad as well as the <code>USBDP0</code> pad. The resistance should be about 1 MΩ in both cases. If the resistance is way smaller (e.g. 80 Ω), the Pi's CPU is broken, and soldering in a new chip won't solve the issue.
+
+== References ==
+
+# [[LAN9514 (Raspberry Pi)#cite%20ref-1|↑]] ''[https://ww1.microchip.com/downloads/en/devicedoc/00002306a.pdf LAN9514 datasheet]'', Microchip Technology Incorporated, 2016

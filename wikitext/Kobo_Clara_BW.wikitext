@@ -1,0 +1,43 @@
+<!--
+title:        Kobo Clara BW
+pageid:       9275
+revid:        13449
+source:       https://repair.wiki/w/Kobo_Clara_BW
+history:      https://repair.wiki/index.php?title=Kobo_Clara_BW&action=history
+permalink:    https://repair.wiki/index.php?oldid=13449
+last_edited:  2026-01-01T02:53:41Z
+contributors: Deepfaked
+anonymous_edits: 0
+categories:   Device, Stubs
+sha1:         dc55f4d9dbf73e7feb97fb7869b015d00bffd80c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Kobo.jpg|Mechanic USB tail tester working device values
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

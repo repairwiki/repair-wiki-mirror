@@ -1,0 +1,18 @@
+<!--
+title:        File:Test5 Panic.png
+pageid:       9582
+revid:        13835
+source:       https://repair.wiki/w/File:Test5_Panic.png
+history:      https://repair.wiki/index.php?title=File:Test5_Panic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13835
+last_edited:  2026-02-03T20:36:27Z
+contributors: David.Lecomte
+anonymous_edits: 0
+categories:   
+sha1:         6aabbc72e935448fd3d8c916f21b5af8d26c7796
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Panic log for an A3113 that is missing UF500.

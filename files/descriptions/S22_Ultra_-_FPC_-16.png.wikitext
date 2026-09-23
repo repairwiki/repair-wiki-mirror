@@ -1,0 +1,18 @@
+<!--
+title:        File:S22 Ultra - FPC -16.png
+pageid:       323
+revid:        776
+source:       https://repair.wiki/w/File:S22_Ultra_-_FPC_-16.png
+history:      https://repair.wiki/index.php?title=File:S22_Ultra_-_FPC_-16.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=776
+last_edited:  2023-11-05T22:41:39Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         a66dacdd326c648a07c367917bcbbe71b328fce0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+S22 Ultra - FPC -16

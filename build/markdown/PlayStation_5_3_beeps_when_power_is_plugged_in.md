@@ -1,0 +1,81 @@
+---
+title: "PlayStation 5 3 beeps when power is plugged in"
+pageid: 4258
+revid: 8758
+kind: repair_guide
+source: "https://repair.wiki/w/PlayStation_5_3_beeps_when_power_is_plugged_in"
+history: "https://repair.wiki/index.php?title=PlayStation_5_3_beeps_when_power_is_plugged_in&action=history"
+permalink: "https://repair.wiki/index.php?oldid=8758"
+last_edited: "2025-07-14T21:18:29Z"
+contributors:
+  - "Tiago199988"
+  - "Rassawyer"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for PlayStation 5"
+  - "Stubs"
+infobox:
+  Device: "PlayStation 5"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "Soldering Iron, Hot Air Station, Microscope, Chip Reader"
+  Type: "Soldering"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# PlayStation 5 3 beeps when power is plugged in
+
+## Problem description
+When ac power is plugged the console produces 3 fast beeps and the console does not turn on.
+![Picture showing location of BIOS chip near Southbridge](images/a/a4/Picture_of_EDM-020_Southbridge_and_bios_chip.jpg)
+![25Q16JVNIM CHIP UNDER MICROSCOPE.jpg](images/a/ae/25Q16JVNIM_CHIP_UNDER_MICROSCOPE.jpg)25Q16JVNIM Chip under microscope|alt=25Q16JVNIM Chip under microscope
+## Symptoms
+- When ac power is plugged the console produces 3 fast beeps
+
+## Solution
+This issue is related to the NOR (BIOS) IC.
+
+The first thing we can try is using UART, send the command "errlog clear" to clear the error code database.
+
+Follow this guide on how to connect to UART [PlayStation 5 Fault Finding Using UART](PlayStation_5_Fault_Finding_Using_UART.md) ,then in console service tool, in select operation type select clear error codes.
+
+Why this works? Because sometimes the DBI section of the NOR gets full.
+
+If the first option doesn't work we will need to remove the BIOS IC from the motherboard and using a donor BIOS file.
+
+The BIOS chip (25Q16JVNIM) is located next to the southbridge.
+
+#### Step 1: Remove the BIOS Chip
+- Locate the BIOS chip (25Q16JVNIM) next to the southbridge on the PS5 motherboard. Use a hot air station to carefully desolder the chip. Exercise caution and avoid excessive heat, as it can damage the chip.
+
+#### Step 2: Connect and Read the BIOS Chip
+- Solder the bios chip to the SOP8 adapter.
+- Connect the chip to the programmer.
+- Connect your programmer to the computer.
+- Read the chip and save a copy of the bios file on your computer it will create a .bin file.
+
+#### Step 3: Fixing your BIOS Dump
+Using a free tool made by Dony this process is really simple, download [https://github.com/apewalkers/PS5-NOR-EDITOR/tree/main PS5 NOR EDITOR]
+
+After downloading the tool, open it and click on pre-configured and select your board type.
+
+After that, click on the browse button on the harvest section and find your dump a small pop-up window will show up and ask you what options you want to harvest, select all options and click on OK.
+![Example of a Sucess Harvest](images/8/8a/Example_of_a_Sucess_Harvest.png)
+
+After that, save your file.
+
+#### Step 4: Write the Modified BIOS File
+Load the modified BIOS file into the programmer software. Write the new BIOS data to the chip using the EEPROM Reader/Writer.
+
+#### Step 5: Reattach the BIOS Chipeditedit source
+Solder the BIOS chip back to the motherboard, ensuring it is in the same orientation as before. Reassemble the console. You may leave the disc drive disconnected if desired.
+
+## Final Testing
+Online Connectivity: Connect the PS5 to the internet with Wi-Fi or an Ethernet cable. Go to Settings > Network > Test Internet Connection to confirm a reliable connection.
+
+PlayStation Store Access: Open the PlayStation Store, sign in to your PlayStation Network account, and ensure you can browse, download games, or access apps without issues.
+
+Game Launch: Download a small free-to-play title or demo from the PlayStation Store, install it, and check that it launches and runs without problems.

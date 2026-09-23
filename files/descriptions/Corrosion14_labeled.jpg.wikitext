@@ -1,0 +1,18 @@
+<!--
+title:        File:Corrosion14 labeled.jpg
+pageid:       524
+revid:        1153
+source:       https://repair.wiki/w/File:Corrosion14_labeled.jpg
+history:      https://repair.wiki/index.php?title=File:Corrosion14_labeled.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1153
+last_edited:  2023-11-15T16:41:30Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         aa8bcbd85cece8e61f0d9dd4381e0d7be03ef57e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Corrosion14 labeled

@@ -1,0 +1,62 @@
+<!--
+title:        Galaxy S21 FE
+pageid:       2190
+revid:        11938
+source:       https://repair.wiki/w/Galaxy_S21_FE
+history:      https://repair.wiki/index.php?title=Galaxy_S21_FE&action=history
+permalink:    https://repair.wiki/index.php?oldid=11938
+last_edited:  2025-09-20T21:52:51Z
+contributors: VCCBoardRepairs, Tiago199988, A1Repairs
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         320c5eac55cd1de743bfcb5762ca9756659e3012
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Galaxy S21 FE.webp|alt=
+File:S21 FE FULL FRAME.jpg|alt=
+File:Layout key.jpg|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:S21 FE Back of board.jpg|alt=
+File:S21 FE Bare board.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:S21 FE FPC 9 FRONT CAM.jpg|alt=
+File:S21 FE Vibrator Pins.jpg|alt=
+File:FPC 3 AND 4 S21 FE.jpg|alt=
+File:FPC 5 SCREEN S21 FE.jpg|alt=
+File:S21 FE REAR 2 CAM FPC 11.jpg|alt=
+File:FPC 2 and 3 S21 FE.jpg|alt=
+File:Fpc 1 and 2 S21 FE.jpg|alt=
+File:FPC 7 CHARGING PORT PT 2 S21 FE.jpg|alt=
+File:S21 FE BOARD TYPE.jpg|alt=
+File:REAR CAM 3 FPC 12 S21 FE.jpg|alt=
+File:S21 FE FPC 10 Rear Cam 1 back of board.jpg|alt=
+File:S21 FE FPC 8 ANTENNA.jpg|alt=
+File:EAR SPEAKER PINS S21 FE.jpg|alt=
+File:FPC 6 CHARGING PORT S21 FE.jpg|alt=
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

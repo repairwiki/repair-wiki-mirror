@@ -1,0 +1,18 @@
+<!--
+title:        File:Samsung A53 5g - front.png
+pageid:       2370
+revid:        4851
+source:       https://repair.wiki/w/File:Samsung_A53_5g_-_front.png
+history:      https://repair.wiki/index.php?title=File:Samsung_A53_5g_-_front.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4851
+last_edited:  2024-09-11T04:32:47Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         6ba44488a81e800d6d7ebd895624c3cd283f3f89
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Samsung A53 5g - front

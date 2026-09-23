@@ -1,0 +1,18 @@
+<!--
+title:        File:Ref 480 3.3v shorts front.jpg
+pageid:       384
+revid:        862
+source:       https://repair.wiki/w/File:Ref_480_3.3v_shorts_front.jpg
+history:      https://repair.wiki/index.php?title=File:Ref_480_3.3v_shorts_front.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=862
+last_edited:  2023-11-07T19:10:00Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         4ea0ac9ca3c8006dd4eaa98f9ac4cb27b66f0502
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ref 480 3.3v shorts front

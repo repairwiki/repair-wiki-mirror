@@ -1,0 +1,78 @@
+---
+title: "Nintendo Switch Orange Screen On Bootup Repair"
+pageid: 916
+revid: 2234
+kind: repair_guide
+source: "https://repair.wiki/w/Nintendo_Switch_Orange_Screen_On_Bootup_Repair"
+history: "https://repair.wiki/index.php?title=Nintendo_Switch_Orange_Screen_On_Bootup_Repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=2234"
+last_edited: "2024-01-13T16:39:41Z"
+contributors:
+  - "ASRepairs"
+  - "HaileyKitty"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Nintendo Switch"
+  - "Stubs"
+infobox:
+  Device: "Nintendo Switch"
+  Affects_parts: "Main Logic Board"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Nintendo Switch Orange Screen On Bootup Repair
+
+## Problem description
+The orange screen of death on the Nintendo Switch is a critical failure. Contrary to popular belief, the issue is unrelated to software and requires much more complex repairs than a simple software re-installation.
+
+When the Nintendo Switch boots up, it goes through a system check process before allowing the device to turn on. If the system detects something critical has failed, it will stop and display a solid color.
+
+In this case, that color is orange, which is why we call this the orange screen of death. Sometimes the device will work intermittently, and occasionally show an orange screen. This is just as bad, and requires the same repair process to fix the issues.
+![Nintendo Switch Orange Screen](images/0/0c/Nintendo-Switch-Orange-Screen.jpg)
+
+## Symptoms
+- Orange Screen On Bootup
+
+## Causes
+The orange screen of death is only ever caused by a faulty Wi-Fi IC.
+
+The Nintendo Switch uses the Broadcom BCM4356XKUBG, which is a BGA IC and occasionally the BGA underneath the IC will become damaged, causing the Nintendo Switch to be unable to communicate with the IC.
+
+This happens randomly sometimes, but more often than not it is caused by user damage (such as drop damage or bend damage from keeping the console in a pocket).
+
+## Solution
+First, hold the power button for 12 seconds to shut down the switch. Then, turn it back on and see if the problem persists. If it does, you’ll have to do the more mechanical solution of the following.
+
+The easiest option would be to simply reflow the IC using traditional hot air. The Nintendo Switch motherboard is very small and reflowing the WiFi IC is a very viable option given the size of the components.
+
+But **BE WARNED**, this can cause complete no power to the device. If this happens, replacing the IC is the only way.
+### Repair Steps
+To reflow the IC, remove the motherboard from the chassis and disconnect the removable EMMC module from the board. Lift off the EMI shield protecting the WiFi IC (amongst other sensitive components) and you will be able to access the BCM4356XKUBG IC.
+
+Add a little flux to the area and start heating the board slowly, around 300 Celsius at 40lpm air flow is recommended.
+
+Once the motherboard is up to temperature, increase the hot air temperature to 420-450 Celsius and continue to heat the specific area until flux around the IC starts to bubble.
+
+At this point you will want to very gently tap the IC to ensure the IC has been reflowed successfully. If the BGA is molten it will spring back in to place. Be careful not to tap the IC too hard, it may knock it out of place. In that case replacement is your only option.
+
+Once complete, clean the motherboard using isopropyl alcohol or using an ultrasonic cleaner to reassemble the device. Proceed to test. If you get the device working, congratulations! Longevity can't be guaranteed though.
+
+If you still get an orange screen, or no power at all, you'll need to replace the IC instead.
+
+Pre-heat the motherboard first.
+
+Do not do this job with the motherboard still inside the case. There are tutorials on YouTube by amatuers doing this particular reflow with the motherboard in the case. This is not recommended, and you'll probably damage the chassis or the LCD.
+
+Always clean all flux residue from the motherboard after component-level work. Leaving flux residue could potentially corrode the motherboard over time.
+
+Try and test the console using a fast internet connection. The Nintendo Switch is capped at around 60mbps so anything higher is fine to confirm the IC works properly.
+
+Do a full system test after repair including display, audio, charging, power, docking, joycon connectivity (wired and wireless), Wi-Fi connectivity, touch screen functionality, game reading and playing (using a game cartridge, not digital download)
+
+If you are a repair shop, advise your customer not to keep the device in pockets.

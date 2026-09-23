@@ -1,0 +1,18 @@
+<!--
+title:        File:Muse (2016) with desoldered battery.jpg
+pageid:       8849
+revid:        12878
+source:       https://repair.wiki/w/File:Muse_(2016)_with_desoldered_battery.jpg
+history:      https://repair.wiki/index.php?title=File:Muse_(2016)_with_desoldered_battery.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=12878
+last_edited:  2025-11-27T10:33:24Z
+contributors: Pandapip1
+anonymous_edits: 0
+categories:   
+sha1:         fe553a6fa3f6404b3a8fed0ba031e80c1f8e7d46
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Muse (2016) with desoldered battery

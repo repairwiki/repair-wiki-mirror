@@ -1,0 +1,49 @@
+---
+title: "How to fix iPhone 8 with Grayed Out Speaker Button During Phone Call"
+pageid: 1524
+revid: 3340
+kind: repair_guide
+source: "https://repair.wiki/w/How_to_fix_iPhone_8_with_Grayed_Out_Speaker_Button_During_Phone_Call"
+history: "https://repair.wiki/index.php?title=How_to_fix_iPhone_8_with_Grayed_Out_Speaker_Button_During_Phone_Call&action=history"
+permalink: "https://repair.wiki/index.php?oldid=3340"
+last_edited: "2024-02-09T08:42:49Z"
+contributors:
+  - "VCCBoardRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for IPhone 8"
+  - "Repair guides for IPhone 8 Plus"
+  - "Stubs"
+infobox:
+  Device: "IPhone 8 Plus, IPhone 8"
+  Affects_parts: "Main Logic Board"
+  Needs_equipment: "Screwdrivers, known good parts, spudger"
+  Type: "Part replacement"
+  Difficulty: "1. Easy"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# How to fix iPhone 8 with Grayed Out Speaker Button During Phone Call
+
+## Problem description
+Here's how to fix an iPhone 8 that has a grayed out speaker icon during phone calls.
+
+  - Please Note:** Although the symptoms are similar to the iPhone 7/7Plus Audio IC failure, the solution is different.
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- When you make a call, the speaker button is grayed out & you cannot click it.
+- When trying to record a Voice Memo, it won't record.
+
+## Solution
+### Testing and Solution:
+- Unplug the Front Facing Camera, then test again
+- If the issue is solved, then plug in a new front-facing camera flex cable and try again
+  - Please note, replacing the Front Camera flex on iPhone 8 & 8 Plus, will make you lose True Tone.
+
+### Explanation:
+Usually this is caused by the ALS or proximity sensors getting some corrosion from liquid damage.
+
+It's easier to just replace the part, but sometimes, you can clean off the corrosion with a toothbrush and isopropyl alcohol and get the flex working again.

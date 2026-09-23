@@ -1,0 +1,54 @@
+<!--
+title:        Short on 12V or 3.3V rail on Turing (RTX 2000) GPUs Repair
+pageid:       426
+revid:        3652
+source:       https://repair.wiki/w/Short_on_12V_or_3.3V_rail_on_Turing_(RTX_2000)_GPUs_Repair
+history:      https://repair.wiki/index.php?title=Short_on_12V_or_3.3V_rail_on_Turing_(RTX_2000)_GPUs_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=3652
+last_edited:  2024-03-16T10:18:00Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for RTX 2060, Repair guides for RTX 2070, Repair guides for RTX 2080, Repair guides for RTX 2080Ti, Stubs
+sha1:         ede9314af89fbced7a1b0a15bf527e9bbcd83974
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=RTX 2060, RTX 2070, RTX 2080, RTX 2080Ti
+|Affects parts=Whole board
+|Needs equipment=multimeter, soldering iron, soldering station, thermal camera
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+When the card is not turning on at all, causes the entire computer not to turn on. Caused by a shorted component on 12V or 3.3V rail.
+[[File:Turing 12v bus shorts front.jpg|thumb|Possible shorted components for 12V_BUS on a FE 2080. Front side (Figure 1)]]
+
+==Symptoms==
+
+* Sub 100 Ω on the 12V_Bus, 12V_EXT, or 3.3V_BUS.
+* Computer won't power on or instantly shutting down upon pressing the power button.
+* Fans not spinning (in case of blown fuse).
+
+[[File:Turing 12v bus shorts back.jpg|thumb|Possible shorted components for 12V_BUS on a FE 2080. Back side (Figure 2)]]
+[[File:Turing 12v ext shorts front.jpg|thumb|Possible shorted components for 12V_EXT on a FE 2080. Front side (Figure 3)]]
+[[File:Turing 12v ext shorts back.jpg|thumb|Possible shorted components for 12V_EXT on a FE 2080. Back side (Figure 4)]]
+[[File:Turing 3.3v shorts.jpg|thumb|Possible shorted components for 3.3V_BUS on a FE 2080 (Figure 5)]]
+
+==Solution==
+===Diagnostic Steps===
+[[How to find short circuits]]
+*Identify which rail is shorted by measuring the resistance of each. [[Nvidia Turing GPU Diagnosing Guide|Turing GPU Diagnosing Guide]] here you can find points to measure from
+*Inject 1V 10A to the shorted rail
+*Check with thermal camera or isopropyl alcohol for hotspots, all possible shorts are in the attached photos.
+*In the case of 12V short, make sure to measure VCore voltage while injecting, if you read any voltage higher than 0.1V then a [[Transistors - Repair Basics|MOSFET]] is likely shorting 12V to the GPU then to GND.
+**If this is the case, remove the ground power supply lead and connect it to VCore. Then identify the shorted MOSFET/Power Stage.
+===Repair Steps===
+*After the shorted component has been identified, remove it.
+**If the short is still present, repeat the diagnostic steps until you find the other shorted component.
+*If the short is gone after removing the component, replace it.
+**In the case where the shorted component was a MOSFET and after replacing it shorts again immediately, replace the controller/driver for this MOSFET.

@@ -1,0 +1,18 @@
+<!--
+title:        File:IP-17PM-Wireless-Charging-Flex-Code.png
+pageid:       8311
+revid:        12162
+source:       https://repair.wiki/w/File:IP-17PM-Wireless-Charging-Flex-Code.png
+history:      https://repair.wiki/index.php?title=File:IP-17PM-Wireless-Charging-Flex-Code.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12162
+last_edited:  2025-09-28T14:59:18Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         08fd0ac2a2bf9a23219e8b6eb0ac9be4153f0d4f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+IP-17PM-Wireless-Charging-Flex-Code

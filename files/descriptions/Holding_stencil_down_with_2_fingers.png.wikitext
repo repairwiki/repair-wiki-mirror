@@ -1,0 +1,18 @@
+<!--
+title:        File:Holding stencil down with 2 fingers.png
+pageid:       2487
+revid:        5053
+source:       https://repair.wiki/w/File:Holding_stencil_down_with_2_fingers.png
+history:      https://repair.wiki/index.php?title=File:Holding_stencil_down_with_2_fingers.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5053
+last_edited:  2024-10-14T00:46:59Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         3cf2b001eb0a01d20b9cfea6173788a3533787ed
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Holding stencil down with 2 fingers

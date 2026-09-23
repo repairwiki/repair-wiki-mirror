@@ -1,0 +1,50 @@
+<!--
+title:        IPhone 13
+pageid:       1614
+revid:        12673
+source:       https://repair.wiki/w/IPhone_13
+history:      https://repair.wiki/index.php?title=IPhone_13&action=history
+permalink:    https://repair.wiki/index.php?oldid=12673
+last_edited:  2025-11-12T15:25:37Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07, IRepairMe, DentsasPanos
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         b9d71087a70b9f8086d705ace5538d3f654e0e03
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone13-800x800.webp|alt=
+File:Ip-13series-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPhone 13 PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPhone 13 - Known Good Mechanic Lightning Readings.jpg|iPhone 13 - Known Good Mechanic Lightning Readings
+File:IPhone 13 Diode Readings.jpg|iPhone 13 - Known Good YCS Lightning Readings
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 13 Self Repair Store
+
+'''Repair Manual ID: WLBXAK'''

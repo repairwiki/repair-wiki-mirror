@@ -1,0 +1,18 @@
+<!--
+title:        File:Flash Renesas MCU.webp
+pageid:       2348
+revid:        4818
+source:       https://repair.wiki/w/File:Flash_Renesas_MCU.webp
+history:      https://repair.wiki/index.php?title=File:Flash_Renesas_MCU.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=4818
+last_edited:  2024-09-08T14:05:42Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         831e40d325acacf356ac4158c2df607587a4e8d1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Running the script to flash the bootloader on the Renesas MCU via USB

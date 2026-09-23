@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 13 Diode Readings.jpg
+pageid:       4013
+revid:        6955
+source:       https://repair.wiki/w/File:IPhone_13_Diode_Readings.jpg
+history:      https://repair.wiki/index.php?title=File:IPhone_13_Diode_Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6955
+last_edited:  2025-05-19T16:01:27Z
+contributors: IRepairMe
+anonymous_edits: 0
+categories:   
+sha1:         31d2e1123b2b027df696c09a2f5a159b34dd9c1b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 13 Diode Readings

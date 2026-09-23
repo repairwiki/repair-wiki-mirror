@@ -1,0 +1,18 @@
+<!--
+title:        File:16 masked pad.png
+pageid:       8615
+revid:        12523
+source:       https://repair.wiki/w/File:16_masked_pad.png
+history:      https://repair.wiki/index.php?title=File:16_masked_pad.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12523
+last_edited:  2025-11-02T16:29:31Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         1c752edc531f39b10e779c1cd29c726182751cae
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+16 masked pad

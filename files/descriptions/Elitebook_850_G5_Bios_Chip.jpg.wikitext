@@ -1,0 +1,18 @@
+<!--
+title:        File:Elitebook 850 G5 Bios Chip.jpg
+pageid:       9587
+revid:        13847
+source:       https://repair.wiki/w/File:Elitebook_850_G5_Bios_Chip.jpg
+history:      https://repair.wiki/index.php?title=File:Elitebook_850_G5_Bios_Chip.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13847
+last_edited:  2026-02-06T15:40:40Z
+contributors: Cheapskate777
+anonymous_edits: 0
+categories:   
+sha1:         ca70e5172da37251aebc5952e3525dc1f46b7d9a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+MXIC X190127 HX25L25673GZ41-086 8E817700

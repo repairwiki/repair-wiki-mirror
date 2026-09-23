@@ -1,0 +1,142 @@
+<!--
+title:        Bad Sectors in WD CMR and SMR Drives
+pageid:       5599
+revid:        8858
+source:       https://repair.wiki/w/Bad_Sectors_in_WD_CMR_and_SMR_Drives
+history:      https://repair.wiki/index.php?title=Bad_Sectors_in_WD_CMR_and_SMR_Drives&action=history
+permalink:    https://repair.wiki/index.php?oldid=8858
+last_edited:  2025-07-19T21:02:33Z
+contributors: Chris
+anonymous_edits: 0
+categories:   Missing device page, Repair guide, Repair guides for Western Digital CMR and SMR drives, Stubs
+sha1:         4c7d72d5bf20ed7e287698448f793cb57a364c62
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Western Digital CMR and SMR drives
+|Needs equipment=PC-3000
+|Type=Firmware
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+'''Bad Sectors in WD CMR and SMR Drives'''
+
+One of the most common causes of data inaccessibility on hard drives is the presence of bad sectors. As we know, a hard drive stores data as binary (zeros and ones) on a magnetic surface, and a sector is the smallest physical unit of data storage. Think of it as a tiny square on the disk platter where information is stored.
+
+When a sector becomes damaged, special mechanisms built into the drive's firmware attempt to relocate the data and replace the bad sector with a healthy one. This process is called ''reallocation''.
+
+However, in many cases, the number of bad sectors is so high, or they are located in such critical areas, that reallocation is no longer possible. In such scenarios, drives may begin to behave abnormally they may become extremely slow or stop granting access to user data.
+
+When that happens, it’s essential to stop all automatic repair mechanisms in order to regain access to the data.
+
+In WD drives, there are two different approaches depending on the drive type.
+
+First part of this article focuses on CMR drives.
+
+== Solution ==
+
+'''!!! IMPORTANT !!!'''
+
+'''DO NOT ATTEMPT THIS PROCEDURE ON SMR DRIVES!'''
+
+'''The solution for SMR drives is on the end of this article'''
+
+1.)    Separation of the head stack assembly from the PCB to gain access to Kernel mode.
+
+[[File:1.JPG|border|center|thumb|577x577px]]
+
+
+2.)    Block the Service Area access
+[[File:2 SA access block.png|center|thumb|895x895px]]
+3.)   Power the drive off, remove the isolation and screw the PCB in
+
+4.)   Power the drive on
+
+5.)   In this moment the drive should get ready very fast. You need to start the utility in the Kernel mode 
+[[File:3.png|center|thumb|1422x1422px]]
+6.)   Like you can see the ID of the drive is wrong. You need to sent the DIR and module 02 in the HDDs RAM
+[[File:4.png|center|thumb|677x677px]]
+7.)   In the case of CMR drive we can upload those files from the HDD Service Area (SA)
+[[File:5.png|center|thumb|496x496px]]
+[[File:6.png|center|thumb|976x976px]]
+8.)   After this the ID of the drive change to SN#XYZ--- At this step you should have an access to the SA and make a backup of it
+[[File:7.png|center|thumb|701x701px]]
+9.)   Choose or create a new profile and hit OK
+[[File:8.png|center|thumb|542x542px]]
+Here the backup of the SA modules begins
+[[File:9.png|center|thumb|404x404px]]
+10.)  If you don’t have any issues with the modules you can go to do:
+[[File:10.png|center|thumb|746x746px]]
+[[File:11.png|center|thumb|391x391px]]
+[[File:12.png|center|thumb|460x460px]]
+11.)   Now you can allow the Service Area access and restart the drive
+[[File:13.png|center|thumb|611x611px]]
+12.)   There is only one step to do, we need to check if the data is encrypted. After restarting the drive go to the Sector Edit (ALT+V) and check sector 0. If you see something like this it means the data is encrypted by the HDD firmware
+[[File:14.png|center|thumb|808x808px]]
+13.)   Decrypting the data:
+[[File:15.png|center|thumb|1020x1020px]]
+14.)   When you hit the Autodetect button the software will fine the key in the Service Area
+[[File:16.png|center|thumb|860x860px]]
+Now you have access to the encrypted data
+[[File:17.png|center|thumb|760x760px]]
+'''<big>Solution for SMR drives</big>'''
+
+
+
+'''Why can’t we apply the same methods used for CMR drives to SMR drives?'''
+
+Because SMR drives react very poorly to changes in settings and clearing the relocation list. One of the main reasons for this behavior is the Second Level Translator (T2), which is specific to SMR drives. Changing even a single byte requires significant effort from the drive and results in extensive modifications within the T2 translator.
+
+That’s why bad sectors on SMR drives are often accompanied by damage to the T2 translator.
+
+
+
+So how can we deal with this problem?
+
+
+
+The initial steps will be the same as before:
+
+
+
+
+
+1.      Head separation
+
+2.      Powering on the drive in Kernel mode and blocking access to the Service Area
+
+3.      Sending the LDR (loader) and module 02 to the drive’s RAM
+
+
+That means up to step 10.) we proceed according to the previous solution.
+
+11.)   After the modules backup, instead of “Slow slow responding problem” solution in the “Work with service area” drop down menu hit “Edit HDD ID”
+[[File:18.png|center|thumb|695x695px]]
+12.)   Click CFG tab and turn off the relocation
+[[File:19.png|center|thumb|657x657px]]
+13.)   Go to SMART tab and turn DRM off and click OK
+[[File:20.png|center|thumb|647x647px]]
+14.)   Save changes to the both copies and restart the drive
+[[File:21.png|center|thumb|346x346px]]
+[[File:22.png|center|thumb|430x430px]]
+15.)   Now we need to clear the Relo-list. Go to Tools  -> Utility extensions -> View and Edit HDD resources or you can use Ctrl+Alt+3
+[[File:23.png|center|thumb|667x667px]]
+16.)   Find module 32 and read it
+[[File:24.png|center|thumb|614x614px]]
+17.)   Now the '''PRO tip''' is coming, select the HEX values from the address '''0x00A0''' to the end of the module hit Ctrl+d and fill that area with 0x0
+[[File:25.png|center|thumb|1120x1120px]]
+18.)   Now you need to recalculate the checksum
+[[File:26.png|center|thumb|847x847px]]
+19.)   Write back corrected module to the HDD
+[[File:27.png|center|thumb|991x991px]]
+20.)   Now you can allow SA access and check if the data is accessible
+[[File:28.png|center|thumb|718x718px]]
+Like you can see the drive has correct ID and you have access to the customer’s data.
+[[File:29.png|center|thumb|818x818px]]

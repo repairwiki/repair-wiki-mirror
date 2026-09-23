@@ -1,0 +1,30 @@
+<!--
+title:        Template:Create page ref
+pageid:       691
+revid:        1745
+source:       https://repair.wiki/w/Template:Create_page_ref
+history:      https://repair.wiki/index.php?title=Template:Create_page_ref&action=history
+permalink:    https://repair.wiki/index.php?oldid=1745
+last_edited:  2024-01-04T17:56:04Z
+contributors: Admin, ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         b7aac2029fa6bbb16785a7b488128dcf66ea6ecb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+
+<includeonly>
+
+
+{{#ifexist:<!--
+-->{{{1}}}|<!--
+-->[[Device::{{{1}}}]]<!--
+-->|[{{fullurl:{{{1}}}|veaction=edit&preload=Template:{{{2|Device_page/Example}}}&title={{urlencode:{{{1}}}}}}}<span style="color:#e35b5b;">{{{1}}}</span>]}}
+</includeonly>
+<noinclude>
+Existing:{{Create page ref|MacBook Air A1932}}
+Non-existent:{{Create page ref|New Page Name}}
+</noinclude>

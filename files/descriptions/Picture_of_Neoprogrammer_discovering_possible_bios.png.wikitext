@@ -1,0 +1,18 @@
+<!--
+title:        File:Picture of Neoprogrammer discovering possible bios.png
+pageid:       551
+revid:        1243
+source:       https://repair.wiki/w/File:Picture_of_Neoprogrammer_discovering_possible_bios.png
+history:      https://repair.wiki/index.php?title=File:Picture_of_Neoprogrammer_discovering_possible_bios.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1243
+last_edited:  2023-11-25T17:48:51Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         98a96904913191ce26766c856a89d5e79d00d85f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Picture of Neoprogrammer discovering possible bios

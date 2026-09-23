@@ -1,0 +1,84 @@
+<!--
+title:        MacBook Air A1932 Not turning on, pulling 0.10-0.25 A at 5V cycling repair
+pageid:       154
+revid:        493
+source:       https://repair.wiki/w/MacBook_Air_A1932_Not_turning_on,_pulling_0.10-0.25_A_at_5V_cycling_repair
+history:      https://repair.wiki/index.php?title=MacBook_Air_A1932_Not_turning_on,_pulling_0.10-0.25_A_at_5V_cycling_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=493
+last_edited:  2023-10-29T15:26:36Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Air A1932, Stubs
+sha1:         ff70634901d4d6e65b7fca3de0bc79dc21a93b0c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Air A1932
+|Affects parts=Motherboard
+|Needs equipment=multimeter, soldering iron, soldering station, thermal camera
+|Type=Soldering, Software
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Diagnosis and repair for MacBook Air 820-01521 that is not turning on, pulling 0.10-0.25 A at 5V as measured with the USB-C meter while cycling. "Cycling" is a condition where the USB-C current meter turns on, displays a voltage and current, shuts off, and turns back on displaying a voltage and current again. This will happen continuously in a loop. This condition is indicative of a communication issue between the CD3215s or between the CD3215s and the TBT ROM. 
+
+The TBT (Thunderbolt) ROM (read-only memory) is a chip which stores important information that the CD3215 needs to work properly. You may think that this is only needed for the thunderbolt function of the device, but this is not the case. The device will not work if there is a issue within the TBT ROM circuity. The TBT ROM itself rarely fails or becomes corrupt, however trace/resistor issues after liquid damage are very common, and often results in "cycling" behavior on one or both USB-C ports. It is also important to note that a failed CD3215 which isn't communicating to the TBT ROM will also cause the same behavior. A TBT ROM issue shouldn't be your first thought in forming a diagnosis, but it shouldn't be off your list either.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Not turning on, pulling 0.10-0.25 A at 5V as measured with the USB-C meter, cycling
+*Stuck in DFU mode 
+
+==Solution==
+===Diagnostic Steps===
+====Check for DFU or Recovery Mode====
+*Connect the MacBook to another Mac via the master port (''Left side, bottom port, closest to the trackpad)'' and use Apple Configurator 2 to verify if it's in DFU mode.
+*If in DFU mode, proceed to "Device stuck in DFU mode due to corrupt T2 firmware" repair steps.
+====Check PP3v3_G3H_RTC Voltage====
+*Measure PP3v3_G3H_RTC on a capacitor or resistor near CD3215 (C3100 or C3200 are both good places to measure this line.).
+*Compare measured values to normal range (~3.3V).
+*''Values below the above spec should be considered abnormal. Proceed "PP3v3_G3H_RTC low or absent" in the repair steps below.''
+
+==== Check PP3v3_UPC_XA_LDO and PP3v3_UPC_XB_LDO voltage and for shorts to ground. ====
+''Normal voltage is ≈3.3 V. Normal resistance to ground is in excess of 1 kΩ''
+
+* Both lines listed above are low dropout (LDO) lines created from the CD3215 USB-C controllers. Occasionally, the CD3215 USB-C controllers will fail in a way that shorts one or both of these lines to ground.
+* If voltage is low, or if resistance to ground is abnormally low, proceed to repair steps below.
+
+===Repair Steps===
+====Device stuck in DFU mode due to corrupt T2 firmware====
+*Revive or restore T2 firmware via Apple Configurator 2.
+*Ensure you're running the latest macOS version for consistent results.
+*[https://support.apple.com/guide/apple-configurator-mac/revive-or-restore-an-intel-based-mac-apdebea5be51/mac Follow the provided Apple support article for the procedure.]
+*You should see a big square icon pop up that says "DFU" or rarely, "RECOVERY". Click the icon, Navigate to the top menu bar click "Actions" then "Advanced". Select Revive device. You will see a progress bar appear. This process can take anywhere from 2 minutes to over 30 minutes in some cases. It is important to note, if the device is in Recovery mode, the end user may have brought the device to another repair shop or Apple first, who attempted a DFU revive which failed. You may have a secondary issue if the revive fails again.
+*'''SELECTING RESTORE WILL WIPE ALL USER DATA!'''
+====PP3v3_G3H_RTC Low or Absent====
+PP3v3_G3H_RTC powers the "brain" functionality of the CD3215 USB-C controllers which allows negotiation with the USB-C charger to allow 20 V. When PP3v3_G3H_RTC is shorted, low, or absent, this communication cannot take place, and the device will be stuck at 5 V. On the 820-01521, U6960 generates PP3v3_G3H_RTC. U6960 is a buck converter which lowers the voltage from PPBUS_G3H (≈12 V) to 3.3 V. Since PPBUS_G3H is the VIN (voltage input), we must get PPBUS_G3H before we get PP3v3_G3H_RTC.
+*Diagnose possible shorted capacitor around CD3215 or from CD3215 itself.
+*Check GHGR_EN_MVR signal produced by ISL9240 (U7000).
+**If PP3v3_G3H_RTC is not shorted, check for its enable signal, GHGR_EN_MVR. CHGR_EN_MVR is produced by the ISL9240 (U7000). The ISL9240 commonly fails in a way that prevents CHGR_EN_MVR from being produced. If the enable signal above is missing, replace the ISL9240 (U7000.)
+*PP3v3_G3H_RTC can also be pulled low by PP3v3_UPC_XA_LDO or PP3v3_UPC_XB_LDO, so if you have no measurable short to ground, and your enable/VIN is present, check both the above rails for a short or low resistance to ground. Low resistance to ground/short on the above LDO lines will usually be caused by a bad CD3215.
+*Replace ISL9240 (U7000) if enable signal is missing.
+
+==== PP3v3_UPC_XA_LDO or PP3v3_UPC_XB_LDO low or shorted to ground ====
+
+* ''Partial short to ground, such as 20 Ω to ground is more likely to be a failed CD3215.''
+* ''A full short to ground, such as 2 Ω or less, is more likely to be a shorted capacitor.''
+* ''Low voltage in the absence of a short, is almost exclusively a CD3215 issue.''
+* The most common cause for one of the UPC lines to be shorted to ground is a bad CD3215, however capacitors shorts do happen from time to time.
+* PP3v3_UPC_XB_LDO powers the TBT ROM on the 820-01521, making it critical for system function.
+* The UPC LDO lines are both outputted by the CD3215 USB-C controllers. PP3v3_UPC_XB_LDO is generated by U3200, and PP3v3_UPC_XA_LDO is generated by U3100.
+** Determining where a short to ground is on the PP3v3_UPC lines is relatively simple, given there are so few possibilities.
+*** ''Possible shorted components on PP3v3_UPC_XB_LDO:''
+**** ''U3200 (Most common)''
+**** ''C3208 (2nd most common)''
+**** ''U2890 (Extremely rare)''
+*** ''Possible shorted components on PP3v3_UPC_XA_LDO:''
+**** ''U3100 or C3108.''
+
+'''If the above findings are negative and there are no visual abnormalities on the system board, one or both of the CD3215s is likely bad. With the USB-C amp meter, determine if one port has a different behavior than the other. One port that cycles, or has a lower or fixed amp draw compared to the other is ''highly'' suggestive of the CD3215 that corresponds to that port being bad.'''

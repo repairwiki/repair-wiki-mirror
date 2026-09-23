@@ -1,0 +1,17 @@
+<!--
+title:        File:Siemens VDOI RD3-01 PSARCD100-08 Motherboard bottom.jpg
+pageid:       9631
+revid:        13923
+source:       https://repair.wiki/w/File:Siemens_VDOI_RD3-01_PSARCD100-08_Motherboard_bottom.jpg
+history:      https://repair.wiki/index.php?title=File:Siemens_VDOI_RD3-01_PSARCD100-08_Motherboard_bottom.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13923
+last_edited:  2026-02-11T21:52:58Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

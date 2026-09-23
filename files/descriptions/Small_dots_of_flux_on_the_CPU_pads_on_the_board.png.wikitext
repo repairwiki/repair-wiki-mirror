@@ -1,0 +1,18 @@
+<!--
+title:        File:Small dots of flux on the CPU pads on the board.png
+pageid:       2495
+revid:        5061
+source:       https://repair.wiki/w/File:Small_dots_of_flux_on_the_CPU_pads_on_the_board.png
+history:      https://repair.wiki/index.php?title=File:Small_dots_of_flux_on_the_CPU_pads_on_the_board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5061
+last_edited:  2024-10-14T01:15:07Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         acb99ca558281482149cc9e3eb63e79c6bf34908
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Small dots of flux on the CPU pads on the board

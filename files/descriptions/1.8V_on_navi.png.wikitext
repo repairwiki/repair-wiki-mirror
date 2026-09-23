@@ -1,0 +1,18 @@
+<!--
+title:        File:1.8V on navi.png
+pageid:       1682
+revid:        3681
+source:       https://repair.wiki/w/File:1.8V_on_navi.png
+history:      https://repair.wiki/index.php?title=File:1.8V_on_navi.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3681
+last_edited:  2024-03-17T12:01:06Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         8d2596d5616345f02c67c95234afa69ccfa4fa6b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+1.8V on navi

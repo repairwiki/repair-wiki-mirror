@@ -1,0 +1,63 @@
+<!--
+title:        1.8V Rail on Pascal GPUs Explained
+pageid:       351
+revid:        815
+source:       https://repair.wiki/w/1.8V_Rail_on_Pascal_GPUs_Explained
+history:      https://repair.wiki/index.php?title=1.8V_Rail_on_Pascal_GPUs_Explained&action=history
+permalink:    https://repair.wiki/index.php?oldid=815
+last_edited:  2023-11-06T17:33:16Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for GTX 1060, Explanatory guides for GTX 1070, Explanatory guides for GTX 1070Ti, Explanatory guides for GTX 1080, Explanatory guides for GTX 1080Ti
+sha1:         fddf489107c5eaf782008151b9f8673593f6c44e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=GTX 1060, GTX 1070, GTX 1070Ti, GTX 1080, GTX 1080Ti
+|Type=Circuit
+|Difficulty=2. Medium
+}}
+This page explains how the 1.8V rail is created and what it is used for in Nvidia Pascal GPUs and the most common problems that could occur.
+
+==The Controller Circuit==
+For GTX 1070s, 1080s, and 1070 Tis the IC responsible for creating the 1.8V rail is typically an MP1475, but an RT7296F is sometimes used in its place. While on GTX 1080 Tis and other GP102 based cards, you would typically expect to see an AOZ1267QI-01 as linked [http://www.aosmd.com/res/data_sheets/AOZ1267QI-01.pdf here]
+
+The RT7296F is a Synchronous Step-Down Converter made by RICHTEK. [https://www.richtek.com/assets/product_file/RT7296F/DS7296F-05.pdf You can find the datasheet Here] and it's the same one used for the [[5V Rail on Pascal GPUs Explained|5V Rail on Pascal GPUs.]]
+
+MP1475's datasheet can be found [https://www.digikey.com/htmldatasheets/production/1784868/0/0/1/mp1475.html here]
+[[File:1.8v location on the board at the back .jpg|thumb|273x273px|1.8v location at the back of the board. (Figure 1)]]
+[[File:1.8V rail schematic Pascal.jpg|thumb|1.8V rail schematic (Figure 2)]]
+Markings on the schematic and board could differ from GPU model to another but the circuit is almost always the same.
+
+the workings of this controller is detailed on the [[5V Rail on Pascal GPUs Explained|5V Rail on Pascal GPUs]] page, the difference is that this one gets its EN signal from the PG pin of the 5V controller.
+
+==Usage==
+On Pascal family of GPUs, 1.8V is used to power low level logic in the GPU core itself and in most situations the BIOS chip as well
+[[File:1.8v being used in the GPU core.jpg|thumb|279x279px|1.8v being used in the GPU core (Figure 3)]]
+[[File:1.8v powering the bios chip on pascal GPUs.jpg|thumb|1.8v powering the bios chip  (Figure 4)]]
+
+==Common Problems==
+
+===No voltage out on the 1.8V rail===
+First thing to check is the EN signal which should be 2V+ followed by Vin which should be 12V (Figure 2) if one of them is missing then check the schematic and follow the signal to find the culprit, it's usually a faulty resistor.
+
+EN signal comes from the [[5V Rail on Pascal GPUs Explained|5V Rail Controller]]. if you don't have it then check the 5V Controller.
+
+After making sure both of the above are there, check the VCC pin. If there is no 5V on it then most likely the controller is faulty and needs changing. If there is 5V on VCC, check out the resistor divider and make sure their values are the same as in the schematic (Figure 2).
+
+===Short Or Low Resistance===
+The 1.8V rail goes straight to the core, if you have low resistance or it's shorted then most likely you have a dead GPU on your hands. A short on 1.8V is accompanied by a dead core well over 95% of the time.
+
+If you're very lucky, the problem could be coming from the BIOS chip, start by removing it and checking if the short is still there. In the case that the 1.8V short didn't go away, you could check the capacitors that are associated with it, Shown below on figure 5. 
+[[File:1.8v shorts pascal.jpg|none|thumb|1.8V shorts (Figure 5)]]
+
+
+If you have access to a thermal camera, it is extremely easy to tell if the core is the source of your short. On Nvidia GPUs, the "1.8V" portion of the GPU is typically in the bottom left corner, and as a result shorts on the 1.8V rail often look similar to the images below.
+[[File:GP102 1.8V Short.jpg|none|thumb|A GP102 die where the die is the source of a 1.8V short]]
+[[File:GP104 1.8V Short.jpg|none|thumb|A GP104 die where the die itself is the source of a short on the 1.8V rail]]
+
+===No PowerGOOD Signal===
+PG signal from the controller is the same signal that enables the Vcore rail, if the buck converter doesn't form that signal the rest of the card won't work. The most likely cause is the controller itself. If 1.8V is being outputted, however, if even after replacing the controller you still don't have PG then check the FB circuit (Figure 2) and make sure every resistor is the right resistance.

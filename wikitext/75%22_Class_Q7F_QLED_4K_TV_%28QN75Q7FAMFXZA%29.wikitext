@@ -1,0 +1,49 @@
+<!--
+title:        75" Class Q7F QLED 4K TV (QN75Q7FAMFXZA)
+pageid:       4826
+revid:        7974
+source:       https://repair.wiki/w/75%22_Class_Q7F_QLED_4K_TV_(QN75Q7FAMFXZA)
+history:      https://repair.wiki/index.php?title=75%22_Class_Q7F_QLED_4K_TV_(QN75Q7FAMFXZA)&action=history
+permalink:    https://repair.wiki/index.php?oldid=7974
+last_edited:  2025-06-23T07:11:05Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Device, Samsung, Samsung Television/Monitors, Stubs, Television/Monitors
+sha1:         afa45b1840f16af6a09ac36752fbf8985b2aa72e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Television/Monitor
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:QN75Q7FAMFXZA.jpg|alt=
+File:QN75Q7FAMFXZA Backside.jpg|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:QN75Q7FAMFXZA Power Supply.jpeg|Power Supply
+File:QN75Q7FAMFXZA backlight Board.jpg|'''QN75Q7FAMFXZA Backlight Board'''
+File:QN75Q7FAMFXZA MainBoard.jpg|'''QN75Q7FAMFXZA Main PCB'''
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

@@ -1,0 +1,18 @@
+<!--
+title:        File:5V on Navi.png
+pageid:       1679
+revid:        3674
+source:       https://repair.wiki/w/File:5V_on_Navi.png
+history:      https://repair.wiki/index.php?title=File:5V_on_Navi.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3674
+last_edited:  2024-03-16T11:34:27Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         6d903109de5d426b692752e34ca7fbfda96b374a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+5V on Navi

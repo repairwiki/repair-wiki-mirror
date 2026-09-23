@@ -1,0 +1,84 @@
+---
+title: "Xbox One X No Power"
+pageid: 4997
+revid: 11549
+kind: other
+source: "https://repair.wiki/w/Xbox_One_X_No_Power"
+history: "https://repair.wiki/index.php?title=Xbox_One_X_No_Power&action=history"
+permalink: "https://repair.wiki/index.php?oldid=11549"
+last_edited: "2025-09-14T20:55:58Z"
+contributors:
+  - "Tiago199988"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Xbox One X"
+  - "Stubs"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Xbox One X No Power
+
+## Problem description
+This guide will go over diagnosing the a Xbox One X with no signs of life.
+## Symptoms
+- The device does not turn on
+
+## Solution
+There are 2 things that can cause a no power issue on the Xbox One X the Power Supply or a problem on the Motherboard.
+
+### Diagnostic Steps
+- The first thing to check is if the power supply is producing 12V, if 12V are not present this can be due to a faulty power supply or a short on the motherboard stopping the power supply from creating the 12V line.
+![Xbox One X 12V input](images/4/4b/Xbox_One_X_12V_input.png)
+- If 12V are present the next thing to check is if the 5V Standby is present.
+
+- If 5V is present the next thing to do check the 1.1V, 3,3V and 1.8V lines
+![Xbox One X STBY voltages](images/7/73/Xbox_One_X_STBY_voltages.png)
+- If these voltages are all Standby voltages are present the issue may be the Southbridge IC.
+- If 3.3V is missing this may be due to a faulty U54, check for shorts around this ic made sure the 1.8VSTBY is present, the U54 will not turn on without 1.8V.
+- A common issue to have is 2.4V on the 3.3V line, 0.44V on 1.8V the HDMI retimer IC is the cause for this, you can test it by removing it from the board the console will turn on and then off without the Retimer.
+![Xbox One X Retimer IC](images/b/b3/Xbox_One_X_Retimer_IC_.png)
+
+## Repair Steps
+If 12V are not present remove the PSU in diode mode measure the Positive side of the PSU terminal on the motherboard it should have a high reading between 0.400 and 0.500, if ok replace the Power Supply.
+
+If you get a reading of 0.000 it means there is a short on the 12V check the [Short Circuits](Short_Circuits_-_Repair_Basics.md) page on a guide on how find the short.
+
+If 5V is not present on the Motherboard this is probably due to a short on this line once again with your multimeter in diode mode measure the line and check if the value is high, it is common to have a short on a random cap in this line, If you do have a short on a capacitor you check with schematics the value to replace it.
+
+If 3.3V STBY is not present replace the U54 IC(TPS56C215)
+
+If 3.3V and 1.8V lines are lower then expected replace the Retimer IC U29 (TDP158).
+
+To replace any of these chips falow the steps bellow
+
+#### Replacing the chip
+Desoldering the Old Chip:
+
+- Apply heat to the chip from above using a hot air station or soldering iron. Heat for several seconds until the factory solder begins to melt.
+- Gently nudge the chip with tweezers. If it moves, it’s ready to be lifted off.
+- While the board is still hot, use solder wick and a soldering iron to clean old solder from the motherboard pads.
+
+Preparing the Motherboard and New Chip:
+
+- Apply a thin layer of new solder to the cleaned motherboard pads. Avoid excess solder, especially in the center square.
+- Pre-tin the pads of the new chip with a small amount of solder to ensure good contact.
+
+Soldering the New Chip:
+
+- Align the new chip on the motherboard. Match the dot on the chip to the small triangle marker on the motherboard for correct orientation.
+- Heat the chip from above using a hot air station. Watch for the solder to melt, indicated by slight chip movement.
+- Gently touch the chip with tweezers to let surface tension settle it into place. Avoid excessive force.
+
+Inspection and Cleanup:
+
+- Inspect all connections under a microscope . Ensure there are no solder bridges between pins.
+- If any connections look faulty, gently touch the affected pad with a soldering iron to reflow and correct.
+
+## Final Testing
+After assembling the console, ensure every function is working as expected.
+
+If you replaced the Retimer IC mare sure the console is able to output image in 4K.

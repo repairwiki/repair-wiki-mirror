@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Air 4 - Charging Port Diode Mode Readings.jpg
+pageid:       248
+revid:        674
+source:       https://repair.wiki/w/File:IPad_Air_4_-_Charging_Port_Diode_Mode_Readings.jpg
+history:      https://repair.wiki/index.php?title=File:IPad_Air_4_-_Charging_Port_Diode_Mode_Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=674
+last_edited:  2023-11-05T16:43:32Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         1860dbe2c74600d71645acd78051c884a0f5b137
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+IPad Air 4 - Charging Port Diode Mode Readings

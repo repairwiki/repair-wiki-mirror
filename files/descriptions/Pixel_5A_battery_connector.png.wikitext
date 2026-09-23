@@ -1,0 +1,18 @@
+<!--
+title:        File:Pixel 5A battery connector.png
+pageid:       289
+revid:        738
+source:       https://repair.wiki/w/File:Pixel_5A_battery_connector.png
+history:      https://repair.wiki/index.php?title=File:Pixel_5A_battery_connector.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=738
+last_edited:  2023-11-05T22:23:25Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         c2757beada6dcccc6d5fc06bce72791049260ef3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Pixel 5A battery connector

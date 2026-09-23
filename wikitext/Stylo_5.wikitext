@@ -1,0 +1,47 @@
+<!--
+title:        Stylo 5
+pageid:       3904
+revid:        11932
+source:       https://repair.wiki/w/Stylo_5
+history:      https://repair.wiki/index.php?title=Stylo_5&action=history
+permalink:    https://repair.wiki/index.php?oldid=11932
+last_edited:  2025-09-20T21:43:45Z
+contributors: Tiago199988, Samhext
+anonymous_edits: 0
+categories:   Device, LG, LG Phones, Phones, Stubs
+sha1:         e35c009e17f669d759caaec8914fc77d5accda3b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=LG
+|Has code name=LM-Q720
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Stylo 5.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Lgstylo5.jpg|LG Stylo 5 Mechanic USB-C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

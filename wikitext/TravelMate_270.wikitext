@@ -1,0 +1,44 @@
+<!--
+title:        TravelMate 270
+pageid:       611
+revid:        2746
+source:       https://repair.wiki/w/TravelMate_270
+history:      https://repair.wiki/index.php?title=TravelMate_270&action=history
+permalink:    https://repair.wiki/index.php?oldid=2746
+last_edited:  2024-01-16T16:19:26Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Acer, Acer Laptops, Device, Laptops, Stubs
+sha1:         affab7795ca49e065cb653179a2bcb0eeb64194d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Acer
+|Has code name=TravelMate 270
+|Device type=Laptop
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==External Sources==

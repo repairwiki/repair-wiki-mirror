@@ -1,0 +1,43 @@
+<!--
+title:        Aspire V3-772g
+pageid:       610
+revid:        12983
+source:       https://repair.wiki/w/Aspire_V3-772g
+history:      https://repair.wiki/index.php?title=Aspire_V3-772g&action=history
+permalink:    https://repair.wiki/index.php?oldid=12983
+last_edited:  2025-12-01T23:33:44Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Acer, Acer Laptops, Device, Laptops, Stubs
+sha1:         02a7594ef2edecb270a3ecff9fbc298b6cb4bce6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Acer
+|Has code name=V3-772g
+|Device type=Laptop
+}}
+{{stub}}
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Aspire V3-772g.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==External Sources==

@@ -1,0 +1,18 @@
+<!--
+title:        File:SP Regen terminal.png
+pageid:       4539
+revid:        7596
+source:       https://repair.wiki/w/File:SP_Regen_terminal.png
+history:      https://repair.wiki/index.php?title=File:SP_Regen_terminal.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7596
+last_edited:  2025-06-13T02:57:02Z
+contributors: Chris
+anonymous_edits: 0
+categories:   
+sha1:         cb1932d14769f96630d290e573d99d463704b687
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The terminal informs us about an MCMT fault

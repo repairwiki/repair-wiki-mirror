@@ -1,0 +1,94 @@
+<!--
+title:        How To Fix iPhone 16 Pro Max No Image With Original Screen
+pageid:       8806
+revid:        12813
+source:       https://repair.wiki/w/How_To_Fix_iPhone_16_Pro_Max_No_Image_With_Original_Screen
+history:      https://repair.wiki/index.php?title=How_To_Fix_iPhone_16_Pro_Max_No_Image_With_Original_Screen&action=history
+permalink:    https://repair.wiki/index.php?oldid=12813
+last_edited:  2025-11-23T01:36:45Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 16 Pro, Repair guides for iPhone 16 Pro Max, Stubs
+sha1:         cd0b8e1740089d3ac97b0e142b6a0bb83dff43f6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPhone 16 Pro, iPhone 16 Pro Max
+|Affects parts=Logic Board
+|Needs equipment=Hot Air Station, Soldering Iron, Soldering Paste, Reballing Stencils
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+iPhone 16 Pro/Pro Max powers on but shows no image with an original display.
+
+However, when a generic (aftermarket) screen is installed, the device displays normally.
+[[File:PNVAR BOARDVIEW.png|thumb]]
+This fault is directly tied to the missing –10 V on the PNVAR_DISPLAY_VGL line, which is required only by original OLED panels. Generic screens do not rely on this negative voltage rail, so they still show image even when the rail is missing.
+[[File:PNVAR DISP.png|thumb]]
+[[File:DPMIC LOCATION.png|thumb|[[File:DPMIC BOARDVIEW.png|thumb]]]]
+[[File:PNVAR SHORT CAP.png|thumb]]
+
+== Symptoms ==
+
+* Original display = black screen, but phone is ON (vibration, sound, calls).
+
+* Generic display = normal image.
+
+* Touch, Face ID, and other functions may still work in background.
+* No visible damage on board.
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+
+
+=== Diagnostic Steps ===
+
+==== 1. Visual Inspection ====
+
+* Inspect display FPC area for liquid or mechanical damage.
+* Check filter components on PNVAR_DISPLAY_VGL for shorts or corrosion.
+
+==== 2. Diode Mode Check ====
+
+* Measure PNVAR_DISPLAY_VGL test pad.
+** Expected forward diode value: ~220 mV
+** Reverse: OL
+
+==== 3. Voltage Check ====
+
+* Connect the display → Power on device.
+* Check the PNVAR_DISPLAY_VGL rail.
+** Expected: –10 V
+** Actual reading (faulty board): 0 V or unstable negative voltage.
+
+==== 4. Confirm Voltage Generation ====
+
+* If –10 V is missing, trace back to DPMIC U9400 output.
+
+==== 5. No Short Found ====
+
+* If no short exists on the line, the issue is always at U9400 (common failure).
+
+=== Repair Steps ===
+
+# Disassemble device and expose logic board.
+# Remove board shielding around the display power management area.
+# Identify U9400 (Display PMIC).
+# Apply flux and remove U9400 using controlled hot-air.
+# Clean pads thoroughly.
+# Reball or use a new U9400 IC.
+# Solder replacement IC with proper alignment.
+# Inspect all solder joints under microscope.
+# Reassemble and test with original display.
+# Confirm:
+#* PNVAR_DISPLAY_VGL = –10 V
+#* Image restored on original panel.

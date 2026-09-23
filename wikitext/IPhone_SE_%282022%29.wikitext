@@ -1,0 +1,50 @@
+<!--
+title:        IPhone SE (2022)
+pageid:       1610
+revid:        11443
+source:       https://repair.wiki/w/IPhone_SE_(2022)
+history:      https://repair.wiki/index.php?title=IPhone_SE_(2022)&action=history
+permalink:    https://repair.wiki/index.php?oldid=11443
+last_edited:  2025-09-08T12:37:26Z
+contributors: VCCBoardRepairs, Tiago199988, A1Repairs
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         875af60108dd1a349887a2af4ded0694c99be418
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2783, A2595, A2785, A2782, A2784
+|Device release date=2022-03-18
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphonese2022-800x800.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPhone SE 2022 PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPhone SE 2022 lighting port readings.jpeg|iPhone SE 2022 lighting port readings
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone SE 2022 Self Repair Store
+
+'''Repair Manual ID: GPCNKY'''

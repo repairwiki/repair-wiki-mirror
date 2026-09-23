@@ -1,0 +1,18 @@
+<!--
+title:        File:Blow circuit.jpg
+pageid:       4224
+revid:        7223
+source:       https://repair.wiki/w/File:Blow_circuit.jpg
+history:      https://repair.wiki/index.php?title=File:Blow_circuit.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7223
+last_edited:  2025-05-31T14:13:52Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         532fc80d6a1985bac000aeca98d37f46fa8e64dd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 11 Blown Backlight Circuit

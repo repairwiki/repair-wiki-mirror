@@ -1,0 +1,18 @@
+<!--
+title:        File:Xbox One S HDMI Out Mechanic T-824 Tail Insertion Diode Mode Readings.png
+pageid:       1571
+revid:        3415
+source:       https://repair.wiki/w/File:Xbox_One_S_HDMI_Out_Mechanic_T-824_Tail_Insertion_Diode_Mode_Readings.png
+history:      https://repair.wiki/index.php?title=File:Xbox_One_S_HDMI_Out_Mechanic_T-824_Tail_Insertion_Diode_Mode_Readings.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3415
+last_edited:  2024-02-12T21:05:38Z
+contributors: Ben ProFixerr
+anonymous_edits: 0
+categories:   
+sha1:         40565947ac719f96cf7ae6d7bb027f892894d8fa
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Diode mode readings when using Mechanic T-824 Diode Mode Testing Tool with the HDMI to USB C MozzWald Adapter Breakout Board.

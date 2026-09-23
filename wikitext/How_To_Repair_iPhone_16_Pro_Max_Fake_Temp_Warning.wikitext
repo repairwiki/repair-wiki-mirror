@@ -1,0 +1,65 @@
+<!--
+title:        How To Repair iPhone 16 Pro Max Fake Temp Warning
+pageid:       9242
+revid:        13412
+source:       https://repair.wiki/w/How_To_Repair_iPhone_16_Pro_Max_Fake_Temp_Warning
+history:      https://repair.wiki/index.php?title=How_To_Repair_iPhone_16_Pro_Max_Fake_Temp_Warning&action=history
+permalink:    https://repair.wiki/index.php?oldid=13412
+last_edited:  2025-12-27T19:16:24Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 16 Pro, Repair guides for iPhone 16 Pro Max, Stubs
+sha1:         eecb7eb07fd7b37227715cc46584ce396a86c754
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPhone 16 Pro, iPhone 16 Pro Max
+|Affects parts=Main Logic Board
+|Needs equipment=Soldering Iron, Microscope, Solder Paste, Jumper Wire
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+iPhone 16 Pro / 16 Pro Max displays a “Temperature Too High” warning immediately on boot or shortly after connecting a charger, even though the device is physically cool and shows no real thermal rise.
+[[File:Fake-temp-warning-16p.webp|thumb|iPhone 16 Pro/Max Temp. Warning]]
+
+== Symptoms ==
+
+* “Temperature Too High” warning on screen
+* Device refuses to charge or throttles charging
+* Issue appears instantly, even on a cold device
+* No abnormal current draw on DCPS
+* No actual heating of CPU, PMIC, or battery
+* Problem persists after:
+** Battery replacement
+** Charging port replacement
+** iOS restore
+
+[[File:Fake-temp-boardview-16p.png|thumb]]
+
+== Solution ==
+[[File:Fake-temp-board-16p.png|thumb]]
+
+=== Diagnostic Steps ===
+
+# Confirm device is physically cool
+# Measure current draw (should be normal / idle)
+# Measure voltage at gpio_aop_from_baro_int_l
+#* ❌ ~0.8–0.9 V → fault confirmed
+# Locate pp1v8_s2_dock_conn
+# Verify donor rail is clean and stable before proceeding<br />
+=== Repair Steps ===
+
+# Disconnect battery
+# Identify gpio_aop_from_baro_int_l
+# Identify pp1v8_s2_dock_conn
+# Solder a 1 kΩ resistor in series with a fine jumper wire
+# Connect:
+#* One side of resistor → 1.8 V source
+#* Other side → affected dock FPC signal pad
+# Secure jumper to prevent movement or shorts
+# Reconnect battery and power on device

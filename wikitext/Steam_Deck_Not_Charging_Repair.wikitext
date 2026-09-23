@@ -1,0 +1,35 @@
+<!--
+title:        Steam Deck Not Charging Repair
+pageid:       870
+revid:        2089
+source:       https://repair.wiki/w/Steam_Deck_Not_Charging_Repair
+history:      https://repair.wiki/index.php?title=Steam_Deck_Not_Charging_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2089
+last_edited:  2024-01-12T23:44:06Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Steam Deck, Stubs
+sha1:         9749e863efcefad492857b3f811611f55b523a93
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Steam Deck
+|Affects parts=Motherboard
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Steam Deck not charging when connected to power
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Not Charging
+
+==Solution==
+Replace Charge IC (MAX77961) info: https://www.maximintegrated.com/en/products/power/battery-management/MAX77961.html

@@ -1,0 +1,18 @@
+<!--
+title:        Template:Icon
+pageid:       1642
+revid:        3598
+source:       https://repair.wiki/w/Template:Icon
+history:      https://repair.wiki/index.php?title=Template:Icon&action=history
+permalink:    https://repair.wiki/index.php?oldid=3598
+last_edited:  2024-03-09T13:29:13Z
+contributors: Admin
+anonymous_edits: 0
+categories:   
+sha1:         6a5481c40f465e0bedcbb70925168ad66c7d3380
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<span class="frontpage-icon citizen-ui-icon mw-ui-icon-wikimedia-{{{1|userAvatar}}}"></span>

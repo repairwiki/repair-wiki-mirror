@@ -1,0 +1,44 @@
+<!--
+title:        Magneto X
+pageid:       3020
+revid:        5702
+source:       https://repair.wiki/w/Magneto_X
+history:      https://repair.wiki/index.php?title=Magneto_X&action=history
+permalink:    https://repair.wiki/index.php?oldid=5702
+last_edited:  2025-02-19T05:57:29Z
+contributors: EmperorArthur
+anonymous_edits: 0
+categories:   3D Printers, Device, Peopoly, Peopoly 3D Printers, Stubs
+sha1:         133419ca5a1bfcd7950ecdd8d779dc26b77eeb38
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Peopoly|Device release date=September 26, 2023|Device type=3D Printer}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+[https://peopoly.net/products/magneto-x Manufacturer's Store Page]
+[https://wiki.peopoly.net/magneto/content Official Wiki]
+[https://magnetoxcommunity.hostwiki.io/ Community Wiki]
+[https://discord.gg/rVUKaBAGKC Peopoly Official Discord]

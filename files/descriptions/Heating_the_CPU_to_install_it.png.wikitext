@@ -1,0 +1,18 @@
+<!--
+title:        File:Heating the CPU to install it.png
+pageid:       2497
+revid:        5063
+source:       https://repair.wiki/w/File:Heating_the_CPU_to_install_it.png
+history:      https://repair.wiki/index.php?title=File:Heating_the_CPU_to_install_it.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5063
+last_edited:  2024-10-14T01:19:46Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         74a568c5bc184cde9c19014b173b5ee52dd7c598
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Heating the CPU to install it

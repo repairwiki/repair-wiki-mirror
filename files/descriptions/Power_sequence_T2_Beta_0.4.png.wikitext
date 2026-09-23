@@ -1,0 +1,18 @@
+<!--
+title:        File:Power sequence T2 Beta 0.4.png
+pageid:       1698
+revid:        3747
+source:       https://repair.wiki/w/File:Power_sequence_T2_Beta_0.4.png
+history:      https://repair.wiki/index.php?title=File:Power_sequence_T2_Beta_0.4.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3747
+last_edited:  2024-04-06T22:59:43Z
+contributors: Inwerp
+anonymous_edits: 0
+categories:   
+sha1:         7e6955ce26b39e21f2222802d22fa7f9013c76a5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Macbook T2 Platfor power sequence

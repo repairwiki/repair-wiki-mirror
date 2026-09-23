@@ -1,0 +1,17 @@
+<!--
+title:        File:Stylo 5.webp
+pageid:       8158
+revid:        11931
+source:       https://repair.wiki/w/File:Stylo_5.webp
+history:      https://repair.wiki/index.php?title=File:Stylo_5.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=11931
+last_edited:  2025-09-20T21:43:31Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

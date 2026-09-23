@@ -1,0 +1,18 @@
+<!--
+title:        File:Jumpers.png
+pageid:       5618
+revid:        8879
+source:       https://repair.wiki/w/File:Jumpers.png
+history:      https://repair.wiki/index.php?title=File:Jumpers.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8879
+last_edited:  2025-07-20T20:40:56Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         2e8cc88a43a4b7dc0951d37d3c43382a9dea4606
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+jumpers

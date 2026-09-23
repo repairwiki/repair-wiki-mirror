@@ -1,0 +1,46 @@
+<!--
+title:        PlayStation 3 Super Slim
+pageid:       8629
+revid:        12554
+source:       https://repair.wiki/w/PlayStation_3_Super_Slim
+history:      https://repair.wiki/index.php?title=PlayStation_3_Super_Slim&action=history
+permalink:    https://repair.wiki/index.php?oldid=12554
+last_edited:  2025-11-02T20:58:56Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         8083fbfd6c2f1d5c8fb038b92e63a001888226e1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Sony|Device type=Game Console}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:PS3-Super-Slim.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:NPX-001 PCB CPU Side.jpg|NPX-001
+File:NPX-001 PCB BACK Side.jpg|NPX-001
+File:MSX-001 PCB CPU Side.jpg|MSX-001
+File:MSX-001 PCB BACK Side.jpg|MSX-001
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

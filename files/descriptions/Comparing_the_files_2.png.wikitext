@@ -1,0 +1,18 @@
+<!--
+title:        File:Comparing the files 2.png
+pageid:       4546
+revid:        7603
+source:       https://repair.wiki/w/File:Comparing_the_files_2.png
+history:      https://repair.wiki/index.php?title=File:Comparing_the_files_2.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7603
+last_edited:  2025-06-13T03:42:28Z
+contributors: Chris
+anonymous_edits: 0
+categories:   
+sha1:         56847035d6ced89d1d12c44a395f4adef12da8aa
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+We go to the second copy and compare it with the buffer contents

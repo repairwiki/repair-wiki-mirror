@@ -1,0 +1,18 @@
+<!--
+title:        File:JCID Flex Connected.png
+pageid:       7827
+revid:        11560
+source:       https://repair.wiki/w/File:JCID_Flex_Connected.png
+history:      https://repair.wiki/index.php?title=File:JCID_Flex_Connected.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11560
+last_edited:  2025-09-14T21:27:32Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         afa8ebdee06bbdc01dadb7bbde82e96fd4d1ea21
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+JCID Flex Connected

@@ -1,0 +1,18 @@
+<!--
+title:        File:Important Display Message- iPhone.png
+pageid:       241
+revid:        653
+source:       https://repair.wiki/w/File:Important_Display_Message-_iPhone.png
+history:      https://repair.wiki/index.php?title=File:Important_Display_Message-_iPhone.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=653
+last_edited:  2023-11-04T21:12:08Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         332c810265e65b05eb92584f6e7665698878c1ee
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Important Display Message- iPhone

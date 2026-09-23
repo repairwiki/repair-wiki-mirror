@@ -1,0 +1,45 @@
+<!--
+title:        Toshiba 4610-1NR
+pageid:       994
+revid:        2352
+source:       https://repair.wiki/w/Toshiba_4610-1NR
+history:      https://repair.wiki/index.php?title=Toshiba_4610-1NR&action=history
+permalink:    https://repair.wiki/index.php?oldid=2352
+last_edited:  2024-01-13T22:57:21Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Device, Printers, Stubs, Toshiba, Toshiba Printers
+sha1:         cfb0b27e672e17ff9d5f673e57b81789d247dcdf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Toshiba
+|Has code name=SureMark 4610 Printer Model 1NR
+|Device type=Printer
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+[https://tgcs04.toshibacommerce.com/cs/groups/internet/documents/document/bw9k/zwxf/~edisp/4610_hw_guide_model_1nr.pdf Hardware Guide (toshibacommerce.com)]

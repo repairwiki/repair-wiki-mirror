@@ -1,0 +1,34 @@
+<!--
+title:        MacBook Pro A1706 No image repair
+pageid:       226
+revid:        609
+source:       https://repair.wiki/w/MacBook_Pro_A1706_No_image_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1706_No_image_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=609
+last_edited:  2023-10-30T19:11:00Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1706, Stubs
+sha1:         72d13a3c07220a393ff5bf46e0922fdbde9c8c60
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1706
+|Affects parts=Motherboard, Display assembly
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+When the MacBook does turn on but there is no image on the LCD. Backlight may be present but the screen is black[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+*No image on LCD
+==Solution==
+Check the LCD cable and the connector on both the screen side and the logic board side. The backlight power line is right next to the eDP data line for the image. Any minor corrosion here results in 30 V or more going to the CPU data line. This we have no solution for since replacing the CPU isn't economically viable.
+
+It can be a bad GPU inside the CPU, which we have no solution for.

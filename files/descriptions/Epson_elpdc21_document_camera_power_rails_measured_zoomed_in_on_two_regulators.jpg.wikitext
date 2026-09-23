@@ -1,0 +1,17 @@
+<!--
+title:        File:Epson elpdc21 document camera power rails measured zoomed in on two regulators.jpg
+pageid:       1066
+revid:        2467
+source:       https://repair.wiki/w/File:Epson_elpdc21_document_camera_power_rails_measured_zoomed_in_on_two_regulators.jpg
+history:      https://repair.wiki/index.php?title=File:Epson_elpdc21_document_camera_power_rails_measured_zoomed_in_on_two_regulators.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2467
+last_edited:  2024-01-14T12:51:06Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

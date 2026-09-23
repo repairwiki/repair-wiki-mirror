@@ -1,0 +1,61 @@
+<!--
+title:        Galaxy A125(Mediatek) No Graphics
+pageid:       4820
+revid:        7939
+source:       https://repair.wiki/w/Galaxy_A125(Mediatek)_No_Graphics
+history:      https://repair.wiki/index.php?title=Galaxy_A125(Mediatek)_No_Graphics&action=history
+permalink:    https://repair.wiki/index.php?oldid=7939
+last_edited:  2025-06-22T21:10:08Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Galaxy A12, Stubs
+sha1:         1aa7dd925addd480989abf99a9986192da868b88
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Galaxy A12
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering, BGA
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The mobile phone turn on normally, vibrates, can hear sounds but cannot see anything on the screen (not to be confused with backlight issue) cannot see anything even with torch. 
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Device turns on normally
+* No light and no graphics
+* Can hear sounds
+* Charging is normal and can be detected on computer
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+There is a assential voltage for graphics that comes from PMIC that gets disconnected after several drops and the solution for this is that you have to make a small jumper to reconnect the disconnected pad in order to have it fully function again. <br />
+=== Repair Steps ===
+
+
+Check Diode value on this pin(if value is OL or high then proceed to the repair steps):
+[[File:Pin-7.png|center|thumb|Diode Value]]
+
+* Lift up the PMIC
+* Check pad #A17 if its disconnected, if not try to move it and see if it comes off or its lose (shown in picture below)
+[[File:Missing pad.png|center|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+* Make a jumper for the pad no.17 from the nearest component to the pmic (shown in picture below)
+[[File:Jumper to make.png|center|thumb|A17 jumper]]
+* Check continuity, if its ok then gently clean the area and apply uv solder mask
+* Reball and reinstall the power ic
+* Your device should be fully functional again.

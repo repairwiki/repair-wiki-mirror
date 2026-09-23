@@ -1,0 +1,18 @@
+<!--
+title:        Template:Stub
+pageid:       50
+revid:        14259
+source:       https://repair.wiki/w/Template:Stub
+history:      https://repair.wiki/index.php?title=Template:Stub&action=history
+permalink:    https://repair.wiki/index.php?oldid=14259
+last_edited:  2026-09-22T22:53:44Z
+contributors: Admin, ASRepairs, ContentBot
+anonymous_edits: 1
+categories:   Formatting templates
+sha1:         1b7ffd2411dc4b4d62875dc607136b4a1919ce3c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<div class="stub-notice">This article is a [[:Category:Stubs|stub]]. You can help {{SITENAME}} grow by {{editlink|{{PAGENAME}}|expanding it}}</div><includeonly>[[Category:Stubs]]</includeonly><noinclude>[[Category:Formatting_templates]]</noinclude>

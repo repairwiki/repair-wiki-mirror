@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 12 Pro Max Baseband PMU Voltages.jpg
+pageid:       4237
+revid:        7239
+source:       https://repair.wiki/w/File:IPhone_12_Pro_Max_Baseband_PMU_Voltages.jpg
+history:      https://repair.wiki/index.php?title=File:IPhone_12_Pro_Max_Baseband_PMU_Voltages.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7239
+last_edited:  2025-05-31T22:45:54Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         3b651090f5f3c361b4ff5f26d3bc083186face18
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+IPhone 12 Pro Max Baseband PMU Voltages

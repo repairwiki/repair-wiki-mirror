@@ -1,0 +1,18 @@
+<!--
+title:        File:Xbox One S 3.3V Standby.png
+pageid:       4994
+revid:        8122
+source:       https://repair.wiki/w/File:Xbox_One_S_3.3V_Standby.png
+history:      https://repair.wiki/index.php?title=File:Xbox_One_S_3.3V_Standby.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8122
+last_edited:  2025-06-29T22:27:07Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         f7872cb4a63c4c092b4557267ecead8a927f483a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Xbox One S 3.3V Standby

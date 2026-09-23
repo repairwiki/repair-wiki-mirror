@@ -1,0 +1,22 @@
+<!--
+title:        Template:Clickable button
+pageid:       418
+revid:        909
+source:       https://repair.wiki/w/Template:Clickable_button
+history:      https://repair.wiki/index.php?title=Template:Clickable_button&action=history
+permalink:    https://repair.wiki/index.php?oldid=909
+last_edited:  2023-11-07T20:32:50Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         8d6797dd27b4dc7431b51ab18c5bc7ad531d36ea
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+<span class="mw-ui-button {{#switch: {{{color|white}}} | red = mw-ui-destructive | green = mw-ui-constructive | white = | blue = mw-ui-progressive}}">{{{1|Button text}}}</span>
+
+<noinclude>
+<!-- Add categories to the /doc subpage; interwikis go to Wikidata, thank you! {{documentation}} -->
+</noinclude>

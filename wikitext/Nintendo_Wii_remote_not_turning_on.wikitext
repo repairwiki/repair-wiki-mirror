@@ -1,0 +1,64 @@
+<!--
+title:        Nintendo Wii remote not turning on
+pageid:       9133
+revid:        13252
+source:       https://repair.wiki/w/Nintendo_Wii_remote_not_turning_on
+history:      https://repair.wiki/index.php?title=Nintendo_Wii_remote_not_turning_on&action=history
+permalink:    https://repair.wiki/index.php?oldid=13252
+last_edited:  2025-12-13T22:59:25Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Wii
+sha1:         831ed072ec629a4b5d21f955dc4b2f946eef1d79
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Wii
+|Affects parts=Controller
+|Needs equipment=
+|Type=
+|Difficulty=1. Easy
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+Controller does not turn on
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Nopower on the remote
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+* Check the batteries in a Known good device such as a wireless mouse, etc.
+
+Check Battery Contacts.
+
+If device is not taking power:
+
+* open remote.
+
+* check continuity as follows
+
+[[File:Wii remote.jpg|left|thumb|317x317px|If it is unreliable, or if there is battery acid on the plate, remove the spring from the plate, and put it in a small container of white vinegar.
+
+
+If there is a large amount of acid on the plate, it might be best to remove the plate and put it in white vinegar.
+
+
+Resolder the plate back onto the logic board.
+
+
+Test.
+
+
+Guide imported from the ol wiki]]

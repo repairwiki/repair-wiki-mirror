@@ -1,0 +1,18 @@
+<!--
+title:        File:PS4ProNORDumpWithUARTEnabled.jpg
+pageid:       1046
+revid:        2425
+source:       https://repair.wiki/w/File:PS4ProNORDumpWithUARTEnabled.jpg
+history:      https://repair.wiki/index.php?title=File:PS4ProNORDumpWithUARTEnabled.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2425
+last_edited:  2024-01-14T11:23:07Z
+contributors: Rara64
+anonymous_edits: 0
+categories:   
+sha1:         0907c40eca7e99a9a2dc7debae47879373d24b81
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Playstation 4 Pro NOR dump with UART enabled in PS4 Wee Tools.

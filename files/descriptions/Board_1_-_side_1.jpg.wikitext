@@ -1,0 +1,18 @@
+<!--
+title:        File:Board 1 - side 1.jpg
+pageid:       886
+revid:        2108
+source:       https://repair.wiki/w/File:Board_1_-_side_1.jpg
+history:      https://repair.wiki/index.php?title=File:Board_1_-_side_1.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2108
+last_edited:  2024-01-13T01:36:18Z
+contributors: Whittz
+anonymous_edits: 0
+categories:   
+sha1:         ad467837a3f03334a43b83ff4abfb98853447276
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+top view of side 1

@@ -1,0 +1,45 @@
+<!--
+title:        Toshiba 4610-1NR Not Printing anything on thermal paper Repair
+pageid:       1006
+revid:        2370
+source:       https://repair.wiki/w/Toshiba_4610-1NR_Not_Printing_anything_on_thermal_paper_Repair
+history:      https://repair.wiki/index.php?title=Toshiba_4610-1NR_Not_Printing_anything_on_thermal_paper_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2370
+last_edited:  2024-01-13T23:45:48Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Toshiba 4610-1NR, Stubs
+sha1:         3b609dc839145e4dde3a09ebfd9f3a513fe00861
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Toshiba 4610-1NR
+|Affects parts=Thermal Print Head
+|Needs equipment=Screwdriver (magnetic recommended)
+|Type=General
+|Difficulty=1. Easy
+}}
+{{stub}}
+
+==Problem description==
+Not Printing anything on thermal paper. Paper comes out blank when printing.
+[[File:4610-1NR ThermHead1.jpg|alt=With the printer upside down remove the interface card by pressing the blue spring loaded button and pulling up.|thumb|With the printer upside down remove the interface card by pressing the blue spring-loaded button and pulling up.]]
+
+==Symptoms==
+
+*Not printing onto the paper
+[[File:4610-1NR ThermHead2.jpg|alt=Flip the printer back over and remove the top cover by pressing both grey tabs with your thumbs then sliding the cover up.|thumb|Flip the printer back over and remove the top cover by pressing both grey tabs with your thumbs then sliding the cover up.]]
+
+==Solution==
+
+# With the printer upside down remove the interface card by pressing the blue spring-loaded button and pulling up.
+# Flip the printer back over and remove the top cover by pressing both grey tabs with your thumbs then sliding the cover up.
+# Flip the unit over again and pull the tab back as indicated. This will allow the outer cover to slide up and off.
+# Position the unit on its back then remove the two indicated screws (A magnetic tipped screwdriver is highly recommended)[[File:4610-1NR ThermHead3.jpg|alt=Flip the unit over again and pull the tab back as indicated. This will allow the outer cover to slide up and off.|thumb|Flip the unit over again and pull the tab back as indicated. This will allow the outer cover to slide up and off.]][[File:4610-1NR ThermHead4.jpg|alt=Position the unit on its back then remove the two indicated screws (A magnetic tipped screwdriver is highly recommended)|thumb|Position the unit on its back then remove the two indicated screws (A magnetic tipped screwdriver is highly recommended)]][[File:4610-1NR ThermHead5.jpg|alt=Remove the old thermal head from the ribbon cable connector and swap the new one in place being careful not to bend the corners of the connector.|thumb|Remove the old thermal head from the ribbon cable connector and swap the new one in place being careful not to bend the corners of the connector.]]
+# Remove the old thermal head from the ribbon cable connector and swap the new one in place being careful not to bend the corners of the connector.
+
+
+YouTube video walkthrough of this process: https://youtu.be/RlbVMICpni4

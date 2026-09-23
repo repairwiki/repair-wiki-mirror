@@ -1,0 +1,31 @@
+<!--
+title:        Raspberry Pi PSU Test
+pageid:       944
+revid:        2315
+source:       https://repair.wiki/w/Raspberry_Pi_PSU_Test
+history:      https://repair.wiki/index.php?title=Raspberry_Pi_PSU_Test&action=history
+permalink:    https://repair.wiki/index.php?oldid=2315
+last_edited:  2024-01-13T20:44:34Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for Raspberry Pi, Stubs
+sha1:         4909a4bfd3f360a29d3fb97822eb09edd1ba7070
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=Raspberry Pi
+|Type=Method
+|Difficulty=1. Easy
+}}
+{{Stub}}
+
+To test if a Raspberry Pi is receiving enough power, the <code>stress</code> package can be installed:
+ sudo apt update && sudo apt install stress
+Let the following command run for a minute, then quit it with <code>ctrl</code>+<code>C</code>:
+ watch timeout 1s stress -m 4 --vm-bytes 50
+Finally, check if the Pi has received enough power:
+ vcgencmd get_throttled
+If the above command returns anything other than <code>throttled=0x0</code>, the Pi is not receiving enough power. This can be caused by a weak power supply, a bad cable (too long, to thin...), or a faulty Pi.

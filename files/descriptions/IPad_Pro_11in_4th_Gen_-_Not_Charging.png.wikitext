@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Pro 11in 4th Gen - Not Charging.png
+pageid:       292
+revid:        742
+source:       https://repair.wiki/w/File:IPad_Pro_11in_4th_Gen_-_Not_Charging.png
+history:      https://repair.wiki/index.php?title=File:IPad_Pro_11in_4th_Gen_-_Not_Charging.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=742
+last_edited:  2023-11-05T22:25:59Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         722d75fcab15d16d304d2ed1df9222791663483c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Pro 11in 4th Gen - Not Charging

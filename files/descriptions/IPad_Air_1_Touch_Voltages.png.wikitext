@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Air 1 Touch Voltages.png
+pageid:       5779
+revid:        9097
+source:       https://repair.wiki/w/File:IPad_Air_1_Touch_Voltages.png
+history:      https://repair.wiki/index.php?title=File:IPad_Air_1_Touch_Voltages.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9097
+last_edited:  2025-07-27T21:36:32Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         284a29a5fe0915f68be0de43826609d50a8e0539
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Air 1 Touch Voltages

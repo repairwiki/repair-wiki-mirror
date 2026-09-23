@@ -1,0 +1,73 @@
+<!--
+title:        Nintendo Switch Video Output Issues: No Video or HDMI Output
+pageid:       4205
+revid:        7203
+source:       https://repair.wiki/w/Nintendo_Switch_Video_Output_Issues:_No_Video_or_HDMI_Output
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Video_Output_Issues:_No_Video_or_HDMI_Output&action=history
+permalink:    https://repair.wiki/index.php?oldid=7203
+last_edited:  2025-05-29T20:39:03Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Switch, Stubs
+sha1:         93ac122362e4fddb89a8d3254ddfd044eaa97c19
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Motherboard
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope, Multimeter
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The console turns on and charges fine, but there is no video output/HDMI output when docked.
+[[File:Nintendo Switch Diode Mode Readings Mechanic T824.jpg|thumb|Nintendo Switch Diode Mode Readings from a Mechanic T824 Reader]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Console does not display any video when placed on dock
+
+=== Diagnostic Steps ===
+
+The first step is to try with a known good dock.
+
+Inspect the USB-C port for any physical damage, such as bent pins, missing pins, or liquid damage. If you have a Mechanic T284 USB tester, compare your readings with the image on the right.
+
+Check for shorts around the M92T36 IC. This chip negotiates power through the USB-C port. Below is an image with capacitors to check.
+[[File:M92T32.png|center|thumb|M92T32 Caps to Check]]
+The next area to check is the chokes near the PI3USB IC. The chokes must have continuity in parallel but not in cross.
+[[File:P13 Chokes.png|center|thumb|P13 Chokes Location]]
+
+The next component to check is the PI3USB30532 IC. This component is critical for USB-C data switching, including video output via the dock’s HDMI.
+[[File:P13 shorts.png|center|thumb|P13 Caps that should be checked]]
+In most cases, when the console turns on and charges, the causes for no video output are blown chokes or a faulty PI3USB30532.
+
+=== Repair Steps ===
+The M92T36 and PI3USB30532 are widely available and relatively cheap.
+
+The replacement process is similar for both chips. Use your hot air station to desolder the old chips, clean the old solder, add new solder to the pads, and use your hot air station to solder the IC. Use your soldering iron with a fine tip to touch up any connections that may not be secure.
+
+The chokes are easy to replace. Use your hot air station to desolder them, apply new solder to the board, and solder the new chokes. Be careful not to use excessive air, or you risk the choke flying off.
+
+== Final Testing ==
+'''Basic Display and Audio Test''':
+
+* Connect Switch to a known good dock with a quality HDMI cable and official AC adapter.
+* Power on, dock, and check for clear video (no artifacts/flickering) and audio (no static/dropouts) on TV/monitor.
+* Test with a game to confirm stability.
+'''Auto-Detect Resolution Test''':
+
+* Go to '''System Settings > TV Output > TV Resolution''', select '''Automatic'''.
+* Confirm auto-detected resolution (typically 1080p) and test switching (1080p, 720p, 480p).
+
+Also check every other function of the console to make sure no new issues have surfaced.

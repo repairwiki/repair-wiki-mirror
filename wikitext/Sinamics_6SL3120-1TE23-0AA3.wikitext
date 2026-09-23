@@ -1,0 +1,52 @@
+<!--
+title:        Sinamics 6SL3120-1TE23-0AA3
+pageid:       1764
+revid:        3884
+source:       https://repair.wiki/w/Sinamics_6SL3120-1TE23-0AA3
+history:      https://repair.wiki/index.php?title=Sinamics_6SL3120-1TE23-0AA3&action=history
+permalink:    https://repair.wiki/index.php?oldid=3884
+last_edited:  2024-05-27T13:55:21Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Siemens, Siemens Industrial Devices, Stubs
+sha1:         62b56855c153d838532c10331f9efeb66de2dd81
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Siemens
+|Has code name=S120
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240527 142347.jpg
+File:20240527 142332.jpg
+File:20240527 142413.jpg
+File:20240527 142357.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240527 142639.jpg
+File:20240527 142714.jpg
+File:20240527 142716.jpg
+File:20240527 142719.jpg
+File:20240527 143123.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:20240527 142820.jpg|voltage drop on IGBT
+</gallery>
+
+==More Information/External Sources==
+[https://cache.industry.siemens.com/dl/files/000/99673000/att_51983/v1/GH6_0414_eng_en-US.pdf manual link]

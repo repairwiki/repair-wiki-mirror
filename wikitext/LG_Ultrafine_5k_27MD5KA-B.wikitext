@@ -1,0 +1,69 @@
+<!--
+title:        LG Ultrafine 5k 27MD5KA-B
+pageid:       1013
+revid:        11584
+source:       https://repair.wiki/w/LG_Ultrafine_5k_27MD5KA-B
+history:      https://repair.wiki/index.php?title=LG_Ultrafine_5k_27MD5KA-B&action=history
+permalink:    https://repair.wiki/index.php?oldid=11584
+last_edited:  2025-09-14T22:24:32Z
+contributors: ASRepairs, Francis, Tiago199988, HaileyKitty
+anonymous_edits: 0
+categories:   Device, LG, LG Television/Monitors, Stubs, Television/Monitors
+sha1:         454f9f445950a7b3853ecc8879226e0282507776
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=LG
+|Device release date=2017-04-20
+|Device type=Television/Monitor
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:300px-Model.png|Display model
+File:LG Ultrafine 5k 27MD5KA-B.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+This model ''seems'' to have a prone-to-dying '''Texas Instruments USB-C PD + Thunderbolt multiplexer controller "TPS65983"''' as ive seen two (suspecting 3) models with it being the cause of the display not working. Issue can stem from other places as well, like power supply (fuses etc).
+
+=== How to use test mode: ===
+<gallery>
+File:225px-Testmode.png|'''Location of the button, make sure power is plugged in while testing. 1. power plug 2. test mode button'''
+File:225px-Testmode2.png|'''What the display should show if test mode works'''
+</gallery>
+
+=== External references and other people having issues: ===
+People complaining about loose main port: https://maker.pro/forums/threads/lg-ultrafine-27md5ka-b-provides-power-to-laptop-but-does-not-get-detected-by-computer-no-video.292861/
+
+Cable issues: https://discussions.apple.com/thread/252555535
+
+Francis (fronke_ on discord): These are my own observations, but a quick google shows others having similar issues.
+
+I have had 3 identical models in for "not starting".
+
+Display 1: Test mode works, fixed by replacing TPS65983.
+
+Display 2: Test mode works, replacing TPS65983 has not fixed it.
+
+Display 3: Test mode does not work, fuse "F100" faulty, not fixed yet (as of Jan 30, 2023, currently no updates).
+
+'''Display 2''' '''Update''' (2024-01-23): Ended up replacing the entire motherboard, display now works normally. The motherboards seem hard to come by.

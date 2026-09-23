@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 15 Pro Board & Charging Port.png
+pageid:       4310
+revid:        7347
+source:       https://repair.wiki/w/File:IPhone_15_Pro_Board_%26_Charging_Port.png
+history:      https://repair.wiki/index.php?title=File:IPhone_15_Pro_Board_%26_Charging_Port.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7347
+last_edited:  2025-06-04T21:02:31Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         e1f7a37aa80faca7e49cfa9c63f82b4889117594
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 15 Pro Board & Charging Port

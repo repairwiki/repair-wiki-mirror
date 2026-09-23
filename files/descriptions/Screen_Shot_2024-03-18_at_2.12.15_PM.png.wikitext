@@ -1,0 +1,18 @@
+<!--
+title:        File:Screen Shot 2024-03-18 at 2.12.15 PM.png
+pageid:       1686
+revid:        3685
+source:       https://repair.wiki/w/File:Screen_Shot_2024-03-18_at_2.12.15_PM.png
+history:      https://repair.wiki/index.php?title=File:Screen_Shot_2024-03-18_at_2.12.15_PM.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3685
+last_edited:  2024-03-18T18:13:13Z
+contributors: IFixNC Beau
+anonymous_edits: 0
+categories:   
+sha1:         1fca0df1c669543cb087fce9183f8dfd5699ca8b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Check voltage at C7080. If much less than 3v, it's probably a CD3215.

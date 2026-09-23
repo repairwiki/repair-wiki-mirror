@@ -1,0 +1,43 @@
+<!--
+title:        MacBook Pro A2141 Not turning on, drawing 0.04–0.07 A at 20V repair
+pageid:       110
+revid:        260
+source:       https://repair.wiki/w/MacBook_Pro_A2141_Not_turning_on,_drawing_0.04%E2%80%930.07_A_at_20V_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2141_Not_turning_on,_drawing_0.04%E2%80%930.07_A_at_20V_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=260
+last_edited:  2023-10-01T15:50:52Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A2141, Stubs
+sha1:         c51d83cc666651af7e5466684f8673484fc588f6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A2141
+|Affects parts=Motherboard
+|Needs equipment=Multimeter
+|Type=Software
+|Difficulty=2. Medium
+}}
+{{stub}}
+
+==Problem description==
+Facing an issue with the MacBook Pro A2141 (820-01700) displaying 20V and a very low current draw of 0.04 to 0.07A on the USB-C meter.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*MacBook not turning on
+*PP3V3_S5 and PP1V8_S5 missing
+*PPBUS_G3H at 12.3 V
+*Pulling 0.04 to 0.07A on the USB-C meter.
+
+==Solution==
+The T2 chip is not properly communicating to the Calpe PMU (U7800), likely due to firmware corruption. This can also occur after replacing the PMU itself, or Ocarina, which is the SSD PMIC. Assemble the device and force it into DFU mode via the power button and keyboard.
+
+* Ensure the MacBook is running the latest macOS version for consistent results.
+* [https://support.apple.com/guide/apple-configurator-mac/revive-or-restore-an-intel-based-mac-apdebea5be51/mac Follow the provided Apple support article for the procedure.]
+* Once plugged in, open Apple Configurator 2. You should see a big square icon pop up that says "DFU" or rarely, "RECOVERY". Click the icon, Navigate to the top menu bar click "Actions" then "Advanced". Select Revive device. You will see a progress bar appear. This process can take over 30 minutes in some cases as Apple Configurator 2 now reinstalls the OS in addition to the M1's firmware. Data will still be retained with the revive option.
+* Be cautious that selecting "Restore" will wipe all user data.

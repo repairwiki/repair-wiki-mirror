@@ -1,0 +1,43 @@
+<!--
+title:        ZenBook 13 UX334FL
+pageid:       754
+revid:        13891
+source:       https://repair.wiki/w/ZenBook_13_UX334FL
+history:      https://repair.wiki/index.php?title=ZenBook_13_UX334FL&action=history
+permalink:    https://repair.wiki/index.php?oldid=13891
+last_edited:  2026-02-08T21:20:21Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Asus, Asus Laptops, Device, Laptops, Stubs
+sha1:         d558707dfeb00b92f4cf182ca896da59d0c715bb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Asus
+|Has code name=UX334FL
+|Device type=Laptop
+}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:UX334FL.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

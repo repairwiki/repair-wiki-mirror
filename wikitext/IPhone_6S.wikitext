@@ -1,0 +1,55 @@
+<!--
+title:        IPhone 6S
+pageid:       1602
+revid:        13515
+source:       https://repair.wiki/w/IPhone_6S
+history:      https://repair.wiki/index.php?title=IPhone_6S&action=history
+permalink:    https://repair.wiki/index.php?oldid=13515
+last_edited:  2026-01-01T20:53:19Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         a07a3c3f011e222bfb7b277b270bb16d7ad92abc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1633, A1688, A1700
+|Device release date=2015-09-25
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone6s-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPhone 6S Touch and LCD FPC Diode Values - J4200.png|Touch and LCD FPC Diode Values - J4200
+File:IPhone 6S Rear Camera FPC Diode Values -J3200.png|Rear Camera FPC Diode Values -J3200
+File:IPhone 6S Power Button FPC Diode Values -J4700.png|Power Button FPC Diode Values -J4700
+File:IPhone 6S Home Button FPC Diode Values -J4100.PNG|Home Button FPC Diode Values -J4100
+File:IPhone 6S Front Camera FPC Diode Values -J3100.png|Front Camera FPC Diode Values -J3100
+File:IPhone 6S Charging Port FPC Diode Values -J4600.png|Charging Port FPC Diode Values -J4600
+File:IPhone 6S Battery FPC Diode Values -J2400.png|Battery FPC Diode Values -J2400
+File:IPhone 6S.jpg|Home Button Diode Values
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 6S Schematics: https://www.sendspace.com/file/b82f6a

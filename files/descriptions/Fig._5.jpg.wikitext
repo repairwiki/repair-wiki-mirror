@@ -1,0 +1,18 @@
+<!--
+title:        File:Fig. 5.jpg
+pageid:       2524
+revid:        5097
+source:       https://repair.wiki/w/File:Fig._5.jpg
+history:      https://repair.wiki/index.php?title=File:Fig._5.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5097
+last_edited:  2024-10-21T21:02:20Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   
+sha1:         9801edae7d06d8996df79bde03f32bbe391f7874
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Figure 5. Trimmed SREC file

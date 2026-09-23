@@ -1,0 +1,18 @@
+<!--
+title:        File:Nintendo Switch OLED Diode Readings YCS Tail Plug Tester.jpg
+pageid:       3396
+revid:        6164
+source:       https://repair.wiki/w/File:Nintendo_Switch_OLED_Diode_Readings_YCS_Tail_Plug_Tester.jpg
+history:      https://repair.wiki/index.php?title=File:Nintendo_Switch_OLED_Diode_Readings_YCS_Tail_Plug_Tester.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6164
+last_edited:  2025-04-13T15:07:02Z
+contributors: Fixmy
+anonymous_edits: 0
+categories:   
+sha1:         6ed3751772d1c50da3b9d89a6f8513a69b8d5f2b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Nintendo Switch OLED Diode Readings YCS Tail Plug Tester

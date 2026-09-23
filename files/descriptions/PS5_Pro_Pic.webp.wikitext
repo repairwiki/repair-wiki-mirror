@@ -1,0 +1,17 @@
+<!--
+title:        File:PS5 Pro Pic.webp
+pageid:       7116
+revid:        10646
+source:       https://repair.wiki/w/File:PS5_Pro_Pic.webp
+history:      https://repair.wiki/index.php?title=File:PS5_Pro_Pic.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=10646
+last_edited:  2025-08-24T23:14:38Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

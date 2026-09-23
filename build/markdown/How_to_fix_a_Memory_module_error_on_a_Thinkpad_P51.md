@@ -1,0 +1,45 @@
+---
+title: "How to fix a Memory module error on a Thinkpad P51"
+pageid: 1942
+revid: 4187
+kind: other
+source: "https://repair.wiki/w/How_to_fix_a_Memory_module_error_on_a_Thinkpad_P51"
+history: "https://repair.wiki/index.php?title=How_to_fix_a_Memory_module_error_on_a_Thinkpad_P51&action=history"
+permalink: "https://repair.wiki/index.php?oldid=4187"
+last_edited: "2024-07-05T16:33:52Z"
+contributors:
+  - "ASRepairs"
+  - "Pandrew"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Thinkpad P51"
+  - "Stubs"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# How to fix a Memory module error on a Thinkpad P51
+
+## Problem description
+Memory module errors can have a variety of different causes. This repair guide documents only one possible cause, that is not intuitive. This repair guide assumes that you have already tried the obvious tests, of using only one memory module, moving it to different slots, and trying other known-working memory modules, without success.
+
+On the Thinkpad P51 laptops the same SMBUS bus that is connected to the DIMM memory modules, in order to read memory information off of the SPD eeproms, is also used to connect to the touchpad. If the touchpad interferes with the SMB_DATA_3B/SMB_CLK_3B lines, then it will prevent communication with the SPD eeproms, and then the laptop will not know what kind of memory is installed and it will be unable to boot, so it will report a "Memory module error", using musical error codes that can be interpreted by the Lenovo PC Diagnostics app.
+
+If the fuse that powers the touchpad (F14) blows, then the touchpad will hold the SMBUS data lines around 1V which will always be interpreted as logical 0, and it will prevent communication with the memory modules. An otherwise dead touchpad could also cause similar symptoms.
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- The laptop plays a musical error code, that is interpreted as "0282 Memory module error" by the Lenovo PC Diagnostics app.
+- Trying a single known working memory module in various different slots all results in the same error.
+
+## Solution
+### Diagnostic Steps
+- Check if disconnecting the touchpad flex cable causes the problem to go away.
+- Check with a multimeter if the F14 fuse is blown.
+  - Note that the F14 fuse lies on the motherboard, right next to, and in-between the touchpad and fingerprint sensor flex connectors, under a thin portion of the black protective tape that goes over the motherboard. It can be accessed without taking the motherboard out.
+
+### Repair Steps
+- If the F14 fuse was blown, replace the fuse or short it out with a wire.
+- If the F14 fuse wasn't blown, but the problem still went away when disconnecting the touchpad flex cable, then your touchpad may be dead. Investigate the SMB_DATA_3B/SMB_CLK_3B lines for shorts.

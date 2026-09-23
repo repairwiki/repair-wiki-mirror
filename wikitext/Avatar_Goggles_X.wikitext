@@ -1,0 +1,104 @@
+<!--
+title:        Avatar Goggles X
+pageid:       1285
+revid:        2857
+source:       https://repair.wiki/w/Avatar_Goggles_X
+history:      https://repair.wiki/index.php?title=Avatar_Goggles_X&action=history
+permalink:    https://repair.wiki/index.php?oldid=2857
+last_edited:  2024-01-16T22:58:19Z
+contributors: Mads Tech
+anonymous_edits: 0
+categories:   Device, Drones, Stubs, Walksnail, Walksnail Drones
+sha1:         e6dad015ac79a05d3691ec78cf14bfddce84a6ef
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Walksnail|Device type=Drone}}
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Goggles X.jpeg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Goggles-X-top-Cover-Removed.png
+File:Goggles-X-Module-Cover-and-Heatsink-Removed-scaled.jpg
+File:Goggles-X-Top-Shell-Removed.png
+File:Goggles-X-Face-Plate-Removed.png
+File:Goggles-X-VRX-Module-scaled.jpg
+File:GOggles-X-VRX-Module-Bottom-scaled.jpg
+File:Avatar-HD-Front-PCB-1-scaled.jpg
+File:Avatar-HD-Front-PC-2-scaled.jpg
+File:Avatar-HD-HDMI-Board-scaled.jpg
+File:Avatar-HD-X-Power-Board-2-scaled.jpg
+File:Avatar-HD-X-Power-Board-scaled.jpg
+File:Avatar-Optics-OLED-scaled.jpg
+File:Avatar-HD-Optics-Oled-Connector-scaled.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+The Caddx Goggles X are the replacement for the original Walksnail Avatar HD Goggles.
+
+These new goggles have an all new design, are manufactured by Caddx FPV and feature
+
+Product Features:
+
+* 1080p Oled Displays 50 degree FOV +2 – 6 Diopter
+* Upgradable Avatar HD VRX Module with DVR
+* Analog Input via 3.5mm Jack ( No Analog DVR Onboard)
+* HDMI In & Out 720/1080P 100/60fps.
+* Proximity Sensor
+* Wifi & Bluetooth
+* 7-26v 2-6S Compatible
+
+These goggles are fully compatible with all existing Avatar HD VTX’s with the standard VRX.
+
+== Upgradability ==
+The New Goggles X feature an top mounted VRX module accessible with 2 screws. Caddx FPV have stated they intend to release a new upgraded Avatar System and new module for these goggles mid 2024 with improved range (20+km) however compatibly with existing vtx or cost is unknown.
+
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+●Weight 290g
+
+●+2 to-6 diopter
+
+●FOV 50°
+
+●Lenses can be replaced
+
+●7-26V
+
+●1PD57~72mm
+
+●Front cover DIY
+
+●Infrared Sensing
+
+●1080P/100FPS
+
+●Sharing mode
+
+●HDMI input
+
+●Replace VRX
+
+●HDMI output
+
+●Built-in Gyro (in development)
+
+●AV in
+
+●Built-in Bluetooth Wi-Fi module (in development）

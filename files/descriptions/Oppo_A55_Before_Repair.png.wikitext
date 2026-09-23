@@ -1,0 +1,18 @@
+<!--
+title:        File:Oppo A55 Before Repair.png
+pageid:       5111
+revid:        8282
+source:       https://repair.wiki/w/File:Oppo_A55_Before_Repair.png
+history:      https://repair.wiki/index.php?title=File:Oppo_A55_Before_Repair.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8282
+last_edited:  2025-07-03T09:06:33Z
+contributors: Whiskeyhighball
+anonymous_edits: 0
+categories:   
+sha1:         2256b2205b7cbada36d0e93cd9d3f5ca53666cb3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Oppo phone with broken glass

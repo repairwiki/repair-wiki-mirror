@@ -1,0 +1,18 @@
+<!--
+title:        File:Pairs and patterns.jpg
+pageid:       8799
+revid:        12798
+source:       https://repair.wiki/w/File:Pairs_and_patterns.jpg
+history:      https://repair.wiki/index.php?title=File:Pairs_and_patterns.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=12798
+last_edited:  2025-11-21T23:18:18Z
+contributors: Ben ProFixerr
+anonymous_edits: 0
+categories:   
+sha1:         7c70e5061884e5fcfed99b769cefcc10f53a51b1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+pairs and patterns on a mechanic t824 reader

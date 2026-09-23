@@ -1,0 +1,18 @@
+<!--
+title:        File:Ipad-6-wifi-ic-schematic.png
+pageid:       8901
+revid:        12941
+source:       https://repair.wiki/w/File:Ipad-6-wifi-ic-schematic.png
+history:      https://repair.wiki/index.php?title=File:Ipad-6-wifi-ic-schematic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12941
+last_edited:  2025-11-30T18:30:37Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         a270dae105c32486a3c34f9bcaba1a042c823334
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ipad-6-wifi-ic-schematic

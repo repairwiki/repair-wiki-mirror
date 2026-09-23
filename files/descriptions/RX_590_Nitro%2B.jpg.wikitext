@@ -1,0 +1,18 @@
+<!--
+title:        File:RX 590 Nitro+.jpg
+pageid:       329
+revid:        784
+source:       https://repair.wiki/w/File:RX_590_Nitro%2B.jpg
+history:      https://repair.wiki/index.php?title=File:RX_590_Nitro%2B.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=784
+last_edited:  2023-11-05T22:51:07Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         b02e1d5f14062bf6018fea85ab8157ecca8eee6c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+RX 590 Nitro+

@@ -1,0 +1,69 @@
+<!--
+title:        Galaxy A12 No Backlight
+pageid:       4772
+revid:        7859
+source:       https://repair.wiki/w/Galaxy_A12_No_Backlight
+history:      https://repair.wiki/index.php?title=Galaxy_A12_No_Backlight&action=history
+permalink:    https://repair.wiki/index.php?oldid=7859
+last_edited:  2025-06-21T21:09:55Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Galaxy A12, Stubs
+sha1:         7d6b70427dec7e01ba543ce009ce16e0eae25a3d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Galaxy A12
+|Affects parts=Motherboard
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope, Multimeter
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The Device turns on but screen is very dim and you need to point a flashlight to see something.
+[[File:Galaxy A12 No Backlight.jpg|thumb|Galaxy A12 With No Backlight]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* The Phone Turns on but Backlight is not working<br />
+
+=== Diagnostic Steps ===
+The first step is to try to swap parts before assuming there is a problem with the motherboard, so start by trying a new display.
+
+If a new display does not fix the issue inspect the main FPC on the board it is common to brake on A series, but usually a bad FPC will also cause other issues to the Phone.
+
+If there is no damage to the FPC we will have to diagnose the backlight circuit, this circuit on the CPU side of the motherboard.
+
+Every component inside the red line on the image bellow is part of the Backlight circuit.
+[[File:Galaxy A12 backlight circuit location.png|center|thumb|Galaxy A12 Backlight Circuit Location]]
+The first thing you wanna check is this coil, this coil in on the output of the circuit and it is common to leak "oil" this usually means that there is a short circuit on this line.
+[[File:Galaxy A12 Backlight Coil Leaking.png|center|thumb|Galaxy A12 Backlight Coil Leaking]]
+
+With your multimeter in Diode Mode you wanna check these components for shorts bellow is and image with the expect values of a good phone.
+[[File:Galaxy A12 Backlight Circuit Diode Values.png|center|thumb|Galaxy A12 Backlight Circuit Diode Values]]
+
+The most common issue is for one of these caps to blow up and short the circuit.
+[[File:Galaxy A12 Backlight coil shorted .png|center|thumb|Galaxy A12 Backlight coil shorted ]]
+
+=== Repair Steps ===
+If there is any physical damage to the main FPC the repair is quite straight forward all it's needed is to replace it.
+
+If you have a shorted Capacitor you can replace it from one taken of a donor phone, you will also need to replace the leaking coil.
+
+There are cases where you have to rebuild part of the Backlight Circuit since a short on these lines often kills the Backlight Controller IC.
+
+There are "Kits" on websites like aliexpress that include everything you need to replace, 2 big Capacitors, Backlight Controller, Output Coil, Diode.
+
+When replacing any component around this area be careful to not use excessive heat since the CPU is close by.
+
+Replacing any component on this motherboard is not hard and doesn't take much heat since the board is quite small and thin.

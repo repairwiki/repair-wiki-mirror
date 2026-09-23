@@ -1,0 +1,301 @@
+<!--
+title:        Samsung Galaxy A03s CPU Swap Step by Step Guide
+pageid:       2202
+revid:        5067
+source:       https://repair.wiki/w/Samsung_Galaxy_A03s_CPU_Swap_Step_by_Step_Guide
+history:      https://repair.wiki/index.php?title=Samsung_Galaxy_A03s_CPU_Swap_Step_by_Step_Guide&action=history
+permalink:    https://repair.wiki/index.php?oldid=5067
+last_edited:  2024-10-14T01:31:55Z
+contributors: ASRepairs, VCCBoardRepairs
+anonymous_edits: 0
+categories:   Explanatory guide, Explanatory guides for Galaxy A03s
+sha1:         bc2ee74ce050dbdbdb45aa16a73cb82f2bbc9df3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Explanatory Guide
+|Device=Galaxy A03s
+|Type=Method
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+If you have a Samsung A03s that does not boot up, and all other efforts to fix the existing board has failed, then you can follow this guide on how to swap the paired chips onto another working board for the purposes of recovering the data that's trapped inside the chips.
+
+🚨 Please Note 🚨
+
+This process is super risky & requires tons of practice & skill to successfully do it. 
+
+If you damage the CPU or the UFS (Storage) chip, then it's game over. The data is gone forever.
+
+So do not try this if you have no experience with CPU Swaps.
+
+Absolutely DO NOT try this if you have no microsoldering experience.
+
+I would recommend you practice on donor motherboards & once you can do it successfully 3 in a row, then you should have enough experience to do this on a live customer's board.
+
+== Recommended Tools ==
+Hot Air Station: Atten ST-862D with 13mm Bent Nozzle
+
+Soldering Iron: Aixun T420D with T210 Handle & JBC C210018 Knife Tip
+
+== Symptoms ==
+* No Power
+* Does not boot up
+* No signs of life
+* Board is cracked
+* Board is water damaged beyond repair
+
+== Solution ==
+=== Repair Steps ===
+First, you need to locate the CPU and UFS.
+
+* CPU holds the encryption keys
+* UFS has the data, but it's encrypted
+
+Both chips MUST be fully working & not damaged/cracked. 
+
+These chips talk to each other & during bootup, they exchange the keys so the phone can decrypt the data after the pin code is entered. Without the pin code, data cannot be decrypted & accessed. 
+
+Here's a picture of where these chips are:
+[[File:A03s Back of Board.png|center|thumb|The back of the A03s board where the CPU & UFS is located|819x819px]]
+
+
+Typically, these are next to each other & very large chips. They also tend to have thermal paste or thermal pads. Sometimes they have shields completely covering them.
+
+On this model, the CPU is labeled as MediaTek. So we can assume the other chip is the UFS.
+[[File:A03s CPU.png|center|thumb|Close up of A03s MediaTek CPU|712x712px]]
+
+
+Now we must remove the shield around it to access the chips. I would recommend adding 138C Ultra Low Melt solder to the solder joints where the shield is attached to the board. Make sure to add plenty of flux & use a knife tip style iron
+
+This will make removing the shield much easier
+[[File:A03s Shield.png|alt=A03s Shield|center|thumb|A03s Shield where you must add flux|669x669px]]
+
+
+Using high temps, like 400C/60 air, heat around the perimeter
+
+Use a hook tool or tweezers to grab onto the shield & pull it up, until it detaches, like this:
+[[File:A03s cpu shield removed.png|center|thumb|A03s cpu shield removed|696x696px]]
+
+
+And now you have clear access to the 2 chips you need.
+[[File:A03s CPU & UFS.png|center|thumb|A03s CPU & UFS|687x687px]]The CPU and UFS chips have hard & rubbery "glue" like substance that has these chips sealed to the board. This stuff is called "underfill". It must be cleared out with a sharp blade, like Scalpel #11 blade.
+[[File:Scalpel.png|center|thumb|#11 Scalpel Blade|641x641px]]
+Go around all 4 sides of the CPU and UFS & get rid of it. This makes it so you can lift the chips easiest.
+[[File:Underfill.png|center|thumb|Underfill surrounding the IC was cleared|798x798px]]
+Switch to the largest nozzle your hot air station can support. For the Atten, we are using a bent 13mm nozzle
+[[File:Large nozzle.png|center|thumb|Large 13mm nozzle for hot air station|828x828px]]
+You're also going to need a very thin spatula blade. Use sandpaper to thin it out even further. Ideally, you'll want to taper the tip. This allow the blade to enter under the chip safely & cut through the underfill
+[[File:Thin blade.png|center|thumb|Very thin spatula blade|988x988px]]
+You'll want to use around 380C-400C to heat the chip in a circular motion. Make sure to start off far away, about 6in and heat in circles. This is to first warm up the board.
+
+Over a 30 second period, get closer & closer until you're about 2-4mm away and always keep moving in circles.
+[[File:Heat cpu.png|center|thumb|Heat the CPU in circles|882x882px]]
+After about 30 seconds, the board should be very hot. This will make the underfill very soft. 
+
+Make sure to keep heating the IC in circles while still in close proximity.
+
+Find an entry point, where there's no components and gently try to pry into the chip. But only go in horizontally. Maybe a little angled to try to get under, but stay as horizontal as possible
+
+If you don't feel it budge, then don't force it in. Although some force is required, there's a fine point on what's too much. This is where lots of practice comes in to know what proper force is
+[[File:Enter spatula.png|center|thumb|Spatula entering underneath the IC|807x807px]]
+
+
+.As the spatula starts entering, do slicing motions, in and out. But do it gently.
+
+You should be at about 60-90 seconds into this by this point. 
+
+If you're not having luck entering under the chip, try turning your temps & air flow up by 10 points and try again.
+
+Don't heat the chip more than 2 or 3 minutes at a time. Reasses the situation & see if you need to adjust your temps more. If your tool is too thick. If maybe there's a better spot to enter.
+
+Whatever you do, do not bend the chip up trying to remove it. You can damage it permanently & lose all chance to get data.
+[[File:UFS removed.png|center|thumb|UFS Removed|759x759px]]
+Once the chip is removed, inspect it for any damage. Look closely for any ripped pads or any scratches on the IC. This is where most go wrong & damage the chip. In many cases, if the chip gets damaged, then it's game over.
+[[File:Cpu removal.png|center|thumb|808x808px|Using a thin blade, we heat the CPU and gently slide the blade between the board & the chip ]]
+Then you'll have to repeat the same steps to ultimately remove the 2 important chips: CPU and UFS
+[[File:A03s CPU on board with UFS removed.png|center|thumb|825x825px|A03s CPU on board with UFS removed]]
+[[File:CPU and UFS removed.png|center|CPU and UFS removed|frame]]
+Make sure to save these 2 chips. They are paired together & must be installed onto the working donor board. I would suggest to have a designated spot on your bench, like a small tin can or box, where you will always place the critical customer chips into, so you don't mix them up with the donor board chips.
+
+
+Then, we must prep the donor board.
+
+Start by removing the same 2 chips, but this time, we are saving the board & throwing away the CPU and UFS from the donor board.
+
+[[File:Wicking donor board.png|center|thumb|860x860px|Wicking donor board]]
+After removing the chips, we must prep the board.
+
+Using hot air at 250C / 40 air flow, pick off all the big chunks of underfill off the board. You can use your tweezers, scalpel blade or other pointy tool to pick it off. The hot air will soften it so it comes off really easy. 
+
+
+Then you want to add tons of flux on the board & run your iron with a big blob of low melt solder (138C), over all the pads. Make sure all pads get covered with the new solder.
+
+Make sure to clean the board thoroughly with iso and toothbrush.
+
+Now, add tons of flux again & wick all the pads flat. Then clean the board again.
+[[File:Cleaning pads & board.png|center|thumb|1023x1023px|Cleaning pads & board]]
+Repeat this for both CPU and UFS pads. Make sure every speck of underfill is removed. This will ensure the chips sit evenly & flat.
+[[File:Clean A03s board with no underfill.png|center|thumb|1090x1090px|Clean A03s board with no underfill]]
+
+
+Next step is to prep the customer's chips: CPU and UFS
+[[File:UFS Chip on micro jig.png|center|thumb|927x927px|UFS Chip on micro jig]]
+Use a jig, like the 2uul Micro Jig, to hold the IC facing up. As it makes it easier to work on the chip. We have to clean off all the underfill, prep the pads & wick them flat.
+[[File:Prepping UFS pads.png|center|thumb|894x894px|Prepping UFS pads]]
+Add lots of flux then use 138C low melt solder to run over all the pads.
+
+Then add more flux & do it again. 
+
+The goal is to clean off as much of the underfill as possible.
+
+You can use hot air & a scalpel blade to pick off any small remnants of underfill, if necesary.
+[[File:Removed a lot of the underfill.png|center|thumb|1310x1310px|Removed a lot of the underfill]]
+And make sure to clean off all the burnt flux regularly using iso & q-tips.
+[[File:Wicking UFS chip pads.png|center|thumb|1307x1307px|Wicking UFS chip pads]]
+Lastly, you'll want to wick the chip flat. This allows for better results when reballing a large IC like CPU and UFS.
+
+Repeat the same steps for the CPU.
+[[File:Add paste to the pads.png|center|thumb|848x848px|Add paste to the pads]]
+If the chip has a lot of oxidized pads (pads that are dark gray & are not taking in any solder), you can use try this trick.
+
+Add flux & solder paste to the chip
+[[File:Spread the paste on the CPU.png|alt=Spread the paste on the CPU|center|thumb|960x960px|Spread the paste on the CPU]]
+
+
+Make sure to spread it across the whole chip
+[[File:Hot Air the solder paste on the pads.png|alt=Hot Air the solder paste on the pads|center|thumb|938x938px|Hot Air the solder paste on the pads]]
+Then use hot air to melt the solder at 320C / 25 air.
+
+Once the solder paste has melted & turned into solder balls, you can run your iron over all the pads.
+
+You'll see a bit portion of the oxidized pads are gone. 
+[[File:Wick CPU Pads.png|center|thumb|888x888px|Wick CPU Pads]]Then you can wick all the pads flat
+
+And clean the chip with iso & a toothbrush
+[[File:Cleaning the edge of the CPU.png|center|thumb|954x954px|Cleaning the edge of the CPU]]
+Once you remove the chip from the chip holder, you'll find that there's lots of gunk on the edge of the IC.
+
+An easy way to clean all this off, is to use a scalpel blade and run along the edge of the IC. Make sure to do all 4 sides.
+
+Once the IC is super clean on all sides, we can start the reball process:
+[[File:MT6765V CPU and Stencil.png|alt=MT6765V CPU and Stencil|center|thumb|1083x1083px|MT6765V CPU and Stencil]]
+First, you need to have the right stencil. Best way to find it, is to search the CPU model number. In this case, we needed a MT6765V stencil.
+[[File:CPU and Reballing Paste.png|alt=CPU and Reballing Paste|center|thumb|945x945px|CPU and Reballing Paste]]
+For CPU reballing, using Mechanic XG-50 183C paste works very nicely
+
+Using a metal spatula, scoop up a small bead of paste, about the size of a pea.
+[[File:Reballing paste on the spatula.png|alt=Reballing paste on the spatula|center|frame|Reballing paste on the spatula]]
+Since it's very watery, you must dry out the paste so it can give you a better reballing result.
+[[File:Paste drying technique.gif|alt=Paste drying technique|center|frame|Paste drying technique]]
+You'll want to get a clean cloth or paper towel & press the paste into it. You'll want to do this enough until the paste is more of a matte color than glossy.
+
+In the end, it should look more like this:
+[[File:Dried out reballing paste.png|alt=Dried out reballing paste|center|frame|Dried out reballing paste]]
+Now, you're ready to actually reball.
+
+Place the IC on the clean cloth or paper towel, as this provides a soft cushioned surface for the IC, and place the stencil on top.
+
+Make sure to line it up perfectly
+[[File:CPU under the stencil.png|alt=CPU under the stencil|center|thumb|869x869px|CPU under the stencil]]
+Using 2 fingers, press down on the stencil
+[[File:Holding stencil down with 2 fingers.png|alt=Holding stencil down with 2 fingers|center|frame|Holding stencil down with 2 fingers]]
+Then spread the dried out paste over all the pads
+[[File:Spread the paste.png|alt=Spread the paste|center|thumb|1164x1164px|Spread the paste]]
+Make sure to fill every hole.
+
+Do multiple passes over the whole chip, so the paste is packed into every hole.
+[[File:Paste applied to the stencil.png|alt=Paste applied to the stencil|center|thumb|934x934px|Paste applied to the stencil]]
+Then scrape over the chip with the same spatula, to clear out all the paste left on the surface of the stencil.
+
+With a clean cloth wrapped around your index finger, wipe down over the top of the stencil. This will help pack in the paste even further & clean out any debris left on top.
+[[File:Wipe the stencil down with clean cloth.png|center|thumb|966x966px|Wipe the stencil down with clean cloth]]
+Now, you'll need to switch out your 2 fingers to curved tweezers
+[[File:Tweezers holding down the stencil.png|alt=Tweezers holding down the stencil|center|thumb|938x938px|Tweezers holding down the stencil]]
+And it's time for forming the solder balls using Hot Air.
+
+Using low heat & low airflow, like 320C / 25 air flow, heat the IC from far away, like 10inches and go in slow circles around the perimeter. 
+[[File:Heating the IC.png|alt=Heating the IC|center|thumb|1284x1284px|Heating the IC]]
+Over a 45 second period, you'll want to slowly inch closer and closer to the IC.
+
+Making sure the paste doesn't bubble over.
+
+You'll then see the paste turn into solder balls.
+
+Once all the solder balls are formed, you can take the heat away.
+
+Wait about 5 seconds, allowing the solder balls to turn solid.
+
+Then quickly pop out the IC from the stencil. Use the scalpel blade to poke it out.
+[[File:CPU reball.png|alt=CPU reball|center|thumb|1357x1357px|CPU reball]]
+Visually inspect the IC and make sure all the pads have solder balls & they all look even. If not, you can just clean the stencil & IC, then place the IC under the stencil again & just reball over the existing solder balls and get a "second coating" so to speak.
+
+While holding the IC in mid air, apply heat again & reflow the solder balls at 320C / 25 airflow without adding any flux.
+
+Then add a thin layer of flux & reflow it one more time.
+
+Repeat the steps for the UFS chip & reball it as well.
+[[File:A03s CPU and UFS reballed.png|alt=A03s CPU and UFS reballed|center|thumb|1304x1304px|A03s CPU and UFS reballed]]
+Now it's time to install both ICs.
+
+You'll want to dab a few tiny dots of flux across the pads on the prepped donor board. 
+
+For example: 
+[[File:Small dots of flux on the CPU pads on the board.png|alt=Small dots of flux on the CPU pads on the board|center|thumb|1329x1329px|Small dots of flux on the CPU pads on the board]]
+Then place the CPU onto the board & make sure to press it down flat onto the board. 
+
+And make sure the orientation is correct. At this angle, you can see it's on the upper right corner:
+[[File:A03s CPU Orientation.png|alt=A03s CPU Orientation|center|thumb|1318x1318px|A03s CPU Orientation]]
+Make sure the chip is also centered. Use the gold guides to ensure the alignment is good.
+
+Then you want to use very low heat & airflow to install it. So use the same as you used to reball the IC: 320C and 25 airflow
+[[File:Heating the CPU to install it.png|alt=Heating the CPU to install it|center|thumb|1196x1196px|Heating the CPU to install it]]
+You'll want to be patient with this. you can heat it for a long time, since it's lower heat & less chance of heat damage.
+
+So give it at least 1 minute of heating it evenly. Make sure to circle around the whole IC and make sure to hit the center as well.
+
+If you don't see the IC snap into place, then try adding 20C to your temps and give it another 30 seconds.
+
+If still nothing, add another 20C.
+
+It will eventually snap into place. You can do a tiny nudge to see if it moves. This helps determine the chip is installed.
+
+Next, you'll repeat the same steps for the UFS & install it as well.
+[[File:CPU and UFS Installed.png|alt=CPU and UFS Installed|center|thumb|1376x1376px|CPU and UFS Installed]]
+Do a visual inspection of the ICs and the board. Look for any bumped components, bridged lines, stray solder balls, misaligned ICs, correct orientation, etc.
+
+If all looks good, then time to test! 
+
+Fully reassemble & plug it into charge.
+[[File:A03s charging.png|center|thumb|510x510px|A03s charging]]
+If you get a charging symbol like above
+
+USB meter charging at 5V or 9V and 1A+
+
+Then you're probably good! 
+
+Go ahead & boot up the phone & confirm it's able to boot too!
+[[File:A03s Storage .png|alt=A03s Storage |center|thumb|678x678px|A03s Storage ]]
+If it boots, then you're good to go! 
+
+It is recommended to run a Smart Switch Backup right away & get the data ASAP. Sometimes, these CPU Swaps can be unstable.
+
+So don't risk it... get the data ASAP.
+
+If the phone doesn't boot, recheck all the work you did.
+
+Try pulling the CPU and UFS and see if anything looks funky.
+
+Try checking UFS on a UFS programmer to see if it detects.
+
+Check for any bumped or missing components.
+
+Check if PC detects it in the Device Manager
+
+If all else fails, try reballing CPU and UFS again & reinstall.
+
+Worst case, try another donor board.
+
+Lastly, it could just be a dead CPU or dead UFS & data is not recoverable

@@ -1,0 +1,17 @@
+<!--
+title:        File:Motherboard of PSARCD100-05, Bottom.jpg
+pageid:       9661
+revid:        13962
+source:       https://repair.wiki/w/File:Motherboard_of_PSARCD100-05,_Bottom.jpg
+history:      https://repair.wiki/index.php?title=File:Motherboard_of_PSARCD100-05,_Bottom.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13962
+last_edited:  2026-02-17T04:20:48Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

@@ -1,0 +1,71 @@
+---
+title: "PM281X: Switching between 110V and 220V"
+pageid: 9724
+revid: 14089
+kind: repair_guide
+source: "https://repair.wiki/w/PM281X:_Switching_between_110V_and_220V"
+history: "https://repair.wiki/index.php?title=PM281X:_Switching_between_110V_and_220V&action=history"
+permalink: "https://repair.wiki/index.php?oldid=14089"
+last_edited: "2026-02-23T10:50:28Z"
+contributors:
+  - "Pandrew"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for PM281X"
+infobox:
+  Device: "PM281X"
+  Needs_equipment: "Screwdriver"
+  Type: "General"
+  Difficulty: "1. Easy"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# PM281X: Switching between 110V and 220V
+
+## Problem description
+If you have bought a Philips/Fluke PM2811, PM2812, or PM2813 power supply from a country who's electric grid runs at a different voltage, you may want to modify your power supply, to match your electrical grid (instead of using a transformer).
+## Solution
+![Black wire, 110V position. (Figure 1)](images/c/cd/Pm281x_black_wire_110v_position.jpg)
+![Black wire, 220V position. (Figure 2)](images/0/0e/Pm281x_black_wire_220v_position.jpg)
+![Blue wire, 110V position. (Figure 3)](images/4/41/Pm281x_blue_wire_110v_position.jpg)
+![Blue wire, 220V position. (Figure 4)](images/e/e6/Pm281x_blue_wire_220v_position.jpg)
+
+These power supplies are internally configured to one of the following ranges:
+
+- 94V .. 130V (a.k.a. nominally 110V)
+- 190V .. 255V (a.k.a. nominally 220V)
+
+To switch the voltage of the power supply between 110V/220V configurations you have to take the following actions:
+
+- Move the black jumper wire on the "Input Module" PCB, to the correct jumper. (this is marked via silkscreen on the PCB)
+  - (Note: the service manual forgets to mention this)
+  - See Figure 1 and Figure 2
+- The blue (bl) wire of the cable loom DB1 must be connected to
+  - X4106 for 110V operation
+  - X4102 for 220V operation
+  - You can see the location of these pins on page 63 of the service manual [^1]
+  - Also see Figure 3 and Figure 4 (note that the PCB from the factory has no text next to these pins, you can only identify them based on relative position)
+- The fuses must be replaced. The required fuse current is different for each voltage configuration, and also depends on the number of modules the power supply is configured with
+  - Note that number of modules is not the same as number of outputs. Some PM2812 have 2 power modules, while some have 3.
+- Please write on the back of the unit the current supported voltage.
+
+### Fuses
+| Fuses 2x: | 1 Module
+PM2811 | 2 Modules
+PM2812/[0,1,2] | 3 Modules
+PM2812/[3,4]; PM2813 |
+| --- | --- | --- | --- |
+| 110V | 2.5AT | 4AT | 6.3AT |
+| 220V | 1.25AT | 2.5AT | 3AT |
+
+"T" Typically means slow-blow fuse. Most of the time it's the first character in the code of a fuse, but here it appears to be used at the end of the code.
+
+Note that the following fuses have been found in actual power supplies, it is unclear if they came with these from factory:
+- On 3pcs of PM2812/4 originally configured for 110V operation 6.3A FERRAZ SU (medium time lag) fuses have been found
+- On 1pcs of PM2811, originally configured for 110V operation F2.5 (Fast Speed) fuses have been found.
+- On the bottom power module board there is a fuse, that is not documented in the service manual. The silk screen asks for T1.6A fuse (slow blow), but F1.6A fuses (fast blow) have been found in at least 2 places. (these fuses don't need to be adapted for 110V/220V operation, cause they see the same voltage/current independent of the supply voltage, so feel free to ignore this information)
+
+[^1]: https://www.eevblog.com/files/philips_pm2811_pm2812_pm2813_sm.pdf

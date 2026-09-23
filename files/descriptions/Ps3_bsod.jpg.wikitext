@@ -1,0 +1,18 @@
+<!--
+title:        File:Ps3 bsod.jpg
+pageid:       4705
+revid:        7786
+source:       https://repair.wiki/w/File:Ps3_bsod.jpg
+history:      https://repair.wiki/index.php?title=File:Ps3_bsod.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7786
+last_edited:  2025-06-18T21:43:47Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         5ced98b7e4b5b53992697f2b4ff63dca049acf8f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Error displayed

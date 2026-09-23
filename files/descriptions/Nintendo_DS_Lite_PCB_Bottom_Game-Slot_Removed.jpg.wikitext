@@ -1,0 +1,19 @@
+<!--
+title:        File:Nintendo DS Lite PCB Bottom Game-Slot Removed.jpg
+pageid:       879
+revid:        2095
+source:       https://repair.wiki/w/File:Nintendo_DS_Lite_PCB_Bottom_Game-Slot_Removed.jpg
+history:      https://repair.wiki/index.php?title=File:Nintendo_DS_Lite_PCB_Bottom_Game-Slot_Removed.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2095
+last_edited:  2024-01-13T00:26:02Z
+contributors: Motrotz
+anonymous_edits: 0
+categories:   
+sha1:         18f01a270272830a6d8993806c5dff0f500a3598
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Nintendo DS Lite PCB, bottom side, DS game slot is removed to reveal the components underneath.

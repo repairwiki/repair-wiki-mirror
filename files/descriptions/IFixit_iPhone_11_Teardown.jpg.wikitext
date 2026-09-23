@@ -1,0 +1,20 @@
+<!--
+title:        File:IFixit iPhone 11 Teardown.jpg
+pageid:       3699
+revid:        6512
+source:       https://repair.wiki/w/File:IFixit_iPhone_11_Teardown.jpg
+history:      https://repair.wiki/index.php?title=File:IFixit_iPhone_11_Teardown.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6512
+last_edited:  2025-05-12T05:21:44Z
+contributors: Dorkydanny
+anonymous_edits: 0
+categories:   
+sha1:         e85c3c59246c6ff383982378c04a3a10328b7810
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Credit to iFixit for the teardown image.
+iPhone that has been disassembled to display the internal components.

@@ -1,0 +1,18 @@
+<!--
+title:        File:Open-neo-programmer.png
+pageid:       9138
+revid:        13257
+source:       https://repair.wiki/w/File:Open-neo-programmer.png
+history:      https://repair.wiki/index.php?title=File:Open-neo-programmer.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13257
+last_edited:  2025-12-15T13:35:55Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         9ef5c3a15f7e63c9be16e527ae71449df98557c0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Open-neo-programmer

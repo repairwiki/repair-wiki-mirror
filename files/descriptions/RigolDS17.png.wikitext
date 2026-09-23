@@ -1,0 +1,18 @@
+<!--
+title:        File:RigolDS17.png
+pageid:       1720
+revid:        3813
+source:       https://repair.wiki/w/File:RigolDS17.png
+history:      https://repair.wiki/index.php?title=File:RigolDS17.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3813
+last_edited:  2024-05-12T11:22:55Z
+contributors: Brainiac94
+anonymous_edits: 0
+categories:   
+sha1:         9c84c2c5b3db806a71170960246c0122bf55166d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A known good battery handshake on the yellow trace. The pink trace is not relevant

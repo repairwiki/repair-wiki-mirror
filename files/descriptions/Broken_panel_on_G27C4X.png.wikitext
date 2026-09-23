@@ -1,0 +1,18 @@
+<!--
+title:        File:Broken panel on G27C4X.png
+pageid:       8874
+revid:        12908
+source:       https://repair.wiki/w/File:Broken_panel_on_G27C4X.png
+history:      https://repair.wiki/index.php?title=File:Broken_panel_on_G27C4X.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12908
+last_edited:  2025-11-29T12:16:12Z
+contributors: InonDalal
+anonymous_edits: 0
+categories:   
+sha1:         638274d44d800dc420ea5718ebbcf449ab6cb27a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+this is an example of a broken LCD panel for the G27C4X msi OPTIX screen

@@ -1,0 +1,17 @@
+<!--
+title:        File:Epson elpdc21 document camera pcb camera head.jpg
+pageid:       1077
+revid:        2487
+source:       https://repair.wiki/w/File:Epson_elpdc21_document_camera_pcb_camera_head.jpg
+history:      https://repair.wiki/index.php?title=File:Epson_elpdc21_document_camera_pcb_camera_head.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2487
+last_edited:  2024-01-14T14:09:24Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

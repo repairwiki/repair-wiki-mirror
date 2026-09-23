@@ -1,0 +1,18 @@
+<!--
+title:        File:14PM-Gyro.png
+pageid:       578
+revid:        1320
+source:       https://repair.wiki/w/File:14PM-Gyro.png
+history:      https://repair.wiki/index.php?title=File:14PM-Gyro.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1320
+last_edited:  2023-12-12T22:36:02Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         3efc108f2b9b02ba206b1f42a86fdea008c73606
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 14 Pro Max will restart when the Gyro is not detected on the top board, giving 0x20000 panic log

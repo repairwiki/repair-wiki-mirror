@@ -1,0 +1,18 @@
+<!--
+title:        File:Repair.wiki for acer aspire v3-772g picture of measuremnt for 2nd mosfet v1.12742.png
+pageid:       545
+revid:        1234
+source:       https://repair.wiki/w/File:Repair.wiki_for_acer_aspire_v3-772g_picture_of_measuremnt_for_2nd_mosfet_v1.12742.png
+history:      https://repair.wiki/index.php?title=File:Repair.wiki_for_acer_aspire_v3-772g_picture_of_measuremnt_for_2nd_mosfet_v1.12742.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1234
+last_edited:  2023-11-25T17:20:45Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         fc172a7b3b3b68a5a88fe81cc439b00b349efaa8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Repair.wiki for acer aspire v3-772g picture of measuremnt for 2nd mosfet v1.12742

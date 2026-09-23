@@ -1,0 +1,17 @@
+<!--
+title:        File:IMG 5030.jpeg
+pageid:       3962
+revid:        6874
+source:       https://repair.wiki/w/File:IMG_5030.jpeg
+history:      https://repair.wiki/index.php?title=File:IMG_5030.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6874
+last_edited:  2025-05-17T00:28:17Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

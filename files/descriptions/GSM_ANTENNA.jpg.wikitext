@@ -1,0 +1,18 @@
+<!--
+title:        File:GSM ANTENNA.jpg
+pageid:       6112
+revid:        9448
+source:       https://repair.wiki/w/File:GSM_ANTENNA.jpg
+history:      https://repair.wiki/index.php?title=File:GSM_ANTENNA.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=9448
+last_edited:  2025-07-29T19:44:29Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         550f4c4671fc251730911d47580b2833ee651a76
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+GSM ANTENNA

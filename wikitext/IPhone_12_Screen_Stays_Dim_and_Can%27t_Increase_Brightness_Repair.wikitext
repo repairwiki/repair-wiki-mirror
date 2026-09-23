@@ -1,0 +1,42 @@
+<!--
+title:        IPhone 12 Screen Stays Dim and Can't Increase Brightness Repair
+pageid:       1405
+revid:        3070
+source:       https://repair.wiki/w/IPhone_12_Screen_Stays_Dim_and_Can't_Increase_Brightness_Repair
+history:      https://repair.wiki/index.php?title=IPhone_12_Screen_Stays_Dim_and_Can't_Increase_Brightness_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=3070
+last_edited:  2024-01-19T22:21:40Z
+contributors: KevinShort
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone 12, Repair guides for IPhone 12 Pro, Repair guides for IPhone 12 Pro Max, Repair guides for iPhone 12 Mini, Stubs
+sha1:         17c4fc00b6a6369028c479b138204661ded44ecf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone 12, IPhone 12 Pro, IPhone 12 Pro Max, iPhone 12 Mini
+|Affects parts=Motherboard
+|Needs equipment=screwdrivers, spudger
+|Type=Part replacement
+|Difficulty=1. Easy
+}}
+{{stub}}
+
+==Problem description==
+Diagnosis and repair of an iPhone 12 that will not allow you to adjust the brightness of the display.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Phone shows Apple logo at full brightness
+*Once it gets to the home screen the display gets really dark
+*May be confused with "no backlight"
+
+==Solution==
+
+* Connect the ear speaker flex to get the brightness to work.
+
+* if it still does not work, then the original ear speaker flex may be bad.
+** In this case, try a new ear speaker flex (but you will lose Face ID)
+Video explanation: https://www.youtube.com/watch?v=ShqQwVfsBcU

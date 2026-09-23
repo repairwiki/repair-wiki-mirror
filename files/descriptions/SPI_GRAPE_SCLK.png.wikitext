@@ -1,0 +1,18 @@
+<!--
+title:        File:SPI GRAPE SCLK.png
+pageid:       4132
+revid:        7098
+source:       https://repair.wiki/w/File:SPI_GRAPE_SCLK.png
+history:      https://repair.wiki/index.php?title=File:SPI_GRAPE_SCLK.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7098
+last_edited:  2025-05-25T21:27:01Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         c16680a2622bb29ab5614bc3aae141e519ce3c94
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+SPI_GRAPE_SCLK Diode value

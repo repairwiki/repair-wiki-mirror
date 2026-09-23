@@ -1,0 +1,18 @@
+<!--
+title:        File:HCS-circuitboard.jpg
+pageid:       2169
+revid:        4510
+source:       https://repair.wiki/w/File:HCS-circuitboard.jpg
+history:      https://repair.wiki/index.php?title=File:HCS-circuitboard.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4510
+last_edited:  2024-07-26T02:25:43Z
+contributors: ChrisC
+anonymous_edits: 0
+categories:   
+sha1:         12520c88069dd149351324a06af59f3630650cf4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+lone PCBA inside the HCS series EVSE

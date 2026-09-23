@@ -1,0 +1,62 @@
+<!--
+title:        Galaxy A515 Black Screen After 1st logo
+pageid:       6686
+revid:        10065
+source:       https://repair.wiki/w/Galaxy_A515_Black_Screen_After_1st_logo
+history:      https://repair.wiki/index.php?title=Galaxy_A515_Black_Screen_After_1st_logo&action=history
+permalink:    https://repair.wiki/index.php?oldid=10065
+last_edited:  2025-08-05T22:59:05Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Galaxy A51, Stubs
+sha1:         6d007a34b6a0e8ce3ed34acef9c8f5349c9b46ee
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Galaxy A51
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering, BGA
+|Difficulty=4. Specialist
+}}
+Insert paragraph
+
+{{stub}}
+
+== Problem description ==
+If you receive a device in this condition it will be showing a black screen after the 1st(boot logo)
+
+== Symptoms ==
+The symptoms of the device should meet all the symptoms below on order to proceed to repair:
+
+* Device shows 1st logo(boot logo) and after that screen goes black and stays on black screen forever and does not go to the 2nd logo at all (see the reference pics below)
+
+[[File:1st logo.png|center|thumb|1st logo]]
+[[File:2nd logo.png|center|thumb|2nd logo]]
+[[File:Black screen.png|center|thumb|black screen]]
+
+* The device does not go the home screen with screen connected(without screen connected the device turns on completely and you can feel the vibrator motor)
+* Phone must '''NOT''' bootloop ( shows the samsung logo again and again) and should stay on black screen
+
+== Solution ==
+This issue occurs due to a water damage to a display, there are 2 possible fixes:
+
+# The obvious one is to change the display and the issue will be fixed
+# There is a way to repair the same display with just 1 jumper, follow the steps below in order to repair the device:
+
+* Pretin the pads #5 and #7 as shown in the picture
+
+[[File:Pretin pad 5 and 7 galaxy a51.png|center|thumb|Pretin pad 5 and 7]]
+
+* Make a jumper on these 2 pads with 0.02mm jumper wire like shown in the pictures below
+
+[[File:Jumper pad 5 to 7.jpg|center|thumb|300x300px|Jumper pad 5 to 7]]
+[[File:The fix.png|center|thumb|The jumper fix]]
+
+* Solidify the connection with uv
+* Now check, your device should be fixed
+
+[[File:Fixed.png|center|thumb|Fixed]]

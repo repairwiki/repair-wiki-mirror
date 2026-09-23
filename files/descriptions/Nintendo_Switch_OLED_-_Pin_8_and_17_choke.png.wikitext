@@ -1,0 +1,18 @@
+<!--
+title:        File:Nintendo Switch OLED - Pin 8 and 17 choke.png
+pageid:       1881
+revid:        4067
+source:       https://repair.wiki/w/File:Nintendo_Switch_OLED_-_Pin_8_and_17_choke.png
+history:      https://repair.wiki/index.php?title=File:Nintendo_Switch_OLED_-_Pin_8_and_17_choke.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4067
+last_edited:  2024-06-12T07:07:46Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         3dd9bce1d37b5ac9782889995cc806cc625f6a05
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Check this choke when your Mechanic Readings show OL for pin Pin 8 and 17

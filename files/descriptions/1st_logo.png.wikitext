@@ -1,0 +1,18 @@
+<!--
+title:        File:1st logo.png
+pageid:       6680
+revid:        10058
+source:       https://repair.wiki/w/File:1st_logo.png
+history:      https://repair.wiki/index.php?title=File:1st_logo.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10058
+last_edited:  2025-08-05T22:32:12Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         08a3aacec7193843ba9cc066cb2ee5d122cf2ee5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+1st logo

@@ -1,0 +1,44 @@
+<!--
+title:        EliteBook 850 G5
+pageid:       4261
+revid:        8738
+source:       https://repair.wiki/w/EliteBook_850_G5
+history:      https://repair.wiki/index.php?title=EliteBook_850_G5&action=history
+permalink:    https://repair.wiki/index.php?oldid=8738
+last_edited:  2025-07-13T22:47:02Z
+contributors: VCCBoardRepairs, Tiago199988, Cheapskate777
+anonymous_edits: 0
+categories:   Device, Hewlett-Packard, Hewlett-Packard Laptops, Laptops, Stubs
+sha1:         f056dd2c8cdbaef1ad111ee2f05a33e7ac8291e8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Hewlett-Packard
+|Has code name=3RS21UT#ABA
+|Device release date=2018-02-01
+|Device type=Laptop
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:EliteBook 850 G5.png|alt=
+</gallery>
+
+== PCB pictures ==
+[[File:Elitebook850g5 pcb overview.jpg|thumb|center]]
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+HP Documentation https://support.hp.com/us-en/product/setup-user-guides/hp-elitebook-850-g5-notebook-pc/18491276
+* Maintenance and Service Guide http://h10032.www1.hp.com/ctg/Manual/c06189562.pdf

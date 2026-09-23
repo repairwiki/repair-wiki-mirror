@@ -1,0 +1,53 @@
+<!--
+title:        Template:FrontpageImageButtons
+pageid:       1644
+revid:        12934
+source:       https://repair.wiki/w/Template:FrontpageImageButtons
+history:      https://repair.wiki/index.php?title=Template:FrontpageImageButtons&action=history
+permalink:    https://repair.wiki/index.php?oldid=12934
+last_edited:  2025-11-30T11:50:01Z
+contributors: Admin, ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         9c058cc5302157a7d87cbf5fa30d13d77acb98dd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{FrontpageContainerRow|
+
+
+{{FrontpageImageButton|[[:Category:Phones|Phones]]|Links-phones.png}}
+{{FrontpageImageButton|[[:Category:Laptops|Laptops]]|Links-laptops.png}}
+{{FrontpageImageButton|[[:Category:Game_Consoles|Game Consoles]]|Links-gameconsoles.png}}
+{{FrontpageImageButton|[[:Category:Computer/All_In_Ones|AIO Computers]]|Links-pc.png}}
+{{FrontpageImageButton|[[:Category:Computer_Components|PC Components]]|Links-component.png}}
+{{FrontpageImageButton|[[:Category:Tablets|Tablets]]|Tablets.png}}
+
+
+}}
+{{FrontpageContainerRow|
+
+{{FrontpageImageButton|[[:Category:Cameras|Cameras]]|Cameras.png}}
+{{FrontpageImageButton|[[:Category:Television/Monitors|TVs/Monitors]]|TelevisionsMonitors.png}}
+{{FrontpageImageButton|[[:Category:Printers|Printers]]|Printers.png}}
+{{FrontpageImageButton|[[:Category:3D Printers|3D Printers]]|3D Printers.png}}
+{{FrontpageImageButton|[[:Category:Drones|Drones]]|Drones.png}}
+{{FrontpageImageButton|[[:Category:AV Equipment|AV Equipment]]|AV Equipment.png}}
+
+
+
+}}
+{{FrontpageContainerRow|
+
+
+{{FrontpageImageButton|[[:Category:Medical Devices|Medical Devices]]|Medical Equipment.png}}
+{{FrontpageImageButton|[[:Category:Industrial Devices|Industry Devices]]|Industrial Devices.png}}
+{{FrontpageImageButton|[[:Category:Vehicles|Vehicles]]|Vehicles.png}}
+{{FrontpageImageButton|[[:Category:E-bikes/Scooters|E-bikes/Scooters]]|ebikes.png}}
+{{FrontpageImageButton|[[:Category:Farm Equipment|Farm Equipment]]|Farming.png}}
+{{FrontpageImageButton|[[:Category:Others|Others]]|Others.png}}
+
+
+}}

@@ -1,0 +1,35 @@
+<!--
+title:        Nintendo Switch Error code 2153-0321 Repair
+pageid:       909
+revid:        2218
+source:       https://repair.wiki/w/Nintendo_Switch_Error_code_2153-0321_Repair
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Error_code_2153-0321_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2218
+last_edited:  2024-01-13T16:29:41Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Switch, Stubs
+sha1:         e85b0748c51c286149a214f7e22940cf4a6cef43
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Main Logic Board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Fixing error code 2153-0321 on a Nintendo Switch
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Error code 2153-0321
+
+==Solution==
+Replace M92T36 (Figure 1)

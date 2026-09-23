@@ -1,0 +1,40 @@
+<!--
+title:        Samsung Galaxy Tab S3 Screen shows flickering horizontal lines on screen repair
+pageid:       867
+revid:        2070
+source:       https://repair.wiki/w/Samsung_Galaxy_Tab_S3_Screen_shows_flickering_horizontal_lines_on_screen_repair
+history:      https://repair.wiki/index.php?title=Samsung_Galaxy_Tab_S3_Screen_shows_flickering_horizontal_lines_on_screen_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2070
+last_edited:  2024-01-12T23:15:04Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Galaxy Tab S3
+sha1:         301b3fbb9b218ed2b66f1fe0ac8f0bdb27f2e242
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Galaxy Tab S3
+|Affects parts=Flex cable, main board
+|Needs equipment=Screwdrivers, known good parts, spudger
+|Type=Part replacement
+|Difficulty=2. Medium
+}}
+==Problem description==
+'''SM-P5210 model''' 
+Screen shows flickering horizontal lines on screen or other similar display problem. Everything else normal.
+[[File:Tabletinsides.jpg|thumb|Insides of the Tab S3 (Figure 1)]]
+
+==Symptoms==
+
+*Flickering lines on the screen
+
+==Solution==
+
+# Pry open the front panel of the tablet carefully from the tablet housing using a pry tool. As shown below
+
+2. Try cleaning and then reconnecting the ribbon cable labeled as ST1_LCD_FPCB... on both sides of the connection (on the right in the next picture). Then insert the motherboard + display assembly back into the housing (may require minor use of force) and see if the problem has been resolved. (I have censored every other piece of text in the image to protect my own identity just in case.)
+
+3. If cleaning and reconnecting said connector did not work, then buying a new connector and using it may help.

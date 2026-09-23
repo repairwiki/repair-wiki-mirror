@@ -1,0 +1,75 @@
+<!--
+title:        IPhone 13 Pro and 13 Pro Max No Touch Problem
+pageid:       9610
+revid:        13908
+source:       https://repair.wiki/w/IPhone_13_Pro_and_13_Pro_Max_No_Touch_Problem
+history:      https://repair.wiki/index.php?title=IPhone_13_Pro_and_13_Pro_Max_No_Touch_Problem&action=history
+permalink:    https://repair.wiki/index.php?oldid=13908
+last_edited:  2026-02-09T05:24:25Z
+contributors: VCCBoardRepairs, Ajimalg82
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone 13 Pro, Repair guides for IPhone 13 Pro Max, Stubs
+sha1:         0af232c52b4a88bd62e9478342fc2ebc9d8075da
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone 13 Pro, IPhone 13 Pro Max
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering, Teardown, BGA
+|Difficulty=4. Specialist
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+iPhone 13 pro/ pro max boots normally but touchscreen does not respond at all. Display shows image, but there is no touch input on the entire panel. Replacing the screen does not fix the issue.
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Touchscreen not responding at all
+* Screen replacement does not fix the problem
+* GR on display connector is normal
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+The problem generally is due to a faulty capacitor that is placed on the touch boost line. Replacing the capacitor '''C8901'''and ('''8903''' '''only''' in iPhone 13 pro max)(according to JC Drawing) fixes the issue.
+[[File:13P FAULTY CAP.png|thumb|452x452px|13P FAULTY CAP|center]]
+[[File:13PM FAULTY CAPS.png|thumb|452x452px|13PM FAULTY CAPS|center]]
+=== Diagnostic Steps ===
+
+# Check diode values on the connector, if you see any unusual reading trace it or else continue to the next step if all diode values are good.[[File:Diode value of screen fpc.png|center|thumb|663x663px|Diode value]]
+# Check for voltage on the PP5V1_TOUCH_VDDTX_S2:
+#* You cannot normally check voltage on this line[[File:Schematic of iphone 13 pro display boost ic.png|center|thumb|540x540px|Schematic]]
+#* In order to check voltage on this line you have to manually enable the ic by giving it an enable signal and here is how to do it:
+#** Plug the DCPS cable/ battery to the phone 3.8-4.2 volts
+#** Inject 1.8v at lowest possible Ampere on pin #49(according to JC DRAWING) to enable the LDO output[[File:INJECT 1.8V for boost ic testing.png|center|thumb|392x392px|INJECT 1.8V]]
+#** Check the output voltage on pin #54(according to JC DRAWING)[[File:OUTPUT of display boost ic.png|center|thumb|Output of Display Boost IC]]
+#** If you get no voltage output then proceed to the repair steps
+
+=== Repair Steps ===
+
+# Split the board in half
+# Check the capacitor C8901+(C8903 only in 13 pro max), if shorted it MUST be replaced.
+
+NOTE: (if you don't replace this capacitor phone will still have no touch problem)
+[[File:13P FAULTY CAP.png|thumb|397x397px|Faulty Cap|center]]
+[[File:13PM FAULTY CAPS.png|thumb|388x388px|Faulty Caps|center]]
+# Recheck for shorts
+# In some rare cases of which short is not cleared:
+#* You have to replace the u8900[[File:Values under touch ic iphone 14 pro max.png|center|thumb|405x405px|Diode Value Under ic]]
+#* Check diode value under the ic before replacing it
+#* Replace the ic and the capacitor
+# Test the touch function, it should be restored.

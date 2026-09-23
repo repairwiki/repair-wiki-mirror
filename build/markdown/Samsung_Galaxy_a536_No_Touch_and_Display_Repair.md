@@ -1,0 +1,78 @@
+---
+title: "Samsung Galaxy a536 No Touch and Display Repair"
+pageid: 4317
+revid: 7362
+kind: repair_guide
+source: "https://repair.wiki/w/Samsung_Galaxy_a536_No_Touch_and_Display_Repair"
+history: "https://repair.wiki/index.php?title=Samsung_Galaxy_a536_No_Touch_and_Display_Repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=7362"
+last_edited: "2025-06-05T00:26:34Z"
+contributors:
+  - "VCCBoardRepairs"
+  - "Ajimalg82"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Galaxy A53 5G"
+  - "Stubs"
+infobox:
+  Device: "Galaxy A53 5G"
+  Affects_parts: "Logic Board"
+  Needs_equipment: "Soldering Iron, Hot Air Station, Microscope"
+  Type: "Soldering, BGA"
+  Difficulty: "4. Specialist"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Samsung Galaxy a536 No Touch and Display Repair
+
+## Problem description
+You have tried to replace the main FPC connector and display and the problem persists then this would be your issue.
+
+The device has no touch after a little time of use OR no Touch at all.
+
+The Device turns on normally but doesn't display anything.
+
+Mainly this issue occurs after a heavy drop or if a customer drops his phone a lot.
+
+## Symptoms
+- This issue happened after a drop
+- You will experience no touch or no display or both at the same time but the phone is working and charging fine.
+
+## Solution
+![check diode values on these pads](images/7/7f/2025_05_13_15_19_IMG_77781-Recovered.png)
+
+### Diagnostic Steps
+- Mainly this issue occures after a heavy drop
+- Check diode readings on the following lines, if you have OL or high diode values at these pins then you should follow this guide.
+
+### Repair Steps
+Warning: Attempting this repair without enough experience with microsoldering, may lead to a dead/ no dispay issue. Proceed with caution.
+
+  - Start Removing the shield and trace the damage**
+![find the  problem](images/8/85/2025_05_13_11_44_IMG_7766.png)
+
+1. Start by removing or grinding the front baseband section and CPU shields.
+1. After you have carefully removed the shields try to trace the area where the problem has occured. (as shown in the picture)
+
+  - Start the repair process**
+![prep the damaged area](images/3/3d/2025_05_13_12_27_IMG_7768.png)
+
+1. Start by removing the first layer of the motherboard(that is ground) on the area where your issue is located, it would be near the marked area. (to remove the 1st layer you can use a surgical blade #11 and be patient)
+1. After you have successfully removed the 1st layer you can try to find the second layer and in that layer you will find the problem that is caused by a hard drop. (you will finds something like this picture)
+
+  - Soldering process**
+![fixed damaged area](images/0/01/2025_05_13_14_14_IMG_7769.png)
+
+- I personally use a little bit of no halogen flux for this repair and use 183 C paste
+- prep the pads that are broken white tin and start jumpering the broken traces, I preffer to use 0.007mm silver jumper wire for these kind of works.
+- After you have made the traces with jumper wire try to turn on the device and see if touch works properly and you have a display.
+- If everything seems fine then now you are ready to apply a UV Solder Mask to finish the repair. (the end result should look like the picture.)
+
+  - More details about the pads**
+![pads info on the back](images/9/96/Touch_and_display_pads.png)
+- here is some more information about these pads from where the actually go and where the lead.
+- ![pads info on the fpc](images/d/d7/2025_05_13_15_19_IMG_7778.png)
+enjoy, your repair has been successful.is completed.

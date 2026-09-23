@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 11 Backlight Circuit Schematic.png
+pageid:       4225
+revid:        7224
+source:       https://repair.wiki/w/File:IPhone_11_Backlight_Circuit_Schematic.png
+history:      https://repair.wiki/index.php?title=File:IPhone_11_Backlight_Circuit_Schematic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7224
+last_edited:  2025-05-31T14:25:13Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         60e2836b8f0361d74c6f072349ee569aa8e586b5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 11 Backlight Circuit Schematic

@@ -1,0 +1,54 @@
+---
+title: "M1 Mac WiFi Module troubleshooting replacement"
+pageid: 7310
+revid: 10900
+kind: explanatory_guide
+source: "https://repair.wiki/w/M1_Mac_WiFi_Module_troubleshooting_replacement"
+history: "https://repair.wiki/index.php?title=M1_Mac_WiFi_Module_troubleshooting_replacement&action=history"
+permalink: "https://repair.wiki/index.php?oldid=10900"
+last_edited: "2025-08-30T03:47:35Z"
+contributors:
+  - "Juniper"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for Apple"
+  - "Explanatory guides for Apple Laptops"
+  - "Explanatory guides for Laptop"
+  - "Missing device page"
+infobox:
+  Device: "Apple, Laptop, Apple Laptops"
+  Type: "Troubleshooting/Diagnostics"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# M1 Mac WiFi Module troubleshooting replacement
+
+## Devices with M1/M2 SoC
+A2338 MacBook Pro 2020
+
+A2337 MacBook Air 2020
+
+A2348 Mac Mini 2020
+
+...
+
+Common failure mode of the wifi module in M1 Mac is shorted 3v3, the module will get slightly warm when injecting voltage but hard to see without a good IR camera because of the large thermal mass and heatsink to the logic board ground plane. Can remove the current sense shunt (RD810 on 820-02020) to disconnect 3v3 without removing the underfilled wifi module while troubleshooting. Machine will post but turn off after ~15sec of finished booting if the wifi module not detected. This includes the bootpicker, recovery, 1TR(one true recoveryos), regular OS. Must have wifi module present to boot fully even for data recovery. In some older firmware version the wifi module does not need the 3.3v rail to be detected by the OS but latest firmware as of 2025 does require 3v3 to detect the wifi module (and not bootloop kernel panic).
+
+You can put a non matching wifi module restore full function except wifi. Machine will boot an bluetooth will work but will show as wifi card not present in macOS. Wifi does work with non matching module in Linux if you want to verify correct pcie functionality for wifi card before programming a blank module since they are quite expensive. Recommended typical diagnostic flow for bad wifi would be replace with donor module, boot into linux and verify full functionality then program blank module to restore full functionality.
+
+[https://www.lbtool.net/product/productCommodityInfo?commodity=3906463875072 LuBan H7 pcie programmer]
+
+Steps to successful flash blank wifi module from luban:
+
+1. boot into macos desktop (not recoveryos) on the machine being repaired, connect ethernet with compatible dongle
+  1. may need to temporarily install donor wifi module to access desktop without kp bootloop
+1. download LB-WIFI-OFF tool from lbtool.net, click mac assistant in top navigation bar
+1. "sudo spctl --master-disable" from terminal to allow untrusted application to run
+1. run LB-WIFI-OFF to record machine serial number, ecid, original wifi mac address into luban server
+1. insert blank/new wifi module into luban h7 programmer socket
+1. on windows machine run luban h7 software, go to wifi operation and enter serial number and click check now to download mac address and ecid from luban server
+1. click write now

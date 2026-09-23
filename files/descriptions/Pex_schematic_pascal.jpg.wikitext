@@ -1,0 +1,18 @@
+<!--
+title:        File:Pex schematic pascal.jpg
+pageid:       364
+revid:        835
+source:       https://repair.wiki/w/File:Pex_schematic_pascal.jpg
+history:      https://repair.wiki/index.php?title=File:Pex_schematic_pascal.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=835
+last_edited:  2023-11-07T16:46:27Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         9675ce8e6d076b5b748bd29817456bc3f57682f4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Pex schematic pascal

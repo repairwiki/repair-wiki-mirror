@@ -1,0 +1,109 @@
+<!--
+title:        How To Repair Samsung Galaxy Z Fold 4 Fake Charing
+pageid:       8783
+revid:        12789
+source:       https://repair.wiki/w/How_To_Repair_Samsung_Galaxy_Z_Fold_4_Fake_Charing
+history:      https://repair.wiki/index.php?title=How_To_Repair_Samsung_Galaxy_Z_Fold_4_Fake_Charing&action=history
+permalink:    https://repair.wiki/index.php?oldid=12789
+last_edited:  2025-11-20T16:05:29Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Galaxy Z Fold 4 5g, Stubs
+sha1:         86f731565defe56813d72e0854eda4e1e65be748
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Galaxy Z Fold 4 5g
+|Affects parts=Motherboard
+|Needs equipment=Hot Air Station, Soldering Iron, Tweezers, Donor board/New IC, Flux, Soldering Wick
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+Samsung Z Fold 4 displays the charging animation but never boots. Acts as if charging but battery percentage does not increase.
+
+[[File:Z Fold 4 5G Fake Charging.jpg|thumb|Z Fold 4 5G - Fake Charging]]
+[[File:ASL01 CHARGE.png|thumb|Z Fold 4 5G - ASL01 Charging IC]]
+
+== Symptoms ==
+
+* Shows charging symbol only
+* Stays stuck on charging logo
+* Battery percentage does not increase
+* Phone does not power on normally
+* V_BATT line measuring 0 Ω (dead short)
+
+== Solution ==
+The failure is caused by a short on the V_BATT power rail, usually due to a failed ASL01 power IC.
+
+Removing the IC clears the short; replacing it resolves fake charging permanently.
+
+[[File:VBATT.png|thumb|Z Fold 4 5G - VBATT Line Diode Mode Reading]]
+[[File:ASL01 IC LOCATION BOARDVIEW.png|thumb|Z Fold 4 5G - ASL01 IC Location On BoardView]]
+
+=== Diagnostic Steps ===
+
+=== 1. Visual Inspection ===
+
+* Check the mainboard for corrosion or burn marks.
+* Inspect USB-C daughterboard, battery connector, and PMIC areas.
+* Ensure no aftermarket battery is causing brownout behavior.
+
+----
+
+=== 2. Diode Mode – V_BATT Rail Check ===
+
+* Probe the V_BATT test point / capacitor bank near the FPC connectors.
+* Expected normal reading: typically in the hundreds of kΩ or >1MΩ.
+* Faulty board reading : 0.09 Ω → confirmed short.
+
+----
+
+=== 3. Short Hunting ===
+
+* Use multimeter continuity across the V_BATT line.
+* Use thermal cam or voltage injection (1 V, limited to 1–2 A).
+* In this case, no component heated visibly during first injection.
+* Move to boardview/diagram → V_BATT rail maps to ASL01 Charging IC (Located right next to the Battery Connector FPC).
+
+----
+
+=== 4. Confirm Shorted IC ===
+
+* Apply rosin + re-inject voltage.
+* ASL01 IC heats up → confirmed bad component.
+
+=== Repair Steps ===
+
+=== 1. Remove the Faulty ASL01 IC ===
+
+* Mask surrounding components with high temperature tape.
+* Apply hot air.
+* Gently lift the ASL01 IC.
+
+=== 2. Re-Test the V_BATT Rail ===
+
+* Measure at same point as initial short.
+* After IC removal: reading becomes 19 MΩ.
+* This confirms the short is fully cleared.
+
+=== 3. Install New ASL01 IC ===
+
+* Clean pads with solder wick + flux.
+* Apply fresh leaded solder.
+* Reball or use pre-balled IC.
+* Align and solder the new ASL01 Charging IC.
+
+=== 4. Final Measurement ===
+
+* After reinstallation, check V_BATT again:
+** Reading becomes 2.16 kΩ / .469V (normal range from reference).
+
+=== 5. Assemble & Boot Test ===
+
+* Reconnect battery and screen.
+* Phone now boots normally and charges correctly.

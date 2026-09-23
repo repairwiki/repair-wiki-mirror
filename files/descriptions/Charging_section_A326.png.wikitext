@@ -1,0 +1,18 @@
+<!--
+title:        File:Charging section A326.png
+pageid:       6357
+revid:        9705
+source:       https://repair.wiki/w/File:Charging_section_A326.png
+history:      https://repair.wiki/index.php?title=File:Charging_section_A326.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9705
+last_edited:  2025-08-02T12:33:43Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         80938caadac18423d130ba470d6584461eb7b004
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Charging section

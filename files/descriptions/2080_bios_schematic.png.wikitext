@@ -1,0 +1,18 @@
+<!--
+title:        File:2080 bios schematic.png
+pageid:       454
+revid:        955
+source:       https://repair.wiki/w/File:2080_bios_schematic.png
+history:      https://repair.wiki/index.php?title=File:2080_bios_schematic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=955
+last_edited:  2023-11-07T22:16:13Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ab812f9ef94fbe2042027df14c4b51c8a7d69183
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+2080 bios schematic

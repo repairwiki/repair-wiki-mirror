@@ -1,0 +1,44 @@
+<!--
+title:        Nintendo Switch Error Code 2002-2663 Game Cartridge Error
+pageid:       2616
+revid:        5241
+source:       https://repair.wiki/w/Nintendo_Switch_Error_Code_2002-2663_Game_Cartridge_Error
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Error_Code_2002-2663_Game_Cartridge_Error&action=history
+permalink:    https://repair.wiki/index.php?oldid=5241
+last_edited:  2024-11-10T05:36:00Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Switch, Stubs
+sha1:         b1c23fc1e6903f531edd5c58903cf02ba5903442
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Game Cartridge
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+[[File:Nintendo Switch Error 2002-2663.png|alt=Nintendo Switch Error 2002-2663|thumb|507x507px|Nintendo Switch Error 2002-2663]]
+
+== Problem description ==
+Nintendo Switch that gets error 2002-2663 when you insert the Game Cartridge.
+
+It will boot up fine with no game inside
+
+== Symptoms ==
+* Error 2002-2663
+*
+
+== Solution Repair Steps ==
+
+# Try rebooting the game console
+# Try a new game reader
+# Try reflowing or reballing  IC on the other side of the game cartridge connector
+# Otherwise, try replacing it
+
+[[File:Nintendo Switch Error 2002-2663 IC .png|alt=Nintendo Switch Error 2002-2663 IC |left|thumb|Nintendo Switch Error 2002-2663 IC ]]

@@ -1,0 +1,18 @@
+<!--
+title:        File:Screenshot From 2025-08-21 19-49-23.png
+pageid:       6968
+revid:        10477
+source:       https://repair.wiki/w/File:Screenshot_From_2025-08-21_19-49-23.png
+history:      https://repair.wiki/index.php?title=File:Screenshot_From_2025-08-21_19-49-23.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10477
+last_edited:  2025-08-22T02:52:59Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   
+sha1:         307b8391ac83883f3a7fa0f56cf9cd2402449270
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+ipad 10 boardview with digitizer points of interest circled

@@ -1,0 +1,45 @@
+---
+title: "MacBook Pro A1707 Not waking up from sleep after closing the lid repair"
+pageid: 204
+revid: 568
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A1707_Not_waking_up_from_sleep_after_closing_the_lid_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A1707_Not_waking_up_from_sleep_after_closing_the_lid_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=568"
+last_edited: "2023-10-29T16:18:33Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A1707"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A1707"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A1707 Not waking up from sleep after closing the lid repair
+
+## Problem description
+Fixing issues related to sleep and waking up on A1707 MacBook Pro
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- not waking up from sleep after closing
+- only starts after unplugging of battery
+- sleep without closing (through OS) is no problem
+
+## Solution
+- Problem with one of the Hall Sensors
+- SMC_LID acts normal (3.4V with open Laptop; 0V closed)
+- SMC_LID_LEFT or SMC_LID_RIGHT is not acting
+  - SMC needs both signals to go to sleep
+  - Display, Keyboard, Powerbutton, Trackpad, ... are in sleep mode and don't wake up
+- Solution: look at R5252, C5250, R5253, C5260, both Hall Sensor Boards (J5250, J5260) and U5255 area for corrosion --> repair
+  - if Tracks are missing (like my case) to Pin 1 of R5252 or R5252 a direkt connection to Pin 2 of the Hall sensor chip

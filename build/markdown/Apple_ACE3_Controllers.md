@@ -1,0 +1,154 @@
+---
+title: "Apple ACE3 Controllers"
+pageid: 8270
+revid: 13836
+kind: device
+source: "https://repair.wiki/w/Apple_ACE3_Controllers"
+history: "https://repair.wiki/index.php?title=Apple_ACE3_Controllers&action=history"
+permalink: "https://repair.wiki/index.php?oldid=13836"
+last_edited: "2026-02-03T20:38:28Z"
+contributors:
+  - "David.Lecomte"
+anonymous_edits: 0
+categories:
+  - "Apple"
+  - "Apple Laptops"
+  - "Device"
+  - "Laptops"
+infobox:
+  Manufacturer: "Apple"
+  Has_code_name: "ACE3"
+  Device_type: "Laptop"
+  Device_release_date: "2023"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Apple ACE3 Controllers
+
+This is a placeholder to document testing done with ACE3 controllers on Macbooks, and add knowledge tidbits as they trickle down. Once we understand these controllers, the page will be reorganized as a proper explanation on the ACE3.
+
+Random thoughts, looking at schematics:
+
+- Communication bus seems vastly different from ACE2. Two ADDR pins. CNTL1 and CNTL2 don't seem to be straps anymore, but look like communication lines between ACE3, retimer and repeater.
+- SMC communication can now happen either by SPMI (`L27` strapped to `GND`) or I2C (`L27` strapped to `LDO_3V3`). The choice so far seems to be SPMI (meaning that we can't scan for addresses anymore with our I2C scanner).
+- In DFU mode, all receptacles will register when connected to the host. But only the real DFU port will allow a Restore. The others will fail with error 4042 (dropped connexion after 10 minute timer).
+
+## Testing on a working A3113
+Types of controllers encountered so far: SN25A23P.
+
+ACE configuration: Controllers for receptacles are in Master - Slave configuration, Magsafe controller is Master.
+
+### Test 1: Swapping UF400 and UF500
+  - Test date**: 2025.09.26
+
+  - Description**: Just swapping the two controllers, from that board.
+
+  - OS**: Sonoma.
+
+The device seems to work right away, and normally.
+
+  - DFU Restore (Tahoe)**: Ok.
+
+  - Display output**: Ok, both receptacles.
+
+  - Charging**: Ok (both receptacles + Magsafe).
+
+  - Data (Thunderbolt)**: Ok (both receptacles).
+
+  - Conclusion**: Nothing abnormal, it looks like both are interchangeable.
+
+### Test 2: Replacing UF400
+  - Test date**: 2025.09.26
+
+  - Description**: Replacing UF400 by an SN25A23P bought new (Mobilesentrix).
+
+  - OS**: Tahoe.
+
+  - DFU Restore (Tahoe)**: Impossible. The board is placed in DFU mode by jumping `PP1V25_S2` to `PMU_UPC_FORCE_DFU`, confirmation with `DFU_STATUS`. But it does not appear in the Finder on the host computer. Using the wrong receptacle (closest to trackpad), the target Mac appears in the Finder, but as expected cannot be restored (error 4042, timeout).
+
+When connecting to the correct receptacle, the Terminal of the host computer outputs the following, indicating that the target Mac is detected in some manner. But it won't appear in the Finder:
+
+`Broadcast Message from root@David                                              `
+
+`        (no tty) at 15:04 CEST...                                              `
+
+`amai: UARP Restore Initialize Common.                                         `
+
+`Broadcast Message from root@David                                              `
+
+`        (no tty) at 15:04 CEST...                                              `
+
+`amai: Ace3UARPExternalDFUApplePropertyUpdate.                                 `
+
+`Broadcast Message from root@David                                              `
+
+`        (no tty) at 15:04 CEST...                                              `
+
+`amai: Ace3UARPExternalDFUApplePropertyUpdate.                                 `
+
+`Broadcast Message from root@David                                              `
+
+`        (no tty) at 15:04 CEST...                                              `
+
+`amai: Ace3UARPExternalDFUPropertiesComplete.`    
+
+  - Display output**: Ok, both receptacles.
+
+  - Charging**: Ok (both receptacles + Magsafe).
+
+  - Data (Thunderbolt)**: Ok (both receptacles).
+
+  - Conclusion**: Nothing abnormal within the OS, but executing a DFU Restore is not possible anymore. This is a major problem, that will slip through because it is not part of the normal repair workflow, to test if a repaired Mac can be detected in DFU mode.
+
+  - Workaround**: If UF400 is defective and needs to be replaced, you can replace it with UF500 (hopefully it still works), and then replace UF500 by a "new" SN25A23P. The device will then be detected in DFU mode, and the Restore goes through.
+
+### Test 3: Replacing UF500
+  - Test date**: 2025.09.26
+
+  - Description**: Replacing UF500 by an SN25A23P bought "new" (Mobilesentrix), but already used in Test 2.
+
+  - OS**: Tahoe.
+
+The device seems to work right away and normally.
+
+  - DFU Restore (Tahoe)**: Ok.
+
+  - Display output**: Ok, both receptacles.
+
+  - Charging**: Ok (both receptacles + Magsafe).
+
+  - Data (Thunderbolt)**: Ok (both receptacles).
+
+  - Conclusion**: Nothing abnormal, it looks like UF500 can be changed by a "new" SN25A23P.
+
+### Test 4: Replacing U5500
+  - Test date**: 2025.09.27
+
+  - Description**: Replacing U5500 by an SN25A23P bought "new" (Mobilesentrix), but already used in Tests 2 and 3.
+
+  - OS**: Tahoe.
+
+  - Results**: The device seems to work right away and normally (every USB function is working), until a DFU Restore is tried. It goes through without errors. Then the device loses all communication functionality through USB-C, in particular no-charging, no boosting to 20V.
+
+Listening on the I2C1 bus shows that 0x3B is present at power up, but disappears after a few seconds. This indicates that U5500 turns on initially, and is then told to shut down. It doesn't even output its LDOs when powered through VBUS.
+
+The problem is still present after a new DFU Restore.
+
+The problem is still present after reinstalling the original U5500.
+
+The device works normally after another DFU Restore (with original U5500).
+
+  - Conclusion:** Major failure, and could cause major problems with after sales, since the device seems to work perfectly at first. But the next time the customer runs an update, they will lose every functionality through USB-C / Magsafe. The device seems to absolutely want the original U5500.
+
+The observation seems to indicate some kind of pairing of the original U5500 to the device. But it could be anything: the ROM, the SOC, the other port controllers, etc. It could be that the pairing happened the first time that IC was used, on previous tests. This is a major problem.
+
+### Test 5: Removing UF500
+  - Test date**: 2026.02.03
+
+  - Description**: The board is stock. We remove UF500 and see what happens.
+
+  - OS**: Tahoe.
+![Panic log for an A3113 that is missing UF500.](images/3/3d/Test5_Panic.png)
+  - Results**: The board can boot normally if the battery is connected. It is possible to log in MacOS. For about one minute, the WiFi in the menu bar will display an exclamation mark and it is not possible to toggle it on. Then it will eventually turn on. The device will randomly reboot, with the attached panic log.

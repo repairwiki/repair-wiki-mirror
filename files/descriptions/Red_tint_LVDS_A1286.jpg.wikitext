@@ -1,0 +1,18 @@
+<!--
+title:        File:Red tint LVDS A1286.jpg
+pageid:       2790
+revid:        5454
+source:       https://repair.wiki/w/File:Red_tint_LVDS_A1286.jpg
+history:      https://repair.wiki/index.php?title=File:Red_tint_LVDS_A1286.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5454
+last_edited:  2025-01-08T04:37:20Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         538a8ba7150cfb781981991f442fe54baafe56a7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The rare case of visual artifacts and red tint on the display on a 2011 MacBook Pro A1286 that's NOT caused by the GPU

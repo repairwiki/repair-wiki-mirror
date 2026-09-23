@@ -1,0 +1,60 @@
+<!--
+title:        Micro Master 440 6SE6440-2UD31-1CA1
+pageid:       2124
+revid:        4433
+source:       https://repair.wiki/w/Micro_Master_440_6SE6440-2UD31-1CA1
+history:      https://repair.wiki/index.php?title=Micro_Master_440_6SE6440-2UD31-1CA1&action=history
+permalink:    https://repair.wiki/index.php?oldid=4433
+last_edited:  2024-07-18T11:23:33Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Siemens, Siemens Industrial Devices, Stubs
+sha1:         2d964047e965ae8005e110f3a06621aae93d0989
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Siemens
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240718 131957.jpg
+File:20240718 132007.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240708 135826.jpg
+File:20240708 135830.jpg
+File:20240708 135917.jpg
+File:20240708 135836.jpg
+File:20240708 135905.jpg
+File:20240708 135849.jpg
+File:20240708 135934.jpg
+File:20240708 135929.jpg
+File:20240708 135924.jpg
+File:20240708 140244.jpg
+File:20240708 140237.jpg
+File:20240708 142709.jpg
+File:20240708 140255.jpg
+File:20240708 142755.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

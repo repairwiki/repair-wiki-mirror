@@ -1,0 +1,55 @@
+<!--
+title:        Mi 11T Pro
+pageid:       3750
+revid:        11431
+source:       https://repair.wiki/w/Mi_11T_Pro
+history:      https://repair.wiki/index.php?title=Mi_11T_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=11431
+last_edited:  2025-09-07T20:04:53Z
+contributors: VCCBoardRepairs, Tiago199988, Ajimalg82
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         a126e7fd8210ebd6173a2511322143598e28adcc
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Xiaomi
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Mi11t pro.png|MAIN BOARD PIC
+File:Xiaomi Mi 11T Pro PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Mi11t pro display.png|DISPLAY CONNECTOR
+File:Mi11t pro CC.png|MAIN CHARGING CONNECTOR 
+File:Mi11t pro batt-1.png|MAIN BATTERY CONNECTOR
+File:Mi11t pro batt-2.png|SECONDARY BATTERY CONNECTOR
+File:Mi11t pro main cam.png|MAIN CAMERA
+File:Mi11t pro ultrawide cam.png|ULTRAWIDE CAMERA
+File:Mi11t pro macro cam.png|MACRO CAMERA
+File:Mi11t pro f-cam.png|FRONT CAMERA
+File:Mi11t pro r-mic flash.png|REAR MIC/FLASH CONNECTOR
+File:Mi11t pro finger.png|FINGERPRINT SENSOR
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

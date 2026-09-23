@@ -1,0 +1,43 @@
+<!--
+title:        MacBook Pro A2485
+pageid:       8649
+revid:        12598
+source:       https://repair.wiki/w/MacBook_Pro_A2485
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2485&action=history
+permalink:    https://repair.wiki/index.php?oldid=12598
+last_edited:  2025-11-04T22:47:55Z
+contributors: Tiago199988, IamMyron07
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         65a41573e4d1c434f5156d51b38f09cde0ece303
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Apple|Device type=Laptop|Has code name=A2485}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A2485.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

@@ -1,0 +1,18 @@
+<!--
+title:        File:Logo on the bottom part of the screen.png
+pageid:       5642
+revid:        8908
+source:       https://repair.wiki/w/File:Logo_on_the_bottom_part_of_the_screen.png
+history:      https://repair.wiki/index.php?title=File:Logo_on_the_bottom_part_of_the_screen.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8908
+last_edited:  2025-07-21T22:58:30Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         3878a6bb3a0cad32c9a1bba01a97b3452a29605b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Logo on the bottom part of the screen

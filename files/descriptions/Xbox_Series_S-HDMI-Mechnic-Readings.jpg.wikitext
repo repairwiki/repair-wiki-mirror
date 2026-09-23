@@ -1,0 +1,18 @@
+<!--
+title:        File:Xbox Series S-HDMI-Mechnic-Readings.jpg
+pageid:       1598
+revid:        3470
+source:       https://repair.wiki/w/File:Xbox_Series_S-HDMI-Mechnic-Readings.jpg
+history:      https://repair.wiki/index.php?title=File:Xbox_Series_S-HDMI-Mechnic-Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3470
+last_edited:  2024-02-27T07:33:21Z
+contributors: Ben ProFixerr
+anonymous_edits: 0
+categories:   
+sha1:         5faaf6119def1fc11ba78ea4c4bde47824a5804f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Xbox Series S HDMI Port Diode Mode Readings through Mechanic T-824 Tester

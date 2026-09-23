@@ -1,0 +1,18 @@
+<!--
+title:        File:Files save 1.png
+pageid:       4543
+revid:        7600
+source:       https://repair.wiki/w/File:Files_save_1.png
+history:      https://repair.wiki/index.php?title=File:Files_save_1.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=7600
+last_edited:  2025-06-13T03:31:14Z
+contributors: Chris
+anonymous_edits: 0
+categories:   
+sha1:         1711d7188c34a477805ed7a12c755ed32a086188
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+We click one by one and save each file

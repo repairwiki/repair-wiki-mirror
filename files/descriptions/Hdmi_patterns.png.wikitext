@@ -1,0 +1,18 @@
+<!--
+title:        File:Hdmi patterns.png
+pageid:       8818
+revid:        12833
+source:       https://repair.wiki/w/File:Hdmi_patterns.png
+history:      https://repair.wiki/index.php?title=File:Hdmi_patterns.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12833
+last_edited:  2025-11-23T07:18:17Z
+contributors: Ben ProFixerr
+anonymous_edits: 0
+categories:   
+sha1:         fe9991d31764980242fb6139123076141e0c2389
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+HDMI Patterns Outlined

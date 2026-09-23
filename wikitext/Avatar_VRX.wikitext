@@ -1,0 +1,46 @@
+<!--
+title:        Avatar VRX
+pageid:       778
+revid:        1921
+source:       https://repair.wiki/w/Avatar_VRX
+history:      https://repair.wiki/index.php?title=Avatar_VRX&action=history
+permalink:    https://repair.wiki/index.php?oldid=1921
+last_edited:  2024-01-10T17:42:31Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Drones, Walksnail, Walksnail Drones
+sha1:         bdccd61b128bf2eaf6188d54fb526abd2f57e7b3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Walksnail
+|Device type=Drone
+}}
+
+== Guides ==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Avatar HD VRX Stock Image.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Avatar VRX Module Cover Removed.jpg|Avatar VRX Module Cover Removed
+File:Avatar VRX Internal PCB Top.jpg|Avatar VRX Module PCB
+File:Avatar VRX BEC 2.jpg|Avatar VRX BEC
+File:Avatar VRX RF Front End.jpg|Avatar VRX RF Front End
+File:Avatar VRX SOC.jpg|Avatar VRX SOC
+File:Avatar VRX Under Bec.jpg|Avatar VRX Under Bec
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==

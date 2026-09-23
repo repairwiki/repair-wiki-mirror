@@ -1,0 +1,46 @@
+<!--
+title:        Galaxy S21 Ultra
+pageid:       3710
+revid:        10264
+source:       https://repair.wiki/w/Galaxy_S21_Ultra
+history:      https://repair.wiki/index.php?title=Galaxy_S21_Ultra&action=history
+permalink:    https://repair.wiki/index.php?oldid=10264
+last_edited:  2025-08-16T22:17:46Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         0bc8eff11feb05e5550fda92d3ce2d25463e4729
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:S21-ultra-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Samsung S21 Ultra - PCB Board.png|Samsung S21 Ultra - PCB Board
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

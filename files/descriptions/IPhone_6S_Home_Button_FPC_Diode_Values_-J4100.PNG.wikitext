@@ -1,0 +1,17 @@
+<!--
+title:        File:IPhone 6S Home Button FPC Diode Values -J4100.PNG
+pageid:       9210
+revid:        13372
+source:       https://repair.wiki/w/File:IPhone_6S_Home_Button_FPC_Diode_Values_-J4100.PNG
+history:      https://repair.wiki/index.php?title=File:IPhone_6S_Home_Button_FPC_Diode_Values_-J4100.PNG&action=history
+permalink:    https://repair.wiki/index.php?oldid=13372
+last_edited:  2025-12-22T23:13:23Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

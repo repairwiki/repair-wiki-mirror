@@ -1,0 +1,84 @@
+<!--
+title:        2011 MacBook Pro A1297 Artifacting with red tint on display (Not GPU related) repair guide
+pageid:       2791
+revid:        5455
+source:       https://repair.wiki/w/2011_MacBook_Pro_A1297_Artifacting_with_red_tint_on_display_(Not_GPU_related)_repair_guide
+history:      https://repair.wiki/index.php?title=2011_MacBook_Pro_A1297_Artifacting_with_red_tint_on_display_(Not_GPU_related)_repair_guide&action=history
+permalink:    https://repair.wiki/index.php?oldid=5455
+last_edited:  2025-01-08T04:48:35Z
+contributors: XTA
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1297, Stubs
+sha1:         8f92869b120c66e586a74c64ac575c0fef214843
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=MacBook Pro A1297
+|Affects parts=LVDS / gMux Circuit
+|Needs equipment=Soldering & Rework Equipment, Microscope, tweezers, screw driver set
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+Device boots and works perfectly normal except there is a red hue / tint on the display and visual artifacting especially on red and orange colors, The GPU has been ruled out aka disabled. 
+[[File:Red tint LVDS A1286.jpg|thumb|An image of this exact issue on an A1286 caused by a noisy LVDS signal and not the GPU]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Red tint on display, very noticeable on the white boot screen
+* Artifacting on display, especially bad with darker colors
+* Red almost circle patterns on loading bars and dock/
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+First things first, this guide assumes the GPU is disabled either via deMux firmware being flashed to the gMux, a CMIZapper or the old school ~20 bodge wire gMux bypass. This guide is of no use to you if the GPU hasn't been ruled out as these symptoms are very consistent with that of a dead GPU, 99% of the time these symptoms '''are''' GPU related. It's rare to still see these symptoms after disabling the GPU.
+
+There are 2 main reasons this would happen
+
+An issue with the RAM on your device (faulty RAM or RAM sockets can cause a red hue and artifacts)
+
+or (and most likely)
+
+A noisy or missing LVDS signal
+
+This guide also applies to the A1286 from 2011!
+
+=== Diagnostic Steps ===
+
+To start out, lets rule the RAM out
+
+Step 1. Run GeekBench 4 CPU benchmark, twice back to back. If the device kernel panics it's very likely the RAM, in which case follow the guide I wrote for this issue on the 2010 A1297
+
+Step 2. Remove one RAM stick, test to see if the artifacts and red hue are gone, if not, swap the stick to the next socket, test again, if the artifacts remain, swap the RAM stick for the other and repeat. Swap the RAM sticks with different sticks if possible to be sure it's not stick related.
+
+In most cases this will not be the RAM. If you find it to not be an LVDS signal, than resoldering the RAM socket may be your last option. 
+
+Step 3. Reseat the LVDS cable, if no change, clean the LVDS cable with 100% IPA and a Q-tip
+
+Step 4. Inspect the LVDS cable for damage (missing or bent pins)
+=== Repair Steps ===
+If you have not located the issue yet, luckily this issue is often very easy to resolve. You will need a microscope for this job, these components are mostly 0201. 
+
+First inspect the LVDS connector, ensure it's A) Not liquid damaged, B) If it's been replaced the LVDS connector is correctly soldered down (Test each leg with tweezers to ensure they don't move) and C) Ensure the LVDS connector isn't covered in flux. 
+
+If you find any of these to be the case, it's best to replace the connector. 
+
+If the LVDS Connector is good, you want to check the surrounding area for missing or liquid damaged components, this will most likely not be the issue. Very rarely (almost never) this could be a bad LVDS cable, if you have a spare A1297 display you can swap to see if the artifacting and red tint remains, I normally would skip this step as it's almost never a bad LVDS cable causing this issue.
+
+Now on to where 99% of the time your issue is going to be, the resistors located at the bottom half of the gMux IC (U9600), this issue almost all the time is caused by missing or disconnected resistors that terminate the LVDS_IG_A_DATA_P and LVDS_IG_A_DATA_N iGPU LVDS data lines, the 4 main resistors you need to look at here are R9654, R9653, R9651 and R9652, if one of these components is missing or knocked off it's pads you will get a red tint on the display and artifacting due to a noisy iGPU LVDS signal, all these are 100Ω 0201 resistors, once restored you should get a clear image and no artifacts on the display. Do not skip these because there is no liquid damage in this area,  I've seen this be caused by either past or present bodge wire gMux bypass's knocking a component, the component falling off due to poor soldering from factory or someone skipping a screw driver across the logic board etc. 
+
+I hope this can help someone facing this rare and annoying issue repair their 2011 A1286 or A1297! :)

@@ -1,0 +1,18 @@
+<!--
+title:        File:Enter spatula.png
+pageid:       2358
+revid:        4836
+source:       https://repair.wiki/w/File:Enter_spatula.png
+history:      https://repair.wiki/index.php?title=File:Enter_spatula.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4836
+last_edited:  2024-09-09T06:26:36Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         0fd68a5e9f457080950d270147d0cc9615ce3054
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Spatula entering underneath the IC

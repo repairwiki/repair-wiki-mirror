@@ -1,0 +1,18 @@
+<!--
+title:        File:Power sequence ver 5.png
+pageid:       1719
+revid:        3807
+source:       https://repair.wiki/w/File:Power_sequence_ver_5.png
+history:      https://repair.wiki/index.php?title=File:Power_sequence_ver_5.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3807
+last_edited:  2024-05-08T13:21:59Z
+contributors: Inwerp
+anonymous_edits: 0
+categories:   
+sha1:         1a5270b8d2946858b8c7c11f5ba9accc1e684682
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Next version of power sequnce

@@ -1,0 +1,18 @@
+<!--
+title:        File:FL5780 Location.png
+pageid:       5643
+revid:        8909
+source:       https://repair.wiki/w/File:FL5780_Location.png
+history:      https://repair.wiki/index.php?title=File:FL5780_Location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8909
+last_edited:  2025-07-21T23:01:25Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         a18cb084914f07fffca7a540d69cacd58c3edd8d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+FL5780 Location

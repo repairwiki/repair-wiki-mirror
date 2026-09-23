@@ -1,0 +1,47 @@
+<!--
+title:        MacBook Pro A1708 Not turning on, pulling 0.04A at 20V repair
+pageid:       172
+revid:        468
+source:       https://repair.wiki/w/MacBook_Pro_A1708_Not_turning_on,_pulling_0.04A_at_20V_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1708_Not_turning_on,_pulling_0.04A_at_20V_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=468
+last_edited:  2023-10-29T15:21:29Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Stubs
+sha1:         2726d9e25b122d1ad138faffc1a510332c07121c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1708
+|Affects parts=Motherboard
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+<nowiki>#</nowiki>incomplete
+[[File:ThermalCamera-20V40mA.jpg|thumb|263x263px|U7800 (Figure 1)]]
+
+==Symptoms==
+
+*Not turning on
+*Pulling 40 milliamps (0.04A) at 20V as measured by USB-C meter
+
+==Solution==
+
+=== Diagnostic and Repair Steps ===
+
+==== Check if PP5V_S4 is missing but not shorted ====
+Corrosion on R1451, need to replace and make a jumper because a pad is missing (PP3V3_S5).
+
+==== All power rails were present — no shorts but no CPU voltage ====
+Blown R7101 leading to U7100 was found. Hacked in a 10 Ω resistor in its place since the pad was destroyed.
+
+==== Short to ground on PP1V_S5G ====
+A lot of short to ground around R8060 and those lines are link to the CPU, damn it's repairable ? Check with thermal camera and U7800 is hot (Figure 1). Remove this guy, still short to ground, check all pads, a lot of rails related to the CPU is short, damn not repairable. Try a reflow if you're believer.

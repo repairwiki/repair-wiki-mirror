@@ -1,0 +1,19 @@
+<!--
+title:        File:Redmi K20 Pro USB C Readings.jpeg
+pageid:       3766
+revid:        6601
+source:       https://repair.wiki/w/File:Redmi_K20_Pro_USB_C_Readings.jpeg
+history:      https://repair.wiki/index.php?title=File:Redmi_K20_Pro_USB_C_Readings.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6601
+last_edited:  2025-05-13T20:08:07Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         7a58df5bff5e52c79e14ae2a3728d75e1a42c5f9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Redmi K20 Pro USB C Readings from a good device

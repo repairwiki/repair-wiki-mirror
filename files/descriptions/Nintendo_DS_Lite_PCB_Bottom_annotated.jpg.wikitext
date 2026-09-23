@@ -1,0 +1,19 @@
+<!--
+title:        File:Nintendo DS Lite PCB Bottom annotated.jpg
+pageid:       752
+revid:        1740
+source:       https://repair.wiki/w/File:Nintendo_DS_Lite_PCB_Bottom_annotated.jpg
+history:      https://repair.wiki/index.php?title=File:Nintendo_DS_Lite_PCB_Bottom_annotated.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1740
+last_edited:  2024-01-02T23:16:03Z
+contributors: Motrotz
+anonymous_edits: 0
+categories:   
+sha1:         6253125809cef1f21d7546143ccf18b471967ffd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Nintendo DS Lite PCB, bottom side, annotated

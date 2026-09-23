@@ -1,0 +1,36 @@
+<!--
+title:        IPad Pro 9.7 Not Turning On Repair
+pageid:       1373
+revid:        3010
+source:       https://repair.wiki/w/IPad_Pro_9.7_Not_Turning_On_Repair
+history:      https://repair.wiki/index.php?title=IPad_Pro_9.7_Not_Turning_On_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=3010
+last_edited:  2024-01-17T22:09:34Z
+contributors: KevinShort
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPad Pro 9.7, Stubs
+sha1:         9b971cfabbff0edf2f11bc48526e6d638a639024
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPad Pro 9.7
+|Affects parts=motherboard
+|Needs equipment=microscope, soldering equipment
+|Type=BGA, Soldering
+|Difficulty=4. Specialist
+}}
+{{stub}}
+
+==Problem description==
+Fixing an issue where the iPad does not power on.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Device shows no signs of life
+*When plugged in to a charger the iPad pulls zero amps.
+
+==Solution==
+Very common on this model for the Tristar chip to fail.

@@ -1,0 +1,17 @@
+<!--
+title:        File:Samsung-galaxy-tab-a7-lite-gray.png
+pageid:       7832
+revid:        11572
+source:       https://repair.wiki/w/File:Samsung-galaxy-tab-a7-lite-gray.png
+history:      https://repair.wiki/index.php?title=File:Samsung-galaxy-tab-a7-lite-gray.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11572
+last_edited:  2025-09-14T22:18:22Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

@@ -1,0 +1,51 @@
+<!--
+title:        IPhone 14 Pro Max
+pageid:       1606
+revid:        12680
+source:       https://repair.wiki/w/IPhone_14_Pro_Max
+history:      https://repair.wiki/index.php?title=IPhone_14_Pro_Max&action=history
+permalink:    https://repair.wiki/index.php?oldid=12680
+last_edited:  2025-11-12T15:29:55Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07, IRepairMe
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         b6aeb4c51334bf513891d042b0a0d3a2157f1ef5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2894, A2651, A2893, A2895
+|Device release date=2022-09-16
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone14promax-768x768.webp|alt=
+File:Ip-14pm-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPhone 14 Pro and Pro Max Board ID Resistor.png|iPhone 14 Pro and Pro Max share the same top board, with only 1 resistor being different. This image shows where the Board ID resistor is located & what value it must be so it can be use for both iPhone 14 Pro and iPhone 14 Pro Max.
+File:IPhone 14 Pro Max Diode Readings.jpg|iPhone 14 Pro Max Charging Port USB C Readings
+</gallery>
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+Apple Self Repair Store
+
+'''Repair Manual ID: XGTPKL'''

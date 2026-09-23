@@ -1,0 +1,42 @@
+<!--
+title:        IPhone Panic Bitmask (13 and up)
+pageid:       4697
+revid:        7777
+source:       https://repair.wiki/w/IPhone_Panic_Bitmask_(13_and_up)
+history:      https://repair.wiki/index.php?title=IPhone_Panic_Bitmask_(13_and_up)&action=history
+permalink:    https://repair.wiki/index.php?oldid=7777
+last_edited:  2025-06-17T21:01:30Z
+contributors: Auto64
+anonymous_edits: 0
+categories:   Explanatory guide
+sha1:         4fef82bc7a0bac70789849b6f351e5ef9e003686
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Reading bitmask based panic full logs ==
+
+===== Binary / Hexadecimal / Decimal =====
+Data on a computer is stored in binary, a series of 0's and 1's. These panic logs we encounter report a code which corresponds to a bitmask of sensors which are not officially documented. There is a wiki page for each phone describing each panic code. 
+
+[[How To Fix an iPhone 14 That Randomly Restarts|For example on iPhone 14]] we have panic code '''0x400000''' reported as wireless charging flex.  Panic code '''0x200000''' is reported as front proximity flex and  finally panic code '''0x600000''' reported as a combination of wireless flex and front proximity flex. https://www.rapidtables.com/convert/number/hex-to-binary.html
+
+0x400000 = DEC-> 6291456 = BIT-> 0'''1'''0000000000000000000000 (bits 23) Wireless Flex
+
+0x200000 = DEC-> 6291456 = BIT-> 00'''1'''000000000000000000000 (bits 22) Proximity Flex
+
+0x600000 = DEC-> 6291456 = BIT-> 0'''11'''000000000000000000000 (bits 22 AND 23) Both Wireless and proximity flex
+
+The position of the marked bit references a sensor which is malfunctioning. The following example only lists 24 bits but its probably 32 or 64 in length. 
+
+As you can infer from the following example above, bit 22 indicates fault with proximity, bit 23 indicates fault with wireless coil sensor. It sorta makes sense that we have a bitmask to report the status of all sensors. This creates a situation where there is a combination of sensors could come up with a new undocumented panic code.<blockquote>On iPhone 16 Assertion failed panics are reported in decimal
+
+IPhones 13-15 use hexadecimal 
+
+As we all know and love 12 and below just report the name of the sensor (ex. mic1)</blockquote>
+
+== How to contribute? ==
+This page needs a good reformat, ill probably come back. But we need to unify all the "how to fix an iphone XX that randomly restarts" with a page/pages on known and tested sensor / bitmask combos. Some of the existing panic information seems contradictory or incorrect. If im onto some bs please call it out. 
+
+The iphone 16 page just mentions decimal reporting. We need to clarify these codes and do testing on good devices where components are unplugged. This can go even further where chips can be removed off board to get good diagnostic info. 32 bits and all thats documented on any page is 3 to 4 of these bits in a very odd format. {{Explanatory Guide}}

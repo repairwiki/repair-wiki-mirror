@@ -1,0 +1,18 @@
+<!--
+title:        File:12v bus shorts on navi.png
+pageid:       1674
+revid:        3664
+source:       https://repair.wiki/w/File:12v_bus_shorts_on_navi.png
+history:      https://repair.wiki/index.php?title=File:12v_bus_shorts_on_navi.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3664
+last_edited:  2024-03-16T10:56:49Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         080ff59b058666490870cd4b7e966c7e734268f8
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+12v bus shorts on navi

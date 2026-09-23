@@ -1,0 +1,56 @@
+---
+title: "Elitebook 850 G5 Not turning on, 3.2 boot error"
+pageid: 4263
+revid: 7313
+kind: repair_guide
+source: "https://repair.wiki/w/Elitebook_850_G5_Not_turning_on,_3.2_boot_error"
+history: "https://repair.wiki/index.php?title=Elitebook_850_G5_Not_turning_on,_3.2_boot_error&action=history"
+permalink: "https://repair.wiki/index.php?oldid=7313"
+last_edited: "2025-06-03T21:59:08Z"
+contributors:
+  - "Cheapskate777"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for EliteBook 850 G5"
+infobox:
+  Device: "EliteBook 850 G5"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "Phillips Head Screwdriver"
+  Type: "General"
+  Difficulty: "1. Easy"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Elitebook 850 G5 Not turning on, 3.2 boot error
+
+## Problem description
+The 3.2 boot error refers to the caps lock and num lock LEDs flashing 3 times slowly followed by 2 quick flashes. This issue usually appears when the amount of RAM changes or there is an issue with the RAM modules.
+## Symptoms
+- Caps lock and num lock flashes 3 times slowly followed by 2 quick flashes
+- Screen is black and system will not even enter BIOS
+- After roughly 10 seconds, the fan ramps up to 100%
+
+## Solution
+If you have recently changed the RAM, you may need to reset some of the internal memory by disconnecting the CMOS battery.
+
+If you did not touch the RAM, you may check [EliteBook 850 G5 Freezes when lifted or pressure on bottom](EliteBook_850_G5_Freezes_when_lifted_or_pressure_on_bottom.md) if your memory randomly has issues.
+### Diagnostic Steps
+The 3.2 boot error seems to commonly come from RAM errors. First, use https://memtest.org/ or use previously tested memory modules to make sure that the installed RAM is good.
+
+If you still get this error, you may try the steps below.
+
+### Repair Steps
+![CMOS battery of Elitebook 850 G5](images/4/4a/Elitebook_850_G5_CMOS.png)
+
+1. Remove the 10 screws from the back plate. They are captive screws so they stay on the back plate and don't come out.
+1. Set your finger tips into the grove of the hinge on the back of the laptop. Slowly pry the plate back. There are multiple loud clips holding it in place so don't be afraid to use a bit of force.
+1. Locate the CMOS battery (which is next to the main battery) and unplug it by gently wiggling its white connector from the motherboard.
+1. Power cycle the laptop by either pressing the power button for 10 seconds or unplugging the main battery.
+1. On boot you will receive an error that the clock time has changed. Press enter to continue.
+1. If the system boots normally, you may power cycle again and plug the CMOS battery back in.
+1. Align the back panel with the hinge placement. Using your palms, press the panel into the back of the laptop by applying pressure around the edges. You will hear several loud snaps as the clips set in place.
+1. Screw the 10 captive screws back in place.
+If re-plugging the CMOS back in gives you the 3.2 error again, you may completely remove the CMOS battery. However, if you allow your main battery to completely drain, you may get a boot error that the system time has been forgotten. But, pressing the enter key will continue to boot the system.

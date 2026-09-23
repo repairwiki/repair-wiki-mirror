@@ -1,0 +1,18 @@
+<!--
+title:        File:Resistor-locations.png
+pageid:       6217
+revid:        9564
+source:       https://repair.wiki/w/File:Resistor-locations.png
+history:      https://repair.wiki/index.php?title=File:Resistor-locations.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=9564
+last_edited:  2025-07-31T12:59:16Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         2ca4e16660438093440f0b2a88dea9360d3af314
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+board, sku and platform ID resistor locations

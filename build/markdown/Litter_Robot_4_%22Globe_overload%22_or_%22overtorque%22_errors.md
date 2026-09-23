@@ -1,0 +1,63 @@
+---
+title: "Litter Robot 4 \"Globe overload\" or \"overtorque\" errors"
+pageid: 9659
+revid: 13973
+kind: other
+source: "https://repair.wiki/w/Litter_Robot_4_%22Globe_overload%22_or_%22overtorque%22_errors"
+history: "https://repair.wiki/index.php?title=Litter_Robot_4_%22Globe_overload%22_or_%22overtorque%22_errors&action=history"
+permalink: "https://repair.wiki/index.php?oldid=13973"
+last_edited: "2026-02-17T11:56:09Z"
+contributors:
+  - "Davegsm82"
+anonymous_edits: 0
+categories:
+  - "Missing device page"
+  - "Repair guide"
+  - "Repair guides for Whisker 'Litter Robot 4'"
+  - "Stubs"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Litter Robot 4 "Globe overload" or "overtorque" errors
+
+## Problem description
+Litter robot suffers constant 'Globe overloaded' or 'overtorque' errors in the app, lights will show 3 red lights with 2 flashing yellow lights.![380x380px](images/2/25/Photo_of_motor_commutator_packed_with_carbon_dust.jpg)
+## Symptoms
+When trying to cycle (clean the litter), the robot will stop the globe/drum movement part way through the cycle, reporting that the globe is overloaded even if the globe is completely empty and all other causes have been ruled out, such as ill-fitting brush seals and carbon filter housing catching on other components in the base of the robot. Sometimes the robot will fail completely with the drum stopped in a position which is not normal and may need to be power cycled to get the drum to move again.
+
+Drum may also be slow to rotate or sound laboured at times.
+## Solution
+Complete replacement of the motor gearbox assembly is the generally accepted solution, although repeat failures are common, as carbon buildup inside of the motor due to normal wear causes overcurrent situations which the Litter Robot interprets as excessive weight inside of the rotating globe. However the motor can be repaired for virtually zero cost as detailed below.
+
+### Diagnostic Steps
+Remove all litter from the globe, inspect all brush seals around waste port and front panel/drum to make sure the seals have not come unstuck and subsequently foul the rotation of the drum.
+
+Install empty drum and cycle, if unit still fails with little/no litter and no obstructions then the failure is likely a build up of carbon dust/granules between commutator segments on the motor armature.
+
+### Repair Steps
+Using a #1 Philips screwdriver for all operations, remove motor/gearbox assembly from the litter robot (4x screws visible around the cover in the bottom of the unit with globe removed).
+
+Remove 4x screws holding the cover on to the gearbox, remove the cover complete with shaft and large white drive gear. While disassembling this part, hold the cover/gear facing downwards and lift the body of the gearbox away, as inside there are a chain of metal gears on shafts which could become dislodged.
+
+Place the cover/gear assembly to one side and turn over the gearbox/motor. 3 screws hold the motor onto the body of the gearbox, these may not be visible as there is a good quantity of dark coloured molybdenum grease covering the area, it is easy enough to locate them within the grease using the tip of a screwdriver. The screwdriver will need to be introduced at an angle as there is no straight line access to the screw heads, this should not pose an issue as the screws are not excessively tight.
+
+Withdraw the motor from the gearbox housing and set the housing to one side. It may be preferable to wrap something such as a small zip-loc bag or cling/saran wrap around the worm drive on the motor shaft to prevent excessive distribution of grease.
+
+Unscrew the 2x screws from the motor, visible from the end of the motor which was withdrawn from the gearbox. Remove the rear cap of the motor (the end closest to the connection wires), the carbon brushes and the 'commutator' that they touch will be visible under this cover.
+
+Carefully pull the front cap away from the body of the motor, the armature (the rotating part) will also begin to withdraw from the body, you will encounter resistance from the magnets holding the armature in place so it may feel like a spring is holding preventing its removal, apply a little more force and the armature will pull free of the motor body. Place the motor body to one side.
+
+Pay close attention to the motor commutator, which is the segmented brass coloured section on the armature which the carbon brushes could be seen contacting under the rear cover before complete disassembly. There are 7 segments to the commutator which connect to the windings on the armature, between the segments there should be 7 visible gaps.
+
+The gaps between the segments fill up with carbon granules/dust over time, due to the electrically conductive nature of carbon, this creates a short circuit between the segments which the litter robot interprets as excessive load on the motor.
+
+Take a stiff, fine bristled brush and clean the gaps between the commutator segments, wipe longitudinally along the gaps until all the debris is removed. A fine bristled toothbrush or a brass wire brush may be preferable for this task, alternatively a stanley/box cutter/scalpel blade can be used but extreme caution must be taken to prevent damage to the commutator or the thin wires connecting to them. If a piece of sandpaper (~600 grit) is available, wrap this around the commutator windings and gently rotate the armature to 'burnish' it (provide a clean surface for the electrical connection).
+
+Once clean, reassemble in the reverse order, but during insertion of the armature back into the motor body, take particular care to make sure that the armature is not allowed to pull quickly into the body due to the magnets, as this may damage the delicate carbon brushes. Insert it slowly against the magnetic pull, when the commutator reaches the carbon brushes, push the carbon brushes back into their holders and hold with small flat blade screwdrivers or similar, there are springs behind them which apply pressure on to the commutator, then insert the armature fully before allowing the carbon brushes to spring back out on to the commutator.
+
+Once reassembled, reinstall the motor and replace the globe and hood on to the litter robot.
+
+The robot should now cycle without any errors.

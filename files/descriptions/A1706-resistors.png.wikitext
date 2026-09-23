@@ -1,0 +1,18 @@
+<!--
+title:        File:A1706-resistors.png
+pageid:       8406
+revid:        12289
+source:       https://repair.wiki/w/File:A1706-resistors.png
+history:      https://repair.wiki/index.php?title=File:A1706-resistors.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12289
+last_edited:  2025-10-13T22:09:54Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         e4726f894cb6eaac97b97746af8607203d48ed16
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A1706-resistors

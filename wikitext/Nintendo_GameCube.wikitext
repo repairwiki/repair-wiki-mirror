@@ -1,0 +1,43 @@
+<!--
+title:        Nintendo GameCube
+pageid:       8957
+revid:        13123
+source:       https://repair.wiki/w/Nintendo_GameCube
+history:      https://repair.wiki/index.php?title=Nintendo_GameCube&action=history
+permalink:    https://repair.wiki/index.php?oldid=13123
+last_edited:  2025-12-07T16:24:25Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Game Consoles, Nintendo, Nintendo Game Consoles, Stubs
+sha1:         5fe32a9b14a48556a266e6bbda704d1d81c8ebaf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Nintendo|Device type=Game Console}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:GameCube-Console-Set.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

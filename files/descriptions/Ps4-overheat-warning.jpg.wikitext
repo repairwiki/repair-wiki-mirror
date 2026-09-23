@@ -1,0 +1,18 @@
+<!--
+title:        File:Ps4-overheat-warning.jpg
+pageid:       8887
+revid:        12923
+source:       https://repair.wiki/w/File:Ps4-overheat-warning.jpg
+history:      https://repair.wiki/index.php?title=File:Ps4-overheat-warning.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=12923
+last_edited:  2025-11-30T05:21:01Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         16017d736ca808f331b61fbe8668924011afa722
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ps4-overheat-warning

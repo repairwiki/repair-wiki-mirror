@@ -1,0 +1,52 @@
+<!--
+title:        How to repair iPhone 11 Dead Not Charging
+pageid:       7352
+revid:        10915
+source:       https://repair.wiki/w/How_to_repair_iPhone_11_Dead_Not_Charging
+history:      https://repair.wiki/index.php?title=How_to_repair_iPhone_11_Dead_Not_Charging&action=history
+permalink:    https://repair.wiki/index.php?oldid=10915
+last_edited:  2025-08-30T10:54:34Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 11
+sha1:         16e2af81260133d5842eb7a467742ba7fca511f0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 11|Affects parts=Logic Board, CPU|Needs equipment=Microscope, Hot air station, Soldering iron|Difficulty=4. Specialist|Type=Soldering}}
+
+
+'''Note''': This repair should only be performed for data recovery purposes. The procedure is extremely delicate and not recommended for long-term use. Once the CPU is reballed and reinstalled, the factory underfill (glue) beneath the CPU will no longer be present, making the device far more vulnerable to damage. Even a minor drop or flex on the board can result in further failures or a complete loss of functionality. Proceed with caution and do not guarantee reliability beyond successful data extraction.
+
+== Problem description ==
+[[File:Iphone11 cpu issue.gif|thumb|iPhone 11 behavior after prompt to boot on DCPS]]
+The iPhone 11 is prone to cold solder issues under the CPU, often caused by:
+
+* Long-term heating/cooling cycles (thermal stress)
+* Drops or board flexing
+* Manufacturing weakness in solder joints
+
+This results in the CPU losing contact intermittently with the logic board.
+
+== Symptoms ==
+
+* Phone does not power on.
+* On DC power supply: after prompt to boot, current rises to 0.140–0.150 A and gets stuck.
+* Device  boots if you split the logic board (lower and upper layer), confirming CPU connection issue.
+* Issue recurs unless CPU is reballed.
+
+== Diagnostic Steps ==
+
+# Connect the phone to a DC power supply. Observe current behavior → prompt to boot → stalls at ~0.140–0.150 A.
+# Split the logic board. If the device boots normally with the layers separated, suspect cold solder under CPU.
+# Confirm by reassembling → device will fall back into the same stuck state eventually.[[File:Cpu lifted from board.png|center|thumb|CPU successfully removed from board for reball]]
+
+== Repair Steps ==
+
+# Remove the logic board and split the layers.
+# Inspect CPU solder balls under microscope (signs of cracked/cold joints may be visible).
+# Reball the CPU: Carefully remove residual solder from pads. Apply fresh solder balls with proper stencil. Reflow CPU with controlled temperature profile.
+# Reassemble the board layers and reinstall CPU.
+# Test on DC power supply → device should now boot normally.[[File:Success boot 11.png|center|thumb|iPhone 11 booted successfully, after recalling CPU]]

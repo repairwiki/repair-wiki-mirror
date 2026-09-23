@@ -1,0 +1,46 @@
+---
+title: "Micro Master 6SE3121-3DC40 panel flickering, not turning on repair"
+pageid: 1895
+revid: 4086
+kind: repair_guide
+source: "https://repair.wiki/w/Micro_Master_6SE3121-3DC40_panel_flickering,_not_turning_on_repair"
+history: "https://repair.wiki/index.php?title=Micro_Master_6SE3121-3DC40_panel_flickering,_not_turning_on_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=4086"
+last_edited: "2024-06-13T18:27:56Z"
+contributors:
+  - "ASRepairs"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for Micro Master 6SE3121-3DC40"
+infobox:
+  Device: "Micro Master 6SE3121-3DC40"
+  Affects_parts: "C14 capacitor (39uF 35V)"
+  Needs_equipment: "multimeter, soldering iron, soldering station"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Micro Master 6SE3121-3DC40 panel flickering, not turning on repair
+
+## Problem description
+Fixing a problem with a Siemens inverter Micro Master 6SE3121-3DC40 where the operator panel display is flickering and the inverter isn't starting properly.
+![Damaged area, C14 cap is blown (Figure 1)](images/2/2d/20240613_145315.jpg)
+![Carbonization of the PCB (Figure 2)](images/b/bb/20240613_145820.jpg)
+
+## Symptoms
+- Flickering display.
+- Not starting.
+- Various errors if started then turns off
+
+- Symptom 1 (Figure 1)
+- Symptom 2
+
+## Solution
+Upon visual inspection, it was clear that C14 (figure 1) is blown. This capacitor is 39uF at 35V. After taking the capacitor off the PCB, there was obvious carbonization of the PCB (because of excessive heat) and all of it needed to be removed. After that, made sure there are no shorts anywhere (especially IGBT) and proceeded to replace the capacitor. I've used a 47uF instead and it worked just fine.
+
+### Diagnostic Steps
+### Repair Steps

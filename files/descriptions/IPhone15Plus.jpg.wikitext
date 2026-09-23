@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone15Plus.jpg
+pageid:       3923
+revid:        6823
+source:       https://repair.wiki/w/File:IPhone15Plus.jpg
+history:      https://repair.wiki/index.php?title=File:IPhone15Plus.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6823
+last_edited:  2025-05-16T18:38:32Z
+contributors: Dhivagar Kumar
+anonymous_edits: 0
+categories:   
+sha1:         7c5b935308acc8968b7860932150f4af4eb137a1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 15 Plus Known Good Mechanic USB C Readings

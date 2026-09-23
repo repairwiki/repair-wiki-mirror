@@ -1,0 +1,50 @@
+<!--
+title:        Nintendo Wii System wont read discs
+pageid:       9126
+revid:        13239
+source:       https://repair.wiki/w/Nintendo_Wii_System_wont_read_discs
+history:      https://repair.wiki/index.php?title=Nintendo_Wii_System_wont_read_discs&action=history
+permalink:    https://repair.wiki/index.php?oldid=13239
+last_edited:  2025-12-13T22:43:14Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Wii
+sha1:         957acf071005946347c204ff52ea2ba562a9af0a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Wii
+|Affects parts=
+|Needs equipment=
+|Type=
+|Difficulty=
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ --><br />System won't read discs
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* System won't read discs
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+* Make sure all the cables are plugged in properly
+* Listen/watch to see if the disc spins
+* Clean debris out of the disc drive
+* If disc doesn't spin, replace spindle motor
+* If laser doesn't move, replace laser motor
+* Adjust the POT on the laser. Measure the POT first. Counterclockwise decrease the resistance and clockwise increases the resistance. The less resistance, the more power the laser has. The more you decrease the resistance, the higher chance the laser has of burning out and burning rings into your discs. Adjust the pot slowly counter clockwise. decrease only about 50 to 100 ohms. If this doesn't fix the laser issue, replace the laser.
+* Replace laser
+
+
+=== Guide imported from old wiki ===

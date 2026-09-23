@@ -1,0 +1,48 @@
+<!--
+title:        VMem Rail on Turing GPUs Explained
+pageid:       447
+revid:        947
+source:       https://repair.wiki/w/VMem_Rail_on_Turing_GPUs_Explained
+history:      https://repair.wiki/index.php?title=VMem_Rail_on_Turing_GPUs_Explained&action=history
+permalink:    https://repair.wiki/index.php?oldid=947
+last_edited:  2023-11-07T22:05:15Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Explanatory guide
+sha1:         387ba5a67915ba95d3111c9b05bb798ab6f65cdb
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+VMemory voltage rail (FBVDD) on Turing GPUs explained.
+{{Explanatory Guide}}
+==The controller circuit==
+[[File:2080 vmem circuit on board.jpg|thumb|Vmem controller circuit on the RTX 2080 Reference. (Figure 1)]]
+[[File:2080 vmem up9512 schematic.png|thumb|UP9512P pinout and circuit on RTX 2080. (Figure 2)]]
+[[File:2080 up1666q circuit.jpg|thumb|Vmem controller circuit for UP1666q on RTX 2080. (Figure 3)]]
+[[File:2080 up9512S pinout.jpg|thumb|Pinout for UP9512S. (Figure 4)]]
+[[File:2080 up9529 pinout.jpg|thumb|Pinout for UP9529. (Figure 5)]]
+[[File:2080 vmem en.jpg|thumb|Enable signal for Vmem on RTX 2080. (Figure 6)]]
+on Turing GPUs, the PWM controller responsible for regulating VMem voltage can differ a lot from different board makers but the most common ones used are UP9512P or UP9512S or UP9529 (no public datasheet for them but pinout is available in the schematics below) or [https://pdf1.alldatasheet.com/datasheet-pdf/view/1113871/UPI/UP1666Q.html UP1666Q]. 
+
+The controller usually gets its power from [[5V Rail on Turing GPUs Explained|5V rail]] through a low resistance (0-10Ω) resistor
+
+Enabling this controller is the 1.8V rail through 0Ω resistors then to a logic AND gate as one of the inputs and the other input is the output from an AND gate whose inputs are the EN and PGOOD of the VCore controller.
+
+PGOOD from this controller is not used for anything.
+
+==Usage==
+The controller regulates the voltage going to power the memory modules and the memory controller on the core itself. Switching 12 V to 1.3-1.5V.
+
+Depending on the model and manufacturer of the board and the components used, the PWM signals either go to the VRMs directly or through a driver first. 
+
+==Common problems==
+===No VMem Voltage===
+Check if the controller has 5/3.3V on its V<sub>CC</sub>, and around 3 V on EN. If one of them is missing trace their respective circuits and check for broken, knocked off, or defective components
+
+If EN and V<sub>CC</sub> are present and still no output, check the V<sub>REF</sub> pin, it should be 2 V. If not, the controller itself might be the culprit.
+
+And if everything seems fine, probe around the controller for shorted caps or malfunctioning resistors.
+===Short on VMem===
+This is a not a great situation to be in. If you're lucky, a memory module could be shorted, you can check that by injecting 1V to VMem and applying isopropyl alcohol on the memory chips and see if one or more of the memories are heating up, evaporating the alcohol faster than the rest. Otherwise though, if it's not a shorted capacitor somewhere odds are the core itself is shorted.

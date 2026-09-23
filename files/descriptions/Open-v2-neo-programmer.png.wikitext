@@ -1,0 +1,18 @@
+<!--
+title:        File:Open-v2-neo-programmer.png
+pageid:       9139
+revid:        13258
+source:       https://repair.wiki/w/File:Open-v2-neo-programmer.png
+history:      https://repair.wiki/index.php?title=File:Open-v2-neo-programmer.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13258
+last_edited:  2025-12-15T13:37:23Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         30ddd356440040d3849552e34a9d4e5a82ec93ff
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Open-v2-neo-programmer

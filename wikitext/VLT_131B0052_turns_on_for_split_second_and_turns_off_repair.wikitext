@@ -1,0 +1,40 @@
+<!--
+title:        VLT 131B0052 turns on for split second and turns off repair
+pageid:       1751
+revid:        3866
+source:       https://repair.wiki/w/VLT_131B0052_turns_on_for_split_second_and_turns_off_repair
+history:      https://repair.wiki/index.php?title=VLT_131B0052_turns_on_for_split_second_and_turns_off_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=3866
+last_edited:  2024-05-27T11:25:24Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for VLT 131B0052
+sha1:         3fe572e138b399c8572ddd534e18774cedc1861c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=VLT 131B0052
+|Affects parts=Main power board (CPU)
+|Needs equipment=Screwdriver set, soldering iron, soldering station, multimeter
+|Type=Part replacement
+|Difficulty=2. Medium
+}}
+
+
+==Problem description==
+Repairing a danfoss VLT 131B0052 VFD "inverter" that when supplied with 3 phase AC, turns on for a split second (led/operator panel) and turns off immediately after.
+[[File:20240527 132327.jpg|thumb|Voltage rails measurements (figure 1)]]
+
+==Symptoms== 
+
+*Turns on then off immediately.
+*No communication.
+*DC link is at full voltage (550v)
+*
+*
+
+==Solution==
+After verifying that all the power rails are at proper voltage and no shorts on the board, it's safe to assume the microcontroller itself is damaged. The board must be replaced or the microcontroller if you have a donor. You can't buy the MC and replace it directly, they have custom firmware on them. Unless it's a donor working one, you must replace the entire board. The IO board and the operator panel are both working fine! No need to replace those.

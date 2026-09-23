@@ -1,0 +1,17 @@
+<!--
+title:        File:Spen+batt conn.png
+pageid:       4976
+revid:        8103
+source:       https://repair.wiki/w/File:Spen%2Bbatt_conn.png
+history:      https://repair.wiki/index.php?title=File:Spen%2Bbatt_conn.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8103
+last_edited:  2025-06-29T12:58:21Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

@@ -1,0 +1,18 @@
+<!--
+title:        File:PS4WeeToolsFailedMemoryTest.png
+pageid:       1065
+revid:        2466
+source:       https://repair.wiki/w/File:PS4WeeToolsFailedMemoryTest.png
+history:      https://repair.wiki/index.php?title=File:PS4WeeToolsFailedMemoryTest.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=2466
+last_edited:  2024-01-14T12:47:26Z
+contributors: Rara64
+anonymous_edits: 0
+categories:   
+sha1:         6dffae51bd8ccabb6b995d0b3d143d78ac3d67a0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PS4 Wee Tools failed memory test

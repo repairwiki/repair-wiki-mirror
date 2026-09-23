@@ -1,0 +1,18 @@
+<!--
+title:        File:ACER V206HQL Base Removed.jpg
+pageid:       9541
+revid:        13775
+source:       https://repair.wiki/w/File:ACER_V206HQL_Base_Removed.jpg
+history:      https://repair.wiki/index.php?title=File:ACER_V206HQL_Base_Removed.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13775
+last_edited:  2026-01-26T19:06:19Z
+contributors: Firelemons
+anonymous_edits: 0
+categories:   
+sha1:         bb5429c09c91504e0c1709fed09a95f2928a607c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+The base removed from the monitor

@@ -1,0 +1,18 @@
+<!--
+title:        File:PEX rail usage on Pascal GPUs.jpg
+pageid:       365
+revid:        836
+source:       https://repair.wiki/w/File:PEX_rail_usage_on_Pascal_GPUs.jpg
+history:      https://repair.wiki/index.php?title=File:PEX_rail_usage_on_Pascal_GPUs.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=836
+last_edited:  2023-11-07T16:46:42Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         9deb5afa4588e8f892d310cad6e9d47f3c74987f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PEX rail usage on Pascal GPUs

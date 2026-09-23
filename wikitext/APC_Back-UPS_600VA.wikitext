@@ -1,0 +1,62 @@
+<!--
+title:        APC Back-UPS 600VA
+pageid:       2511
+revid:        5081
+source:       https://repair.wiki/w/APC_Back-UPS_600VA
+history:      https://repair.wiki/index.php?title=APC_Back-UPS_600VA&action=history
+permalink:    https://repair.wiki/index.php?oldid=5081
+last_edited:  2024-10-17T00:33:41Z
+contributors: The Cre8r
+anonymous_edits: 0
+categories:   APC, APC Others, Device, Others, Stubs
+sha1:         92e4d3b8eec60231d104d3eb5638932cff6b8818
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=APC
+|Device type=Other
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+'''30 AMP FUSE REPLACEMENT'''
+
+The board has two 30-amp blade-style fuses that may go bad. If the device has a known good battery and has the symptoms of "Replace Battery" per the user guide.
+To replace the fuse:
+* Remove the battery and battery cover
+* Remove the 4 Phillips screws
+* Remove the back cover
+* Disconnect all connectors on the main board and remove the main board.
+* Test continuity on each 30-amp fuse.
+* Desolder and resolder a new 30-amp blade-style fuse for the one without continuity.
+* Place the main board back and reconnect all connectors.
+* Return battery wires through labeled openings on the back cover and reinstall.
+* Screw in 4 screws.
+* Install battery and cover.
+* Complete.
+
+==Device pictures==
+<gallery showthumbnails="1">
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+</gallery>
+
+==Reference measurements (also schematics if available)==
+Internal Fuse (2x) - 30 Amp Blade Style
+
+Battery - APCRBC110
+
+<gallery showthumbnails="1">
+</gallery>
+
+==More Information/External Sources==
+Product Page: https://www.apc.com/us/en/product/BN600G/apc-backups-600va-120v-8-outlet-retail/
+
+User Guide: https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=AHUG-8XM8V4_R1_EN.pdf&p_Doc_Ref=SPD_AHUG-8XM8V4_EN

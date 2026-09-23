@@ -1,0 +1,43 @@
+<!--
+title:        Mi 10 Ultra
+pageid:       9302
+revid:        13502
+source:       https://repair.wiki/w/Mi_10_Ultra
+history:      https://repair.wiki/index.php?title=Mi_10_Ultra&action=history
+permalink:    https://repair.wiki/index.php?oldid=13502
+last_edited:  2026-01-01T20:41:43Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         fabcd76c7c9a61a026379963ad42bdb6ff9d49cf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Xiaomi|Device release date=2020|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

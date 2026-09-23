@@ -1,0 +1,43 @@
+<!--
+title:        IdeaPad Duet Chromebook
+pageid:       9188
+revid:        13354
+source:       https://repair.wiki/w/IdeaPad_Duet_Chromebook
+history:      https://repair.wiki/index.php?title=IdeaPad_Duet_Chromebook&action=history
+permalink:    https://repair.wiki/index.php?oldid=13354
+last_edited:  2025-12-22T22:54:21Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Lenovo, Lenovo Tablets, Stubs, Tablets
+sha1:         7f51261d9f9f94e86befd48b485c914067391c3b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Lenovo|Device type=Tablet|Has code name=ct-x636f}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:IdeaPad Duet Chromebook.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Ct-x636f diode.jpeg|Know Good USB-C Readings
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

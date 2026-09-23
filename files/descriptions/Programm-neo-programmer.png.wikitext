@@ -1,0 +1,18 @@
+<!--
+title:        File:Programm-neo-programmer.png
+pageid:       9140
+revid:        13259
+source:       https://repair.wiki/w/File:Programm-neo-programmer.png
+history:      https://repair.wiki/index.php?title=File:Programm-neo-programmer.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13259
+last_edited:  2025-12-15T13:38:19Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         88d7c1ed42e9b63c57d0b54e8903decec5177a7a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Programm-neo-programmer

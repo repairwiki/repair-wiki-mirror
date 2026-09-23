@@ -1,0 +1,19 @@
+<!--
+title:        File:Huawei P20 Lite USB C readings.jpeg
+pageid:       3841
+revid:        6716
+source:       https://repair.wiki/w/File:Huawei_P20_Lite_USB_C_readings.jpeg
+history:      https://repair.wiki/index.php?title=File:Huawei_P20_Lite_USB_C_readings.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6716
+last_edited:  2025-05-14T19:48:38Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         f05492caa8984c2dc664864beeac5423506c1d2e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+huawei P20 Lite USB C readings from a good device

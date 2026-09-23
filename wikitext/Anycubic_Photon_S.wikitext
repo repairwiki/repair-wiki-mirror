@@ -1,0 +1,57 @@
+<!--
+title:        Anycubic Photon S
+pageid:       1212
+revid:        2761
+source:       https://repair.wiki/w/Anycubic_Photon_S
+history:      https://repair.wiki/index.php?title=Anycubic_Photon_S&action=history
+permalink:    https://repair.wiki/index.php?oldid=2761
+last_edited:  2024-01-16T18:54:22Z
+contributors: ASRepairs, Whittz
+anonymous_edits: 0
+categories:   3D Printers, Anycubic, Anycubic 3D Printers, Device, Stubs
+sha1:         9c480ac8a80aadee8df9c05ae00368a703610250
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Anycubic
+|Device type=3D Printer
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+
+=== '''Specifications''' ===
+'''Build Volume''' ; 115mm x 65mm x 165mm
+
+'''Printer Type''': SLA (resin printer 405nm wavelength)
+
+XY Screen resolution : 47um, (2560 x 1440p)
+
+layer Height : 25 - 100um
+
+Connection : USB only
+
+== Useful Links : ==
+Leveling the bed : https://www.youtube.com/watch?v=roAqm5c3rfU&t=0s

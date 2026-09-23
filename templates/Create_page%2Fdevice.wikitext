@@ -1,0 +1,18 @@
+<!--
+title:        Template:Create page/device
+pageid:       43
+revid:        78
+source:       https://repair.wiki/w/Template:Create_page/device
+history:      https://repair.wiki/index.php?title=Template:Create_page/device&action=history
+permalink:    https://repair.wiki/index.php?oldid=78
+last_edited:  2023-09-17T17:40:05Z
+contributors: Admin
+anonymous_edits: 0
+categories:   
+sha1:         2379a74a2316343cd26ca9f67e8ea7277afa7a81
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Create page|Device page/Example|Device page}}

@@ -1,0 +1,93 @@
+<!--
+title:        How to Repair iPad Pro 10.5 not charging or not detected by pc
+pageid:       9644
+revid:        13944
+source:       https://repair.wiki/w/How_to_Repair_iPad_Pro_10.5_not_charging_or_not_detected_by_pc
+history:      https://repair.wiki/index.php?title=How_to_Repair_iPad_Pro_10.5_not_charging_or_not_detected_by_pc&action=history
+permalink:    https://repair.wiki/index.php?oldid=13944
+last_edited:  2026-02-12T08:17:46Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPad Pro 10.5, Stubs
+sha1:         7b074ed2380a363453eb62ced825106939aa93d7
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=IPad Pro 10.5
+|Affects parts=Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Reballing Stencil
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+'''NOTE: USB IC (U3500)  Tristar should match for best compatibility and is compatible with iPhone 7 / 7 Plus (610A3B)'''
+
+== Problem description ==
+iPad Pro 10.5” does not charge and is not detected when connected to a computer. The device may show no charging icon, no USB recognition sound on PC, and no data communication.
+
+Replacing the cable and charging brick does not resolve the issue.
+
+In most cases, the fault is related to the U3500 (Tristar) USB controller IC.
+[[File:Ipad-shield-covering.png|thumb|iPad Pro 10.5" Protective Shield covering USB IC (U3500)]]
+
+== Symptoms ==
+
+* iPad does not charge
+* No charging icon
+* PC does not detect device
+* No USB recognition sound
+* New cable and adapter do not fix issue
+* Device may still power on if battery has charge
+
+[[File:Ipad-10.5-usb-ic-location.png|thumb|iPad Pro 10.5" USB IC (U3500) location on board]]
+[[File:Ipad-10.5-usb-ic-location-boardview.png|thumb|iPad Pro 10.5" USB IC (U3500) location on board view ]]
+
+== Solution ==
+=== Diagnostic Steps ===
+
+==== 1. Check Current Consumption ====
+
+* Connect device to DC power supply
+* Press power button
+* Verify consumption is below 100 mA at initial click
+
+Low or abnormal consumption supports USB controller fault.
+----
+
+==== 2. Perform Dock Test ====
+
+* Replace charge port with known-good dock flex
+* Test charging and PC detection
+
+If charging and detection still fail → dock is not the issue.
+----
+
+==== 3. Confirm U3500 Fault ====
+If:
+
+* Consumption behavior is abnormal
+* Dock test passes
+* No PC detection
+* No charging negotiation
+
+Proceed to Tristar replacement.
+
+
+=== Repair Steps ===
+
+# Disconnect battery
+# Remove logic board
+# Remove protective armour/shield covering U3500
+# Apply flux
+# Remove faulty U3500 with controlled hot air
+# Clean pads carefully
+# Install known-good U3500
+# Inspect solder joints under microscope
+# Reassemble device
+# Test:
+
+* Charging function
+* PC detection

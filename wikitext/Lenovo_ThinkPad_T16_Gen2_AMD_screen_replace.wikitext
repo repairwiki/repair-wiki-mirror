@@ -1,0 +1,68 @@
+<!--
+title:        Lenovo ThinkPad T16 Gen2 AMD screen replace
+pageid:       2410
+revid:        4901
+source:       https://repair.wiki/w/Lenovo_ThinkPad_T16_Gen2_AMD_screen_replace
+history:      https://repair.wiki/index.php?title=Lenovo_ThinkPad_T16_Gen2_AMD_screen_replace&action=history
+permalink:    https://repair.wiki/index.php?oldid=4901
+last_edited:  2024-09-20T12:16:09Z
+contributors: AnonRepair
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for ThinkPad T16 Gen2 AMD
+sha1:         c6d9f07070d68dc3ad9e2159dd6a5e6645dd061d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=ThinkPad T16 Gen2 AMD
+|Affects parts=Screen
+|Needs equipment=Philips 0 bit
+Something to lever up the screen frame
+
+iFixit Essential Electronics Toolkit will be handy.
+|Type=Method
+|Difficulty=2. Medium
+}}
+== Problem description ==
+Sometimes your LCD faults, or you just want to upgrade your screen (i.e. 300 nits → 400 nits).
+
+
+
+[[File:Laptop bottom screws.jpg|thumb|(Figure 1) -- laptop bottom screws to remove]]
+
+== Symptoms ==
+* Screen is broken
+* You want to upgrade your screen
+
+== Solution ==
+=== Diagnostic Steps ===
+
+* Test with known good parts
+* Test with the another screen if possible
+
+[[File:Battery screws.jpg|thumb|(Figure 2) -- battery disconnecting]]
+[[File:Mb connectors.jpg|thumb|(Figure 3) -- motherboard connectors and screws to remove]]
+[[File:Mb connectors disconnected.jpg|thumb|(Figure 4) -- motherboard connectors and screws after disconnecting]]
+[[File:Lid screws.jpg|thumb|(Figure 5) -- separating the lid]]
+[[File:Lid separated.jpg|thumb|(Figure 6) -- lid separated from the body ]]
+[[File:Lid separated where to start.jpg|thumb|(Figure 7) -- where to start separating screen frame[[File:Screen frame bottom levered.jpg|thumb|(Figure 8) - screen frame bottom levered]][[File:Screen frame removed.jpg|thumb|(Figure 9) -- Screen frame removed, notice slightly damaged black tape around the screen]]]]
+[[File:Screen connector.jpg|thumb|(Figure 10) -- screen connector to disconnect[[File:Screen new adhesive tapes.jpg|thumb|(Figure 11) -- screen new adhesive tapes in place]]]]
+
+=== Repair Steps ===
+WARNING! You might damage the black tape around your old screen due to it being glue to the screen frame (Figure 9) or your entire old LCD screen unit!
+
+* remove laptop bottom screws (Figure 1)
+* disconnect battery (Figure 2)
+* disconnect (Figure 3):
+** USB connector for the ease of access
+** camera cable
+** LCD cable
+** Wi-Fi antennas
+* separate the lid by removing hinge screws (Figure 5)
+* separate the frame from the body, starting from bottom right corner (Figure 7 and Figure 8)
+* disconnect the screen connector (Figure 10)
+* attach new LCD screen and make sure it lies properly in place
+* test your screen before applying new LCD tapes (Figure 11)
+* attach everything in reverse order

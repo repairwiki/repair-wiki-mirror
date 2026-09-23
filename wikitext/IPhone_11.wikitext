@@ -1,0 +1,51 @@
+<!--
+title:        IPhone 11
+pageid:       1530
+revid:        12666
+source:       https://repair.wiki/w/IPhone_11
+history:      https://repair.wiki/index.php?title=IPhone_11&action=history
+permalink:    https://repair.wiki/index.php?oldid=12666
+last_edited:  2025-11-12T15:19:27Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07, Dorkydanny, DentsasPanos
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         d45f111bbfabb1ce3367a82fe47d3b3c318fd467
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device release date=2019-09-20
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone-11-black.jpg|iPhone 11
+File:IFixit iPhone 11 Teardown.jpg|iPhone 11 iFixit teardown.
+File:Ip-11-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:A13 soc dieshot.jpg|Dieshot of A13 SOC on Base Board PCB
+File:I11 schematic.png|Schematic of an iPhone 11
+File:Iphone 11 component location.jpeg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:IPhone 11 - Known Good Mechanic Lightning Readings.jpg|iPhone 11 - Known Good Mechanic Lightning Readings
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+Schematics for iPhone 11: https://www.sendspace.com/file/9jgrv0

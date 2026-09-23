@@ -1,0 +1,18 @@
+<!--
+title:        File:ESP32 JUMPERS.png
+pageid:       6712
+revid:        10097
+source:       https://repair.wiki/w/File:ESP32_JUMPERS.png
+history:      https://repair.wiki/index.php?title=File:ESP32_JUMPERS.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10097
+last_edited:  2025-08-07T21:19:41Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         d22ba236bee98dc21ee29f3948f392a10f4da856
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+pin outs

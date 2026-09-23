@@ -1,0 +1,18 @@
+<!--
+title:        File:Screenshot From 2025-10-06 19-40-31.png
+pageid:       8373
+revid:        12251
+source:       https://repair.wiki/w/File:Screenshot_From_2025-10-06_19-40-31.png
+history:      https://repair.wiki/index.php?title=File:Screenshot_From_2025-10-06_19-40-31.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12251
+last_edited:  2025-10-07T04:10:58Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   
+sha1:         f2dc20e2b4a6cbcbfe73383bd327be781663d278
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+boardview of ipad air 4 showing different locations of backlight circuit points of interest

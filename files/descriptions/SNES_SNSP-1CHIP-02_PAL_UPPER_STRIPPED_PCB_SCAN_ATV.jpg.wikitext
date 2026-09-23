@@ -1,0 +1,17 @@
+<!--
+title:        File:SNES SNSP-1CHIP-02 PAL UPPER STRIPPED PCB SCAN ATV.jpg
+pageid:       1547
+revid:        3382
+source:       https://repair.wiki/w/File:SNES_SNSP-1CHIP-02_PAL_UPPER_STRIPPED_PCB_SCAN_ATV.jpg
+history:      https://repair.wiki/index.php?title=File:SNES_SNSP-1CHIP-02_PAL_UPPER_STRIPPED_PCB_SCAN_ATV.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3382
+last_edited:  2024-02-11T16:38:31Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

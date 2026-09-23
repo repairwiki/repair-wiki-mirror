@@ -1,0 +1,18 @@
+<!--
+title:        File:Polaris 0.8v usage.jpg
+pageid:       396
+revid:        878
+source:       https://repair.wiki/w/File:Polaris_0.8v_usage.jpg
+history:      https://repair.wiki/index.php?title=File:Polaris_0.8v_usage.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=878
+last_edited:  2023-11-07T19:31:31Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         8e3c04e579fb66abcf38a538099f6f62d871dd09
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Polaris 0.8v usage

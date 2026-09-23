@@ -1,0 +1,17 @@
+<!--
+title:        File:450px-CPU capacitor next to the SOT-323 IC near MAX17050.jpg
+pageid:       881
+revid:        2102
+source:       https://repair.wiki/w/File:450px-CPU_capacitor_next_to_the_SOT-323_IC_near_MAX17050.jpg
+history:      https://repair.wiki/index.php?title=File:450px-CPU_capacitor_next_to_the_SOT-323_IC_near_MAX17050.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2102
+last_edited:  2024-01-13T01:11:40Z
+contributors: HaileyKitty
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

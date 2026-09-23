@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Air 4 A2316 - Mechanic Reader Values.png
+pageid:       3373
+revid:        6133
+source:       https://repair.wiki/w/File:IPad_Air_4_A2316_-_Mechanic_Reader_Values.png
+history:      https://repair.wiki/index.php?title=File:IPad_Air_4_A2316_-_Mechanic_Reader_Values.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=6133
+last_edited:  2025-04-12T01:41:58Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         35740f5ed9747314a089aa55579bf5115dad5827
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Air 4 A2316 - Mechanic Reader Values

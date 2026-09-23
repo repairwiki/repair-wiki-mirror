@@ -1,0 +1,62 @@
+<!--
+title:        Removal Macbook Pro Battery Indicator board
+pageid:       3132
+revid:        5853
+source:       https://repair.wiki/w/Removal_Macbook_Pro_Battery_Indicator_board
+history:      https://repair.wiki/index.php?title=Removal_Macbook_Pro_Battery_Indicator_board&action=history
+permalink:    https://repair.wiki/index.php?oldid=5853
+last_edited:  2025-03-09T14:09:39Z
+contributors: RespectITFixIT
+anonymous_edits: 0
+categories:   Missing device page, Repair guide, Repair guides for All Macbook pros with removal BIL, Stubs
+sha1:         77f1fa2eab46a370c2249ec23b08405b4b13a830
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=All Macbook pros with removal BIL
+|Affects parts=Battery Indicator board button
+|Needs equipment=Soldering Iron, Hot air, Microscope
+|Type=Laptops
+|Difficulty=Medium to Hard
+}}
+== Problem description ==
+<!-- 
+The membrane switch on the removal Battery Indicator Boards are failing and replacement boards have the same issue 
+
+
+ -->
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Button stops clicking and in extreme circumstances button breaks 
+-->
+* Symptom 1 (Figure 1)
+* Symptom 2
+
+== Solution ==
+<!-- 
+The only solution is to replace the membrane switch with a tactile switch
+The foot print of the tactile switch is a little bigger so you have to bend the legs up on the tactile switch 
+I bought the following specification tactile switches that work well 
+3x3x1.5mm
+
+DO NOT use a lot of heat on this board
+Tin the legs with solder 
+
+The foam gasket will not sit as it used to but if you want you can put it over the switch or what I did is cut some packaging foam 
+
+When soldering the new swatch I put a dot of glue in the middle to give it some strength
+When screwing the board back make sure not to overtighten as the screws strip easily and the button might be pressed in always
+
+
+
+-->
+
+
+
+=== Diagnostic Steps ===
+=== Repair Steps ===

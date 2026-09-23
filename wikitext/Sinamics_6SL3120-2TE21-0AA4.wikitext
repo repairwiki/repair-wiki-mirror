@@ -1,0 +1,66 @@
+<!--
+title:        Sinamics 6SL3120-2TE21-0AA4
+pageid:       1792
+revid:        3913
+source:       https://repair.wiki/w/Sinamics_6SL3120-2TE21-0AA4
+history:      https://repair.wiki/index.php?title=Sinamics_6SL3120-2TE21-0AA4&action=history
+permalink:    https://repair.wiki/index.php?oldid=3913
+last_edited:  2024-05-28T18:14:46Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Device, Industrial Devices, Siemens, Siemens Industrial Devices, Stubs
+sha1:         a6d7373f16fd062494ad5d2dc5d0fce654820886
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Siemens
+|Device type=Industrial Device
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:20240301 105707.jpg
+File:20240301 105719.jpg
+File:20240301 105742.jpg
+File:20240301 105134.jpg
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:20240301 102255.jpg
+File:20240301 102309.jpg
+File:20240301 102802.jpg
+File:20240301 102824.jpg
+File:20240301 102458.jpg
+File:20240301 102400.jpg
+File:20240301 102738.jpg
+File:20240301 102642.jpg
+File:20240301 102710.jpg
+File:20240301 102436.jpg
+File:20240301 102704.jpg
+File:20240301 102356.jpg
+File:20240301 102410.jpg
+File:20240301 102354.jpg
+File:20240301 102431.jpg
+File:20240301 102349.jpg
+File:20240301 102345.jpg
+File:20240301 102344.jpg
+File:20240301 102341.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:20240301 105121.jpg
+File:20240301 103141.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

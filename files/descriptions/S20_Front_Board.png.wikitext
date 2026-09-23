@@ -1,0 +1,18 @@
+<!--
+title:        File:S20 Front Board.png
+pageid:       2320
+revid:        4743
+source:       https://repair.wiki/w/File:S20_Front_Board.png
+history:      https://repair.wiki/index.php?title=File:S20_Front_Board.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4743
+last_edited:  2024-08-31T01:35:22Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         f905f16cd3d4fad6f18eb6e775763e68508e2a6f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Samsung S20 Front of Motherboard

@@ -1,0 +1,48 @@
+<!--
+title:        Pixel 6a
+pageid:       6703
+revid:        10198
+source:       https://repair.wiki/w/Pixel_6a
+history:      https://repair.wiki/index.php?title=Pixel_6a&action=history
+permalink:    https://repair.wiki/index.php?oldid=10198
+last_edited:  2025-08-13T23:01:03Z
+contributors: Tiago199988, Cheapskate777
+anonymous_edits: 0
+categories:   Device, Google, Google Phones, Phones, Stubs
+sha1:         7d3938814912a345342751f62f1a9eabc59b26e3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Google
+|Has code name=GX7AS, GB62Z, G1AZG, GB17L
+|Device release date=2021-07-21
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Pixel-6a-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->Service manual: https://storage.googleapis.com/support-kms-prod/Z8z36qp5rXXROvp7rB9txZHc1mmXxqtbokJn

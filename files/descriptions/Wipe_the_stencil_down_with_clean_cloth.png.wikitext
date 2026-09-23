@@ -1,0 +1,18 @@
+<!--
+title:        File:Wipe the stencil down with clean cloth.png
+pageid:       2490
+revid:        5056
+source:       https://repair.wiki/w/File:Wipe_the_stencil_down_with_clean_cloth.png
+history:      https://repair.wiki/index.php?title=File:Wipe_the_stencil_down_with_clean_cloth.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5056
+last_edited:  2024-10-14T00:51:24Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         67937c3a0984c3edf7cd016b839df17711dfed85
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Wipe the stencil down with clean cloth

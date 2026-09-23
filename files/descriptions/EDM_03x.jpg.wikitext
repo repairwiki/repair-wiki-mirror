@@ -1,0 +1,18 @@
+<!--
+title:        File:EDM 03x.jpg
+pageid:       4071
+revid:        7025
+source:       https://repair.wiki/w/File:EDM_03x.jpg
+history:      https://repair.wiki/index.php?title=File:EDM_03x.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=7025
+last_edited:  2025-05-23T13:32:45Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         6123e1aac33c11609df586f31ce68fe0d48a9cba
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+EDM 03X UART connection points

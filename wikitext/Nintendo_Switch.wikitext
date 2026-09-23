@@ -1,0 +1,133 @@
+<!--
+title:        Nintendo Switch
+pageid:       688
+revid:        10222
+source:       https://repair.wiki/w/Nintendo_Switch
+history:      https://repair.wiki/index.php?title=Nintendo_Switch&action=history
+permalink:    https://repair.wiki/index.php?oldid=10222
+last_edited:  2025-08-15T13:27:32Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, HaileyKitty, Ben ProFixerr
+anonymous_edits: 2
+categories:   Device, Game Consoles, Nintendo, Nintendo Game Consoles, Stubs
+sha1:         261ca5e81fa44237a5002b1d1fd4252e049ec7b4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Nintendo
+|Device type=Game Console
+|Device release date=March 3, 2017|Has code name=HAC-001 and HAC-001(-01)}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:600px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg|Nintendo Switch
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:450px-Nintendo Switch Fan Pinout.jpg|Nintendo Switch Fan Pinout
+File:450px-CPU capacitor next to the SOT-323 IC near MAX17050.jpg|CPU capacitor next to the SOT-323 IC near MAX17050
+File:300px-M92T36 CPU Capacitor.png|M92T36 CPU Capacitor
+File:Switch PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Nintendo Switch Diode Mode Readings Mechanic T824.jpg|Nintendo Switch Diode Mode Readings from a Mechanic T824 Reader
+File:453864473 865240828350782 7346018744626912308 n.png|Nintendo Switch Diode Mode Readings
+File:Nintendo Switch Mechanic Pin Correlation .jpg|Nintendo Switch - Mechanic Tail Insertion - Pin Correlation Pin Out
+</gallery>
+
+== More Information/External Sources ==
+''This page applies to the '''HAC-001''' and '''HAC-001(-01)''' models.'' 
+
+Both of them mostly use the same ICs as each other. Please refer to the parts list below.
+
+Some of the board revisions have a Diode pack, which can cause issues. The diode packs (or commonly referred to as diode arrays) can be removed without affecting the functionality of the console. They do not need to be replaced and removing them will reduce the number of future failure points from the console.
+
+The HAC-001(-01) was released in 2019, and is a refresh of the HAC-001 model, characterized by a red box, better battery life and lower power draw.
+
+If your Switch is stuck on a blue screen, this is traditionally a failure of the eMMC but could also be ram or CPU related. Often occurs if there is visible bending or bowing to the unit. A reflow sometimes works but the longevity of the repair is varying. A reball may be required. (If you apply pressure to both ram chips and it boots to Nintendo screen, RAM chips may need reball)
+
+Before delving too much into a repair it might be a good idea to check the [https://repair.wiki/w/Nintendo_Switch_CPU_capacitors known CPU caps] for shorts, at the moment if those are shorted it is general consensus that the CPU is dead.
+
+Nintendo Switch Boardview use FlexBV to open: https://www.sendspace.com/filegroup/%2BXRTDGT2a0vow%2BNHFEIORLv5UBi8QVaI
+
+=== Nintendo Switch Parts List ===
+{| class="wikitable"
+|+
+!'''<u>Parts</u>'''
+!'''<u>Description</u>'''
+!'''<u>Source</u>'''
+!
+|-
+|M92T36
+|USB-C Power Management IC
+|Aliexpress
+|
+|-
+|PI3USB30532ZLEX
+|Audio/Video IC
+|[https://www.mouser.com/ProductDetail/Diodes-Incorporated/PI3USB30532ZLEX?qs=Uyjh6ApWNKv0qAY0K6HgzA%3D%3D Mouser]
+|
+|-
+|BQ24193
+|Battery Charging Management IC
+|Aliexpress
+|
+|-
+|MAX17050
+|Fuel guage (battery level detection) IC
+|Aliexpress
+|
+|-
+|BCM4356XKUBG
+|WiFi IC
+|Aliexpress
+|
+|-
+|MAX77620AEWJ+T
+|Big PMIC (Side-B)
+|Aliexpress
+|
+|-
+|MAX77621AEWI+T
+|Little PMIC (CPU & Ram)
+|Aliexpress
+|
+|-
+|P15123CT
+|USB-C Protection Fuse
+|DigiKey
+|
+|-
+|TPD2E1B06DRLR
+|Diode Packs
+|Digikey
+|
+|-
+|MCZ1210DH900L2TA0G
+|Large EMI Filters
+|Digikey
+|
+|-
+|MCZ0605AH900SDT000
+|Small EMI Filters
+|Digikey
+|
+|-
+|Molex 503300-5310
+|LCD FPC for Nintendo Switch (NOT LITE)
+|Digikey/Mouser
+|
+|-
+|DX07BN24JA2R1300
+|USB-C Connector
+|[https://www.mouser.com/ProductDetail/JAE-Electronics/DX07BN24JA2R1300?qs=%2Fha2pyFaduinKLIC7h6OzJm2vMm2z2K3%2FNWpWwRJboqWXDQyZpHZVw%3D%3D Mouser]
+|
+|}

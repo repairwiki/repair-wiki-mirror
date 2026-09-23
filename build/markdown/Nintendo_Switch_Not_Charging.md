@@ -1,0 +1,47 @@
+---
+title: "Nintendo Switch Not Charging"
+pageid: 928
+revid: 2287
+kind: explanatory_guide
+source: "https://repair.wiki/w/Nintendo_Switch_Not_Charging"
+history: "https://repair.wiki/index.php?title=Nintendo_Switch_Not_Charging&action=history"
+permalink: "https://repair.wiki/index.php?oldid=2287"
+last_edited: "2024-01-13T20:30:27Z"
+contributors:
+  - "ASRepairs"
+  - "HaileyKitty"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for Nintendo Switch"
+infobox:
+  Device: "Nintendo Switch"
+  Type: "Troubleshooting/Diagnostics"
+  Difficulty: "2. Medium"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Nintendo Switch Not Charging
+
+The Nintendo Switch can display several critical charging issues including issues where no power will be going into the motherboard at all, charging will only occur using the charger in a certain orientation and where fast charging functions will not work, amongst other issues.
+
+The Nintendo Switch has 2 main failure points for charging-related issues, **M92T36** and **P13USB**. M92T36 is a custom USB-C power management IC created by Rohm Semiconductor specifically for Nintendo Switch products. P13USB is a video output IC which also plays a crucial role in charging functionality. When port damage or charging cable damage occurs, either of the 2 primary charging ICs regularly fail. These failures can usually be pinpointed with a multimeter fairly easily, although the failures are often less obvious and do not show up using continuity mode by testing components around the ICs.
+
+## Things to be aware of when replacing charging ports
+- When replacing damaged Nintendo Switch charging ports, it is common that the P13USB (audio video driver) as well as the M92T36 (charging power IC) may also have gotten damaged.
+
+- Check for shorted capacitors around those components when changing out the charging port. If you find shorted caps, remove the chips to see if the short is still present.
+
+- If short is still present after the chip it corresponds to is removed, you may have a CPU issue. It is also safe to check the fuse right above the charging port to ensure it's not blown.
+
+- Plug a USB-C ammeter into the Switch to ensure it is pulling 15 volts after repair. 15 volts means the charging circuit is functioning properly. If no image still recheck P13USB.
+
+- If still no image, check to ensure the Switch is not in RCM mode using Hekate.
+
+- autoRCM mode can cause the battery to drain to a point where it can no longer be charged by the Switch brick. If amperage from the charge port is not around .5 amps, try a new battery and check for RCM.
+
+The information here and any pages will be updated over the coming days/weeks. Any information provided here will be based on my own experience with the hundreds of these devices I've worked on in the past and will be as accurate as possible.
+
+For specific information that I have not added yet, you're welcome to get in touch with me.

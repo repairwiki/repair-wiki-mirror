@@ -1,0 +1,67 @@
+<!--
+title:        Steam Deck - Replace shoulder switch R1/L1
+pageid:       2462
+revid:        13793
+source:       https://repair.wiki/w/Steam_Deck_-_Replace_shoulder_switch_R1/L1
+history:      https://repair.wiki/index.php?title=Steam_Deck_-_Replace_shoulder_switch_R1/L1&action=history
+permalink:    https://repair.wiki/index.php?oldid=13793
+last_edited:  2026-01-29T23:21:14Z
+contributors: DawidMurawski, Razimon
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Steam Deck, Stubs
+sha1:         e94b508d7ab0fea75a5b3edac3ea1f8ec1d5c186
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Steam Deck
+|Affects parts=Controller Board
+|Needs equipment=Soldering Iron, replacement switch
+|Type=Soldering, Part replacement
+|Difficulty=2. Medium
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->[[File:Shoulder switch.webp|thumb|Figure 1: Example of a new shoulder button switch with a ripped center pad  (picture by u/veazix).]]
+A common problem with the controller board of the Steam Deck  LCD are the shoulder switches, that can break off easily during disassembly.
+*
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+==== Where to buy new switches ====
+There are multiple compatible replacement switches. On Aliexpress they are sold as 
+
+* Steam Deck switch
+* XBOX 360 bluetooth pair switch
+
+Those switches have three pins and two legs (the latter for mounting through the pcb).
+=== Repair Steps ===
+[[File:REV B left back mux.jpg|alt=Test point of the L1 shoulder switch on the rev B controller board - full view|thumb|Figure 2: Test point of the L1 shoulder switch on the rev B controller board - full view. Red box: signal multiplexer. green arrow: testing point for the L1 switch.]]
+Swapping of the switches should be self-explanatory. A hot plate/pre-heater is recommended (the board sinks a lot of heat). See example videos:
+
+https://www.youtube.com/shorts/R3DQNNDvZmE
+
+https://www.youtube.com/watch?v=ZGT32mNI3Yk
+
+https://www.youtube.com/watch?v=PFDZtsM-iDM
+
+==== Damaged signal pad ====
+In case the signal pads on the pcb get damaged (See Figure 1):
+
+On each controller board the leftmost and rightmost pin of the switch is connected to the ground plane of the board.
+[[File:Back board l.jpg|alt=Test point of the L1 shoulder switch on the rev B controller board|thumb|Figure 3: Test point of the L1 shoulder switch on the rev B controller board. red circle: testing point for the L1 switch.]]
+The middle pin is connected to the MCU/a signal multiplexer. On the left controller board you can strip the solder mask of the trace, running to the middle pin of the switch or connect the middle pin of the switch to the corresponding testing point for the L1 switch (see figure 2 and 3 on rev. B boards, figure 7 on rev. F board, figure 8 on rev. G board).
+[[File:R Board REV B back - R1 test point.jpg|alt=Figure 3: Test point of the R1 shoulder switch on the rev. B controller board. green circle: testing point for the R1 switch. |thumb|Figure 4: Test point of the R1 shoulder switch on the rev. B controller board. green circle: testing point for the R1 switch.]]
+On the right controller board, the middle pin is connected to the testing point visualised in figure 4.
+[[File:Wire1.webp|thumb|Figure 5: Controller Board R, magnet wire connected to the center pin of the switch  (picture by u/veazix).]]
+[[File:Wire2.webp|thumb|Figure 6: Controller Board R, magnet wire connected to the testing point on the back side of the board (picture by u/veazix).]]
+A possible fix for the right controller board might look like figure 5 and 6 (rev. B Board)  if you run a magnet wire (enamelled wire) from the center pin of the switch to the testing point.
+[[File:Shoulder switch testing point.jpg|alt=Testing point for L1 switch on controller board rev. F - left|thumb|Figure 7: Testing point for L1 switch on controller board rev. F - left[[File:Steam Deck L Board Rev. G.jpg|thumb|Figure 8: Testing point for L1 switch on controller board rev. G - left]]]]

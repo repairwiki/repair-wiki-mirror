@@ -1,0 +1,84 @@
+<!--
+title:        How To Fix an iPhone 16 with NO IMEI due to shorted baseband
+pageid:       8551
+revid:        12569
+source:       https://repair.wiki/w/How_To_Fix_an_iPhone_16_with_NO_IMEI_due_to_shorted_baseband
+history:      https://repair.wiki/index.php?title=How_To_Fix_an_iPhone_16_with_NO_IMEI_due_to_shorted_baseband&action=history
+permalink:    https://repair.wiki/index.php?oldid=12569
+last_edited:  2025-11-03T12:00:24Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 16, Repair guides for iPhone 16 Plus, Repair guides for iPhone 16 Pro, Repair guides for iPhone 16 Pro Max, Repair guides for iPhone 16e, Stubs
+sha1:         259d654fc1fc0a53936bf317778ee12836a8ed3c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=iPhone 16, iPhone 16 Plus, iPhone 16 Pro, iPhone 16 Pro Max, iPhone 16e
+|Affects parts=Main Logic Board
+|Needs equipment=Microscope, Soldering Iron, Solder Paste, Reballing Stencil, Board Preheater, Middle layer reballing stencils
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+== Problem description ==
+An iPhone 16 powers on normally but shows “No IMEI” or “Modem Firmware Missing” under Settings → General → About. Upon board-level diagnosis, PP_3V1_LDO10, a key baseband power rail, is found shorted to ground under the Baseband CPU.
+[[File:16 masked pad.png|thumb|iPhone 16 PP_3V1_LDO10 pad masked on logic board.]]
+
+== Symptoms ==
+
+* “No IMEI” or “Modem Firmware Missing” displayed in settings.
+* Restore completes successfully but no modem detected.
+* PP_3V1_LDO10 line measures 0 Ω (hard short) or very low resistance to ground.
+* Short disappears when BB_CPU is removed from the board.
+
+== Solution ==
+The short originates beneath the Baseband CPU due to internal pad failure or solder bridge on PP_3V1_LDO10.
+[[File:16 masked pad on boardview.png|thumb|PP_3V1_LD010 pad on board view.]]
+The fix is to:
+
+# Remove the Baseband CPU (BB_CPU).
+# Mask (insulate) the PP_3V1_LDO10 pad on the board.
+# Reball and reattach the Baseband CPU to restore normal baseband function. This isolates the faulty shorted pad while maintaining all functional interconnects.
+=== Diagnostic Steps ===
+
+# Visual Inspection
+#* Inspect baseband area for rework signs or water damage.
+#* Confirm clean, undamaged board and intact shield.
+# Resistance Check (Multimeter, Diode Mode)
+#* Measure PP_3V1_LDO10 (typically found near U_BB_CPU).
+#* Faulty: near 0 Ω → short to ground.
+# Thermal / Freeze Spray Test
+#* Inject 1.0 V–3 V into PP_3V1_LDO10 with current limit.
+#* Observe heat spot — shorted region will reveal as the Baseband CPU heating.
+# Confirmation
+#* Lift BB_CPU using controlled heat.
+#* Recheck PP_3V1_LDO10 line — if short clears → short was under the chip.
+
+=== Repair Steps ===
+
+# Preparation
+#* Remove underfill around BB_CPU carefully.
+#* Preheat board evenly to avoid warping.
+# Chip Removal
+#* Heat BB_CPU area.
+#* Gently lift the CPU once solder balls reflow.
+# Short Check
+#* Test PP_3V1_LDO10 to ground again — short should now be gone.
+# Pad Masking
+#* Apply UV mask or polyimide tape dot over the PP_3V1_LDO10 pad on the board side.
+#* Cure UV mask properly.
+# Reballing
+#* Clean chip, remove all solder residues.
+#* Reball with IC.
+#* Inspect under microscope for even joints.
+# Reinstallation
+#* Align BB_CPU precisely using microscope or positioning template.
+#* Reflow until proper seating observed.
+# Testing
+#* Allow board to cool.
+#* Check PP_3V1_LDO10 resistance — should now read normal.
+#* Assemble and power on.
+#* Confirm IMEI and baseband version now visible.

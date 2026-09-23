@@ -1,0 +1,56 @@
+<!--
+title:        How To Repair an iPhone 11 that is bootlooping
+pageid:       8306
+revid:        12187
+source:       https://repair.wiki/w/How_To_Repair_an_iPhone_11_that_is_bootlooping
+history:      https://repair.wiki/index.php?title=How_To_Repair_an_iPhone_11_that_is_bootlooping&action=history
+permalink:    https://repair.wiki/index.php?oldid=12187
+last_edited:  2025-09-30T07:06:28Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPhone 11
+sha1:         724750f1705e43e7a531611417c0670c1f23ce58
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPhone 11|Affects parts=Main Logic Board|Needs equipment=Solering Iron, Hot Air Station|Difficulty=3. Hard|Type=Soldering}}
+
+== Problem Description ==
+This guide documents an iPhone 11 that was stuck in a bootloop due to a shorted I2C_AOP_SDA line caused by a faulty Audio IC (U4700).
+
+Replacing the Audio IC resolves the short and allows the phone to boot normally.
+----
+[[File:11-bootlooping-audio-ic-board.png|thumb|iPhone 11 - Audio IC (U4700) location on board]]
+
+== Symptoms ==
+
+* Device bootloops endlessly (Apple logo → restart → repeat)
+* No visible liquid damage or physical impact
+* Restores with iTunes/3uTools fail or hang
+
+----
+[[File:11-audio-ic-schematic.png|thumb|iPhone 11 - Audio IC (U4700) location on schematic]]
+
+== Diagnostic Steps ==
+
+# Initial Test  Connect to DCPS → observe repeated current spikes and drops consistent with bootloop.
+# Check I²C Lines
+#* Measure resistance to ground on I²C_AOP_SDA and I²C_AOP_SCL.
+#* Where to measure: The easiest probing point is at the Front Proximity connector (FPC) on the logic board.
+#* Expected vs Actual Diode Mode Readings:
+#** SDA (Data Line): Normally ~0.342 V. In our case, only 0.060 V, confirming the line was being pulled down/shorted.
+#** SCL (Clock Line): ~0.318 V (within normal range).
+# Isolate Fault  Trace confirmed that the I²C_AOP_SDA line runs under U4700 (Audio IC). Remove U4700 → re-measure line → short clears.
+# Confirm Diagnosis[[File:11-bootlooping front prox.png|thumb|iPhone 11 Front prox pins to measure]]Test boot with U4700 removed → phone boots into iOS normally (without audio). This confirms U4700 was the cause of the short.
+
+----
+
+== Repair Steps ==
+
+# Remove U4700 Audio IC.
+# Clean pads on PCB and prepare a replacement U4700 (new or donor).
+# Reball or use pre-balled replacement IC, re-install onto board.
+# Power on and verify I2C_AOP_SDA line is no longer shorted.
+# Confirm full boot into iOS and test all audio functions (speaker, mic, earpiece).

@@ -1,0 +1,17 @@
+<!--
+title:        File:IPhone 7 Touch And LCD FPC Diode Values - J4502.png
+pageid:       8228
+revid:        12034
+source:       https://repair.wiki/w/File:IPhone_7_Touch_And_LCD_FPC_Diode_Values_-_J4502.png
+history:      https://repair.wiki/index.php?title=File:IPhone_7_Touch_And_LCD_FPC_Diode_Values_-_J4502.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12034
+last_edited:  2025-09-23T22:54:13Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

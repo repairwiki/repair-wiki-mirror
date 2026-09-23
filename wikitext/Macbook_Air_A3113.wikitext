@@ -1,0 +1,47 @@
+<!--
+title:        Macbook Air A3113
+pageid:       3845
+revid:        10307
+source:       https://repair.wiki/w/Macbook_Air_A3113
+history:      https://repair.wiki/index.php?title=Macbook_Air_A3113&action=history
+permalink:    https://repair.wiki/index.php?oldid=10307
+last_edited:  2025-08-16T22:53:13Z
+contributors: Tiago199988, Samhext
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         ff4e268d4466ac89ec9636f5ec801a2a5194cc62
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A3113
+|Device type=Laptop
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A3113.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:A3113.jpg|Macbook Air a3113 Mechanic USB-C readings (same on both ports)
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

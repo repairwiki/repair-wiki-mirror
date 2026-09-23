@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 15 Pro Max - Wireless flex diagram.png
+pageid:       576
+revid:        1318
+source:       https://repair.wiki/w/File:IPhone_15_Pro_Max_-_Wireless_flex_diagram.png
+history:      https://repair.wiki/index.php?title=File:IPhone_15_Pro_Max_-_Wireless_flex_diagram.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=1318
+last_edited:  2023-12-12T22:12:01Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         41ccd6a4e6b78d7770b3998f2e2ca6781a514261
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 15 Pro Max - Wireless flex diagram. If it's unplugged, it will restart giving panic log error 0x400000

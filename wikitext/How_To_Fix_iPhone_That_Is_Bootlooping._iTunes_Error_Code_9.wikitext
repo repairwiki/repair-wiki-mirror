@@ -1,0 +1,120 @@
+<!--
+title:        How To Fix iPhone That Is Bootlooping. iTunes Error Code 9
+pageid:       1469
+revid:        3213
+source:       https://repair.wiki/w/How_To_Fix_iPhone_That_Is_Bootlooping._iTunes_Error_Code_9
+history:      https://repair.wiki/index.php?title=How_To_Fix_iPhone_That_Is_Bootlooping._iTunes_Error_Code_9&action=history
+permalink:    https://repair.wiki/index.php?oldid=3213
+last_edited:  2024-01-25T06:34:37Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone 7 Plus, Repair guides for iPhone 7, Stubs
+sha1:         cd7f5c382e1cb19c85a79ac159b4bccc3a30b424
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=iPhone 7, IPhone 7 Plus
+|Affects parts=Main Logic Board
+|Needs equipment=Soldering Iron, Hot Air Station, Microscope
+|Type=BGA, Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+How to fix an iPhone 7 or 7 Plus that is bootlooping. When flashing an update or restore, it fails with Error 9
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Bootlooping
+*Flashes Apple Logo on and off
+*Fails to restore
+*Error 9 on iTunes
+*Stuck in Recovery Mode
+
+==Solution==
+'''You'll want to check these first to confirm you have a board issue:'''
+*Get a known good screen, charging port and battery -- Helps validate that you have a board issue.
+*Get a known good OEM iPhone cable
+*Flash with 3uTools using Easy Flash
+*Flash with 3uTools using iTunes Flash
+If 3uTools Easy Flash gives you a failure at 19% or 20% and 3u Tools iTunes Flash gives you Error 9, then the issue is NAND. You'll need to replace NAND. NAND is the memory/storage chip.
+
+===Compatible NANDs===
+For iPhone 7 and 7 Plus, you can use the NAND of any of the following devices interchangeably:
+*iPhone 6S
+*iPhone 6S Plus
+*iPhone SE (1st Gen)
+*iPad Pro 9.7
+*iPad Pro 10.5
+*iPad Pro 12.9 Gen 1
+*iPad Pro 12.9 Gen 2
+*iPad 5th Gen
+*iPad 6th Gen
+*iPad 7th Gen
+===NAND Programming Process===
+'''Requirements'''
+
+In order to successfully replace the NAND, you'll need the following from the original device or NAND and write it to the replacement NAND, otherwise it won't activate.
+*'''SN (Serial Number)'''
+*'''WiFi Mac Address'''
+*'''BT (Bluetooth) Mac Address'''
+It's also recommended you set these to the correct values, but technically will function fine if you put different values
+*'''Region''' (USA, China, Japan, UK, etc.)
+**LL/A is for USA
+*'''Color''' (Black, White, Rose Gold, Red, etc.)
+**This sets the boot up color of the screen. iPhones with a white screen will boot with a white background and black Apple Logo and vice versa for black screen devices.
+===Tools===
+You can use any NAND programmer that supports iPhone 7/7P.
+
+'''JC P7''' seems to be the most popular.
+
+
+'''iRepair P10''' is another option, that does NAND programming via the lightning port and uses the available "Purple Mode" exploit.
+===What if I don't have the original NAND data?===
+You can get the required NAND info from above, by reading the original NAND from the device.
+
+In most cases, you should be able to read the NAND data.
+
+If it can't, you'll need to find it elsewhere
+*GSX report (You'll need to find someone who offers this service)
+*MagicCFG Recovery (requires Jailbreak)
+*Use JCID Drawing + JC P7
+
+
+Sometimes, the GSX report service is not available.
+
+
+'''Using MagicCFG Recovery'''
+
+First, you'll need to install the replacement NAND, with any generic data filled in for SN, WiFi, BT, etc..
+
+Then restore the phone
+
+Then you need to jailbreak the device with Checkra1n
+
+After, run the MagicCFG Recovery tool, which will capture the SN, WiFi/BT Mac addresses.
+
+Then go back, read the NAND, edit the SN, WiFi, BT addresses and write them again into the NAND
+
+Then restore one more time
+
+Now you should be able to activate the device.
+
+
+'''Use JCID Drawing + JC P7'''
+
+Install a new NAND on the phone with a generic SYSCFG data. The exact values don't matter.
+
+Then restore it
+
+Then pull the NAND and put it back into JC P7 and use JC Drawing software to query the factory code
+
+Then program the SN, WiFi, BT values into the NAND
+
+Reinstall NAND & restore.
+
+It should activate now.

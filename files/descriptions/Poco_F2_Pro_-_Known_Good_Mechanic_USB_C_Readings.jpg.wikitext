@@ -1,0 +1,19 @@
+<!--
+title:        File:Poco F2 Pro - Known Good Mechanic USB C Readings.jpg
+pageid:       3817
+revid:        6671
+source:       https://repair.wiki/w/File:Poco_F2_Pro_-_Known_Good_Mechanic_USB_C_Readings.jpg
+history:      https://repair.wiki/index.php?title=File:Poco_F2_Pro_-_Known_Good_Mechanic_USB_C_Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6671
+last_edited:  2025-05-14T15:51:19Z
+contributors: DentsasPanos
+anonymous_edits: 0
+categories:   
+sha1:         2d1135633e156dd6977d9d4a9f972a3f5de8b56e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Poco F2 Pro - Known Good Mechanic USB C Readings

@@ -1,0 +1,18 @@
+<!--
+title:        File:Navi Measurement.png
+pageid:       1664
+revid:        3643
+source:       https://repair.wiki/w/File:Navi_Measurement.png
+history:      https://repair.wiki/index.php?title=File:Navi_Measurement.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3643
+last_edited:  2024-03-14T16:19:44Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         e196bb82c052989792424d87e5e670435239c648
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Navi Measurement

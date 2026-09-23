@@ -1,0 +1,18 @@
+<!--
+title:        File:A1278 MacBook Pro Battery Cable.jpg
+pageid:       1970
+revid:        4217
+source:       https://repair.wiki/w/File:A1278_MacBook_Pro_Battery_Cable.jpg
+history:      https://repair.wiki/index.php?title=File:A1278_MacBook_Pro_Battery_Cable.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4217
+last_edited:  2024-07-07T06:20:09Z
+contributors: XTA
+anonymous_edits: 0
+categories:   
+sha1:         f37184341e7d30bb36b2fd1d806cf4035081a128
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Image to showcase the battery cable and connector on a A1278 MacBook Pro

@@ -1,0 +1,19 @@
+<!--
+title:        File:HTC Vive Pro USB.jpg
+pageid:       1489
+revid:        3260
+source:       https://repair.wiki/w/File:HTC_Vive_Pro_USB.jpg
+history:      https://repair.wiki/index.php?title=File:HTC_Vive_Pro_USB.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3260
+last_edited:  2024-01-27T19:22:16Z
+contributors: Whittz
+anonymous_edits: 0
+categories:   
+sha1:         5c54e6c338d81c41ef909adde80780eca5f772ff
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+reference image

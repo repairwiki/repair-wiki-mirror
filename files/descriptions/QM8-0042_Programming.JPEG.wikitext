@@ -1,0 +1,17 @@
+<!--
+title:        File:QM8-0042 Programming.JPEG
+pageid:       3911
+revid:        6808
+source:       https://repair.wiki/w/File:QM8-0042_Programming.JPEG
+history:      https://repair.wiki/index.php?title=File:QM8-0042_Programming.JPEG&action=history
+permalink:    https://repair.wiki/index.php?oldid=6808
+last_edited:  2025-05-16T04:04:42Z
+contributors: Antcz
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

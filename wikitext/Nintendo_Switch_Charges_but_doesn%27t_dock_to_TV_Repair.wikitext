@@ -1,0 +1,36 @@
+<!--
+title:        Nintendo Switch Charges but doesn't dock to TV Repair
+pageid:       930
+revid:        2290
+source:       https://repair.wiki/w/Nintendo_Switch_Charges_but_doesn't_dock_to_TV_Repair
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Charges_but_doesn't_dock_to_TV_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2290
+last_edited:  2024-01-13T20:32:37Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Stubs
+sha1:         3811284f35f96528292b9127786889a454bba991
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Main Logic Board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+Fixing an issue with the Nintendo Switch where the console charges but doesn't dock to TV
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Charges but doesn't dock to TV
+
+==Solution==
+
+* Check charging port, M92T36, P13USB and filters. Ensure filters are not continuous from one side to the other

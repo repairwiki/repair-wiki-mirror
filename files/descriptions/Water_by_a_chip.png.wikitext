@@ -1,0 +1,18 @@
+<!--
+title:        File:Water by a chip.png
+pageid:       5421
+revid:        8651
+source:       https://repair.wiki/w/File:Water_by_a_chip.png
+history:      https://repair.wiki/index.php?title=File:Water_by_a_chip.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8651
+last_edited:  2025-07-09T22:12:12Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         9247fe0ea488739f8f4592bd7ea565637c83e6ee
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Water by a chip

@@ -1,0 +1,86 @@
+<!--
+title:        Raspberry Pi
+pageid:       941
+revid:        8084
+source:       https://repair.wiki/w/Raspberry_Pi
+history:      https://repair.wiki/index.php?title=Raspberry_Pi&action=history
+permalink:    https://repair.wiki/index.php?oldid=8084
+last_edited:  2025-06-28T19:43:57Z
+contributors: ASRepairs, HaileyKitty, LeftToDestroy, MadEDoctor
+anonymous_edits: 0
+categories:   Device, Others, Raspberry Pi Foundation, Raspberry Pi Foundation Others, Stubs
+sha1:         396b56561d02b74cfab9487370c3916e58b9e0cf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Raspberry Pi Foundation
+|Device release date=2012-02-29
+|Device type=Other
+}}
+{{Stub}}
+
+==Guides==
+{{List Guides}}
+==Device pictures==
+<gallery showthumbnails="1">
+File:RPi 5 Test point map.jpg|TP map of the Raspberry Pi 5
+File:Raspberry-Pi-Pinout.webp|RaspberryPi GPIO Pinout
+File:Raspberry-3B-GPIO-Header.webp|Raspberry Pi 3B GPIO Header
+File:RaspberryPi4.jpg|Raspberry Pi 4
+File:Raspberry-pi-4-specifications-.jpg|Parts of Raspberry Pi 4
+File:Raspberrypi3b.webp|Raspberry Pi 3B
+File:Parts-of-R-Pi-3B.webp|Parts of Raspberry Pi 3B
+</gallery>
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Pi1 front1.jpg|'''Model 1B PCB (Front)'''
+File:Pi1 Back.jpg|'''Model 1B PCB (Back)'''
+File:Raspberry Pi 2 Model B v1.1 top new.jpg|Raspberry Pi 2 Model B Top
+File:Pi3 1500.jpg|Raspberry Pi3 model B Rev1.2 Board overview (top)
+File:Pi4B underside 700-1.jpg|Pi4B underside
+</gallery>
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+==More Information/External Sources==
+=== About/Info ===
+Raspberry Pi is a family of inexpensive single-board computers and microcontrollers.
+
+Components are often reused from one Raspberry Pi model to the next, so solutions may work for multiple models.
+
+
+The Raspberry Pi foundation provides various ''unorganized'' [https://datasheets.raspberrypi.com/ datasheets] as well as thorough hardware [https://www.raspberrypi.com/documentation/computers/raspberry-pi.html documentation.]
+
+=== Raspberry Pi 1 ===
+
+* '''Schematics''': ([https://www.raspberrypi.org/app/uploads/2012/04/Raspberry-Pi-Schematics-R1.0.pdf Model 1B]), ([https://datasheets.raspberrypi.org/rpi/raspberry-pi-b-plus-reduced-schematics.pdf Model 1B+]), ([https://datasheets.raspberrypi.org/rpi/raspberry-pi-a-plus-reduced-schematics.pdf Model 1A+]), ([https://datasheets.raspberrypi.org/cm/cm1-schematics.pdf Compute Module 1])
+* '''Model 1B PCB''': ([https://www.raspberrypi.org/app/uploads/2011/12/front1.jpg front]), ([https://www.raspberrypi.org/app/uploads/2011/12/back.jpg back])
+
+=== Raspberry Pi 2 ===
+
+* '''Schematics''': ([https://datasheets.raspberrypi.org/rpi2/raspberry-pi-2-b-reduced-schematics.pdf Model 2B])
+
+=== Raspberry Pi 3 ===
+
+* '''Schematics''': ([https://datasheets.raspberrypi.org/rpi3/raspberry-pi-3-b-reduced-schematics.pdf Model 3B]), ([https://datasheets.raspberrypi.org/rpi3/raspberry-pi-3-b-plus-reduced-schematics.pdf Model 3B+]), ([https://datasheets.raspberrypi.org/rpi3/raspberry-pi-3-a-plus-reduced-schematics.pdf Model 3A+]), ([https://datasheets.raspberrypi.org/cm/cm3-schematics.pdf Compute Module 3])
+
+=== Raspberry Pi 4 ===
+
+* '''Schematics''': ([https://datasheets.raspberrypi.org/rpi4/raspberry-pi-4-reduced-schematics.pdf Model 4B])
+
+=== Raspberry Pi 5 ===
+No official schematics have been released but a cute mechanical drawing is available
+* '''Mechanical drawing''': ([https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-mechanical-drawing.pdf Model 5])
+
+=== Raspberry Pi Zero ===
+
+* '''Schematics''': ([https://datasheets.raspberrypi.org/rpizero/raspberry-pi-zero-reduced-schematics.pdf Pi Zero]), ([https://datasheets.raspberrypi.org/rpizero/raspberry-pi-zero-w-reduced-schematics.pdf Pi Zero W])
+* '''[https://bitbuilt.net/forums/index.php?threads/raspberry-pi-zero-v1-3-full-scans.2221/ Raspberry Pi Zero PCB layers]''' (click the dark gray button in the main post to view the layers)
+
+=== Raspberry Pi Zero 2 ===
+
+* '''Schematics''': ([https://datasheets.raspberrypi.com/rpizero2/raspberry-pi-zero-2-w-reduced-schematics.pdf Pi Zero 2 W])

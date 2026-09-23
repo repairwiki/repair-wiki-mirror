@@ -1,0 +1,18 @@
+<!--
+title:        File:Short these pins to turn on some thinkpads, alternative angle.jpeg
+pageid:       1482
+revid:        3245
+source:       https://repair.wiki/w/File:Short_these_pins_to_turn_on_some_thinkpads,_alternative_angle.jpeg
+history:      https://repair.wiki/index.php?title=File:Short_these_pins_to_turn_on_some_thinkpads,_alternative_angle.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3245
+last_edited:  2024-01-26T19:49:52Z
+contributors: Pandrew
+anonymous_edits: 0
+categories:   
+sha1:         5580e4a6ca5800b9bfa768ce2c6c444fd4cd9f45
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+My own work, hereby I'm releasing it as "CC0" or "CC BY-SA 3.0 Deed", users choice.

@@ -1,0 +1,18 @@
+<!--
+title:        File:Xbox One X Retimer IC .png
+pageid:       7819
+revid:        11548
+source:       https://repair.wiki/w/File:Xbox_One_X_Retimer_IC_.png
+history:      https://repair.wiki/index.php?title=File:Xbox_One_X_Retimer_IC_.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11548
+last_edited:  2025-09-14T20:42:08Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         a75c2dd18ffee08bfac88e31069e960bf3875f72
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Xbox One X Retimer IC

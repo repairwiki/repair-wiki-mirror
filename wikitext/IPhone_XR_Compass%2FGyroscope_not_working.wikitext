@@ -1,0 +1,33 @@
+<!--
+title:        IPhone XR Compass/Gyroscope not working
+pageid:       3831
+revid:        6697
+source:       https://repair.wiki/w/IPhone_XR_Compass/Gyroscope_not_working
+history:      https://repair.wiki/index.php?title=IPhone_XR_Compass/Gyroscope_not_working&action=history
+permalink:    https://repair.wiki/index.php?oldid=6697
+last_edited:  2025-05-14T18:18:28Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone XR, Stubs
+sha1:         923cc19f513d47645f6879a85a0c1d7b93e845e9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone XR
+|Affects parts=Wireless Charging Coil
+|Type=Part replacement
+|Difficulty=1. Easy
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+If your Gyroscope is not working anymore, the problem might be with a little cable going from the wireless charging coil to the housing. This cable is responsible for proper functioning of the gyroscope. If you damaged this cable while replacing the back cover or battery, you need to replace the wireless charging coil.
+
+Migrated from old Wiki

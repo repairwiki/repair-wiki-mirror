@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone SE 2020 R6611 Jumper Location.png
+pageid:       274
+revid:        718
+source:       https://repair.wiki/w/File:IPhone_SE_2020_R6611_Jumper_Location.png
+history:      https://repair.wiki/index.php?title=File:IPhone_SE_2020_R6611_Jumper_Location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=718
+last_edited:  2023-11-05T22:13:38Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         7b23800782b90882563f68a7ae2de33900134401
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+IPhone SE 2020 R6611 Jumper Location

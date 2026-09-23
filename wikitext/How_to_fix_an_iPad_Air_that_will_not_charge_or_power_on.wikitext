@@ -1,0 +1,36 @@
+<!--
+title:        How to fix an iPad Air that will not charge or power on
+pageid:       1355
+revid:        2990
+source:       https://repair.wiki/w/How_to_fix_an_iPad_Air_that_will_not_charge_or_power_on
+history:      https://repair.wiki/index.php?title=How_to_fix_an_iPad_Air_that_will_not_charge_or_power_on&action=history
+permalink:    https://repair.wiki/index.php?oldid=2990
+last_edited:  2024-01-17T21:45:33Z
+contributors: KevinShort
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPad Air, Stubs
+sha1:         b2471206f295f66998d60766b664afceac6c248e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPad Air
+|Affects parts=motherboard
+|Needs equipment=microscope, soldering equipment
+|Type=BGA, Soldering
+|Difficulty=4. Specialist
+}}
+{{stub}}
+
+==Problem description==
+Repairing an issue where the battery will not charge and the iPad does not boot
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Device shows no signs of life.
+*When connected to a charger the iPad pulls zero amps.
+
+==Solution==
+Most commonly caused by a bad tristar chip.

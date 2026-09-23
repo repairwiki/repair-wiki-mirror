@@ -1,0 +1,48 @@
+<!--
+title:        Steam Deck - Power Button: Middle pad ripped off
+pageid:       2503
+revid:        5120
+source:       https://repair.wiki/w/Steam_Deck_-_Power_Button:_Middle_pad_ripped_off
+history:      https://repair.wiki/index.php?title=Steam_Deck_-_Power_Button:_Middle_pad_ripped_off&action=history
+permalink:    https://repair.wiki/index.php?oldid=5120
+last_edited:  2024-10-24T17:52:56Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Steam Deck, Stubs
+sha1:         cfda808f71886f02c67f88e966a937c810a5fa74
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Steam Deck
+|Affects parts=Steam Deck LCD Mainboard
+|Type=Soldering, Part replacement, BGA
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+Unfortunately the power button Switch on the Steam Deck LCD is a structurally weak component. The pads/traces under the switch can easily rip off, during a swap of the switch.
+*
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+Compatible switches can be found as "Steam Deck switch", XBOX 360 pair switch", Nintendo DS switch e.g. on Aliexpress.
+
+The switch is the same as the shoulder button switch on the controller boards.
+
+The two outermost pins are connected to ground while the middle pin is connected to the ITE IT5570VG IC. Unfortunately the trace for the middle pin runs directly into one of the inner layers under one of the ground pads. At the moment, no testing point for the middle pin was found on the board.
+
+A repair attempt is documented here: 
+
+https://www.ifixit.com/Answers/View/853756/Middle+pad+of+the+power+button+ripped+off.+Where+to+bridge+that+from

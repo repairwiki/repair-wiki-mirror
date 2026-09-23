@@ -1,0 +1,44 @@
+<!--
+title:        Sony Bravia KDL-40W2000
+pageid:       1012
+revid:        12977
+source:       https://repair.wiki/w/Sony_Bravia_KDL-40W2000
+history:      https://repair.wiki/index.php?title=Sony_Bravia_KDL-40W2000&action=history
+permalink:    https://repair.wiki/index.php?oldid=12977
+last_edited:  2025-12-01T23:30:09Z
+contributors: ASRepairs, Tiago199988, HaileyKitty
+anonymous_edits: 0
+categories:   Device, Sony, Sony Television/Monitors, Stubs, Television/Monitors
+sha1:         192c671646091c5655e526d168ef91825d6403a0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Sony
+|Device type=Television/Monitor
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:KDL-40W2000.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

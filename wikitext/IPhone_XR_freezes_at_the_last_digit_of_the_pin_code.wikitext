@@ -1,0 +1,53 @@
+<!--
+title:        IPhone XR freezes at the last digit of the pin code
+pageid:       3833
+revid:        6700
+source:       https://repair.wiki/w/IPhone_XR_freezes_at_the_last_digit_of_the_pin_code
+history:      https://repair.wiki/index.php?title=IPhone_XR_freezes_at_the_last_digit_of_the_pin_code&action=history
+permalink:    https://repair.wiki/index.php?oldid=6700
+last_edited:  2025-05-14T18:23:58Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone XR, Stubs
+sha1:         3d0a97d6490159dba87010223c4a89cca9f04c44
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone XR
+|Affects parts=Motherboard
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+iPhone XR will boot up normally but freeze and restart when pincode is entered
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Phone boots fine
+* Type in your pin code & at the last digit, it freezes, keeping that digit highlighted for about 30-60 seconds
+* Then the screen restarts and you're back at the pin code screen.
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+* Check NFC (U_NFC_S) above CPU
+* It most likely has a hairline crack & requires to be replaced.
+* Once replaced, the phone will go through a "swipe to recover" screen in most cases, where you put in the pin code, it loads a white "Attempting Data Recovery" screen & takes about 10-20 minutes.
+* This is basically the operating system rewriting the NFC chip, so it can unlock.
+* Then, the phone will work fine afterwards
+
+
+Migrated from old wiki

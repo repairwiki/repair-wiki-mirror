@@ -1,0 +1,18 @@
+<!--
+title:        File:L2780 Location.png
+pageid:       5644
+revid:        8910
+source:       https://repair.wiki/w/File:L2780_Location.png
+history:      https://repair.wiki/index.php?title=File:L2780_Location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=8910
+last_edited:  2025-07-21T23:08:59Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         d643f61ca8b4042faa9ab205039d45ea8e473d92
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+L2780 Location

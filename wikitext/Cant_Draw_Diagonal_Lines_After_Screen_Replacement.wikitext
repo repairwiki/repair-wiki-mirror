@@ -1,0 +1,73 @@
+<!--
+title:        Cant Draw Diagonal Lines After Screen Replacement
+pageid:       7820
+revid:        11928
+source:       https://repair.wiki/w/Cant_Draw_Diagonal_Lines_After_Screen_Replacement
+history:      https://repair.wiki/index.php?title=Cant_Draw_Diagonal_Lines_After_Screen_Replacement&action=history
+permalink:    https://repair.wiki/index.php?oldid=11928
+last_edited:  2025-09-20T21:40:57Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPad Mini 6, Repair guides for IPad Pro 11in 3rd Gen, Repair guides for IPad Pro 11in 4th Gen, Repair guides for IPad Pro 12.9 3rd Gen, Repair guides for IPad Pro 12.9 4th Gen, Repair guides for IPad Pro 12.9 5th Gen, Repair guides for IPad Pro 12.9 6th Gen, Stubs
+sha1:         3761e2086f861b4e429b58e8ac490e15a30df222
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=IPad Pro 11in 3rd Gen, IPad Pro 11in 4th Gen, IPad Pro 12.9 3rd Gen, IPad Pro 12.9 4th Gen, IPad Pro 12.9 5th Gen, IPad Pro 12.9 6th Gen, IPad Mini 6
+|Affects parts=Display
+|Needs equipment=JCID V1S or JCID 1Vs Pro
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+After replacing the screen the Apple pencil can not be used to draw diagonal lines.
+
+[[File:Diagonal issue.png|thumb|Example of issue]]
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->The Solution is simple however we need a special tool made by JC.
+
+You can use the JC V1SE or the JC V1S Pro.
+[[File:JC V1S Pro.webp|thumb|JC V1S Pro|center]]
+
+
+[[File:JC V1SE.webp|thumb|JC V1SE|center]]You have must have iPad Screen Repair Adapter.
+
+[[File:IPad Screen Repair Adaptor.webp|thumb|iPad Screen Read And Write Adaptor Fix Wavy Lines With Apple Pencil - JCID|center]]
+
+
+
+First Connect the flex cable to the right adapter for your model[[File:Flex Connected.png|thumb|center]]Then Connect the adapter board to the iPad like this 
+ 
+[[File:Flex Adapter.png|thumb|Flex Adapter|center]]
+
+
+
+Now Connect the ORIGINAL screen the iPad had installed, and power on the device.
+
+Next on the Programmer use the buttons to select the Model of your device
+
+[[File:Ipad model.jpg|center|thumb|Choose iPad Model]]  
+
+Then connect the Flex to the programmer like this  
+
+[[File:JCID Flex Connected.png|thumb|JCID Flex Connected|center]]Now press the power button to light the screen up and press the read button on the JCID Programmer
+
+After reading the old information from the screen you can turn off the iPad and plug your new screen in.
+
+With the new screen in connected press the power button to light up the screen and click on Write in the JCID Programmer
+
+After this you can turn off the device and remove the JCID adaptor and plug in the new screen like normal.
+
+== Final Testing ==
+Open the notes app and make sure your diagonal lines made with the Apple Pencil are in a straight line.
+[[File:Issue Fixed.gif|center|thumb|Issue Fixed]]

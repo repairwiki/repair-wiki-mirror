@@ -1,0 +1,50 @@
+---
+title: "MacBook Pro A1706 Not turning on, PPBUS G3H short repair"
+pageid: 219
+revid: 5242
+kind: repair_guide
+source: "https://repair.wiki/w/MacBook_Pro_A1706_Not_turning_on,_PPBUS_G3H_short_repair"
+history: "https://repair.wiki/index.php?title=MacBook_Pro_A1706_Not_turning_on,_PPBUS_G3H_short_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=5242"
+last_edited: "2024-11-11T16:51:31Z"
+contributors:
+  - "ASRepairs"
+  - "Nbrouard"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A1706"
+  - "Stubs"
+infobox:
+  Device: "MacBook Pro A1706"
+  Affects_parts: "Motherboard"
+  Needs_equipment: "multimeter, soldering iron, soldering station, thermal camera"
+  Type: "Soldering"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# MacBook Pro A1706 Not turning on, PPBUS G3H short repair
+
+## Problem description
+Repair of a common short on PPBUS_G3H on an A1706 MacBook Pro
+![Example image (Figure 1) -- No image yet. Help expand this page by uploading it!](images/3/30/Placeholder_image.jpg)
+## Symptoms
+- sub 20 ohms on PPBUS_G3H, (no power but 20V on board, which is not stuck at 5V)
+- Not turning on
+
+## Solution
+Inject 1 V (increase if no reaction), watch for hot spots with thermal camera. Usually it's a bad tantalum capacitor.
+Measure PPBUS_G3H to Vcore coils (coils around CPU/GPU). If those measure under 1 Ω (0.3–0.8Ω) then you most likely have a direct 12 V short to CPU/GPU. On this board this situation is always a no-fix.
+
+[https://www.youtube.com/watch?v=608unuqLWj8 Example video]: No Power — A1706 2016 4xTBT3 TB 13" MacBook Pro 820-00239
+
+- 0 V — PPBUS_G3HOT
+- Inject 1 V into PPBUS_G3HOT rail.
+- U7600 Dual MOSFET gets hot. Part number CSD58879Q3D.
+- Visual inspection of shorted component shows solder ball popping out the side of component. C7601 is also damaged.
+- Removed C7601, short still persists.
+- Removed U7600, short gone.
+- As of April 29, 2018 no donors available. Board not fixed.

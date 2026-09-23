@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 6S Display FPC DIODE.png
+pageid:       9087
+revid:        13179
+source:       https://repair.wiki/w/File:IPhone_6S_Display_FPC_DIODE.png
+history:      https://repair.wiki/index.php?title=File:IPhone_6S_Display_FPC_DIODE.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=13179
+last_edited:  2025-12-10T22:07:45Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         271f164c21b3529364e3ba0de9a042bf4314584e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 6S Display FPC DIODE

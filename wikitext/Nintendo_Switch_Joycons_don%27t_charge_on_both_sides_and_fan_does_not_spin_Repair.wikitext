@@ -1,0 +1,36 @@
+<!--
+title:        Nintendo Switch Joycons don't charge on both sides and fan does not spin Repair
+pageid:       935
+revid:        2307
+source:       https://repair.wiki/w/Nintendo_Switch_Joycons_don't_charge_on_both_sides_and_fan_does_not_spin_Repair
+history:      https://repair.wiki/index.php?title=Nintendo_Switch_Joycons_don't_charge_on_both_sides_and_fan_does_not_spin_Repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=2307
+last_edited:  2024-01-13T20:39:57Z
+contributors: ASRepairs, HaileyKitty
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for Nintendo Switch, Stubs
+sha1:         572baca8899a457c8225a1c127c98f30dc10c52a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=Nintendo Switch
+|Affects parts=Main Logic Board
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+Fixing an issue where the Switch won't charge the Joy-cons on both sides and fan does not spin.
+
+== Symptoms ==
+
+* Joy-cons don't charge on both sides.
+* Fan does not spin.
+
+== Solution ==
+Replace failed MOSFET or [https://repair.wiki/w/Nintendo_Switch_No_Fan_Spin_Voltage_Injection_Method perform voltage injection method]

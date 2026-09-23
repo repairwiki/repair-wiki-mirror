@@ -1,0 +1,46 @@
+<!--
+title:        IMac 27" (2014)
+pageid:       1625
+revid:        11945
+source:       https://repair.wiki/w/IMac_27%22_(2014)
+history:      https://repair.wiki/index.php?title=IMac_27%22_(2014)&action=history
+permalink:    https://repair.wiki/index.php?oldid=11945
+last_edited:  2025-09-20T22:23:59Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Computer/All In Ones, Computer/All In Ones, Device, Stubs
+sha1:         35430044f115f618175bc73ce7e2d9c19d13b8a0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1419
+|Device release date=2014-10-16
+|Device type=Computer/All In One
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:A1419.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

@@ -1,0 +1,45 @@
+<!--
+title:        MacBook Pro A1708
+pageid:       597
+revid:        12507
+source:       https://repair.wiki/w/MacBook_Pro_A1708
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1708&action=history
+permalink:    https://repair.wiki/index.php?oldid=12507
+last_edited:  2025-11-02T15:45:23Z
+contributors: ASRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         8fb953b2e87cccffcd1eec17814cfaaab3dc4455
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1708
+|Device type=Laptop
+}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A1708.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+Schematic and boardview for 820-00875: https://www.sendspace.com/filegroup/nb8zOPaSSns7TMGZcXJ8RQ
+
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

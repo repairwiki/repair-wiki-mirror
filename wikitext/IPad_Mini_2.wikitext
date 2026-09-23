@@ -1,0 +1,46 @@
+<!--
+title:        IPad Mini 2
+pageid:       2608
+revid:        9028
+source:       https://repair.wiki/w/IPad_Mini_2
+history:      https://repair.wiki/index.php?title=IPad_Mini_2&action=history
+permalink:    https://repair.wiki/index.php?oldid=9028
+last_edited:  2025-07-26T19:51:44Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         c4cea5551a14f3453c50b799cf89e25fe4278668
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Device type=Tablet
+|Has code name=A1489, A1490, A1491}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Ipadmini2-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

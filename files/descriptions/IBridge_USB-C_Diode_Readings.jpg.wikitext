@@ -1,0 +1,18 @@
+<!--
+title:        File:IBridge USB-C Diode Readings.jpg
+pageid:       3383
+revid:        6148
+source:       https://repair.wiki/w/File:IBridge_USB-C_Diode_Readings.jpg
+history:      https://repair.wiki/index.php?title=File:IBridge_USB-C_Diode_Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6148
+last_edited:  2025-04-13T13:05:57Z
+contributors: Fixmy
+anonymous_edits: 0
+categories:   
+sha1:         8313f56785beb415027eea74b6a3efef8db4c95a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Nintendo Switch Lite - Known Good iBridge Readings

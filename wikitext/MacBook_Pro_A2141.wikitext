@@ -1,0 +1,42 @@
+<!--
+title:        MacBook Pro A2141
+pageid:       600
+revid:        12509
+source:       https://repair.wiki/w/MacBook_Pro_A2141
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A2141&action=history
+permalink:    https://repair.wiki/index.php?oldid=12509
+last_edited:  2025-11-02T15:49:04Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, IFixNC Beau
+anonymous_edits: 0
+categories:   Apple, Apple Laptops, Device, Laptops, Stubs
+sha1:         cefd03b5683d3357cc903f2f53f009c5d9f4cdba
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2141
+|Device type=Laptop
+}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A2141.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+File:U7000 A2141 820-01700.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+== More Information/External Sources ==
+Schematic and boardview for 820-01700: https://www.sendspace.com/filegroup/PQ9mwfFNx%2FuEg1g15hTSDT1p7ae1SFVc
+
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

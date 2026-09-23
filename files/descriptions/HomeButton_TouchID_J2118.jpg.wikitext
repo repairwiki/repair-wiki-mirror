@@ -1,0 +1,18 @@
+<!--
+title:        File:HomeButton TouchID J2118.jpg
+pageid:       1910
+revid:        4111
+source:       https://repair.wiki/w/File:HomeButton_TouchID_J2118.jpg
+history:      https://repair.wiki/index.php?title=File:HomeButton_TouchID_J2118.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4111
+last_edited:  2024-06-27T19:42:06Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         5922e23bfcf94c25a01dd29ddc65ce4b8902b0d1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+HomeButton TouchID J2118

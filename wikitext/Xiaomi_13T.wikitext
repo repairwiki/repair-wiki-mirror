@@ -1,0 +1,43 @@
+<!--
+title:        Xiaomi 13T
+pageid:       9224
+revid:        13469
+source:       https://repair.wiki/w/Xiaomi_13T
+history:      https://repair.wiki/index.php?title=Xiaomi_13T&action=history
+permalink:    https://repair.wiki/index.php?oldid=13469
+last_edited:  2026-01-01T17:35:26Z
+contributors: Tiago199988, Deepfaked
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         2b62e9293e0ee3d316908875593c60dfd583498a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Xiaomi|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Example device pictures.jpg
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:IMG 20251224 180744.jpg|Mechanic tail tester working device values
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

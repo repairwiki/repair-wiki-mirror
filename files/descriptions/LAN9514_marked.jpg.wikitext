@@ -1,0 +1,17 @@
+<!--
+title:        File:LAN9514 marked.jpg
+pageid:       977
+revid:        2279
+source:       https://repair.wiki/w/File:LAN9514_marked.jpg
+history:      https://repair.wiki/index.php?title=File:LAN9514_marked.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=2279
+last_edited:  2024-01-13T20:23:09Z
+contributors: HaileyKitty
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

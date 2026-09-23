@@ -1,0 +1,46 @@
+<!--
+title:        Poco X3 Pro
+pageid:       5658
+revid:        10337
+source:       https://repair.wiki/w/Poco_X3_Pro
+history:      https://repair.wiki/index.php?title=Poco_X3_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=10337
+last_edited:  2025-08-16T23:14:36Z
+contributors: Tiago199988, Ajimalg82
+anonymous_edits: 0
+categories:   Device, Phones, Stubs, Xiaomi, Xiaomi Phones
+sha1:         d34929d7fbfae9c9b09252348e828e6506877949
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Xiaomi
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Poco x3 pro.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Poco X3 Pro PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

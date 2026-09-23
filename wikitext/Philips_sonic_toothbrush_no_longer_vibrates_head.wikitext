@@ -1,0 +1,39 @@
+<!--
+title:        Philips sonic toothbrush no longer vibrates head
+pageid:       7723
+revid:        11368
+source:       https://repair.wiki/w/Philips_sonic_toothbrush_no_longer_vibrates_head
+history:      https://repair.wiki/index.php?title=Philips_sonic_toothbrush_no_longer_vibrates_head&action=history
+permalink:    https://repair.wiki/index.php?oldid=11368
+last_edited:  2025-09-07T10:24:03Z
+contributors: Brainiac94
+anonymous_edits: 0
+categories:   
+sha1:         a795bbfdffd37f4c2009653a638cfa7c75b57ecd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+
+A vibration transducing part inside the device is loose. Philips installed a screw into the vibrating mass but did not apply adhesive, causing the screw to come loose over time.
+
+Symptoms:
+
+The device turns on and vibration engine starts, but the brush does not vibrate. The brush/shaft might feel loose inside the housing.
+
+Solution:
+
+Remove bottom cover. This is glued, you might need to apply mild heat or cut it open and replace the cover later.
+
+The device's active components can be slid out of the housing after loosening two retention clips. Remove the white charging coil bracket for easier access to the clips.
+[[File:Philips Sonicare toothbrush bottom opened.jpg|thumb|Bottom of the toothbrush with the cover and the small white bracket around the charging coil removed. Retention clips are on the left and right about 2cm deep]]
+[[File:Philips Sonicare housing and components.jpg|thumb|The insides of the device removed from its housing. The loose screw can be seen near the top of the device on the right]]
+
+
+
+Tighten the philips head screw towards the top of the device. Test if vibration has been fixed.
+[[File:Philips Sonicare vibrating assembly loose.jpg|thumb|Vibrating part of the sonic toothbrush which has come loose due to the unsecured screw]]
+The copper wire around the top is an NFC coil to detect the age of the brush head. Remove the coil to disable brush replacement warnings. 
+
+Reattach the coil bracket and reinsert the assembly into the housing and close the bottom with the housing part or fill with silicone or glue.

@@ -1,0 +1,18 @@
+<!--
+title:        File:MT6765V CPU and Stencil.png
+pageid:       2481
+revid:        5047
+source:       https://repair.wiki/w/File:MT6765V_CPU_and_Stencil.png
+history:      https://repair.wiki/index.php?title=File:MT6765V_CPU_and_Stencil.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5047
+last_edited:  2024-10-14T00:16:06Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         77ad4e1a43d8e7b16fe0abf84675deb0a4edaf69
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+MT6765V CPU and Stencil

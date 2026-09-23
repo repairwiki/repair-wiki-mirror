@@ -1,0 +1,19 @@
+<!--
+title:        File:NEEWER S101-300W PRO.webp
+pageid:       2626
+revid:        5254
+source:       https://repair.wiki/w/File:NEEWER_S101-300W_PRO.webp
+history:      https://repair.wiki/index.php?title=File:NEEWER_S101-300W_PRO.webp&action=history
+permalink:    https://repair.wiki/index.php?oldid=5254
+last_edited:  2024-11-14T01:03:25Z
+contributors: Mastergeek
+anonymous_edits: 0
+categories:   
+sha1:         4dd7dc4cbafab24707a910ea97c62f6a9fbad8cf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Flash strobe monolight device

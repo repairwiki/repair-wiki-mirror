@@ -1,0 +1,18 @@
+<!--
+title:        File:Dried out reballing paste.png
+pageid:       2486
+revid:        5052
+source:       https://repair.wiki/w/File:Dried_out_reballing_paste.png
+history:      https://repair.wiki/index.php?title=File:Dried_out_reballing_paste.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5052
+last_edited:  2024-10-14T00:44:13Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         d8c188778e231096dee59ad23e59536ac0215312
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Dried out reballing paste

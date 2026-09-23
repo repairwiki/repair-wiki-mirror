@@ -1,0 +1,18 @@
+<!--
+title:        File:Polaris vcore enable.jpg
+pageid:       408
+revid:        893
+source:       https://repair.wiki/w/File:Polaris_vcore_enable.jpg
+history:      https://repair.wiki/index.php?title=File:Polaris_vcore_enable.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=893
+last_edited:  2023-11-07T20:11:34Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ee80e0c568fa09d3d5242228d16fd12960328f81
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Polaris vcore enable

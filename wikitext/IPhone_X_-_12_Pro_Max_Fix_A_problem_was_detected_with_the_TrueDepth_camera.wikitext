@@ -1,0 +1,92 @@
+<!--
+title:        IPhone X - 12 Pro Max Fix A problem was detected with the TrueDepth camera
+pageid:       4255
+revid:        7264
+source:       https://repair.wiki/w/IPhone_X_-_12_Pro_Max_Fix_A_problem_was_detected_with_the_TrueDepth_camera
+history:      https://repair.wiki/index.php?title=IPhone_X_-_12_Pro_Max_Fix_A_problem_was_detected_with_the_TrueDepth_camera&action=history
+permalink:    https://repair.wiki/index.php?oldid=7264
+last_edited:  2025-06-01T21:19:58Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone 11, Repair guides for IPhone 11 Pro, Repair guides for IPhone 11 Pro Max, Repair guides for IPhone 12, Repair guides for IPhone 12 Mini, Repair guides for IPhone 12 Pro, Repair guides for IPhone 12 Pro Max, Repair guides for IPhone X, Repair guides for IPhone XR, Repair guides for IPhone XS, Repair guides for IPhone XS Max, Stubs
+sha1:         3d14023d1ac6041a7c304ac8737da7a2b65183d5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone X, IPhone XS, IPhone XS Max, IPhone XR, IPhone 11, IPhone 11 Pro, IPhone 11 Pro Max, IPhone 12, IPhone 12 Mini, IPhone 12 Pro, IPhone 12 Pro Max
+|Affects parts=Dot Projector
+|Needs equipment=JC Programmer
+|Type=
+|Difficulty=2. Medium
+}}
+{{stub}}
+== Problem description ==
+The iPhone works fine but you are unable to set up Face ID and the message "a problem was detected with the TrueDepth camera. Face ID has been disabled".
+This problem is common on water-damaged devices.
+
+[[File:TrueDepth camera issue.png|thumb|300x300px|Example of the message that shows up]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* The iPhone displays the message: A problem was detected with the TrueDepth camera. Face ID has been disabled.
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+This issue is related to a component called dot projector.
+
+In this guide we will be using the Tag-On method, so you will need to acquire the right flex for your device
+[[File:JC Face ID tag on flex.png|thumb|JC Face ID tag on flex|center|270x270px]]
+
+
+=== Diagnostic Steps ===
+
+The dot projector is located right next to the front camera. 
+[[File:Iphone face id.jpg|center|thumb|iPhone Face ID Components Location]]
+
+In this guide we will use the "JC" tools to diagnose and fix this issue, you can use JC V1S, JC V1SE, JC V1S Pro, the process is the same in all devices.
+
+The first step is to remove the dot projector from the phone and connect it to the machine and click on read, the machine will test the component and tell you if it's faulty like this.
+
+[[File:Dot fail.png|center|thumb|342x342px|Dot Projector Test Fail]]
+
+=== Repair Steps ===
+In this guide we will be using the "Tag-On" method.
+
+Install [https://www.jcprogrammer.com/download/software/ JC repair software] on a computer, and open the program.
+
+Connect your iPhone without the dot projector to the computer and turn it on and authorize USB data transfer.
+
+Connect the programmer that you are using to the computer and go to the repair fitting section and click on connect.
+
+With the dot projector connected to the programmer, click on "Activate Repair", a small pop-up window will appear, click on activation.
+
+'''Note: There are two types of boards for these programmers, one that has a USB-C port on top and one that has two big caps, if you have the version with the USB-C port you must connect it to a fast charging power brick.'''
+[[File:JC face ID boards.jpg|center|thumb|JC face ID boards]]
+After clicking on activation wait until the window shows up "Activation Complete!"
+
+[[File:Activation Complete.png|center|thumb|Activation Complete]]
+After "Activation Complete!" success you can disconnect the dot projector from the programmer, and connect your flex, on the JC repair program click on Detect, and it showed, detect the flex.
+
+Next click on Write From AI, a small pop-up window will show up, select your device and click on "OK", and it will write the information to the flex.
+
+After writing the information to the flex you can disconnect the flex from the programmer and the iPhone from the computer.
+
+Now we need to connect our programmed flex to the dot projector and fit it on the phone, for this we will need to do a bit of Origami.
+
+To do this bends the best way is to follow the Official guide by JC on [https://www.youtube.com/watch?v=h9N-Wuet2Fo Youtube].
+
+After doing the bends install the dot projector back to the iPhone.
+
+== Final Testing ==
+Set up Face ID in settings.
+
+After setting up, lock the device and see if it will unlock.

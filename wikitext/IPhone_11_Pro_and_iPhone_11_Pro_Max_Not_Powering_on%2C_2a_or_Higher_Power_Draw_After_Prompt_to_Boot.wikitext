@@ -1,0 +1,69 @@
+<!--
+title:        IPhone 11 Pro and iPhone 11 Pro Max Not Powering on, 2a or Higher Power Draw After Prompt to Boot
+pageid:       5405
+revid:        8634
+source:       https://repair.wiki/w/IPhone_11_Pro_and_iPhone_11_Pro_Max_Not_Powering_on,_2a_or_Higher_Power_Draw_After_Prompt_to_Boot
+history:      https://repair.wiki/index.php?title=IPhone_11_Pro_and_iPhone_11_Pro_Max_Not_Powering_on,_2a_or_Higher_Power_Draw_After_Prompt_to_Boot&action=history
+permalink:    https://repair.wiki/index.php?oldid=8634
+last_edited:  2025-07-08T20:20:16Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone 11 Pro, Repair guides for IPhone 11 Pro Max, Stubs
+sha1:         cce58c8a3a5d2caf86bd6ca7ee9c0b8c929144d0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone 11 Pro, IPhone 11 Pro Max
+|Affects parts=Motherboard
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+iPhone 11 Pro or iPhone 11 Pro max not powering on with 2a or higher power draw from DCPSU before prompt to boot.
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+
+
+Do a full visual inspection of the board and check for water damage under the stickers on the back. Remove the foam around the connectors to get a better look at everything. You're looking for any signs of corrosion on or around components and ICs.
+
+If there is no water damage, is is most likely a shorted capacitor on any of the below lines:
+
+* '''PP_VDD_MAIN''' — This is the most likely line to be shorted
+* '''PP_VDD_BOOST''' — This line is usually shorted when it's not VDD MAIN
+* '''U_NFC -''' In some cases, the chip itself can crack & cause a short within the bottom board.
+
+You'll need to inject voltage (4 V / 2 A) directly into the line you measured as short and use freeze spray (see here https://youtu.be/3MtLSQJvQxI) or thermal camera (see here: https://youtu.be/fkd4iDjgfvc) to spot the capacitor that is shorted.
+
+In these cases, you can just remove the shorted capacitor and not replace it. The device will function normally with no negative effects.
+
+Replacing it means you are adding more heat to the board to reinstall it, which increases the risk of something going wrong.
+
+If you have a case of water damage, then you'll have to pay attention to the spots on the board where there's signs of water damage.
+
+Often, you'll find corrosion on capacitors but also under ICs.
+
+Since this is a 2 layer board, you can split the sandwich into 2 separate parts, top board & bottom board.
+
+* Then you can check to see if the short is still present when connecting the top layer to the DC Power Supply by itself.
+* If the short is still present, the culprit will be on the top board somewhere
+* If the short clears, then the short is present on the bottom board.
+** So in this case, you can inject voltage into the bottom board to find the short.
+
+'''Please Note:''' If you are using a DC power supply to inject voltage through the battery connector, like using an iPower Pro or DT880 (see here https://youtu.be/rawjB9yxe1A), be aware that Yangtze may heat up instantly. This is because the battery connector line PP_BATT_VCC connects to PP_VDD_MAIN through it, which creates lots of heat. In most cases, the short is not the chip itself, but a shorted cap. In rare cases, it's Yangtze itself. So try removing it & check if there's any shorts under Yangtze. If not, then the issue was Yangtze and you'll need to replace it.
+
+
+''Migrated from old wiki''

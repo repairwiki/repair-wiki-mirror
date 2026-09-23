@@ -1,0 +1,48 @@
+<!--
+title:        Xbox 360
+pageid:       8594
+revid:        12503
+source:       https://repair.wiki/w/Xbox_360
+history:      https://repair.wiki/index.php?title=Xbox_360&action=history
+permalink:    https://repair.wiki/index.php?oldid=12503
+last_edited:  2025-11-02T15:23:13Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Game Consoles, Microsoft, Microsoft Game Consoles, Stubs
+sha1:         b0256b229957055da1f6d389e51a1e230a6908f1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Microsoft|Device release date=November 22, 2005|Device type=Game Console}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:401px-Xbox 360 Vertical.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Xbox 360 Zephyr Top.png|Xbox 360 Zephyr Top
+File:Xbox 360 Xenon Top.png|Xbox 360 Xenon Top
+File:Xbox 360 Jasper v2 (Kronos) Top.png|Xbox 360 Jasper v2 (Kronos) Top
+File:JFT-XBOX360-Elpis-Top.png|JFT-XBOX360-Elpis-Top
+File:Xbox 360 Falcon Top.png|Xbox 360 Falcon Top
+File:Xbox 360 Jasper V1 Top.png|Xbox 360 Jasper V1 Top
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+Xbox 360 Schematics and boardviews: https://www.sendspace.com/filegroup/srzG0aHkhwXA6xK7jpebnIYvJ9xlmeQYtAp%2BoSfT0G3TwQ59i0g4Z9It7XMmGMKi%2BaImB34lUOVehn67XvY%2BL6iEhYiejvrpWMb1HO%2FVp16WoAA0rFL3HfyTEeAwwUesDQKWjucdR48Ct3abBxmspygy%2Fky6hx3Q<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

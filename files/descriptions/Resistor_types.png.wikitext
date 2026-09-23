@@ -1,0 +1,18 @@
+<!--
+title:        File:Resistor types.png
+pageid:       145
+revid:        331
+source:       https://repair.wiki/w/File:Resistor_types.png
+history:      https://repair.wiki/index.php?title=File:Resistor_types.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=331
+last_edited:  2023-10-14T21:39:56Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         fc96e8ab08289dc9a659edb58ad53016c5318088
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Resistor types

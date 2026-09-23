@@ -1,0 +1,18 @@
+<!--
+title:        File:MFC-L9570CDW display panel removal.jpg
+pageid:       3074
+revid:        5766
+source:       https://repair.wiki/w/File:MFC-L9570CDW_display_panel_removal.jpg
+history:      https://repair.wiki/index.php?title=File:MFC-L9570CDW_display_panel_removal.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5766
+last_edited:  2025-03-07T02:40:16Z
+contributors: Jasonblewis
+anonymous_edits: 0
+categories:   
+sha1:         d58bb9f34f9d9018ae4ad6b4192858559ae0ccb9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+image of how to get at the screws to remove the panel

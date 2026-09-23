@@ -1,0 +1,18 @@
+<!--
+title:        File:PS5-HDMI-Mechnic-Readings.jpg
+pageid:       1590
+revid:        3454
+source:       https://repair.wiki/w/File:PS5-HDMI-Mechnic-Readings.jpg
+history:      https://repair.wiki/index.php?title=File:PS5-HDMI-Mechnic-Readings.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3454
+last_edited:  2024-02-27T07:14:28Z
+contributors: Ben ProFixerr
+anonymous_edits: 0
+categories:   
+sha1:         d6bf24d548392e57c32ad098843e550a8055dd8c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+PS5 HDMI Port Diode Mode Readings through Mechanic T-824 Tester

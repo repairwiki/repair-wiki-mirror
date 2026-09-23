@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 13 Pro Max - SMC PANIC - ASSERTION FAILED.png
+pageid:       1337
+revid:        2932
+source:       https://repair.wiki/w/File:IPhone_13_Pro_Max_-_SMC_PANIC_-_ASSERTION_FAILED.png
+history:      https://repair.wiki/index.php?title=File:IPhone_13_Pro_Max_-_SMC_PANIC_-_ASSERTION_FAILED.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=2932
+last_edited:  2024-01-17T15:07:16Z
+contributors: Evanm1234
+anonymous_edits: 0
+categories:   
+sha1:         631194fa10ceba09ed9de6b6f0b63a5340ef817c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Example of what you'll see in a panic-full file, where when there's a bad prox flex causing the 3 min restart. If you see this same error, then it's likely the proximity flex.

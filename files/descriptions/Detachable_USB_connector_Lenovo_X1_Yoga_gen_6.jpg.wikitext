@@ -1,0 +1,18 @@
+<!--
+title:        File:Detachable USB connector Lenovo X1 Yoga gen 6.jpg
+pageid:       8982
+revid:        13052
+source:       https://repair.wiki/w/File:Detachable_USB_connector_Lenovo_X1_Yoga_gen_6.jpg
+history:      https://repair.wiki/index.php?title=File:Detachable_USB_connector_Lenovo_X1_Yoga_gen_6.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=13052
+last_edited:  2025-12-03T21:44:52Z
+contributors: Jacopops
+anonymous_edits: 0
+categories:   
+sha1:         67945cec446fd298c88a2a5cf0bdeeda9afe19d6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Detachable USB connector Lenovo X1 Yoga gen 6

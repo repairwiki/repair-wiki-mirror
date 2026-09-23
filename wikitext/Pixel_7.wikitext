@@ -1,0 +1,43 @@
+<!--
+title:        Pixel 7
+pageid:       7451
+revid:        11063
+source:       https://repair.wiki/w/Pixel_7
+history:      https://repair.wiki/index.php?title=Pixel_7&action=history
+permalink:    https://repair.wiki/index.php?oldid=11063
+last_edited:  2025-08-31T20:10:16Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Google, Google Phones, Phones, Stubs
+sha1:         1a9e7fb25ecc3922dce0dae75f0c427db8b571a2
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Google|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Pixel-7-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Google Pixel 7 PCB.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+Service Manual:https://storage.googleapis.com/support-kms-prod/tz3Bw4LVh70MbEiwmG5sS4ETN5tNkD33gPhw<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

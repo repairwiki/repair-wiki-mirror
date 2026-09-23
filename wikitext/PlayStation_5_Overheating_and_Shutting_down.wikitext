@@ -1,0 +1,100 @@
+<!--
+title:        PlayStation 5 Overheating and Shutting down
+pageid:       8923
+revid:        13018
+source:       https://repair.wiki/w/PlayStation_5_Overheating_and_Shutting_down
+history:      https://repair.wiki/index.php?title=PlayStation_5_Overheating_and_Shutting_down&action=history
+permalink:    https://repair.wiki/index.php?oldid=13018
+last_edited:  2025-12-02T23:45:35Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for PlayStation 5, Repair guides for PlayStation 5 Pro, Repair guides for PlayStation 5 Slim, Stubs
+sha1:         b5e51c7412602e477ee61b39dc43b3c5ec38aab5
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=PlayStation 5, PlayStation 5 Slim, PlayStation 5 Pro
+|Affects parts=Console
+|Needs equipment=Air compressor, some brushes
+|Difficulty=1. Easy
+}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+The console overheats and shuts down why playing
+[[File:PS5 HOT.jpg|thumb|PS5 too Hot]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* The Console shuts down while playing a game
+* The FAN is always at max speed
+* The console Shows the message "Your ps5 is too hot" 
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+Most times this issue is caused by oxidation of liquid metal on the APU or dust that over time build up and is blocking the flow of air.
+
+=== Diagnostic Steps ===
+Start by removing the cover and inspect the FAN check if there is dust on it, and with the console turned on make sure the FAN spins.
+
+If the FAN is not working you have to replace it.
+
+If the FAN is working like expected the console must be dissembled in order to check the liquid metal and for dust built up.
+
+First remove the FAN and if there is dust built up like in the image bellow the best way to clean it is to use a air compressor, or something similar.
+
+[[File:Dust PS5.webp|center|thumb|Example of Dust Build up]]
+After cleaning this zone disassemble the rest of the console in order to inspect the liquid metal on the APU.
+
+Remove the EMI shield on top of the motherboard.
+
+Then remove the motherboard there are 2 screws holding the motherboard in place make sure to remove them before try to remove the motherboard.
+
+Note: EDM-010 boards may require some force to separate the motherboard from the heatsink due to a large thermal pad on the APU side, this is normal.
+
+After removing the motherboard from the heatsink inspect the APU die and the heatsink it is common to have a dry spot due to oxidation. 
+
+== ⚠️Attention: liquid metal is conductive, so avoid spilling it on the motherboard. ==
+
+== ⚠️Attention: Do not remove the black foam barrier around the APU. ==
+Example of a dry spot on the APU 
+[[File:PS5 Dry Spot.png|center|thumb|PS5 Dry Spot]]
+The best way to clean this is with a cotton swab socked in Isopropyl Alcohol, like in the picture bellow.
+[[File:Cotton swab.jpg|center|thumb]]
+Move the liquid metal to a side and so your best to clean the oxidation it may take multiple cotton swabs, do this for the APU side and heasink side,
+
+Usualy you dont really have to add more liquid metal unless it got removed during the process, if you do remove a lot of liquid metal you can by some  Thermal Grizzly Conductonaut and apply it.
+
+Here is how the aplication of the liquid metal should look like.
+[[File:Ps5 liquid metal aplication.jpg|center|thumb]]
+Before assemblying the console take the heatsink of and make sure is not blocked by dust 
+[[File:Example of dust build up PS5.png|center|thumb|Example of dust build up PS5]]
+Also make sure the Power Supply is not blocked by dust.
+
+== Faulty heatsink on CFI-1200 models ==
+On CFI-1200 models it is common to have the heatsink splied from the metal sheild, like in the image bellow
+[[File:Faulty heatsink.png|center|thumb]]
+To solve this you can by a used heatsink online or you can repair it using some J-B Weld 8265SPA.
+
+If you wish to repair your heatsink, follow the instructions on the glue’s packaging and apply the mixed glue where the original welding points were.
+
+After that, apply some pressure to that area and wait the recommended time for the glue to dry.
+
+DO NOT INSTALL THE HEATSINK IN THE CONSOLE WHILE THE GLUE IS STILL DRYING.
+
+== Final Testing ==
+After cleaning the console of any dust buildup and redoing the liquid metal, make sure you test it. The best way is to play a game and see if the console no longer shuts off due to heat.
+
+Also, if you want, you can leave the fan unplugged and boot up the console. If the liquid metal is applied correctly, the console should not shut down while on the main menu. Just don’t open any games without the fan connected.

@@ -1,0 +1,63 @@
+<!--
+title:        MacBook Pro A1706 Critical Software Update failed to install
+pageid:       2254
+revid:        4652
+source:       https://repair.wiki/w/MacBook_Pro_A1706_Critical_Software_Update_failed_to_install
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1706_Critical_Software_Update_failed_to_install&action=history
+permalink:    https://repair.wiki/index.php?oldid=4652
+last_edited:  2024-08-19T20:45:15Z
+contributors: ASRepairs, ProMoe
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A1706, Stubs
+sha1:         14082b35766196a376670f6bdaf907b9b7d7ff7d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=MacBook Pro A1706
+|Affects parts=Main Logic Board, Touch Bar, Touch ID
+|Needs equipment=Soldering iron, hot air station, solder paste, reball equipment, multimeter
+|Type=Soldering, Part replacement
+|Difficulty=3. Hard
+}}
+== Problem description ==
+<!-- 
+On the A1707 and A1706 an update message will appear to verify and check with Apple few parts on the machine and this error is will remain until the underlying issue is resolved wether by part replacement or main logic board repair. 
+ -->
+
+
+[[File:Critical update error message .jpg|thumb|[https://developer.apple.com/forums/content/attachment/374c7338-f44e-4c6d-a205-93f6e2bfa0d1 Example] image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+
+== Symptoms ==
+<!--
+Remain on "critical software update failed to install" and unable to proceed.  
+-->
+* Symptom 1 (Figure 1)
+* Symptom 2
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+
+
+=== Diagnostic Steps ===
+
+* Bad Touchbar. Unplug Touchbar and try to update again.
+* Bad camera caused by Flexgate, unplug LCD and try to update again on external display.
+* Bad touchID, the T1 chip controls the touchID so in theory a bad touchID could cause this error although unconfirmed.
+* Format drive and install MacOS. If data is required, boot into safe mode by holding shift and transfer data off.
+* If you have tried all of that, then it is most likely a board related issue caused by either bad PMIC or bad T1 chip. Measure all U4200 buck outputs.
+* PP1V8_Sleep3_Buck3 pulled down by corrosion under U4200/T1 PMIC. Fixed by reballing PMIC. This was also causing the Macbook to take a long time to post.
+* Additional Troubleshooting steps - <nowiki>https://logi.wiki/index.php/Critical_Update_Required_Troubleshooting</nowiki>
+* Could be as well a problem with the T1 chip. It will also cause the machine to take a long time to post. 
+* Check each pin on Touch Connector  J4402 and compare the numbers to OBD. 
+* Check each pin on Display connector J4401 and compare the numbers to OBD. 
+
+
+=== Repair Steps ===

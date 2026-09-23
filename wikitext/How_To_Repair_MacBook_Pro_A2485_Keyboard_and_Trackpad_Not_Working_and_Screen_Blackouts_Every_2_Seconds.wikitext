@@ -1,0 +1,66 @@
+<!--
+title:        How To Repair MacBook Pro A2485 Keyboard and Trackpad Not Working and Screen Blackouts Every 2 Seconds
+pageid:       8652
+revid:        12603
+source:       https://repair.wiki/w/How_To_Repair_MacBook_Pro_A2485_Keyboard_and_Trackpad_Not_Working_and_Screen_Blackouts_Every_2_Seconds
+history:      https://repair.wiki/index.php?title=How_To_Repair_MacBook_Pro_A2485_Keyboard_and_Trackpad_Not_Working_and_Screen_Blackouts_Every_2_Seconds&action=history
+permalink:    https://repair.wiki/index.php?oldid=12603
+last_edited:  2025-11-06T00:03:21Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for MacBook Pro A2485, Stubs
+sha1:         178054d59de5d33440a943101f9c6149080a0fdf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=MacBook Pro A2485
+|Affects parts=Lid Angle Sensor (LAS)
+|Needs equipment=Screwdrivers, Replacement Lid Angle Sensor
+|Type=Part Replacement
+|Difficulty=2. Medium
+}}
+== Problem description ==
+MacBook Pro A2485 powers on but keyboard and trackpad are unresponsive, and the display keeps turning off and on every few seconds. The system remains powered but only functions while connected to the charger. No visible liquid or corrosion damage.
+[[File:A2485 LAS.png|thumb|MacBook Pro A2485 Lid Angle Sensor]]
+
+== Symptoms ==
+
+* Keyboard and trackpad not working.
+* External keyboard/trackpad via USB work normally.
+* Screen blacks out every 2 seconds, though the device remains powered.
+* MacBook powers only when plugged into the charger — doesn’t boot from battery alone.
+* No visible liquid or burnt components.
+* Replacing the trackpad or battery does not resolve the issue.
+
+== Solution ==
+Replace the angle sensor flex cable (also known as the lid angle sensor flex).
+[[File:A2485 LAS connector.png|thumb|MacBook Pro A2485 Lid Angle Sensor Connector Location]]
+This flex cable communicates lid angle position; when shorted or faulty, it causes erratic power management signals, preventing keyboard/trackpad initialization and causing display blackouts.
+
+=== Diagnostic Steps ===
+
+# Visual Inspection
+#* Check for any bent or pinched flex cables near the hinge area.
+#* Inspect the angle sensor flex for visible damage, stress marks, or missing insulation.
+# Peripheral Substitution
+#* Try connecting a known-good trackpad and keyboard — if still nonfunctional, issue lies upstream (logic or sensor lines).
+# Angle Sensor Isolation Test
+#* Disconnect the angle sensor flex from the logic board.
+#* Reconnect battery and charger.
+#* If device now powers on normally and display stays stable → confirmed faulty angle sensor flex.
+
+=== Repair Steps ===
+
+# Power off and disconnect battery.
+# Open the back cover and locate the angle sensor flex (near the hinge area, connecting the display hinge to the logic board).
+# Disconnect the flex and visually inspect for damage.
+# Replace with a known-good or new OEM angle sensor flex.
+# Reconnect all cables (keyboard, trackpad, display, and battery).
+# Power on and confirm:
+#* Keyboard and trackpad function.
+#* Display stays stable.
+#* Device powers normally on battery.

@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 7 Plus RAM Short.jpg
+pageid:       1426
+revid:        3111
+source:       https://repair.wiki/w/File:IPhone_7_Plus_RAM_Short.jpg
+history:      https://repair.wiki/index.php?title=File:IPhone_7_Plus_RAM_Short.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3111
+last_edited:  2024-01-20T20:56:24Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         e75b43be8d12b66f0e861eb8f171c6b4290a5ab3
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+SDRAM short

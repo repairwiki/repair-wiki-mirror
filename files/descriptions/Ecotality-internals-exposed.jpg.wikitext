@@ -1,0 +1,18 @@
+<!--
+title:        File:Ecotality-internals-exposed.jpg
+pageid:       2171
+revid:        4514
+source:       https://repair.wiki/w/File:Ecotality-internals-exposed.jpg
+history:      https://repair.wiki/index.php?title=File:Ecotality-internals-exposed.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4514
+last_edited:  2024-07-26T02:42:46Z
+contributors: ChrisC
+anonymous_edits: 0
+categories:   
+sha1:         d621bf9712165e1313645f2530f80ef8250450cf
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Ecotality PE-30 with internals exposed

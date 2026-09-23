@@ -1,0 +1,43 @@
+<!--
+title:        Galaxy A12
+pageid:       4766
+revid:        10271
+source:       https://repair.wiki/w/Galaxy_A12
+history:      https://repair.wiki/index.php?title=Galaxy_A12&action=history
+permalink:    https://repair.wiki/index.php?oldid=10271
+last_edited:  2025-08-16T22:26:42Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         d18513f152ef2d921bbbbf3f5dc4c00185d03a6d
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Samsung|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Galaxy-A12-SM-A125F.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Galaxy A12 PCB A125F.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

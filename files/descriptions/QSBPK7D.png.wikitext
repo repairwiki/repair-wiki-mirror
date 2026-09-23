@@ -1,0 +1,18 @@
+<!--
+title:        File:QSBPK7D.png
+pageid:       2779
+revid:        5430
+source:       https://repair.wiki/w/File:QSBPK7D.png
+history:      https://repair.wiki/index.php?title=File:QSBPK7D.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5430
+last_edited:  2025-01-03T20:48:20Z
+contributors: MadEDoctor
+anonymous_edits: 0
+categories:   
+sha1:         412abbb70f00977bf3a6b7303c2253087d1c3333
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+QSBPK7D chip on Raspberry Pi 4

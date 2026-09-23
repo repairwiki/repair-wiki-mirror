@@ -1,0 +1,18 @@
+<!--
+title:        File:EPIC GAMES STORE END USER LICENSE AGREEMENT page-0009.jpg
+pageid:       2919
+revid:        5594
+source:       https://repair.wiki/w/File:EPIC_GAMES_STORE_END_USER_LICENSE_AGREEMENT_page-0009.jpg
+history:      https://repair.wiki/index.php?title=File:EPIC_GAMES_STORE_END_USER_LICENSE_AGREEMENT_page-0009.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=5594
+last_edited:  2025-01-30T17:21:12Z
+contributors: GothWick
+anonymous_edits: 0
+categories:   
+sha1:         95c68af5094a463a1d4ffc687e197c8edeee04b9
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+You are unable to log in to your epicgames account if you do not agree to these terms, meaning you lose access to all your games.

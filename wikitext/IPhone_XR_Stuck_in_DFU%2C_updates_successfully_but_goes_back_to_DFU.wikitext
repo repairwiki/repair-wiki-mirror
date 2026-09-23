@@ -1,0 +1,61 @@
+<!--
+title:        IPhone XR Stuck in DFU, updates successfully but goes back to DFU
+pageid:       3739
+revid:        13813
+source:       https://repair.wiki/w/IPhone_XR_Stuck_in_DFU,_updates_successfully_but_goes_back_to_DFU
+history:      https://repair.wiki/index.php?title=IPhone_XR_Stuck_in_DFU,_updates_successfully_but_goes_back_to_DFU&action=history
+permalink:    https://repair.wiki/index.php?oldid=13813
+last_edited:  2026-02-02T00:08:04Z
+contributors: VCCBoardRepairs, Samhext
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone XR, Stubs
+sha1:         360be6db6f960f7ad55b134f0a5b781f15f72ba0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone XR
+|Affects parts=Motherboard
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+
+
+
+Stuck in DFU mode
+
+Flashes successfully with an update or restore but goes back to DFU mode.
+[[File:IPhone XR R0601 DFU Resistor.png|thumb|iPhone XR R0601 DFU Resistor. If broken, it will cause the phone to be stuck in DFU mode]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Screen shows no image and pulls 0.45A via USB charging
+* Does not appear to boot
+* Prompt to boot on DCPS, shows it hangs around 45mA draw
+* Connect to PC and it's in DFU mode
+* Flash an update or restore & it goes through 100% with no errors but goes back to DFU mode
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+* Check R0601 at the corner of NAND.
+* This resistor connects PP1V8_IO to SPI_AP_TO_S4E_MOSI_BOOT_CONFIG1
+* Clean the underfill around it & poke it hard.
+* If it breaks, it must be replaced.
+* Value is 4.7ohms
+* After replacing it, the phone will no longer be in DFU mode & boot right up.
+
+
+Migrated from old wiki

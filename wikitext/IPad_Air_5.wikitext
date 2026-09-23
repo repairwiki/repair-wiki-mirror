@@ -1,0 +1,69 @@
+<!--
+title:        IPad Air 5
+pageid:       1578
+revid:        13729
+source:       https://repair.wiki/w/IPad_Air_5
+history:      https://repair.wiki/index.php?title=IPad_Air_5&action=history
+permalink:    https://repair.wiki/index.php?oldid=13729
+last_edited:  2026-01-19T05:04:25Z
+contributors: VCCBoardRepairs, Tiago199988, DRD, MacbookMedic
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         987a979fc2d40143933b4c853c8bde67972154e4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2588, A2589, A2591
+|Device release date=2022-03-18
+|Device type=Tablet
+}}
+{{stub}}
+
+
+==Guides==
+Apple Logo Flashes on and off on iPad Air 5:
+
+Disconnect the power button flex cable.{{List Guides|CD3217B12 replacement=a2588 iPad air 5:
+Successfully replaced CD3217B12 with U3100 from an a2251 Macbook Pro (820-01949).}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ipadair2022-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery>
+File:A2588ConnectorsOverview.png|iPad Air 5 - Connector Overview
+File:IPad Air 5 PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+
+=== Diode Mode Readings: ===
+<gallery showthumbnails="1">
+File:Air5LCDFPCDiode.jpg|#1 LCD connector
+File:A2588LowerDigitizerFPCDiode.jpg|#2 Lower digitizer connector (next to LCD connector)
+File:A2588UpperDigitizerFPCDiode.jpg|#3 Upper digitizer connector
+File:A2588VolumeConnectorDiode.png|#4 Volume button connector
+File:A2588RearCameraConnector.jpg|#5 Rear camera connector
+File:A2588PowerButtonFPCDiode.jpg|#6 Power button connector (next to rear camera)
+File:A2588FrontCameraFPCDiode.jpg|#7 Front camera connector
+File:A2588LeftAmbientLightSensorFPCDiode.jpg|#8 Left ambient light sensor connector (below front camera)
+File:A2588 iPad Air 5 top mic connector diode readings.jpg|#9 Top mic connector (by front camera)
+</gallery>
+
+==More Information/External Sources==
+
+CD3217 Know good ROM dump: https://www.sendspace.com/filegroup/o50KR%2FmFSzssNPV4%2FfMXR%2FabYypKCONhcqYX3llc5ZpMEjLjsYg%2FIrgZTsYR3WPismwz23kyDF0O7ZcGCVfnDg
+
+iPad Air 5 Model Numbers:
+
+A2588          Wi-Fi Only
+
+A2589          Wi-Fi + Cellular
+
+A2591          Wi-Fi + Cellular

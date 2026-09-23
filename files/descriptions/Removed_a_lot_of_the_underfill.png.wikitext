@@ -1,0 +1,18 @@
+<!--
+title:        File:Removed a lot of the underfill.png
+pageid:       2474
+revid:        5039
+source:       https://repair.wiki/w/File:Removed_a_lot_of_the_underfill.png
+history:      https://repair.wiki/index.php?title=File:Removed_a_lot_of_the_underfill.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5039
+last_edited:  2024-10-13T22:37:43Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         ad77193cb23ca07f51c5ae1a4797b3021fb19af6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Removed a lot of the underfill

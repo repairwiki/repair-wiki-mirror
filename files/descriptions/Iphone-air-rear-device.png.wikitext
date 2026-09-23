@@ -1,0 +1,17 @@
+<!--
+title:        File:Iphone-air-rear-device.png
+pageid:       8131
+revid:        11890
+source:       https://repair.wiki/w/File:Iphone-air-rear-device.png
+history:      https://repair.wiki/index.php?title=File:Iphone-air-rear-device.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=11890
+last_edited:  2025-09-20T06:40:47Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

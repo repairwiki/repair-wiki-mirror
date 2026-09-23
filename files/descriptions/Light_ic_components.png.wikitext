@@ -1,0 +1,18 @@
+<!--
+title:        File:Light ic components.png
+pageid:       6904
+revid:        10400
+source:       https://repair.wiki/w/File:Light_ic_components.png
+history:      https://repair.wiki/index.php?title=File:Light_ic_components.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10400
+last_edited:  2025-08-20T00:35:24Z
+contributors: Ajimalg82
+anonymous_edits: 0
+categories:   
+sha1:         485582d11495f99bdb4dbc29503b9f75aa0e8482
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+light ic components

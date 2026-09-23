@@ -1,0 +1,19 @@
+<!--
+title:        File:Dualsense.jpeg
+pageid:       3722
+revid:        6544
+source:       https://repair.wiki/w/File:Dualsense.jpeg
+history:      https://repair.wiki/index.php?title=File:Dualsense.jpeg&action=history
+permalink:    https://repair.wiki/index.php?oldid=6544
+last_edited:  2025-05-12T22:43:37Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         ead92741cbb6852ab539783bbc978ada0579958b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+== Summary ==
+Dualsense USB C Readings from a good controller

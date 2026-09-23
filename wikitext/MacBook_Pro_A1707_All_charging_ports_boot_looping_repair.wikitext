@@ -1,0 +1,36 @@
+<!--
+title:        MacBook Pro A1707 All charging ports boot looping repair
+pageid:       203
+revid:        566
+source:       https://repair.wiki/w/MacBook_Pro_A1707_All_charging_ports_boot_looping_repair
+history:      https://repair.wiki/index.php?title=MacBook_Pro_A1707_All_charging_ports_boot_looping_repair&action=history
+permalink:    https://repair.wiki/index.php?oldid=566
+last_edited:  2023-10-29T16:15:28Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   Stubs
+sha1:         a870264569e89bf057fd1031da6c5b6598d81f12
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=MacBook Pro A1707
+|Affects parts=Motherboard
+|Needs equipment=multimeter, soldering iron, soldering station
+|Type=Soldering
+|Difficulty=3. Hard
+}}
+{{stub}}
+
+==Problem description==
+<nowiki>#</nowiki>incomplete
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+==Symptoms==
+
+*Symptom 1 (Figure 1)
+*Symptom 2
+
+==Solution==
+SOC_SWCLK_DBG signal missing, this required a small jumper wire under U3200

@@ -1,0 +1,68 @@
+<!--
+title:        How To Fix an iPad Air 4 boot looping after water damage using Panic Logs
+pageid:       7892
+revid:        11968
+source:       https://repair.wiki/w/How_To_Fix_an_iPad_Air_4_boot_looping_after_water_damage_using_Panic_Logs
+history:      https://repair.wiki/index.php?title=How_To_Fix_an_iPad_Air_4_boot_looping_after_water_damage_using_Panic_Logs&action=history
+permalink:    https://repair.wiki/index.php?oldid=11968
+last_edited:  2025-09-21T10:31:34Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for iPad Air 4
+sha1:         7582633d8c7d49d19b8385bf92a91288ceae20dd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide|Device=iPad Air 4|Affects parts=Ambient Light Sensor|Needs equipment=Opening tools, Screwdrivers|Difficulty=2. Medium|Type=Part Replacement}}
+
+== Problem Description ==
+After water damage, the iPad Air 4 powers on but restarts repeatedly. Disconnecting the ALS (Ambient Light Sensor) flex allows the iPad to boot and function normally. This confirms the ALS sensor is shorted or faulty and is causing the restart loop.
+[[File:Ipad-air-4-als-connector.png|thumb|iPad Air 4 - ALS Connector]]
+----
+
+== Symptoms ==
+
+* iPad repeatedly restarts, stuck in constant restarts.
+* Disconnecting the ALS / Proximity flex allows device to boot fully and not restart.
+* Other components appear functional (touch, display, battery charging OK).
+
+----
+[[File:Ipad-air-4-als.png|thumb|iPad Air 4 - Ambient Light Sensor (ALS)]]
+
+== Diagnostic Steps ==
+
+# Visual Inspection:
+#* Open the iPad carefully and inspect ALS flex & connector for corrosion.
+#* Clean with IPA and soft brush, then test again.
+# Boot Test:
+#* Boot iPad with ALS connected → confirm restart persists.
+#* Boot with ALS disconnected → confirm iPad boots normally.
+# Confirm ALS Fault:
+#* If device consistently boots with ALS disconnected, ALS sensor/flex is faulty.[[File:Ipadair4 panic-log.png|thumb|iPad Air 4 - Panic Log]]
+
+----
+
+== Repair Steps ==
+
+=== Option 1: Replace ALS Flex ===
+
+# Disconnect Battery:  Always disconnect battery first to avoid shorts.
+# Remove Old ALS Flex:
+#* Carefully peel ALS flex off frame.
+#* Disconnect connector off board.
+# Install New ALS Flex:
+#* Use OEM or high-quality replacement.
+#* Align and connect flex securely to logic board connector.
+# Reconnect Battery & Test:
+#* Boot iPad → confirm normal boot without restarting.
+#* Test auto-brightness, True Tone and restart issue to ensure functionality.
+
+----
+
+=== Option 2: Temporary Workaround (Not Recommended for Daily Use) ===
+
+* If no replacement flex is available, you can leave ALS disconnected.
+* Device will boot and function, but auto-brightness and True Tone will not work.
+* Use this only as a temporary fix until replacement flex is sourced.

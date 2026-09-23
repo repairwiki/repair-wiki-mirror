@@ -1,0 +1,53 @@
+<!--
+title:        IPhone 15 Pro Max
+pageid:       1609
+revid:        12684
+source:       https://repair.wiki/w/IPhone_15_Pro_Max
+history:      https://repair.wiki/index.php?title=IPhone_15_Pro_Max&action=history
+permalink:    https://repair.wiki/index.php?oldid=12684
+last_edited:  2025-11-12T15:33:01Z
+contributors: VCCBoardRepairs, Tiago199988, IamMyron07, A1Repairs, PNF
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         fe04a03d19d09f64ba9b0363cef468d24c078432
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A2849, A3105, A3106, A3108
+|Device release date=2023-09-22
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone15promax-768x768.webp|alt=
+File:Ip-15p-fcam.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPhone 15 Pro Max PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Iphone 15pm charging port diode.jpg|Iphone 15 pro max charging port diode measurements using MECHANIC - T824 USB-C / LIGHTNING PORT TAIL INSERTION TESTER. Provided by A1 Phone Repairs
+File:15 Pro Board ID.png|iPhone 15 Pro & 15 Pro Max - Board ID Resistor is R0812. iPhone 15 Pro: 1M Ohm Resistor. iPhone 15 Pro Max: 1K Ohm Resistor
+File:0001.jpg|iPhone 15 Pro Max OLED FPC Diode Readings
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+Apple Self Service iPhone 15 Pro Max
+
+Repair Manual ID: '''AKBXYR'''

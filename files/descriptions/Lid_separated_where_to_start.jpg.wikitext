@@ -1,0 +1,18 @@
+<!--
+title:        File:Lid separated where to start.jpg
+pageid:       2405
+revid:        4895
+source:       https://repair.wiki/w/File:Lid_separated_where_to_start.jpg
+history:      https://repair.wiki/index.php?title=File:Lid_separated_where_to_start.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=4895
+last_edited:  2024-09-20T11:55:29Z
+contributors: AnonRepair
+anonymous_edits: 0
+categories:   
+sha1:         c232da128c2adc6ab12b693a518367cfb47cbc9f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Where to start separating screen frame

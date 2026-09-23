@@ -1,0 +1,46 @@
+<!--
+title:        IPad Pro 12.9 2nd Gen
+pageid:       1389
+revid:        8932
+source:       https://repair.wiki/w/IPad_Pro_12.9_2nd_Gen
+history:      https://repair.wiki/index.php?title=IPad_Pro_12.9_2nd_Gen&action=history
+permalink:    https://repair.wiki/index.php?oldid=8932
+last_edited:  2025-07-21T23:34:07Z
+contributors: Tiago199988, KevinShort
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         3c6f9689993b78433ed7797efa5c4ab13c43d368
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1670, A1671
+|Device release date=2017-06-27
+|Device type=Tablet
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ipadpro129-gen2-800x800.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!

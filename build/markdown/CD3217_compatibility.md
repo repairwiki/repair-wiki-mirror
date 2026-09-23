@@ -1,0 +1,51 @@
+---
+title: "CD3217 compatibility"
+pageid: 4011
+revid: 6952
+kind: explanatory_guide
+source: "https://repair.wiki/w/CD3217_compatibility"
+history: "https://repair.wiki/index.php?title=CD3217_compatibility&action=history"
+permalink: "https://repair.wiki/index.php?oldid=6952"
+last_edited: "2025-05-19T15:27:16Z"
+contributors:
+  - "TLamy"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Missing device page"
+infobox:
+  Difficulty: "Medium"
+  Device: "MacBook Air A2137 MacBook Pro A2141 MacBook Air A2337 MacBook Pro A2338 MacBook Pro A2442"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# CD3217 compatibility
+
+## About the CD3217
+The CD3217 Power Delivery (charge port) controllers are used in a wide range of MacBooks and other Apple devices. It is made by Texas Instruments (based on the TPS65986) exclusively for Apple, and thus can not be purchased from an official distributor.
+
+Since it can be not acquired through official channels, it has to be sourced from donor boards. Given it has internal firmware that differs by model and/or operational mode and that can't be modified, your best bet is to **use same board same place donors**. See the table below for compatible donor boards.
+
+There is exactly one CD3217 per charge port. One operates in Master mode (usually connected to the dfu capable port), the other one(s) in Slave mode. A defective CD3217 is one of the two probable causes for a MacBook to *not* request 20V from the charger (the other one being a short somewhere).
+
+#### Operational Details
+A couple of people have reverse engineered parts of the inner workings of the CD3215 and CD3217 on https://blog.rickmark.me/ace-controller-secrets/. This information is not essential to repair a device using these chips, but a good background story to understand if a specific device behaviour may be related to the CD3217.
+
+Compatibilty chart
+
+|  | A2141 | A2159 | A2179 | A2251 | A2289 | A2337 | A2338 M1 | A2338 M2 | A2442 | A2485 | A2779 | A2780 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A2141 | X | X |  |  |  |  |  |  |  |  |  |  |
+| A2159 | X | X |  |  |  |  |  |  |  |  |  |  |
+| A2179 |  |  | X |  |  |  |  |  |  |  |  |  |
+| A2251 |  |  |  | X |  |  |  |  |  |  |  |  |
+| A2289 |  |  |  |  | X |  |  |  |  |  |  |  |
+| A2337 |  |  |  |  |  | M/S | M/S | M/S |  |  |  |  |
+| A2338 M1 |  |  |  |  |  | M/S | M/S | M/S |  |  |  |  |
+| A2338 M2 |  |  |  |  |  | M/S | M/S | M/S |  |  |  |  |
+| A2442 |  |  |  |  |  |  |  |  | M/S |  |  |  |
+| A2485 |  |  |  |  |  |  |  |  |  | M/S |  |  |
+| A2779 |  |  |  |  |  |  |  |  |  |  | M/S |  |
+| A2780 |  |  |  |  |  |  |  |  |  |  |  | M/S |

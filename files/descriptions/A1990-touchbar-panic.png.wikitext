@@ -1,0 +1,18 @@
+<!--
+title:        File:A1990-touchbar-panic.png
+pageid:       8246
+revid:        12057
+source:       https://repair.wiki/w/File:A1990-touchbar-panic.png
+history:      https://repair.wiki/index.php?title=File:A1990-touchbar-panic.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12057
+last_edited:  2025-09-24T13:44:07Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         c91333728f03e4cd4a112d0fa80d458e6c336f60
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+A1990-touchbar-panic-log

@@ -1,0 +1,48 @@
+<!--
+title:        IPad 5
+pageid:       1382
+revid:        11067
+source:       https://repair.wiki/w/IPad_5
+history:      https://repair.wiki/index.php?title=IPad_5&action=history
+permalink:    https://repair.wiki/index.php?oldid=11067
+last_edited:  2025-08-31T20:17:39Z
+contributors: Tiago199988, KevinShort
+anonymous_edits: 0
+categories:   Apple, Apple Tablets, Device, Stubs, Tablets
+sha1:         1ce881cb9cc997b76b49c145f6186a54477e111b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1822, A1823
+|Device release date=2017-03-24
+|Device type=Tablet
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ipad97-gen5-768x768.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:IPad 5 PCB.jpg|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPad 5 Schematics: https://www.sendspace.com/file/qw3fmp

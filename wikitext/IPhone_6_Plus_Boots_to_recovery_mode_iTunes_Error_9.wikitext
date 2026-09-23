@@ -1,0 +1,82 @@
+<!--
+title:        IPhone 6 Plus Boots to recovery mode iTunes Error 9
+pageid:       4292
+revid:        7378
+source:       https://repair.wiki/w/IPhone_6_Plus_Boots_to_recovery_mode_iTunes_Error_9
+history:      https://repair.wiki/index.php?title=IPhone_6_Plus_Boots_to_recovery_mode_iTunes_Error_9&action=history
+permalink:    https://repair.wiki/index.php?oldid=7378
+last_edited:  2025-06-05T20:06:07Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Repair guide, Repair guides for IPhone 6 Plus, Stubs
+sha1:         ce3e164fea0963f53c70eff8ae9bebc484888fe6
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Repair Guide
+|Device=IPhone 6 Plus
+|Affects parts=Motherboard
+|Needs equipment=Soldering Iron, Hot-Air Station, Microscope, Multimeter
+|Type=Soldering
+|Difficulty=4. Specialist
+}}
+{{stub}}
+== Problem description ==
+<!-- 
+Provide a concise description of the issue here. Be  as specific as possible to help readers quickly determine whether or not this is the exact problem they are facing.
+ -->
+On the iPhone 6 Plus this error is usually a problem between the CPU and EEPROM (U0301)
+
+
+
+[[File:Itunes erro 9.jpg|thumb|iTunes error 9]]
+
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+
+* The phone boots straight into recovery mode
+
+* iTunes produces the error 9 when restoring the device
+
+==  Diagnostic Steps ==
+In order to verify that in fact the issue is between the CPU and EEPROM we must take diode readings on two resistors, these two components are located under a shield, in order to reveal them you must remove a tiny bit of metal in the position of the image below.
+
+[[File:IPhone 6 Plus EEPROM location.png|center|thumb|iPhone 6 Plus EEPROM location]]
+The next step is to measure the two resistors in diode mode, they both must have a value of around 0.484, on some devices both lines will read bad and on some devices only one is faulty.
+[[File:IPhone 6 plus EEPROM resistors.png|center|thumb|iPhone 6 plus EEPROM Resistors]]
+
+=== Repair Steps ===
+'''This repair is really difficult and is not advised for people without experience please practice on a scrap board  first.'''
+
+These two lines go to the CPU and "easiest" way to fix it is by making a small hole in the CPU.
+
+Start by removing the metal shield on top of the CPU.
+
+Next we will make a small hole in the bottom left corner of the CPU, below is an image of the area that can be cut.
+[[File:IPhone 6 Area that we can cut from the CPU.png|center|thumb|iPhone 6 Area that we can cut from the CPU]]
+To make the hole there are two tools that can be used a X-Acto knife or a small precision tool like the Qianli DM360.
+
+Do this process really slowly and if you want you can add some isopropyl alcohol to help clear the debris and you will also see your work better.
+
+At some point you will arrive at some grey pads, this means that you're getting close, keep scraping really slowly.
+[[File:IPhone 6 Plus RAM Pads.png|center|thumb|iPhone 6 Plus RAM Pads]]
+After you scrape a little bit you will start to see the line inside the CPU, the two lines that we are after are these ones.
+
+[[File:IPhone 6 Plus CPU Lines.png|center|thumb|iPhone 6 Plus CPU Lines]]
+After locating these two lines stop scraping and use UV mask to cover everything in that area except those lines, like this:
+[[File:IPhone 6 Plus uv mask.png|center|thumb|iPhone 6 Plus uv mask]]
+After applying UV mask add solder to those two exposed pads.
+
+Now you need to solder 2 jumoing wires from those 2 points to the resistors.
+[[File:IPhone 6 Plus Jumper wires error 9.png|center|thumb]]
+After soldering the wires check for a short on PP1V8_SDRAM you can do this on this cap.
+[[File:1v8 Ram iPhone 6 Plus.png|center|thumb]]
+After confirming there is no short, protect the jumping wires with UV mask, you can basically cover the hole you made.
+
+After this, connect the iPhone to iTunes again and do a restore.
+
+Don't forget to install the metal shield on top of the CPU.

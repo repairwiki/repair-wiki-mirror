@@ -1,0 +1,46 @@
+<!--
+title:        Playstation 4 Pro
+pageid:       836
+revid:        13904
+source:       https://repair.wiki/w/Playstation_4_Pro
+history:      https://repair.wiki/index.php?title=Playstation_4_Pro&action=history
+permalink:    https://repair.wiki/index.php?oldid=13904
+last_edited:  2026-02-08T21:55:20Z
+contributors: Tiago199988, Ben ProFixerr
+anonymous_edits: 0
+categories:   Device, Game Consoles, Sony, Sony Game Consoles, Stubs
+sha1:         ffeee67559f04cb7176a48538b21f2f9a6d1f6d0
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Sony|Device type=Game Console|Device release date=10/11/2016}}
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Ps4 pro.webp|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:NVG-001 PCB APU Side.jpg|NVG-001
+File:NVG-001 PCB RAM Side.jpg|NVG-001
+File:NVB-004.jpg|NVB-004
+File:NVB-004 APU.jpg|NVB-004
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:PS4Pro-HDMI-Mechnic-Readings.jpg|PS4 Pro HDMI Port Diode Mode Readings through Mechanic T-824 Tester
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+Official PlayStation 4 Pro Teardown [https://www.youtube.com/watch?v=euBlNq5kda0]

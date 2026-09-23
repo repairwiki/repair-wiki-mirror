@@ -1,0 +1,18 @@
+<!--
+title:        File:Bbpmu jumpers.png
+pageid:       1439
+revid:        3137
+source:       https://repair.wiki/w/File:Bbpmu_jumpers.png
+history:      https://repair.wiki/index.php?title=File:Bbpmu_jumpers.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=3137
+last_edited:  2024-01-22T08:31:38Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         08490acb0280e03d4a033129f838a2fdc07d1153
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 7 QCOM A1660 BBPMU Jumper Solution

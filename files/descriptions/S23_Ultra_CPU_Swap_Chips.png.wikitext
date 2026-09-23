@@ -1,0 +1,18 @@
+<!--
+title:        File:S23 Ultra CPU Swap Chips.png
+pageid:       2615
+revid:        5235
+source:       https://repair.wiki/w/File:S23_Ultra_CPU_Swap_Chips.png
+history:      https://repair.wiki/index.php?title=File:S23_Ultra_CPU_Swap_Chips.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=5235
+last_edited:  2024-11-10T01:46:52Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         49c4708bd6d98282419b6e4eaf6ea140ebd88bf4
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+These are the 4 critlcal chips for a Samsung S23 Ultra CPU Swap to retain user data

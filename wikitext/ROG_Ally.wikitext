@@ -1,0 +1,46 @@
+<!--
+title:        ROG Ally
+pageid:       2633
+revid:        8740
+source:       https://repair.wiki/w/ROG_Ally
+history:      https://repair.wiki/index.php?title=ROG_Ally&action=history
+permalink:    https://repair.wiki/index.php?oldid=8740
+last_edited:  2025-07-13T23:19:57Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   ASUS, ASUS Game Consoles, Device, Game Consoles, Stubs
+sha1:         763f424c11b64088049d86cc25e5e4648b94ff4a
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=ASUS
+|Device type=Game Console
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:ROG Ally.png|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

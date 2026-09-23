@@ -1,0 +1,17 @@
+<!--
+title:        File:Back view of the IKA Combimag RET.jpg
+pageid:       1729
+revid:        3828
+source:       https://repair.wiki/w/File:Back_view_of_the_IKA_Combimag_RET.jpg
+history:      https://repair.wiki/index.php?title=File:Back_view_of_the_IKA_Combimag_RET.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=3828
+last_edited:  2024-05-21T19:03:34Z
+contributors: Commodus Voke
+anonymous_edits: 0
+categories:   
+sha1:         da39a3ee5e6b4b0d3255bfef95601890afd80709
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+

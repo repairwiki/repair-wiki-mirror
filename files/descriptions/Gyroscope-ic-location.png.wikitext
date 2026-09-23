@@ -1,0 +1,18 @@
+<!--
+title:        File:Gyroscope-ic-location.png
+pageid:       6923
+revid:        10422
+source:       https://repair.wiki/w/File:Gyroscope-ic-location.png
+history:      https://repair.wiki/index.php?title=File:Gyroscope-ic-location.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10422
+last_edited:  2025-08-20T08:04:28Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         80dd24c2922ac6e4e45fea46f1934ae425a87310
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Gyroscope-ic-location

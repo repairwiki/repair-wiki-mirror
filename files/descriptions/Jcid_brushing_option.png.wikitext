@@ -1,0 +1,18 @@
+<!--
+title:        File:Jcid brushing option.png
+pageid:       7354
+revid:        10917
+source:       https://repair.wiki/w/File:Jcid_brushing_option.png
+history:      https://repair.wiki/index.php?title=File:Jcid_brushing_option.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=10917
+last_edited:  2025-08-30T11:44:16Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         ab641064015b55d8489c8817ce60481b0db4124c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Jcid brushing option

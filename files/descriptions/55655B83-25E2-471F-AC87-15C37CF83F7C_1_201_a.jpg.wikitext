@@ -1,0 +1,18 @@
+<!--
+title:        File:55655B83-25E2-471F-AC87-15C37CF83F7C 1 201 a.jpg
+pageid:       6929
+revid:        10429
+source:       https://repair.wiki/w/File:55655B83-25E2-471F-AC87-15C37CF83F7C_1_201_a.jpg
+history:      https://repair.wiki/index.php?title=File:55655B83-25E2-471F-AC87-15C37CF83F7C_1_201_a.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=10429
+last_edited:  2025-08-20T09:05:08Z
+contributors: Samhext
+anonymous_edits: 0
+categories:   
+sha1:         4e4a84e4347b0f2fbb15d8eb5c1f28fc8e0d3ca1
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+nintendo switch backlight circuit locations

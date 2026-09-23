@@ -1,0 +1,18 @@
+<!--
+title:        File:Corrosion15labeled.jpg
+pageid:       533
+revid:        1162
+source:       https://repair.wiki/w/File:Corrosion15labeled.jpg
+history:      https://repair.wiki/index.php?title=File:Corrosion15labeled.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=1162
+last_edited:  2023-11-15T18:31:10Z
+contributors: ASRepairs
+anonymous_edits: 0
+categories:   
+sha1:         02122fc35aa947f74998bdc058a1406c694a0b1c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Corrosion15labeled

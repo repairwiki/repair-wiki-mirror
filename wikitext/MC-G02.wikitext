@@ -1,0 +1,27 @@
+<!--
+title:        MC-G02
+pageid:       3959
+revid:        6868
+source:       https://repair.wiki/w/MC-G02
+history:      https://repair.wiki/index.php?title=MC-G02&action=history
+permalink:    https://repair.wiki/index.php?oldid=6868
+last_edited:  2025-05-16T22:57:23Z
+contributors: Antcz
+anonymous_edits: 0
+categories:   Device
+sha1:         b6b8e33829fee24785fdabca5403c5adcef8489c
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:MC-G02.JPEG|alt=
+</gallery>

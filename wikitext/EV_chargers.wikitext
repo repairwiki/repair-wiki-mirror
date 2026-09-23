@@ -1,0 +1,63 @@
+<!--
+title:        EV chargers
+pageid:       2158
+revid:        5752
+source:       https://repair.wiki/w/EV_chargers
+history:      https://repair.wiki/index.php?title=EV_chargers&action=history
+permalink:    https://repair.wiki/index.php?oldid=5752
+last_edited:  2025-03-01T15:44:45Z
+contributors: ChrisC
+anonymous_edits: 0
+categories:   
+sha1:         7ae8831778e0a2fe79392c609bdd6acca56592ba
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+Note: for easy access, the domain '''[https://www.EVSErepair.org www.EVSErepair.org]''' forwards to this page.
+
+This section documents the design and repair of electric vehicle (EV) charging stations.  The industry term for this equipment is Electric Vehicle Servicing Equipment or EVSE, and includes both Level 1 / 2 charging stations that connect AC electricity to the car, and DC Fast Charging (DCFC) stations that connect DC electricity to the car.
+
+In accordance with this RepairWiki's guidelines, this section should be structured with manufacturers at top (listed on this page), then device models, then documents specific to those models, as illustrated here.  Initially, though, it will skip the extra manufacturer layer, until we start building up a larger body of information.
+
+[[File:Repairwikistructure.png|frameless]]
+
+== Manufacturers / Models ==
+The bulk of the information is in this section.  Click through to the EVSE of interest.
+* [[ClipperCreek HCS series]]
+* [[Tesla HPWC|Tesla High Power Wall Charger (HPWC)]]
+* '''[[JuiceBox]] (all series including the Pro 40)'''
+* [[Shell Recharge]] (formerly Greenlots)
+* [[Ecotality PE-30]] (pedestal version for heavy public use)
+* Sumitomo DCFC (40-50 kW DCFC fielded by Nissan to their dealers in 2010s)
+* [[EVSE template]] for new hardware pages
+
+== Resources ==
+Below are some internet forums where DIY repairs of EVSEs are often discussed.  They represent the earliest adopters of EVs, many of whom were technically minded (engineers or even EEs) and so had no fear of diving in. 
+
+Search of these forums using their own site software often works poorly, so provided here for convenience are links to use Google to search those forums, via the "site:" directive.  After clicking on that search link and getting to a Google search results page, replace the "searchterm" placeholder text with whatever you want to search for (but keep the "site" directive).
+{| class="wikitable"
+|+
+!Forum
+!Google search
+!Notes
+!
+|-
+|[https://teslamotorsclub.com/tmc/forums/-/list TeslaMotorsClub.com]
+| https://www.google.com/search?q=searchterm+site:teslamotorsclub.com
+|
+|
+|-
+|[https://mynissanleaf.com/ MyNissanLeaf.com]
+| https://www.google.com/search?q=searchterm+site:mynissanleaf.com
+|
+|
+|-
+|[https://www.gm-volt.com/forums/ GM-Volt.com]
+| https://www.google.com/search?q=searchterm+site:gm-volt.com
+|
+|
+|}
+== About this wiki ==
+This EV chargers section of Repair.Wiki was created in July 2024 by user [[User:ChrisC|ChrisC]] in order to start building a database of DIY repair knowledge.  For easy access, the domain '''www.EVSErepair.org''' forwards to this page.

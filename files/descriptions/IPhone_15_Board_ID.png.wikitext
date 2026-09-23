@@ -1,0 +1,18 @@
+<!--
+title:        File:IPhone 15 Board ID.png
+pageid:       2333
+revid:        4790
+source:       https://repair.wiki/w/File:IPhone_15_Board_ID.png
+history:      https://repair.wiki/index.php?title=File:IPhone_15_Board_ID.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=4790
+last_edited:  2024-09-03T17:45:42Z
+contributors: VCCBoardRepairs
+anonymous_edits: 0
+categories:   
+sha1:         836511068d88845e957cd9d3d54803d248820319
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPhone 15 Board ID is 1M Ohm for R0812

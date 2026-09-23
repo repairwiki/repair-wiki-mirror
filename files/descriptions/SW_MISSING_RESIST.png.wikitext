@@ -1,0 +1,18 @@
+<!--
+title:        File:SW MISSING RESIST.png
+pageid:       8822
+revid:        12842
+source:       https://repair.wiki/w/File:SW_MISSING_RESIST.png
+history:      https://repair.wiki/index.php?title=File:SW_MISSING_RESIST.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=12842
+last_edited:  2025-11-23T12:43:06Z
+contributors: IamMyron07
+anonymous_edits: 0
+categories:   
+sha1:         2908272969d15cdc47a186412b3b24eae8a51e5b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+SW MISSING RESIST

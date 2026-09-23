@@ -1,0 +1,44 @@
+<!--
+title:        Galaxy A54 5G
+pageid:       3748
+revid:        13485
+source:       https://repair.wiki/w/Galaxy_A54_5G
+history:      https://repair.wiki/index.php?title=Galaxy_A54_5G&action=history
+permalink:    https://repair.wiki/index.php?oldid=13485
+last_edited:  2026-01-01T18:13:26Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         013595bb68fabfb444582a60dd22e00738cd54ea
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{stub}}
+{{Device page
+|Manufacturer=Samsung|Device type=Phone}}
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:A54-5g-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:A54 A546 PCB .jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+File:Galaxy A54 5G USB C readings .jpeg|Galaxy A54 5G USB C readings from working device
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

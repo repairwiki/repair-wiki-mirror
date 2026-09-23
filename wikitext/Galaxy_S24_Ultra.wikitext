@@ -1,0 +1,56 @@
+<!--
+title:        Galaxy S24 Ultra
+pageid:       4007
+revid:        10254
+source:       https://repair.wiki/w/Galaxy_S24_Ultra
+history:      https://repair.wiki/index.php?title=Galaxy_S24_Ultra&action=history
+permalink:    https://repair.wiki/index.php?oldid=10254
+last_edited:  2025-08-16T22:08:10Z
+contributors: VCCBoardRepairs, Tiago199988, Ajimalg82, Jdetawe
+anonymous_edits: 0
+categories:   Device, Phones, Samsung, Samsung Phones, Stubs
+sha1:         ad173e1c3908714f4cfc507e1011bb6337d1c94b
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Samsung
+|Device type=Phone
+}}
+{{stub}}
+
+
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:S24-ultra-768x768.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:2025 06 29 08 45 IMG 8542.JPG|Motherboard side-A
+File:2025 06 29 08 45 IMG 8543.JPG|Motherboard side-B
+File:Galaxy S24 Ultra PCB S928U.jpg|alt=
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:S24 ultra.jpg|alt=
+File:Spen+batt conn.png|alt=
+File:MAIN CAM + TELEPHOTO X3.png|alt=
+File:Ultrawide cam.png|alt=
+File:Display+sub pcb conn.png|alt=
+File:TELEPHOTO 5X-100X.png|alt=
+File:EARSPEAKER + SPEN HOVER.png|alt=
+File:Gsm ant + wireless charger.png|alt=
+File:Fcam.png|alt=
+</gallery>
+
+== More Information/External Sources ==
+<!--
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+-->

@@ -1,0 +1,58 @@
+<!--
+title:        IPhone 6 Plus
+pageid:       1601
+revid:        13514
+source:       https://repair.wiki/w/IPhone_6_Plus
+history:      https://repair.wiki/index.php?title=IPhone_6_Plus&action=history
+permalink:    https://repair.wiki/index.php?oldid=13514
+last_edited:  2026-01-01T20:52:56Z
+contributors: VCCBoardRepairs, Tiago199988
+anonymous_edits: 0
+categories:   Apple, Apple Phones, Device, Phones, Stubs
+sha1:         3993a9ec6f315cca0fa5549d186dcec06fe05f3e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Apple
+|Has code name=A1522, A1524, A1593
+|Device release date=2014-09-19
+|Device type=Phone
+}}
+{{stub}}
+
+
+==Guides==
+{{List Guides}}
+
+==Device pictures==
+<gallery showthumbnails="1">
+File:Iphone 6 plus-mul.png|alt=
+</gallery>
+
+==PCB pictures==
+<gallery showthumbnails="1">
+File:Iphone 6 plus backside.png|alt=
+File:Iphone 6 plus top side.png|alt=
+</gallery>
+
+==Reference measurements (also schematics if available)==
+<gallery showthumbnails="1">
+File:6Plus Display connector (J2019).jpg|iPhone 6 Plus display connector. Top right goes to top of the board, under the rear camera.
+File:6 Plus Touch Connector (J2401).jpg|iPhone 6 Plus touch connector. Top right goes to top of the board, under the camera.
+File:Charge port - dockflex Connector (J1817).jpg|iPhone 6 Plus charge port / dock flex connector. Bottom left goes to edge of the board, next to bottom of the battery.
+File:Home button, TouchID Connector (J2118).jpg|iPhone 6 Plus home button connector. Top left corner goes to top right of the board, under the rear camera.
+File:Rear camera Connector (J2321).jpg|iPhone 6 Plus rear camera connector. Top right goes to top of the board, under the rear camera
+File:Front camera, proximity sensor, earspeaker, ambient light sensor connector (J1111).jpg|iPhone 6 Plus front camera, proximity sensor, ambient light sensor, earspeaker connector. Top right goes to top edge of the board, under the rear camera.
+File:Cumulus Diode Values.PNG|Cumulus Diode Values
+File:Meson Diode Values.PNG|Meson Diode Values
+File:Tristar Diode Values.PNG|Tristar Diode Values
+File:IPhone 6.jpg|Home Button Diode Values
+</gallery>
+
+==More Information/External Sources==
+You can manually link to external sources for additional information that might not fit here but are useful such as BIOS image dumps, firmware, etc!
+
+iPhone 6 Plus Schematics: https://www.sendspace.com/file/9mqiqf

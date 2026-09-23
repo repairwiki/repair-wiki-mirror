@@ -1,0 +1,135 @@
+---
+title: "Epson ELPDC21 Debugging UART"
+pageid: 1084
+revid: 2521
+kind: explanatory_guide
+source: "https://repair.wiki/w/Epson_ELPDC21_Debugging_UART"
+history: "https://repair.wiki/index.php?title=Epson_ELPDC21_Debugging_UART&action=history"
+permalink: "https://repair.wiki/index.php?oldid=2521"
+last_edited: "2024-01-14T15:42:26Z"
+contributors:
+  - "Pandrew"
+anonymous_edits: 0
+categories:
+  - "Explanatory guide"
+  - "Explanatory guides for Epson ELPDC21"
+infobox:
+  Device: "Epson ELPDC21"
+  Type: "Troubleshooting/Diagnostics"
+  Difficulty: "3. Hard"
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# Epson ELPDC21 Debugging UART
+
+Collecting UART output can be very helpful with debugging problems.
+
+![UART signals can be sampled here](images/9/91/Epson_elpdc21_document_camera_uart_signals.jpg)
+
+# When the camera is not connected
+(this output could also be caused by the big connector in the camera head working itself loose)
+
+Note that the below messages make it look like there's a problem with the THP7312, or with the SPI connections between the Main CPU and the THP7312, but in fact these messages can show up on a fully working board when the camera is disconnected.
+ [    9.650558] thp7312_mipi 0-0060: download_firmware: retry
+ [    9.669828] thp7312_spi spi32766.0: thp7312_spi_write a0d43000 131072
+ [   17.290555] thp7312_mipi 0-0060: download_firmware: retry
+ [   17.309827] thp7312_spi spi32766.0: thp7312_spi_write a0d43000 131072
+ [   24.930553] thp7312_mipi 0-0060: download_firmware: retry
+ [   24.934951] thp7312_mipi: download failed
+
+# When the CPU cannot talk to the THP7312 over I2C
+The communication with the THP7312 might fail for various reasons, but one could be caused by the I2C line being held at some voltage by some other device. This can also happen if one of the connections to the camera head is loose.
+
+Notice the extra "0xf001 read failed" message.
+
+(Note that this has been observed when the big connector in the camera head was partially disconnected)
+ [    3.680024] thp7312_mipi 0-0060: 0xf001 read failed
+ [    3.681260] thp7312_mipi 0-0060: download_firmware: retry
+ [    3.699819] thp7312_spi spi32766.0: thp7312_spi_write a0d43000 131072
+ [    5.350018] thp7312_mipi 0-0060: 0xf001 read failed
+ [    5.351254] thp7312_mipi 0-0060: download_firmware: retry
+ [    5.369815] thp7312_spi spi32766.0: thp7312_spi_write a0d43000 131072
+ [    7.020018] thp7312_mipi 0-0060: 0xf001 read failed
+ [    7.021252] thp7312_mipi 0-0060: download_firmware: retry
+ [    7.025649] thp7312_mipi: download failed
+
+# When the camera flex cable is disconnected inside the camera head
+ [    3.680518] thp7312_mipi 0-0060: A fatal error occured on ISP. Abort.
+ [    3.682246] thp7312_mipi: download failed
+
+# A good full successful boot looks like this
+ U-Boot 2013.04 (Dec 11 2017 - 20:43:29)
+
+ CPU:   Freescale i.MX6Q rev1.5 at 792 MHz
+ CPU:   Temperature 20 C, calibration data: 0x57e4f169
+ Reset cause: POR
+ Board: ELPDC21
+ DRAM:  512 MiB
+ NAND:  512 MiB
+ Using default environment
+
+ In:    serial
+ Out:   serial
+ Err:   serial
+ Normal Boot
+ Hit any key to stop autoboot:  0
+ offset 0x80000, size 0x800
+  2048 bytes read : OK
+ offset 0x80800, size 0xb14800
+  11618304 bytes read : OK
+ offset 0xb95000, size 0xa800
+  43008 bytes read : OK
+ offset 0xb9f800, size 0x382800
+  3680256 bytes read : OK
+ ## Transferring control to Linux (at address 10008000)...
+
+ Starting kernel ...
+
+ Uncompressing Linux... done, booting the kernel.
+ [    1.189873] mxc_sdc_fb fb.19: config ch:MEM_BG_SYNC pixfmt:UYVY base:1c100000 xres:1920 yres:1080 stride:3840
+ [    1.190643] mxc_sdc_fb fb.19: fix: smem_start:1c100000 smem_len:4147200 line_length:3840
+ [    1.190658] mxc_sdc_fb fb.19: var: xres:1920 yres:1080 xres_virtual:1920 yres_virtual:1080 xoffset:0 yoffset:0
+ [    1.201649] mxc_sdc_fb fb.19: fb: alloc 1c500000 4161536
+ [    1.211920] mxc_sdc_fb fb.19: fb: alloc 1c900000 4161536
+ [    1.224721] mxc_sdc_fb fb.19: fb: alloc 1cd00000 4161536
+ [    1.796576] UBI assert failed in ubi_wl_init at 1971 (pid 1)
+ send: 's'
+ recv: B
+ [    1.916396] thp7312_mipi 0-0060: thp7312_probe
+ [    1.917684] thp7312_spi spi32766.0: thp7312_spi_probe
+ [    1.922469] mxc-vfb vfb.22: mxc_vfb_probe
+ [    1.969297] mxc-vfb vfb.23: mxc_vfb_probe
+ [    1.976874] mxc_v4l2_master_attach: ifname matched thp7312_mipi thp7312_mipi
+ [    1.979051] mxc-vfb vfb.24: mxc_vfb_probe
+ [    1.986200] mxc-vfb vfb.25: mxc_vfb_probe
+ [    2.001935] mxc-vfb vfb.26: mxc_vfb_probe
+ [    2.009847] thp7312_spi spi32766.0: thp7312_spi_write a0d44000 131072
+
+ Processing /etc/profile...
+ # [    3.650582] thp7312_mipi 0-0060: download_firmware done
+ [    3.910598] ep_csi_enc_deselect
+ [    4.969883] mxc_sdc_fb fb.19: config ch:MEM_BG_SYNC pixfmt:UYVY base:1c100000 xres:1920 yres:1080 stride:3840
+ [    4.970428] mxc_hdmi 20e0000.hdmi_video: mxc_hdmi_setup
+ [    4.970435] mxc_hdmi 20e0000.hdmi_video: mxc_hdmi_setup - video mode changed
+ [    4.970449] mxc_hdmi 20e0000.hdmi_video: CEA mode used vic=16
+ [    4.970465] mxc_hdmi 20e0000.hdmi_video: mxc_hdmi_setup CEA mode
+ [    4.970518] mxc_hdmi 20e0000.hdmi_video: mxc_hdmi_setup exit
+ [    4.970518]
+ [    5.379899] video4linux video0: b[0]:25800000 b[1]:25c00000 b[2]:0
+ [   4.082]95.95:CameraControl.cpp(87):initial frame count: 0
+
+ (gst-plugin-scanner:102): GStreamer-CRITICAL **: gst_element_class_add_pad_template: assertion `GST_IS_PAD_TEMPLATE (templ)' failed
+ MFW_GST_V4LSRC_PLUGIN 4.0.2 build on Dec 11 2017 20:56:46.
+ IPU_CSC_CORE_LIBRARY_VERSION_INFOR_01.00.
+ MFW_GST_IPU_CSC_PLUGIN 4.0.2 build on Dec 11 2017 20:56:55.
+ QFont::setPixelSize: Pixel size <= 0 (-1)
+ [    7.455568] mxc_hdmi 20e0000.hdmi_video: mxc_hdmi_setup
+ [    7.455575] mxc_hdmi 20e0000.hdmi_video: mxc_hdmi_setup - video mode changed
+ [    7.455588] mxc_hdmi 20e0000.hdmi_video: CEA mode used vic=16
+ [    7.455603] mxc_hdmi 20e0000.hdmi_video: mxc_hdmi_setup CEA mode
+ [    7.455655] mxc_hdmi 20e0000.hdmi_video: mxc_hdmi_setup exit
+ [    7.455655]
+ [    8.899892] mxc_sdc_fb fb.19: config ch:MEM_BG_SYNC pixfmt:UYVY base:1c100000 xres:1920 yres:1080 stride:3840
+ [    8.954111] mxc_sdc_fb fb.19: config ch:MEM_FG_SYNC pixfmt:RGBP base:1d100000 xres:1920 yres:1080 stride:3840

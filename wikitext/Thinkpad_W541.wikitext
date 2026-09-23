@@ -1,0 +1,46 @@
+<!--
+title:        Thinkpad W541
+pageid:       696
+revid:        13001
+source:       https://repair.wiki/w/Thinkpad_W541
+history:      https://repair.wiki/index.php?title=Thinkpad_W541&action=history
+permalink:    https://repair.wiki/index.php?oldid=13001
+last_edited:  2025-12-01T23:45:42Z
+contributors: ASRepairs, Pandrew, Tiago199988
+anonymous_edits: 1
+categories:   Device, Laptops, Lenovo, Lenovo Laptops, Stubs
+sha1:         e84663324110962990731a90ce71a8243a2776ff
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+{{Device page
+|Manufacturer=Lenovo
+|Has code name=W541
+|Device type=Laptop
+}}
+{{stub}}
+== Guides ==
+{{List Guides}}
+
+== Device pictures ==
+<gallery showthumbnails="1">
+File:Thinkpad W541.webp|alt=
+</gallery>
+
+== PCB pictures ==
+<gallery showthumbnails="1">
+File:Example pcb pictures.jpg
+</gallery>
+
+== Reference measurements (also schematics if available) ==
+<gallery showthumbnails="1">
+File:Example measurement pictures.jpg
+</gallery>
+
+== More Information/External Sources ==
+=== Potential pitfalls ===
+* The motherboard will not turn on without the I/O SubCard connected. Actually it will turn on and then immediately assert -PWRSHUTDOWN, which will cause the first mosfet (Q9) to immediately go off. This is most likely because the subcard has a power switch or regulator on it that is turned on by the VCC5MUBAY_DRV signal, and then the EC expects VCC5MUBAY to go high, and when it doesn't see it go high, it assumes something is wrong and turns off. Temporarily shorting TP28(VCC5M_IO_PWR-) to TP29(VCC5MUBAY) allows the motherboard to turn on even without the I/O SubCard.
+* When flashing the BIOS using a SOIC clip, the programmer device needs to strongly drive the HOLD# pin high. A 5.6kOhm pull-up was not strong enough. A dead short worked successfully.
+* The 4MiB and 8MiB BIOS flash chips share MISO/MOSI/SCK lines. When programming them using a SOIC clip, it has been observed that often the CS# line of the other chip has a low enough voltage and that the other chip could be considered selected as well. This did not cause a reading/programming failure so far, but if any issues are observed in the future, then it may be worth forcing the CS# line of the other chip high.

@@ -1,0 +1,86 @@
+---
+title: "2010 A1297 MacBook Pro randomly beeps and randomly will boot but kernel panics repair"
+pageid: 2632
+revid: 5264
+kind: other
+source: "https://repair.wiki/w/2010_A1297_MacBook_Pro_randomly_beeps_and_randomly_will_boot_but_kernel_panics_repair"
+history: "https://repair.wiki/index.php?title=2010_A1297_MacBook_Pro_randomly_beeps_and_randomly_will_boot_but_kernel_panics_repair&action=history"
+permalink: "https://repair.wiki/index.php?oldid=5264"
+last_edited: "2024-11-16T06:42:39Z"
+contributors:
+  - "XTA"
+anonymous_edits: 0
+categories:
+  - "Repair guide"
+  - "Repair guides for MacBook Pro A1297"
+  - "Stubs"
+infobox:
+licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
+snapshot: "2026-09-23"
+generated: true
+---
+
+# 2010 A1297 MacBook Pro randomly beeps and randomly will boot but kernel panics repair
+
+## Problem description
+50 / 50 chance the machine will either not boot with 3 beeps or will boot but kernel panics very fast often just after the boot screen when making it to the macOS login screen. Sometimes one socket is better than the other and will allow the OS to fully boot but doing anything CPU or RAM intensive will quickly crash the machine causing it to kernel panic.
+![J2900 - RAM Socket on 820-2849](images/8/8c/9efc5365bdb3b45a06a4d1ea071551a9.png)
+
+## Symptoms
+- When the machine kernel panics, the report shows mp-kdp-enter 13, 1, 4 TIMED OUT WAITING for NMI-ACK
+- The symptoms of the machine booting sometimes and other times giving 3 beeps happens on the exact same tested good RAM without removing it.
+- Sometimes one slot is better than the other and will allow the machine to make it into the OS and it will work doing light tasks however if you do anything CPU or RAM intensive the machine immediately or very quickly there after crashes and kernel panics.
+- Machine randomly just turns off and boots to the kernel panic screen
+- Not a symptom but if the machine has been dropped on one of it's bottom corners this guide is VERY likely the solution.
+- Red distortion or red border on display
+
+## Solution
+In this guide, I am going to use a case of this issue I was able to fix, this isn't always fixable. In cases where this issue is repairable resoldering the RAM socket is the way to fix this issue.
+
+As mentioned a huge sign this is your issue is if the machine has a dent in either the left or right bottom corner, this issue normally occurs after the machine has been dropped causing the solder on the pins of the RAM socket to crack or disconnect the pins from the board.
+
+As noted sometimes this isn't fixable because the RAM socket doesn't always come good after being resoldered, this can happen for 2 reasons, sometimes when the machine is dropped, the solder holding the pins of the RAM socket in, pulls away from the board removing the pad with them, other times your guess is as good as mine unless you want to sit there with a multimeter for hours checking 210 pins, the sockets pins could very well be internally broken and thereby meaning the only way to fix this issue is to replace the socket, these sockets are almost (if not) impossible to get and removing the socket from a donor board is going to leave you with a mess of melted plastic, I am sure some person somewhere once was able to remove one of these sockets without ruining it but trust me this isn't worth it by any means.
+
+Also I want to point this out since people seem to love putting logic boards in ovens to "fix" them, Putting your board in a dam oven WON'T fix this issue because you would need enough heat to melt every single connector including the RAM socket from the oven to even start to flow the solder on these pins, you cannot reflow these pins because you'd need enough hot air to melt the connector to the point it's unusable, there's no short cut here, the only way to do this properly is with a preheater and soldering iron to resolder all the pins.
+
+### Diagnostic Steps
+Test the machine with 1 RAM stick, normally if one socket is better than the other it will be the top one. If you start being able to get further in the boot process with one than you know the socket that will likely be savable. Ideally you want the top one to be your good one. Also another thing of note, most of the time if both your RAM slots are faulty but it will sometimes boot from either, only the better of the 2 will work after this repair, most of the time the worse of the 2 will now just always beep and never boot and the good one will always boot and never beep. You're better off with one that works completely then 2 that barely work and crash the machine all the time.
+
+If you can make it into the OS, run geekbench 4 CPU benchmark, if this is the issue it will ALWAYS crash running this test, normally about half way through.
+
+Obviously if it boots fine with 1 stick, then leave the board alone and just max it out on one socket, this is no easy feat and not worth doing and potentially making the issue worse when most of the time you cannot save the other socket.
+
+If both sockets are no better than each other there's a good chance this sadly won't be repairable, however nothing to lose right?
+
+### Repair Steps
+Again I am going to give my warning, don't do this if you have one good socket! This is a difficult time consuming repair and sometimes it takes multiple attempts at resoldering the socket to get even 1 socket to work on a board that has both damaged. Sometimes during those attempts the board gets worse before it gets better, attempting this on a board with 1 good socket might result in you having 0 good sockets afterwards. This repair should only be attempted when you have nothing to lose and both sockets are bad.
+
+That being said, this is a difficult repair, please don't attempt this as a beginner, you can make the board unfixable if you mess up. Often even if you don't ruin the board you will knock off 0201 components and will need a microscope and donor board to put these components back in place.
+
+This is an opinion but I have experience to back it, I wouldn't bother attempting this repair without a preheater, this is a vast area of the logic board and a high pin count socket, this area of the board dissipates heat very quickly and soldering the pins without the board being heated from a preheater is like the meme of the man pushing the bolder up a mountain, it would take hours because they constantly will bridge and you will then need to use hot air and your soldering iron to un-bridge them while you probably melt the socket and trust me from experience it probably won't even work. You need the heat from the preheater to correctly flow solder from the pin to the pad.
+
+Step 1) Set the board up on the preheater
+
+I find 170°C to be the perfect temperature in combination with 350°C on the soldering iron however if needed you can go higher. If you have a stereo microscope with an arm that will allow you to put your microscope well above the heat of the preheater and zoom down to look at the socket it makes this a lot easier as you will be able to see if bridges occur, they happen even with the preheater but in most cases you can't actually use the microscope for the repair because you would need the board to be on an angle.
+
+Step 2) Resolder the bottom side of the socket.
+
+Remove the black sticker over the pins and apply flux, use leaded solder and your soldering iron (Don't use a pencil for this because you need the wattage of a big iron, use a flat small tip if possible), carefully solder each pin back down to the board with leaded solder, do this until each pin is molten to ensure a good joint. You need to do this with as minimal solder as possible otherwise you will just bridge them all together, ideally use thin solder and do pin by pin. Imagine you are soldering a MASSIVE LVDS connector except here bridges are MUCH harder to remove and most of the time using solder wick will just become a part of the pins :). Quick tip if you need to remove bridges after the preheater use hot air (Pointed away from the socket onto the ground plane of the board nearby at low air speed) and solder wick AND the soldering iron (I know 3 hands would be amazing right?), place the solder wick right next to the pins but not on them and use hot air to heat the pins and the iron to make the solder molten so the molten solder will be sucked up by the wick and flow the rest onto all the other pins using drag soldering.
+
+Step 3) Solder the top pins
+
+Depending on the board and in most cases on the A1297 from 2010 these pins aren't soldered from factory on the top side, however doing so will give you A) a better chance the top socket works after the repair and B) will make the socket more sturdy. Same thing as the bottom, less huge components in the way however more 0201 caps in the way that are easy to knock off
+
+Step 3) Clean the board and pray
+
+Now if you've done this all correctly you have a chance it might work! Maybe. Clean all the flux over the RAM socket and Infront of it with isopropyl alcohol to avoid it creating noisy signals. Inspect your resoldered pins under the microscope with something propping the board up, ensure there are no bridges (if so use my tip from step 2), make sure all the pins look good and fix any that don't. Once done clean the board again (You will almost always have to fix something up), now it's time to reassemble the machine for testing and pray at least one of the slots work properly again. If you are lucky one slot or very lucky both will now work again, if you are unlucky it won't, sometimes if you repeat this process you will get 1 to work, sometimes you can solder the socket until the cows come home and nothing will change.
+
+If you boot the board up and have a fuzzy red tint or border on the display, you haven't done this correctly and need to go back and do it again.
+
+Step 4) Ultrasonic the board
+
+VERY important to not miss this step, you are going to have nasty burnt flux sitting right under and inside the RAM socket, you have to clean this as flux can cause issues especially when it dry's, it can even become conductive. Make sure you ultrasonic the board with some good ultrasonic solution (obviously mixed with distilled water, I use MG Chemicals Flux-Off! Aqueous), give the board an IPA bath and dry it fully (I dry the IPA off and chuck ultrasoniced boards in a food dehydrator at 70c for a couple of hours which does the trick perfectly)
+
+And done! If you haven't thrown the board across the room, turned 210 pins into just two, knocked off all the DDR caps off the board, melted the socket to where it's unusable or said screw this, you should hopefully have a working machine! Maybe ;)
+
+All in all, this repair is a 50 / 50 shot at being successful but this is a repair that when it works, it works really well and I've saved logic boards with this repair that continued to work for years afterwards, to do everything perfectly and carefully would take HOURS, if you don't get it first go, do it again and hope it works. I wouldn't do this on anything less than an A1297, I've swapped CPU's off logic boards onto others in cases where I wanted to save a better specced machine over doing this.

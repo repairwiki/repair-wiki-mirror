@@ -1,0 +1,18 @@
+<!--
+title:        File:IPad Pro 3rd Touch Circuit.jpg
+pageid:       5474
+revid:        8708
+source:       https://repair.wiki/w/File:IPad_Pro_3rd_Touch_Circuit.jpg
+history:      https://repair.wiki/index.php?title=File:IPad_Pro_3rd_Touch_Circuit.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=8708
+last_edited:  2025-07-13T21:52:17Z
+contributors: Tiago199988
+anonymous_edits: 0
+categories:   
+sha1:         2653536cccbba55d7685d0147ce8b4b52d6ae40e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+-->
+
+iPad Pro 3rd Touch Circuit
