@@ -1,0 +1,39 @@
+{
+ "added": [],
+ "changed": [],
+ "renamed": [],
+ "deleted": [],
+ "became_redirect": [],
+ "namespaces": {
+  "templates": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "modules": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "file_pages": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  }
+ },
+ "images_added": 0,
+ "images_changed": 0,
+ "red_links": [
+  "Ylod.png"
+ ],
+ "newly_excluded": [],
+ "no_longer_excluded": [],
+ "missing": [],
+ "note": "README rewritten: why the mirror exists, the CC BY-SA 3.0 obligations for anyone building on it, and support for the Repair Preservation Group. The repository now lives at github.com/repairwiki/repair-wiki-mirror."
+}

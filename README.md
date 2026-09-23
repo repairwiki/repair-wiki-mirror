@@ -1,16 +1,39 @@
 # repair-wiki-mirror
 
-A weekly, verbatim mirror of the text of [repair.wiki](https://repair.wiki)
-(Repair Preservation Group), licensed CC BY-SA 3.0. See `ATTRIBUTION.md` and `LICENSE`.
+A weekly, verbatim copy of the text of [Repair Wiki](https://repair.wiki), the
+community repair knowledge base run by the
+[Repair Preservation Group](https://fighttorepair.org/).
 
-## What it is
+## Why this exists
+
+When repair.wiki is down, slow, or unreachable, people lose access to the guide
+they were in the middle of following, sometimes with a device open on the bench.
+This mirror keeps a faithful copy of the wiki's text so that work can continue,
+and so the knowledge is preserved in a second place with its full history.
+
+Everything here is the wiki's own content under the
+[Creative Commons Attribution-ShareAlike 3.0 licence](https://creativecommons.org/licenses/by-sa/3.0/)
+(CC BY-SA 3.0), the licence the wiki publishes under. Every file names the
+contributors who wrote it, links back to the original page, and carries the
+licence. If you build internal tools on this repository, you must respect that
+licence: keep the attribution, link to the source, and share anything you derive
+from it under the same terms. `ATTRIBUTION.md` sets out exactly what that means.
+
+We support the Repair Preservation Group and the people who write these guides.
+If this mirror is useful to you, please consider
+[donating to the Repair Preservation Group](https://fighttorepair.org/donate/501c4/),
+and contribute your own fixes on [repair.wiki](https://repair.wiki) itself, where they
+help everyone. This mirror is not affiliated with or endorsed by the Repair
+Preservation Group.
+
+## What is in the repository
 
 - `wikitext/` — every main-namespace page, one file per page: a comment header
   (title, ids, URLs, contributors, categories, sha1, licence) then a blank line,
   then the page's wikitext exactly as the wiki holds it. The `sha1` in the header
   is the wiki's own `rvprop=sha1` for that revision and matches the body.
-- `templates/`, `files/descriptions/` — Template: and File: description pages,
-  same format. `modules/` appears only if the wiki has Lua modules.
+- `templates/`, `modules/`, `files/descriptions/` — Template:, Module: and File:
+  description pages, same format.
 - `redirects.json` — main-namespace redirects, title to target.
 - `manifest.json` — one record per published page (ids, revision, size, sha1,
   kind, infobox, categories, contributors, images, first seen, captured).
@@ -21,6 +44,8 @@ A weekly, verbatim mirror of the text of [repair.wiki](https://repair.wiki)
   the URL of our copy.
 - `build/markdown/`, `build/pages.jsonl` — a cleaned, derived build (below).
 - `snapshots/<date>.json` — what each snapshot changed. `CHANGELOG.md` — one line per snapshot.
+- Tags `snapshot/<date>` mark each snapshot, so the corpus as it stood on any date
+  can be checked out.
 
 ## What it is not
 
@@ -43,31 +68,16 @@ are indexed but not copied. The cleaned build links images by the relative path
 ## The cleaned build
 
 `build/markdown/<same name>.md` and `build/pages.jsonl` are regenerated in full on
-every run by a deterministic converter: the structural template becomes YAML front
-matter / `infobox`; `{{stub}}` is dropped; `{{List Guides}}` becomes a generated
-list; `[[File:X|thumb|caption]]` and galleries become images with their captions;
-wikitables become Markdown tables; `[[A|B]]` becomes `[B](A.md)`; external links
-are left as they are. `thin: true` marks pages with under 40 words of prose.
+every snapshot by a deterministic converter: the structural template becomes YAML
+front matter / `infobox`; `{{stub}}` is dropped; `{{List Guides}}` becomes a
+generated list; `[[File:X|thumb|caption]]` and galleries become images with their
+captions; wikitables become Markdown tables; `[[A|B]]` becomes `[B](A.md)`;
+external links are left as they are. `thin: true` marks pages with under 40 words
+of prose.
 
 ## The junk rule
 
 A page is excluded only when all five hold: no structural template, no heading,
 no image, no wikilink or URL, and exactly one named contributor who has no other
-page and no anonymous edits. Re-evaluated every run. `excluded.json` lists the
+page and no anonymous edits. Re-evaluated every snapshot. `excluded.json` lists the
 result.
-
-## Refresh and history
-
-A job on our Pi captures the wiki every Friday at 19:00 UTC. It lists every live
-page (`allpages` with `prop=info`), diffs by page id and revision id against
-`manifest.json`, fetches only what changed, verifies every fetched revision
-against the API's size and sha1, refreshes contributors, images and the build,
-and commits once per snapshot that changed anything, tagged `snapshot/<date>`.
-Renames are `git mv`; deletions are committed (the content stays in history and
-in the previous tag). Commits are never amended, squashed or force-pushed; a
-capture bug is fixed forward in the next snapshot. The `captured` field says
-which snapshot last fetched a page; unchanged pages keep their files byte for
-byte.
-
-The job's source is the `repair-wiki-mirror` stack in
-https://github.com/rikibakerrepaircms/phone-price-trackers — see its README to reproduce a capture.
