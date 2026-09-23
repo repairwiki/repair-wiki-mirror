@@ -8,7 +8,7 @@ permalink:    https://repair.wiki/index.php?oldid=55
 last_edited:  2023-09-17T17:00:57Z
 contributors: Admin
 anonymous_edits: 0
-categories:   
+categories:   Help
 sha1:         30e501fdc28d1c357f92246a563e68dd9d7c4cbe
 licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
 attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,

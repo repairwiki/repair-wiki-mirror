@@ -38483,7 +38483,10 @@
    "size": 579,
    "sha1": "f6314b1a2e859c07af40c98274302fd3e1afb8f1",
    "file": "templates/Device_page%2FExample.wikitext",
-   "categories": [],
+   "categories": [
+    "Device",
+    "Stubs"
+   ],
    "contributors": [
     "Admin",
     "ASRepairs"
@@ -38500,7 +38503,9 @@
    "size": 2230,
    "sha1": "30e501fdc28d1c357f92246a563e68dd9d7c4cbe",
    "file": "templates/H%3Atitle.wikitext",
-   "categories": [],
+   "categories": [
+    "Help"
+   ],
    "contributors": [
     "Admin"
    ],
@@ -38532,7 +38537,9 @@
    "size": 30,
    "sha1": "1f4e81ff6cde08574d1e129593a3b6a8aa99a00b",
    "file": "templates/Manufacturer_page%2FExample.wikitext",
-   "categories": [],
+   "categories": [
+    "Manufacturer"
+   ],
    "contributors": [
     "Admin"
    ],
@@ -38548,7 +38555,10 @@
    "size": 880,
    "sha1": "50d0ab7171ab253156dffade551dd474c4150e1b",
    "file": "templates/Repair_Guide%2FExample.wikitext",
-   "categories": [],
+   "categories": [
+    "Repair guide",
+    "Stubs"
+   ],
    "contributors": [
     "Admin",
     "ASRepairs",
@@ -38598,7 +38608,9 @@
    "size": 248,
    "sha1": "1b7ffd2411dc4b4d62875dc607136b4a1919ce3c",
    "file": "templates/Stub.wikitext",
-   "categories": [],
+   "categories": [
+    "Formatting templates"
+   ],
    "contributors": [
     "Admin",
     "ASRepairs",
@@ -38616,7 +38628,9 @@
    "size": 201,
    "sha1": "5626fefe314dfeb2a761f88d0455ca3960a98903",
    "file": "templates/Editlink.wikitext",
-   "categories": [],
+   "categories": [
+    "Formatting templates"
+   ],
    "contributors": [
     "Admin"
    ],
@@ -38683,7 +38697,9 @@
    "size": 21,
    "sha1": "dafb5c568a037789e0eac9508d90997c5a777172",
    "file": "templates/Explanatory_Guide%2FExample.wikitext",
-   "categories": [],
+   "categories": [
+    "Explanatory guide"
+   ],
    "contributors": [
     "ASRepairs"
    ],
@@ -38731,7 +38747,9 @@
    "size": 96,
    "sha1": "91a1297b2c1a0e084e239067bc28b137d57fc609",
    "file": "templates/TOC_Right.wikitext",
-   "categories": [],
+   "categories": [
+    "Formatting templates"
+   ],
    "contributors": [
     "ASRepairs"
    ],

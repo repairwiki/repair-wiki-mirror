@@ -8,7 +8,7 @@ permalink:    https://repair.wiki/index.php?oldid=14259
 last_edited:  2026-09-22T22:53:44Z
 contributors: Admin, ASRepairs, ContentBot
 anonymous_edits: 1
-categories:   
+categories:   Formatting templates
 sha1:         1b7ffd2411dc4b4d62875dc607136b4a1919ce3c
 licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
 attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
