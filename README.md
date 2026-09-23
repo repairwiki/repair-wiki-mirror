@@ -38,7 +38,7 @@ Preservation Group.
   infobox, sections, clean Markdown, links, images, contributors). `manifest.json` is the
   index of every page; `files/index.json` lists every image with its URL.
 - **Get an image.** Take its URL from `files/index.json`, or prefix the relative
-  `images/...` path used in the Markdown with `https://repair-wiki-mirror.repairminder.com/`.
+  `images/...` path used in the Markdown with `https://media.wiki.thirdparty.repair/`.
 - **Go back in time.** Every snapshot is a tag: `git checkout snapshot/2026-09-23` gives you
   the wiki as it stood that day, and `git log -p wikitext/<Title>.wikitext` shows how a page
   changed. `snapshots/` and `CHANGELOG.md` say what each snapshot changed.
@@ -77,7 +77,7 @@ derived and no language model is involved anywhere.
 ## Images
 
 Images are not committed. Every image referenced by a published page is copied,
-unchanged, to `https://repair-wiki-mirror.repairminder.com/images/<x>/<xy>/<Name>`
+unchanged, to `https://media.wiki.thirdparty.repair/images/<x>/<xy>/<Name>`
 (the wiki's own hashed path), and `files/index.json` carries that URL beside the
 original. Objects are never deleted; when the wiki replaces a file the previous
 bytes are kept under `archive/<sha1>/<Name>`. Files the wiki hosts but no page uses

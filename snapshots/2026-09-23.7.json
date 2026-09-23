@@ -1,0 +1,39 @@
+{
+ "added": [],
+ "changed": [],
+ "renamed": [],
+ "deleted": [],
+ "became_redirect": [],
+ "namespaces": {
+  "templates": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "modules": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "file_pages": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  }
+ },
+ "images_added": 2797,
+ "images_changed": 0,
+ "red_links": [
+  "Ylod.png"
+ ],
+ "newly_excluded": [],
+ "no_longer_excluded": [],
+ "missing": [],
+ "note": "images moved: every referenced image now served from https://media.wiki.thirdparty.repair (bucket wiki-media on the thirdparty.repair account) instead of repair-wiki-mirror.repairminder.com. Bytes unchanged; only files/index.json URLs and build/pages.jsonl image URLs differ."
+}
