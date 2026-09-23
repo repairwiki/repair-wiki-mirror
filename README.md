@@ -26,6 +26,25 @@ and contribute your own fixes on [repair.wiki](https://repair.wiki) itself, wher
 help everyone. This mirror is not affiliated with or endorsed by the Repair
 Preservation Group.
 
+## How to use this
+
+- **Read a page.** Find the page's title on repair.wiki, swap spaces for underscores,
+  and open `wikitext/<Title>.wikitext` for the exact source, or
+  `build/markdown/<Title>.md` for a readable version with the guide lists filled in.
+  The header at the top of each file tells you who wrote it and where it came from.
+- **Search.** Use GitHub's search box, or clone the repository and
+  `grep -ril "no service" wikitext/`.
+- **Use it in a tool.** `build/pages.jsonl` has one JSON object per page (title, kind,
+  infobox, sections, clean Markdown, links, images, contributors). `manifest.json` is the
+  index of every page; `files/index.json` lists every image with its URL.
+- **Get an image.** Take its URL from `files/index.json`, or prefix the relative
+  `images/...` path used in the Markdown with `https://repair-wiki-mirror.repairminder.com/`.
+- **Go back in time.** Every snapshot is a tag: `git checkout snapshot/2026-09-23` gives you
+  the wiki as it stood that day, and `git log -p wikitext/<Title>.wikitext` shows how a page
+  changed. `snapshots/` and `CHANGELOG.md` say what each snapshot changed.
+- **Reuse something.** Keep the file's header (or credit the contributors it names), link to
+  the page on repair.wiki, and release your work under CC BY-SA 3.0.
+
 ## What is in the repository
 
 - `wikitext/` — every main-namespace page, one file per page: a comment header
