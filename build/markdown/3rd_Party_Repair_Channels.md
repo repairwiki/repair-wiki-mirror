@@ -1,23 +1,24 @@
 ---
 title: "3rd Party Repair Channels"
 pageid: 568
-revid: 13520
+revid: 14273
 kind: other
 source: "https://repair.wiki/w/3rd_Party_Repair_Channels"
 history: "https://repair.wiki/index.php?title=3rd_Party_Repair_Channels&action=history"
-permalink: "https://repair.wiki/index.php?oldid=13520"
-last_edited: "2026-01-01T21:10:45Z"
+permalink: "https://repair.wiki/index.php?oldid=14273"
+last_edited: "2026-10-01T23:07:37Z"
 contributors:
   - "ASRepairs"
   - "Tiago199988"
   - "Liquid"
   - "LetUsRepair"
+  - "Yrian"
 anonymous_edits: 1
 categories:
   - "General Repair Guides"
 infobox:
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-09-23"
+snapshot: "2026-10-01"
 generated: true
 ---
 
@@ -76,7 +77,7 @@ These channels are not endorsed in any way. Do not blindly trust everything you 
 - [https://www.youtube.com/channel/UChwnFBBtasi2kn2TDK5OsWg Buy it Fix it] (Electronics Repair)
 
 #### C
-- [https://www.youtube.com/channel/UCkla_diIysF6d0qxTSx4h-w Calebe Rodrigues] (Espanol)
+- [https://www.youtube.com/channel/UCkla_diIysF6d0qxTSx4h-w Calebe Rodrigues] (Portuguese, Mostly graphics card board repair)
 - [https://www.youtube.com/channel/UCq9nKrdgNXKsYQp3YK6kHkQ Cambo Fixing]
 - [https://youtube.com/c/CanadianComputerCollector CanadianComputerCollector] (Retro Computer Repair, Mainly Apple Computers)
 - [https://youtube.com/user/Capman550 Capman550]

@@ -1,5 +1,5 @@
 {
- "snapshot": "2026-09-23",
+ "snapshot": "2026-10-01",
  "generator": "MediaWiki 1.43.9",
  "licence": "CC BY-SA 3.0",
  "pages": [
@@ -7493,10 +7493,10 @@
   {
    "title": "3rd Party Repair Channels",
    "pageid": 568,
-   "revid": 13520,
-   "last_edited": "2026-01-01T21:10:45Z",
-   "size": 29839,
-   "sha1": "110634e5c90de852961462a95a0ff1fd9cb907df",
+   "revid": 14273,
+   "last_edited": "2026-10-01T23:07:37Z",
+   "size": 29877,
+   "sha1": "d84d6c08606d0ccbda7b73361b992d129be4b7cf",
    "file": "wikitext/3rd_Party_Repair_Channels.wikitext",
    "kind": "other",
    "infobox": {},
@@ -7507,12 +7507,13 @@
     "ASRepairs",
     "Tiago199988",
     "Liquid",
-    "LetUsRepair"
+    "LetUsRepair",
+    "Yrian"
    ],
    "anonymous_edits": 1,
    "images": [],
    "first_seen": "2026-09-23",
-   "captured": "2026-09-23",
+   "captured": "2026-10-01",
    "excluded": false
   },
   {
