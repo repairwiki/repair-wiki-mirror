@@ -10531,10 +10531,10 @@
   {
    "title": "Steam Deck",
    "pageid": 856,
-   "revid": 7544,
-   "last_edited": "2025-06-10T06:47:56Z",
-   "size": 3828,
-   "sha1": "c2c17a1b9657b27607fe16e4d4ea65aa6cf6b035",
+   "revid": 14280,
+   "last_edited": "2026-10-02T21:51:47Z",
+   "size": 4136,
+   "sha1": "bcc17760ebb4ddb27a2aa02ab826b393c56d639c",
    "file": "wikitext/Steam_Deck.wikitext",
    "kind": "other",
    "infobox": {},
@@ -10551,7 +10551,8 @@
     "Tiago199988",
     "HaileyKitty",
     "Kenroman",
-    "DawidMurawski"
+    "DawidMurawski",
+    "Shroudeddemotion"
    ],
    "anonymous_edits": 0,
    "images": [
@@ -10570,13 +10571,16 @@
     "MODE-switch.jpg",
     "Steamdeck.jpeg",
     "Fan_pinout.jpg",
+    "SteamDeckOledDisplayFPC.png",
+    "SteamDeckOledControllerFPC.png",
+    "BATT.png",
     "Steam_Deck_LCD_F7A_Ram_Power_Supply_Diode_and_Idle_Voltage.png",
     "Steam_Deck_LCD_F7A_Ram_Power_Supply_Removed.png",
     "Steam_Deck_LCD_F7A_Ram_Power_Supply_Lines.png",
     "Steam_Deck_LCD_F7A_Ram_Power_Supply_Backside_Circuit_Diode_and_Voltage_Readings.png"
    ],
    "first_seen": "2026-09-23",
-   "captured": "2026-09-23",
+   "captured": "2026-10-02",
    "excluded": false
   },
   {
@@ -89431,6 +89435,54 @@
    "categories": [],
    "contributors": [
     "JCow"
+   ],
+   "anonymous_edits": 0,
+   "first_seen": "2026-10-02",
+   "captured": "2026-10-02"
+  },
+  {
+   "title": "File:BATT.png",
+   "pageid": 9851,
+   "revid": 14277,
+   "last_edited": "2026-10-02T20:03:04Z",
+   "size": 104,
+   "sha1": "894a040fff164af978915db65e3f19fb1d5fc79f",
+   "file": "files/descriptions/BATT.png.wikitext",
+   "categories": [],
+   "contributors": [
+    "Shroudeddemotion"
+   ],
+   "anonymous_edits": 0,
+   "first_seen": "2026-10-02",
+   "captured": "2026-10-02"
+  },
+  {
+   "title": "File:SteamDeckOledControllerFPC.png",
+   "pageid": 9852,
+   "revid": 14278,
+   "last_edited": "2026-10-02T20:09:39Z",
+   "size": 96,
+   "sha1": "dc051f7b743242dfe9a9781324b29c062430d361",
+   "file": "files/descriptions/SteamDeckOledControllerFPC.png.wikitext",
+   "categories": [],
+   "contributors": [
+    "Shroudeddemotion"
+   ],
+   "anonymous_edits": 0,
+   "first_seen": "2026-10-02",
+   "captured": "2026-10-02"
+  },
+  {
+   "title": "File:SteamDeckOledDisplayFPC.png",
+   "pageid": 9853,
+   "revid": 14279,
+   "last_edited": "2026-10-02T20:13:00Z",
+   "size": 75,
+   "sha1": "eecf09689815e58fd2e34619152f514ecdaa9878",
+   "file": "files/descriptions/SteamDeckOledDisplayFPC.png.wikitext",
+   "categories": [],
+   "contributors": [
+    "Shroudeddemotion"
    ],
    "anonymous_edits": 0,
    "first_seen": "2026-10-02",

@@ -1,0 +1,60 @@
+{
+ "added": [],
+ "changed": [
+  {
+   "pageid": 856,
+   "title": "Steam Deck",
+   "revid": 14280
+  }
+ ],
+ "renamed": [],
+ "deleted": [],
+ "became_redirect": [],
+ "namespaces": {
+  "templates": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "modules": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "file_pages": {
+   "added": [
+    {
+     "pageid": 9851,
+     "title": "File:BATT.png",
+     "revid": 14277
+    },
+    {
+     "pageid": 9852,
+     "title": "File:SteamDeckOledControllerFPC.png",
+     "revid": 14278
+    },
+    {
+     "pageid": 9853,
+     "title": "File:SteamDeckOledDisplayFPC.png",
+     "revid": 14279
+    }
+   ],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  }
+ },
+ "images_added": 3,
+ "images_changed": 0,
+ "red_links": [
+  "Ylod.png"
+ ],
+ "newly_excluded": [],
+ "no_longer_excluded": [],
+ "missing": []
+}

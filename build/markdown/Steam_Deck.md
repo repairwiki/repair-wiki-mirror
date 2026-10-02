@@ -1,12 +1,12 @@
 ---
 title: "Steam Deck"
 pageid: 856
-revid: 7544
+revid: 14280
 kind: other
 source: "https://repair.wiki/w/Steam_Deck"
 history: "https://repair.wiki/index.php?title=Steam_Deck&action=history"
-permalink: "https://repair.wiki/index.php?oldid=7544"
-last_edited: "2025-06-10T06:47:56Z"
+permalink: "https://repair.wiki/index.php?oldid=14280"
+last_edited: "2026-10-02T21:51:47Z"
 contributors:
   - "ASRepairs"
   - "VCCBoardRepairs"
@@ -14,6 +14,7 @@ contributors:
   - "HaileyKitty"
   - "Kenroman"
   - "DawidMurawski"
+  - "Shroudeddemotion"
 anonymous_edits: 0
 categories:
   - "Device"
@@ -23,7 +24,7 @@ categories:
   - "Valve Game Consoles"
 infobox:
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-09-23"
+snapshot: "2026-10-02"
 generated: true
 ---
 
@@ -60,6 +61,9 @@ generated: true
 ![Schematic for the mode-switch circuit to switch the MCU to programming mode - rev B board (Renesas MCU)](images/8/87/MODE-switch.jpg)
 ![SteamDeck OLED USB C Readings from working device](images/d/dd/Steamdeck.jpeg)
 ![Fan connector pinout. There could be vias under the 5V pad (red) and the blue pad](images/4/4c/Fan_pinout.jpg)
+![Diode readings on the display output connector of a working steam deck](images/1/1e/SteamDeckOledDisplayFPC.png)
+![Reverse diode readings on the HID/input connector of a working steam deck](images/d/db/SteamDeckOledControllerFPC.png)
+![Reverse diode readings on the battery connector of a working steam deck](images/d/d1/BATT.png)
 
 ![Steam Deck LCD F7A Ram Power Supply Diode and Idle Voltage.png](images/c/cc/Steam_Deck_LCD_F7A_Ram_Power_Supply_Diode_and_Idle_Voltage.png)
 ![Steam Deck LCD F7A Ram Power Supply Removed.png](images/4/40/Steam_Deck_LCD_F7A_Ram_Power_Supply_Removed.png)

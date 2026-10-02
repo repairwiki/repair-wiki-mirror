@@ -1,18 +1,18 @@
 <!--
 title:        Steam Deck
 pageid:       856
-revid:        7544
+revid:        14280
 source:       https://repair.wiki/w/Steam_Deck
 history:      https://repair.wiki/index.php?title=Steam_Deck&action=history
-permalink:    https://repair.wiki/index.php?oldid=7544
-last_edited:  2025-06-10T06:47:56Z
-contributors: ASRepairs, VCCBoardRepairs, Tiago199988, HaileyKitty, Kenroman, DawidMurawski
+permalink:    https://repair.wiki/index.php?oldid=14280
+last_edited:  2026-10-02T21:51:47Z
+contributors: ASRepairs, VCCBoardRepairs, Tiago199988, HaileyKitty, Kenroman, DawidMurawski, Shroudeddemotion
 anonymous_edits: 0
 categories:   Device, Game Consoles, Stubs, Valve, Valve Game Consoles
-sha1:         c2c17a1b9657b27607fe16e4d4ea65aa6cf6b035
+sha1:         bcc17760ebb4ddb27a2aa02ab826b393c56d639c
 licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
 attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
-              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-02.
 -->
 
 {{stub}}
@@ -36,7 +36,7 @@ File:REV B left back mux.jpg|ButtonBoard Rev. B - L back side
 </gallery>
 
 ==Reference measurements (also schematics if available)==
-<gallery caption="Thermal Pad size<gallery&amp;amp;gt; File:Thermal pad size on Steam Deck LCD Motherboard.png|Thermal pad size on Steam Deck LCD Motherboard. left (blue): charging ic pad, 5.4mm x 5.4mm x 4.5-5mm (squishy) </gallery&amp;amp;gt;Schematics of the rev. B controller board (incomplete)">
+<gallery caption="Thermal Pad size<gallery&amp;amp;amp;gt; File:Thermal pad size on Steam Deck LCD Motherboard.png|Thermal pad size on Steam Deck LCD Motherboard. left (blue): charging ic pad, 5.4mm x 5.4mm x 4.5-5mm (squishy) </gallery&amp;amp;amp;gt;Schematics of the rev. B controller board (incomplete)">
 File:Power.jpg|Power delivery IC of the rev B controller board
 File:Right trigger.jpg|Right trigger circuit of the rev B controller board
 File:RA4E1.jpg|Some connections of the RA4E1 MCU of the rev B controller board
@@ -47,6 +47,9 @@ File:FFC Connectors.jpg|FFC connectors (USB and connection to L board) of the re
 File:MODE-switch.jpg|Schematic for the mode-switch circuit to switch the MCU to programming mode - rev B board (Renesas MCU)
 File:Steamdeck.jpeg|SteamDeck OLED USB C Readings from working device
 File:Fan pinout.jpg|Fan connector pinout. There could be vias under the 5V pad (red) and the blue pad
+File:SteamDeckOledDisplayFPC.png|Diode readings on the display output connector of a working steam deck
+File:SteamDeckOledControllerFPC.png|Reverse diode readings on the HID/input connector of a working steam deck
+File:BATT.png|Reverse diode readings on the battery connector of a working steam deck
 </gallery><gallery showthumbnails="1">
 File:Steam Deck LCD F7A Ram Power Supply Diode and Idle Voltage.png
 File:Steam Deck LCD F7A Ram Power Supply Removed.png

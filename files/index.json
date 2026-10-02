@@ -13319,6 +13319,22 @@
   ],
   "referenced": true
  },
+ "BATT.png": {
+  "sha1": "809a965137c577c35518f000235f8c03dffeb06c",
+  "size": 1653863,
+  "mime": "image/png",
+  "width": 794,
+  "height": 1123,
+  "source_url": "https://repair.wiki/images/d/d1/BATT.png",
+  "url": "https://media.wiki.thirdparty.repair/images/d/d1/BATT.png",
+  "uploader": "Shroudeddemotion",
+  "author": null,
+  "uploaded": "2026-10-02T20:03:04Z",
+  "pages": [
+   "Steam Deck"
+  ],
+  "referenced": true
+ },
  "BATT_CONN.png": {
   "sha1": "0d4b3dcf9fc1f34d75373dbe24e6f33c21c3dee4",
   "size": 518605,
@@ -45297,6 +45313,38 @@
   "uploaded": "2025-09-02T01:13:46Z",
   "pages": [
    "How To Repair iPhone 13 to 16 pro max Proximity sensor not working"
+  ],
+  "referenced": true
+ },
+ "SteamDeckOledControllerFPC.png": {
+  "sha1": "ac140a500a698fb01b79820b141356ea9301a11d",
+  "size": 1339788,
+  "mime": "image/png",
+  "width": 794,
+  "height": 1123,
+  "source_url": "https://repair.wiki/images/d/db/SteamDeckOledControllerFPC.png",
+  "url": "https://media.wiki.thirdparty.repair/images/d/db/SteamDeckOledControllerFPC.png",
+  "uploader": "Shroudeddemotion",
+  "author": null,
+  "uploaded": "2026-10-02T20:09:39Z",
+  "pages": [
+   "Steam Deck"
+  ],
+  "referenced": true
+ },
+ "SteamDeckOledDisplayFPC.png": {
+  "sha1": "56ec1f275dfdb8c7b51c22b9dbf07199b76be54c",
+  "size": 1407926,
+  "mime": "image/png",
+  "width": 794,
+  "height": 1123,
+  "source_url": "https://repair.wiki/images/1/1e/SteamDeckOledDisplayFPC.png",
+  "url": "https://media.wiki.thirdparty.repair/images/1/1e/SteamDeckOledDisplayFPC.png",
+  "uploader": "Shroudeddemotion",
+  "author": null,
+  "uploaded": "2026-10-02T20:13:00Z",
+  "pages": [
+   "Steam Deck"
   ],
   "referenced": true
  },

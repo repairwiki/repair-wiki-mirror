@@ -1,0 +1,19 @@
+<!--
+title:        File:SteamDeckOledDisplayFPC.png
+pageid:       9853
+revid:        14279
+source:       https://repair.wiki/w/File:SteamDeckOledDisplayFPC.png
+history:      https://repair.wiki/index.php?title=File:SteamDeckOledDisplayFPC.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=14279
+last_edited:  2026-10-02T20:13:00Z
+contributors: Shroudeddemotion
+anonymous_edits: 0
+categories:   
+sha1:         eecf09689815e58fd2e34619152f514ecdaa9878
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-02.
+-->
+
+== Summary ==
+The Steam Deck Oled display FPC with diode readings overlaid.

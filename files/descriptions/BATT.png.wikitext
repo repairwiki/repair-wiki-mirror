@@ -1,0 +1,20 @@
+<!--
+title:        File:BATT.png
+pageid:       9851
+revid:        14277
+source:       https://repair.wiki/w/File:BATT.png
+history:      https://repair.wiki/index.php?title=File:BATT.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=14277
+last_edited:  2026-10-02T20:03:04Z
+contributors: Shroudeddemotion
+anonymous_edits: 0
+categories:   
+sha1:         894a040fff164af978915db65e3f19fb1d5fc79f
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-02.
+-->
+
+== Summary ==
+Steam Deck OLED battery connector with diode readings overlaid. 
+OL - Open line/no reading
