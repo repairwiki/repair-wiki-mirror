@@ -1,5 +1,5 @@
 {
- "snapshot": "2026-10-01",
+ "snapshot": "2026-10-02",
  "generator": "MediaWiki 1.43.9",
  "licence": "CC BY-SA 3.0",
  "pages": [
@@ -508,10 +508,10 @@
   {
    "title": "MacBook Pro A2251 20V on USB-C, 0.00-0.01A current draw repair",
    "pageid": 72,
-   "revid": 518,
-   "last_edited": "2023-10-29T15:28:16Z",
-   "size": 1252,
-   "sha1": "9a2d269c86b57e1045a750ff08bf30d49c22144d",
+   "revid": 14276,
+   "last_edited": "2026-10-02T14:58:18Z",
+   "size": 1163,
+   "sha1": "afb6acde3205da880c1ac439f0af9e7b72d90891",
    "file": "wikitext/MacBook_Pro_A2251_20V_on_USB-C%2C_0.00-0.01A_current_draw_repair.wikitext",
    "kind": "repair_guide",
    "infobox": {
@@ -527,14 +527,16 @@
     "Stubs"
    ],
    "contributors": [
-    "ASRepairs"
+    "ASRepairs",
+    "JCow"
    ],
    "anonymous_edits": 0,
    "images": [
-    "Placeholder_image.jpg"
+    "Microscope_Picture_of_U7800.jpg",
+    "Microscope_Picture_of_R8050.jpg"
    ],
    "first_seen": "2026-09-23",
-   "captured": "2026-09-23",
+   "captured": "2026-10-02",
    "excluded": false
   },
   {
@@ -89401,6 +89403,38 @@
    "anonymous_edits": 0,
    "first_seen": "2026-09-23",
    "captured": "2026-09-23"
+  },
+  {
+   "title": "File:Microscope Picture of U7800.jpg",
+   "pageid": 9849,
+   "revid": 14274,
+   "last_edited": "2026-10-02T14:51:14Z",
+   "size": 50,
+   "sha1": "e864a483299633b86cadc7009fcd5374211954e3",
+   "file": "files/descriptions/Microscope_Picture_of_U7800.jpg.wikitext",
+   "categories": [],
+   "contributors": [
+    "JCow"
+   ],
+   "anonymous_edits": 0,
+   "first_seen": "2026-10-02",
+   "captured": "2026-10-02"
+  },
+  {
+   "title": "File:Microscope Picture of R8050.jpg",
+   "pageid": 9850,
+   "revid": 14275,
+   "last_edited": "2026-10-02T14:52:59Z",
+   "size": 78,
+   "sha1": "8a86ed2aab89a17c22f6cfc798fa8536b9c1f53e",
+   "file": "files/descriptions/Microscope_Picture_of_R8050.jpg.wikitext",
+   "categories": [],
+   "contributors": [
+    "JCow"
+   ],
+   "anonymous_edits": 0,
+   "first_seen": "2026-10-02",
+   "captured": "2026-10-02"
   }
  ]
 }

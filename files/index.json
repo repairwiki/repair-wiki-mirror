@@ -33265,6 +33265,38 @@
   "pages": [],
   "referenced": false
  },
+ "Microscope_Picture_of_R8050.jpg": {
+  "sha1": "3f90ebf81406a78924b990b7a08413cfb1f1334c",
+  "size": 463727,
+  "mime": "image/jpeg",
+  "width": 1805,
+  "height": 1016,
+  "source_url": "https://repair.wiki/images/b/b8/Microscope_Picture_of_R8050.jpg",
+  "url": "https://media.wiki.thirdparty.repair/images/b/b8/Microscope_Picture_of_R8050.jpg",
+  "uploader": "JCow",
+  "author": null,
+  "uploaded": "2026-10-02T14:52:59Z",
+  "pages": [
+   "MacBook Pro A2251 20V on USB-C, 0.00-0.01A current draw repair"
+  ],
+  "referenced": true
+ },
+ "Microscope_Picture_of_U7800.jpg": {
+  "sha1": "af69e25df86c1b6585dbc8df3bb1dca990f26e22",
+  "size": 463046,
+  "mime": "image/jpeg",
+  "width": 1920,
+  "height": 1080,
+  "source_url": "https://repair.wiki/images/b/b5/Microscope_Picture_of_U7800.jpg",
+  "url": "https://media.wiki.thirdparty.repair/images/b/b5/Microscope_Picture_of_U7800.jpg",
+  "uploader": "JCow",
+  "author": null,
+  "uploaded": "2026-10-02T14:51:14Z",
+  "pages": [
+   "MacBook Pro A2251 20V on USB-C, 0.00-0.01A current draw repair"
+  ],
+  "referenced": true
+ },
  "Microsoft-xbox-next-720_1369193238_1200_1200_overflow.jpg": {
   "sha1": "1f197538eeeeec3854a8fbfc93c3dadebebca3a0",
   "size": 53696,
@@ -38338,7 +38370,6 @@
    "MacBook Pro A2159 Not turning on, drawing 0.03-0.06A at 20V repair",
    "MacBook Pro A2159 Not turning on, fluctuating current draw 0.03-0.1A at 20V repair",
    "MacBook Pro A2159 Touchbar brightly flashes following shut down or login repair",
-   "MacBook Pro A2251 20V on USB-C, 0.00-0.01A current draw repair",
    "MacBook Pro A2251 Not turning on, 0.23-0.31A current draw at 5V Cycling or not cycling repair",
    "MacBook Pro A2251 Not turning on, static 0.03-0.06A current draw at 20V repair",
    "MacBook Pro A2251 no Backlight on display repair",

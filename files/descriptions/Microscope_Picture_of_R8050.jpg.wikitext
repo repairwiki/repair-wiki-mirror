@@ -1,0 +1,18 @@
+<!--
+title:        File:Microscope Picture of R8050.jpg
+pageid:       9850
+revid:        14275
+source:       https://repair.wiki/w/File:Microscope_Picture_of_R8050.jpg
+history:      https://repair.wiki/index.php?title=File:Microscope_Picture_of_R8050.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=14275
+last_edited:  2026-10-02T14:52:59Z
+contributors: JCow
+anonymous_edits: 0
+categories:   
+sha1:         8a86ed2aab89a17c22f6cfc798fa8536b9c1f53e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-02.
+-->
+
+Microscope Picture of R8050 with a red square around the actual resistor part.

@@ -1,14 +1,15 @@
 ---
 title: "MacBook Pro A2251 20V on USB-C, 0.00-0.01A current draw repair"
 pageid: 72
-revid: 518
+revid: 14276
 kind: repair_guide
 source: "https://repair.wiki/w/MacBook_Pro_A2251_20V_on_USB-C,_0.00-0.01A_current_draw_repair"
 history: "https://repair.wiki/index.php?title=MacBook_Pro_A2251_20V_on_USB-C,_0.00-0.01A_current_draw_repair&action=history"
-permalink: "https://repair.wiki/index.php?oldid=518"
-last_edited: "2023-10-29T15:28:16Z"
+permalink: "https://repair.wiki/index.php?oldid=14276"
+last_edited: "2026-10-02T14:58:18Z"
 contributors:
   - "ASRepairs"
+  - "JCow"
 anonymous_edits: 0
 categories:
   - "Repair guide"
@@ -21,15 +22,16 @@ infobox:
   Type: "Soldering"
   Difficulty: "3. Hard"
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-09-23"
+snapshot: "2026-10-02"
 generated: true
 ---
 
 # MacBook Pro A2251 20V on USB-C, 0.00-0.01A current draw repair
 
 ## Problem description
-Dealing with a MacBook (820-01949) showing 20V on USB-C with a current draw of 0.00-0.01A.![U7800 (Figure 1) -- No image yet. Help expand this page by uploading it](images/3/30/Placeholder_image.jpg)
-![R8050 (Figure 2) -- No image yet. Help expand this page by uploading it](images/3/30/Placeholder_image.jpg)
+Dealing with a MacBook (820-01949) showing 20V on USB-C with a current draw of 0.00-0.01A.
+![U7800 (Figure 1)](images/b/b5/Microscope_Picture_of_U7800.jpg)
+![R8050 (Figure 2)](images/b/b8/Microscope_Picture_of_R8050.jpg)
 
 ## Symptoms
 - MacBook displaying 20V on USB-C ammeter

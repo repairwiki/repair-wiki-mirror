@@ -1,0 +1,55 @@
+{
+ "added": [],
+ "changed": [
+  {
+   "pageid": 72,
+   "title": "MacBook Pro A2251 20V on USB-C, 0.00-0.01A current draw repair",
+   "revid": 14276
+  }
+ ],
+ "renamed": [],
+ "deleted": [],
+ "became_redirect": [],
+ "namespaces": {
+  "templates": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "modules": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "file_pages": {
+   "added": [
+    {
+     "pageid": 9849,
+     "title": "File:Microscope Picture of U7800.jpg",
+     "revid": 14274
+    },
+    {
+     "pageid": 9850,
+     "title": "File:Microscope Picture of R8050.jpg",
+     "revid": 14275
+    }
+   ],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  }
+ },
+ "images_added": 2,
+ "images_changed": 0,
+ "red_links": [
+  "Ylod.png"
+ ],
+ "newly_excluded": [],
+ "no_longer_excluded": [],
+ "missing": []
+}
