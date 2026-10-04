@@ -1,19 +1,19 @@
 ---
 title: "TP-Link PX50 Hissing Noise Failure Repair"
 pageid: 9809
-revid: 14209
+revid: 14281
 kind: other
 source: "https://repair.wiki/w/TP-Link_PX50_Hissing_Noise_Failure_Repair"
 history: "https://repair.wiki/index.php?title=TP-Link_PX50_Hissing_Noise_Failure_Repair&action=history"
-permalink: "https://repair.wiki/index.php?oldid=14209"
-last_edited: "2026-03-28T02:44:58Z"
+permalink: "https://repair.wiki/index.php?oldid=14281"
+last_edited: "2026-10-04T21:51:35Z"
 contributors:
   - "M32"
 anonymous_edits: 0
 categories:
 infobox:
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-09-23"
+snapshot: "2026-10-04"
 generated: true
 ---
 
@@ -47,7 +47,7 @@ Step 3. Extract the PCB assembly. Pull the PCB assembly straight out.
 Step 4. Locate the bulging electrolytic capacitors and remove. The capacitors may have some silastic adhering them to each the board and each other. The silastic is likely dry and no longer sticky at this point. Carefully break it away and discard while being very careful not to rip or knock off any of the microscopic surface mount components nearby. Desolder and discard the failed capacitors. Location of capacitors that failed for me are circled in red below.
 ![TP-Link PX50 hissing capacitors.](images/2/20/IMG_0909.jpeg)
 
-Step 5. Install replacement capacitors. Clean the pads and insert the replacement capacitors, seating them against the PCB. Negative (longer) leg of each goes to the outside edge of the PCB. Solder on the capacitors, being mindful of the small SMDs nearby. Trim the legs and apply fresh silastic between the capacitors and anchoring them to the PCB.
+Step 5. Install replacement capacitors. Clean the pads and insert the replacement capacitors, seating them against the PCB. Negative (shorter) leg of each goes to the outside edge of the PCB. Solder on the capacitors, being mindful of the small SMDs nearby. Trim the legs and apply fresh silastic between the capacitors and anchoring them to the PCB.
 ![Replacement capacitors installed with silastic](images/7/74/IMG_0911.jpeg)
 
 Note: The replacement capacitors I used are a slightly taller form factor and a little wider leg spacing but worked with no problem since there is enough room in the case.
