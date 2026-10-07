@@ -1,0 +1,18 @@
+<!--
+title:        File:PCB.jpg
+pageid:       9854
+revid:        14282
+source:       https://repair.wiki/w/File:PCB.jpg
+history:      https://repair.wiki/index.php?title=File:PCB.jpg&action=history
+permalink:    https://repair.wiki/index.php?oldid=14282
+last_edited:  2026-10-07T16:58:53Z
+contributors: INeedMoreLumens
+anonymous_edits: 0
+categories:   
+sha1:         2bf68d10de229aa74320a85974f275efeaa393bd
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-07.
+-->
+
+Bottom of PCB

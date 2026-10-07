@@ -35999,6 +35999,20 @@
   ],
   "referenced": true
  },
+ "PCB.jpg": {
+  "sha1": "283f375494167d6153aa3a6f7331219a990dc5bd",
+  "size": 2639074,
+  "mime": "image/jpeg",
+  "width": 3427,
+  "height": 4280,
+  "source_url": "https://repair.wiki/images/d/d8/PCB.jpg",
+  "url": null,
+  "uploader": "INeedMoreLumens",
+  "author": null,
+  "uploaded": "2026-10-07T16:58:53Z",
+  "pages": [],
+  "referenced": false
+ },
  "PCIe_Slot_Pinout.jpg": {
   "sha1": "e57911d2209a533a4ed88c7996e22070b9988b67",
   "size": 217621,

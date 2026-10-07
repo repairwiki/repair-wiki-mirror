@@ -1,14 +1,15 @@
 ---
 title: "MegaFlow 50"
 pageid: 7711
-revid: 11355
+revid: 14284
 kind: other
 source: "https://repair.wiki/w/MegaFlow_50"
 history: "https://repair.wiki/index.php?title=MegaFlow_50&action=history"
-permalink: "https://repair.wiki/index.php?oldid=11355"
-last_edited: "2025-09-07T00:26:47Z"
+permalink: "https://repair.wiki/index.php?oldid=14284"
+last_edited: "2026-10-07T22:45:36Z"
 contributors:
   - "Pandapip1"
+  - "INeedMoreLumens"
 anonymous_edits: 0
 categories:
   - "Device"
@@ -18,7 +19,7 @@ categories:
   - "Wolfbox Electric Air Dusters"
 infobox:
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-09-23"
+snapshot: "2026-10-07"
 generated: true
 ---
 

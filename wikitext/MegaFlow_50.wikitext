@@ -1,18 +1,18 @@
 <!--
 title:        MegaFlow 50
 pageid:       7711
-revid:        11355
+revid:        14284
 source:       https://repair.wiki/w/MegaFlow_50
 history:      https://repair.wiki/index.php?title=MegaFlow_50&action=history
-permalink:    https://repair.wiki/index.php?oldid=11355
-last_edited:  2025-09-07T00:26:47Z
-contributors: Pandapip1
+permalink:    https://repair.wiki/index.php?oldid=14284
+last_edited:  2026-10-07T22:45:36Z
+contributors: Pandapip1, INeedMoreLumens
 anonymous_edits: 0
 categories:   Device, Electric Air Dusters, Stubs, Wolfbox, Wolfbox Electric Air Dusters
-sha1:         7ecfb1078ed85a08e1041b6159e03dad9a08c314
+sha1:         3038c97774013391a841a9cbd35b2aa897f2fd9c
 licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
 attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
-              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-09-23.
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-07.
 -->
 
 {{stub}}
@@ -27,7 +27,6 @@ attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed
 File:Wolfbox MF50.jpg|A partially disassembled Wolfbox MF50
 File:Wolfbox MF50 with cover removed.jpg|Wolfbox MF50 with cover removed, showing battery and the circuit board
 </gallery>
-
 == PCB pictures ==
 <gallery showthumbnails="1">
 </gallery>

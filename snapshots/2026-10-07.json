@@ -1,0 +1,50 @@
+{
+ "added": [],
+ "changed": [
+  {
+   "pageid": 7711,
+   "title": "MegaFlow 50",
+   "revid": 14284
+  }
+ ],
+ "renamed": [],
+ "deleted": [],
+ "became_redirect": [],
+ "namespaces": {
+  "templates": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "modules": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "file_pages": {
+   "added": [
+    {
+     "pageid": 9854,
+     "title": "File:PCB.jpg",
+     "revid": 14282
+    }
+   ],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  }
+ },
+ "images_added": 0,
+ "images_changed": 0,
+ "red_links": [
+  "Ylod.png"
+ ],
+ "newly_excluded": [],
+ "no_longer_excluded": [],
+ "missing": []
+}
