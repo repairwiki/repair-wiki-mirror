@@ -1,12 +1,12 @@
 ---
 title: "Steam Deck - dump/modify controller board firmware"
 pageid: 2519
-revid: 5113
+revid: 14285
 kind: other
 source: "https://repair.wiki/w/Steam_Deck_-_dump/modify_controller_board_firmware"
 history: "https://repair.wiki/index.php?title=Steam_Deck_-_dump/modify_controller_board_firmware&action=history"
-permalink: "https://repair.wiki/index.php?oldid=5113"
-last_edited: "2024-10-24T09:16:37Z"
+permalink: "https://repair.wiki/index.php?oldid=14285"
+last_edited: "2026-10-09T07:02:34Z"
 contributors:
   - "DawidMurawski"
 anonymous_edits: 0
@@ -16,7 +16,7 @@ categories:
   - "Stubs"
 infobox:
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-09-23"
+snapshot: "2026-10-09"
 generated: true
 ---
 
@@ -24,6 +24,10 @@ generated: true
 
 ## WARNING! Only modify the firmware of the controller board, if you know what you are doing or are willig to sacrifice the controller board/Steam Deck. Modifications to the firmware can cause damage to the Software/Hardware of the controller board/Steam Deck.
 ## Necessary Software:
+UPDATE (09.10.2026): There is now a tool that backups your firmware automatically. Firmware is stored in bin format so no trimming of the SREC file is necessary. I recommend this one:
+
+https://github.com/syberphunk/steamdeck-controller-collect/
+
 All tools can be found in SteamOS under
 
 - /usr/share/jupiter_controller_fw_updater*
@@ -133,7 +137,23 @@ At the beginning, there is the bootloader area (see boot_ra_Release.srec).
 
 Between 0x00008000 and 0x00040000 sits the application data (see RA_APP_REL_6670771D.bin).
 
-Between 0x08000000 and 0x08002000 there is provisioning and calibration data.
+Between 0x08000000 and 0x08002000 sits the calibration data and provisioning.
+
+The serial number for your mainboard (in addition to the serial number in the BIOS) and your controller board is also stored here. The Deck can run without serial numbers, but automatic firmware/BIOS updates might not run (also you cannot access the device info on the steam page from the deck; shopping/installing games etc. works, so no worries), if there is no serial number (might be good for custom BIOS/firmware).
+
+If you make any changes, you need to recalculate and write the Checksum (CRC-32 / Ethernet (IEEE 802.3); little endian) for each region.
+
+IMPORTANT: The checksum not standard zlib.crc32)
+
+For some (to be found out) reason it is calculated with an additional XOR at the end.
+
+Example:
+
+import zlib
+
+crc = zlib.crc32(data, 0xFFFFFFFF) ^ 0xFFFFFFFF
+
+Should you accidentally delete your serial data (like I did; I actually broke and replaced the MCU during modding), you can restore it that way. You will need to calculate the checksum for the region 0x08000004 to 0x080000FF (252 bytes; including BEEFFACE magic, version, 0x29, both serial numbers and the 0xFF remainder). The checksum goes is stored in the first four bytes of region 0x08000000 (4 bytes, little endian).
 
 There is also some other data. I have not figured out what is what.
 
