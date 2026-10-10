@@ -1,5 +1,5 @@
 {
- "snapshot": "2026-10-09",
+ "snapshot": "2026-10-10",
  "generator": "MediaWiki 1.43.9",
  "licence": "CC BY-SA 3.0",
  "pages": [
@@ -10531,17 +10531,20 @@
   {
    "title": "Steam Deck",
    "pageid": 856,
-   "revid": 14280,
-   "last_edited": "2026-10-02T21:51:47Z",
-   "size": 4136,
-   "sha1": "bcc17760ebb4ddb27a2aa02ab826b393c56d639c",
+   "revid": 14286,
+   "last_edited": "2026-10-10T07:11:51Z",
+   "size": 4612,
+   "sha1": "7e773b3ee592b343beffe2e4c115ae247aadc551",
    "file": "wikitext/Steam_Deck.wikitext",
-   "kind": "other",
-   "infobox": {},
+   "kind": "device",
+   "infobox": {
+    "Manufacturer": "Valve",
+    "Device release date": "February 25, 2022",
+    "Device type": "Game Console"
+   },
    "categories": [
     "Device",
     "Game Consoles",
-    "Stubs",
     "Valve",
     "Valve Game Consoles"
    ],
@@ -10561,6 +10564,7 @@
     "Example_pcb_pictures.jpg",
     "R_Board_REV_B_back_-_R1_test_point.jpg",
     "REV_B_left_back_mux.jpg",
+    "Thermal_pad_size_on_Steam_Deck_LCD_Motherboard.png",
     "Power.jpg",
     "Right_trigger.jpg",
     "RA4E1.jpg",
@@ -10570,17 +10574,17 @@
     "FFC_Connectors.jpg",
     "MODE-switch.jpg",
     "Steamdeck.jpeg",
-    "Fan_pinout.jpg",
     "SteamDeckOledDisplayFPC.png",
     "SteamDeckOledControllerFPC.png",
     "BATT.png",
+    "Fan_pinout.jpg",
     "Steam_Deck_LCD_F7A_Ram_Power_Supply_Diode_and_Idle_Voltage.png",
     "Steam_Deck_LCD_F7A_Ram_Power_Supply_Removed.png",
     "Steam_Deck_LCD_F7A_Ram_Power_Supply_Lines.png",
     "Steam_Deck_LCD_F7A_Ram_Power_Supply_Backside_Circuit_Diode_and_Voltage_Readings.png"
    ],
    "first_seen": "2026-09-23",
-   "captured": "2026-10-02",
+   "captured": "2026-10-10",
    "excluded": false
   },
   {
@@ -38410,6 +38414,33 @@
    ],
    "first_seen": "2026-09-23",
    "captured": "2026-09-23",
+   "excluded": false
+  },
+  {
+   "title": "Steam Deck LCD - SMBUS communication with EC, Charging IC and Battery via FT232h",
+   "pageid": 9855,
+   "revid": 14287,
+   "last_edited": "2026-10-10T07:23:00Z",
+   "size": 1081,
+   "sha1": "1e9874dc3355bec5a68f141f42087409213c09de",
+   "file": "wikitext/Steam_Deck_LCD_-_SMBUS_communication_with_EC%2C_Charging_IC_and_Battery_via_FT232h.wikitext",
+   "kind": "other",
+   "infobox": {},
+   "categories": [
+    "Missing device page",
+    "Repair guide",
+    "Repair guides for Steam Deck LCD",
+    "Stubs"
+   ],
+   "contributors": [
+    "DawidMurawski"
+   ],
+   "anonymous_edits": 0,
+   "images": [
+    "Placeholder_image.jpg"
+   ],
+   "first_seen": "2026-10-10",
+   "captured": "2026-10-10",
    "excluded": false
   }
  ],

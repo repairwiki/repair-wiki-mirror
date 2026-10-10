@@ -38471,6 +38471,7 @@
    "Sony WH-1000XM4 Headphones Not Charging Repair",
    "Sony WH-1000XM4 Headphones Won't Charge Above 10% Repair",
    "Sony WM-F2078 Screeching noise, tinny out of phase audio",
+   "Steam Deck LCD - SMBUS communication with EC, Charging IC and Battery via FT232h",
    "Steam Deck No power after NVME Replacement Repair",
    "Steam Deck Not Charging Repair",
    "Xbox Elite Controller Series 2 RB or LB is only registering clicks when certain parts of the bumper are pressed or when the button is pressed with too much force repair",
@@ -46364,12 +46365,14 @@
   "width": 867,
   "height": 885,
   "source_url": "https://repair.wiki/images/c/c9/Thermal_pad_size_on_Steam_Deck_LCD_Motherboard.png",
-  "url": null,
+  "url": "https://media.wiki.thirdparty.repair/images/c/c9/Thermal_pad_size_on_Steam_Deck_LCD_Motherboard.png",
   "uploader": "DawidMurawski",
   "author": null,
   "uploaded": "2024-10-17T13:35:21Z",
-  "pages": [],
-  "referenced": false
+  "pages": [
+   "Steam Deck"
+  ],
+  "referenced": true
  },
  "Thermal_signature.jpg": {
   "sha1": "76eba5f12c52d6f3c26b5e25d5cfdf0785da0bdd",

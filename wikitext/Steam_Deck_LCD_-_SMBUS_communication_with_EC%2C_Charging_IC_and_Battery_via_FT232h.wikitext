@@ -1,0 +1,51 @@
+<!--
+title:        Steam Deck LCD - SMBUS communication with EC, Charging IC and Battery via FT232h
+pageid:       9855
+revid:        14287
+source:       https://repair.wiki/w/Steam_Deck_LCD_-_SMBUS_communication_with_EC,_Charging_IC_and_Battery_via_FT232h
+history:      https://repair.wiki/index.php?title=Steam_Deck_LCD_-_SMBUS_communication_with_EC,_Charging_IC_and_Battery_via_FT232h&action=history
+permalink:    https://repair.wiki/index.php?oldid=14287
+last_edited:  2026-10-10T07:23:00Z
+contributors: DawidMurawski
+anonymous_edits: 0
+categories:   Missing device page, Repair guide, Repair guides for Steam Deck LCD, Stubs
+sha1:         1e9874dc3355bec5a68f141f42087409213c09de
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-10.
+-->
+
+{{stub}}
+{{Repair Guide
+|Device=Steam Deck LCD
+|Affects parts=Mainboard
+|Needs equipment=FTDI Interface (e.g. FT232h), soldering iron.
+|Type=Debug
+|Difficulty=3. Hard
+}}
+== Description ==
+Guide how to communicate with the embedded controller, charging IC and battery of the Steam Deck LCD via a FTDI interface for debugging (SMBUS). in progress
+
+Inspired by the description on how to communicate with ITE embedded controllers by c0d3z3r0 and utilizing their tool:
+https://github.com/c0d3z3r0/i2ite
+
+[[File:Placeholder image.jpg|thumb|Example image (Figure 1) -- No image yet. Help expand this page by uploading it!]]
+== Symptoms ==
+<!--
+Detail all measurable or observable symptoms in this section. 
+-->
+* Symptom 1 (Figure 1)
+* Symptom 2
+
+== Solution ==
+<!-- 
+If the issue has a single, specific solution, provide it in this section and delete the sub-headers below. Otherwise, if there are multiple potential causes for the problem, outline the process of identifying the root cause and offer corresponding solutions below.
+
+-->
+
+
+
+=== Diagnostic Steps ===
+
+
+=== Repair Steps ===

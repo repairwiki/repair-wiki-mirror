@@ -1,12 +1,12 @@
 ---
 title: "Steam Deck"
 pageid: 856
-revid: 14280
-kind: other
+revid: 14286
+kind: device
 source: "https://repair.wiki/w/Steam_Deck"
 history: "https://repair.wiki/index.php?title=Steam_Deck&action=history"
-permalink: "https://repair.wiki/index.php?oldid=14280"
-last_edited: "2026-10-02T21:51:47Z"
+permalink: "https://repair.wiki/index.php?oldid=14286"
+last_edited: "2026-10-10T07:11:51Z"
 contributors:
   - "ASRepairs"
   - "VCCBoardRepairs"
@@ -19,12 +19,14 @@ anonymous_edits: 0
 categories:
   - "Device"
   - "Game Consoles"
-  - "Stubs"
   - "Valve"
   - "Valve Game Consoles"
 infobox:
+  Manufacturer: "Valve"
+  Device_release_date: "February 25, 2022"
+  Device_type: "Game Console"
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-10-02"
+snapshot: "2026-10-10"
 generated: true
 ---
 
@@ -51,6 +53,8 @@ generated: true
 ![ButtonBoard Rev. B - L back side](images/5/54/REV_B_left_back_mux.jpg)
 
 ## Reference measurements (also schematics if available)
+![Thermal pad size on Steam Deck LCD Motherboard. left (blue): charging ic pad, 5.4mm x 5.4mm x 4.5-5mm (squishy)](images/c/c9/Thermal_pad_size_on_Steam_Deck_LCD_Motherboard.png)
+
 ![Power delivery IC of the rev B controller board](images/a/a3/Power.jpg)
 ![Right trigger circuit of the rev B controller board](images/2/29/Right_trigger.jpg)
 ![Some connections of the RA4E1 MCU of the rev B controller board](images/f/fa/RA4E1.jpg)
@@ -59,29 +63,30 @@ generated: true
 ![R1(Shoulder)/R4/R5/"..." Button circuit of the rev B controller board](images/9/98/Buttons.jpg)
 ![FFC connectors (USB and connection to L board) of the rev B controller board](images/e/e1/FFC_Connectors.jpg)
 ![Schematic for the mode-switch circuit to switch the MCU to programming mode - rev B board (Renesas MCU)](images/8/87/MODE-switch.jpg)
-![SteamDeck OLED USB C Readings from working device](images/d/dd/Steamdeck.jpeg)
-![Fan connector pinout. There could be vias under the 5V pad (red) and the blue pad](images/4/4c/Fan_pinout.jpg)
-![Diode readings on the display output connector of a working steam deck](images/1/1e/SteamDeckOledDisplayFPC.png)
-![Reverse diode readings on the HID/input connector of a working steam deck](images/d/db/SteamDeckOledControllerFPC.png)
-![Reverse diode readings on the battery connector of a working steam deck](images/d/d1/BATT.png)
 
+![SteamDeck OLED USB C Readings from working device](images/d/dd/Steamdeck.jpeg)
+![SD OLED: Diode readings on the display output connector of a working steam deck](images/1/1e/SteamDeckOledDisplayFPC.png)
+![SD OLED: Reverse diode readings on the HID/input connector of a working steam deck](images/d/db/SteamDeckOledControllerFPC.png)
+![SD OLED: Reverse diode readings on the battery connector of a working steam deck](images/d/d1/BATT.png)
+
+![SD LCD: Fan connector pinout. There could be vias under the 5V pad (red) and the blue pad](images/4/4c/Fan_pinout.jpg)
 ![Steam Deck LCD F7A Ram Power Supply Diode and Idle Voltage.png](images/c/cc/Steam_Deck_LCD_F7A_Ram_Power_Supply_Diode_and_Idle_Voltage.png)
 ![Steam Deck LCD F7A Ram Power Supply Removed.png](images/4/40/Steam_Deck_LCD_F7A_Ram_Power_Supply_Removed.png)
 ![Steam Deck LCD F7A Ram Power Supply Lines.png](images/e/ec/Steam_Deck_LCD_F7A_Ram_Power_Supply_Lines.png)
 ![Steam Deck LCD F7A Ram Power Supply Backside Circuit Diode and Voltage Readings.png](images/3/32/Steam_Deck_LCD_F7A_Ram_Power_Supply_Backside_Circuit_Diode_and_Voltage_Readings.png)
 
 ## More Information/External Sources
-iFixit provide a good chip diagram link: https://www.ifixit.com/Guide/Steam+Deck+Chip+ID/147811
+iFixit provides a good chip diagram link: https://www.ifixit.com/Guide/Steam+Deck+Chip+ID/147811
 
-Steam Deck OLED Chip ID (Chips on the controller boards are identical on OLED and LED versions - at least on controller boards with the Renesas MCU): https://www.ifixit.com/Guide/Steam+Deck+OLED+Chip+ID/167632
+Steam Deck OLED Chip ID (Chips on the controller boards are identical on OLED and LCD versions - at least on controller boards with the Renesas MCU): https://www.ifixit.com/Guide/Steam+Deck+OLED+Chip+ID/167632
 
 Steam Deck APU Deep Dive (Die Shots) https://www.youtube.com/watch?v=ERm1StY-4uY
 
 Official Steam Deck CAD File: https://gitlab.steamos.cloud/SteamDeck/hardware
 
-GamerNexus Steam Deck Hardware Analysis Video: https://www.youtube.com/watch?v=NeQH__XVa64
+Gamers Nexus Steam Deck Hardware Analysis Video: https://www.youtube.com/watch?v=NeQH__XVa64
 
-GamerNexus Steam Deck VRM Analysis: https://www.youtube.com/watch?v=dlsJB3narnk
+Gamers Nexus Steam Deck VRM Analysis: https://www.youtube.com/watch?v=dlsJB3narnk
 
 Steam Deck Hardware Info: https://github.com/NKkrisz/Steam-Deck-Hardware
 
@@ -95,7 +100,7 @@ MAX77958 USB-C PD Controller Datasheet: https://www.analog.com/media/en/technica
 
 CS35L41 Audio Amp IC: https://www.cirrus.com/products/cs35l41/
 
-P13USB102 USB 2.0 IC: https://www.diodes.com/assets/Datasheets/PI3USB102.pdf
+PI3USB102 USB 2.0 IC: https://www.diodes.com/assets/Datasheets/PI3USB102.pdf
 
 MAX77961 USB-C Charging IC: https://www.analog.com/en/products/max77961.html
 

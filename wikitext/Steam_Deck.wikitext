@@ -1,21 +1,20 @@
 <!--
 title:        Steam Deck
 pageid:       856
-revid:        14280
+revid:        14286
 source:       https://repair.wiki/w/Steam_Deck
 history:      https://repair.wiki/index.php?title=Steam_Deck&action=history
-permalink:    https://repair.wiki/index.php?oldid=14280
-last_edited:  2026-10-02T21:51:47Z
+permalink:    https://repair.wiki/index.php?oldid=14286
+last_edited:  2026-10-10T07:11:51Z
 contributors: ASRepairs, VCCBoardRepairs, Tiago199988, HaileyKitty, Kenroman, DawidMurawski, Shroudeddemotion
 anonymous_edits: 0
-categories:   Device, Game Consoles, Stubs, Valve, Valve Game Consoles
-sha1:         bcc17760ebb4ddb27a2aa02ab826b393c56d639c
+categories:   Device, Game Consoles, Valve, Valve Game Consoles
+sha1:         7e773b3ee592b343beffe2e4c115ae247aadc551
 licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
 attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
-              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-02.
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-10.
 -->
 
-{{stub}}
 {{Device page
 |Manufacturer=Valve|Device release date=February 25, 2022|Device type=Game Console}}
 
@@ -30,13 +29,20 @@ File:Steam Deck Product Image.jpg|Steam Deck
 ==PCB pictures==
 <gallery showthumbnails="1">
 File:Example pcb pictures.jpg|alt=
-</gallery><gallery caption="Controller Board pictures">
+</gallery>
+<!-- This comment separates galleries for easier reading; less breaking risk -->
+<gallery caption="Controller Board pictures">
 File:R Board REV B back - R1 test point.jpg|ButtonBoard Rev. B - R back side
 File:REV B left back mux.jpg|ButtonBoard Rev. B - L back side
 </gallery>
 
 ==Reference measurements (also schematics if available)==
-<gallery caption="Thermal Pad size<gallery&amp;amp;amp;gt; File:Thermal pad size on Steam Deck LCD Motherboard.png|Thermal pad size on Steam Deck LCD Motherboard. left (blue): charging ic pad, 5.4mm x 5.4mm x 4.5-5mm (squishy) </gallery&amp;amp;amp;gt;Schematics of the rev. B controller board (incomplete)">
+<!-- This comment separates galleries for easier reading; less breaking risk -->
+<gallery caption="Thermal Pad size"> 
+File:Thermal pad size on Steam Deck LCD Motherboard.png|Thermal pad size on Steam Deck LCD Motherboard. left (blue): charging ic pad, 5.4mm x 5.4mm x 4.5-5mm (squishy) 
+</gallery>
+<!-- This comment separates galleries for easier reading; less breaking risk -->
+<gallery caption="Schematics of the rev. B controller board (incomplete)">
 File:Power.jpg|Power delivery IC of the rev B controller board
 File:Right trigger.jpg|Right trigger circuit of the rev B controller board
 File:RA4E1.jpg|Some connections of the RA4E1 MCU of the rev B controller board
@@ -45,12 +51,18 @@ File:Debug connector.jpg|Debug connector (TC-2050) of the rev B controller board
 File:Buttons.jpg|R1(Shoulder)/R4/R5/"..." Button circuit of the rev B controller board
 File:FFC Connectors.jpg|FFC connectors (USB and connection to L board) of the rev B controller board
 File:MODE-switch.jpg|Schematic for the mode-switch circuit to switch the MCU to programming mode - rev B board (Renesas MCU)
+</gallery>
+<!-- This comment separates galleries for easier reading; less breaking risk -->
+<gallery caption="Steam Deck OLED">
 File:Steamdeck.jpeg|SteamDeck OLED USB C Readings from working device
-File:Fan pinout.jpg|Fan connector pinout. There could be vias under the 5V pad (red) and the blue pad
-File:SteamDeckOledDisplayFPC.png|Diode readings on the display output connector of a working steam deck
-File:SteamDeckOledControllerFPC.png|Reverse diode readings on the HID/input connector of a working steam deck
-File:BATT.png|Reverse diode readings on the battery connector of a working steam deck
-</gallery><gallery showthumbnails="1">
+File:SteamDeckOledDisplayFPC.png|SD OLED: Diode readings on the display output connector of a working steam deck
+File:SteamDeckOledControllerFPC.png|SD OLED: Reverse diode readings on the HID/input connector of a working steam deck
+File:BATT.png|SD OLED: Reverse diode readings on the battery connector of a working steam deck
+</gallery>
+
+<!-- This comment separates galleries for easier reading; less breaking risk -->
+<gallery caption="Steam Deck LCD">
+File:Fan pinout.jpg|SD LCD: Fan connector pinout. There could be vias under the 5V pad (red) and the blue pad
 File:Steam Deck LCD F7A Ram Power Supply Diode and Idle Voltage.png
 File:Steam Deck LCD F7A Ram Power Supply Removed.png
 File:Steam Deck LCD F7A Ram Power Supply Lines.png
@@ -58,17 +70,17 @@ File:Steam Deck LCD F7A Ram Power Supply Backside Circuit Diode and Voltage Read
 </gallery>
 
 ==More Information/External Sources==
-iFixit provide a good chip diagram link: https://www.ifixit.com/Guide/Steam+Deck+Chip+ID/147811
+iFixit provides a good chip diagram link: https://www.ifixit.com/Guide/Steam+Deck+Chip+ID/147811
 
-Steam Deck OLED Chip ID (Chips on the controller boards are identical on OLED and LED versions - at least on controller boards with the Renesas MCU): https://www.ifixit.com/Guide/Steam+Deck+OLED+Chip+ID/167632
+Steam Deck OLED Chip ID (Chips on the controller boards are identical on OLED and LCD versions - at least on controller boards with the Renesas MCU): https://www.ifixit.com/Guide/Steam+Deck+OLED+Chip+ID/167632
 
 Steam Deck APU Deep Dive (Die Shots) https://www.youtube.com/watch?v=ERm1StY-4uY
 
 Official Steam Deck CAD File: https://gitlab.steamos.cloud/SteamDeck/hardware
 
-GamerNexus Steam Deck Hardware Analysis Video: https://www.youtube.com/watch?v=NeQH__XVa64
+Gamers Nexus Steam Deck Hardware Analysis Video: https://www.youtube.com/watch?v=NeQH__XVa64
 
-GamerNexus Steam Deck VRM Analysis: https://www.youtube.com/watch?v=dlsJB3narnk
+Gamers Nexus Steam Deck VRM Analysis: https://www.youtube.com/watch?v=dlsJB3narnk
 
 Steam Deck Hardware Info: https://github.com/NKkrisz/Steam-Deck-Hardware
 
@@ -82,7 +94,7 @@ MAX77958 USB-C PD Controller Datasheet: https://www.analog.com/media/en/technica
 
 CS35L41 Audio Amp IC: https://www.cirrus.com/products/cs35l41/
 
-P13USB102 USB 2.0 IC: https://www.diodes.com/assets/Datasheets/PI3USB102.pdf
+PI3USB102 USB 2.0 IC: https://www.diodes.com/assets/Datasheets/PI3USB102.pdf
 
 MAX77961 USB-C Charging IC: https://www.analog.com/en/products/max77961.html
 
