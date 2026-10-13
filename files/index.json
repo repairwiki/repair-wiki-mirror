@@ -25723,14 +25723,12 @@
   "width": 2048,
   "height": 2048,
   "source_url": "https://repair.wiki/images/b/be/IPhone_16e_PCB.jpg",
-  "url": "https://media.wiki.thirdparty.repair/images/b/be/IPhone_16e_PCB.jpg",
+  "url": null,
   "uploader": "Tiago199988",
   "author": null,
   "uploaded": "2025-09-20T22:49:38Z",
-  "pages": [
-   "IPhone 16e"
-  ],
-  "referenced": true
+  "pages": [],
+  "referenced": false
  },
  "IPhone_17.webp": {
   "sha1": "4754635f7ce9ed5ad510c5a0672039631280b016",
@@ -33640,6 +33638,22 @@
   "uploaded": "2026-01-26T19:43:32Z",
   "pages": [
    "ACER V206HQL Display Issues"
+  ],
+  "referenced": true
+ },
+ "Motherboard_component_notes_.png": {
+  "sha1": "f0fd731f53ba907cbd2f1bb81206aa9112bab4a2",
+  "size": 420684,
+  "mime": "image/png",
+  "width": 804,
+  "height": 475,
+  "source_url": "https://repair.wiki/images/1/18/Motherboard_component_notes_.png",
+  "url": "https://media.wiki.thirdparty.repair/images/1/18/Motherboard_component_notes_.png",
+  "uploader": "Shoppingbusiness40",
+  "author": null,
+  "uploaded": "2026-10-13T07:55:12Z",
+  "pages": [
+   "IPhone 16e"
   ],
   "referenced": true
  },

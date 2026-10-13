@@ -1,0 +1,50 @@
+{
+ "added": [],
+ "changed": [
+  {
+   "pageid": 3372,
+   "title": "IPhone 16e",
+   "revid": 14289
+  }
+ ],
+ "renamed": [],
+ "deleted": [],
+ "became_redirect": [],
+ "namespaces": {
+  "templates": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "modules": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "file_pages": {
+   "added": [
+    {
+     "pageid": 9856,
+     "title": "File:Motherboard component notes .png",
+     "revid": 14288
+    }
+   ],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  }
+ },
+ "images_added": 1,
+ "images_changed": 0,
+ "red_links": [
+  "Ylod.png"
+ ],
+ "newly_excluded": [],
+ "no_longer_excluded": [],
+ "missing": []
+}

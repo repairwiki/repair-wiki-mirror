@@ -1,5 +1,5 @@
 {
- "snapshot": "2026-10-10",
+ "snapshot": "2026-10-13",
  "generator": "MediaWiki 1.43.9",
  "licence": "CC BY-SA 3.0",
  "pages": [
@@ -25558,10 +25558,10 @@
   {
    "title": "IPhone 16e",
    "pageid": 3372,
-   "revid": 12687,
-   "last_edited": "2025-11-12T15:35:44Z",
-   "size": 775,
-   "sha1": "01681abaa427726925b4685dd423c436bc115d19",
+   "revid": 14289,
+   "last_edited": "2026-10-13T08:00:56Z",
+   "size": 828,
+   "sha1": "1452ada761f0e21196e19f333a51ce5104b1b5f4",
    "file": "wikitext/IPhone_16e.wikitext",
    "kind": "device",
    "infobox": {
@@ -25578,17 +25578,18 @@
    "contributors": [
     "VCCBoardRepairs",
     "Tiago199988",
-    "IamMyron07"
+    "IamMyron07",
+    "Shoppingbusiness40"
    ],
    "anonymous_edits": 0,
    "images": [
     "Iphone-16e.webp",
     "Ip-16e-fcam.png",
-    "IPhone_16e_PCB.jpg",
+    "Motherboard_component_notes_.png",
     "Example_measurement_pictures.jpg"
    ],
    "first_seen": "2026-09-23",
-   "captured": "2026-09-23",
+   "captured": "2026-10-13",
    "excluded": false
   },
   {
@@ -89535,6 +89536,22 @@
    "anonymous_edits": 0,
    "first_seen": "2026-10-07",
    "captured": "2026-10-07"
+  },
+  {
+   "title": "File:Motherboard component notes .png",
+   "pageid": 9856,
+   "revid": 14288,
+   "last_edited": "2026-10-13T07:55:12Z",
+   "size": 0,
+   "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "file": "files/descriptions/Motherboard_component_notes_.png.wikitext",
+   "categories": [],
+   "contributors": [
+    "Shoppingbusiness40"
+   ],
+   "anonymous_edits": 0,
+   "first_seen": "2026-10-13",
+   "captured": "2026-10-13"
   }
  ]
 }

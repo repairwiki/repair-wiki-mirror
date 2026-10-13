@@ -1,16 +1,17 @@
 ---
 title: "IPhone 16e"
 pageid: 3372
-revid: 12687
+revid: 14289
 kind: device
 source: "https://repair.wiki/w/IPhone_16e"
 history: "https://repair.wiki/index.php?title=IPhone_16e&action=history"
-permalink: "https://repair.wiki/index.php?oldid=12687"
-last_edited: "2025-11-12T15:35:44Z"
+permalink: "https://repair.wiki/index.php?oldid=14289"
+last_edited: "2026-10-13T08:00:56Z"
 contributors:
   - "VCCBoardRepairs"
   - "Tiago199988"
   - "IamMyron07"
+  - "Shoppingbusiness40"
 anonymous_edits: 0
 categories:
   - "Apple"
@@ -22,7 +23,7 @@ infobox:
   Manufacturer: "Apple"
   Device_type: "Phone"
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-09-23"
+snapshot: "2026-10-13"
 generated: true
 ---
 
@@ -42,7 +43,7 @@ generated: true
 ![Ip-16e-fcam.png](images/7/75/Ip-16e-fcam.png)
 
 ## PCB pictures
-![IPhone 16e PCB.jpg](images/b/be/IPhone_16e_PCB.jpg)
+![motherboard with different component names](images/1/18/Motherboard_component_notes_.png)
 
 ## Reference measurements (also schematics if available)
 ![Example measurement pictures.jpg](images/d/dd/Example_measurement_pictures.jpg)
