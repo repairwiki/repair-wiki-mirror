@@ -1,0 +1,62 @@
+{
+ "added": [],
+ "changed": [
+  {
+   "pageid": 1589,
+   "title": "Playstation 3",
+   "revid": 14293
+  }
+ ],
+ "renamed": [
+  {
+   "pageid": 4091,
+   "old_title": "Playstation 3 Slim Error 8002F1F9",
+   "title": "Playstation 3 Error 8002F1F9",
+   "lastrevid": 14296
+  }
+ ],
+ "deleted": [],
+ "became_redirect": [],
+ "namespaces": {
+  "templates": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "modules": {
+   "added": [],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  },
+  "file_pages": {
+   "added": [
+    {
+     "pageid": 9858,
+     "title": "File:Cech30xx regulator fix.png",
+     "revid": 14294
+    },
+    {
+     "pageid": 9859,
+     "title": "File:Cech25xx regulator fix example.png",
+     "revid": 14295
+    }
+   ],
+   "changed": [],
+   "renamed": [],
+   "deleted": [],
+   "became_redirect": []
+  }
+ },
+ "images_added": 2,
+ "images_changed": 0,
+ "red_links": [
+  "Ylod.png"
+ ],
+ "newly_excluded": [],
+ "no_longer_excluded": [],
+ "missing": []
+}

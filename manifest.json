@@ -1,5 +1,5 @@
 {
- "snapshot": "2026-10-13",
+ "snapshot": "2026-10-15",
  "generator": "MediaWiki 1.43.9",
  "licence": "CC BY-SA 3.0",
  "pages": [
@@ -18974,10 +18974,10 @@
   {
    "title": "Playstation 3",
    "pageid": 1589,
-   "revid": 12556,
-   "last_edited": "2025-11-02T21:06:03Z",
-   "size": 10837,
-   "sha1": "81274167da90a211e3c66b8cfd8a913567f60460",
+   "revid": 14293,
+   "last_edited": "2026-10-15T19:06:05Z",
+   "size": 11254,
+   "sha1": "857241d87ec6b689b8126618783de7d3f1112857",
    "file": "wikitext/Playstation_3.wikitext",
    "kind": "other",
    "infobox": {},
@@ -18995,7 +18995,8 @@
     "Tiago199988",
     "JEdwards",
     "Jaxpet1233",
-    "Matthematics"
+    "Matthematics",
+    "Nadaman"
    ],
    "anonymous_edits": 0,
    "images": [
@@ -19005,7 +19006,7 @@
     "Example_measurement_pictures.jpg"
    ],
    "first_seen": "2026-09-23",
-   "captured": "2026-09-23",
+   "captured": "2026-10-15",
    "excluded": false
   },
   {
@@ -28061,16 +28062,16 @@
    "excluded": false
   },
   {
-   "title": "Playstation 3 Slim Error 8002F1F9",
+   "title": "Playstation 3 Error 8002F1F9",
    "pageid": 4091,
-   "revid": 7052,
-   "last_edited": "2025-05-24T21:28:21Z",
-   "size": 3231,
-   "sha1": "911207b1bb99d8dbb8407f5e6b4fc096abbbebd7",
-   "file": "wikitext/Playstation_3_Slim_Error_8002F1F9.wikitext",
+   "revid": 14296,
+   "last_edited": "2026-10-15T21:38:37Z",
+   "size": 3828,
+   "sha1": "235c7bf180626a7cbbe7b98affc396565142e8b8",
+   "file": "wikitext/Playstation_3_Error_8002F1F9.wikitext",
    "kind": "repair_guide",
    "infobox": {
-    "Device": "Playstation 3 Slim",
+    "Device": "Playstation 3 Slim, PlayStation 3 Super Slim",
     "Affects parts": "Motherboard",
     "Needs equipment": "Soldering Iron, Hot Air Station, Microscope",
     "Type": "Soldering",
@@ -28078,20 +28079,23 @@
    },
    "categories": [
     "Repair guide",
+    "Repair guides for PlayStation 3 Super Slim",
     "Repair guides for Playstation 3 Slim",
     "Stubs"
    ],
    "contributors": [
-    "Tiago199988"
+    "Tiago199988",
+    "Nadaman"
    ],
    "anonymous_edits": 0,
    "images": [
     "8002F1F9.jpg",
     "PS3_Slim_Wifi_1.8V.png",
-    "Ams1117-1.8.png"
+    "Cech25xx_regulator_fix_example.png",
+    "Cech30xx_regulator_fix.png"
    ],
    "first_seen": "2026-09-23",
-   "captured": "2026-09-23",
+   "captured": "2026-10-15",
    "excluded": false
   },
   {
@@ -89552,6 +89556,38 @@
    "anonymous_edits": 0,
    "first_seen": "2026-10-13",
    "captured": "2026-10-13"
+  },
+  {
+   "title": "File:Cech30xx regulator fix.png",
+   "pageid": 9858,
+   "revid": 14294,
+   "last_edited": "2026-10-15T20:16:17Z",
+   "size": 63,
+   "sha1": "5c7144ca9b7c19ab1d059a022e90520c8c87f40e",
+   "file": "files/descriptions/Cech30xx_regulator_fix.png.wikitext",
+   "categories": [],
+   "contributors": [
+    "Nadaman"
+   ],
+   "anonymous_edits": 0,
+   "first_seen": "2026-10-15",
+   "captured": "2026-10-15"
+  },
+  {
+   "title": "File:Cech25xx regulator fix example.png",
+   "pageid": 9859,
+   "revid": 14295,
+   "last_edited": "2026-10-15T21:13:03Z",
+   "size": 20,
+   "sha1": "5e9575138735196cd4ca45ea799d5e4f10f2d084",
+   "file": "files/descriptions/Cech25xx_regulator_fix_example.png.wikitext",
+   "categories": [],
+   "contributors": [
+    "Nadaman"
+   ],
+   "anonymous_edits": 0,
+   "first_seen": "2026-10-15",
+   "captured": "2026-10-15"
   }
  ]
 }

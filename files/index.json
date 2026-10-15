@@ -10237,7 +10237,7 @@
   "author": null,
   "uploaded": "2025-05-24T20:16:54Z",
   "pages": [
-   "Playstation 3 Slim Error 8002F1F9"
+   "Playstation 3 Error 8002F1F9"
   ],
   "referenced": true
  },
@@ -12562,14 +12562,12 @@
   "width": 650,
   "height": 836,
   "source_url": "https://repair.wiki/images/a/a2/Ams1117-1.8.png",
-  "url": "https://media.wiki.thirdparty.repair/images/a/a2/Ams1117-1.8.png",
+  "url": null,
   "uploader": "Tiago199988",
   "author": null,
   "uploaded": "2025-05-24T21:12:15Z",
-  "pages": [
-   "Playstation 3 Slim Error 8002F1F9"
-  ],
-  "referenced": true
+  "pages": [],
+  "referenced": false
  },
  "Ams1117.png": {
   "sha1": "565bfcfe44ef9a43bbf2f10ed1d8789567e84425",
@@ -14820,6 +14818,38 @@
   "uploaded": "2024-01-17T22:18:35Z",
   "pages": [],
   "referenced": false
+ },
+ "Cech25xx_regulator_fix_example.png": {
+  "sha1": "4213213bfc1eef2c30e9f825fefb5f3135dd2e30",
+  "size": 2577856,
+  "mime": "image/png",
+  "width": 1215,
+  "height": 1620,
+  "source_url": "https://repair.wiki/images/0/07/Cech25xx_regulator_fix_example.png",
+  "url": "https://media.wiki.thirdparty.repair/images/0/07/Cech25xx_regulator_fix_example.png",
+  "uploader": "Nadaman",
+  "author": null,
+  "uploaded": "2026-10-15T21:13:03Z",
+  "pages": [
+   "Playstation 3 Error 8002F1F9"
+  ],
+  "referenced": true
+ },
+ "Cech30xx_regulator_fix.png": {
+  "sha1": "9876fcc4e9204002c4688a7a207818a91ebedadb",
+  "size": 1236784,
+  "mime": "image/png",
+  "width": 1310,
+  "height": 611,
+  "source_url": "https://repair.wiki/images/0/0d/Cech30xx_regulator_fix.png",
+  "url": "https://media.wiki.thirdparty.repair/images/0/0d/Cech30xx_regulator_fix.png",
+  "uploader": "Nadaman",
+  "author": null,
+  "uploaded": "2026-10-15T20:16:17Z",
+  "pages": [
+   "Playstation 3 Error 8002F1F9"
+  ],
+  "referenced": true
  },
  "Ch341a-jumpers.png": {
   "sha1": "3c1b46bf37038435c25b02e5b0a91602d5b519eb",
@@ -36311,7 +36341,7 @@
   "author": null,
   "uploaded": "2025-05-24T20:35:04Z",
   "pages": [
-   "Playstation 3 Slim Error 8002F1F9"
+   "Playstation 3 Error 8002F1F9"
   ],
   "referenced": true
  },

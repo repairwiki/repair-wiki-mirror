@@ -1,0 +1,18 @@
+<!--
+title:        File:Cech30xx regulator fix.png
+pageid:       9858
+revid:        14294
+source:       https://repair.wiki/w/File:Cech30xx_regulator_fix.png
+history:      https://repair.wiki/index.php?title=File:Cech30xx_regulator_fix.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=14294
+last_edited:  2026-10-15T20:16:17Z
+contributors: Nadaman
+anonymous_edits: 0
+categories:   
+sha1:         5c7144ca9b7c19ab1d059a022e90520c8c87f40e
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-15.
+-->
+
+This diagram has been shared on the PS3 Central Discord server.

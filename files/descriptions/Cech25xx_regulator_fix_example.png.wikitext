@@ -1,0 +1,18 @@
+<!--
+title:        File:Cech25xx regulator fix example.png
+pageid:       9859
+revid:        14295
+source:       https://repair.wiki/w/File:Cech25xx_regulator_fix_example.png
+history:      https://repair.wiki/index.php?title=File:Cech25xx_regulator_fix_example.png&action=history
+permalink:    https://repair.wiki/index.php?oldid=14295
+last_edited:  2026-10-15T21:13:03Z
+contributors: Nadaman
+anonymous_edits: 0
+categories:   
+sha1:         5e9575138735196cd4ca45ea799d5e4f10f2d084
+licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-15.
+-->
+
+From a Discord user.

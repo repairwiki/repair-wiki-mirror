@@ -1,12 +1,12 @@
 ---
 title: "Playstation 3"
 pageid: 1589
-revid: 12556
+revid: 14293
 kind: other
 source: "https://repair.wiki/w/Playstation_3"
 history: "https://repair.wiki/index.php?title=Playstation_3&action=history"
-permalink: "https://repair.wiki/index.php?oldid=12556"
-last_edited: "2025-11-02T21:06:03Z"
+permalink: "https://repair.wiki/index.php?oldid=14293"
+last_edited: "2026-10-15T19:06:05Z"
 contributors:
   - "ASRepairs"
   - "Skelly"
@@ -14,6 +14,7 @@ contributors:
   - "JEdwards"
   - "Jaxpet1233"
   - "Matthematics"
+  - "Nadaman"
 anonymous_edits: 0
 categories:
   - "Device"
@@ -24,7 +25,7 @@ categories:
   - "Stubs"
 infobox:
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-09-23"
+snapshot: "2026-10-15"
 generated: true
 ---
 
@@ -56,67 +57,68 @@ The table below gives a brief overview of every retail PS3 that has ever release
 ### PlayStation 3 Fat Model list [^1]
 | Model # | PS2 Compatibility? | Original HDD Size | CELL | RSX | Notes |
 | --- | --- | --- | --- | --- | --- |
-| `CECH&#8209;Axx` | Yes: EE, GS, & RDRAM hardware included. | 60gb | 90nm | 90nm | Launch NTSC model. Not released in PAL regions |
-| `CECH&#8209;Bxx` | Yes: EE, GS, & RDRAM hardware included. | 20gb | 90nm | 90nm | Launch NTSC model. Not released in PAL regions. |
-| `CECH&#8209;Cxx` | Yes: GS hardware included. EE & RDRAM emulated via software. | 60gb | 90nm | 90nm | Launch PAL model. |
-| `CECH&#8209;Exx` | Yes: GS hardware included. EE & RDRAM emulated via software. | 80gb | 90nm | 90nm | NTSC version of the CECH-Cxx model. The only other difference is HDD size. |
-| `CECH&#8209;Gxx` | No | 40gb | 65nm | 90nm | Last model to use NAND flash memory to store firmware. |
-| `CECH&#8209;Hxx` | No | 40gb | 65nm | 90nm | First model to use NOR flash memory to store firmware. |
-| `CECH&#8209;Jxx` | No | 40gb | 65nm | 65nm | First model to use a 65nm RSX (CXD2982GB or CXD2982BGB), potentially less vulnerable to failure (which causes YLOD).  Note that a new revision of the 65nm RSX (CXD2991GB) was introduced only 2 months later, which could potentially indicate some sort of issue with the first revision was caught early on and a new "hotfix" revision pushed out to fix it. |
-| `CECH&#8209;Kxx` | No | 80gb | 65nm | 65nm |  |
-| `CECH&#8209;Lxx` | No | 80gb | 65nm | 65nm | Notably different motherboard layout, also introduces a new revision of the 65nm RSX (CXD2991GB), potentially further reducing risk of failure.  It is notable that this variant of the RSX was introduced only 2 months after the first 65nm RSX, which could point to this being a "hotfix" revision of sorts, though it could also just be because of the new mobo layout. |
-| `CECH&#8209;Mxx` | No | 80gb | 65nm | 65nm |  |
-| `CECH&#8209;Pxx` | No | 160gb | 65nm | 65nm |  |
-| `CECH&#8209;Qxx` | No | 160gb | 65nm | 65nm | Last model of the fat PS3 lineup. |
+| `CECHAxx` | Yes: EE, GS, & RDRAM hardware included. | 60 GB | 90 nm | 90 nm | Launch NTSC model. Not released in PAL regions |
+| `CECHBxx` | Yes: EE, GS, & RDRAM hardware included. | 20 GB | 90 nm | 90 nm | Launch NTSC model. Not released in PAL regions. |
+| `CECHCxx` | Yes: GS hardware included. EE & RDRAM emulated via software. | 60 GB | 90 nm | 90 nm | Launch PAL model. |
+| `CECHExx` | Yes: GS hardware included. EE & RDRAM emulated via software. | 80 GB | 90 nm | 90 nm | NTSC version of the CECH-Cxx model. The only other difference is HDD size. |
+| `CECHGxx` | No | 40 GB | 65 nm | 90 nm | Last model to use NAND flash memory to store firmware. |
+| `CECHHxx` | No | 40 GB | 65 nm | 90 nm | First model to use NOR flash memory to store firmware. |
+| `CECHJxx` | No | 40 GB | 65 nm | 65 nm | First model to use a 65 nm RSX (CXD2982GB or CXD2982BGB), potentially less vulnerable to failure (which causes YLOD).  Note that a new revision of the 65 nm RSX (CXD2991GB) was introduced only 2 months later, which could potentially indicate some sort of issue with the first revision was caught early on and a new "hotfix" revision pushed out to fix it. |
+| `CECHKxx` | No | 80 GB | 65 nm | 65 nm |  |
+| `CECHLxx` | No | 80 GB | 65 nm | 65 nm | Notably different motherboard layout, also introduces a new revision of the 65 nm RSX (CXD2991GB), potentially further reducing risk of failure.  It is notable that this variant of the RSX was introduced only 2 months after the first 65 nm RSX, which could point to this being a "hotfix" revision of sorts, though it could also just be because of the new mobo layout. |
+| `CECHM03` | No | 80 GB | 65 nm | 90 nm | UK-only rebranding of CECHHxx. |
+| `CECHPxx` | No | 160 GB | 65 nm | 65 nm |  |
+| `CECHQ00` | No | 160 GB | 65 nm | 90 nm | Last model of the fat PS3 lineup. Similar to CECHH/CECHM03. |
 
 #### PlayStation 3 Slim Model list
 | Model # | PS2 Compatibility? | Original HDD Size | Possible Board Revisions | CELL | RSX | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| `CECH-20xxA` | No | 120gb | DYN-001 | 45nm | 65nm |  |
-| `CECH-20xxB` | No | 250gb | DYN-001 | 45nm | 65nm |  |
-| `CECH-21xxA` | No | 120gb | SUR-001 | 45nm | 40nm |  |
-| `CECH-21xxB` | No | 80gb | SUR-001 | 45nm | 40nm |  |
-| `CECH-25xxA` | No | 120gb or 160gb | JTP-001, JSD-001 | 45nm | 40nm |  |
-| `CECH-25xxB` | No | 250gb or 320gb | JTP-001, JSD-001 | 45nm | 40nm |  |
-| `CECH-30xxA` | No | 160gb | KTE-001 | 45nm | 40nm |  |
-| `CECH-30xxB` | No | 320gb | KTE-001 | 45nm | 40nm |  |
+| `CECH-20xxA` | No | 120 GB | DYN-001 | 45 nm | 65 nm |  |
+| `CECH-20xxB` | No | 250 GB | DYN-001 | 45 nm | 65 nm |  |
+| `CECH-21xxA` | No | 120 GB | SUR-001 | 45 nm | 40 nm |  |
+| `CECH-21xxB` | No | 250 GB | SUR-001 | 45 nm | 40 nm |  |
+| `CECH-25xxA` | No | 160 GB | JTP-001, JSD-001 | 45 nm | 40 nm |  |
+| `CECH-25xxB` | No | 320 GB | JTP-001, JSD-001 | 45 nm | 40 nm |  |
+| `CECH-30xxA` | No | 160 GB | KTE-001 | 45 nm | 40 nm |  |
+| `CECH-30xxB` | No | 320 GB | KTE-001 | 45 nm | 40 nm |  |
 
 #### PlayStation 3 Super Slim Model list
 | Model # | PS2 Compatibility? | Original HDD Size | Possible Board Revisions | CELL | RSX | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| `CECH-40xxA` | No | 16gb eMMC | MPX-001, MSX-001, NPX-001 | 45nm | 40nm or 28nm |  |
-| `CECH-40xxB` | No | 250gb or 500gb | MPX-001, MSX-001, NPX-001 | 45nm | 40nm or 28nm |  |
-| `CECH-40xxC` | No | 250gb or 500gb | MPX-001, MSX-001, NPX-001 | 45nm | 40nm or 28nm |  |
-| `CECH-42xxA` | No | 16gb eMMC | MPX-001, MSX-001, NPX-001, PPX-001, PQX-001 | 45nm | 40nm or 28nm |  |
-| `CECH-42xxB` | No | 250gb or 500gb | MPX-001, MSX-001, NPX-001, PPX-001, PQX-001 | 45nm | 40nm or 28nm |  |
-| `CECH-42xxC` | No | 250gb or 500gb | MPX-001, MSX-001, NPX-001, PPX-001, PQX-001 | 45nm | 40nm or 28nm |  |
-| `CECH-43xxA` | No | 16gb eMMC | RTX-001, REX-001 | 45nm | 28nm |  |
-| `CECH-43xxB` | No | 250gb or 500gb | RTX-001, REX-001 | 45nm | 28nm |  |
-| `CECH-43xxC` | No | 250gb or 500gb | RTX-001, REX-001 | 45nm | 28nm |  |
-  - Note:** The NPX-001, PPX-001, PQX-001, RTX-001 and REX-001 motherboard revisions all feature a 28nm die shrunk RSX packaged on a smaller substrate layer, which uses half the number of RAM chips of the previous 40nm design.  In addition, the CELL's substrate layer was reduced in size on the PPX-001, PQX-001, RTX-001 and REX-001 revisions; however, the die size appears to have remained unchanged at 45nm.  See: [https://www.psdevwiki.com/ps3/File:PS3_SuperSlim_Die_Comparison.png PS3 Super Slim Die Comparison]
+| `CECH-40xxA` | No | 16 GB eMMC | MPX-001, MSX-001 | 45 nm | 40 nm |  |
+| `CECH-40xxB` | No | 250 GB | MPX-001, MSX-001 | 45 nm | 40 nm |  |
+| `CECH-40xxC` | No | 500 GB | NPX-001 | 45 nm | 28 nm |  |
+| `CECH-42xxA` | No | 16 GB eMMC | NPX-001, PPX-001, PQX-001 | 45 nm | 28 nm |  |
+| `CECH-42xxB` | No | 250 GB | NPX-001, PPX-001, PQX-001 | 45 nm | 28 nm |  |
+| `CECH-42xxC` | No | 500 GB | NPX-001, PPX-001, PQX-001 | 45 nm | 28 nm |  |
+| `CECH-43xxA` | No | 16 GB eMMC | RTX-001, REX-001 | 45 nm | 28 nm | These models started to use thermal pads for the CELL's power delivery. |
+| `CECH-43xxB` | No | 250 GB | RTX-001, REX-001 | 45 nm | 28 nm |  |
+| `CECH-43xxC` | No | 500 GB | RTX-001, REX-001 | 45 nm | 28 nm |  |
+  - Note:** The NPX-001, PPX-001, PQX-001, RTX-001 and REX-001 motherboard revisions all feature a 28 nm die shrunk RSX packaged on a smaller substrate layer, which uses half the number of RAM chips of the previous 40 nm design.  In addition, the CELL's substrate layer was reduced in size on the PPX-001, PQX-001, RTX-001 and REX-001 revisions; however, the die size appears to have remained unchanged at 45 nm.  See: [https://www.psdevwiki.com/ps3/File:PS3_SuperSlim_Die_Comparison.png PS3 Super Slim Die Comparison]
 #### Region / Suffix list [^2]
 | Region | Suffix | Example |
 | --- | --- | --- |
-| Japan | 00 | `CECH-A00` or `CECH-2000A` |
-| USA / Canada | 01/15 | `CECH-A01` or `CECH-2001A` |
-| Oceania | 02 | `CECH-A02` or `CECH-2002A` |
-| United Kingdom / Ireland | 03 | `CECH-A03` or `CECH-2003A` |
-| Europe / Middle East / Africa | 04/16 | `CECH-A04` or `CECH-2004A` |
-| Korea | 05 | `CECH-A05` or `CECH-2005A` |
-| Southeast Asia | 06 | `CECH-A06` or `CECH-2006A` |
-| Taiwan | 07 | `CECH-A07` or `CECH-2007A` |
-| Russia / Ukraine / India | 08 | `CECH-A08` or `CECH-2008A` |
-| Latin America | 11/14 | `CECH-A11` or `CECH-2011A` |
-| Hong Kong | 12 | `CECH-A12` or `CECH-2012A` |
+| Japan | 00 | `CECHA00` or `CECH-2000A` |
+| USA / Canada | 01/15 | `CECHA01` or `CECH-2001A` |
+| Oceania | 02 | `CECHC02` or `CECH-2002A` |
+| United Kingdom / Ireland | 03 | `CECHC03` or `CECH-2003A` |
+| Europe / Middle East / Africa | 04/16 | `CECHC04` or `CECH-2004A` |
+| Korea | 05 | `CECHE05` or `CECH-2005A` |
+| Southeast Asia | 06 | `CECHA06` or `CECH-2006A` |
+| Taiwan | 07 | `CECHA07` or `CECH-2007A` |
+| Russia / Ukraine / India | 08 | `CECHC08` or `CECH-2008A` |
+| Latin America | 11/14 | `CECHE11` or `CECH-2011A` |
+| Hong Kong | 12 | `CECHA12` or `CECH-2012A` |
 
 ### General Issues
 | Problem | Solution |
 | --- | --- |
-| Applications won't launch, can't update the console |  *Check the Blu-Ray drive and the Bluetooth+Wifi module |
+| Applications won't launch, Blu-ray drive is unresponsive (cannot insert discs or turn on console by pressing power switch in disc drive), or console is an error loop after trying to update (8002F14E) |  *Check the Blu-Ray drive IC, daughterboard, and fuses next to IC. |
+| Console can't detect Wi-Fi networks, controllers don't work wirelessly, or console is in an error loop after trying to update (8002F1F9) |  * See the [Playstation 3 Error 8002F1F9](Playstation_3_Error_8002F1F9.md) for details. |
 | PS3 freezes on boot, laggy XMB, games/apps freeze, longer than usual load times |  *Check/test the health of the HDD, and replace it if bad.  The PS3 uses a standard SATA HDD, and its health can be checked by hooking it up to a computer and using software such as [https://gsmartcontrol.shaduri.dev/ GSmartControl].  (Note that many USB-to-SATA adapters don't properly support checking SMART data, so hooking up the HDD directly to an internal SATA port on the computer is desirable if possible.) |
-| Loud fan or Overheating |  *Replace the thermal paste, and clean the console (especially the fans) of any built-up dirt/debris that could limit airflow. *Delid the CELL/BE and/or RSX, as the factory thermal paste between the actual chips and the IHS can fail/degrade over time. *Put a piece of hard eraser under the CELL/BE and RSX. [https://www.psx-place.com/threads/tutorial-ps3-cell-b-e-thermal-dissipation-without-removing-the-ihs.23066/ More about this mod here] |
+| Loud fan or overheating |  *Replace the thermal paste, and clean the console (especially the fans) of any built-up dirt/debris that could limit airflow. *Delid the CELL/BE and/or RSX, as the factory thermal paste between the actual chips and the IHS can fail/degrade over time. *Put a CELL bracer underneeth the CELL, as a delidding alternative. Examples can be found below. **https://studiohalabi.com/ps3-cpu-brace-90nm **https://studiohalabi.com/ps3-cpu-brace-65nm **https://studiohalabi.com/ps3-cpu-brace-cech-2000-4000-models |
 | RLOD (Red Light of Death) |  *Check if you haven't corrupted the CoreOS files, reflash the flash chips if necessary. |
-| YLOD (Yellow Light of Death)/Visual artifacts (Bad color after a few minutes and/or lines on screen) | This could be caused by a multitude of problems: *Bad RSX, specifically the bumps that connect the GPU to the substrate (most likely to happen on 90nm variants of the RSX, some 65nm variants may also be affected) *Bad solder balls between the RSX and Motherboard *Bad NEC/Tokin capacitors It is highly recommended to get the exact error codes from the syscon before proceeding with any specific repair.  Note that bad solder balls and bad bumps generally give the same types of errors, but failed bumps can only be fixed by replacing the RSX.  If replacing the RSX, it's recommended to consider replacement with a newer 40nm RSX that is not prone to the same issues that the 90nm and some 65nm versions of the RSX are prone to.  This is similar to what Sony did for a small number of officially refurbished consoles.  [https://www.psx-place.com/threads/frankenstein-phat-ps3-cecha-with-40nm-rsx.28069/page-76#post-324546 More information here] |
+| YLOD (Yellow Light of Death)/Visual artifacts (Bad color after a few minutes and/or lines on screen) | This could be caused by a multitude of problems: *Bad RSX, specifically the bumps that connect the GPU to the substrate (most likely to happen on 90 nm variants of the RSX, some 65 nm variants may also be affected) *Bad solder balls between the RSX and Motherboard *Bad NEC/Tokin capacitors It is highly recommended to get the exact error codes from the syscon before proceeding with any specific repair.  Note that bad solder balls and bad bumps generally give the same types of errors, but failed bumps can only be fixed by replacing the RSX.  If replacing the RSX, it's recommended to consider replacement with a newer 40 nm RSX that is not prone to the same issues that the 90 nm and some 65 nm versions of the RSX are prone to.  This is similar to what Sony did for a small number of officially refurbished consoles.  [https://www.psx-place.com/threads/frankenstein-phat-ps3-cecha-with-40nm-rsx.28069/page-76#post-324546 More information here] |
 
 ### Diagnosing the YLOD (Yellow Light of Death)
 All fat PS3s can suffer from the Yellow Light of Death. Unfortunately, a YLOD doesn't really tell much, other than a failure in the hardware initialization phase has occurred. This can mean anything from a dead GPU to a dead capacitor supplying power to the southbridge. To really know for a fact where in the `hardware_init` phase it failed, you'll need to solder a UART connection to the system controller (a.k.a `syscon`). For now, follow the documents included in [https://github.com/db260179/ps3syscon this repository] or [https://www.psx-place.com/threads/research-experimental-nec-tokin-capacitors-replacement-ylod.25260/page-192#post-295119 this guide (Windows)]
