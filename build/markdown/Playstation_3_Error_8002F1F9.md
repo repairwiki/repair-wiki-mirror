@@ -1,12 +1,12 @@
 ---
 title: "Playstation 3 Error 8002F1F9"
 pageid: 4091
-revid: 14296
+revid: 14297
 kind: repair_guide
 source: "https://repair.wiki/w/Playstation_3_Error_8002F1F9"
 history: "https://repair.wiki/index.php?title=Playstation_3_Error_8002F1F9&action=history"
-permalink: "https://repair.wiki/index.php?oldid=14296"
-last_edited: "2026-10-15T21:38:37Z"
+permalink: "https://repair.wiki/index.php?oldid=14297"
+last_edited: "2026-10-20T18:09:31Z"
 contributors:
   - "Tiago199988"
   - "Nadaman"
@@ -23,7 +23,7 @@ infobox:
   Type: "Soldering"
   Difficulty: "3. Hard"
 licence: "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/"
-snapshot: "2026-10-15"
+snapshot: "2026-10-20"
 generated: true
 ---
 
@@ -38,14 +38,14 @@ This error happens when the console is unable to detect the Wi-Fi/Bluetooth Modu
 - You can't use Wi-Fi or Bluetooth.
 
 ## Solution
-This issue is caused by a design flaw where the PS3 is always providing power to the Wi-Fi module even with the console on standby, so that users can turn on the PS3 with the wireless controllers or Blu-ray remote. It causes the switching regulator to overheat, which then causes the 5V rail to be shorted onto the 1.8V rail. This can potentially damage the console's Wi-Fi/Bluetooth board.
+This issue is caused by a design flaw where the PS3 is always providing power to the Wi-Fi module even with the console on standby, so that users can turn on the PS3 with the wireless controllers or Blu-ray remote. It causes the buck regulator for the Wi-Fi/Bluetooth chipset to overheat, which damages the regulator's internal transitstors, causing the 5V rail to be shorted onto the 1.8V rail. This can potentially damage the console's Wi-Fi/Bluetooth board.
 
 The solution is to either replace the chip or do a small modification to the circuit by installing a different IC.
 
 ### Diagnostic Steps
-On the Playstation 3 Slim or Super Slim, this problem is usually caused by a faulty switching regulator (marked with the diagrams below) where it fails to output 1.8V.
+On the Playstation 3 Slim or Super Slim, this problem is usually caused by a faulty voltage switching buck regulator (marked with the diagrams below) where it fails to output 1.8V.
 
-Below are the required voltages for the chip to work; start by measuring the voltage input of the chip. It must have 5V and 3.3V with the console on standby; if these 2 voltages are present, measure the output on the coil; it must be 1.8V.
+Below are the required voltages for the chip to work; start by measuring the voltage input of the chip. It must have 5V and 3.3V with the console on standby. If these 2 voltages are present, measure the output on the coil; it must be 1.8V.
 
 ![CECH-25xx Switching Regulator Voltages](images/c/cb/PS3_Slim_Wifi_1.8V.png)
 
@@ -63,14 +63,15 @@ This solution may seem more complex, but it is better since the AMS1117 is a mor
 Due to the size of the AMS1117-1.8, you wont be able to install it in the position of where the original switching regulator is located.
 
 ##### CECH-25xx
-1. Use your hot air station to remove the original switching regulator.
-1. Solder the AMS1117-1.8 like the image below.
+1. Use your hot air station to remove the original buck regulator.
+1. Solder the AMS1117-1.8 & a 10 uF MLCC like the image below.
+1. After soldering the new AMS1117-1.8, make sure you have 1.8V on its output pins.
 ![667x667px](images/0/07/Cech25xx_regulator_fix_example.png)
 
 ##### CECH-30xx
-1. Use your hot air station to remove the original switching regulator.
-1. Solder the AMS1117-1.8 & a 10 nf MLCC like the image below.
-1. After soldering the new AMS1117-1.8, make sure you have 1.8V on the middle pin.
+1. Use your hot air station to remove the original buck regulator.
+1. Solder the AMS1117-1.8 & a 10 uF MLCC like the image below.
+1. After soldering the new AMS1117-1.8, make sure you have 1.8V on its output pins.
 
 ![1000x1000px](images/0/0d/Cech30xx_regulator_fix.png)
 

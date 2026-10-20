@@ -1,18 +1,18 @@
 <!--
 title:        Playstation 3 Error 8002F1F9
 pageid:       4091
-revid:        14296
+revid:        14297
 source:       https://repair.wiki/w/Playstation_3_Error_8002F1F9
 history:      https://repair.wiki/index.php?title=Playstation_3_Error_8002F1F9&action=history
-permalink:    https://repair.wiki/index.php?oldid=14296
-last_edited:  2026-10-15T21:38:37Z
+permalink:    https://repair.wiki/index.php?oldid=14297
+last_edited:  2026-10-20T18:09:31Z
 contributors: Tiago199988, Nadaman
 anonymous_edits: 0
 categories:   Repair guide, Repair guides for PlayStation 3 Super Slim, Repair guides for Playstation 3 Slim, Stubs
-sha1:         235c7bf180626a7cbbe7b98affc396565142e8b8
+sha1:         c2630f1cc37d01056e14748c4cdb32f816b126d3
 licence:      CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
 attribution:  Content from Repair Wiki (repair.wiki), by the contributors listed above,
-              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-15.
+              licensed CC BY-SA 3.0. Mirrored unchanged; snapshot 2026-10-20.
 -->
 
 {{Repair Guide
@@ -44,15 +44,15 @@ If the issue has a single, specific solution, provide it in this section and del
 
 -->
 
-This issue is caused by a design flaw where the PS3 is always providing power to the Wi-Fi module even with the console on standby, so that users can turn on the PS3 with the wireless controllers or Blu-ray remote. It causes the switching regulator to overheat, which then causes the 5V rail to be shorted onto the 1.8V rail. This can potentially damage the console's Wi-Fi/Bluetooth board.
+This issue is caused by a design flaw where the PS3 is always providing power to the Wi-Fi module even with the console on standby, so that users can turn on the PS3 with the wireless controllers or Blu-ray remote. It causes the buck regulator for the Wi-Fi/Bluetooth chipset to overheat, which damages the regulator's internal transitstors, causing the 5V rail to be shorted onto the 1.8V rail. This can potentially damage the console's Wi-Fi/Bluetooth board.
 
 The solution is to either replace the chip or do a small modification to the circuit by installing a different IC.
 
 === Diagnostic Steps ===
 
-On the Playstation 3 Slim or Super Slim, this problem is usually caused by a faulty switching regulator (marked with the diagrams below) where it fails to output 1.8V.
+On the Playstation 3 Slim or Super Slim, this problem is usually caused by a faulty voltage switching buck regulator (marked with the diagrams below) where it fails to output 1.8V.
 
-Below are the required voltages for the chip to work; start by measuring the voltage input of the chip. It must have 5V and 3.3V with the console on standby; if these 2 voltages are present, measure the output on the coil; it must be 1.8V.
+Below are the required voltages for the chip to work; start by measuring the voltage input of the chip. It must have 5V and 3.3V with the console on standby. If these 2 voltages are present, measure the output on the coil; it must be 1.8V.
 
 [[File:PS3 Slim Wifi 1.8V.png|center|thumb|CECH-25xx Switching Regulator Voltages]]
 
@@ -70,15 +70,16 @@ This solution may seem more complex, but it is better since the AMS1117 is a mor
 Due to the size of the AMS1117-1.8, you wont be able to install it in the position of where the original switching regulator is located. 
 
 ===== CECH-25xx =====
-#Use your hot air station to remove the original switching regulator. 
-# Solder the AMS1117-1.8 like the image below.
+#Use your hot air station to remove the original buck regulator.
+# Solder the AMS1117-1.8 & a 10 uF MLCC like the image below.
+# After soldering the new AMS1117-1.8, make sure you have 1.8V on its output pins.
 [[File:Cech25xx regulator fix example.png|center|667x667px]]
 
 ===== CECH-30xx =====
 
-# Use your hot air station to remove the original switching regulator.
-# Solder the AMS1117-1.8 & a 10 nf MLCC like the image below.
-# After soldering the new AMS1117-1.8, make sure you have 1.8V on the middle pin.
+# Use your hot air station to remove the original buck regulator.
+# Solder the AMS1117-1.8 & a 10 uF MLCC like the image below.
+# After soldering the new AMS1117-1.8, make sure you have 1.8V on its output pins.
 
 [[File:Cech30xx regulator fix.png|center|1000x1000px]]
 

@@ -1,5 +1,5 @@
 {
- "snapshot": "2026-10-15",
+ "snapshot": "2026-10-20",
  "generator": "MediaWiki 1.43.9",
  "licence": "CC BY-SA 3.0",
  "pages": [
@@ -28064,10 +28064,10 @@
   {
    "title": "Playstation 3 Error 8002F1F9",
    "pageid": 4091,
-   "revid": 14296,
-   "last_edited": "2026-10-15T21:38:37Z",
-   "size": 3828,
-   "sha1": "235c7bf180626a7cbbe7b98affc396565142e8b8",
+   "revid": 14297,
+   "last_edited": "2026-10-20T18:09:31Z",
+   "size": 3999,
+   "sha1": "c2630f1cc37d01056e14748c4cdb32f816b126d3",
    "file": "wikitext/Playstation_3_Error_8002F1F9.wikitext",
    "kind": "repair_guide",
    "infobox": {
@@ -28095,7 +28095,7 @@
     "Cech30xx_regulator_fix.png"
    ],
    "first_seen": "2026-09-23",
-   "captured": "2026-10-15",
+   "captured": "2026-10-20",
    "excluded": false
   },
   {
